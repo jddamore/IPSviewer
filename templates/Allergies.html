@@ -1,0 +1,27 @@
+<div class="card">
+    <header class="card-header">
+        <a href="#" data-toggle="collapse" data-target="#Allergies-body" aria-expanded="true" class="">
+            <i class="icon-action fa fa-chevron-down"></i>
+        </a>
+        <span class="title">Allergies and Intolerancies</span>
+    </header>
+    <div class="card-body collapse show" id="Allergies-body">
+        <ul class="list-group">
+        {{each(options.allergies)}}
+            <li class="list-group-item">
+            {{if(@this.criticality === "high")}}
+                <span class="badge badge-danger">
+                    {{@this.type}} - {{@this.category[0]}} - Criticality: High
+                </span>
+            {{#else}}
+                <span class="badge badge-primary">
+                    {{@this.type}} - {{@this.category[0]}} - Criticality: {{@this.criticality}}
+                </span>
+            {{/if}}
+            <br>
+            {{@this.code.coding[0].display}} ({{@this.code.coding[0].code}})<br>
+            </li>
+        {{/each}}
+        </ul>
+    </div>
+</div>

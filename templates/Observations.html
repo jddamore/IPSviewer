@@ -1,0 +1,48 @@
+<div class="card">
+        <header class="card-header">
+            <a href="#" data-toggle="collapse" data-target="#observations-body" aria-expanded="true" class="">
+                <i class="icon-action fa fa-chevron-down"></i>
+            </a>
+            <span class="title">Observations</span>
+        </header>
+        <div class="card-body collapse show" id="observations-body">
+         <table class="table table-bordered table-sm">
+                        <thead>
+                        <tr><th scope="col">Name</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Value</th>
+                            <th scope="col">Category</th>
+                        </tr>
+                        </thead>
+             
+            {{each(options.observations)}}
+            <tr>
+              <td>             
+                {{if(options.observations[@index].code.coding)}}        
+                {{@this.code.coding[0].display}}
+                ({{@this.code.coding[0].code}})
+                {{/if}}
+              </td> 
+              <td> 
+                    {{if(options.observations[@index].effectiveDateTime)}}
+                        {{@this.effectiveDateTime}}
+                    {{/if}}
+                </td>
+                <td>
+                {{if(options.observations[@index].valueCodeableConcept)}}
+                {{@this.valueCodeableConcept.coding[0].display}}
+                {{/if}}
+                {{if(options.observations[@index].valueQuantity)}}
+                {{@this.valueQuantity.value}} 
+                {{@this.valueQuantity.code}} 
+                {{/if}}
+
+            </td>
+            <td>
+                {{@this.category.coding.code}}
+            </td>
+            </tr>
+            {{/each}}
+         </table>    
+        </div>
+    </div>
