@@ -4,7 +4,7 @@ const fs = require('fs');
 const express = require('express');
 
 const index = fs.readFileSync('./ips_view.html', 'utf-8');
-// const favicon = fs.readFileSync('./favicon.ico');
+const favicon = fs.readFileSync('./favicon.ico');
 const app = express();
 
 let privateKey; 
@@ -20,12 +20,11 @@ if  (fs.existsSync('./certs/ipviewer.key')) {
 
 
 app.use('/templates', express.static('templates'));
+app.use('/samples', express.static('samples'));
 
-/*
 app.get(['/favicon.ico'], (req, res) => {
   res.send(favicon);
 });
-*/
 
 app.get(['/', '/index.html'], (req, res) => {
     res.send(index);

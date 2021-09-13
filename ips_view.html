@@ -38,7 +38,7 @@
 
     </style>
 
-    <title>International Patient Summary Viewer</title>
+    <title>IPS Viewer</title>
 </head>
 <body style="margin: 10px;">
 <script type="text/javascript">
@@ -58,11 +58,31 @@
                     console.log( "error",e );
                 });
         };
-
+        $('#clearSample').click(function () {
+            clearData();
+        })
+        $("#loadSample").click(function () {
+            $.getJSON('./samples/sample.json', function() {
+                console.log( "success" );
+            })
+                .done(function(data) {
+                    $('#ipsInput').val(JSON.stringify(data));
+                    update(data);
+                })
+                .fail(function(e) {
+                    console.log( "error",e );
+                });
+            // document.getElementById("ipsInput").value = 'sample';
+            // updateFromText();
+        });
     });
 
     mode = "Entries";
     Sqrl.autoEscaping(false);
+
+    const clearData = function () {
+        document.getElementById("ipsInput").value = "";
+    }
 
     var render = function(templateName, data, targetLocation) {
         if (mode == "Entries") {
@@ -167,20 +187,24 @@
             }
         });
     };
+
+
+
 </script>
-<h1>International Patient Summary Viewer for FHIR IPS</h1>
-<h3>Created by Diego Kaminker and Fernando Campos</h3>
-<h3>Based on https://salud-ar.github.io/IPS-Argentina/demo.html</h3>
+<h1>International Patient Summary (IPS) Viewer for Connectathom</h1>
+<hr>
+<h2>Submit Data</h2>
 <div class="container" style="margin:15px;">
     <div class="row">
-        <form>
+        <form class="col col-md-8">
             <div class="form-group">
                 <label for="ipsInput">Paste your IPS here:</label>
                 <br>
-                <textarea id="ipsInput" rows="5" cols="80"></textarea>
+                <textarea id="ipsInput" rows="5" style="width: 100%; max-width: 100%;"></textarea>
             </div>
+            <button type="button" id="clearSample" class="btn btn-danger">Clear</button>
             <button type="button" id="submit" class="btn btn-primary">View IPS</button>
-
+           
             <span class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" id="mode" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Displaying Entries
@@ -197,7 +221,15 @@
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </form>
+        <div class="col col-md-4">
+            <br />
+            <button type="button" id="loadSample" class= "btn btn-success">Try a sample</button>
+        </div>
     </div>
+</div>
+<hr>
+<h2>View IPS</h2>
+<div class="container" style="margin:15px;">
     <div class="row">
         <div class="row col-md-12" style="margin: 15px;">
             <div class="col-md-6 output" id="Composition">
@@ -226,7 +258,17 @@
             </div>
         </div>
     </div>
-    </div>
 </div>
+
+</div>
+<footer>
+    <lead>Originally created by Diego Kaminker and Fernando Campos. Modified in 2021 by John D'Amore</lead>
+    <br />
+    <lead>Based on <a href="https://salud-ar.github.io/IPS-Argentina/demo.html">prior work</a> from <a href="https://github.com/SALUD-AR/IPS-Argentina">this repository</a></lead>
+    <br />
+    <lead>Licensed according to Apache 2.0. See <a href="https://github.com/jddamore/IPSviewer">current code repository</a> for details</lead>
+    <br />
+    <lead>Hosted by <a href="https://www.moreinformatics.com">More Informatics, Inc.</a></lead>
+</footer>
 </body>
 </html>
