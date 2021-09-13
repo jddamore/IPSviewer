@@ -9,6 +9,7 @@ yarn-error.log*
 node_modules/
 jspm_packages/
 repos/
+certs/
 
 # Optional npm cache directory
 .npm
@@ -27,3 +28,4 @@ repos/
 
 # Ignore Mac DS_Store files
 .DS_Store
+
