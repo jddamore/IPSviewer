@@ -22,6 +22,9 @@
                 {{@this.code.coding[0].display}}
                 ({{@this.code.coding[0].code}})
                 {{/if}}
+                {{if(options.observations[@index].code.text)}}
+                [Uncoded text only]: {{@this.code.text}}
+                {{/if}}
               </td> 
               <td> 
                     {{if(options.observations[@index].effectiveDateTime)}}
@@ -38,9 +41,11 @@
                 {{/if}}
 
             </td>
+            {{if(options.observations[@index].category && options.observations[@index].category[0] && options.observations[@index].category[0].coding && options.observations[@index].category[0].coding[0])}}
             <td>
                 {{@this.category[0].coding[0].code}}
             </td>
+            {{/if}}
             </tr>
             {{/each}}
          </table>    

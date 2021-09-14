@@ -56,8 +56,10 @@
                         <td>{{@this.statement.dosage[0].route.coding[0].display}}</td>
                         <td>{{@this.statement.dosage[0].doseAndRate[0].doseQuantity.value}}</td>
                         <td>{{@this.statement.dosage[0].doseAndRate[0].doseQuantity.unit}}</td>
+                        {{if(options.medications[@index].statement.dosage[0].timing && options.medications[@index].statement.dosage[0].timing.repeat)}}
                         <td>{{@this.statement.dosage[0].timing.repeat.count}}</td>
                         <td>{{@this.statement.dosage[0].timing.repeat.periodUnit}}</td>
+                        {{/if}}
                     </tr>
                 </table>
             </li>
