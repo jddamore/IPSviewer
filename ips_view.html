@@ -136,7 +136,9 @@
                 composition.custodian = getEntry(ips, composition.custodian.reference); 
                 render("Composition", entry.resource, "Composition");
                 var patient = getEntry(ips, composition.subject.reference);
+                console.log('Patient Card');
                 if (patient) {
+                    console.log(patient)
                     render("Patient", patient, "Patient");
                 }
                 composition.section.forEach(function(section) {
