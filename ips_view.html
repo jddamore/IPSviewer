@@ -86,6 +86,13 @@
     }
 
     var render = function(templateName, data, targetLocation) {
+        if (templateName === 'Patient') {
+            if (!data.custodian) data.custodian = {};
+            if (!data.custodian.name) data.custodian.name = '[NOT FOUND]';
+            if (!data.custodian.address || !data.custodian.address[0]) {
+                data.custodian.address = [{city: '', country: ''}];
+            } 
+        }
         if (mode == "Entries") {
             var jqxhr = $.get("templates/" + templateName + ".html", function() {})
                 .done(function(template) {
@@ -95,7 +102,7 @@
                     console.log( "error",e );
                 });
         } else {
-            var content = { titulo: data.title, div: "No hay texto." };
+            var content = { titulo: data.title, div: "No text defined." };
             if (!content.titulo) content.titulo = data.resourceType;
             if (data.text) content.div = data.text.div;
             var jqxhr = $.get("templates/Text.html", function() {})
@@ -121,12 +128,17 @@
     };
 
     var getEntry = function(ips, fullUrl) {
-        var result = {};
+        var result;
         ips.entry.forEach(function(entry) {
-            if (entry.fullUrl == fullUrl) {
+            if (entry.fullUrl.includes(fullUrl)) {
+                console.log(`match ${fullUrl}`);
                 result = entry.resource;
             }
         });
+        if (!result) {
+            console.log(`missing reference ${fullUrl}`);
+            result = {};
+        }
         return result;
     };
 
@@ -135,7 +147,9 @@
         ips.entry.forEach(function(entry) {
             if (entry.resource.resourceType == "Composition") {
                 var composition = entry.resource;
-                composition.custodian = getEntry(ips, composition.custodian.reference)
+                console.log(composition.custodian.reference);
+                console.log(composition.subject.reference);
+                composition.custodian = getEntry(ips, composition.custodian.reference); 
                 render("Composition", entry.resource, "Composition");
                 var patient = getEntry(ips, composition.subject.reference);
                 if (patient) {
@@ -143,26 +157,40 @@
                 }
                 composition.section.forEach(function(section) {
                     if (section.code.coding[0].code == "11450-4") {
+                        console.log('Problems Section');
                         section.problems = [];
                         section.entry.forEach(function(problem) {
+                            console.log(problem.reference)
                             section.problems.push(getEntry(ips, problem.reference));
                         });
                         render("Problems", section, "Problems");
                     }
 
                     if (section.code.coding[0].code == "48765-2") {
+                        console.log('Allergies Section');
                         section.allergies = [];
                         section.entry.forEach(function(allergy) {
-                            section.allergies.push(getEntry(ips, allergy.reference));
+                            console.log(allergy.reference)
+                            let allergy2 = getEntry(ips, allergy.reference);
+                            if (!allergy2.category) allergy2.category = [' '];
+                            if (!allergy2.type) allergy2.type = ' ';
+                            section.allergies.push(allergy2);
                         });
                         render("Allergies", section, "Allergies");
                     }
 
                     if (section.code.coding[0].code == "10160-0") {
+                        console.log('Medications Section');
                         section.medications = [];
-                        section.entry.forEach(function(medication) {
+                        section.entry.forEach(function(medication) { 
+                            console.log(medication.reference);
                             var statement = getEntry(ips, medication.reference);
-                            var medicationReference = getEntry(ips, statement.medicationReference.reference);
+                            console.log(statement)
+                            var medicationReference; 
+                            if (statement.medicationReference && statement.medicationReference.reference) medicationReference = getEntry(ips, statement.medicationReference.reference);
+                            else if (statement.medicationCodeableConcept) medicationReference = { code: statement.medicationCodeableConcept };
+                            else medicationReference = {code: { coding: [ { system: '', display: '', code: '' } ] } }
+                            console.log(medicationReference);
                             section.medications.push({
                                 statement: statement,
                                 medication: medicationReference
@@ -170,16 +198,20 @@
                         });
                         render("Medications", section, "Medications");
                     }
-                    if (section.code.coding[0].code == "60484-3") {
+                    if (section.code.coding[0].code == "11369-6") {
+                        console.log('Immunizations Section');
                         section.immunizations = [];
                         section.entry.forEach(function(immunization) {
+                            console.log(immunization.reference);
                             section.immunizations.push(getEntry(ips, immunization.reference));
                         });
                         render("Immunizations", section, "Immunizations");
                     }
                     if (section.code.coding[0].code == "30954-2") {
+                        console.log('Observations Section');
                         section.observations = [];
                         section.entry.forEach(function(observation) {
+                            console.log(observation.reference);
                             section.observations.push(getEntry(ips, observation.reference));
                         });
                         render("Observations", section, "Observations");
