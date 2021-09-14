@@ -17,7 +17,7 @@
 
         {{/if}}
         <br>
-            {{if(options.medications[@index].medication.ingredient)}}
+            {{if(options.medications[@index].medication.ingredient && options.medications[@index].medication.ingredient.itemCodeableConcept)}}
             {{each(options.medications[@index].medication.ingredient)}}
                     <table class="table table-bordered table-sm">
                         <thead>
@@ -31,7 +31,7 @@
                         </tr>
                         </thead>
                         <tr>
-                            <td>{{@this.code.coding[0].display}}</td>
+                            <td>{{@this.itemCodeableConcept.coding[0].display}}</td>
                             <td>{{@this.strength.numerator.value}}</td>
                             <td>{{@this.strength.numerator.unit}}</td>
                             <td>{{@this.strength.denominator.value}}</td>
@@ -40,7 +40,7 @@
                     </table>
             {{/each}}
             {{/if}}
-            {{if(options.medications[@index].statement.dosage && options.medications[@index].statement.dosage[0].route  && options.medications[@index].statement.dosage[0].doseAndRate)}}
+            {{if(options.medications[@index].statement.dosage && options.medications[@index].statement.dosage[0].route && options.medications[@index].statement.dosage[0].route.coding && options.medications[@index].statement.dosage[0].doseAndRate)}}
                 <table class="table table-bordered table-sm">
                     <thead>
                     <tr><th colspan="5">Posología</th></tr>

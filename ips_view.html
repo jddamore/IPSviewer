@@ -101,11 +101,13 @@
 
     var updateFromText = function() {
         var ipsTxt = $('#ipsInput').val();
+         // console.log(ipsTxt);
         if (ipsTxt) {
             try {
                 var ips = JSON.parse(ipsTxt);
                 update(ips);
             } catch (e) {
+                console.log(e);
                 alert("Invalid IPS - " + e);
             }
         }
@@ -131,11 +133,21 @@
         ips.entry.forEach(function(entry) {
             if (entry.resource.resourceType == "Composition") {
                 var composition = entry.resource;
-                console.log(composition.custodian.reference);
-                console.log(composition.subject.reference);
-                composition.custodian = getEntry(ips, composition.custodian.reference); 
-                render("Composition", entry.resource, "Composition");
-                var patient = getEntry(ips, composition.subject.reference);
+                let patient = {};
+                if (composition.custodian && composition.custodian.reference) {
+                    console.log(composition.custodian.reference);
+                    composition.custodian = getEntry(ips, composition.custodian.reference); 
+                }
+                else {
+                    console.log('no custodian reference');
+                    composition.custodian = {};
+                }
+                if (composition.subject && composition.subject.reference) {
+                    console.log(composition.subject.reference);
+                    patient = getEntry(ips, composition.subject.reference);
+                }
+                else console.log('no subject reference');
+                render("Composition", composition, "Composition");
                 console.log('Patient Card');
                 if (patient) {
                     console.log(patient)
