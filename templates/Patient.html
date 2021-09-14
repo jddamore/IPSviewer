@@ -3,14 +3,14 @@
         <a href="#" data-toggle="collapse" data-target="#composition-body" aria-expanded="true" class="">
             <i class="icon-action fa fa-chevron-down"></i>
         </a>
-        <span class="title">Header </span>
+        <span class="title">Patient </span>
     </header>
     <div class="card-body collapse show" id="composition-body">
-        <h5 class="card-title">{{title}}</h5>
+        <h5 class="card-title"></h5>
         <p class="card-text">
-            Summary Date: {{date}}
+            Birth Date: {{birthDate}}
             <br>
-            Custodian: {{custodian.name}}, {{custodian.address[0].city}}, {{custodian.address[0].country}}
+            Name: {{name.given}}, {{name.family}}
         </p>
     </div>
 </div>
