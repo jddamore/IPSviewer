@@ -1,0 +1,924 @@
+{
+  "resourceType": "Bundle",
+  "id": "eumfh-70-288-post",
+  "identifier": {
+    "system": "http://trilliumbridge.eu/fhir/demos/eumfh/ips_id",
+    "value": "EUR01P0011"
+  },
+  "type": "document",
+  "timestamp": "2021-05-18T12:13:00+02:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:34c90ea0-d10e-4c62-9831-5cb3a81cde8d",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "eumfh-70-288",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "date": "2018-10-10T16:41:04+02:00",
+        "author": [
+          {
+            "reference": "urn:uuid:495b043c-f611-426d-aca5-d67a63534a4d",
+            "display": "Rita Meloni (inject 70-288)"
+          }
+        ],
+        "title": "Patient Summary of Dante Alighieri (LGHDNT71E01D612Q)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "code": "48765-2",
+                  "system": "http://loinc.org",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><ul><li>No known allergies</li></ul></div></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:aeaa0d87-b9e7-481b-9482-a8dd185f6e1d",
+                "display": "No known allergies"
+              }
+            ]
+          },
+          {
+            "title": "Active Problems",
+            "code": {
+              "coding": [
+                {
+                  "code": "11450-4",
+                  "system": "http://loinc.org",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>[2007-04-27] - Attention deficit hyperactivity disorder</li><li>[2012-07-16] - Substance abuse</li><li>[2017-04-26] - Tonsillitis</li><li>[2007-01-26] - Decreased hearing</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1efd8e7a-fc4c-472a-82c3-e9f897999943",
+                "display": "[2007-04-27] - Attention deficit hyperactivity disorder"
+              },
+              {
+                "reference": "urn:uuid:874336dc-7107-45c5-b278-be80f3038608",
+                "display": "[2012-07-16] - Substance abuse"
+              },
+              {
+                "reference": "urn:uuid:ed6e9cc9-3e61-4d24-830d-fe115307030f",
+                "display": "[2017-04-26] - Tonsillitis"
+              },
+              {
+                "reference": "urn:uuid:4f81d386-80d5-4a22-8b32-892f8b736094",
+                "display": "[2007-01-26] - Decreased hearing"
+              }
+            ]
+          },
+          {
+            "title": "Medication",
+            "code": {
+              "coding": [
+                {
+                  "code": "10160-0",
+                  "system": "http://loinc.org",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>[2018] - Methylphenidate 5mg chewable tablet - 2 tablets per day</li><li>[2018] - Diazepam product</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:fa22e718-b047-4505-ae72-6b5a3cabd231",
+                "display": "[2018] - Methylphenidate 5mg chewable tablet - 2 tablets per day"
+              },
+              {
+                "reference": "urn:uuid:439e741c-bbbf-4b5d-bf24-97a2030f76c5",
+                "display": "[2018] - Diazepam product"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "code": "11369-6",
+                  "system": "http://loinc.org",
+                  "display": "History of Immunization Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><ul><li>[1971] - Diphtheria + tetanus + poliomyelitis vaccine</li><li>[2013-07-08] - Hepatitis B virus vaccine</li><li>[2021-02-04] - COMIRNATY Vaccino a mRNA contro COVID-19</li><li>[2021-02-25] - COMIRNATY Vaccino a mRNA contro COVID-19</li></ul></div></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f28d6b82-31bf-4764-9259-12e78aa0374d",
+                "display": "Diphtheria + tetanus + poliomyelitis vaccine"
+              },
+              {
+                "reference": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a493c",
+                "display": "Hepatitis B virus vaccine"
+              },
+              {
+                "reference": "urn:uuid:bdde0bbf-8ce4-4ecd-9aa9-81a184318bc7",
+                "display": "COMIRNATY Vaccino a mRNA contro COVID-19"
+              },
+              {
+                "reference": "urn:uuid:ddb7b98f-58d4-4b5c-96f8-12152565a4a3",
+                "display": "COMIRNATY Vaccino a mRNA contro COVID-19"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aeaa0d87-b9e7-481b-9482-a8dd185f6e1d",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "eumfh-70-288-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "no-known-allergies",
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "display": "No known allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1efd8e7a-fc4c-472a-82c3-e9f897999943",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eumfh-70-288-E-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "406506008",
+              "system": "http://snomed.info/sct",
+              "display": "Attention deficit hyperactivity disorder"
+            }
+          ],
+          "text": "Attention deficit hyperactivity disorder"
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "onsetDateTime": "2007-04-27",
+        "asserter": {
+          "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+          "display": "Dr. Samantha Wang"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:874336dc-7107-45c5-b278-be80f3038608",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eumfh-70-288-E-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "66214007",
+              "system": "http://snomed.info/sct",
+              "display": "Substance abuse"
+            }
+          ],
+          "text": "Substance abuse"
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "onsetDateTime": "2012-07-16",
+        "asserter": {
+          "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+          "display": "Dr. Samantha Wang"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed6e9cc9-3e61-4d24-830d-fe115307030f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eumfh-70-288-E-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "J35.0",
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "display": "Chronic tonsillitis and adenoiditis"
+            }
+          ],
+          "text": "Tonsillitis"
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "onsetDateTime": "2017-04-26",
+        "asserter": {
+          "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+          "display": "Dr. Samantha Wang"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f81d386-80d5-4a22-8b32-892f8b736094",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eumfh-70-288-E-4",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "103276001",
+              "system": "http://snomed.info/sct",
+              "display": "Decreased hearing"
+            }
+          ],
+          "text": "Decreased hearing"
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "onsetDateTime": "2007-01-26",
+        "asserter": {
+          "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+          "display": "Dr. Samantha Wang"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f28d6b82-31bf-4764-9259-12e78aa0374d",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "eumfh-70-288-1",
+        "occurrenceDateTime": "1971",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "414006007",
+              "system": "http://snomed.info/sct",
+              "display": "Diphtheria + tetanus + poliomyelitis vaccine"
+            }
+          ],
+          "text": "Diphtheria + tetanus + poliomyelitis vaccine"
+        },
+        "patient": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a493c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "eumfh-70-288-2",
+        "status": "completed",
+        "occurrenceDateTime": "2013-07-08",
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "34689006",
+              "system": "http://snomed.info/sct",
+              "display": "Hepatitis B virus vaccine"
+            }
+          ],
+          "text": "Hepatitis B virus vaccine"
+        },
+        "patient": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8590b9f-1f67-4df7-8750-858d3d90a5ce",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "eumfh-70-288-E-1",
+        "code": {
+          "coding": [
+            {
+              "code": "429693005",
+              "system": "http://snomed.info/sct",
+              "display": "Methylphenidate 5mg chewable tablet"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1025e148-8a23-44ea-8628-f4d73c23d9ba",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "eumfh-70-288-E-2",
+        "code": {
+          "coding": [
+            {
+              "code": "48546005",
+              "system": "http://snomed.info/sct",
+              "display": "Diazepam-containing product"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fa22e718-b047-4505-ae72-6b5a3cabd231",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "eumfh-70-288-E-1",
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:e8590b9f-1f67-4df7-8750-858d3d90a5ce",
+          "display": "Methylphenidate 5mg chewable tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "effectivePeriod": {
+          "start": "2018"
+        },
+        "dateAsserted": "2018-10-01",
+        "informationSource": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "dosage": [
+          {
+            "timing": {
+              "repeat": {
+                "frequency": 2,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:439e741c-bbbf-4b5d-bf24-97a2030f76c5",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "eumfh-70-288-E-2",
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:1025e148-8a23-44ea-8628-f4d73c23d9ba",
+          "display": "Diazepam product"
+        },
+        "subject": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "effectivePeriod": {
+          "start": "2018"
+        },
+        "dateAsserted": "2018-10-01",
+        "informationSource": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+          "display": "Dante Alighieri (LGHDNT71E01D612Q)"
+        },
+        "dosage": [
+          {
+            "text": "as required",
+            "asNeededBoolean": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "Inline-Instance-for-eumfh-70-288-7",
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "IT",
+                      "system": "urn:iso:std:iso:3166",
+                      "display": "Italy"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+            "valueAddress": {
+              "country": "Italia",
+              "_country": {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding",
+                    "valueCoding": {
+                      "code": "F979",
+                      "system": "http://terminology.hl7.it/CodeSystem/mef-ae-comuni",
+                      "display": "NUORO"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.it/sid/codiceFiscale",
+            "value": "LGHDNT71E01D612Q"
+          },
+          {
+            "system": "http://trilliumbridge.eu/fhir/demos/eumfh/patient_id",
+            "value": "EUR01P0011"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "ALIGHIERI",
+            "given": [
+              "DANTE"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-05-01",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "text": "Viale della Repubblica 12, PANTIGLIATE - 20090 - Italia",
+            "line": [
+              "Viale della Repubblica 12, scala 2"
+            ],
+            "_line": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                    "valueString": "Viale della Repubblica"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType",
+                    "valueString": "VIALE"
+                  },
+                  {
+                    "url": "http://hl7.it/fhir/StructureDefinition/address-dug",
+                    "valueCodeableConcept": {
+                      "coding": [
+                        {
+                          "code": "76",
+                          "system": "http://registry.geodati.gov.it/dug",
+                          "display": "viale"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase",
+                    "valueString": "DELLA REPUBBLICA"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                    "valueString": "12"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                    "valueString": "scala 2"
+                  }
+                ]
+              }
+            ],
+            "city": "PANTIGLIATE",
+            "postalCode": "20090",
+            "country": "Italia"
+          },
+          {
+            "use": "home",
+            "type": "postal",
+            "text": "Via Capitolina 27 - interno 5b - 34131 - TRIESTE",
+            "line": [
+              "Via Capitolina 27 - interno 5b"
+            ],
+            "city": "TRIESTE",
+            "postalCode": "34131",
+            "country": "Italia",
+            "period": {
+              "start": "2009-06-09T00:00:00+02:00"
+            }
+          }
+        ],
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "33312345678"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:495b043c-f611-426d-aca5-d67a63534a4d",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "eumfh-70-288-1",
+        "meta": {
+          "lastUpdated": "2018-10-10T13:52:19+02:00"
+        },
+        "name": [
+          {
+            "family": "Meloni",
+            "given": [
+              "Rita"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bdde0bbf-8ce4-4ecd-9aa9-81a184318bc7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "89d2f32e-3e3d-4367-ac44-191c291e68ec",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "049269018",
+              "system": "https://www.aifa.gov.it/aic",
+              "display": "0,45 ML- CONCENTRATO PER DISPERSIONE INIETTABILE- VIA INTRAMUSCOLARE- FLACONCINO (VETRO) 0,45 ML (6 DOSI)- 195 FLACONCINI MULTIDOSE (1170 DOSI)"
+            },
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "covid-19 vaccines"
+            },
+            {
+              "code": "XM6AT1",
+              "system": "http://id.who.int/icd11/mms",
+              "display": "COVID-19 vaccine, DNA based"
+            },
+            {
+              "code": "0xCF85D49CF8730FEBF44268D12CB115F2",
+              "system": "https://www.who-umc.org/phpid",
+              "display": "Substance : Tozinameran; Administrable Dose Form  : dispersion for injection; Strenght 100 µg/ml"
+            },
+            {
+              "code": "00359267100023",
+              "system": "https://www.gs1.org/gtin"
+            }
+          ],
+          "text": "COMIRNATY Vaccino a mRNA contro COVID-19  (modificato a livello dei nucleosidi)"
+        },
+        "patient": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41"
+        },
+        "occurrenceDateTime": "2021-02-04",
+        "manufacturer": {
+          "display": "Azienda: BIONTECH MANUFACTURING GMBH"
+        },
+        "lotNumber": "abg678",
+        "site": {
+          "text": "deltoide"
+        },
+        "route": {
+          "text": "intramuscolare"
+        },
+        "performer": [
+          {
+            "actor": {
+              "display": "Az. USL Toscana centro"
+            }
+          },
+          {
+            "actor": {
+              "reference": "urn:uuid:0898ff27-9681-41b1-9c09-fcd538b60bfd"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "code": "J12.82",
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "display": "Pneumonia due to coronavirus disease 2019"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "code": "XN109",
+                    "system": "http://id.who.int/icd11/mms",
+                    "display": "SARS-CoV-2"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "code": "840533007",
+                    "system": "http://snomed.info/sct",
+                    "display": "2019 novel coronavirus"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1,
+            "seriesDosesPositiveInt": 2
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ddb7b98f-58d4-4b5c-96f8-12152565a4a3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d50ed820-2452-45fe-bef6-b334d8ca57f2",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "049269018",
+              "system": "https://www.aifa.gov.it/aic",
+              "display": "0,45 ML- CONCENTRATO PER DISPERSIONE INIETTABILE- VIA INTRAMUSCOLARE- FLACONCINO (VETRO) 0,45 ML (6 DOSI)- 195 FLACONCINI MULTIDOSE (1170 DOSI)"
+            },
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "covid-19 vaccines"
+            },
+            {
+              "code": "XM6AT1",
+              "system": "http://id.who.int/icd11/mms",
+              "display": "COVID-19 vaccine, DNA based"
+            },
+            {
+              "code": "0xCF85D49CF8730FEBF44268D12CB115F2",
+              "system": "https://www.who-umc.org/phpid",
+              "display": "Substance : Tozinameran; Administrable Dose Form  : dispersion for injection; Strenght 100 µg/ml"
+            },
+            {
+              "code": "05900009900019",
+              "system": "https://www.gs1.org/gtin"
+            }
+          ],
+          "text": "COMIRNATY Vaccino a mRNA contro COVID-19  (modificato a livello dei nucleosidi)"
+        },
+        "patient": {
+          "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41"
+        },
+        "occurrenceDateTime": "2021-02-25",
+        "lotNumber": "EL0727",
+        "site": {
+          "text": "deltoide"
+        },
+        "route": {
+          "text": "intramuscolare"
+        },
+        "performer": [
+          {
+            "actor": {
+              "display": "Dr.sa Minzoli Alberto"
+            }
+          },
+          {
+            "actor": {
+              "reference": "urn:uuid:0898ff27-9681-41b1-9c09-fcd538b60bfd",
+              "display": "Az. USL Toscana centro"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "code": "J12.82",
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "display": "Pneumonia due to coronavirus disease 2019"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "code": "XN109",
+                    "system": "http://id.who.int/icd11/mms",
+                    "display": "SARS-CoV-2"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "code": "840533007",
+                    "system": "http://snomed.info/sct",
+                    "display": "2019 novel coronavirus"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 2
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0898ff27-9681-41b1-9c09-fcd538b60bfd",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Inline-Instance-Organization",
+        "identifier": [
+          {
+            "system": "http://hl7.it/sid/fls",
+            "value": "090201"
+          },
+          {
+            "system": "http://hl7.it/sid/toscana/asl",
+            "value": "201"
+          },
+          {
+            "system": "http://hl7.it/sid/partitaIva",
+            "value": "06593810481"
+          },
+          {
+            "system": "http://hl7.it/sid/codiceFiscale",
+            "value": "06593810481"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "asl",
+                "system": "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
+                "display": "Azienda Sanitaria Locale"
+              }
+            ]
+          }
+        ],
+        "name": "AZIENDA USL TOSCANA CENTRO",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(055) 6939222"
+          },
+          {
+            "system": "fax",
+            "value": "(055) 6939223"
+          },
+          {
+            "system": "email",
+            "value": "mailto:direttore.generale@uslcentro.toscana.it"
+          },
+          {
+            "system": "url",
+            "value": "http://www.uslcentro.toscana.it"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "PIAZZA SANTA MARIA NUOVA 1"
+            ],
+            "city": "FIRENZE",
+            "_city": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding",
+                  "valueCoding": {
+                    "code": "007003",
+                    "system": "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali",
+                    "display": "AOSTA"
+                  }
+                }
+              ]
+            },
+            "district": "FI",
+            "state": "TOSCANA",
+            "_state": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding",
+                  "valueCoding": {
+                    "code": "090",
+                    "system": "http://terminology.hl7.it/CodeSystem/minsan-regione",
+                    "display": "TOSCANA"
+                  }
+                }
+              ]
+            },
+            "postalCode": "50122",
+            "country": "IT"
+          }
+        ]
+      }
+    }
+  ]
+}
