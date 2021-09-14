@@ -9,7 +9,8 @@
     "email": "johnd@moreinformatics.com"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint . -c .eslintrc.js --ext .js"
+    "lint": "./node_modules/.bin/eslint . -c .eslintrc.js --ext .js",
+    "debug": "nodemon app -e html,js"
   },
   "engines": {
     "node": "^12.0.0"
