@@ -17,7 +17,9 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jddamore/IPSviewer"
