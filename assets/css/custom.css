@@ -13,3 +13,9 @@
 	margin-bottom: 12px;
 	font-weight: 600;
 }
+
+.textBody table {
+	table-layout: fixed;
+	width: 100%;
+
+}
