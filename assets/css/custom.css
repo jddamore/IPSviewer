@@ -1,0 +1,15 @@
+.card {
+	margin-bottom: 15px;
+}
+
+.icon-action {
+	margin-top: 5px;
+	float: right;
+	font-size: 80%;
+}
+
+.list-group-item .title {
+	margin-top: 5px;
+	margin-bottom: 12px;
+	font-weight: 600;
+}

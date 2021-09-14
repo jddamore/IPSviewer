@@ -21,6 +21,7 @@ if  (fs.existsSync('./certs/ipviewer.key')) {
 
 app.use('/templates', express.static('templates'));
 app.use('/samples', express.static('samples'));
+app.use('/assets', express.static('assets'));
 
 app.get(['/favicon.ico'], (req, res) => {
   res.send(favicon);
