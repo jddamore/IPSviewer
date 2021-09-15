@@ -1,0 +1,591 @@
+{
+  "resourceType": "Bundle",
+  "id": "gravitate-maria",
+  "identifier": {
+    "system": "https://www.gravitatehealth.eu/sid/doc",
+    "value": "maria-ips-1"
+  },
+  "type": "document",
+  "timestamp": "2021-09-03T08:38:00+02:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73572",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-maria",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Maria Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "code": "48765-2",
+                  "system": "http://loinc.org",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf07",
+                "display": "Hay fever (pollen)"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "code": "11450-4",
+                  "system": "http://loinc.org",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec58",
+                "display": "Psoriasis"
+              },
+              {
+                "reference": "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5130",
+                "display": "Hypertension"
+              },
+              {
+                "reference": "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
+                "display": "Congestive heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "code": "10160-0",
+                  "system": "http://loinc.org",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05su</td><td>0.05 mg / 1 ml</td><td>Spray (unspecified)</td><td>Nasal use</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a899",
+                "display": "Dimethyl fumarate 30 mg Tablet"
+              },
+              {
+                "reference": "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78fd",
+                "display": "Irbesartan 75 mg Tablet"
+              },
+              {
+                "reference": "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87ba",
+                "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "Inline-Instance-for-gravitate-maria-2",
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "NO",
+                      "system": "urn:iso:std:iso:3166",
+                      "display": "Norway"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "maria-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-05-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "Inline-Instance-for-gravitate-maria-3",
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf07",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "gravitate-maria-allergy-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "256259004",
+              "system": "http://snomed.info/sct",
+              "display": "Pollen"
+            }
+          ]
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "21719001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Allergic rhinitis caused by pollen"
+                  }
+                ],
+                "text": "Hay fever"
+              }
+            ]
+          }
+        ],
+        "patient": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec58",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "gravitate-maria-condition-1",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "9014002",
+              "system": "http://snomed.info/sct",
+              "display": "Psoriasis"
+            }
+          ],
+          "text": "Psoriasis"
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+          "display": "Dr. Anna Karlsson"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "gravitate-maria-condition-2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "42343007",
+              "system": "http://snomed.info/sct",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+          "display": "Dr. Anna Karlsson"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5130",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "gravitate-maria-condition-3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "38341003",
+              "system": "http://snomed.info/sct",
+              "display": "HT - Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "1993"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a899",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "gravitate-maria-medicationStatement-1",
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe36b",
+          "display": "Dimethyl fumarate 30 mg Tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78fd",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "gravitate-maria-medicationStatement-2",
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c4",
+          "display": "Irbesartan 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "code": "20053000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87ba",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "gravitate-maria-medicationStatement-3",
+        "status": "active",
+        "medicationReference": {
+          "reference": "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef19",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "code": "20049000",
+                  "system": "http://standardterms.edqm.eu",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe36b",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "gravitate-maria-medication-1",
+        "code": {
+          "coding": [
+            {
+              "code": "EU/1/17/1201/001",
+              "system": "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers",
+              "display": "Skilarence"
+            },
+            {
+              "code": "L04AX07",
+              "system": "http://www.whocc.no/atc",
+              "display": "dimethyl fumarate"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "code": "10219000",
+              "system": "http://standardterms.edqm.eu",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FO2303MNI2",
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "display": "dimethyl fumarate"
+                }
+              ],
+              "text": "dimethyl fumarate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c4",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "gravitate-maria-medication-2",
+        "code": {
+          "coding": [
+            {
+              "code": "EMEA/H/C/000142",
+              "system": "http://spor.ema.europa.eu/v2/marketing-authorisation-numbers",
+              "display": "Karvea"
+            },
+            {
+              "code": "C09DA04",
+              "system": "http://www.whocc.no/atc",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "code": "10219000",
+              "system": "http://standardterms.edqm.eu",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "code": "J0E2756Z7N",
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef19",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "gravitate-maria-medication-3",
+        "code": {
+          "coding": [
+            {
+              "code": "16028/0049",
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "display": "Boots Decongestant 0.05% w/v Nasal spray"
+            },
+            {
+              "code": "R01AA05",
+              "system": "http://www.whocc.no/atc",
+              "display": "oxymetazoline"
+            }
+          ]
+        },
+        "form": {
+          "text": "Spray (unspecified)"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "code": "K89MJ0S5VY",
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
