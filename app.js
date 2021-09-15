@@ -14,7 +14,7 @@ let credentials;
 if  (fs.existsSync('./certs/ipviewer.key')) {
   privateKey  = fs.readFileSync('./certs/ipsviewer.key', 'utf-8');
   certificate = fs.readFileSync('./certs/ipsviewer.crt', 'utf-8');
-  ca = fs.readFileSync('./certs/ipsviewer.com.ca-bundle', 'utf-8')
+  ca = fs.readFileSync('./certs/ipsviewer.ca-bundle', 'utf-8')
   credentials = {key: privateKey, cert: certificate, ca: ca};
 }
 
