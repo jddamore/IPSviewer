@@ -10,7 +10,12 @@
         {{each(options.problems)}}
             <li class="list-group-item">
                 <span class="badge badge-primary">{{@this.onsetDateTime}}</span>
+                {{if(options.problems[@index].code && options.problems[@index].code.coding && options.problems[@index].code.coding[0])}}
                 {{@this.code.coding[0].display}} ({{@this.code.coding[0].code}})
+                {{/if}}
+                {{if(options.problems[@index].code && options.problems[@index].code.text)}}
+                [Uncoded text shown]: {{@this.code.text}}
+                {{/if}}
             </li>
         {{/each}}
         </ul>
