@@ -1,19 +1,19 @@
 {
   "resourceType": "Bundle",
-  "id": "f8047882-baa9-4b40-abc0-6480adc56b7e",
+  "id": "97f16868-c6db-4eee-8d56-ba4724a9b77f",
   "language": "en-US",
   "identifier": {
     "system": "urn:oid:2.16.724.4.8.10.200.10",
-    "value": "e7e6d3c4-e934-43a6-abb1-89cd8e3000ff"
+    "value": "24c27b86-febf-47c5-8e8e-622deef7da49"
   },
   "type": "document",
-  "timestamp": "2021-10-02T17:59:47.938Z",
+  "timestamp": "2021-10-01T14:19:33.233Z",
   "entry": [
     {
-      "fullUrl": "urn:uuid:9da48ab7-446b-4b7b-a419-4e6c51165d3f",
+      "fullUrl": "urn:uuid:b88a0806-305a-4c56-9246-89ae95b13036",
       "resource": {
         "resourceType": "Composition",
-        "id": "9da48ab7-446b-4b7b-a419-4e6c51165d3f",
+        "id": "b88a0806-305a-4c56-9246-89ae95b13036",
         "language": "en-US",
         "text": {
           "status": "generated",
@@ -32,7 +32,7 @@
         "subject": {
           "reference": "Patient/5568"
         },
-        "date": "2021-10-02T17:59:47.938Z",
+        "date": "2021-10-01T14:19:33.233Z",
         "author": [
           {
             "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
@@ -53,11 +53,11 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
             },
             "entry": [
               {
-                "reference": "AllergyIntolerance/23b9b262-0f8e-4aab-84dc-f137509c7a5c"
+                "reference": "AllergyIntolerance/4a0af6c6-1d07-4032-9af3-a6cbac9100dd"
               }
             ]
           },
@@ -74,26 +74,26 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
             },
             "entry": [
               {
-                "reference": "Condition/e76a79a7-5ba2-4c60-bbf5-0e158b2fbe26"
+                "reference": "Condition/25f14e2d-b088-4b59-8134-c01b3d2b4fcb"
               },
               {
-                "reference": "Condition/18d47881-f9a5-4e3c-9eaf-0a8930ea6b45"
+                "reference": "Condition/3eb2a6ea-590b-4e89-83ef-7d8d4a367ce3"
               },
               {
-                "reference": "Condition/6062405e-3d09-4e3e-bfa7-5cc31399a1fe"
+                "reference": "Condition/6e17ba31-6a0d-4f3d-b1f8-2dbbf7ee9d39"
               },
               {
-                "reference": "Condition/1dea6210-35d2-4877-839a-aa607a230f9e"
+                "reference": "Condition/7fafacb9-502e-4030-ad5e-9500531b5fb1"
               },
               {
-                "reference": "Condition/fc9a598e-6405-455b-b1ea-2020efd7495b"
+                "reference": "Condition/3487ff6a-4a14-4bd0-81eb-12d67f6156a6"
               },
               {
-                "reference": "Condition/75720481-eeb9-4464-8463-d7c415663f3c"
+                "reference": "Condition/f6d053ea-26d7-4859-ad6b-abe3102762dd"
               }
             ]
           },
@@ -114,7 +114,7 @@
             },
             "entry": [
               {
-                "reference": "MedicationStatement/2d3a3013-0923-4c04-803e-2390613a4d44"
+                "reference": "MedicationStatement/b2e3dc9e-a099-4506-bbfb-5f276295df70"
               }
             ]
           },
@@ -131,41 +131,41 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
             },
             "entry": [
               {
-                "reference": "DiagnosticReport/9358076b-6253-4fdc-bb7e-8060cfbee88a"
+                "reference": "DiagnosticReport/95475dcf-4f3e-4f81-888d-6b34c828a8d8"
               },
               {
-                "reference": "Observation/461113ca-fd7f-4dd7-ae08-6caaa27ae96a"
+                "reference": "Observation/68fb1b1c-7c6a-4b5e-aad4-b32b7998dc08"
               },
               {
-                "reference": "DiagnosticReport/04f6dc4e-5cee-4a03-9bd7-7767cd1d0070"
+                "reference": "DiagnosticReport/ba626026-ecfd-4d01-93aa-d35ee703e324"
               },
               {
-                "reference": "Observation/aadecb80-9287-420e-bdb8-fe3036bf047a"
+                "reference": "Observation/7cc98a49-f166-4970-8c76-48b4ab8c8cd5"
               },
               {
-                "reference": "Observation/0450385f-1851-4d3a-8696-bcdeb0214c49"
+                "reference": "Observation/6fe2d536-1c6b-48c0-8d96-7564a48daff0"
               },
               {
-                "reference": "Observation/a0655576-6845-4eaf-8245-25bf08487c47"
+                "reference": "Observation/67ce7f05-dd4c-45fb-9d30-2ed9fb8dfcc5"
               },
               {
-                "reference": "Observation/e8b2de19-9e10-4a3c-a468-37f205d17771"
+                "reference": "Observation/1ac10f63-fe7d-4cff-ac52-7c4901e0d20e"
               },
               {
-                "reference": "Observation/a942a5f7-3cf8-4d06-992e-add73b20558b"
+                "reference": "Observation/aecd8d45-112b-4d42-8012-49bd3ea0cb84"
               },
               {
-                "reference": "Observation/14b5c121-a3ca-479d-b3dd-35a2266b5b71"
+                "reference": "Observation/214ec539-4866-4561-ab50-66711d900a6d"
               },
               {
-                "reference": "Observation/90bdce9c-6879-4b2f-9687-da1dfa0c16d0"
+                "reference": "Observation/9feb3f3f-c073-4101-baba-58834f41ec86"
               },
               {
-                "reference": "Observation/f684cbe8-6c06-4982-bb4a-3dc374601103"
+                "reference": "Observation/6530a1ed-12aa-482d-85ab-d334c1f89617"
               }
             ]
           }
@@ -383,13 +383,13 @@
       }
     },
     {
-      "fullUrl": "AllergyIntolerance/23b9b262-0f8e-4aab-84dc-f137509c7a5c",
+      "fullUrl": "AllergyIntolerance/4a0af6c6-1d07-4032-9af3-a6cbac9100dd",
       "resource": {
         "resourceType": "AllergyIntolerance",
-        "id": "23b9b262-0f8e-4aab-84dc-f137509c7a5c",
+        "id": "4a0af6c6-1d07-4032-9af3-a6cbac9100dd",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
         },
         "clinicalStatus": {
           "coding": [
@@ -414,10 +414,10 @@
       }
     },
     {
-      "fullUrl": "Condition/e76a79a7-5ba2-4c60-bbf5-0e158b2fbe26",
+      "fullUrl": "Condition/25f14e2d-b088-4b59-8134-c01b3d2b4fcb",
       "resource": {
         "resourceType": "Condition",
-        "id": "e76a79a7-5ba2-4c60-bbf5-0e158b2fbe26",
+        "id": "25f14e2d-b088-4b59-8134-c01b3d2b4fcb",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -495,10 +495,10 @@
       }
     },
     {
-      "fullUrl": "Condition/18d47881-f9a5-4e3c-9eaf-0a8930ea6b45",
+      "fullUrl": "Condition/3eb2a6ea-590b-4e89-83ef-7d8d4a367ce3",
       "resource": {
         "resourceType": "Condition",
-        "id": "18d47881-f9a5-4e3c-9eaf-0a8930ea6b45",
+        "id": "3eb2a6ea-590b-4e89-83ef-7d8d4a367ce3",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -576,10 +576,10 @@
       }
     },
     {
-      "fullUrl": "Condition/6062405e-3d09-4e3e-bfa7-5cc31399a1fe",
+      "fullUrl": "Condition/6e17ba31-6a0d-4f3d-b1f8-2dbbf7ee9d39",
       "resource": {
         "resourceType": "Condition",
-        "id": "6062405e-3d09-4e3e-bfa7-5cc31399a1fe",
+        "id": "6e17ba31-6a0d-4f3d-b1f8-2dbbf7ee9d39",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -657,10 +657,10 @@
       }
     },
     {
-      "fullUrl": "Condition/1dea6210-35d2-4877-839a-aa607a230f9e",
+      "fullUrl": "Condition/7fafacb9-502e-4030-ad5e-9500531b5fb1",
       "resource": {
         "resourceType": "Condition",
-        "id": "1dea6210-35d2-4877-839a-aa607a230f9e",
+        "id": "7fafacb9-502e-4030-ad5e-9500531b5fb1",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -738,10 +738,10 @@
       }
     },
     {
-      "fullUrl": "Condition/fc9a598e-6405-455b-b1ea-2020efd7495b",
+      "fullUrl": "Condition/3487ff6a-4a14-4bd0-81eb-12d67f6156a6",
       "resource": {
         "resourceType": "Condition",
-        "id": "fc9a598e-6405-455b-b1ea-2020efd7495b",
+        "id": "3487ff6a-4a14-4bd0-81eb-12d67f6156a6",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -819,10 +819,10 @@
       }
     },
     {
-      "fullUrl": "Condition/75720481-eeb9-4464-8463-d7c415663f3c",
+      "fullUrl": "Condition/f6d053ea-26d7-4859-ad6b-abe3102762dd",
       "resource": {
         "resourceType": "Condition",
-        "id": "75720481-eeb9-4464-8463-d7c415663f3c",
+        "id": "f6d053ea-26d7-4859-ad6b-abe3102762dd",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -900,10 +900,10 @@
       }
     },
     {
-      "fullUrl": "MedicationStatement/2d3a3013-0923-4c04-803e-2390613a4d44",
+      "fullUrl": "MedicationStatement/b2e3dc9e-a099-4506-bbfb-5f276295df70",
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "2d3a3013-0923-4c04-803e-2390613a4d44",
+        "id": "b2e3dc9e-a099-4506-bbfb-5f276295df70",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
@@ -924,10 +924,10 @@
       }
     },
     {
-      "fullUrl": "DiagnosticReport/9358076b-6253-4fdc-bb7e-8060cfbee88a",
+      "fullUrl": "DiagnosticReport/95475dcf-4f3e-4f81-888d-6b34c828a8d8",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "9358076b-6253-4fdc-bb7e-8060cfbee88a",
+        "id": "95475dcf-4f3e-4f81-888d-6b34c828a8d8",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -989,10 +989,10 @@
       }
     },
     {
-      "fullUrl": "Observation/461113ca-fd7f-4dd7-ae08-6caaa27ae96a",
+      "fullUrl": "Observation/68fb1b1c-7c6a-4b5e-aad4-b32b7998dc08",
       "resource": {
         "resourceType": "Observation",
-        "id": "461113ca-fd7f-4dd7-ae08-6caaa27ae96a",
+        "id": "68fb1b1c-7c6a-4b5e-aad4-b32b7998dc08",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1063,10 +1063,10 @@
       }
     },
     {
-      "fullUrl": "DiagnosticReport/04f6dc4e-5cee-4a03-9bd7-7767cd1d0070",
+      "fullUrl": "DiagnosticReport/ba626026-ecfd-4d01-93aa-d35ee703e324",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "04f6dc4e-5cee-4a03-9bd7-7767cd1d0070",
+        "id": "ba626026-ecfd-4d01-93aa-d35ee703e324",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1124,10 +1124,10 @@
       }
     },
     {
-      "fullUrl": "Observation/aadecb80-9287-420e-bdb8-fe3036bf047a",
+      "fullUrl": "Observation/7cc98a49-f166-4970-8c76-48b4ab8c8cd5",
       "resource": {
         "resourceType": "Observation",
-        "id": "aadecb80-9287-420e-bdb8-fe3036bf047a",
+        "id": "7cc98a49-f166-4970-8c76-48b4ab8c8cd5",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1198,10 +1198,10 @@
       }
     },
     {
-      "fullUrl": "Observation/0450385f-1851-4d3a-8696-bcdeb0214c49",
+      "fullUrl": "Observation/6fe2d536-1c6b-48c0-8d96-7564a48daff0",
       "resource": {
         "resourceType": "Observation",
-        "id": "0450385f-1851-4d3a-8696-bcdeb0214c49",
+        "id": "6fe2d536-1c6b-48c0-8d96-7564a48daff0",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1267,10 +1267,10 @@
       }
     },
     {
-      "fullUrl": "Observation/a0655576-6845-4eaf-8245-25bf08487c47",
+      "fullUrl": "Observation/67ce7f05-dd4c-45fb-9d30-2ed9fb8dfcc5",
       "resource": {
         "resourceType": "Observation",
-        "id": "a0655576-6845-4eaf-8245-25bf08487c47",
+        "id": "67ce7f05-dd4c-45fb-9d30-2ed9fb8dfcc5",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1336,10 +1336,10 @@
       }
     },
     {
-      "fullUrl": "Observation/e8b2de19-9e10-4a3c-a468-37f205d17771",
+      "fullUrl": "Observation/1ac10f63-fe7d-4cff-ac52-7c4901e0d20e",
       "resource": {
         "resourceType": "Observation",
-        "id": "e8b2de19-9e10-4a3c-a468-37f205d17771",
+        "id": "1ac10f63-fe7d-4cff-ac52-7c4901e0d20e",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1410,10 +1410,10 @@
       }
     },
     {
-      "fullUrl": "Observation/a942a5f7-3cf8-4d06-992e-add73b20558b",
+      "fullUrl": "Observation/aecd8d45-112b-4d42-8012-49bd3ea0cb84",
       "resource": {
         "resourceType": "Observation",
-        "id": "a942a5f7-3cf8-4d06-992e-add73b20558b",
+        "id": "aecd8d45-112b-4d42-8012-49bd3ea0cb84",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1507,10 +1507,10 @@
       }
     },
     {
-      "fullUrl": "Observation/14b5c121-a3ca-479d-b3dd-35a2266b5b71",
+      "fullUrl": "Observation/214ec539-4866-4561-ab50-66711d900a6d",
       "resource": {
         "resourceType": "Observation",
-        "id": "14b5c121-a3ca-479d-b3dd-35a2266b5b71",
+        "id": "214ec539-4866-4561-ab50-66711d900a6d",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1576,10 +1576,10 @@
       }
     },
     {
-      "fullUrl": "Observation/90bdce9c-6879-4b2f-9687-da1dfa0c16d0",
+      "fullUrl": "Observation/9feb3f3f-c073-4101-baba-58834f41ec86",
       "resource": {
         "resourceType": "Observation",
-        "id": "90bdce9c-6879-4b2f-9687-da1dfa0c16d0",
+        "id": "9feb3f3f-c073-4101-baba-58834f41ec86",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",
@@ -1650,10 +1650,10 @@
       }
     },
     {
-      "fullUrl": "Observation/f684cbe8-6c06-4982-bb4a-3dc374601103",
+      "fullUrl": "Observation/6530a1ed-12aa-482d-85ab-d334c1f89617",
       "resource": {
         "resourceType": "Observation",
-        "id": "f684cbe8-6c06-4982-bb4a-3dc374601103",
+        "id": "6530a1ed-12aa-482d-85ab-d334c1f89617",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:39:58.120-04:00",

@@ -1,19 +1,19 @@
 {
   "resourceType": "Bundle",
-  "id": "47be9f1b-d653-4188-86bb-bdeaca1fb556",
+  "id": "86ac04c8-db1a-4693-a43a-ea1403e54175",
   "language": "en-US",
   "identifier": {
     "system": "urn:oid:2.16.724.4.8.10.200.10",
-    "value": "cb0f21b1-2110-4380-b7d8-a0856190d11d"
+    "value": "a150c59c-4681-40fd-ae77-5207b2f9d47f"
   },
   "type": "document",
-  "timestamp": "2021-10-02T17:59:47.911Z",
+  "timestamp": "2021-10-01T14:19:33.201Z",
   "entry": [
     {
-      "fullUrl": "urn:uuid:cf0130b4-a3b5-47a6-a096-495f5f1d6456",
+      "fullUrl": "urn:uuid:f08dd28e-2e4c-4627-ae32-c060b4a013cc",
       "resource": {
         "resourceType": "Composition",
-        "id": "cf0130b4-a3b5-47a6-a096-495f5f1d6456",
+        "id": "f08dd28e-2e4c-4627-ae32-c060b4a013cc",
         "language": "en-US",
         "text": {
           "status": "generated",
@@ -32,7 +32,7 @@
         "subject": {
           "reference": "Patient/5610"
         },
-        "date": "2021-10-02T17:59:47.911Z",
+        "date": "2021-10-01T14:19:33.201Z",
         "author": [
           {
             "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
@@ -53,11 +53,11 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
             },
             "entry": [
               {
-                "reference": "AllergyIntolerance/66fac910-7c93-4478-a982-66b0eec76b84"
+                "reference": "AllergyIntolerance/87aa29d5-3f9b-46d6-a1f1-1056db78ce17"
               }
             ]
           },
@@ -74,23 +74,23 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
             },
             "entry": [
               {
-                "reference": "Condition/5c8d5086-5f88-42b7-a60e-34ecd37484eb"
+                "reference": "Condition/4883834a-e0f8-4a37-81d4-d4f8532a48e2"
               },
               {
-                "reference": "Condition/1c7175f4-4bbb-4384-97c0-ef95a2592bff"
+                "reference": "Condition/17052020-3b9e-4da4-a5dd-15722a036c8c"
               },
               {
-                "reference": "Condition/a7921759-4823-4bc5-8bc4-fe20e9aa2f20"
+                "reference": "Condition/99e6ad4b-c670-406a-8679-f1dd7dbc931b"
               },
               {
-                "reference": "Condition/f61a36e0-1df5-4225-9d99-c8565c7890e7"
+                "reference": "Condition/ae40b265-3cf8-45d3-b3e0-5943c557a0fa"
               },
               {
-                "reference": "Condition/bd5f9b17-6a95-41d9-85ba-f11811c225b0"
+                "reference": "Condition/6f5b64cb-ecb4-437b-8843-31534651d382"
               }
             ]
           },
@@ -111,7 +111,7 @@
             },
             "entry": [
               {
-                "reference": "MedicationStatement/19770149-ca46-4d7a-8f74-99dafb687816"
+                "reference": "MedicationStatement/f3c8113b-42ca-4327-9133-f8bea1c40623"
               }
             ]
           },
@@ -128,41 +128,41 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
             },
             "entry": [
               {
-                "reference": "Observation/78263262-c27e-420f-8120-2d9fb5109a95"
+                "reference": "Observation/133fbbde-ee49-4948-b36c-4e2fcbc179e5"
               },
               {
-                "reference": "DiagnosticReport/fa2378aa-6aa7-4c97-8b7b-a52561854ed3"
+                "reference": "DiagnosticReport/c1eb847a-9314-4e21-af7a-059c7916fa30"
               },
               {
-                "reference": "Observation/2abcb2c0-9797-401b-998e-069f1dbfbbd4"
+                "reference": "Observation/7df68151-ff48-44f3-a7ec-48d6433f23f3"
               },
               {
-                "reference": "DiagnosticReport/c24873da-6dd2-49a3-9aee-113a393a2585"
+                "reference": "DiagnosticReport/29602f25-776b-455d-80bb-bdf5563a82ab"
               },
               {
-                "reference": "Observation/c04fc029-2b09-4356-898f-5de287a098c0"
+                "reference": "Observation/1d75e9fa-2ea3-42b1-8e1a-3f76920c7863"
               },
               {
-                "reference": "Observation/72d97332-ca24-42b4-bbb6-ced13ce3e700"
+                "reference": "Observation/862c41ce-1867-4c84-84aa-d5778513f525"
               },
               {
-                "reference": "Observation/8f46d1ee-7b1b-4b1a-945d-d6d2943f5483"
+                "reference": "Observation/8b3d7b9b-9d7d-4ab3-be05-5b2358e58f52"
               },
               {
-                "reference": "Observation/9dd31c65-dd2f-4a81-8252-1aff5e33951c"
+                "reference": "Observation/e0659de9-0216-467e-80d7-9939f3d6b05c"
               },
               {
-                "reference": "Observation/c407b354-9a86-4464-8c20-7b40b3f6e385"
+                "reference": "Observation/5d2fbf4e-17f1-4bb0-bee5-e0bb29e4cf9d"
               },
               {
-                "reference": "Observation/301a4b4a-bab6-4cb8-b037-caed46afbb76"
+                "reference": "Observation/5c4610b1-9cb5-4c83-916c-5a7c4411aaa0"
               },
               {
-                "reference": "Observation/84ad3d0b-e390-41bb-872a-47296654e508"
+                "reference": "Observation/9cca2fb0-b8ee-4dae-9873-1694edb2fa3e"
               }
             ]
           }
@@ -380,13 +380,13 @@
       }
     },
     {
-      "fullUrl": "AllergyIntolerance/66fac910-7c93-4478-a982-66b0eec76b84",
+      "fullUrl": "AllergyIntolerance/87aa29d5-3f9b-46d6-a1f1-1056db78ce17",
       "resource": {
         "resourceType": "AllergyIntolerance",
-        "id": "66fac910-7c93-4478-a982-66b0eec76b84",
+        "id": "87aa29d5-3f9b-46d6-a1f1-1056db78ce17",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
         },
         "clinicalStatus": {
           "coding": [
@@ -411,10 +411,10 @@
       }
     },
     {
-      "fullUrl": "Condition/5c8d5086-5f88-42b7-a60e-34ecd37484eb",
+      "fullUrl": "Condition/4883834a-e0f8-4a37-81d4-d4f8532a48e2",
       "resource": {
         "resourceType": "Condition",
-        "id": "5c8d5086-5f88-42b7-a60e-34ecd37484eb",
+        "id": "4883834a-e0f8-4a37-81d4-d4f8532a48e2",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -492,10 +492,10 @@
       }
     },
     {
-      "fullUrl": "Condition/1c7175f4-4bbb-4384-97c0-ef95a2592bff",
+      "fullUrl": "Condition/17052020-3b9e-4da4-a5dd-15722a036c8c",
       "resource": {
         "resourceType": "Condition",
-        "id": "1c7175f4-4bbb-4384-97c0-ef95a2592bff",
+        "id": "17052020-3b9e-4da4-a5dd-15722a036c8c",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -573,10 +573,10 @@
       }
     },
     {
-      "fullUrl": "Condition/a7921759-4823-4bc5-8bc4-fe20e9aa2f20",
+      "fullUrl": "Condition/99e6ad4b-c670-406a-8679-f1dd7dbc931b",
       "resource": {
         "resourceType": "Condition",
-        "id": "a7921759-4823-4bc5-8bc4-fe20e9aa2f20",
+        "id": "99e6ad4b-c670-406a-8679-f1dd7dbc931b",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -654,10 +654,10 @@
       }
     },
     {
-      "fullUrl": "Condition/f61a36e0-1df5-4225-9d99-c8565c7890e7",
+      "fullUrl": "Condition/ae40b265-3cf8-45d3-b3e0-5943c557a0fa",
       "resource": {
         "resourceType": "Condition",
-        "id": "f61a36e0-1df5-4225-9d99-c8565c7890e7",
+        "id": "ae40b265-3cf8-45d3-b3e0-5943c557a0fa",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -735,10 +735,10 @@
       }
     },
     {
-      "fullUrl": "Condition/bd5f9b17-6a95-41d9-85ba-f11811c225b0",
+      "fullUrl": "Condition/6f5b64cb-ecb4-437b-8843-31534651d382",
       "resource": {
         "resourceType": "Condition",
-        "id": "bd5f9b17-6a95-41d9-85ba-f11811c225b0",
+        "id": "6f5b64cb-ecb4-437b-8843-31534651d382",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -816,10 +816,10 @@
       }
     },
     {
-      "fullUrl": "MedicationStatement/19770149-ca46-4d7a-8f74-99dafb687816",
+      "fullUrl": "MedicationStatement/f3c8113b-42ca-4327-9133-f8bea1c40623",
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "19770149-ca46-4d7a-8f74-99dafb687816",
+        "id": "f3c8113b-42ca-4327-9133-f8bea1c40623",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
@@ -840,10 +840,10 @@
       }
     },
     {
-      "fullUrl": "Observation/78263262-c27e-420f-8120-2d9fb5109a95",
+      "fullUrl": "Observation/133fbbde-ee49-4948-b36c-4e2fcbc179e5",
       "resource": {
         "resourceType": "Observation",
-        "id": "78263262-c27e-420f-8120-2d9fb5109a95",
+        "id": "133fbbde-ee49-4948-b36c-4e2fcbc179e5",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -914,10 +914,10 @@
       }
     },
     {
-      "fullUrl": "DiagnosticReport/fa2378aa-6aa7-4c97-8b7b-a52561854ed3",
+      "fullUrl": "DiagnosticReport/c1eb847a-9314-4e21-af7a-059c7916fa30",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "fa2378aa-6aa7-4c97-8b7b-a52561854ed3",
+        "id": "c1eb847a-9314-4e21-af7a-059c7916fa30",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -979,10 +979,10 @@
       }
     },
     {
-      "fullUrl": "Observation/2abcb2c0-9797-401b-998e-069f1dbfbbd4",
+      "fullUrl": "Observation/7df68151-ff48-44f3-a7ec-48d6433f23f3",
       "resource": {
         "resourceType": "Observation",
-        "id": "2abcb2c0-9797-401b-998e-069f1dbfbbd4",
+        "id": "7df68151-ff48-44f3-a7ec-48d6433f23f3",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1053,10 +1053,10 @@
       }
     },
     {
-      "fullUrl": "DiagnosticReport/c24873da-6dd2-49a3-9aee-113a393a2585",
+      "fullUrl": "DiagnosticReport/29602f25-776b-455d-80bb-bdf5563a82ab",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "c24873da-6dd2-49a3-9aee-113a393a2585",
+        "id": "29602f25-776b-455d-80bb-bdf5563a82ab",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1114,10 +1114,10 @@
       }
     },
     {
-      "fullUrl": "Observation/c04fc029-2b09-4356-898f-5de287a098c0",
+      "fullUrl": "Observation/1d75e9fa-2ea3-42b1-8e1a-3f76920c7863",
       "resource": {
         "resourceType": "Observation",
-        "id": "c04fc029-2b09-4356-898f-5de287a098c0",
+        "id": "1d75e9fa-2ea3-42b1-8e1a-3f76920c7863",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1188,10 +1188,10 @@
       }
     },
     {
-      "fullUrl": "Observation/72d97332-ca24-42b4-bbb6-ced13ce3e700",
+      "fullUrl": "Observation/862c41ce-1867-4c84-84aa-d5778513f525",
       "resource": {
         "resourceType": "Observation",
-        "id": "72d97332-ca24-42b4-bbb6-ced13ce3e700",
+        "id": "862c41ce-1867-4c84-84aa-d5778513f525",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1257,10 +1257,10 @@
       }
     },
     {
-      "fullUrl": "Observation/8f46d1ee-7b1b-4b1a-945d-d6d2943f5483",
+      "fullUrl": "Observation/8b3d7b9b-9d7d-4ab3-be05-5b2358e58f52",
       "resource": {
         "resourceType": "Observation",
-        "id": "8f46d1ee-7b1b-4b1a-945d-d6d2943f5483",
+        "id": "8b3d7b9b-9d7d-4ab3-be05-5b2358e58f52",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1326,10 +1326,10 @@
       }
     },
     {
-      "fullUrl": "Observation/9dd31c65-dd2f-4a81-8252-1aff5e33951c",
+      "fullUrl": "Observation/e0659de9-0216-467e-80d7-9939f3d6b05c",
       "resource": {
         "resourceType": "Observation",
-        "id": "9dd31c65-dd2f-4a81-8252-1aff5e33951c",
+        "id": "e0659de9-0216-467e-80d7-9939f3d6b05c",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1400,10 +1400,10 @@
       }
     },
     {
-      "fullUrl": "Observation/c407b354-9a86-4464-8c20-7b40b3f6e385",
+      "fullUrl": "Observation/5d2fbf4e-17f1-4bb0-bee5-e0bb29e4cf9d",
       "resource": {
         "resourceType": "Observation",
-        "id": "c407b354-9a86-4464-8c20-7b40b3f6e385",
+        "id": "5d2fbf4e-17f1-4bb0-bee5-e0bb29e4cf9d",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1497,10 +1497,10 @@
       }
     },
     {
-      "fullUrl": "Observation/301a4b4a-bab6-4cb8-b037-caed46afbb76",
+      "fullUrl": "Observation/5c4610b1-9cb5-4c83-916c-5a7c4411aaa0",
       "resource": {
         "resourceType": "Observation",
-        "id": "301a4b4a-bab6-4cb8-b037-caed46afbb76",
+        "id": "5c4610b1-9cb5-4c83-916c-5a7c4411aaa0",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",
@@ -1566,10 +1566,10 @@
       }
     },
     {
-      "fullUrl": "Observation/84ad3d0b-e390-41bb-872a-47296654e508",
+      "fullUrl": "Observation/9cca2fb0-b8ee-4dae-9873-1694edb2fa3e",
       "resource": {
         "resourceType": "Observation",
-        "id": "84ad3d0b-e390-41bb-872a-47296654e508",
+        "id": "9cca2fb0-b8ee-4dae-9873-1694edb2fa3e",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:40:28.067-04:00",

@@ -1,19 +1,19 @@
 {
   "resourceType": "Bundle",
-  "id": "2648fb63-3e31-468b-92e8-e235ba59d89b",
+  "id": "5630ac63-ba6e-4d5b-836f-0abf456debae",
   "language": "en-US",
   "identifier": {
     "system": "urn:oid:2.16.724.4.8.10.200.10",
-    "value": "0bd82604-8e48-49a3-b032-695a756cde3d"
+    "value": "aa35d864-b85b-42b1-ae99-3eaf2cf2a8c3"
   },
   "type": "document",
-  "timestamp": "2021-10-02T17:59:47.945Z",
+  "timestamp": "2021-10-01T14:19:33.248Z",
   "entry": [
     {
-      "fullUrl": "urn:uuid:f7fb3d5e-bc8c-4777-8003-7d1d4258c492",
+      "fullUrl": "urn:uuid:232ced9b-01d8-4235-b395-1958c3c0f7d4",
       "resource": {
         "resourceType": "Composition",
-        "id": "f7fb3d5e-bc8c-4777-8003-7d1d4258c492",
+        "id": "232ced9b-01d8-4235-b395-1958c3c0f7d4",
         "language": "en-US",
         "text": {
           "status": "generated",
@@ -32,7 +32,7 @@
         "subject": {
           "reference": "Patient/5690"
         },
-        "date": "2021-10-02T17:59:47.945Z",
+        "date": "2021-10-01T14:19:33.248Z",
         "author": [
           {
             "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
@@ -53,11 +53,11 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
             },
             "entry": [
               {
-                "reference": "AllergyIntolerance/a42618f3-1953-4fe3-8dd0-99e9e28d5d18"
+                "reference": "AllergyIntolerance/1c20d20d-d637-4845-81ce-7ea472fc5fd3"
               }
             ]
           },
@@ -74,32 +74,32 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
             },
             "entry": [
               {
-                "reference": "Condition/6916b861-3218-436a-a60b-7f58fc0fda73"
+                "reference": "Condition/bd81f52d-dabc-47d7-b331-b84e51650be5"
               },
               {
-                "reference": "Condition/be8fc828-dc5d-4f06-9fac-5c368fa16c27"
+                "reference": "Condition/200880ad-3711-430c-9a40-3d07e4fca832"
               },
               {
-                "reference": "Condition/bdbbe9bd-e947-4fb1-b774-3263d2e6cfee"
+                "reference": "Condition/96575e36-41cb-4b6e-83ea-77a16b088203"
               },
               {
-                "reference": "Condition/388eb4b5-61c3-47fc-af9c-5c52c49159ed"
+                "reference": "Condition/605ea5a7-5bfb-47eb-b55c-be8dba5bcbcd"
               },
               {
-                "reference": "Condition/019cc546-56e8-439b-8da5-e5f4a9ca71b8"
+                "reference": "Condition/79f2b567-e2d1-46a3-ac21-b81e5da2b8d6"
               },
               {
-                "reference": "Condition/4321ceb7-006a-4c14-96bb-2029095be19f"
+                "reference": "Condition/ceb2c557-6293-4e4e-be68-cfd05c11523c"
               },
               {
-                "reference": "Condition/d7507a65-500e-4154-a11d-e3c8a5b92263"
+                "reference": "Condition/9d0bba75-045b-44cc-9aa0-54e4eed91d2f"
               },
               {
-                "reference": "Condition/40bc21ee-4454-4e3b-9eca-fcd859193ae4"
+                "reference": "Condition/8d4e4a5c-9aac-44c2-8d7e-e838df024a58"
               }
             ]
           },
@@ -120,7 +120,7 @@
             },
             "entry": [
               {
-                "reference": "MedicationStatement/09c83934-f33e-42a3-acbb-d95873abc81b"
+                "reference": "MedicationStatement/e585282b-48a9-4152-8644-e2b37406f869"
               }
             ]
           },
@@ -137,41 +137,41 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
             },
             "entry": [
               {
-                "reference": "Observation/3dec93c1-38a9-4b68-94c0-41646d320e0f"
+                "reference": "Observation/617e5d8c-fc9d-4ddc-8670-7e1f6e2c65f4"
               },
               {
-                "reference": "Observation/a7ee3c00-45fd-4417-b052-7f4d3470b958"
+                "reference": "Observation/fc3ee569-63a1-4c20-b362-5b0b7e7abc34"
               },
               {
-                "reference": "Observation/cb35c081-34a1-4faf-887a-7c4ef2d194e1"
+                "reference": "Observation/8134ec90-79f4-486b-a301-f3633c4aeb84"
               },
               {
-                "reference": "Observation/2fbec397-7524-4f04-8ac3-51b6bdd000d7"
+                "reference": "Observation/37882810-24a6-4920-ad78-4ef11db70e37"
               },
               {
-                "reference": "Observation/96a1d4bd-b233-4430-b98c-481d81c8d3d8"
+                "reference": "Observation/d4308a9c-d0b4-4724-9f9b-977b81f2724a"
               },
               {
-                "reference": "Observation/d0087142-585a-459c-ba15-ed9b5fd7a90c"
+                "reference": "Observation/035229cd-6a04-4c57-9cb1-46b4d4c8937a"
               },
               {
-                "reference": "Observation/8c46da4c-1405-4a76-98e3-277faf2eb002"
+                "reference": "Observation/9fee85c3-bb34-4841-a321-37fbb60c0883"
               },
               {
-                "reference": "Observation/3e536f55-00a9-4022-bd98-922d9171f085"
+                "reference": "Observation/b99545f7-6ab0-452e-9c7e-dd585927fb9a"
               },
               {
-                "reference": "DiagnosticReport/4447df61-440f-4137-bda0-70a0aef07fa2"
+                "reference": "DiagnosticReport/f3f54ee9-c6c5-40ac-ac07-4f65cf5e4e9c"
               },
               {
-                "reference": "Observation/3b7b1543-92d5-47e7-b260-a0e68fa73c0f"
+                "reference": "Observation/112020ad-932a-4c44-ab68-b911b17c03b1"
               },
               {
-                "reference": "DiagnosticReport/472d1e97-fc2f-472f-9040-c85f1a95d4dc"
+                "reference": "DiagnosticReport/baba8b59-cc67-4dda-8728-61704714f046"
               }
             ]
           }
@@ -389,13 +389,13 @@
       }
     },
     {
-      "fullUrl": "AllergyIntolerance/a42618f3-1953-4fe3-8dd0-99e9e28d5d18",
+      "fullUrl": "AllergyIntolerance/1c20d20d-d637-4845-81ce-7ea472fc5fd3",
       "resource": {
         "resourceType": "AllergyIntolerance",
-        "id": "a42618f3-1953-4fe3-8dd0-99e9e28d5d18",
+        "id": "1c20d20d-d637-4845-81ce-7ea472fc5fd3",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
         },
         "clinicalStatus": {
           "coding": [
@@ -420,10 +420,10 @@
       }
     },
     {
-      "fullUrl": "Condition/6916b861-3218-436a-a60b-7f58fc0fda73",
+      "fullUrl": "Condition/bd81f52d-dabc-47d7-b331-b84e51650be5",
       "resource": {
         "resourceType": "Condition",
-        "id": "6916b861-3218-436a-a60b-7f58fc0fda73",
+        "id": "bd81f52d-dabc-47d7-b331-b84e51650be5",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -505,10 +505,10 @@
       }
     },
     {
-      "fullUrl": "Condition/be8fc828-dc5d-4f06-9fac-5c368fa16c27",
+      "fullUrl": "Condition/200880ad-3711-430c-9a40-3d07e4fca832",
       "resource": {
         "resourceType": "Condition",
-        "id": "be8fc828-dc5d-4f06-9fac-5c368fa16c27",
+        "id": "200880ad-3711-430c-9a40-3d07e4fca832",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -590,10 +590,10 @@
       }
     },
     {
-      "fullUrl": "Condition/bdbbe9bd-e947-4fb1-b774-3263d2e6cfee",
+      "fullUrl": "Condition/96575e36-41cb-4b6e-83ea-77a16b088203",
       "resource": {
         "resourceType": "Condition",
-        "id": "bdbbe9bd-e947-4fb1-b774-3263d2e6cfee",
+        "id": "96575e36-41cb-4b6e-83ea-77a16b088203",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -675,10 +675,10 @@
       }
     },
     {
-      "fullUrl": "Condition/388eb4b5-61c3-47fc-af9c-5c52c49159ed",
+      "fullUrl": "Condition/605ea5a7-5bfb-47eb-b55c-be8dba5bcbcd",
       "resource": {
         "resourceType": "Condition",
-        "id": "388eb4b5-61c3-47fc-af9c-5c52c49159ed",
+        "id": "605ea5a7-5bfb-47eb-b55c-be8dba5bcbcd",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -760,10 +760,10 @@
       }
     },
     {
-      "fullUrl": "Condition/019cc546-56e8-439b-8da5-e5f4a9ca71b8",
+      "fullUrl": "Condition/79f2b567-e2d1-46a3-ac21-b81e5da2b8d6",
       "resource": {
         "resourceType": "Condition",
-        "id": "019cc546-56e8-439b-8da5-e5f4a9ca71b8",
+        "id": "79f2b567-e2d1-46a3-ac21-b81e5da2b8d6",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -845,10 +845,10 @@
       }
     },
     {
-      "fullUrl": "Condition/4321ceb7-006a-4c14-96bb-2029095be19f",
+      "fullUrl": "Condition/ceb2c557-6293-4e4e-be68-cfd05c11523c",
       "resource": {
         "resourceType": "Condition",
-        "id": "4321ceb7-006a-4c14-96bb-2029095be19f",
+        "id": "ceb2c557-6293-4e4e-be68-cfd05c11523c",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -930,10 +930,10 @@
       }
     },
     {
-      "fullUrl": "Condition/d7507a65-500e-4154-a11d-e3c8a5b92263",
+      "fullUrl": "Condition/9d0bba75-045b-44cc-9aa0-54e4eed91d2f",
       "resource": {
         "resourceType": "Condition",
-        "id": "d7507a65-500e-4154-a11d-e3c8a5b92263",
+        "id": "9d0bba75-045b-44cc-9aa0-54e4eed91d2f",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1015,10 +1015,10 @@
       }
     },
     {
-      "fullUrl": "Condition/40bc21ee-4454-4e3b-9eca-fcd859193ae4",
+      "fullUrl": "Condition/8d4e4a5c-9aac-44c2-8d7e-e838df024a58",
       "resource": {
         "resourceType": "Condition",
-        "id": "40bc21ee-4454-4e3b-9eca-fcd859193ae4",
+        "id": "8d4e4a5c-9aac-44c2-8d7e-e838df024a58",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1100,10 +1100,10 @@
       }
     },
     {
-      "fullUrl": "MedicationStatement/09c83934-f33e-42a3-acbb-d95873abc81b",
+      "fullUrl": "MedicationStatement/e585282b-48a9-4152-8644-e2b37406f869",
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "09c83934-f33e-42a3-acbb-d95873abc81b",
+        "id": "e585282b-48a9-4152-8644-e2b37406f869",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
@@ -1124,10 +1124,10 @@
       }
     },
     {
-      "fullUrl": "Observation/3dec93c1-38a9-4b68-94c0-41646d320e0f",
+      "fullUrl": "Observation/617e5d8c-fc9d-4ddc-8670-7e1f6e2c65f4",
       "resource": {
         "resourceType": "Observation",
-        "id": "3dec93c1-38a9-4b68-94c0-41646d320e0f",
+        "id": "617e5d8c-fc9d-4ddc-8670-7e1f6e2c65f4",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1202,10 +1202,10 @@
       }
     },
     {
-      "fullUrl": "Observation/a7ee3c00-45fd-4417-b052-7f4d3470b958",
+      "fullUrl": "Observation/fc3ee569-63a1-4c20-b362-5b0b7e7abc34",
       "resource": {
         "resourceType": "Observation",
-        "id": "a7ee3c00-45fd-4417-b052-7f4d3470b958",
+        "id": "fc3ee569-63a1-4c20-b362-5b0b7e7abc34",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1275,10 +1275,10 @@
       }
     },
     {
-      "fullUrl": "Observation/cb35c081-34a1-4faf-887a-7c4ef2d194e1",
+      "fullUrl": "Observation/8134ec90-79f4-486b-a301-f3633c4aeb84",
       "resource": {
         "resourceType": "Observation",
-        "id": "cb35c081-34a1-4faf-887a-7c4ef2d194e1",
+        "id": "8134ec90-79f4-486b-a301-f3633c4aeb84",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1348,10 +1348,10 @@
       }
     },
     {
-      "fullUrl": "Observation/2fbec397-7524-4f04-8ac3-51b6bdd000d7",
+      "fullUrl": "Observation/37882810-24a6-4920-ad78-4ef11db70e37",
       "resource": {
         "resourceType": "Observation",
-        "id": "2fbec397-7524-4f04-8ac3-51b6bdd000d7",
+        "id": "37882810-24a6-4920-ad78-4ef11db70e37",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1426,10 +1426,10 @@
       }
     },
     {
-      "fullUrl": "Observation/96a1d4bd-b233-4430-b98c-481d81c8d3d8",
+      "fullUrl": "Observation/d4308a9c-d0b4-4724-9f9b-977b81f2724a",
       "resource": {
         "resourceType": "Observation",
-        "id": "96a1d4bd-b233-4430-b98c-481d81c8d3d8",
+        "id": "d4308a9c-d0b4-4724-9f9b-977b81f2724a",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1527,10 +1527,10 @@
       }
     },
     {
-      "fullUrl": "Observation/d0087142-585a-459c-ba15-ed9b5fd7a90c",
+      "fullUrl": "Observation/035229cd-6a04-4c57-9cb1-46b4d4c8937a",
       "resource": {
         "resourceType": "Observation",
-        "id": "d0087142-585a-459c-ba15-ed9b5fd7a90c",
+        "id": "035229cd-6a04-4c57-9cb1-46b4d4c8937a",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1600,10 +1600,10 @@
       }
     },
     {
-      "fullUrl": "Observation/8c46da4c-1405-4a76-98e3-277faf2eb002",
+      "fullUrl": "Observation/9fee85c3-bb34-4841-a321-37fbb60c0883",
       "resource": {
         "resourceType": "Observation",
-        "id": "8c46da4c-1405-4a76-98e3-277faf2eb002",
+        "id": "9fee85c3-bb34-4841-a321-37fbb60c0883",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1678,10 +1678,10 @@
       }
     },
     {
-      "fullUrl": "Observation/3e536f55-00a9-4022-bd98-922d9171f085",
+      "fullUrl": "Observation/b99545f7-6ab0-452e-9c7e-dd585927fb9a",
       "resource": {
         "resourceType": "Observation",
-        "id": "3e536f55-00a9-4022-bd98-922d9171f085",
+        "id": "b99545f7-6ab0-452e-9c7e-dd585927fb9a",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1756,10 +1756,10 @@
       }
     },
     {
-      "fullUrl": "DiagnosticReport/4447df61-440f-4137-bda0-70a0aef07fa2",
+      "fullUrl": "DiagnosticReport/f3f54ee9-c6c5-40ac-ac07-4f65cf5e4e9c",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "4447df61-440f-4137-bda0-70a0aef07fa2",
+        "id": "f3f54ee9-c6c5-40ac-ac07-4f65cf5e4e9c",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1825,10 +1825,10 @@
       }
     },
     {
-      "fullUrl": "Observation/3b7b1543-92d5-47e7-b260-a0e68fa73c0f",
+      "fullUrl": "Observation/112020ad-932a-4c44-ab68-b911b17c03b1",
       "resource": {
         "resourceType": "Observation",
-        "id": "3b7b1543-92d5-47e7-b260-a0e68fa73c0f",
+        "id": "112020ad-932a-4c44-ab68-b911b17c03b1",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
@@ -1903,10 +1903,10 @@
       }
     },
     {
-      "fullUrl": "DiagnosticReport/472d1e97-fc2f-472f-9040-c85f1a95d4dc",
+      "fullUrl": "DiagnosticReport/baba8b59-cc67-4dda-8728-61704714f046",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "472d1e97-fc2f-472f-9040-c85f1a95d4dc",
+        "id": "baba8b59-cc67-4dda-8728-61704714f046",
         "meta": {
           "versionId": "1",
           "lastUpdated": "2021-09-28T13:33:19.514-04:00",
