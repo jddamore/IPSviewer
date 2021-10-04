@@ -1,0 +1,2379 @@
+{
+  "resourceType": "Bundle",
+  "id": "0cd2a77f-ecd6-4376-a035-0453840809ec",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "d513acca-48bf-407e-a19c-312fa0796576"
+  },
+  "type": "document",
+  "timestamp": "2021-10-02T17:59:47.889Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:3379a11d-d97b-41dc-a39b-c15d9e2e1c61",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "3379a11d-d97b-41dc-a39b-c15d9e2e1c61",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558"
+        },
+        "date": "2021-10-02T17:59:47.889Z",
+        "author": [
+          {
+            "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/36ee2964-c4aa-4bc7-b996-9710ea6947dc"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/89635b01-983b-43dd-88e1-b9eadc192087"
+              },
+              {
+                "reference": "Condition/68572aea-132c-441a-b30d-9f158496838e"
+              },
+              {
+                "reference": "Condition/2f7bbba0-7a54-4e08-9f05-28943e7c8255"
+              },
+              {
+                "reference": "Condition/d5d22b6d-caaf-4a78-99cf-9973a82b8ccf"
+              },
+              {
+                "reference": "Condition/6e1858c6-7d9c-423b-8e6d-520046b63898"
+              },
+              {
+                "reference": "Condition/dea0f905-860a-48ad-b5fa-b8371ea4db27"
+              },
+              {
+                "reference": "Condition/31c46092-54ba-452f-b28b-daa5e32a28af"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative available on medications</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/f642774c-b003-4fd9-91e9-bba1a5ec3ca9"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/406022a2-ddcf-4581-8cfe-9d431feb4e50"
+              },
+              {
+                "reference": "Observation/88c1c8af-3faa-4a4a-b2f7-b23717cee269"
+              },
+              {
+                "reference": "Observation/dd748ff1-4e73-4d18-a09a-5d04f1f8b569"
+              },
+              {
+                "reference": "Observation/5a037b2c-ef0e-451f-95a8-82a947d34401"
+              },
+              {
+                "reference": "Observation/6102f2e0-a88a-462e-96ad-7df52b72fc59"
+              },
+              {
+                "reference": "Observation/1c4337fe-1955-4fb4-ad03-88b86434a2fb"
+              },
+              {
+                "reference": "Observation/3416aa08-a0e6-467c-b84d-3f0e184c96b9"
+              },
+              {
+                "reference": "Observation/55716993-05cb-45e4-ac95-22d5c7931948"
+              },
+              {
+                "reference": "DiagnosticReport/8eee0ff2-8fad-432d-8588-43fcba73cf08"
+              },
+              {
+                "reference": "Observation/8d65cad4-1b57-48c5-95de-a3774efe579f"
+              },
+              {
+                "reference": "DiagnosticReport/95730161-13ff-4a10-ade7-c06c155023cd"
+              },
+              {
+                "reference": "Observation/a02dc1f5-3cfd-408c-a3ea-afe1b4554c32"
+              },
+              {
+                "reference": "Observation/f84b3687-21ab-461f-ba75-fd3965a244d1"
+              },
+              {
+                "reference": "Observation/b955083b-6ada-461d-960d-de2c461d92f8"
+              },
+              {
+                "reference": "Observation/da56a022-473b-4f18-9cf9-62516a1f5fbc"
+              },
+              {
+                "reference": "Observation/c9497f5a-5886-438e-8336-7fe5c7ee4811"
+              },
+              {
+                "reference": "Observation/3c9d98c3-c04d-42d6-abd7-3ed10f29e1dd"
+              },
+              {
+                "reference": "Observation/e406b7f0-2f88-4343-b40d-aade70d0d9ae"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/5558",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5558",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-09-28T23:58:13.596-04:00",
+          "source": "#leyYPJm9f2GIn9JK"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Race",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Ethnicity",
+                  "code": "2135-2",
+                  "display": "Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                  "code": "1077",
+                  "display": "Protestant"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000000917"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "effc21317e624b8497192c502268522d"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "740438-917"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "38acecb6-4435-4663-b7aa-cfe8c675c46f"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient External Identifier"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-identifier",
+            "value": "effc21317e624b8497192c502268522d"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "8000aeda-cfcc-46b1-a927-bbd89332102c"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "377072-917"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Adams",
+            "given": [
+              "Jared",
+              "Bruce"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-7950",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "248-555-9482",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2016-06-22",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "line": [
+              "390 Cedar Avenue",
+              "Unit 5"
+            ],
+            "city": "Clarkston",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48346"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "654321"
+          }
+        ],
+        "name": "Sample Organization"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/36ee2964-c4aa-4bc7-b996-9710ea6947dc",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "36ee2964-c4aa-4bc7-b996-9710ea6947dc",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-allergy-info",
+              "display": "No information about allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5558"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/89635b01-983b-43dd-88e1-b9eadc192087",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "89635b01-983b-43dd-88e1-b9eadc192087",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "6a6cd3ec-d3c1-4059-b993-104e7407be68"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840539006",
+              "display": "COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T01:08:00-04:00",
+        "recordedDate": "2020-04-01T01:08:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/68572aea-132c-441a-b30d-9f158496838e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "68572aea-132c-441a-b30d-9f158496838e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "4a441087-8229-41c0-8797-35c07462c7e5"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49727002",
+              "display": "Cough (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/2f7bbba0-7a54-4e08-9f05-28943e7c8255",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2f7bbba0-7a54-4e08-9f05-28943e7c8255",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "c30c61dd-2dd5-4d20-87b1-27f1ac19567f"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "66857006",
+              "display": "Hemoptysis (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/d5d22b6d-caaf-4a78-99cf-9973a82b8ccf",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d5d22b6d-caaf-4a78-99cf-9973a82b8ccf",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "38204ea2-6eb5-4db2-87ee-b4cc23b46032"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "68962001",
+              "display": "Muscle pain (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/6e1858c6-7d9c-423b-8e6d-520046b63898",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6e1858c6-7d9c-423b-8e6d-520046b63898",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "62162aa9-b27e-4cc1-96cc-ec8cbe7a1cd1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57676002",
+              "display": "Joint pain (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/dea0f905-860a-48ad-b5fa-b8371ea4db27",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dea0f905-860a-48ad-b5fa-b8371ea4db27",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "233c5d1b-fd2c-455b-8335-8b5e25172ee1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/31c46092-54ba-452f-b28b-daa5e32a28af",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "31c46092-54ba-452f-b28b-daa5e32a28af",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "5e551ca4-dc5d-4a89-8e26-0ac72bf07866"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840544004",
+              "display": "Suspected COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2934",
+          "display": "Gordon Perry Bowers MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/f642774c-b003-4fd9-91e9-bba1a5ec3ca9",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f642774c-b003-4fd9-91e9-bba1a5ec3ca9",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
+        },
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-medication-info",
+              "display": "No information about medications"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/406022a2-ddcf-4581-8cfe-9d431feb4e50",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "406022a2-ddcf-4581-8cfe-9d431feb4e50",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "16885f2d-01f5-4c96-a6c4-cb10bed603dd"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92141-1",
+              "display": "Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/88c1c8af-3faa-4a4a-b2f7-b23717cee269",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "88c1c8af-3faa-4a4a-b2f7-b23717cee269",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "0bba4e50-3fb8-429f-84d2-b3f49621664e"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92131-2",
+              "display": "Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/dd748ff1-4e73-4d18-a09a-5d04f1f8b569",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dd748ff1-4e73-4d18-a09a-5d04f1f8b569",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "b7e4d723-2838-49b1-a3bc-34601d7cce70"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92140-3",
+              "display": "Parainfluenza virus 1 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/5a037b2c-ef0e-451f-95a8-82a947d34401",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5a037b2c-ef0e-451f-95a8-82a947d34401",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "cb207563-c4e4-442d-9de1-d442f32572db"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92139-5",
+              "display": "Parainfluenza virus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/6102f2e0-a88a-462e-96ad-7df52b72fc59",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6102f2e0-a88a-462e-96ad-7df52b72fc59",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "fa4f5c45-5724-4376-92cd-24b1966dfb21"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92138-7",
+              "display": "Parainfluenza virus 3 RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/1c4337fe-1955-4fb4-ad03-88b86434a2fb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1c4337fe-1955-4fb4-ad03-88b86434a2fb",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "7ae599e0-6632-4ed9-8a04-b96442584119"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92130-4",
+              "display": "Rhinovirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/3416aa08-a0e6-467c-b84d-3f0e184c96b9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3416aa08-a0e6-467c-b84d-3f0e184c96b9",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "0baf111b-a7aa-404d-9ada-4f76210642a4"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92134-6",
+              "display": "Human metapneumovirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/55716993-05cb-45e4-ac95-22d5c7931948",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "55716993-05cb-45e4-ac95-22d5c7931948",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "96b36d99-9c56-4436-ad01-6e3fac7007c2"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94040-3",
+              "display": "Adenovirus A+B+C+D+E DNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/8eee0ff2-8fad-432d-8588-43fcba73cf08",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "8eee0ff2-8fad-432d-8588-43fcba73cf08",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "68e59fa9-5794-4593-bca8-d73d6afdb1d8"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92143-7",
+              "display": "Respiratory pathogens DNA and RNA panel - Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "issued": "2020-04-01T00:12:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/7359",
+            "display": "Respiratory Virus Panel Not Detected_Observation_1"
+          },
+          {
+            "reference": "Observation/7360",
+            "display": "Respiratory Virus Panel Not Detected_Observation_2"
+          },
+          {
+            "reference": "Observation/7361",
+            "display": "Respiratory Virus Panel Not Detected_Observation_3"
+          },
+          {
+            "reference": "Observation/7362",
+            "display": "Respiratory Virus Panel Not Detected_Observation_4"
+          },
+          {
+            "reference": "Observation/7363",
+            "display": "Respiratory Virus Panel Not Detected_Observation_5"
+          },
+          {
+            "reference": "Observation/7364",
+            "display": "Respiratory Virus Panel Not Detected_Observation_6"
+          },
+          {
+            "reference": "Observation/7365",
+            "display": "Respiratory Virus Panel Not Detected_Observation_7"
+          },
+          {
+            "reference": "Observation/7366",
+            "display": "Respiratory Virus Panel Not Detected_Observation_8"
+          },
+          {
+            "reference": "Observation/7367",
+            "display": "Respiratory Virus Panel Not Detected_Observation_9"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/8d65cad4-1b57-48c5-95de-a3774efe579f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8d65cad4-1b57-48c5-95de-a3774efe579f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ee1dda27-67aa-4f8c-9731-d521013c7a3f"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T01:08:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/95730161-13ff-4a10-ade7-c06c155023cd",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "95730161-13ff-4a10-ade7-c06c155023cd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "dce5fcd6-5c91-4443-ab35-c36a03c34f15"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T01:08:00-04:00",
+        "issued": "2020-04-01T01:08:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/7372",
+            "display": "Administer COVID-19 Test Positive_Observation_1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/a02dc1f5-3cfd-408c-a3ea-afe1b4554c32",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a02dc1f5-3cfd-408c-a3ea-afe1b4554c32",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "1bc7e6cb-cfac-4b2a-98f1-bac4fe963f76"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8331-1",
+              "display": "Oral temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 40.16199563629404,
+          "unit": "Cel"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/f84b3687-21ab-461f-ba75-fd3965a244d1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f84b3687-21ab-461f-ba75-fd3965a244d1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "fa8482a3-4a0d-42d8-9a43-a3d5b373f4b2"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 27,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/b955083b-6ada-461d-960d-de2c461d92f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b955083b-6ada-461d-960d-de2c461d92f8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "4cd57d09-e560-4d3e-817a-65f1e379d662"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 192,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/da56a022-473b-4f18-9cf9-62516a1f5fbc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da56a022-473b-4f18-9cf9-62516a1f5fbc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "7d8146fc-447b-47bc-a7a3-ace5104b6431"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 78,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/c9497f5a-5886-438e-8336-7fe5c7ee4811",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c9497f5a-5886-438e-8336-7fe5c7ee4811",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "18c60034-809f-4bf6-982d-65fb932638ad"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 101,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 78,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/3c9d98c3-c04d-42d6-abd7-3ed10f29e1dd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3c9d98c3-c04d-42d6-abd7-3ed10f29e1dd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "9866b5af-3869-49a2-b806-a4c96d262c77"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 13.5,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/e406b7f0-2f88-4343-b40d-aade70d0d9ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e406b7f0-2f88-4343-b40d-aade70d0d9ae",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:32:59.706-04:00",
+          "source": "#U4EuTxuba6L5BEq8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ee21e9d8-d3aa-4e61-9a87-5e73d49635f4"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "92142-9",
+              "display": "Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5558",
+          "display": "Jared Bruce Adams"
+        },
+        "encounter": {
+          "reference": "Encounter/7344",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2934",
+            "display": "Gordon Perry Bowers MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260385009",
+              "display": "Negative (qualifier value)"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

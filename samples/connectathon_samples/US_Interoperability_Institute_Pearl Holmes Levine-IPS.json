@@ -1,0 +1,1644 @@
+{
+  "resourceType": "Bundle",
+  "id": "c001a66a-2641-42fc-aae5-6116b20ebf9e",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "63e1d7eb-a564-4e52-89df-250aa894d63d"
+  },
+  "type": "document",
+  "timestamp": "2021-10-02T17:59:47.921Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:e3e8d3fb-7f21-496f-b7b5-0edfe01fb972",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "e3e8d3fb-7f21-496f-b7b5-0edfe01fb972",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740"
+        },
+        "date": "2021-10-02T17:59:47.921Z",
+        "author": [
+          {
+            "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/7df0b336-5bf7-41b2-8d92-04fa8d472891"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/db4014c6-321d-4315-823a-e582c2f9d74b"
+              },
+              {
+                "reference": "Condition/073ebdfc-1a0a-4ec5-aee7-16ce3d8a7cc9"
+              },
+              {
+                "reference": "Condition/6beae2fb-87c3-46cd-9a18-32a13638fe67"
+              },
+              {
+                "reference": "Condition/b026d517-83c3-4b59-83fa-af7b1f810477"
+              },
+              {
+                "reference": "Condition/b3221d85-1472-4bde-ab68-c9f3da89a0d5"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative available on medications</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/2a45fefc-40ad-4bdf-8c6e-296c5e8f3a7e"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div><div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/f8e36071-dd12-4ab7-8f5f-a4fae695e8b6"
+              },
+              {
+                "reference": "Observation/ddfe9ea8-7a57-4012-a0d4-0c69803cc88e"
+              },
+              {
+                "reference": "DiagnosticReport/2b0d8f0a-d50c-4a8c-8e8e-9201364a4ca7"
+              },
+              {
+                "reference": "Observation/da4eaa64-1159-41c7-91d9-02e6c531fac2"
+              },
+              {
+                "reference": "DiagnosticReport/6aefb2a5-fee7-4063-837c-17449315ba6d"
+              },
+              {
+                "reference": "Observation/f8d8a633-93f6-43d9-93c1-6f442fb1596d"
+              },
+              {
+                "reference": "Observation/2810afbb-99ca-4953-868e-e57914762b5e"
+              },
+              {
+                "reference": "Observation/b656cb5f-9738-41ef-a7ca-956a48b6b70f"
+              },
+              {
+                "reference": "Observation/ce460f9a-61d0-4fb7-9a40-c5e1ef9ebf52"
+              },
+              {
+                "reference": "Observation/5533838c-529f-49f5-9e21-d2b04a5b91c4"
+              },
+              {
+                "reference": "Observation/a4fc213f-a951-49e2-b191-4f431ad36c0e"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/5740",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5740",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-09-29T01:55:05.499-04:00",
+          "source": "#sbepY9JUPjT8jcgV"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Race",
+                  "code": "2056-0",
+                  "display": "Black"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Ethnicity",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                  "code": "1077",
+                  "display": "Protestant"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000001008"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "b02b737161f94aabb4f6a07c800796d1"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "589137-1008"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "f17a3f29-b4b4-41e4-adfb-5013372e9aaf"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient External Identifier"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-identifier",
+            "value": "b02b737161f94aabb4f6a07c800796d1"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "ed67ffd8-5d4a-4a78-9456-dd017596f2f9"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "88440-1008"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Levine",
+            "given": [
+              "Pearl",
+              "Holmes"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "248-555-5037",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "248-555-6417",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-09-14",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "line": [
+              "970 W Hill Circle",
+              "Unit 19"
+            ],
+            "city": "Rochester",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48307"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "654321"
+          }
+        ],
+        "name": "Sample Organization"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/7df0b336-5bf7-41b2-8d92-04fa8d472891",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "7df0b336-5bf7-41b2-8d92-04fa8d472891",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies<div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-allergy-info",
+              "display": "No information about allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5740"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/db4014c6-321d-4315-823a-e582c2f9d74b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "db4014c6-321d-4315-823a-e582c2f9d74b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "b2182d2c-6961-4922-8204-e7909b03a153"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840544004",
+              "display": "Suspected COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2824",
+          "display": "Gail Bradley Murray MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/073ebdfc-1a0a-4ec5-aee7-16ce3d8a7cc9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "073ebdfc-1a0a-4ec5-aee7-16ce3d8a7cc9",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "1af1f38d-4498-4a33-9674-6f34ab843d0f"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840539006",
+              "display": "COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T01:07:00-04:00",
+        "recordedDate": "2020-04-01T01:07:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2824",
+          "display": "Gail Bradley Murray MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/6beae2fb-87c3-46cd-9a18-32a13638fe67",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6beae2fb-87c3-46cd-9a18-32a13638fe67",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "bfed84c6-c010-4c05-817e-897e0bd88cf9"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "84229001",
+              "display": "Fatigue (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2824",
+          "display": "Gail Bradley Murray MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/b026d517-83c3-4b59-83fa-af7b1f810477",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b026d517-83c3-4b59-83fa-af7b1f810477",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "82fe6ec5-ac16-432d-b61b-d683ca2995cb"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2824",
+          "display": "Gail Bradley Murray MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/b3221d85-1472-4bde-ab68-c9f3da89a0d5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b3221d85-1472-4bde-ab68-c9f3da89a0d5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "7ca25417-a769-4924-8a27-96bb1a0a6a1a"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "36955009",
+              "display": "Loss of taste (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2824",
+          "display": "Gail Bradley Murray MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/2a45fefc-40ad-4bdf-8c6e-296c5e8f3a7e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "2a45fefc-40ad-4bdf-8c6e-296c5e8f3a7e",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
+        },
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-medication-info",
+              "display": "No information about medications"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/f8e36071-dd12-4ab7-8f5f-a4fae695e8b6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f8e36071-dd12-4ab7-8f5f-a4fae695e8b6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "09632a06-ab12-4dbd-ae83-3f0d8eebb544"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80382-5",
+              "display": "Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:15:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/ddfe9ea8-7a57-4012-a0d4-0c69803cc88e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ddfe9ea8-7a57-4012-a0d4-0c69803cc88e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "d2e759db-34c6-4b6f-af72-3d728cdf75ac"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80383-3",
+              "display": "Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:15:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/2b0d8f0a-d50c-4a8c-8e8e-9201364a4ca7",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "2b0d8f0a-d50c-4a8c-8e8e-9201364a4ca7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "21144b26-034c-4399-84f4-cc45b37018ff"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80381-7",
+              "display": "Influenza virus A and B Ag panel - Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:15:00-04:00",
+        "issued": "2020-04-01T00:15:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/7746",
+            "display": "Influenza Not Detected_Observation_1"
+          },
+          {
+            "reference": "Observation/7747",
+            "display": "Influenza Not Detected_Observation_2"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/da4eaa64-1159-41c7-91d9-02e6c531fac2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da4eaa64-1159-41c7-91d9-02e6c531fac2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "5e42efb5-0da2-48aa-9985-e62e13db1eb2"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T01:07:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/6aefb2a5-fee7-4063-837c-17449315ba6d",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "6aefb2a5-fee7-4063-837c-17449315ba6d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "6868e8f0-7d9e-4f88-a1f9-26cbbc4c2e6a"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T01:07:00-04:00",
+        "issued": "2020-04-01T01:07:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/7752",
+            "display": "Administer COVID-19 Test Positive_Observation_1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/f8d8a633-93f6-43d9-93c1-6f442fb1596d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f8d8a633-93f6-43d9-93c1-6f442fb1596d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "153b36c1-ebb0-4550-b3a6-e1e4a51e0a87"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8331-1",
+              "display": "Oral temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 41.901914724681966,
+          "unit": "Cel"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/2810afbb-99ca-4953-868e-e57914762b5e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2810afbb-99ca-4953-868e-e57914762b5e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "e3e2f895-c05f-4eca-be7b-de0bb65d46fc"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 21,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/b656cb5f-9738-41ef-a7ca-956a48b6b70f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b656cb5f-9738-41ef-a7ca-956a48b6b70f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "cf1ae3a2-a9a4-48c2-9df9-60e72d481391"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 114,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/ce460f9a-61d0-4fb7-9a40-c5e1ef9ebf52",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ce460f9a-61d0-4fb7-9a40-c5e1ef9ebf52",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ca41c0f7-e99b-478e-b97f-9969f37eca2e"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 89,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/5533838c-529f-49f5-9e21-d2b04a5b91c4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5533838c-529f-49f5-9e21-d2b04a5b91c4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "98b12eae-10a1-4e9c-b0bc-093e5be9f179"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 119,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 79,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/a4fc213f-a951-49e2-b191-4f431ad36c0e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a4fc213f-a951-49e2-b191-4f431ad36c0e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:42.070-04:00",
+          "source": "#bgwnUAL1Y8OBa1EA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "b97da1f5-916d-4dcf-bf90-5c3864430364"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5740",
+          "display": "Pearl Holmes Levine"
+        },
+        "encounter": {
+          "reference": "Encounter/7733",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2824",
+            "display": "Gail Bradley Murray MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 78.2,
+          "unit": "kg"
+        }
+      }
+    }
+  ]
+}
