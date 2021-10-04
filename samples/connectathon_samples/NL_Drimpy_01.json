@@ -1,0 +1,1289 @@
+{
+	"resourceType": "Bundle",
+	"id": "201acc7b-3a3d-4bfe-9704-0fe9f9046313",
+	"identifier": {
+		"system": "https://drimpy.com/fhir/my/ips/identifier",
+		"value": "b5d06a2e-9d05-4dc1-a699-23eff66f44dc-ips"
+	},
+	"language": "nl_NL",
+	"type": "document",
+	"timestamp": "2021-09-15T19:42:04.751145Z",
+	"entry": [
+		{
+			"resourceType": "Patient",
+			"meta": {
+				"profile": [
+					"http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+				],
+				"tag": [
+					{
+						"system": "https://drimpy.com/fhir/my/dtl/id",
+						"code": "813a32a3-8b99-4825-839e-28d328b21bd8"
+					},
+					{
+						"system": "https://drimpy.com/fhir/medmij/o_id",
+						"code": "urn:uuid:7eaa571e-1657-11ec-1129-005056bc1480"
+					}
+				],
+				"versionId": "2af76682-b939-4f09-8865-8c3f0634f3ee",
+				"lastUpdated": "2021-09-15T19:02:45.149+00:00"
+			},
+			"name": [
+				{
+					"extension": [
+						{
+							"url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+							"valueCode": "UNK"
+						}
+					],
+					"family": "Persoon1",
+					"_family": {
+						"extension": [
+							{
+								"url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+								"valueString": "Persoon1"
+							}
+						]
+					},
+					"given": [
+						"OG",
+						"O.O."
+					],
+					"_given": [
+						{
+							"extension": [
+								{
+									"url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+									"valueCode": "BR"
+								}
+							]
+						},
+						{
+							"extension": [
+								{
+									"url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+									"valueCode": "IN"
+								}
+							]
+						}
+					]
+				}
+			],
+			"gender": "male",
+			"_gender": {
+				"extension": [
+					{
+						"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/v3/AdministrativeGender",
+									"code": "M",
+									"display": "man"
+								}
+							]
+						}
+					}
+				]
+			},
+			"birthDate": "1954-01-01",
+			"address": [
+				{
+					"line": [
+						"Lomanstraat 1"
+					],
+					"_line": [
+						{
+							"extension": [
+								{
+									"url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+									"valueString": "Lomanstraat"
+								},
+								{
+									"url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+									"valueString": "1"
+								}
+							]
+						}
+					],
+					"city": "Amsterdam",
+					"postalCode": "1075PW"
+				}
+			],
+			"id": "b19b267c-b704-45ac-8a31-3143320f6859",
+			"identifier": [
+				{
+					"system": "https://drimpy.com/fhir/my/ips/identifier",
+					"value": "b5d06a2e-9d05-4dc1-a699-23eff66f44dc-ips"
+				}
+			]
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/f1859acd-bdcd-40a7-9a09-2aa08648e078",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd6113-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "dbb2bd3b-738b-4f0d-abd9-60301500251e",
+					"lastUpdated": "2021-09-15T19:03:07.914+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "1df09feaac98e640263c3067d06e32a8"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "2662ed6483ea45d8979de2700e471e1c"
+						},
+						"display": "Episode: 2662ed6483ea45d8979de2700e471e1c 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/781e814d-ecea-438f-b1ba-97d785f57baa"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-03-23T11:31:07+01:00",
+					"end": "2021-03-23T11:31:07+01:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "f1859acd-bdcd-40a7-9a09-2aa08648e078"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/181c8d23-7f19-4a37-b275-ad7678b9ce3c",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd613b-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "3c47fe30-cfa0-413c-87df-7cca01ab8669",
+					"lastUpdated": "2021-09-15T19:03:07.566+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "5c53ce704ea2eccc510290ad20b72b5d"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "191c99eb4687ed2fea341cb2fed05bfc"
+						},
+						"display": "Episode: 191c99eb4687ed2fea341cb2fed05bfc 2.16.528.1.1007.3.3.90000382.418.8"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-05-03T10:24:52+02:00",
+					"end": "2021-05-03T10:24:52+02:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "181c8d23-7f19-4a37-b275-ad7678b9ce3c"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/9e76c6e7-cb06-47b9-8c01-b8d85952a9e6",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd60fe-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "f7150b24-79a1-4691-8ea2-5a522dcc1375",
+					"lastUpdated": "2021-09-15T19:03:07.696+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "00fa18840ce1fe2b5bab99017a45a5c3"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "7f769a52cca0cab825df9f648f46fe86"
+						},
+						"display": "Episode: 7f769a52cca0cab825df9f648f46fe86 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/8e35656b-3639-433b-ad47-f8f37e3f15cd"
+					},
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "0273c91edabfe54d71446dcb7134f3f0"
+						},
+						"display": "Episode: 0273c91edabfe54d71446dcb7134f3f0 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/517c6031-445f-4465-9be4-a331efe65e82"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-04-12T15:25:56+02:00",
+					"end": "2021-04-12T15:25:56+02:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "9e76c6e7-cb06-47b9-8c01-b8d85952a9e6"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/1b5b0f63-7cda-4a2a-8ae2-79a2afcd6a0b",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd6127-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "466f9694-8a71-47ff-b695-08eea572c563",
+					"lastUpdated": "2021-09-15T19:03:07.642+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "d0b2efed9b57a1c688ad18724a060f76"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "7f769a52cca0cab825df9f648f46fe86"
+						},
+						"display": "Episode: 7f769a52cca0cab825df9f648f46fe86 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/8e35656b-3639-433b-ad47-f8f37e3f15cd"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-03-25T09:12:03+01:00",
+					"end": "2021-03-25T09:12:03+01:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "1b5b0f63-7cda-4a2a-8ae2-79a2afcd6a0b"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/5dc2793d-0629-4519-8328-8a6ecf3b03b9",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd60ea-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "b54ca648-cac5-4087-bd14-2915254fb7e7",
+					"lastUpdated": "2021-09-15T19:03:07.566+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "ba2dbbc3c87e1e1e1a0f464f7fe003de"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "7f769a52cca0cab825df9f648f46fe86"
+						},
+						"display": "Episode: 7f769a52cca0cab825df9f648f46fe86 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/8e35656b-3639-433b-ad47-f8f37e3f15cd"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-03-25T09:24:56+01:00",
+					"end": "2021-03-25T09:24:56+01:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "5dc2793d-0629-4519-8328-8a6ecf3b03b9"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/ba3f1a75-95f4-4cad-9955-c4f17060e79b",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd6218-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "82ee3bc1-8562-4883-bc5c-f247b71c9a27",
+					"lastUpdated": "2021-09-15T19:03:05.715+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "c1715ce758fdbb0b1d678d05409a5421"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "e09ad6787f7bd92be4df83a5a665b2a0"
+						},
+						"display": "Episode: e09ad6787f7bd92be4df83a5a665b2a0 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/9be1c090-cfb8-421a-9b3c-b437e004664a"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-02-25T08:54:07+01:00",
+					"end": "2021-02-25T08:54:07+01:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "ba3f1a75-95f4-4cad-9955-c4f17060e79b"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/b5acb4df-d4f0-4574-917f-3360a3255603",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd61c8-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "6237538a-3f3b-4c2c-9690-89645abe7a4b",
+					"lastUpdated": "2021-09-15T19:03:05.712+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "017752b36ec46808496b9dbf53961896"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "666bb6d12103201682550fa6bc520fc2"
+						},
+						"display": "Episode: 666bb6d12103201682550fa6bc520fc2 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/215692c2-4230-41fc-a0cc-1bb7438f2c7c"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2020-12-23T00:00:00+01:00",
+					"end": "2020-12-23T00:00:00+01:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "b5acb4df-d4f0-4574-917f-3360a3255603"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/b44810e4-87bb-4f88-89ad-67735c7fbd86",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd6177-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "8af8810a-c121-4ce6-aadc-dd2e08bed0a3",
+					"lastUpdated": "2021-09-15T19:03:05.709+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "6f9fe43b7ee80c0da0dea84618149a1a"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "7f769a52cca0cab825df9f648f46fe86"
+						},
+						"display": "Episode: 7f769a52cca0cab825df9f648f46fe86 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/8e35656b-3639-433b-ad47-f8f37e3f15cd"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2021-04-22T09:59:59+02:00",
+					"end": "2021-04-22T09:59:59+02:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "b44810e4-87bb-4f88-89ad-67735c7fbd86"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/ca5b7e24-bd5c-42c6-a624-e2595b0ab145",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd618b-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "1a1e88d4-2e26-4e82-9a35-f5ca563241de",
+					"lastUpdated": "2021-09-15T19:03:05.704+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "dff79f8d4e35fd22c496f1b8a54fa75e"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "d0c9806d4349c778ef97e99951bcc3e5"
+						},
+						"display": "Episode: d0c9806d4349c778ef97e99951bcc3e5 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/824022b3-1616-42db-a106-94ae47b772bb"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2020-11-07T00:00:00+01:00",
+					"end": "2020-11-07T00:00:00+01:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "ca5b7e24-bd5c-42c6-a624-e2595b0ab145"
+			}
+		},
+		{
+			"fullUrl": "http://fhircore:4080/Encounter/acb6ce62-c0ae-42a0-9828-9403a2bd2722",
+			"search": {
+				"mode": "match"
+			},
+			"resource": {
+				"resourceType": "Encounter",
+				"meta": {
+					"profile": [
+						"http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"
+					],
+					"tag": [
+						{
+							"system": "https://drimpy.com/fhir/my/dtl/id",
+							"code": "7bd1483d-d45d-4c69-b23f-2d46cb47e9c8"
+						},
+						{
+							"system": "https://drimpy.com/fhir/medmij/o_id",
+							"code": "urn:uuid:7dbd619f-1657-11ec-1480-005056bc1480"
+						}
+					],
+					"versionId": "886faa06-b423-4833-9a2e-16b1a33caa4b",
+					"lastUpdated": "2021-09-15T19:03:05.706+00:00"
+				},
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.4",
+						"value": "ab8bccf64232ff2e55f60fe6b3aa4684"
+					}
+				],
+				"status": "finished",
+				"class": {
+					"extension": [
+						{
+							"url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+										"version": "v3",
+										"code": "03",
+										"display": "consult"
+									}
+								]
+							}
+						}
+					],
+					"system": "http://hl7.org/fhir/v3/ActCode",
+					"code": "AMB",
+					"display": "Ambulatory"
+				},
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze",
+								"version": "v3",
+								"code": "03",
+								"display": "consult"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http://fhircore:4080/Patient/b19b267c-b704-45ac-8a31-3143320f6859",
+					"display": "OG O.O. Persoon1"
+				},
+				"episodeOfCare": [
+					{
+						"identifier": {
+							"system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.8",
+							"value": "e09ad6787f7bd92be4df83a5a665b2a0"
+						},
+						"display": "Episode: e09ad6787f7bd92be4df83a5a665b2a0 2.16.528.1.1007.3.3.90000382.418.8",
+						"reference": "http://fhircore:4080/EpisodeOfCare/9be1c090-cfb8-421a-9b3c-b437e004664a"
+					}
+				],
+				"participant": [
+					{
+						"type": [
+							{
+								"coding": [
+									{
+										"system": "http://hl7.org/fhir/v3/ParticipationType",
+										"code": "PRF",
+										"display": "Performer"
+									}
+								]
+							}
+						],
+						"individual": {
+							"extension": [
+								{
+									"url": "http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference",
+									"valueReference": {
+										"reference": "urn:uuid:7dbd60ed-1657-11ec-1480-005056bc1480",
+										"display": "Marjo Oskam || Testpraktijk TransHis (\"de punisher\")"
+									}
+								}
+							],
+							"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1999999",
+							"display": "Marjo Oskam"
+						}
+					}
+				],
+				"period": {
+					"start": "2020-08-18T15:05:12+02:00",
+					"end": "2020-08-18T15:05:12+02:00"
+				},
+				"serviceProvider": {
+					"reference": "urn:oid:2.16.528.1.1007.3.3.90000382",
+					"display": "Testpraktijk TransHis (\"de punisher\")"
+				},
+				"id": "acb6ce62-c0ae-42a0-9828-9403a2bd2722"
+			}
+		}
+	]
+}
