@@ -18,8 +18,11 @@
                     {{@this.type}} - {{@this.category[0]}} - Criticality: {{@this.criticality}}
                 </span>
             {{/if}}
+            {{if(@this.code && @this.code.coding)}}
             <br>
-            {{@this.code.coding[0].display}} ({{@this.code.coding[0].code}})<br>
+                {{@this.code.coding[0].display}} ({{@this.code.coding[0].code}})
+            <br>
+            {{/if}}
             </li>
         {{/each}}
         </ul>
