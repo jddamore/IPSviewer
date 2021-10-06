@@ -1,110 +1,221 @@
 {
 	"resourceType": "Bundle",
-	"id": "9198f1b3-13fd-4be7-9437-7333c6941a9f",
+	"id": "775b00bf-8d2f-47a8-b2a2-269500446c5f",
 	"identifier": {
 		"system": "https:\/\/drimpy.com\/fhir\/my\/ips\/identifier",
 		"value": "b5d06a2e-9d05-4dc1-a699-23eff66f44dc-ips"
 	},
 	"language": "nl_NL",
 	"type": "document",
-	"timestamp": "2021-10-06T10:53:00.774111Z",
+	"timestamp": "2021-10-06T11:07:27.399634Z",
 	"entry": [
 		{
-			"resourceType": "Composition",
-			"status": "final",
-			"type": {
-				"coding": [
-					[
-						{
-							"code": "60591-5",
-							"system": "http:\/\/loinc.org",
-							"display": "Patient summary Document"
-						}
+			"fullUrl": "urn:uuid:790ee3eb-0605-49a7-a1f8-9b0ca431cd3a",
+			"resource": {
+				"id": "790ee3eb-0605-49a7-a1f8-9b0ca431cd3a",
+				"resourceType": "Composition",
+				"status": "final",
+				"type": {
+					"coding": [
+						[
+							{
+								"code": "60591-5",
+								"system": "http:\/\/loinc.org",
+								"display": "Patient summary Document"
+							}
+						]
 					]
+				},
+				"subject": {
+					"reference": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "LOCAL Hidde"
+				},
+				"date": "2021-10-06T11:07:27.399888Z",
+				"author": {
+					"reference": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "LOCAL Hidde"
+				},
+				"title": "Patient Summary (LOCAL Hidde)",
+				"confidentiality": "N",
+				"section": [
+					{
+						"title": "Allergies and Intolerances",
+						"code": {
+							"coding": [
+								{
+									"code": "48765-2",
+									"system": "http:\/\/loinc.org",
+									"display": "Allergies and adverse reactions Document"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:af56a6a9-814d-4187-8a20-a7b1aa6b66ac"
+							}
+						]
+					},
+					{
+						"title": "Problem List",
+						"code": {
+							"coding": [
+								{
+									"code": "11450-4",
+									"system": "http:\/\/loinc.org",
+									"display": "Problem list Reported"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:4f74a73e-4b9d-4fc8-97b0-9e2c4943ec50"
+							}
+						]
+					},
+					{
+						"title": "Medication Summary",
+						"code": {
+							"coding": [
+								{
+									"code": "10160-0",
+									"system": "http:\/\/loinc.org",
+									"display": "Hx of Medication use"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:5d4d1e6b-b3e0-40c0-abe1-09c992e72697"
+							},
+							{
+								"reference": "urn:uuid:7cc44574-9dd2-46c2-a0ec-67ae7db0833a"
+							},
+							{
+								"reference": "urn:uuid:89b21bb2-10fe-4bf6-88cf-491372a331a3"
+							},
+							{
+								"reference": "urn:uuid:a752a1e6-db39-40f7-963a-812de08763b5"
+							},
+							{
+								"reference": "urn:uuid:2a7b4240-4586-466a-9495-673ffdbdb556"
+							},
+							{
+								"reference": "urn:uuid:15144b34-cf29-4a1d-9087-d8d4552525b7"
+							},
+							{
+								"reference": "urn:uuid:db75929c-d2e0-417b-8bb0-ef1f35ef33ee"
+							}
+						]
+					},
+					{
+						"title": "Results",
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "30954-2",
+									"display": "Relevant diagnostic tests\/laboratory data Narrative"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:40e0af9b-10c9-4442-98cb-578e47856a2e"
+							},
+							{
+								"reference": "urn:uuid:be54387a-95b4-447b-ac8c-decb0385eac1"
+							},
+							{
+								"reference": "urn:uuid:36bd24bd-d727-4c03-bb18-a94dbdbb4119"
+							},
+							{
+								"reference": "urn:uuid:1db953df-aef7-4490-bb9d-da16cb4c2527"
+							},
+							{
+								"reference": "urn:uuid:fc31007c-9e0a-49ea-a607-6bbfc453871d"
+							},
+							{
+								"reference": "urn:uuid:3c935e03-4c44-4c89-ac93-57513772b167"
+							},
+							{
+								"reference": "urn:uuid:26d230b4-57cf-4dd3-9884-489d27ef6a32"
+							},
+							{
+								"reference": "urn:uuid:375af44b-fa99-4874-a346-56b9d20ea3bb"
+							},
+							{
+								"reference": "urn:uuid:1df23af5-505e-496f-b4e9-112a50468507"
+							},
+							{
+								"reference": "urn:uuid:48bb8c5c-ea40-4685-8cba-5063aba4c5b0"
+							},
+							{
+								"reference": "urn:uuid:feaa1f5e-38b9-47ae-8531-c0e5e2fe7d06"
+							},
+							{
+								"reference": "urn:uuid:4debbb73-4740-4515-8489-2f82693574f8"
+							},
+							{
+								"reference": "urn:uuid:5ba4863b-ce0e-4b7e-87de-12c4dd66c73a"
+							},
+							{
+								"reference": "urn:uuid:71b1d649-b320-433d-8b49-7ff56918ff6e"
+							},
+							{
+								"reference": "urn:uuid:a855764f-6668-4426-824a-33a9c6f1da87"
+							},
+							{
+								"reference": "urn:uuid:cdb701fc-8d53-43d3-a23e-7acd7b11a130"
+							},
+							{
+								"reference": "urn:uuid:30726b1b-55c6-4263-a3b0-1b9482b5330e"
+							},
+							{
+								"reference": "urn:uuid:b1366a97-6023-4f13-b4e9-cc45369eeb49"
+							},
+							{
+								"reference": "urn:uuid:5a616d45-ced8-4ce3-be2b-3ef22105cedd"
+							},
+							{
+								"reference": "urn:uuid:b4b360f1-f1ef-41cd-a49b-e7498a10d4e4"
+							},
+							{
+								"reference": "urn:uuid:f223f90e-30ab-4fbe-a9ca-2efd10431e41"
+							},
+							{
+								"reference": "urn:uuid:9960c0d1-9a80-4314-80a2-d95a18fdbfef"
+							},
+							{
+								"reference": "urn:uuid:7c0932e3-5f93-4d2e-ab93-ec00754bd0df"
+							},
+							{
+								"reference": "urn:uuid:65292965-cd76-4a09-9a21-b6c0bfb92837"
+							},
+							{
+								"reference": "urn:uuid:12959180-2623-43f5-9793-a5632462f44e"
+							},
+							{
+								"reference": "urn:uuid:903c8f2e-052b-499e-bc16-f9497e35cc60"
+							},
+							{
+								"reference": "urn:uuid:fbdf683d-7748-451d-b79c-d85d1d2571cc"
+							},
+							{
+								"reference": "urn:uuid:4ad7bc15-061a-4b91-a382-e34710018b28"
+							},
+							{
+								"reference": "urn:uuid:ea57f34f-6ec0-44b7-9a71-019e1cd6aa39"
+							},
+							{
+								"reference": "urn:uuid:613c6a9b-2a1f-4684-9dde-e2bfa570fd06"
+							},
+							{
+								"reference": "urn:uuid:67320dc7-6270-42a7-9239-00ddec50642c"
+							}
+						]
+					}
 				]
-			},
-			"subject": {
-				"reference": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
-				"display": "LOCAL Hidde"
-			},
-			"date": "2021-10-06T10:53:00.774259Z",
-			"author": {
-				"reference": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
-				"display": "LOCAL Hidde"
-			},
-			"title": "Patient Summary (LOCAL Hidde)",
-			"confidentiality": "N",
-			"section": [
-				{
-					"title": "Allergies and Intolerances",
-					"code": {
-						"coding": [
-							{
-								"code": "48765-2",
-								"system": "http:\/\/loinc.org",
-								"display": "Allergies and adverse reactions Document"
-							}
-						]
-					},
-					"entry": [
-						{
-							"reference": "urn:uuid:af56a6a9-814d-4187-8a20-a7b1aa6b66ac"
-						}
-					]
-				},
-				{
-					"title": "Problem List",
-					"code": {
-						"coding": [
-							{
-								"code": "11450-4",
-								"system": "http:\/\/loinc.org",
-								"display": "Problem list Reported"
-							}
-						]
-					},
-					"entry": [
-						{
-							"reference": "urn:uuid:4f74a73e-4b9d-4fc8-97b0-9e2c4943ec50"
-						}
-					]
-				},
-				{
-					"title": "Medication Summary",
-					"code": {
-						"coding": [
-							{
-								"code": "10160-0",
-								"system": "http:\/\/loinc.org",
-								"display": "Hx of Medication use"
-							}
-						]
-					},
-					"entry": [
-						{
-							"reference": "urn:uuid:5d4d1e6b-b3e0-40c0-abe1-09c992e72697"
-						},
-						{
-							"reference": "urn:uuid:7cc44574-9dd2-46c2-a0ec-67ae7db0833a"
-						},
-						{
-							"reference": "urn:uuid:89b21bb2-10fe-4bf6-88cf-491372a331a3"
-						},
-						{
-							"reference": "urn:uuid:a752a1e6-db39-40f7-963a-812de08763b5"
-						},
-						{
-							"reference": "urn:uuid:2a7b4240-4586-466a-9495-673ffdbdb556"
-						},
-						{
-							"reference": "urn:uuid:15144b34-cf29-4a1d-9087-d8d4552525b7"
-						},
-						{
-							"reference": "urn:uuid:db75929c-d2e0-417b-8bb0-ef1f35ef33ee"
-						}
-					]
-				}
-			]
+			}
 		},
 		{
 			"fullUrl": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
@@ -1207,6 +1318,2632 @@
 					"display": "Ellen XXX_Baltus"
 				},
 				"id": "db75929c-d2e0-417b-8bb0-ef1f35ef33ee"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:40e0af9b-10c9-4442-98cb-578e47856a2e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-BloodPressure"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "2a9b0860-508b-47b0-96da-dbc3dcff97b5"
+						}
+					],
+					"versionId": "7c6d04c2-131d-417a-a48d-03337d6af023",
+					"lastUpdated": "2021-10-06T10:32:58.553+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "85354-9",
+							"display": "Blood pressure panel with all children optional"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectiveDateTime": "2009-08-08T00:00:00+01:00",
+				"performer": [
+					{
+						"reference": "https:\/\/mm.dvza.za.drimpy.com\/Practitioner\/9ef8d528-c99a-4e1a-9953-febf9a8222fb",
+						"display": "SADZA-KURVERS"
+					}
+				],
+				"comment": "kon ader niet makkelijk vinden",
+				"bodySite": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "40983000",
+							"display": "Bovenarm"
+						}
+					]
+				},
+				"method": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "22762002",
+							"display": "Niet-invasief"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "8480-6",
+									"display": "Systolic blood pressure"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 80,
+							"unit": "mmHg",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "8462-4",
+									"display": "Diastolic blood pressure"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 120,
+							"unit": "mmHg",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "70665002",
+									"display": "Blood pressure cuff"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+									"code": "STD",
+									"display": "Standaard (Standaard manchet voor een volwassene (manchet 16x30 cm)"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "424724000",
+									"display": "Body position for blood pressure measurememt"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "10904000",
+									"display": "Staande positie"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "85549033",
+									"display": "Korotkoff sounds"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "Fase IV",
+									"display": "Fase IV"
+								}
+							]
+						}
+					}
+				],
+				"id": "40e0af9b-10c9-4442-98cb-578e47856a2e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:be54387a-95b4-447b-ac8c-decb0385eac1",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-DrugUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "4bd761a2-4e4e-47da-98e5-5e8a0c5f5c3f"
+						}
+					],
+					"versionId": "09ec302f-8a9d-4227-a2ee-cb759b3eac7a",
+					"lastUpdated": "2021-10-06T10:32:58.339+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228366006",
+							"display": "Finding relating to drug misuse behavior (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2018",
+					"end": "2019"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "44870007",
+							"display": "heeft in het verleden drugs gebruikt"
+						}
+					]
+				},
+				"comment": "in het verleden af en toe gebruikt",
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410942007",
+									"display": "Drug or medicament (substance)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "703842006",
+									"display": "Amfetamine, speed"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410675002",
+									"display": "Route of administration (attribute)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "6",
+									"display": "nasaal (snuiven)"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "228390007",
+									"display": "Frequency of drug misuse (observable entity)"
+								}
+							]
+						},
+						"valueString": "1 per dag"
+					}
+				],
+				"id": "be54387a-95b4-447b-ac8c-decb0385eac1"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:36bd24bd-d727-4c03-bb18-a94dbdbb4119",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FunctionalOrMentalStatus"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "409d3289-3015-4ace-ba36-15e530b55c0a"
+						}
+					],
+					"versionId": "9e29dba5-be71-42fa-9c62-ce1f667e2cba",
+					"lastUpdated": "2021-10-06T10:32:58.123+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "118228005",
+								"display": "Functional finding (finding)"
+							},
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "384821006",
+								"display": "Mental state, behavior and\/or psychosocial function finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "32572006",
+							"display": "fysieke beperking"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2015"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "162252005",
+							"display": "spraakbeperking"
+						}
+					]
+				},
+				"comment": "doofstom",
+				"id": "36bd24bd-d727-4c03-bb18-a94dbdbb4119"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:1db953df-aef7-4490-bb9d-da16cb4c2527",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-TobaccoUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "7ec8c5fa-34ba-4857-9fc8-bb6583cd833e"
+						}
+					],
+					"versionId": "de6f6160-0b0f-4dde-b9db-71e15c595fc4",
+					"lastUpdated": "2021-10-06T10:32:55.225+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365980008",
+							"display": "Finding of tobacco use and exposure (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2006",
+					"end": "2017"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "449868002",
+							"display": "Rookt dagelijks"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "53661000146106",
+									"display": "Type of tobacco used (observable entity)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "65568007",
+									"display": "Rookt sigaretten"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "266918002",
+									"display": "Tobacco smoking consumption (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 50,
+							"unit": "cigarettepacks\/week",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{cigarette packs}\/wk"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "401201003",
+									"display": "Cigarette pack-years (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 50,
+							"unit": "PackYears",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{PackYears}"
+						}
+					}
+				],
+				"id": "1db953df-aef7-4490-bb9d-da16cb4c2527"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:fc31007c-9e0a-49ea-a607-6bbfc453871d",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "be383989-984b-4481-b3bc-0c5dba407987"
+						}
+					],
+					"versionId": "2b7aed0c-0725-4009-8ce0-39fb82328dbc",
+					"lastUpdated": "2021-10-06T10:32:55.152+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "19851009",
+								"display": "Microbiologie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "2069-3",
+							"display": "Chloride [Moles\/volume] in Blood"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectiveDateTime": "2020-03-14T10:00:00+01:00",
+				"valueQuantity": {
+					"value": 2,
+					"unit": "mg\/mmol",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mg\/mmol"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281302008",
+							"display": "Boven referentiewaarde"
+						}
+					]
+				},
+				"specimen": {
+					"reference": "https:\/\/mm.dvza.za.drimpy.com\/Specimen\/c13991cb-547b-4ded-903e-618664e70c35",
+					"display": "bloed (substantie)"
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60,
+							"unit": "mg\/mmol",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mg\/mmol"
+						},
+						"high": {
+							"value": 50,
+							"unit": "mg\/mmol",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mg\/mmol"
+						}
+					}
+				],
+				"id": "fc31007c-9e0a-49ea-a607-6bbfc453871d"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:3c935e03-4c44-4c89-ac93-57513772b167",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AlcoholUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "6aad63ca-ac55-4882-bc00-7bb3e30e44ef"
+						}
+					],
+					"versionId": "941d44f7-2da0-4301-adba-aee8eee495c6",
+					"lastUpdated": "2021-10-06T10:32:55.023+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228273003",
+							"display": "Finding relating to alcohol drinking behavior (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2017",
+					"end": "2018"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "219006",
+							"display": "Drinkt alcohol"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "160573003",
+									"display": "Alcohol intake (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 1,
+							"unit": "glasses\/week",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{glasses}\/wk"
+						}
+					}
+				],
+				"id": "3c935e03-4c44-4c89-ac93-57513772b167"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:26d230b4-57cf-4dd3-9884-489d27ef6a32",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LivingSituation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "bd4e01a5-8a23-4de1-8e2e-661d81854a6b"
+						}
+					],
+					"versionId": "1f81617b-0521-4b9e-80b1-16fdacfdaa02",
+					"lastUpdated": "2021-10-06T10:32:54.859+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365508006",
+							"display": "Finding of residence and accommodation circumstances (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectiveDateTime": "2012-02-05",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.13.1",
+							"code": "BENEDENW",
+							"display": "Benedenwoning"
+						}
+					]
+				},
+				"comment": "eigen deur en tuin",
+				"id": "26d230b4-57cf-4dd3-9884-489d27ef6a32"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:375af44b-fa99-4874-a346-56b9d20ea3bb",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FamilySituation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "c2d8d8d0-0a83-41ef-a8f6-b98013c46391"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10020"
+						}
+					],
+					"versionId": "f394bc40-c55b-47fe-af3d-bc664d760a8f",
+					"lastUpdated": "2021-10-06T10:03:58.157+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365470003",
+							"display": "bevinding betreffende gegevens over gezin en gezinssamenstelling (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "224130005",
+									"display": "Household composition (observable entity)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "408821002",
+									"display": "Samenwonend met partner"
+								}
+							],
+							"text": "Samenwonend met partner"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "224118004",
+									"display": "Aantal nakomelingen (waarneembare entiteit))"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 1
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "55811000146107",
+									"display": "Number of children living at home (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 0
+						}
+					},
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FamilySituation-LivingAtHomeIndicator",
+								"valueBoolean": false
+							}
+						],
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "67822003",
+									"display": "Kind"
+								}
+							]
+						},
+						"valueDateTime": "1990-10-31T00:00:00+01:00"
+					}
+				],
+				"id": "375af44b-fa99-4874-a346-56b9d20ea3bb"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:1df23af5-505e-496f-b4e9-112a50468507",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10007"
+						}
+					],
+					"versionId": "fbe7e96c-ad99-434e-b9cd-91a0049a7786",
+					"lastUpdated": "2021-10-06T10:03:57.787+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281117004",
+							"display": "Health of the Nation Outcome Scale item 3 - alcohol\/drug problem (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 1,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "1df23af5-505e-496f-b4e9-112a50468507"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:48bb8c5c-ea40-4685-8cba-5063aba4c5b0",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-ParticipationInSociety"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "29f4a0af-3efe-4752-8993-e86ca76c76e5"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10033"
+						}
+					],
+					"versionId": "7ece0fbc-2423-436a-9ec2-0505d94f6f79",
+					"lastUpdated": "2021-10-06T10:03:58.095+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "314845004",
+							"display": "Status van participatie van pati\u00ebnt (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "365469004",
+									"display": "Bevinding betreffende netwerk van gezin, familie en ondersteuners (bevinding)"
+								}
+							]
+						},
+						"valueString": "Hechte band met echtgenote en dochter, daarbuiten beperkt sociaal contact met collega's en buren. Geen contact meer met eigen familie (ouders, twee broers)"
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "405081003",
+									"display": "Vrijetijdsgedrag (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueString": "O.a. lezen en gitaar spelen maar komt hier wegens drukke baan weinig aan toe"
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "364703007",
+									"display": "Arbeidssituatie (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueString": "Senior ICT software ontwikkelaar, stuurt team van 10 junior collega's aan als enige senior, ervaart hierdoor veel druk"
+					}
+				],
+				"id": "48bb8c5c-ea40-4685-8cba-5063aba4c5b0"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:feaa1f5e-38b9-47ae-8531-c0e5e2fe7d06",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10006"
+						}
+					],
+					"versionId": "eec67a2c-8650-491c-be08-663790d687ec",
+					"lastUpdated": "2021-10-06T10:03:57.885+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281116008",
+							"display": "Health of the Nation Outcome Scale item 2 - non-accidental self injury (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "feaa1f5e-38b9-47ae-8531-c0e5e2fe7d06"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:4debbb73-4740-4515-8489-2f82693574f8",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10008"
+						}
+					],
+					"versionId": "d5f653f5-749e-4566-ac02-e9a504c0f6f5",
+					"lastUpdated": "2021-10-06T10:03:57.835+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281118009",
+							"display": "Health of the Nation Outcome Scale item 4 - cognitive problems (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 0,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "4debbb73-4740-4515-8489-2f82693574f8"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5ba4863b-ce0e-4b7e-87de-12c4dd66c73a",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10005"
+						}
+					],
+					"versionId": "83d2dcf7-c93c-497d-934a-1179fc8d5af5",
+					"lastUpdated": "2021-10-06T10:03:57.796+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281115007",
+							"display": "Health of the Nation Outcome Scale item 1 - aggressive\/disruptive behavior (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "5ba4863b-ce0e-4b7e-87de-12c4dd66c73a"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:71b1d649-b320-433d-8b49-7ff56918ff6e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9c214fcb-61df-4128-bab7-b466998943b6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10023"
+						}
+					],
+					"versionId": "b894242c-a43b-4f52-bf34-9a118e6d34ac",
+					"lastUpdated": "2021-10-06T10:03:54.544+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "275711006",
+								"display": "Klinische chemie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "718-7",
+							"display": "Hemoglobine"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-27T22:00:00+01:00",
+				"valueQuantity": {
+					"value": 11.5,
+					"unit": "mmol\/L",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mmol\/L"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "http:\/\/hl7.org\/fhir\/v2\/0078",
+							"code": "L",
+							"display": "Low"
+						},
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281300000",
+							"display": "Onder referentiewaarde"
+						}
+					]
+				},
+				"specimen": {
+					"reference": "http:\/\/fhircore:4080\/Specimen\/ggz-specimen-Bloed",
+					"display": "Materiaal: bloed"
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 12,
+							"unit": "mmol\/L",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						},
+						"high": {
+							"value": 16,
+							"unit": "mmol\/L",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						}
+					}
+				],
+				"id": "71b1d649-b320-433d-8b49-7ff56918ff6e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:a855764f-6668-4426-824a-33a9c6f1da87",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10014"
+						}
+					],
+					"versionId": "742a2abc-7d35-4ecf-8de9-d5985d97d84a",
+					"lastUpdated": "2021-10-06T10:03:54.421+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281124003",
+							"display": "Health of the Nation Outcome Scale item 10 - activities of daily living (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 2,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "a855764f-6668-4426-824a-33a9c6f1da87"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:cdb701fc-8d53-43d3-a23e-7acd7b11a130",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10009"
+						}
+					],
+					"versionId": "daa60085-b93a-4d02-abc1-05ffe5970206",
+					"lastUpdated": "2021-10-06T10:03:54.390+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281119001",
+							"display": "Health of the Nation Outcome Scale item 5 - physical illness\/disability (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 1,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "cdb701fc-8d53-43d3-a23e-7acd7b11a130"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:30726b1b-55c6-4263-a3b0-1b9482b5330e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10017"
+						}
+					],
+					"versionId": "932655ac-8fbe-4bba-b7ea-5ae0994b4f47",
+					"lastUpdated": "2021-10-06T10:03:54.297+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281113000",
+							"display": "Health of the Nation Outcome Scale - summated (generic version) (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 24,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "30726b1b-55c6-4263-a3b0-1b9482b5330e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:b1366a97-6023-4f13-b4e9-cc45369eeb49",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10018"
+						}
+					],
+					"versionId": "3fc6ddaa-9c2c-4f63-8d39-d374c42f52d6",
+					"lastUpdated": "2021-10-06T10:03:54.392+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "273513009",
+							"display": "Health of the Nation Outcome Scale (generic version) (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"related": [
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10005",
+							"display": "Health of the Nation Outcome Scale item 1 - aggressive\/disruptive behavior (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10006",
+							"display": "Health of the Nation Outcome Scale item 2 - non-accidental self injury (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10007",
+							"display": "Health of the Nation Outcome Scale item 3 - alcohol\/drug problem (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10008",
+							"display": "Health of the Nation Outcome Scale item 4 - cognitive problems (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10009",
+							"display": "Health of the Nation Outcome Scale item 5 - physical illness\/disability (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10010",
+							"display": "Health of the Nation Outcome Scale item 6 - hallucinations\/delusions (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10011",
+							"display": "Health of the Nation Outcome Scale item 7 - depressed mood (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10012",
+							"display": "Health of the Nation Outcome Scale item 8 - other mental\/behavioral problems (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10013",
+							"display": "Health of the Nation Outcome Scale item 9 - relationship problems (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10014",
+							"display": "Health of the Nation Outcome Scale item 10 - activities of daily living (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10015",
+							"display": "Health of the Nation Outcome scale item 11 - living conditions (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10016",
+							"display": "Health of the Nation Outcomes scale item 12 - occupation\/activities (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10017",
+							"display": "Health of the Nation Outcome Scale - summated (generic version) (assessment scale)"
+						}
+					}
+				],
+				"id": "b1366a97-6023-4f13-b4e9-cc45369eeb49"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5a616d45-ced8-4ce3-be2b-3ef22105cedd",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10013"
+						}
+					],
+					"versionId": "20e90fc6-640a-4f63-94b1-dcd520f4051b",
+					"lastUpdated": "2021-10-06T10:03:54.383+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281123009",
+							"display": "Health of the Nation Outcome Scale item 9 - relationship problems (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 3,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "5a616d45-ced8-4ce3-be2b-3ef22105cedd"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:b4b360f1-f1ef-41cd-a49b-e7498a10d4e4",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10015"
+						}
+					],
+					"versionId": "668f2633-1581-430e-9f4f-9b386bff3b82",
+					"lastUpdated": "2021-10-06T10:03:54.298+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281125002",
+							"display": "Health of the Nation Outcome scale item 11 - living conditions (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 0,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "b4b360f1-f1ef-41cd-a49b-e7498a10d4e4"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:f223f90e-30ab-4fbe-a9ca-2efd10431e41",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10016"
+						}
+					],
+					"versionId": "cd64ccac-a70f-40e3-8dad-d1e5834aa804",
+					"lastUpdated": "2021-10-06T10:03:54.249+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281126001",
+							"display": "Health of the Nation Outcomes scale item 12 - occupation\/activities (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 1,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "f223f90e-30ab-4fbe-a9ca-2efd10431e41"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:9960c0d1-9a80-4314-80a2-d95a18fdbfef",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10011"
+						}
+					],
+					"versionId": "d445a30b-7a5e-479d-a797-c38f39eab1d0",
+					"lastUpdated": "2021-10-06T10:03:54.198+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281121006",
+							"display": "Health of the Nation Outcome Scale item 7 - depressed mood (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "9960c0d1-9a80-4314-80a2-d95a18fdbfef"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:7c0932e3-5f93-4d2e-ab93-ec00754bd0df",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10010"
+						}
+					],
+					"versionId": "01d2cb1a-8ab7-4f44-aada-505f1fcc1a54",
+					"lastUpdated": "2021-10-06T10:03:54.117+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "81120007",
+							"display": "Health of the Nation Outcome Scale item 6 - hallucinations\/delusions (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 0,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "7c0932e3-5f93-4d2e-ab93-ec00754bd0df"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:65292965-cd76-4a09-9a21-b6c0bfb92837",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10012"
+						}
+					],
+					"versionId": "fb12f086-37de-49fc-954f-58ac126c4f4f",
+					"lastUpdated": "2021-10-06T10:03:54.072+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281122004",
+							"display": "Health of the Nation Outcome Scale item 8 - other mental\/behavioral problems (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "65292965-cd76-4a09-9a21-b6c0bfb92837"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:12959180-2623-43f5-9793-a5632462f44e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-TobaccoUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "87a102d3-85b1-4924-99d1-d4d85e2d4185"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10004"
+						}
+					],
+					"versionId": "92da2135-61cc-4790-825f-c501d6297049",
+					"lastUpdated": "2021-10-06T10:03:52.027+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365980008",
+							"display": "Bevinding betreffende tabakgebruik en blootstelling aan tabaksrook (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "1981-05-26T00:00:00+02:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "449868002",
+							"display": "Rookt dagelijks"
+						}
+					]
+				},
+				"comment": "Echtgenote rookt ook",
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "53661000146106",
+									"display": "Type of tobacco used (observable entity)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "65568007",
+									"display": "Rookt sigaretten"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "266918002",
+									"display": "Tobacco smoking consumption (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 5,
+							"unit": "sigaretten per dag",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{sigarets}\/d"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "401201003",
+									"display": "Pakjaren (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 10,
+							"unit": "PackYears",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{PackYears}"
+						}
+					}
+				],
+				"id": "12959180-2623-43f5-9793-a5632462f44e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:903c8f2e-052b-499e-bc16-f9497e35cc60",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9c214fcb-61df-4128-bab7-b466998943b6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10025"
+						}
+					],
+					"versionId": "b66fec52-f9f0-4f98-a5bb-752db67f7738",
+					"lastUpdated": "2021-10-06T10:03:51.959+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "275711006",
+								"display": "Klinische chemie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "24360-0",
+							"display": "hemoglobine and hematocriet panel"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-27T22:00:00+01:00",
+				"specimen": {
+					"reference": "http:\/\/fhircore:4080\/Specimen\/ggz-specimen-Bloed",
+					"display": "Materiaal: bloed"
+				},
+				"related": [
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10023",
+							"display": "Hemoglobine"
+						}
+					},
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10024",
+							"display": "Hematocriet"
+						}
+					}
+				],
+				"id": "903c8f2e-052b-499e-bc16-f9497e35cc60"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:fbdf683d-7748-451d-b79c-d85d1d2571cc",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-DrugUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "be5d548b-0b9e-4961-9699-d1070ac460f4"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10019"
+						}
+					],
+					"versionId": "0e5c6320-c53b-471b-ab30-6260aa2a8311",
+					"lastUpdated": "2021-10-06T10:03:51.903+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228366006",
+							"display": "Bevinding betreffende drugsgebruik (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "1981-05-26T00:00:00+02:00",
+					"end": "2000-05-26T00:00:00+02:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "44870007",
+							"display": "heeft in het verleden drugs gebruikt"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410942007",
+									"display": "Drug of geneesmiddel (substantie)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "398705004",
+									"display": "Cannabis (substance)"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410675002",
+									"display": "Toedieningsweg (attribuut)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "62",
+									"display": "INHALATIE"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "228390007",
+									"display": "Frequency of drug misuse (observable entity)"
+								}
+							]
+						},
+						"valueString": "1 keer per dag"
+					}
+				],
+				"id": "fbdf683d-7748-451d-b79c-d85d1d2571cc"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:4ad7bc15-061a-4b91-a382-e34710018b28",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9c214fcb-61df-4128-bab7-b466998943b6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10024"
+						}
+					],
+					"versionId": "4c0ab037-6a76-43c0-9e7e-29aa36a3ec03",
+					"lastUpdated": "2021-10-06T10:03:51.847+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "275711006",
+								"display": "Klinische chemie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "20570-8",
+							"display": "Hematocriet"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-27T22:00:00+01:00",
+				"valueQuantity": {
+					"value": 45,
+					"unit": "%",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "%"
+				},
+				"specimen": {
+					"reference": "http:\/\/fhircore:4080\/Specimen\/ggz-specimen-Bloed",
+					"display": "Materiaal: bloed"
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 39,
+							"unit": "%",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "%"
+						},
+						"high": {
+							"value": 51,
+							"unit": "%",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "%"
+						}
+					}
+				],
+				"id": "4ad7bc15-061a-4b91-a382-e34710018b28"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ea57f34f-6ec0-44b7-9a71-019e1cd6aa39",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AlcoholUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "04d15021-98ac-455a-8639-bc00924def59"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10000"
+						}
+					],
+					"versionId": "d7093314-6c42-4b8f-a0ac-d9051adc37ae",
+					"lastUpdated": "2021-10-06T10:03:51.757+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228273003",
+							"display": "Bevinding betreffende alcoholgebruik (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "1981-05-26T00:00:00+02:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "219006",
+							"display": "Drinkt alcohol"
+						}
+					]
+				},
+				"comment": "Borrel voor het slapen gaan",
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "160573003",
+									"display": "Inname van alcohol (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 1,
+							"unit": "eenheid per dag",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{eenheid}\/d"
+						}
+					}
+				],
+				"id": "ea57f34f-6ec0-44b7-9a71-019e1cd6aa39"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:613c6a9b-2a1f-4684-9dde-e2bfa570fd06",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FunctionalOrMentalStatus"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "3b8145ac-4613-4320-bc21-247a8ad48943"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10021"
+						}
+					],
+					"versionId": "1fad2d3a-e3d3-4328-8cb2-09f097858da9",
+					"lastUpdated": "2021-10-06T10:03:51.650+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "384821006",
+								"display": "Bevinding betreffende mentale toestand, gedrag en\/of psychosociaal functioneren (bevinding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365364005",
+							"display": "Gevaarlijke gedachten weerstaan"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "2020-11-22T00:00:00+01:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "285254009",
+							"display": "Moeite met gevaarlijke gedachten weerstaan"
+						}
+					]
+				},
+				"id": "613c6a9b-2a1f-4684-9dde-e2bfa570fd06"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:67320dc7-6270-42a7-9239-00ddec50642c",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FunctionalOrMentalStatus"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "3b8145ac-4613-4320-bc21-247a8ad48943"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10022"
+						}
+					],
+					"versionId": "81922a0c-992b-4dc6-834b-2f1dbd367cd6",
+					"lastUpdated": "2021-10-06T10:03:51.641+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "384821006",
+								"display": "Bevinding betreffende mentale toestand, gedrag en\/of psychosociaal functioneren (bevinding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365364005",
+							"display": "Gevaarlijke gedachten weerstaan"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "2020-11-27T00:00:00+01:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "285252008",
+							"display": "Niet in staat om gevaarlijke gedachten te weerstaan"
+						}
+					]
+				},
+				"id": "67320dc7-6270-42a7-9239-00ddec50642c"
 			}
 		}
 	]
