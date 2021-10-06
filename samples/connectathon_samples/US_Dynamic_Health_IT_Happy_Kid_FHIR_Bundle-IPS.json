@@ -52,9 +52,9 @@
                             ]
                         },
                         "text": {
-                            "status": "generated",                           
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Allergy Name</b>: Ampicillin</div><div><b>Code</b>: <span>387170002</span></div><div><b>Start Date</b>: <span>2014-12-01</span></div><div><b>Reaction</b>: <span>Hives</span></div><div><b>Severity</b>: Moderate</div><div><b>Recorder</b>: Dr Albert Davis</div></li><li><div><b>Allergy Name</b>: Penicillin G</div><div><b>Code</b>: <span>323389000</span></div><div><b>Start Date</b>: <span>2013-12-01</span></div><div><b>Reaction</b>: <span>Hives</span></div><div><b>Severity</b>: Moderate</div><div><b>Recorder</b>: Dr Albert Davis</div></li></ul></div>"
-                          },
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Allergy Name</b>: Ampicillin</div><div><b>Code</b>: <span>387170002</span></div><div><b>Start Date</b>: <span>2014-12-01</span></div><div><b>Reaction</b>: <span>Hives</span></div><div><b>Severity</b>: Moderate</div><div><b>Recorder</b>: Dr Albert Davis</div></li><li><div><b>Allergy Name</b>: Penicillin G</div><div><b>Code</b>: <span>323389000</span></div><div><b>Start Date</b>: <span>2013-12-01</span></div><div><b>Reaction</b>: <span>Hives</span></div><div><b>Severity</b>: Moderate</div><div><b>Recorder</b>: Dr Albert Davis</div></li></ul></div>"
+                        },
                         "entry": [
                             {
                                 "reference": "AllergyIntolerance/200017-AllergyIntolerance-10001"
@@ -127,9 +127,9 @@
                             ]
                         },
                         "text": {
-              "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Immunization Name</b>: Tetanus and diphtheria toxoids</div><div><b>Code</b>: <span>2031000221103</span></div><div><b>Date</b>: <span>2013-09-01</span></div><div><b>Manufacturer</b>: <span>Immuno Inc.</span></div><div><b>Lot</b>: <span>2</span></div></li><li><div><b>Immunization Name</b>: Influenza, intradermal, quadrivalent, preservative free</div><div><b>Code</b>: <span>836377006</span></div><div><b>Date</b>: <span>2014-06-01</span></div><div><b>Manufacturer</b>: <span>Immuno Inc.</span></div><div><b>Lot</b>: <span></span></div></li></ul></div>"
-            },
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Immunization Name</b>: Tetanus and diphtheria toxoids</div><div><b>Code</b>: <span>2031000221103</span></div><div><b>Date</b>: <span>2013-09-01</span></div><div><b>Manufacturer</b>: <span>Immuno Inc.</span></div><div><b>Lot</b>: <span>2</span></div></li><li><div><b>Immunization Name</b>: Influenza, intradermal, quadrivalent, preservative free</div><div><b>Code</b>: <span>836377006</span></div><div><b>Date</b>: <span>2014-06-01</span></div><div><b>Manufacturer</b>: <span>Immuno Inc.</span></div><div><b>Lot</b>: <span></span></div></li></ul></div>"
+                        },
                         "entry": [
                             {
                                 "reference": "Immunization/200017-Immunization-10001"
@@ -187,10 +187,10 @@
                     ]
                 },
                 "language": "English- [en-US]",
-        "text": {
-            "status": "generated",
-            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><b>Patient Name: </b>: Happy Always Always Kid</div><div><b>Medical Record Number</b>: <span>fhir_test_01</span></div><div><b>Telecom</b>: <span>555-777-1234</span></div><div><b>Email</b>: <span>happykid@gmail.com</span></div><div><b>Gender</b>: female</div><div><b>BirthDate</b>: 2013-06-01</div><div><b>Address</b>: 1357, Amber Dr, Beaverton OR 97006</div></div>"
-          },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><b>Patient Name: </b>: Happy Always Always Kid</div><div><b>Medical Record Number</b>: <span>fhir_test_01</span></div><div><b>Telecom</b>: <span>555-777-1234</span></div><div><b>Email</b>: <span>happykid@gmail.com</span></div><div><b>Gender</b>: female</div><div><b>BirthDate</b>: 2013-06-01</div><div><b>Address</b>: 1357, Amber Dr, Beaverton OR 97006</div></div>"
+                },
                 "extension": [
                     {
                         "extension": [
@@ -436,9 +436,7 @@
                     "reference": "Patient/101304",
                     "display": "Happy Kid"
                 },
-                "onsetPeriod": {
-                    "start": "2014-12-01"
-                },
+                "onsetDateTime": "2014-12-01",
                 "recorder": {
                     "reference": "Practitioner/200017-Practitioner-10001",
                     "display": "Dr Albert Davis"
@@ -518,9 +516,7 @@
                     "reference": "Patient/101304",
                     "display": "Happy Kid"
                 },
-                "onsetPeriod": {
-                    "start": "2013-12-01"
-                },
+                "onsetDateTime": "2013-12-01",
                 "recorder": {
                     "reference": "Practitioner/200017-Practitioner-10001",
                     "display": "Dr Albert Davis"
@@ -679,7 +675,7 @@
             }
         },
         {
-              "fullUrl": "MedicationStatement/200017-MedicationStatement-10001",
+            "fullUrl": "MedicationStatement/200017-MedicationStatement-10001",
             "resource": {
                 "resourceType": "MedicationStatement",
                 "id": "200017-MedicationStatement-10001",
@@ -696,7 +692,7 @@
                 "category": {
                     "coding": [
                         {
-                            "system": "http://hl7.org/fhir/ValueSet/medication-statement-category",
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
                             "code": "outpatient",
                             "display": "Outpatient"
                         }
@@ -742,7 +738,7 @@
             }
         },
         {
-              "fullUrl": "MedicationStatement/200017-MedicationStatement-10002",
+            "fullUrl": "MedicationStatement/200017-MedicationStatement-10002",
             "resource": {
                 "resourceType": "MedicationStatement",
                 "id": "200017-MedicationStatement-10002",
@@ -759,7 +755,7 @@
                 "category": {
                     "coding": [
                         {
-                            "system": "http://hl7.org/fhir/ValueSet/medication-statement-category",
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
                             "code": "outpatient",
                             "display": "Outpatient"
                         }
@@ -805,7 +801,7 @@
             }
         },
         {
-              "fullUrl": "MedicationStatement/200017-MedicationStatement-10003",
+            "fullUrl": "MedicationStatement/200017-MedicationStatement-10003",
             "resource": {
                 "resourceType": "MedicationStatement",
                 "id": "200017-MedicationStatement-10003",
@@ -822,7 +818,7 @@
                 "category": {
                     "coding": [
                         {
-                            "system": "http://hl7.org/fhir/ValueSet/medication-statement-category",
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
                             "code": "outpatient",
                             "display": "Outpatient"
                         }
@@ -888,19 +884,14 @@
                 "status": "completed",
                 "vaccineCode": {
                     "coding": [
-            {
+                        {
                             "system": "http://snomed.info/sct",
-                            "code": "2031000221103",
+                            "code": "350327004",
                             "display": "Adult diphtheria and tetanus toxoids vaccine"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
                             "code": "106",
-                            "display": "Tetanus and diphtheria toxoids"
-                        },
-                        {
-                            "system": "http://hl7.org/fhir/sid/ndc",
-                            "code": "49281-0286-01",
                             "display": "Tetanus and diphtheria toxoids"
                         }
                     ]
@@ -954,19 +945,14 @@
                 },
                 "vaccineCode": {
                     "coding": [
-            {
+                        {
                             "system": "http://snomed.info/sct",
-                            "code": "836377006",
+                            "code": "443651005",
                             "display": "Influenza, intradermal, quadrivalent, preservative free"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
                             "code": "166",
-                            "display": "Influenza, intradermal, quadrivalent, preservative free"
-                        },
-                        {
-                            "system": "http://hl7.org/fhir/sid/ndc",
-                            "code": "49281-0710-40",
                             "display": "Influenza, intradermal, quadrivalent, preservative free"
                         }
                     ]
@@ -1192,7 +1178,7 @@
                     {
                         "coding": [
                             {
-                                "system": "http://hl7.org/fhir/v2/0078",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
                                 "code": "N",
                                 "display": "Normal"
                             }
@@ -1265,7 +1251,7 @@
                     {
                         "coding": [
                             {
-                                "system": "http://hl7.org/fhir/v2/0078",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
                                 "code": "N",
                                 "display": "Normal"
                             }
@@ -1279,190 +1265,145 @@
                     }
                 ]
             }
-          },
-          {
-              "fullUrl": "Encounter/200017-Encounter-10001",
-              "resource": {
-                  "resourceType": "Encounter",
-                  "id": "200017-Encounter-10001",
-                  "meta": {
-                      "versionId": "R4",
-                      "profile": [
-                          "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
-                      ]
-                  },
-                  "identifier": [
-                      {
-                          "use": "official",
-                          "system": "urn:ietf:rfc:3986",
-                          "value": "urn:uuid:997c89a4-732e-46d9-9370-4e7b54ca9e8e"
-                      }
-                  ],
-                  "status": "finished",
-                  "class": {
-                      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-                      "code": "AMB",
-                      "display": "Ambulatory"
-                  },
-                  "type": [
-                      {
-                          "coding": [
-                              {
-                                  "system": "http://www.ama-assn.org/go/cpt",
-                                  "code": "99213",
-                                  "display": "Office outpatient visit"
-                              }
-                          ],
-                          "text": "Office outpatient visit"
-                      }
-                  ],
-                  "subject": {
-                      "reference": "Patient/101304"
-                  },
-                  "participant": [
-                      {
-                          "type": [
-                              {
-                                  "coding": [
-                                      {
-                                          "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                                          "code": "PPRF"
-                                      }
-                                  ],
-                                  "text": "primary performer"
-                              }
-                          ],
-                          "period": {
-                              "start": "2015-06-22"
-                          },
-                          "individual": {
-                              "reference": "Practitioner/200017-Practitioner-10001",
-                              "display": "."
-                          }
-                      }
-                  ],
-                  "period": {
-                      "start": "2015-06-22"
-                  },
-                  "reasonCode": [
-                      {
-                          "coding": [
-                              {
-                                  "system": "http://snomed.info/sct",
-                                  "code": "386661006",
-                                  "display": "Fever"
-                              }
-                          ],
-                          "text": "Fever"
-                      }
-                  ],
-                  "hospitalization": {
-                      "dischargeDisposition": {
-                          "coding": [
-                              {
-                                  "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
-                                  "code": "oth"
-                              }
-                          ]
-                      }
-                  },
-                  "serviceProvider": {
-                      "reference": "Organization/200017-Organization-10001",
-                      "display": "Neighborhood Physicians Practice"
-                  }
-              }
-          },
-          {
-              "fullUrl": "Organization/200017-Organization-10001",
-              "resource": {
-                  "resourceType": "Organization",
-                  "id": "200017-Organization-10001",
-                  "meta": {
-                      "versionId": "200017",
-                      "profile": [
-                          "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
-                      ]
-                  },
-                  "text": {
-                      "status": "generated",
-                      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <div>\r\n    <h2 style=\"color: black;\">Generated Narrative with Details</h2>\r\n    <p></p>\r\n  </div>\r\n  <div>\r\n    <h1>Organizational Details</h1>\r\n    <table>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Name: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Neighborhood Physicians Practice</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Telecom: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span></span>\r\n        </td>\r\n      </tr>\r\n    </table>\r\n  </div>\r\n</div>"
-                  },
-                  "identifier": [
-                      {
-                          "use": "official",
-                          "system": "urn:ietf:rfc:3986",
-                          "value": "urn:uuid:c4355334-ec73-4a62-b7c3-2798080b344e"
-                      }
-                  ],
-                  "active": true,
-                  "name": "Neighborhood Physicians Practice",
-                  "telecom": [
-                      {
-                          "system": "phone",
-                          "value": "555-555-1002",
-                          "use": "work"
-                      }
-                  ],
-                  "address": [
-                      {
-                          "use": "work",
-                          "type": "both",
-                          "line": [
-                              "2472 Rocky place"
-                          ],
-                          "city": "Beaverton",
-                          "state": "OR",
-                          "postalCode": "97006"
-                      }
-                  ]
-              }
-          },
-          {
-              "fullUrl": "Practitioner/200017-Practitioner-10001",
-              "resource": {
-                  "resourceType": "Practitioner",
-                  "id": "200017-Practitioner-10001",
-                  "meta": {
-                      "versionId": "200017",
-                      "profile": [
-                          "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
-                      ]
-                  },
-                  "identifier": [
-                      {
-                          "use": "official",
-                          "system": "http://hl7.org/fhir/sid/us-npi",
-                          "value": "1004567891"
-                      }
-                  ],
-                  "name": [
-                      {
-                          "use": "usual",
-                          "text": "Davis Albert Dr",
-                          "family": "Albert",
-                          "given": [
-                              "Davis"
-                          ],
-                          "suffix": [
-                              "Dr"
-                          ]
-                      }
-                  ],
-                  "address": [
-                      {
-                          "use": "work",
-                          "type": "both",
-                          "line": [
-                              "2472 Rocky place"
-                          ],
-                          "city": "Beaverton",
-                          "state": "OR",
-                          "postalCode": "97006",
-                          "country": "USA"
-                      }
-                  ],
-                  "gender": "unknown"
-              }
+        },
+        {
+            "fullUrl": "Encounter/200017-Encounter-10001",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "200017-Encounter-10001",
+                "meta": {
+                    "versionId": "R4",
+                    "profile": [
+                        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:997c89a4-732e-46d9-9370-4e7b54ca9e8e"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB",
+                    "display": "Ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://www.ama-assn.org/go/cpt",
+                                "code": "99213",
+                                "display": "Office outpatient visit"
+                            }
+                        ],
+                        "text": "Office outpatient visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/101304"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "code": "PPRF"
+                                    }
+                                ],
+                                "text": "primary performer"
+                            }
+                        ],
+                        "period": {
+                            "start": "2015-06-22"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/200017-Practitioner-10001",
+                            "display": "."
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2015-06-22"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "386661006",
+                                "display": "Fever"
+                            }
+                        ],
+                        "text": "Fever"
+                    }
+                ],
+                "hospitalization": {
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
+                                "code": "oth"
+                            }
+                        ]
+                    }
+                },
+                "serviceProvider": {
+                    "reference": "Organization/200017-Organization-10001",
+                    "display": "Neighborhood Physicians Practice"
+                }
+            }
+        },
+        {
+            "fullUrl": "Practitioner/200017-Practitioner-10001",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "200017-Practitioner-10001",
+                "meta": {
+                    "versionId": "200017",
+                    "profile": [
+                        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1004567891"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "usual",
+                        "text": "Davis Albert Dr",
+                        "family": "Albert",
+                        "given": [
+                            "Davis"
+                        ],
+                        "suffix": [
+                            "Dr"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "2472 Rocky place"
+                        ],
+                        "city": "Beaverton",
+                        "state": "OR",
+                        "postalCode": "97006",
+                        "country": "USA"
+                    }
+                ],
+                "gender": "unknown"
+            }
         }
     ]
-  }
+}
