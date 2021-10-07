@@ -171,8 +171,14 @@
                     console.log(patient)
                     render("Patient", patient, "Patient");
                 }
+                alertMissingComposition = false;
                 composition.section.forEach(function(section) {
-                    if (section.code.coding[0].code == "11450-4") {
+                    if (!section || !section.code || !section.code.coding || !section.code.coding[0]) 
+                    {
+                        alertMissingComposition = true;
+                        console.log('Section is missing coding information');
+                    }
+                    else if (section.code.coding[0].code == "11450-4") {
                         console.log('Problems Section');
                         section.problems = [];
                         section.entry.forEach(function(problem) {
@@ -182,7 +188,7 @@
                         render("Problems", section, "Problems");
                     }
 
-                    if (section.code.coding[0].code == "48765-2") {
+                    else if (section.code.coding[0].code == "48765-2") {
                         console.log('Allergies Section');
                         section.allergies = [];
                         section.entry.forEach(function(allergy) {
@@ -195,7 +201,7 @@
                         render("Allergies", section, "Allergies");
                     }
 
-                    if (section.code.coding[0].code == "10160-0") {
+                    else if (section.code.coding[0].code == "10160-0") {
                         console.log('Medications Section');
                         section.medications = [];
                         section.entry.forEach(function(medication) { 
@@ -214,7 +220,7 @@
                         });
                         render("Medications", section, "Medications");
                     }
-                    if (section.code.coding[0].code == "11369-6") {
+                    else if (section.code.coding[0].code == "11369-6") {
                         console.log('Immunizations Section');
                         section.immunizations = [];
                         section.entry.forEach(function(immunization) {
@@ -223,7 +229,7 @@
                         });
                         render("Immunizations", section, "Immunizations");
                     }
-                    if (section.code.coding[0].code == "30954-2") {
+                    else if (section.code.coding[0].code == "30954-2") {
                         console.log('Observations Section');
                         section.observations = [];
                         section.entry.forEach(function(observation) {
@@ -233,6 +239,7 @@
                         render("Observations", section, "Observations");
                     }
                 });
+            if (alertMissingComposition) alert('Missing coding information in Composition resource. Rendering may be incomplete.')
             }
         });
     };
