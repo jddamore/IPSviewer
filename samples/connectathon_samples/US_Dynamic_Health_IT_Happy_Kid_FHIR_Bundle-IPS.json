@@ -30,7 +30,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "Patient/101304"
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
                 },
                 "date": "2021-10-02T17:59:47.953Z",
                 "author": [
@@ -176,7 +176,7 @@
             }
         },
         {
-            "fullUrl": "Patient/101304",
+            "fullUrl": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
             "resource": {
                 "resourceType": "Patient",
                 "id": "101304",
@@ -320,19 +320,6 @@
                             "end": "2011-01-01"
                         }
                     }
-                ],
-                "communication": [
-                    {
-                        "language": {
-                            "coding": [
-                                {
-                                    "code": "en-US",
-                                    "display": "English (Region=United States)"
-                                }
-                            ],
-                            "text": "English (Region=United States)"
-                        }
-                    }
                 ]
             }
         },
@@ -433,7 +420,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "onsetDateTime": "2014-12-01",
@@ -513,7 +500,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "onsetDateTime": "2013-12-01",
@@ -598,7 +585,7 @@
                     "text": "Hypo Plastic Left Heart Syndrome"
                 },
                 "subject": {
-                    "reference": "Patient/101304"
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
                 },
                 "onsetDateTime": "2013-06-01",
                 "asserter": {
@@ -661,13 +648,12 @@
                         {
                             "system": "http://snomed.info/sct",
                             "code": "386661006",
-                            "display": "FEVER"
+                            "display": "Fever (finding)"
                         }
-                    ],
-                    "text": "Fever"
+                    ]
                 },
                 "subject": {
-                    "reference": "Patient/101304"
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
                 },
                 "encounter": {
                     "reference": "Encounter/200017-Encounter-10001"
@@ -709,7 +695,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectivePeriod": {
@@ -772,7 +758,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectivePeriod": {
@@ -835,7 +821,7 @@
                     ]
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectivePeriod": {
@@ -897,7 +883,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "occurrenceDateTime": "2013-09-01T00:00:00-05:00",
@@ -958,7 +944,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "occurrenceDateTime": "2014-06-01T00:00:00-05:00",
@@ -1014,7 +1000,7 @@
                     "text": "HGB"
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectiveDateTime": "2015-06-22",
@@ -1064,7 +1050,7 @@
                     "text": "WBC"
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectiveDateTime": "2015-06-22",
@@ -1114,7 +1100,7 @@
                     "text": "PLT"
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectiveDateTime": "2015-06-22",
@@ -1164,7 +1150,7 @@
                     "text": "Everolimus [Mass/volume] in Blood"
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectiveDateTime": "2015-06-22",
@@ -1241,7 +1227,7 @@
                     "text": "Color of Urine"
                 },
                 "subject": {
-                    "reference": "Patient/101304",
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
                     "display": "Happy Kid"
                 },
                 "effectiveDateTime": "2015-06-22",
@@ -1303,7 +1289,7 @@
                     }
                 ],
                 "subject": {
-                    "reference": "Patient/101304"
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
                 },
                 "participant": [
                     {
