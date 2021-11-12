@@ -28,7 +28,7 @@ By default, app will start with HTTP hosting to localhost. If you want to serve 
 
 Maintenance of this repository is provided by John D'Amore, MS (github: jddamore). The hosting of the online version is provided by More Informatics, Inc.
 
-This viewer is based on previous work from IPS-Argentina (https://github.com/SALUD-AR/IPS-Argentina). Credit to Diego Kaminker and Fernando Campos for their prior work. Thanks to Rob Hausam for providing the first sample for testing the viewer. 
+This viewer is based on previous work from IPS-Argentina (https://github.com/SALUD-AR/IPS-Argentina). Credit to Alejandro Lopez Osornio, Diego Kaminker and Fernando Campos for their prior work. Thanks to Rob Hausam for providing the first sample for testing the viewer. 
 
 ### LICENSE
 
