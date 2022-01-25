@@ -9,8 +9,10 @@
         <ul class="list-group">
         {{each(options.immunizations)}}
             <li class="list-group-item">
-                <span class="badge badge-primary">{{@this.date}}</span>
-                {{@this.vaccineCode.coding[0].display}}
+                <span><b>{{@this.occurrenceDateTime}}</b></span><br/>
+                {{each(options.immunizations[@index].vaccineCode.coding)}}
+                <span class="badge badge-primary">{{@this.system}}</span> {{@this.display}} ({{@this.code}})<br>
+                {{/each}}
             </li>
         {{/each}}
         </ul>
