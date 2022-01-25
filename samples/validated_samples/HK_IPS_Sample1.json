@@ -1,0 +1,377 @@
+{
+    "resourceType": "Bundle",
+    "id": "IPS-HKG-sample-Bundle-01",
+    "language": "en-US",
+    "identifier": {
+        "system": "https://www.ehealth.gov.hk/bundle",
+        "value": "sample-ips-1"
+    },
+    "type": "document",
+    "timestamp": "2022-01-07T17:59:47.953Z",
+    "entry": [
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/Composition/IPS-Composition-01",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "IPS-Composition-01",
+                "subject": {
+                    "reference": "https://www.ehealth.gov.hk/Patient/00001"
+                },
+                "language": "en-US",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "date": "2022-01-07T17:59:47.953Z",
+                "author": [
+                    {
+                        "reference": "Organization/HKG-EHR"
+                    }
+                ],
+                "title": "International Patient Summary",
+                "section": [
+                    {
+                        "title": "Allergies and Intolerances",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Allergy Name</b>: Cephalosporins</div><div><b>Verification Status</b>: Confirmed</div><div><b>Reaction</b>: <span>Rash</span></div></li><li><div><b>Allergy Name</b>: Seafood</div><div><b>Verification Status</b>: Unconfirmed</div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "AllergyIntolerance/AllergyIntolerance-00001"
+                            },
+                            {
+                                "reference": "AllergyIntolerance/AllergyIntolerance-00002"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Problem List",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Condition Name</b>: Hyperlipidemia</div><div><b>Code</b>: <span>55822004</span></div><div><b>Status</b>: <span>Active</span></div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/Problem-00001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Medication Summary",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Medication Name</b>: No known medications</div><div><b>Code</b>: <span>no-known-medications</span></div><div><b>Status</b>: <span>Active</span></div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "MedicationStatement/MedicationStatement-00001"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/Patient/00001",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "00001",
+                "meta": {
+                    "versionId": "00001",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
+                    ]
+                },
+                "language": "en-US",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\" xml:lang=\"en-US\"><div><b>Patient Name: </b>: PATIENT, PEACH</div><div><b>Sex</b>: Male</div><div><b>BirthDate</b>: 1951-01-01</div>"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "value": "U6547890"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "usual",
+                        "text": "PATIENT, PEACH",
+                        "family": "PATIENT",
+                        "given": [
+                            "PEACH"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1951-01-01"
+            }
+        },
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/Organization/HKG-EHR",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "HKG-EHR",
+                "meta": {
+                    "versionId": "00001",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><b>Organization Name: Electronic Health Record Sharing System</b></div>"
+                },
+                "active": true,
+                "name": "Electronic Health Record Sharing System",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "3467-6300",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "Unit 1193, 11/F, Kowloonbay International Trade & Exhibition Centre"
+                        ],
+                        "country": "Hong Kong"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/AllergyIntolerance/AllergyIntolerance-00001",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "AllergyIntolerance-00001",
+                "meta": {
+                    "versionId": "00001",
+                    "lastUpdated": "2022-01-07T17:59:47.953Z",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "type": "allergy",
+                "patient": {
+                    "reference": "https://www.ehealth.gov.hk/Patient/00001",
+                    "display": "PATIENT, PEACH"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ],
+                    "text": "active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "confirmed"
+                },
+                "category": [
+                    "medication"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://www.ehealth.gov.hk/Allergy/allergenCode",
+                            "code": "-",
+                            "display": "cephalosporins"
+                        }
+                    ],
+                    "text": "cephalosporins"
+                },
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "271807003",
+                                        "display": "Rash"
+                                    }
+                                ],
+                                "text": "Rash"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/AllergyIntolerance/AllergyIntolerance-00002",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "AllergyIntolerance-00002",
+                "meta": {
+                    "versionId": "00001",
+                    "lastUpdated": "2022-01-07T17:59:47.953Z",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "type": "allergy",	
+                "patient": {
+                    "reference": "https://www.ehealth.gov.hk/Patient/00001",
+                    "display": "PATIENT, PEACH"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ],
+                    "text": "active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "unconfirmed",
+                            "display": "Unconfirmed"
+                        }
+                    ],
+                    "text": "unconfirmed"
+                },
+                "category": [
+                    "food"
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://www.ehealth.gov.hk/Allergy/allergenCode",
+                            "code": "-",
+                            "display": "Seafood"
+                        }
+                    ],
+                    "text": "Seafood"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/Condition/Problem-00001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-00001",
+                "meta": {
+                    "versionId": "00001"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "active"
+                        }
+                    ],
+                    "text": "active"
+                },
+                "category": [
+                    {
+                        "coding": [
+                          {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                            "code": "problem-list-item",
+                            "display": "Problem List Item"
+                        },
+                        {
+                                "system": "http://loinc.org",
+                                "code": "75326-9",
+                                "display": "Problem"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "55822004",
+                            "display": "Hyperlipidemia"
+                        }
+                    ],
+                    "text": "Hyperlipidemia"
+                },
+                "subject": {
+                    "reference": "https://www.ehealth.gov.hk/Patient/00001",
+                    "display": "PATIENT, PEACH"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://www.ehealth.gov.hk/MedicationStatement/MedicationStatement-00001",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "MedicationStatement-00001",
+                "meta": {
+                    "versionId": "00001"
+                },
+                "status": "active",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+                            "code": "no-medication-info",
+                            "display": "No information about medications"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "https://www.ehealth.gov.hk/Patient/00001",
+                    "display": "PATIENT, PEACH"
+                }
+            }
+        }
+    ]
+}
