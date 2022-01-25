@@ -1,0 +1,797 @@
+{
+  "resourceType": "Bundle",
+  "id": "5e83cb00-9d2c-4ab7-ab9a-67d49e519b5e",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "4f03a9fe-8fe4-4303-8417-01d7ce7324aa"
+  },
+  "type": "document",
+  "timestamp": "2022-01-25T02:15:36.560Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:a8940fdd-139b-4c2d-95a7-28146ba8613c",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "a8940fdd-139b-4c2d-95a7-28146ba8613c",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "date": "2022-01-25T02:15:36.560Z",
+        "author": [
+          {
+            "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Allergie/intolerantie. Patiënt: H. Henç Méldërs. Id: 1343 (urn:oid:2.16.528.1.1007.3.3.90000384.231.1), Categorie: <span title=\"allergie voor substantie (419199007 - SNOMED CT)\">allergie voor substantie</span>, Status: actief / <i>onbekend (ontbrekend gegeven)</i></caption><tbody><tr><th>Code</th><td><span title=\"PARACETAMOL (906 - G-Standaard Bestand 750)\">PARACETAMOL</span></td></tr><tr><th>Eerste symptomen</th><td>18 mei 2021</td></tr></tbody></table></div><div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Allergie/intolerantie. Patiënt: OG O.O. Persoon1. Id: ef61e1263243ef3276f06dde345eee32 (urn:oid:2.16.528.1.1007.3.3.90000382.418.3), Categorie: <span title=\"neiging tot ongewenste reactie op geneesmiddel (419511003 - SNOMED CT)\">neiging tot ongewenste reactie op geneesmiddel</span>, Status: actief / <i>onbekend (ontbrekend gegeven)</i></caption><tfoot><tr><td colspan=\"2\">erg duizelig en misselijkheid</td></tr></tfoot><tbody><tr><th>Code</th><td><span title=\"Barbituraten (6 - G-Standaard Tabel 122)\">Barbituraten</span></td></tr><tr><th>Eerste symptomen</th><td>8 mei 2020</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/a7cc5978-ec88-4705-abca-7a636e290278"
+              },
+              {
+                "reference": "AllergyIntolerance/8d8fe1b4-4249-4884-87b0-ef681a9bfad7"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Aandoening. Subject: OG O.O. Persoon1. Categorie: <span title=\"Diagnosis (282291009 - SNOMED CT)\">Diagnosis</span>, Status: actief</caption><tbody><tr><th>Code</th><td><span title=\"Cystitis/blaasontsteking (U71 - sid/icpc-1-nl)\">Cystitis/blaasontsteking</span></td></tr><tr><th>Eerste symptomen</th><td>Vanaf 14 mei 2021</td></tr></tbody></table></div><div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Aandoening. Subject: H. Henç Méldërs. Status: <i>onbekend (ontbrekend gegeven)</i></caption><tbody><tr><th>Code</th><td><span title=\"Diabetes mellitus type 2 (T90.02 - sid/icpc-1-nl)\">Diabetes mellitus type 2</span></td></tr></tbody></table></div><div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Aandoening. Subject: H. Henç Méldërs. Status: <i>onbekend (ontbrekend gegeven)</i></caption><tbody><tr><th>Code</th><td><span title=\"Emfyseem/COPD (R95 - sid/icpc-1-nl)\">Emfyseem/COPD</span></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/22278a38-053c-4409-877b-ed2f5373d48f"
+              },
+              {
+                "reference": "Condition/9181cc77-616b-4f05-b022-82ee268a539f"
+              },
+              {
+                "reference": "Condition/5cda4158-6c6d-48fc-a64e-8843ec3f672b"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Medicatieafspraak. Subject: OG O.O. Persoon1. Id: 6b0bb28ffbde2a84675c26c270dab99b (urn:oid:2.16.528.1.1007.3.3.90000382.418.7), Categorie: <span title=\"Prescription (procedure) (16076005 - SNOMED CT)\">Prescription (procedure)</span>, <span style=\"display: block;\">Intentie: aanvraag</span><span style=\"display: block;\">Aangevraagd door: Marjo Oskam || Testpraktijk TransHis (\"de punisher\")</span></caption><tbody><tr><th>Medicamenteuze behandel-id</th><td> ()</td></tr><tr><th>Context</th><td>Contact ID: dff79f8d4e35fd22c496f1b8a54fa75e 2.16.528.1.1007.3.3.90000382.418.4 (Id: dff79f8d4e35fd22c496f1b8a54fa75e (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Medicatie</th><td>Influenzavaccin (niet gespecificeerd) wwsp 0,5ml</td></tr><tr><th>Gemaakt</th><td>00:00:00, 7 november 2020</td></tr><tr><th>Gebruiksduur</th><td>Vanaf 09:00:00, 7 november 2020</td></tr><tr><th>Doseerinstructie</th><td><div>Volgnummer: 1</div><div>Tekst: Influenzavaccin (niet gespecificeerd) wwsp 0,5ml ,  aan de huisarts afgeven (IMM)</div></td></tr></tbody></table></div><div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Medicatieafspraak. Subject: H. Henç Méldërs. Id: 110964 (urn:oid:2.16.528.1.1007.3.3.90000384.220.1), Categorie: <span title=\"Prescription (procedure) (16076005 - SNOMED CT)\">Prescription (procedure)</span>, <span style=\"display: block;\">Intentie: aanvraag</span><span style=\"display: block;\">Aangevraagd door: Dr. Bernard || Apotheekhoudende huisarts || Promedico ICT B.V. Téstzorginstelling 01</span></caption><tbody><tr><th>Medicamenteuze behandel-id</th><td>110964 (urn:oid:2.16.528.1.1007.3.3.90000384.220.1)</td></tr><tr><th>Context</th><td><ul><li>Episode ID: 337 2.16.528.1.1007.3.3.90000384.145.1 (Id: 337 (urn:oid:2.16.528.1.1007.3.3.90000384.145.1))</li><li>Contact ID: 748 2.16.528.1.1007.3.3.90000384.201.1 (Id: 748 (urn:oid:2.16.528.1.1007.3.3.90000384.201.1))</li></ul></td></tr><tr><th>Medicatie</th><td>METFORMINE 1000MG TABLET</td></tr><tr><th>Gemaakt</th><td>00:00:00, 8 mei 2020</td></tr><tr><th>Reden</th><td>Diabetes mellitus type 2</td></tr><tr><th>Gebruiksduur</th><td><ul><li>Vanaf 00:00:00, 8 mei 2020</li><li>835 dag</li></ul></td></tr><tr><th>Doseerinstructie</th><td><div>Volgnummer: 0</div><div>Tekst: 3 maal per dag 1 tablet.</div><div>Timing: <div>834 dag, 3 maal per dag</div></div><div>Toedieningsweg: <span title=\"ORAAL (9 - G-Standaard thesaurus subtabel 0007)\">ORAAL</span></div><div>Dosering: 1 STUK</div></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationRequest/6009752c-6109-4e10-875f-916366b57672"
+              },
+              {
+                "reference": "MedicationRequest/c8a5005a-578f-48f0-88e5-8f39757989ed"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Observatie/bepaling. Subject: OG O.O. Persoon1. Id: b9245d14c531691b1c747cffa10cfbbf (urn:oid:2.16.528.1.1007.3.3.90000382.418.6), Categorie: 49581000146104 (SNOMED CT), Status: definitief</caption><tbody><tr><th>Context</th><td colspan=\"3\">Contact ID: c1715ce758fdbb0b1d678d05409a5421 2.16.528.1.1007.3.3.90000382.418.4 (Id: c1715ce758fdbb0b1d678d05409a5421 (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Bepalingdatum/tijd</th><td colspan=\"3\">08:54:07, 25 februari 2021</td></tr><tr><th>Code</th><th>Waarde</th><th>Interpretatie</th><th>Referentiewaarden</th></tr><tr><td><span title=\"eGFR volgens CKD-EPI formule (3583 - nhg-tabel-45-diagnostische-bepalingen)\">eGFR volgens CKD-EPI formule</span></td><td>54 mL/min/1.73m2</td><td>A (v3/ObservationInterpretation)</td><td><div>normal (referencerange-meaning) 60 mL/min/1.73m2 - </div></td></tr></tbody></table></div><div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Observatie/bepaling. Subject: OG O.O. Persoon1. Id: d1a4772a10e3d771884be70ca3b30f6e (urn:oid:2.16.528.1.1007.3.3.90000382.418.6), Categorie: 49581000146104 (SNOMED CT), Status: definitief</caption><tbody><tr><th>Context</th><td>Contact ID: df28c368b74dab1a2895d975fbdb3334 2.16.528.1.1007.3.3.90000382.418.4 (Id: df28c368b74dab1a2895d975fbdb3334 (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Bepalingdatum/tijd</th><td>11:32:17, 14 mei 2021</td></tr><tr><th>Code</th><th>Waarde</th></tr><tr><td><span title=\"nitriet urine (stick) (2179 - nhg-tabel-45-diagnostische-bepalingen)\">nitriet urine (stick)</span></td><td><span title=\"positief (32 - nhg-tabel-45-diagnostische-bepalingen#resultaten)\">positief</span></td></tr></tbody></table></div><div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Observatie/bepaling. Subject: OG O.O. Persoon1. Id: eaef933066e448174241b2e7d7c37d0c (urn:oid:2.16.528.1.1007.3.3.90000382.418.6), Categorie: 49581000146104 (SNOMED CT), Status: definitief</caption><tbody><tr><th>Context</th><td>Contact ID: d0b2efed9b57a1c688ad18724a060f76 2.16.528.1.1007.3.3.90000382.418.4 (Id: d0b2efed9b57a1c688ad18724a060f76 (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Bepalingdatum/tijd</th><td>09:12:03, 25 maart 2021</td></tr><tr><th>Code</th><th>Waarde</th></tr><tr><td><span title=\"glucose niet nuchter, draagbare meter (381 - nhg-tabel-45-diagnostische-bepalingen)\">glucose niet nuchter, draagbare meter</span></td><td>12.5 mmol/L</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/f8b867ec-e00b-4931-be50-946f014484cf"
+              },
+              {
+                "reference": "Observation/23fb78b4-8780-4238-acc2-93a49c0d2b68"
+              },
+              {
+                "reference": "Observation/9f097628-2f6c-487c-b7b8-664dacf3610a"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f",
+      "resource": {
+        "resourceType": "Patient",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div>Id <i>afgeschermd (ontbrekend gegeven)</i> (BSN), OG O.O. Persoon1, Man, 1 januari 1954</div><div>Lomanstraat 1, 1075PW Amsterdam</div></div>"
+        },
+        "id": "5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f",
+        "identifier": [
+          {
+            "system": "http://fhir.nl/fhir/NamingSystem/bsn",
+            "_value": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "masked"
+                }
+              ]
+            }
+          }
+        ],
+        "name": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+                "valueCode": "UNK"
+              }
+            ],
+            "family": "Persoon1",
+            "_family": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+                  "valueString": "Persoon1"
+                }
+              ]
+            },
+            "given": [
+              "OG",
+              "O.O."
+            ],
+            "_given": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                    "valueCode": "BR"
+                  }
+                ]
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                    "valueCode": "IN"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1954-01-01",
+        "address": [
+          {
+            "line": [
+              "Lomanstraat 1"
+            ],
+            "_line": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                    "valueString": "Lomanstraat"
+                  },
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                    "valueString": "1"
+                  }
+                ]
+              }
+            ],
+            "city": "Amsterdam",
+            "postalCode": "1075PW"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "654321"
+          }
+        ],
+        "name": "Sample Organization"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/a7cc5978-ec88-4705-abca-7a636e290278",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Allergie/intolerantie. Patiënt: H. Henç Méldërs. Id: 1343 (urn:oid:2.16.528.1.1007.3.3.90000384.231.1), Categorie: <span title=\"allergie voor substantie (419199007 - SNOMED CT)\">allergie voor substantie</span>, Status: actief / <i>onbekend (ontbrekend gegeven)</i></caption><tbody><tr><th>Code</th><td><span title=\"PARACETAMOL (906 - G-Standaard Bestand 750)\">PARACETAMOL</span></td></tr><tr><th>Eerste symptomen</th><td>18 mei 2021</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000384.231.1",
+            "value": "1343"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          "biologic"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.1.750",
+              "code": "906",
+              "display": "PARACETAMOL"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "onsetDateTime": "2021-05-18",
+        "id": "a7cc5978-ec88-4705-abca-7a636e290278"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/8d8fe1b4-4249-4884-87b0-ef681a9bfad7",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Allergie/intolerantie. Patiënt: OG O.O. Persoon1. Id: ef61e1263243ef3276f06dde345eee32 (urn:oid:2.16.528.1.1007.3.3.90000382.418.3), Categorie: <span title=\"neiging tot ongewenste reactie op geneesmiddel (419511003 - SNOMED CT)\">neiging tot ongewenste reactie op geneesmiddel</span>, Status: actief / <i>onbekend (ontbrekend gegeven)</i></caption><tfoot><tr><td colspan=\"2\">erg duizelig en misselijkheid</td></tr></tfoot><tbody><tr><th>Code</th><td><span title=\"Barbituraten (6 - G-Standaard Tabel 122)\">Barbituraten</span></td></tr><tr><th>Eerste symptomen</th><td>8 mei 2020</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.3",
+            "value": "ef61e1263243ef3276f06dde345eee32"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.1.902.122",
+              "code": "6",
+              "display": "Barbituraten"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "onsetDateTime": "2020-05-08",
+        "note": [
+          {
+            "text": "erg duizelig en misselijkheid"
+          }
+        ],
+        "id": "8d8fe1b4-4249-4884-87b0-ef681a9bfad7"
+      }
+    },
+    {
+      "fullUrl": "Condition/22278a38-053c-4409-877b-ed2f5373d48f",
+      "resource": {
+        "resourceType": "Condition",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Aandoening. Subject: OG O.O. Persoon1. Categorie: <span title=\"Diagnosis (282291009 - SNOMED CT)\">Diagnosis</span>, Status: actief</caption><tbody><tr><th>Code</th><td><span title=\"Cystitis/blaasontsteking (U71 - sid/icpc-1-nl)\">Cystitis/blaasontsteking</span></td></tr><tr><th>Eerste symptomen</th><td>Vanaf 14 mei 2021</td></tr></tbody></table></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.31.1",
+              "code": "U71",
+              "display": "Cystitis/blaasontsteking"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "onsetPeriod": {
+          "start": "2021-05-14"
+        },
+        "id": "22278a38-053c-4409-877b-ed2f5373d48f"
+      }
+    },
+    {
+      "fullUrl": "Condition/9181cc77-616b-4f05-b022-82ee268a539f",
+      "resource": {
+        "resourceType": "Condition",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Aandoening. Subject: H. Henç Méldërs. Status: <i>onbekend (ontbrekend gegeven)</i></caption><tbody><tr><th>Code</th><td><span title=\"Diabetes mellitus type 2 (T90.02 - sid/icpc-1-nl)\">Diabetes mellitus type 2</span></td></tr></tbody></table></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.31.1",
+              "code": "T90.02",
+              "display": "Diabetes mellitus type 2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "id": "9181cc77-616b-4f05-b022-82ee268a539f"
+      }
+    },
+    {
+      "fullUrl": "Condition/5cda4158-6c6d-48fc-a64e-8843ec3f672b",
+      "resource": {
+        "resourceType": "Condition",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Aandoening. Subject: H. Henç Méldërs. Status: <i>onbekend (ontbrekend gegeven)</i></caption><tbody><tr><th>Code</th><td><span title=\"Emfyseem/COPD (R95 - sid/icpc-1-nl)\">Emfyseem/COPD</span></td></tr></tbody></table></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.2.4.4.31.1",
+              "code": "R95",
+              "display": "Emfyseem/COPD"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "id": "5cda4158-6c6d-48fc-a64e-8843ec3f672b"
+      }
+    },
+    {
+      "fullUrl": "MedicationRequest/6009752c-6109-4e10-875f-916366b57672",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Medicatieafspraak. Subject: OG O.O. Persoon1. Id: 6b0bb28ffbde2a84675c26c270dab99b (urn:oid:2.16.528.1.1007.3.3.90000382.418.7), Categorie: <span title=\"Prescription (procedure) (16076005 - SNOMED CT)\">Prescription (procedure)</span>, <span style=\"display: block;\">Intentie: aanvraag</span><span style=\"display: block;\">Aangevraagd door: Marjo Oskam || Testpraktijk TransHis (\"de punisher\")</span></caption><tbody><tr><th>Medicamenteuze behandel-id</th><td> ()</td></tr><tr><th>Context</th><td>Contact ID: dff79f8d4e35fd22c496f1b8a54fa75e 2.16.528.1.1007.3.3.90000382.418.4 (Id: dff79f8d4e35fd22c496f1b8a54fa75e (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Medicatie</th><td>Influenzavaccin (niet gespecificeerd) wwsp 0,5ml</td></tr><tr><th>Gemaakt</th><td>00:00:00, 7 november 2020</td></tr><tr><th>Gebruiksduur</th><td>Vanaf 09:00:00, 7 november 2020</td></tr><tr><th>Doseerinstructie</th><td><div>Volgnummer: 1</div><div>Tekst: Influenzavaccin (niet gespecificeerd) wwsp 0,5ml ,  aan de huisarts afgeven (IMM)</div></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-Medication-PeriodOfUse",
+            "valuePeriod": {
+              "start": "2020-11-07T09:00:00+01:00"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.7",
+            "value": "6b0bb28ffbde2a84675c26c270dab99b"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [{
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16076005",
+              "display": "Prescription (procedure)"
+            }
+          ],
+          "text": "Medicatieafspraak"
+        }],
+        "medicationReference": {
+          "reference": "urn:oid:2.16.840.1.113883.2.4.4.10.48887",
+          "display": "Influenzavaccin (niet gespecificeerd) wwsp 0,5ml"
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "authoredOn": "2020-11-07T00:00:00+01:00",
+        "dosageInstruction": [
+          {
+            "sequence": 1,
+            "text": "Influenzavaccin (niet gespecificeerd) wwsp 0,5ml ,  aan de huisarts afgeven (IMM)"
+          }
+        ],
+        "id": "6009752c-6109-4e10-875f-916366b57672"
+      }
+    },
+    {
+      "fullUrl": "MedicationRequest/c8a5005a-578f-48f0-88e5-8f39757989ed",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Medicatieafspraak. Subject: H. Henç Méldërs. Id: 110964 (urn:oid:2.16.528.1.1007.3.3.90000384.220.1), Categorie: <span title=\"Prescription (procedure) (16076005 - SNOMED CT)\">Prescription (procedure)</span>, <span style=\"display: block;\">Intentie: aanvraag</span><span style=\"display: block;\">Aangevraagd door: Dr. Bernard || Apotheekhoudende huisarts || Promedico ICT B.V. Téstzorginstelling 01</span></caption><tbody><tr><th>Medicamenteuze behandel-id</th><td>110964 (urn:oid:2.16.528.1.1007.3.3.90000384.220.1)</td></tr><tr><th>Context</th><td><ul><li>Episode ID: 337 2.16.528.1.1007.3.3.90000384.145.1 (Id: 337 (urn:oid:2.16.528.1.1007.3.3.90000384.145.1))</li><li>Contact ID: 748 2.16.528.1.1007.3.3.90000384.201.1 (Id: 748 (urn:oid:2.16.528.1.1007.3.3.90000384.201.1))</li></ul></td></tr><tr><th>Medicatie</th><td>METFORMINE 1000MG TABLET</td></tr><tr><th>Gemaakt</th><td>00:00:00, 8 mei 2020</td></tr><tr><th>Reden</th><td>Diabetes mellitus type 2</td></tr><tr><th>Gebruiksduur</th><td><ul><li>Vanaf 00:00:00, 8 mei 2020</li><li>835 dag</li></ul></td></tr><tr><th>Doseerinstructie</th><td><div>Volgnummer: 0</div><div>Tekst: 3 maal per dag 1 tablet.</div><div>Timing: <div>834 dag, 3 maal per dag</div></div><div>Toedieningsweg: <span title=\"ORAAL (9 - G-Standaard thesaurus subtabel 0007)\">ORAAL</span></div><div>Dosering: 1 STUK</div></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-Medication-PeriodOfUse",
+            "valuePeriod": {
+              "start": "2020-05-08T00:00:00+02:00"
+            }
+          },
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse-Duration",
+            "valueDuration": {
+              "value": 835,
+              "unit": "dag",
+              "system": "http://unitsofmeasure.org",
+              "code": "d"
+            }
+          },
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-Medication-MedicationTreatment",
+            "valueIdentifier": {
+              "system": "urn:oid:2.16.528.1.1007.3.3.90000384.220.1",
+              "value": "110964"
+            }
+          },
+          {
+            "url": "http://nictiz.nl/fhir/StructureDefinition/extension-context-nl-core-episodeofcare",
+            "valueReference": {
+              "identifier": {
+                "system": "urn:oid:2.16.528.1.1007.3.3.90000384.145.1",
+                "value": "337"
+              },
+              "display": "Episode ID: 337 2.16.528.1.1007.3.3.90000384.145.1"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000384.220.1",
+            "value": "110964"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [{
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16076005",
+              "display": "Prescription (procedure)"
+            }
+          ],
+          "text": "Medicatieafspraak"
+        }],
+        "medicationReference": {
+          "reference": "urn:oid:2.16.840.1.113883.2.4.4.10.60674",
+          "display": "METFORMINE 1000MG TABLET"
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "authoredOn": "2020-05-08T00:00:00+02:00",
+        "dosageInstruction": [
+          {
+            "sequence": 0,
+            "text": "3 maal per dag 1 tablet.",
+            "timing": {
+              "repeat": {
+                "boundsDuration": {
+                  "value": 834,
+                  "unit": "dag",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "d"
+                },
+                "frequency": 3,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+                  "code": "9",
+                  "display": "ORAAL"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "c8a5005a-578f-48f0-88e5-8f39757989ed"
+      }
+    },
+    {
+      "fullUrl": "Observation/f8b867ec-e00b-4931-be50-946f014484cf",
+      "resource": {
+        "resourceType": "Observation",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Observatie/bepaling. Subject: OG O.O. Persoon1. Id: b9245d14c531691b1c747cffa10cfbbf (urn:oid:2.16.528.1.1007.3.3.90000382.418.6), Categorie: 49581000146104 (SNOMED CT), Status: definitief</caption><tbody><tr><th>Context</th><td colspan=\"3\">Contact ID: c1715ce758fdbb0b1d678d05409a5421 2.16.528.1.1007.3.3.90000382.418.4 (Id: c1715ce758fdbb0b1d678d05409a5421 (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Bepalingdatum/tijd</th><td colspan=\"3\">08:54:07, 25 februari 2021</td></tr><tr><th>Code</th><th>Waarde</th><th>Interpretatie</th><th>Referentiewaarden</th></tr><tr><td><span title=\"eGFR volgens CKD-EPI formule (3583 - nhg-tabel-45-diagnostische-bepalingen)\">eGFR volgens CKD-EPI formule</span></td><td>54 mL/min/1.73m2</td><td>A (v3/ObservationInterpretation)</td><td><div>normal (referencerange-meaning) 60 mL/min/1.73m2 - </div></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.6",
+            "value": "b9245d14c531691b1c747cffa10cfbbf"
+          }
+        ],
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Final"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen",
+              "version": "20",
+              "code": "3583",
+              "display": "eGFR volgens CKD-EPI formule"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "effectiveDateTime": "2021-02-25T08:54:07+01:00",
+        "valueQuantity": {
+          "value": 54,
+          "unit": "mL/min/{1.73_m2}",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60,
+              "unit": "mL/min/{1.73_m2}",
+              "system": "http://unitsofmeasure.org",
+              "code": "mL/min/{1.73_m2}"
+            },
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+                  "code": "normal"
+                }
+              ]
+            }
+          }
+        ],
+        "id": "f8b867ec-e00b-4931-be50-946f014484cf"
+      }
+    },
+    {
+      "fullUrl": "Observation/23fb78b4-8780-4238-acc2-93a49c0d2b68",
+      "resource": {
+        "resourceType": "Observation",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Observatie/bepaling. Subject: OG O.O. Persoon1. Id: d1a4772a10e3d771884be70ca3b30f6e (urn:oid:2.16.528.1.1007.3.3.90000382.418.6), Categorie: 49581000146104 (SNOMED CT), Status: definitief</caption><tbody><tr><th>Context</th><td>Contact ID: df28c368b74dab1a2895d975fbdb3334 2.16.528.1.1007.3.3.90000382.418.4 (Id: df28c368b74dab1a2895d975fbdb3334 (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Bepalingdatum/tijd</th><td>11:32:17, 14 mei 2021</td></tr><tr><th>Code</th><th>Waarde</th></tr><tr><td><span title=\"nitriet urine (stick) (2179 - nhg-tabel-45-diagnostische-bepalingen)\">nitriet urine (stick)</span></td><td><span title=\"positief (32 - nhg-tabel-45-diagnostische-bepalingen#resultaten)\">positief</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.6",
+            "value": "d1a4772a10e3d771884be70ca3b30f6e"
+          }
+        ],
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Final"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen",
+              "version": "20",
+              "code": "2179",
+              "display": "nitriet urine (stick)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "effectiveDateTime": "2021-05-14T11:32:17+02:00",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen#resultaten",
+              "code": "32",
+              "display": "positief"
+            }
+          ]
+        },
+        "id": "23fb78b4-8780-4238-acc2-93a49c0d2b68"
+      }
+    },
+    {
+      "fullUrl": "Observation/9f097628-2f6c-487c-b7b8-664dacf3610a",
+      "resource": {
+        "resourceType": "Observation",
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Observatie/bepaling. Subject: OG O.O. Persoon1. Id: eaef933066e448174241b2e7d7c37d0c (urn:oid:2.16.528.1.1007.3.3.90000382.418.6), Categorie: 49581000146104 (SNOMED CT), Status: definitief</caption><tbody><tr><th>Context</th><td>Contact ID: d0b2efed9b57a1c688ad18724a060f76 2.16.528.1.1007.3.3.90000382.418.4 (Id: d0b2efed9b57a1c688ad18724a060f76 (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Bepalingdatum/tijd</th><td>09:12:03, 25 maart 2021</td></tr><tr><th>Code</th><th>Waarde</th></tr><tr><td><span title=\"glucose niet nuchter, draagbare meter (381 - nhg-tabel-45-diagnostische-bepalingen)\">glucose niet nuchter, draagbare meter</span></td><td>12.5 mmol/L</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.6",
+            "value": "eaef933066e448174241b2e7d7c37d0c"
+          }
+        ],
+        "status": "final",
+        "_status": {
+          "extension": [
+            {
+              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+                    "code": "final",
+                    "display": "Final"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen",
+              "version": "20",
+              "code": "381",
+              "display": "glucose niet nuchter, draagbare meter"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5e83cb00-9d2c-4ab7-ab9a-67d49e519b5f"
+        },
+        "effectiveDateTime": "2021-03-25T09:12:03+01:00",
+        "valueQuantity": {
+          "value": 12.5,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "id": "9f097628-2f6c-487c-b7b8-664dacf3610a"
+      }
+    },
+    {
+      "fullUrl": "urn:oid:2.16.840.1.113883.2.4.4.10.48887",
+      "resource": {
+        "resourceType": "Medication",
+        "code": {
+          "text": "Influenzavaccin (niet gespecificeerd) wwsp 0,5ml"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:oid:2.16.840.1.113883.2.4.4.10.60674",
+      "resource": {
+        "resourceType": "Medication",
+        "code": {
+          "text": "METFORMINE 1000MG TABLET"
+        }
+      }
+    }
+  ]
+}
