@@ -1,0 +1,469 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Validation Results</title>
+  <link href="http://hl7.org/fhir/fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results</h1>
+ <p>0 errors, 0 warnings, 111 hints. Generated Jan 25, 2022 2:09:54 PM by Validator Version 5.6.27 (Git# 90008b77449d). Built 2022-01-21T21:43:46.20Z (3 days old) (79271ms)</p>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;1"><b>C:\temp\validated_samples\AU_ELGA_GmbH_01.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>66</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;2"><b>C:\temp\validated_samples\bundle-minimal.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;3"><b>C:\temp\validated_samples\bundle-no-info-required-sections.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;4"><b>C:\temp\validated_samples\DK_Jens_Villadsen_01.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;5"><b>C:\temp\validated_samples\EU_Giorgio_Cangioli_01.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;6"><b>C:\temp\validated_samples\HK_IPS_Sample1.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>6</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;7"><b>C:\temp\validated_samples\IPS-bundle-01.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>5</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;8"><b>C:\temp\validated_samples\NL_Curavista_01.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>21</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;9"><b>C:\temp\validated_samples\NZ_Peter_Jordan_AAA1234.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;10"><b>C:\temp\validated_samples\NZ_Peter_Jordan_NNJ9186.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l1"> </a>
+<h2><a href="file:C:\temp\validated_samples\AU_ELGA_GmbH_01.json">C:\temp\validated_samples\AU_ELGA_GmbH_01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(Patient).extension[0] (l261/c12)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/StructureDefinition/at-core-ext-patient-religion</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0] (l268/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.16.1.4.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(Condition).code.coding[0] (l398/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.3.1.2.99.8888' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(Condition).code.coding[0] (l441/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.96' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(MedicationStatement).dosage[0].route.coding[0] (l699/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource.ofType(Medication).code.coding[0] (l752/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource.ofType(Medication).code.coding[1] (l757/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.17' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource.ofType(Medication).form.coding[0] (l766/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l787/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[1] (l792/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.156' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[14].resource.ofType(MedicationStatement).dosage[0].route.coding[0] (l832/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[16].resource.ofType(Medication).code.coding[0] (l888/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[16].resource.ofType(Medication).code.coding[1] (l893/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.17' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[16].resource.ofType(Medication).form.coding[0] (l902/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[16].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l923/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[16].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[1] (l928/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.156' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[17].resource.ofType(MedicationStatement).dosage[0].route.coding[0] (l966/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource.ofType(Medication).code.coding[0] (l1012/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource.ofType(Medication).code.coding[1] (l1017/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.17' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource.ofType(Medication).form.coding[0] (l1026/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l1047/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[1] (l1052/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.156' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[20].resource.ofType(MedicationStatement).dosage[0].route.coding[0] (l1089/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[22].resource.ofType(Medication).code.coding[0] (l1142/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[22].resource.ofType(Medication).code.coding[1] (l1147/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.17' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[22].resource.ofType(Medication).form.coding[0] (l1156/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[22].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l1177/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[22].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[1] (l1182/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.156' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[23].resource.ofType(MedicationStatement).dosage[0].route.coding[0] (l1220/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[25].resource.ofType(Medication).code.coding[0] (l1266/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[25].resource.ofType(Medication).code.coding[1] (l1271/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.17' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[25].resource.ofType(Medication).form.coding[0] (l1280/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[25].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l1301/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[25].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[1] (l1306/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.156' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[26].resource.ofType(MedicationStatement).dosage[0].route.coding[0] (l1346/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource.ofType(Medication).code.coding[0] (l1402/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource.ofType(Medication).code.coding[1] (l1407/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.17' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource.ofType(Medication).form.coding[0] (l1416/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l1437/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[28].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[1] (l1442/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.156' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[30].resource.ofType(Medication).code.coding[0] (l1501/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[30].resource.ofType(Medication).form.coding[0] (l1510/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.5' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[30].resource.ofType(Medication).ingredient[0].item.ofType(CodeableConcept).coding[0] (l1529/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.73' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[31].resource.ofType(Observation).code.coding[0] (l1559/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[32].resource.ofType(Observation).code.coding[0] (l1604/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[49].resource.ofType(Observation).code.coding[0] (l2630/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[52].resource.ofType(Observation).code.coding[0] (l2793/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[61].resource.ofType(Observation).code.coding[0] (l3287/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[62].resource.ofType(Observation).code.coding[0] (l3335/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[74].resource.ofType(Observation).code.coding[0] (l4027/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[80].resource.ofType(Observation).code.coding[0] (l4333/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[87].resource.ofType(Observation).code.coding[0] (l4704/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[88].resource.ofType(Observation).code.coding[0] (l4749/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[132].resource.ofType(Observation).code.coding[0] (l7394/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[145].resource.ofType(Observation).code.coding[0] (l8134/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[146].resource.ofType(Observation).code.coding[0] (l8179/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[158].resource.ofType(Observation).code.coding[0] (l8876/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.11' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[163].resource.ofType(Observation).code.coding[0] (l9164/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.99.107' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[167].resource.ofType(Observation).code.coding[0] (l9370/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[168].resource.ofType(Observation).code.coding[0] (l9407/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.96' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[171].resource.ofType(Immunization).vaccineCode.coding[1] (l9539/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[173].resource.ofType(Immunization).vaccineCode.coding[1] (l9627/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[175].resource.ofType(Immunization).vaccineCode.coding[1] (l9714/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.4.16.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[177].resource.ofType(Condition).code.coding[0] (l9819/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.3.1.2.99.8888' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[178].resource.ofType(Condition).code.coding[0] (l9862/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.171' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[179].resource.ofType(Condition).code.coding[0] (l9906/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.34.5.171' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l2"> </a>
+<h2><a href="file:C:\temp\validated_samples\bundle-minimal.json">C:\temp\validated_samples\bundle-minimal.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(Condition).severity (l334/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Condition/Diagnosis Severity' (http://hl7.org/fhir/ValueSet/condition-severity), and a coding is recommended to come from this value set) (codes = http://loinc.org#LA6751-7)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Medication).code.coding[1] (l453/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Medication).code.coding[2] (l458/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.7' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l3"> </a>
+<h2><a href="file:C:\temp\validated_samples\bundle-no-info-required-sections.json">C:\temp\validated_samples\bundle-no-info-required-sections.json</a></h2>
+<p>No Issues detected</p>
+<hr/>
+<a name="l4"> </a>
+<h2><a href="file:C:\temp\validated_samples\DK_Jens_Villadsen_01.json">C:\temp\validated_samples\DK_Jens_Villadsen_01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Medication).code.coding[0] (l473/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://spor.ema.europa.eu/v2/marketing-authorisation-numbers' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(Medication).code.coding[0] (l535/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://spor.ema.europa.eu/v2/marketing-authorisation-numbers' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource.ofType(Medication).code.coding[0] (l597/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l5"> </a>
+<h2><a href="file:C:\temp\validated_samples\EU_Giorgio_Cangioli_01.json">C:\temp\validated_samples\EU_Giorgio_Cangioli_01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Medication).code.coding[0] (l429/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://spor.ema.europa.eu/v2/marketing-authorisation-numbers' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(Medication).code.coding[0] (l487/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://spor.ema.europa.eu/v2/marketing-authorisation-numbers' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource.ofType(Medication).code.coding[0] (l545/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l6"> </a>
+<h2><a href="file:C:\temp\validated_samples\HK_IPS_Sample1.json">C:\temp\validated_samples\HK_IPS_Sample1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AllergyIntolerance).code.coding[0] (l225/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://www.ehealth.gov.hk/Allergy/allergenCode' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AllergyIntolerance).code (l224/c32)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips</b> <span id="sm77" class="flip" onclick="flip('m77')">Show Reasoning</span><div id="m77" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips<ul><li>Bundle.entry[3].resource.ofType(AllergyIntolerance).code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-condition-gps-uv-ips')</li>, <li>Bundle.entry[3].resource.ofType(AllergyIntolerance).code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips')</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AllergyIntolerance).code (l224/c32)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Allergy intolerance substance condition - IPS' (http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-condition-uv-ips), and a coding is recommended to come from this value set) (codes = https://www.ehealth.gov.hk/Allergy/allergenCode#-)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AllergyIntolerance).code.coding[0] (l292/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://www.ehealth.gov.hk/Allergy/allergenCode' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AllergyIntolerance).code (l291/c32)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips</b> <span id="sm80" class="flip" onclick="flip('m80')">Show Reasoning</span><div id="m80" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips<ul><li>Bundle.entry[4].resource.ofType(AllergyIntolerance).code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-condition-gps-uv-ips')</li>, <li>Bundle.entry[4].resource.ofType(AllergyIntolerance).code: discriminator = true and ($this memberOf 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips')</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AllergyIntolerance).code (l291/c32)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Allergy intolerance substance condition - IPS' (http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-condition-uv-ips), and a coding is recommended to come from this value set) (codes = https://www.ehealth.gov.hk/Allergy/allergenCode#-)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l7"> </a>
+<h2><a href="file:C:\temp\validated_samples\IPS-bundle-01.json">C:\temp\validated_samples\IPS-bundle-01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(Condition).severity (l439/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Condition/Diagnosis Severity' (http://hl7.org/fhir/ValueSet/condition-severity), and a coding is recommended to come from this value set) (codes = http://loinc.org#LA6751-7)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Medication).code.coding[1] (l606/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Medication).code.coding[2] (l611/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.7' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Condition).severity (l767/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_3_CC"><b>None of the codings provided are in the value set 'Condition/Diagnosis Severity' (http://hl7.org/fhir/ValueSet/condition-severity), and a coding is recommended to come from this value set) (codes = http://loinc.org#LA6750-9)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Condition).code.coding[1] (l799/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.43.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l8"> </a>
+<h2><a href="file:C:\temp\validated_samples\NL_Curavista_01.json">C:\temp\validated_samples\NL_Curavista_01.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(AllergyIntolerance).code.coding[0] (l279/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.1.750' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AllergyIntolerance).code.coding[0] (l320/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.1.902.122' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.ofType(Condition).code.coding[0] (l357/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.31.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Condition).code.coding[0] (l391/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.31.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(Condition).code.coding[0] (l422/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.31.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicationRequest).extension[0] (l444/c12)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/zib-Medication-PeriodOfUse</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(MedicationRequest).extension[0] (l495/c12)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/zib-Medication-PeriodOfUse</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(MedicationRequest).extension[1] (l501/c12)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse-Duration</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(MedicationRequest).extension[2] (l510/c12)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/zib-Medication-MedicationTreatment</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(MedicationRequest).extension[3] (l517/c12)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/extension-context-nl-core-episodeofcare</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(MedicationRequest).dosageInstruction[0].route.coding[0] (l573/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.4.9' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Observation).status.extension[0] (l602/c14)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/code-specification</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Observation).status.extension[0].value.ofType(CodeableConcept).coding[0] (l606/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource.ofType(Observation).code.coding[0] (l618/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(Observation).status.extension[0] (l684/c14)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/code-specification</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(Observation).status.extension[0].value.ofType(CodeableConcept).coding[0] (l688/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(Observation).code.coding[0] (l700/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[11].resource.ofType(Observation).value.ofType(CodeableConcept).coding[0] (l714/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen#resultaten' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource.ofType(Observation).status.extension[0] (l741/c14)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://nictiz.nl/fhir/StructureDefinition/code-specification</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource.ofType(Observation).status.extension[0].value.ofType(CodeableConcept).coding[0] (l745/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource.ofType(Observation).code.coding[0] (l757/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://referentiemodel.nhg.org/tabellen/nhg-tabel-45-diagnostische-bepalingen' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l9"> </a>
+<h2><a href="file:C:\temp\validated_samples\NZ_Peter_Jordan_AAA1234.json">C:\temp\validated_samples\NZ_Peter_Jordan_AAA1234.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(Patient).address[0].extension[0] (l215/c30)</b></td><td><b>information</b></td><td title="Extension_EXT_Unknown"><b>Unknown extension http://hl7.org.nz/fhir/StructureDefinition/suburb</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l10"> </a>
+<h2><a href="file:C:\temp\validated_samples\NZ_Peter_Jordan_NNJ9186.json">C:\temp\validated_samples\NZ_Peter_Jordan_NNJ9186.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource.ofType(Medication).code.coding[0] (l1131/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://nzmt.org.nz' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[13].resource.ofType(Medication).code.coding[0] (l1156/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://nzmt.org.nz' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[14].resource.ofType(Medication).code.coding[0] (l1172/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://nzmt.org.nz' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
