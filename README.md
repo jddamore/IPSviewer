@@ -9,11 +9,13 @@ This repository contains a node.js (JavaScript) express server for a webpage. Th
 - Textual display of narrative sections
 - Machine readable entries with a simple card view
 
-This tool is not a validator of the IPS standard. The IPS standard is currently available at https://hl7.org/fhir/uv/ips/
+This tool is not a validator of the IPS standard. The IPS implementation guide current build is here: http://build.fhir.org/ig/HL7/fhir-ips/
 
 ## Examples
 
-Some samples IPS files (in JSON) are included in the "samples" folder. Note that these samples were collected during public connectathons. They may (or may not) validate according to the [IPS Standard](https://hl7.org/fhir/uv/ips/).
+Some samples IPS files (in JSON) are included in the "samples" folder. Note that these samples were collected during HL7 and [Global Digital Health Partnership, (GDHP)](https://www.healthit.gov/topic/global-digital-health-partnership) connectathons and through discussions on chat.fhir.org. Organizations may have made changes to their software and technologies without updating samples in this respository. All samples should be considered illustrative for learning purposes and not indicative of any organization or IPS documents in the real-world.  
+
+There are two folders: "connectathon samples" and "validated samples". For samples in the connectathon folder, they may (or may not) validate according to the current [IPS Implementation Guide](http://build.fhir.org/ig/HL7/fhir-ips/). Samples that validate with no errors may have been moved to validated samples folder. 
 
 ## How to Run Locally?
 
@@ -26,9 +28,9 @@ By default, app will start with HTTP hosting to localhost. If you want to serve 
 
 ## Who Supports?
 
-Maintenance of this repository is provided by John D'Amore, MS (github: jddamore). The hosting of the online version is provided by More Informatics, Inc.
+Maintenance of this repository is provided by John D'Amore, MS (github: jddamore). The hosting of the [online version](https://www.ipsviewer.com) is provided by More Informatics, Inc.
 
-This viewer is based on previous work from IPS-Argentina (https://github.com/SALUD-AR/IPS-Argentina). Credit to Alejandro Lopez Osornio, Diego Kaminker and Fernando Campos for their prior work. Thanks to Rob Hausam for providing the first sample for testing the viewer. 
+This viewer is based on previous work from IPS-Argentina (https://github.com/SALUD-AR/IPS-Argentina). Credit to Alejandro Lopez Osornio, Diego Kaminker and Fernando Campos for their prior work. Thanks to Rob Hausam and Giorgio Cangioli for providing the first samples testing the viewer. 
 
 ### LICENSE
 
