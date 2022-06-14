@@ -180,10 +180,6 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
-                    "code": "C"
-                  },
-                  {
                     "code": "MTH",
                     "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   }
@@ -317,11 +313,6 @@
         "category": [
           {
             "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
-                "code": "problem-list-item",
-                "display": "Problem List Item"
-              },
               {
                 "code": "75326-9",
                 "system": "http://loinc.org",
