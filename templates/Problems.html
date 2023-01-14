@@ -9,8 +9,10 @@
         <ul class="list-group">
         {{each(options.problems)}}
             <li class="list-group-item">
-                <span class="badge badge-primary">{{@this.onsetDateTime}}</span>
+                {{if(options.problems[@index].onsetDateTime)}}
+                {{/if}}
                 {{if(options.problems[@index].code && options.problems[@index].code.coding && options.problems[@index].code.coding[0])}}
+                <span class="badge badge-primary">{{@this.code.coding[0].system}}</span>
                 {{@this.code.coding[0].display}} ({{@this.code.coding[0].code}})
                 {{/if}}
                 {{if(options.problems[@index].code && options.problems[@index].code.text)}}

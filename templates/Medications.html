@@ -13,7 +13,11 @@
 
             {{if (options.medications[@index].medication.code.coding && options.medications[@index].medication.code.coding.length)}}
                 {{each(options.medications[@index].medication.code.coding)}}
-                <span class="badge badge-primary">{{@this.system}}</span> {{@this.display}} ({{@this.code}})<br>
+                <span class="badge badge-primary">{{@this.system}}</span> {{@this.display}} 
+                {{if (@this.code)}}
+                    ({{@this.code}})
+                {{ /if }}
+                <br>
                 {{/each}}
             {{#else}}
                 <span class="badge badge-primary">Uncoded</span> {{@this.medication.code.text}})<br>
