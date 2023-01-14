@@ -211,12 +211,6 @@
                 "birthDate": "1985-04-25",
                 "address": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
-                                "valueString": "Rototuna North"
-                            }
-                        ],
                         "use": "home",
                         "type": "physical",
                         "line": [

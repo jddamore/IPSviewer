@@ -440,14 +440,6 @@
           "status": "extensions",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Medicatieafspraak. Subject: OG O.O. Persoon1. Id: 6b0bb28ffbde2a84675c26c270dab99b (urn:oid:2.16.528.1.1007.3.3.90000382.418.7), Categorie: <span title=\"Prescription (procedure) (16076005 - SNOMED CT)\">Prescription (procedure)</span>, <span style=\"display: block;\">Intentie: aanvraag</span><span style=\"display: block;\">Aangevraagd door: Marjo Oskam || Testpraktijk TransHis (\"de punisher\")</span></caption><tbody><tr><th>Medicamenteuze behandel-id</th><td> ()</td></tr><tr><th>Context</th><td>Contact ID: dff79f8d4e35fd22c496f1b8a54fa75e 2.16.528.1.1007.3.3.90000382.418.4 (Id: dff79f8d4e35fd22c496f1b8a54fa75e (urn:oid:2.16.528.1.1007.3.3.90000382.418.4))</td></tr><tr><th>Medicatie</th><td>Influenzavaccin (niet gespecificeerd) wwsp 0,5ml</td></tr><tr><th>Gemaakt</th><td>00:00:00, 7 november 2020</td></tr><tr><th>Gebruiksduur</th><td>Vanaf 09:00:00, 7 november 2020</td></tr><tr><th>Doseerinstructie</th><td><div>Volgnummer: 1</div><div>Tekst: Influenzavaccin (niet gespecificeerd) wwsp 0,5ml ,  aan de huisarts afgeven (IMM)</div></td></tr></tbody></table></div>"
         },
-        "extension": [
-          {
-            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-Medication-PeriodOfUse",
-            "valuePeriod": {
-              "start": "2020-11-07T09:00:00+01:00"
-            }
-          }
-        ],
         "identifier": [
           {
             "system": "urn:oid:2.16.528.1.1007.3.3.90000382.418.7",
@@ -491,40 +483,6 @@
           "status": "extensions",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><caption>Medicatieafspraak. Subject: H. Henç Méldërs. Id: 110964 (urn:oid:2.16.528.1.1007.3.3.90000384.220.1), Categorie: <span title=\"Prescription (procedure) (16076005 - SNOMED CT)\">Prescription (procedure)</span>, <span style=\"display: block;\">Intentie: aanvraag</span><span style=\"display: block;\">Aangevraagd door: Dr. Bernard || Apotheekhoudende huisarts || Promedico ICT B.V. Téstzorginstelling 01</span></caption><tbody><tr><th>Medicamenteuze behandel-id</th><td>110964 (urn:oid:2.16.528.1.1007.3.3.90000384.220.1)</td></tr><tr><th>Context</th><td><ul><li>Episode ID: 337 2.16.528.1.1007.3.3.90000384.145.1 (Id: 337 (urn:oid:2.16.528.1.1007.3.3.90000384.145.1))</li><li>Contact ID: 748 2.16.528.1.1007.3.3.90000384.201.1 (Id: 748 (urn:oid:2.16.528.1.1007.3.3.90000384.201.1))</li></ul></td></tr><tr><th>Medicatie</th><td>METFORMINE 1000MG TABLET</td></tr><tr><th>Gemaakt</th><td>00:00:00, 8 mei 2020</td></tr><tr><th>Reden</th><td>Diabetes mellitus type 2</td></tr><tr><th>Gebruiksduur</th><td><ul><li>Vanaf 00:00:00, 8 mei 2020</li><li>835 dag</li></ul></td></tr><tr><th>Doseerinstructie</th><td><div>Volgnummer: 0</div><div>Tekst: 3 maal per dag 1 tablet.</div><div>Timing: <div>834 dag, 3 maal per dag</div></div><div>Toedieningsweg: <span title=\"ORAAL (9 - G-Standaard thesaurus subtabel 0007)\">ORAAL</span></div><div>Dosering: 1 STUK</div></td></tr></tbody></table></div>"
         },
-        "extension": [
-          {
-            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-Medication-PeriodOfUse",
-            "valuePeriod": {
-              "start": "2020-05-08T00:00:00+02:00"
-            }
-          },
-          {
-            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse-Duration",
-            "valueDuration": {
-              "value": 835,
-              "unit": "dag",
-              "system": "http://unitsofmeasure.org",
-              "code": "d"
-            }
-          },
-          {
-            "url": "http://nictiz.nl/fhir/StructureDefinition/zib-Medication-MedicationTreatment",
-            "valueIdentifier": {
-              "system": "urn:oid:2.16.528.1.1007.3.3.90000384.220.1",
-              "value": "110964"
-            }
-          },
-          {
-            "url": "http://nictiz.nl/fhir/StructureDefinition/extension-context-nl-core-episodeofcare",
-            "valueReference": {
-              "identifier": {
-                "system": "urn:oid:2.16.528.1.1007.3.3.90000384.145.1",
-                "value": "337"
-              },
-              "display": "Episode ID: 337 2.16.528.1.1007.3.3.90000384.145.1"
-            }
-          }
-        ],
         "identifier": [
           {
             "system": "urn:oid:2.16.528.1.1007.3.3.90000384.220.1",
@@ -597,22 +555,6 @@
           }
         ],
         "status": "final",
-        "_status": {
-          "extension": [
-            {
-              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
-              "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
-                    "code": "final",
-                    "display": "Final"
-                  }
-                ]
-              }
-            }
-          ]
-        },
         "code": {
           "coding": [
             {
@@ -679,22 +621,6 @@
           }
         ],
         "status": "final",
-        "_status": {
-          "extension": [
-            {
-              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
-              "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
-                    "code": "final",
-                    "display": "Final"
-                  }
-                ]
-              }
-            }
-          ]
-        },
         "code": {
           "coding": [
             {
@@ -736,22 +662,6 @@
           }
         ],
         "status": "final",
-        "_status": {
-          "extension": [
-            {
-              "url": "http://nictiz.nl/fhir/StructureDefinition/code-specification",
-              "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
-                    "code": "final",
-                    "display": "Final"
-                  }
-                ]
-              }
-            }
-          ]
-        },
         "code": {
           "coding": [
             {

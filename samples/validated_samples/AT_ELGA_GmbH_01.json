@@ -257,25 +257,6 @@
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dr. Maria Johanna <b>MUSTERFRAU </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1111241261</td></tr><tr><td>Address</td><td><span>Musterstraße 13a </span><br/><span>Eisenstadt </span><span>Burgenland </span><span>AUT </span></td></tr><tr><td>Date of birth</td><td><span>24 December 1961</span></td></tr></tbody></table></div>"
         },
-        "extension": [
-          {
-            "url": "http://hl7.at/fhir/HL7ATCoreProfiles/4.0.1/StructureDefinition/at-core-ext-patient-religion",
-            "extension": [
-              {
-                "url": "code",
-                "valueCodeableConcept": {
-                  "coding": [
-                    {
-                      "system": "urn:oid:2.16.840.1.113883.2.16.1.4.1",
-                      "code": "101",
-                      "display": "Römisch-Katholisch"
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        ],
         "identifier": [
           {
             "use": "usual",
