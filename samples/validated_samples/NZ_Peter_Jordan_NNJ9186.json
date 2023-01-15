@@ -1,19 +1,19 @@
 {
   "resourceType": "Bundle",
-  "id": "NZ-IPS-20230110063734",
+  "id": "NZ-IPS-20230114232906",
   "language": "en-NZ",
   "identifier": {
     "system": "urn:oid:2.16.724.4.8.10.200.10",
     "value": "0120940a-f4d1-4cb0-8ab4-08696ff534a2"
   },
   "type": "document",
-  "timestamp": "2023-01-10T06:37:34.8866746+00:00",
+  "timestamp": "2023-01-14T23:29:06.4640535+00:00",
   "entry": [
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Composition/babc73f1-5b9f-435b-bb0c-777880c3ea2f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Composition/3820be10-e7b0-49bd-aa2f-447eb3522dac",
       "resource": {
         "resourceType": "Composition",
-        "id": "babc73f1-5b9f-435b-bb0c-777880c3ea2f",
+        "id": "3820be10-e7b0-49bd-aa2f-447eb3522dac",
         "meta": {
           "versionId": "1"
         },
@@ -42,7 +42,7 @@
         "date": "2023-01-05",
         "author": [
           {
-            "reference": "Organization/c624a831-8c78-4031-b7b3-bec95cd91556"
+            "reference": "Organization/bc4dcdd3-37c5-4f27-8b49-4248a898abc3"
           }
         ],
         "title": "International Patient Summary",
@@ -52,12 +52,12 @@
             "mode": "professional",
             "time": "2023-01-05",
             "party": {
-              "reference": "PractitionerRole/f2f72a05-21ee-4c40-87f2-be0f3dd0b2e0"
+              "reference": "PractitionerRole/eaaa26c5-0445-4a68-baff-77d741fc0459"
             }
           }
         ],
         "custodian": {
-          "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+          "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
         },
         "relatesTo": [
           {
@@ -103,7 +103,7 @@
             },
             "entry": [
               {
-                "reference": "AllergyIntolerance/f5c63c7c-097d-4057-b46f-4419ca5306f9"
+                "reference": "AllergyIntolerance/2777bbde-e94a-40b2-b55c-51bc27dafe3e"
               }
             ]
           },
@@ -124,10 +124,10 @@
             },
             "entry": [
               {
-                "reference": "Condition/1dbb99dc-cc2d-423b-a9b9-0b897d7d2903"
+                "reference": "Condition/bd05f1eb-614c-449e-b73b-1b069a64979a"
               },
               {
-                "reference": "Condition/adfbfb4b-1da5-4e60-8598-7a62ea29531c"
+                "reference": "Condition/40207cec-7521-49fe-9995-95b74b051c96"
               }
             ]
           },
@@ -148,10 +148,7 @@
             },
             "entry": [
               {
-                "reference": "MedicationStatement/aa90401b-baf4-465e-b53b-be787f34611e"
-              },
-              {
-                "reference": "Medication/D92955ED-50F0-4E66-B269-EDEA656FD9B4"
+                "reference": "MedicationStatement/cf5794f7-19ff-4e67-a611-2b1832c608b5"
               }
             ]
           },
@@ -172,25 +169,25 @@
             },
             "entry": [
               {
-                "reference": "Immunization/a7e9712e-0f2f-4b4c-ae41-3002ae8ef871"
+                "reference": "Immunization/64bbc71d-c44e-4764-b0a2-958fe22e3f41"
               },
               {
-                "reference": "Immunization/04f1ecea-98a5-4306-9813-1ff55dee3c11"
+                "reference": "Immunization/cc55e9e2-928a-48ed-9d7a-56cb309cee6f"
               },
               {
-                "reference": "Immunization/e80ed18c-61e8-4876-abaf-05d82acb9619"
+                "reference": "Immunization/a368367a-ce91-4f6d-bf39-0407de4acccf"
               },
               {
-                "reference": "Immunization/7693ff90-863a-4a65-a8ac-a09e0e4ece03"
+                "reference": "Immunization/e18ca77a-fd5d-4165-8f1e-97e146575bfd"
               },
               {
-                "reference": "Immunization/605ad06a-e8d1-4e36-aab1-93dab7c83f96"
+                "reference": "Immunization/ef53530a-4fd9-4d4c-87ee-37d2d989a6aa"
               },
               {
-                "reference": "Immunization/ac6cad0d-2457-492e-8d2e-9effd9b566a5"
+                "reference": "Immunization/9e37a3f9-bdc0-4c36-abc5-607aa3e7e843"
               },
               {
-                "reference": "Immunization/f83ff0f3-0284-4411-9649-487afe1f0519"
+                "reference": "Immunization/4fe5cd52-9317-4004-a7f7-a7f37a8781a4"
               }
             ]
           },
@@ -211,307 +208,307 @@
             },
             "entry": [
               {
-                "reference": "Observation/9a2a7a87-21a0-427a-b6ee-f206e5bfa680"
+                "reference": "Observation/2e86e1af-d0df-44af-9126-ec9272da52ac"
               },
               {
-                "reference": "DiagnosticReport/e8d6c464-31f6-4073-a231-651817d5b58e"
+                "reference": "DiagnosticReport/c027d6a2-d5de-48a1-a647-dc6b270d0567"
               },
               {
-                "reference": "Observation/726275e8-49d6-49be-a102-44f522046314"
+                "reference": "Observation/186d9b38-7801-484b-8de4-688e843f3d77"
               },
               {
-                "reference": "Observation/b06d67c7-fed6-4c5b-bf64-b4d387fd97d8"
+                "reference": "Observation/0fc378d2-a999-4d47-a0dd-756cf222d224"
               },
               {
-                "reference": "Observation/2e62b26e-1de8-4f4b-8051-27f792f94317"
+                "reference": "Observation/803b4a57-0f0a-4557-a101-97e059d41b81"
               },
               {
-                "reference": "Observation/d2ba2391-2e8f-4346-a4d7-37c4a1502f94"
+                "reference": "Observation/46d66103-5649-4058-acc2-325867a3102a"
               },
               {
-                "reference": "Observation/c386cd4e-84a1-4695-86c4-dc9dd839b6f9"
+                "reference": "Observation/64d1fe6d-223a-491f-92f6-069ae078663e"
               },
               {
-                "reference": "Observation/8b418089-f2a3-4897-a90a-16964e454a22"
+                "reference": "Observation/d1aef127-e2fb-4096-96db-d0f252b80697"
               },
               {
-                "reference": "Observation/19117f63-b38f-4623-9dfa-3c2304d5d234"
+                "reference": "Observation/ca1b80b6-eedd-4baf-90ae-d24237481dd6"
               },
               {
-                "reference": "Observation/22a22e07-a68a-4631-b228-26505c7bcbc3"
+                "reference": "Observation/3258eed1-873d-4884-8e1b-2b874c6db4d2"
               },
               {
-                "reference": "Observation/69f37193-0e1e-4231-9e6e-6f5face27488"
+                "reference": "Observation/191f2593-c53d-402b-bb22-2b61a48da014"
               },
               {
-                "reference": "Observation/eef7c20a-fd19-4cb6-b39e-78cacdaa3f9e"
+                "reference": "Observation/a7c26d7e-b405-4f2d-a931-4d027aa2ac45"
               },
               {
-                "reference": "Observation/e715d4f1-92c3-442e-99e6-93a7c12273c6"
+                "reference": "Observation/233f8699-617e-48c1-95f2-4fc1b4fe98e2"
               },
               {
-                "reference": "Observation/f76ebcf3-9c51-4b65-bc0d-18c420fec4ee"
+                "reference": "Observation/33ba34af-2631-4dd9-997e-51cc7ba76035"
               },
               {
-                "reference": "DiagnosticReport/0f2950b6-cc78-4cbb-825b-41bbb8419672"
+                "reference": "DiagnosticReport/030eae79-98f2-4655-a14c-04841276853b"
               },
               {
-                "reference": "Observation/064382b6-7632-4479-85aa-084cd44a480b"
+                "reference": "Observation/55da787f-9155-4ce7-a2e9-9f0254379826"
               },
               {
-                "reference": "DiagnosticReport/d2a5806b-6d94-4bbc-b1d3-4971dd6af80a"
+                "reference": "DiagnosticReport/98e2d535-3f48-4937-bc88-f061995c6459"
               },
               {
-                "reference": "Observation/34f7e8b2-55cf-4cc4-87b5-b889e6fc8eea"
+                "reference": "Observation/00143f63-8ca5-491e-815d-87d6095db66a"
               },
               {
-                "reference": "DiagnosticReport/38a8e63f-ff3c-45a1-b29e-93ce30e45251"
+                "reference": "DiagnosticReport/1c62ee51-8baf-4610-afa5-8f8ba2218b92"
               },
               {
-                "reference": "Observation/b3376265-4f9e-41d4-b1d1-ae915239667d"
+                "reference": "Observation/d9ed009b-6c49-46c4-a5d9-de32d6c1cb5e"
               },
               {
-                "reference": "Observation/f718c953-38a5-42af-842f-d28551bccddb"
+                "reference": "Observation/12f7ec91-e9e7-48cb-a579-4bae5708ff67"
               },
               {
-                "reference": "Observation/63bda90e-1c9b-4bab-a895-95b39cd2c68b"
+                "reference": "Observation/7aa2c0c6-d0b2-4771-b472-83a3de6a094d"
               },
               {
-                "reference": "Observation/a74884f9-68e4-4d75-b2d7-5b427132383e"
+                "reference": "Observation/3063f8b9-b6e9-4886-bb57-c2235acb8f3a"
               },
               {
-                "reference": "Observation/41529a86-e1c6-46d9-ba3d-7936e21f765f"
+                "reference": "Observation/e682477e-c81c-499e-94fc-68688d9e149b"
               },
               {
-                "reference": "DiagnosticReport/8fb41133-f075-4a5b-92e5-1e3886094e30"
+                "reference": "DiagnosticReport/4c2b5275-ecfd-4971-b248-ba979e3b570c"
               },
               {
-                "reference": "Observation/cddab1c1-f546-46b1-b3cb-a99b7ad29cd6"
+                "reference": "Observation/db7bb027-1ab6-4576-a122-c388c1eb1efe"
               },
               {
-                "reference": "DiagnosticReport/cfd7511c-ce8f-4f7f-80f6-c86874002bbd"
+                "reference": "DiagnosticReport/97d0f99e-3ef5-4405-bf35-0870139d0038"
               },
               {
-                "reference": "Observation/c0ec6b0a-ef62-4bf2-bc4b-aecd42477c95"
+                "reference": "Observation/2a8ed65b-8662-40d3-a2ed-75523c268cc4"
               },
               {
-                "reference": "Observation/71c04057-999b-439c-a482-df97af5fab53"
+                "reference": "Observation/0df52c81-0b66-42cc-a433-efc7ce2371e5"
               },
               {
-                "reference": "Observation/8ddbc3ad-e942-4536-9571-b4c525c85b8d"
+                "reference": "Observation/20331a81-bff2-4c65-8b59-e0d1042ef30e"
               },
               {
-                "reference": "DiagnosticReport/f395be50-7c63-4cee-99f4-53fc134ff3e7"
+                "reference": "DiagnosticReport/1ac8d226-c66c-4933-8cde-39a0441a6cb6"
               },
               {
-                "reference": "Observation/eb01b8ca-b9cf-4f31-814c-955fb5da053a"
+                "reference": "Observation/fe385973-3f62-41e8-96cd-6d46dc3714d7"
               },
               {
-                "reference": "Observation/3c87320f-b12c-4262-a43f-f3cb2017efad"
+                "reference": "Observation/6a887a53-40c6-4876-8ad7-2d53d34d95e3"
               },
               {
-                "reference": "Observation/13ae25a6-5db9-4e13-b36c-533b4f8ffdf9"
+                "reference": "Observation/124486c6-42c4-4d08-8733-d95af0ed947f"
               },
               {
-                "reference": "Observation/0bea37af-a48a-4c7a-b66e-b716a22f840b"
+                "reference": "Observation/fa7b3bb5-c8e3-4297-8aec-3a277ada80c9"
               },
               {
-                "reference": "Observation/85a0d68b-1124-49db-8965-29537ac5031f"
+                "reference": "Observation/aaefc876-16b9-4788-8cc0-5181949db95c"
               },
               {
-                "reference": "Observation/3e705abd-08e1-4243-8c7e-c4cdf396eb32"
+                "reference": "Observation/87a51af4-c65a-4f3d-ae24-568965cc0a17"
               },
               {
-                "reference": "Observation/537ac1da-c1c5-4346-8ac6-06e57bd6fde3"
+                "reference": "Observation/14053417-9d9c-4b3a-b6e8-0ed28f745ffd"
               },
               {
-                "reference": "Observation/33ad4afb-a0b9-4706-bcc9-69fe33821b8f"
+                "reference": "Observation/8ad16b96-5829-4944-993b-b49da05f26e7"
               },
               {
-                "reference": "Observation/5cbf3114-c127-49de-a382-c69f4d4e3678"
+                "reference": "Observation/76acaabc-6f67-4eca-860a-43101df6202e"
               },
               {
-                "reference": "Observation/0f797a4a-df94-4da3-87ab-6aaa4cad2559"
+                "reference": "Observation/f8285024-7d85-44d9-ba14-0ec0c967dd0a"
               },
               {
-                "reference": "Observation/4a407d26-58d9-4d96-a257-b03463b9ae3b"
+                "reference": "Observation/d5250f27-c61e-48b3-b46d-eb63670bb62a"
               },
               {
-                "reference": "DiagnosticReport/7a544926-102d-447b-b47d-481be8771b28"
+                "reference": "DiagnosticReport/21fde791-77ac-4b1e-9c90-b2c37f46b6e6"
               },
               {
-                "reference": "Observation/3aca3c3c-64e5-4832-94e5-8a7b4d7f5e14"
+                "reference": "Observation/de863fb7-5f5c-48e6-8c7e-6350cd26b121"
               },
               {
-                "reference": "Observation/78e63e5e-c375-4bf5-81c6-38443922b1b9"
+                "reference": "Observation/db5eb4ed-9bac-414f-a0d5-b2ebe6d5c2c7"
               },
               {
-                "reference": "Observation/17516935-f683-4343-9c05-59997ef2c073"
+                "reference": "Observation/c7f08e83-1e50-4f5f-8db7-d25f7ba0c79a"
               },
               {
-                "reference": "Observation/900da83b-88c4-4bc5-b78e-36d7b2b74c84"
+                "reference": "Observation/e5287904-473a-46d6-ab50-ddf79b588534"
               },
               {
-                "reference": "Observation/42e721a4-6970-439b-9ddf-5c3c872e9c2b"
+                "reference": "Observation/63266a4a-092b-4122-a648-da05b86771ec"
               },
               {
-                "reference": "Observation/51111fee-abb5-4fa0-9f67-53fe28a47e00"
+                "reference": "Observation/eeebd0aa-518c-4fbb-b306-58f95937b784"
               },
               {
-                "reference": "Observation/de9f4e46-07e4-489b-97c3-f30035b8a586"
+                "reference": "Observation/68cb4242-27e6-4c89-8a62-5f5f1f674c63"
               },
               {
-                "reference": "Observation/4e983644-b60e-4a70-a400-bf51877cba8e"
+                "reference": "Observation/070b0096-1e4a-4ceb-aa9d-4e5b630a6a1e"
               },
               {
-                "reference": "Observation/a8ad0bf5-ef74-4555-a4f2-4bf7b65add41"
+                "reference": "Observation/f1b1cc2c-756f-4d05-aa8f-4a0b5cccf2e3"
               },
               {
-                "reference": "Observation/3a8029c1-340d-4491-9d6d-f7621bc8c182"
+                "reference": "Observation/8e6a167d-a4fc-4423-89ce-edaa1239860c"
               },
               {
-                "reference": "Observation/90bdb03a-ac96-42ab-b739-7cf20196e476"
+                "reference": "Observation/c84632f2-224b-4892-ab19-bfdb49986b2d"
               },
               {
-                "reference": "Observation/d2ca745d-b50d-4c15-9868-8e60978433a0"
+                "reference": "Observation/a090a750-8a79-4898-83a7-c7b6b599e71a"
               },
               {
-                "reference": "DiagnosticReport/cb164507-559c-448a-8db0-b4410c1b2bcd"
+                "reference": "DiagnosticReport/980471a4-ef8b-4f58-b6e1-737865fbe6f0"
               },
               {
-                "reference": "Observation/1a13f6b0-dc66-4e52-9d9b-ce7dbe6d15f2"
+                "reference": "Observation/2b4e9174-a97d-44f1-816d-b16055df6ed8"
               },
               {
-                "reference": "DiagnosticReport/aacb3934-81ac-4cce-b6ff-a6bd44c8c482"
+                "reference": "DiagnosticReport/2fbbf833-3e39-4942-b589-47635fd56517"
               },
               {
-                "reference": "Observation/7b24f8ec-7111-4369-a442-79ccbd107426"
+                "reference": "Observation/446d53a3-7c42-4175-80b1-d552fac6674a"
               },
               {
-                "reference": "DiagnosticReport/8cc335ed-055d-4c1a-a0ef-716e3a7e329e"
+                "reference": "DiagnosticReport/37206e82-d986-4b54-a391-25e7cdce194c"
               },
               {
-                "reference": "Observation/ff3f10d3-46ea-46cb-a388-bf53ab35c707"
+                "reference": "Observation/a07d8fad-d793-45b6-824e-9a9a017a1bad"
               },
               {
-                "reference": "DiagnosticReport/c8be9dfb-3fba-4201-97d7-a9f6e81019a9"
+                "reference": "DiagnosticReport/8aefcd68-6dba-45d5-bd72-1af43b3f5d4f"
               },
               {
-                "reference": "Observation/3ec12a1a-9110-47c1-9180-5122f788400b"
+                "reference": "Observation/05ea54ca-e25a-47a3-967f-769f76b00e97"
               },
               {
-                "reference": "Observation/1b643a8c-f5f5-4e3e-8850-86016c4ed557"
+                "reference": "Observation/6af29756-1f0f-41c9-9fd0-a4ced36fe5f6"
               },
               {
-                "reference": "DiagnosticReport/81f4a244-a20b-440a-89cc-dd2d80d38a9d"
+                "reference": "DiagnosticReport/b9c59efa-f3fc-4230-8f12-2d77a36224d6"
               },
               {
-                "reference": "Observation/31829418-8b82-468d-8fbe-2a553447d605"
+                "reference": "Observation/60216317-67cf-4403-ab52-c6686eb2ed76"
               },
               {
-                "reference": "DiagnosticReport/7bce4816-bb80-43a8-bdcb-d8ddbe97b3cb"
+                "reference": "DiagnosticReport/ce718f45-7448-4658-9f62-a438184931a4"
               },
               {
-                "reference": "Observation/49c1c2ed-7c0d-4a5d-b935-fcb129e8f777"
+                "reference": "Observation/673c5d45-3318-4662-8659-af7aad17071a"
               },
               {
-                "reference": "DiagnosticReport/24009073-60be-4cfd-8955-40428ba75eee"
+                "reference": "DiagnosticReport/5cbedce4-7ff0-4429-b5fc-a8231f31c250"
               },
               {
-                "reference": "Observation/710d251d-9fd2-434f-9e22-719bfacafec1"
+                "reference": "Observation/0932f6d8-696a-4457-aa06-d08b3ab477f0"
               },
               {
-                "reference": "Observation/6821aabf-3287-43cc-9c05-e34ce81c3eae"
+                "reference": "Observation/989c0c54-324f-46e6-9a41-b2ea8e3eb5ed"
               },
               {
-                "reference": "Observation/2007abb3-f0fc-4aa2-be3b-8bc56c6cb9d3"
+                "reference": "Observation/62644809-8900-436e-aed4-cb5c40b8ca23"
               },
               {
-                "reference": "Observation/bade9485-087a-490f-9235-0024e68aa139"
+                "reference": "Observation/1e47fd61-3256-4827-9251-3bf0eef14eb3"
               },
               {
-                "reference": "Observation/b489b0e9-bcda-4b63-95bd-e0e2fc9b002d"
+                "reference": "Observation/66b5aa02-855f-497a-95ed-ee70b67a693f"
               },
               {
-                "reference": "Observation/8035ccfb-c6ac-46c4-9f8a-a39620ebcfef"
+                "reference": "Observation/39f6f6a0-b149-4f01-b158-1378c9a4fd34"
               },
               {
-                "reference": "Observation/c3bb159f-448e-43d8-a619-bf8d7d063e95"
+                "reference": "Observation/ff51afe5-5425-462e-b4d2-1b340c713924"
               },
               {
-                "reference": "DiagnosticReport/56c7611f-ea26-40b4-9f06-2cd3a0749ede"
+                "reference": "DiagnosticReport/96e229b6-d512-4a37-ac29-77ac2c04fc99"
               },
               {
-                "reference": "Observation/821603e0-c7ad-4f03-a055-e314a9219373"
+                "reference": "Observation/29ed399f-77be-4bee-b5a8-f0711828f83e"
               },
               {
-                "reference": "Observation/b1c2ecf5-7439-4d25-b746-33d11ae8bbc5"
+                "reference": "Observation/d91724c9-1806-4749-b23e-fb33996c662b"
               },
               {
-                "reference": "Observation/2647be07-5b23-4eb6-992c-3d56132e2493"
+                "reference": "Observation/1fa4a99a-729a-4754-883a-aeef1cebe81c"
               },
               {
-                "reference": "Observation/58fe9320-a9a1-4d45-ac5d-095063236ed6"
+                "reference": "Observation/da73e046-d5a8-4a66-ab1c-6400fc0329f7"
               },
               {
-                "reference": "Observation/7b35da14-f94a-461a-8c91-99078f370631"
+                "reference": "Observation/152bb4a7-053f-4f28-85ca-69ec34474436"
               },
               {
-                "reference": "Observation/4c87db36-045f-4379-8a9f-2c4dfc029770"
+                "reference": "Observation/e2a419ac-a58b-49e2-83f9-e2adf5f82d7f"
               },
               {
-                "reference": "DiagnosticReport/48b50c47-2c6c-4fd8-98ea-75e91d55bcd0"
+                "reference": "DiagnosticReport/93dcbb99-de8e-43ff-aae3-43cd1c5597b2"
               },
               {
-                "reference": "Observation/85f9d759-9cba-4555-806e-93f80d60c7f0"
+                "reference": "Observation/aaa07e9f-6ffb-4872-9b64-99d9ea88f95a"
               },
               {
-                "reference": "DiagnosticReport/54fcba13-0166-4ad8-b4cb-9a4adb839107"
+                "reference": "DiagnosticReport/30624c91-b60c-4416-b455-990e0de1079a"
               },
               {
-                "reference": "Observation/4681498b-39f6-4f27-ad2f-de63eb24d2b1"
+                "reference": "Observation/63e8ec0a-ac59-4d2e-a5b2-9e7eab61e82e"
               },
               {
-                "reference": "Observation/37d1d3d6-f3ae-4c13-aaa1-efbe83f660b4"
+                "reference": "Observation/3e07de36-6917-4082-b3cb-617ccf0ed10f"
               },
               {
-                "reference": "Observation/3a4913aa-bb56-45b4-bcdf-c93740305ecc"
+                "reference": "Observation/23ce3843-4847-47dd-b202-c349ec2ae349"
               },
               {
-                "reference": "Observation/e418c372-5495-46a6-9e86-56324d368f86"
+                "reference": "Observation/c8c5aa0e-5bc6-4e58-8b1b-2a76300240c8"
               },
               {
-                "reference": "Observation/f4dbdbd8-f75a-43ac-92fe-2187a052344f"
+                "reference": "Observation/a46f4cb0-3f29-400a-9ba7-97b7caf7e4f2"
               },
               {
-                "reference": "Observation/fc0fc730-509c-47a7-b2b3-77a3ce9d2637"
+                "reference": "Observation/f43a4a8f-463a-48b1-8cca-9e7b1b596c8c"
               },
               {
-                "reference": "Observation/9c1b59ca-58b0-49d5-a76f-aa3b15d4a396"
+                "reference": "Observation/9605db01-ba78-4726-ac9d-7547b02d64ee"
               },
               {
-                "reference": "Observation/1937f7a2-1f9c-4967-8fbd-5d4529fd9fde"
+                "reference": "Observation/6c155fde-4cc0-4fb9-8a87-07ef57362576"
               },
               {
-                "reference": "Observation/d29b8ea0-8933-4b34-ae49-94cccc9d24a9"
+                "reference": "Observation/959c3696-9ad5-424c-aba1-0f21f8386d79"
               },
               {
-                "reference": "Observation/bd6e7569-fc35-4b50-a786-d2941266648b"
+                "reference": "Observation/53e08de8-c08f-48f4-ae9c-25a4cf169cdb"
               },
               {
-                "reference": "Observation/f8bb5852-dfee-4aff-abe5-0e80d5914982"
+                "reference": "Observation/724d11f2-81f2-4ede-8901-1d180ba23d14"
               },
               {
-                "reference": "Observation/c1d39ab6-2b61-4bc7-a880-42a0177c4960"
+                "reference": "Observation/ba312bc2-9779-449a-b737-15580f50b8d8"
               },
               {
-                "reference": "DiagnosticReport/e585cb79-6a8e-4d8d-b63c-96429ec36250"
+                "reference": "DiagnosticReport/6fb373c4-8417-4078-b2cc-f6a735431b3b"
               },
               {
-                "reference": "Observation/a61ad84b-0159-44c7-9e94-0afabf05394a"
+                "reference": "Observation/cf5dc87c-ef51-4a8b-9c7e-20674bee2aa5"
               },
               {
-                "reference": "DiagnosticReport/963e5852-3af7-4394-a5e1-eed35c5561d4"
+                "reference": "DiagnosticReport/e4f3ad3d-8262-48d2-b4cc-d0ebaa8c4d6d"
               }
             ]
           }
@@ -715,10 +712,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/c624a831-8c78-4031-b7b3-bec95cd91556",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/bc4dcdd3-37c5-4f27-8b49-4248a898abc3",
       "resource": {
         "resourceType": "Organization",
-        "id": "c624a831-8c78-4031-b7b3-bec95cd91556",
+        "id": "bc4dcdd3-37c5-4f27-8b49-4248a898abc3",
         "identifier": [
           {
             "system": "https://standards.digital.health.nz/ns/hpi-facility-id",
@@ -729,12 +726,12 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/f2f72a05-21ee-4c40-87f2-be0f3dd0b2e0",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/eaaa26c5-0445-4a68-baff-77d741fc0459",
       "resource": {
         "resourceType": "PractitionerRole",
-        "id": "f2f72a05-21ee-4c40-87f2-be0f3dd0b2e0",
+        "id": "eaaa26c5-0445-4a68-baff-77d741fc0459",
         "practitioner": {
-          "reference": "Practitioner/f02afbbf-f621-4d52-9641-fd3c38e4e9cd"
+          "reference": "Practitioner/5a4b1f2c-4a0a-4947-abfe-f6300de61faf"
         },
         "code": [
           {
@@ -750,10 +747,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Practitioner/f02afbbf-f621-4d52-9641-fd3c38e4e9cd",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Practitioner/5a4b1f2c-4a0a-4947-abfe-f6300de61faf",
       "resource": {
         "resourceType": "Practitioner",
-        "id": "f02afbbf-f621-4d52-9641-fd3c38e4e9cd",
+        "id": "5a4b1f2c-4a0a-4947-abfe-f6300de61faf",
         "name": [
           {
             "use": "usual",
@@ -774,10 +771,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/de30e401-4085-4180-894b-d4789dd0a8cf",
       "resource": {
         "resourceType": "Organization",
-        "id": "3089a8f5-e6b3-4fe1-9c9f-18635268df5d",
+        "id": "de30e401-4085-4180-894b-d4789dd0a8cf",
         "identifier": [
           {
             "system": "https://standards.digital.health.nz/ns/hpi-facility-id",
@@ -788,10 +785,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/AllergyIntolerance/f5c63c7c-097d-4057-b46f-4419ca5306f9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/AllergyIntolerance/2777bbde-e94a-40b2-b55c-51bc27dafe3e",
       "resource": {
         "resourceType": "AllergyIntolerance",
-        "id": "f5c63c7c-097d-4057-b46f-4419ca5306f9",
+        "id": "2777bbde-e94a-40b2-b55c-51bc27dafe3e",
         "clinicalStatus": {
           "coding": [
             {
@@ -828,10 +825,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/1dbb99dc-cc2d-423b-a9b9-0b897d7d2903",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/bd05f1eb-614c-449e-b73b-1b069a64979a",
       "resource": {
         "resourceType": "Condition",
-        "id": "1dbb99dc-cc2d-423b-a9b9-0b897d7d2903",
+        "id": "bd05f1eb-614c-449e-b73b-1b069a64979a",
         "clinicalStatus": {
           "coding": [
             {
@@ -880,10 +877,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/adfbfb4b-1da5-4e60-8598-7a62ea29531c",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/40207cec-7521-49fe-9995-95b74b051c96",
       "resource": {
         "resourceType": "Condition",
-        "id": "adfbfb4b-1da5-4e60-8598-7a62ea29531c",
+        "id": "40207cec-7521-49fe-9995-95b74b051c96",
         "clinicalStatus": {
           "coding": [
             {
@@ -931,25 +928,36 @@
         },
         "recordedDate": "2016-05-25",
         "asserter": {
-          "reference": "Practitioner/f02afbbf-f621-4d52-9641-fd3c38e4e9cd"
+          "reference": "Practitioner/5a4b1f2c-4a0a-4947-abfe-f6300de61faf"
         }
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/MedicationStatement/aa90401b-baf4-465e-b53b-be787f34611e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/MedicationStatement/cf5794f7-19ff-4e67-a611-2b1832c608b5",
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "aa90401b-baf4-465e-b53b-be787f34611e",
+        "id": "cf5794f7-19ff-4e67-a611-2b1832c608b5",
         "status": "active",
-        "medicationReference": {
-          "reference": "Medication/D92955ED-50F0-4E66-B269-EDEA656FD9B4"
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://nzmt.org.nz",
+              "code": "31099751000116106",
+              "display": "cilazapril 500 microgram tablet, 90"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "318913001",
+              "display": "Product containing cilazapril (medicinal product)"
+            }
+          ]
         },
         "subject": {
           "reference": "Patient/NNJ9186"
         },
         "effectiveDateTime": "2022-11-24",
         "informationSource": {
-          "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+          "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
         },
         "dosage": [
           {
@@ -978,40 +986,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Medication/D92955ED-50F0-4E66-B269-EDEA656FD9B4",
-      "resource": {
-        "resourceType": "Medication",
-        "id": "D92955ED-50F0-4E66-B269-EDEA656FD9B4",
-        "code": {
-          "coding": [
-            {
-              "system": "http://nzmt.org.nz",
-              "code": "31099751000116106",
-              "display": "cilazapril 500 microgram tablet, 90"
-            },
-            {
-              "system": "http://snomed.info/sct",
-              "code": "318913001",
-              "display": "Product containing cilazapril (medicinal product)"
-            }
-          ]
-        },
-        "form": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "385055001",
-              "display": "tablet"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/a7e9712e-0f2f-4b4c-ae41-3002ae8ef871",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/64bbc71d-c44e-4764-b0a2-958fe22e3f41",
       "resource": {
         "resourceType": "Immunization",
-        "id": "a7e9712e-0f2f-4b4c-ae41-3002ae8ef871",
+        "id": "64bbc71d-c44e-4764-b0a2-958fe22e3f41",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1048,7 +1026,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1061,10 +1039,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/04f1ecea-98a5-4306-9813-1ff55dee3c11",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/cc55e9e2-928a-48ed-9d7a-56cb309cee6f",
       "resource": {
         "resourceType": "Immunization",
-        "id": "04f1ecea-98a5-4306-9813-1ff55dee3c11",
+        "id": "cc55e9e2-928a-48ed-9d7a-56cb309cee6f",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1101,7 +1079,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1114,10 +1092,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/e80ed18c-61e8-4876-abaf-05d82acb9619",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/a368367a-ce91-4f6d-bf39-0407de4acccf",
       "resource": {
         "resourceType": "Immunization",
-        "id": "e80ed18c-61e8-4876-abaf-05d82acb9619",
+        "id": "a368367a-ce91-4f6d-bf39-0407de4acccf",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1154,7 +1132,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1167,10 +1145,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/7693ff90-863a-4a65-a8ac-a09e0e4ece03",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/e18ca77a-fd5d-4165-8f1e-97e146575bfd",
       "resource": {
         "resourceType": "Immunization",
-        "id": "7693ff90-863a-4a65-a8ac-a09e0e4ece03",
+        "id": "e18ca77a-fd5d-4165-8f1e-97e146575bfd",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1198,7 +1176,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1211,10 +1189,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/605ad06a-e8d1-4e36-aab1-93dab7c83f96",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/ef53530a-4fd9-4d4c-87ee-37d2d989a6aa",
       "resource": {
         "resourceType": "Immunization",
-        "id": "605ad06a-e8d1-4e36-aab1-93dab7c83f96",
+        "id": "ef53530a-4fd9-4d4c-87ee-37d2d989a6aa",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1251,7 +1229,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1264,10 +1242,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/ac6cad0d-2457-492e-8d2e-9effd9b566a5",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/9e37a3f9-bdc0-4c36-abc5-607aa3e7e843",
       "resource": {
         "resourceType": "Immunization",
-        "id": "ac6cad0d-2457-492e-8d2e-9effd9b566a5",
+        "id": "9e37a3f9-bdc0-4c36-abc5-607aa3e7e843",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1304,7 +1282,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1317,10 +1295,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/f83ff0f3-0284-4411-9649-487afe1f0519",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/4fe5cd52-9317-4004-a7f7-a7f37a8781a4",
       "resource": {
         "resourceType": "Immunization",
-        "id": "f83ff0f3-0284-4411-9649-487afe1f0519",
+        "id": "4fe5cd52-9317-4004-a7f7-a7f37a8781a4",
         "status": "completed",
         "vaccineCode": {
           "coding": [
@@ -1357,7 +1335,7 @@
         "performer": [
           {
             "actor": {
-              "reference": "Organization/3089a8f5-e6b3-4fe1-9c9f-18635268df5d"
+              "reference": "Organization/de30e401-4085-4180-894b-d4789dd0a8cf"
             }
           }
         ],
@@ -1370,11 +1348,22 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/e8d6c464-31f6-4073-a231-651817d5b58e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/c027d6a2-d5de-48a1-a647-dc6b270d0567",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "e8d6c464-31f6-4073-a231-651817d5b58e",
+        "id": "c027d6a2-d5de-48a1-a647-dc6b270d0567",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "5780 (CRP)"
         },
@@ -1384,17 +1373,28 @@
         "effectiveDateTime": "2022-01-10T15:36:00+00:00",
         "result": [
           {
-            "reference": "Observation/9a2a7a87-21a0-427a-b6ee-f206e5bfa680"
+            "reference": "Observation/2e86e1af-d0df-44af-9126-ec9272da52ac"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/0f2950b6-cc78-4cbb-825b-41bbb8419672",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/030eae79-98f2-4655-a14c-04841276853b",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "0f2950b6-cc78-4cbb-825b-41bbb8419672",
+        "id": "030eae79-98f2-4655-a14c-04841276853b",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "4014 (CBC)"
         },
@@ -1404,50 +1404,61 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "result": [
           {
-            "reference": "Observation/726275e8-49d6-49be-a102-44f522046314"
+            "reference": "Observation/186d9b38-7801-484b-8de4-688e843f3d77"
           },
           {
-            "reference": "Observation/b06d67c7-fed6-4c5b-bf64-b4d387fd97d8"
+            "reference": "Observation/0fc378d2-a999-4d47-a0dd-756cf222d224"
           },
           {
-            "reference": "Observation/2e62b26e-1de8-4f4b-8051-27f792f94317"
+            "reference": "Observation/803b4a57-0f0a-4557-a101-97e059d41b81"
           },
           {
-            "reference": "Observation/d2ba2391-2e8f-4346-a4d7-37c4a1502f94"
+            "reference": "Observation/46d66103-5649-4058-acc2-325867a3102a"
           },
           {
-            "reference": "Observation/c386cd4e-84a1-4695-86c4-dc9dd839b6f9"
+            "reference": "Observation/64d1fe6d-223a-491f-92f6-069ae078663e"
           },
           {
-            "reference": "Observation/8b418089-f2a3-4897-a90a-16964e454a22"
+            "reference": "Observation/d1aef127-e2fb-4096-96db-d0f252b80697"
           },
           {
-            "reference": "Observation/19117f63-b38f-4623-9dfa-3c2304d5d234"
+            "reference": "Observation/ca1b80b6-eedd-4baf-90ae-d24237481dd6"
           },
           {
-            "reference": "Observation/22a22e07-a68a-4631-b228-26505c7bcbc3"
+            "reference": "Observation/3258eed1-873d-4884-8e1b-2b874c6db4d2"
           },
           {
-            "reference": "Observation/69f37193-0e1e-4231-9e6e-6f5face27488"
+            "reference": "Observation/191f2593-c53d-402b-bb22-2b61a48da014"
           },
           {
-            "reference": "Observation/eef7c20a-fd19-4cb6-b39e-78cacdaa3f9e"
+            "reference": "Observation/a7c26d7e-b405-4f2d-a931-4d027aa2ac45"
           },
           {
-            "reference": "Observation/e715d4f1-92c3-442e-99e6-93a7c12273c6"
+            "reference": "Observation/233f8699-617e-48c1-95f2-4fc1b4fe98e2"
           },
           {
-            "reference": "Observation/f76ebcf3-9c51-4b65-bc0d-18c420fec4ee"
+            "reference": "Observation/33ba34af-2631-4dd9-997e-51cc7ba76035"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/d2a5806b-6d94-4bbc-b1d3-4971dd6af80a",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/98e2d535-3f48-4937-bc88-f061995c6459",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "d2a5806b-6d94-4bbc-b1d3-4971dd6af80a",
+        "id": "98e2d535-3f48-4937-bc88-f061995c6459",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0055 (GENERAL CHEM....)"
         },
@@ -1457,17 +1468,28 @@
         "effectiveDateTime": "2022-01-10T15:36:00+00:00",
         "result": [
           {
-            "reference": "Observation/064382b6-7632-4479-85aa-084cd44a480b"
+            "reference": "Observation/55da787f-9155-4ce7-a2e9-9f0254379826"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/38a8e63f-ff3c-45a1-b29e-93ce30e45251",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/1c62ee51-8baf-4610-afa5-8f8ba2218b92",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "38a8e63f-ff3c-45a1-b29e-93ce30e45251",
+        "id": "1c62ee51-8baf-4610-afa5-8f8ba2218b92",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0170 (Iron Studies)"
         },
@@ -1477,17 +1499,28 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/34f7e8b2-55cf-4cc4-87b5-b889e6fc8eea"
+            "reference": "Observation/00143f63-8ca5-491e-815d-87d6095db66a"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/8fb41133-f075-4a5b-92e5-1e3886094e30",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/4c2b5275-ecfd-4971-b248-ba979e3b570c",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "8fb41133-f075-4a5b-92e5-1e3886094e30",
+        "id": "4c2b5275-ecfd-4971-b248-ba979e3b570c",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0055 (GENERAL CHEM....)"
         },
@@ -1497,29 +1530,40 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/b3376265-4f9e-41d4-b1d1-ae915239667d"
+            "reference": "Observation/d9ed009b-6c49-46c4-a5d9-de32d6c1cb5e"
           },
           {
-            "reference": "Observation/f718c953-38a5-42af-842f-d28551bccddb"
+            "reference": "Observation/12f7ec91-e9e7-48cb-a579-4bae5708ff67"
           },
           {
-            "reference": "Observation/63bda90e-1c9b-4bab-a895-95b39cd2c68b"
+            "reference": "Observation/7aa2c0c6-d0b2-4771-b472-83a3de6a094d"
           },
           {
-            "reference": "Observation/a74884f9-68e4-4d75-b2d7-5b427132383e"
+            "reference": "Observation/3063f8b9-b6e9-4886-bb57-c2235acb8f3a"
           },
           {
-            "reference": "Observation/41529a86-e1c6-46d9-ba3d-7936e21f765f"
+            "reference": "Observation/e682477e-c81c-499e-94fc-68688d9e149b"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/cfd7511c-ce8f-4f7f-80f6-c86874002bbd",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/97d0f99e-3ef5-4405-bf35-0870139d0038",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "cfd7511c-ce8f-4f7f-80f6-c86874002bbd",
+        "id": "97d0f99e-3ef5-4405-bf35-0870139d0038",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "RAD",
+                "display": "Radiology"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "RADXR (Radiology X-RAY)"
         },
@@ -1529,17 +1573,28 @@
         "effectiveDateTime": "2021-12-29T12:37:00+00:00",
         "result": [
           {
-            "reference": "Observation/cddab1c1-f546-46b1-b3cb-a99b7ad29cd6"
+            "reference": "Observation/db7bb027-1ab6-4576-a122-c388c1eb1efe"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/f395be50-7c63-4cee-99f4-53fc134ff3e7",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/1ac8d226-c66c-4933-8cde-39a0441a6cb6",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "f395be50-7c63-4cee-99f4-53fc134ff3e7",
+        "id": "1ac8d226-c66c-4933-8cde-39a0441a6cb6",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0320 (CALCIUM.........)"
         },
@@ -1549,23 +1604,34 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/c0ec6b0a-ef62-4bf2-bc4b-aecd42477c95"
+            "reference": "Observation/2a8ed65b-8662-40d3-a2ed-75523c268cc4"
           },
           {
-            "reference": "Observation/71c04057-999b-439c-a482-df97af5fab53"
+            "reference": "Observation/0df52c81-0b66-42cc-a433-efc7ce2371e5"
           },
           {
-            "reference": "Observation/8ddbc3ad-e942-4536-9571-b4c525c85b8d"
+            "reference": "Observation/20331a81-bff2-4c65-8b59-e0d1042ef30e"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/7a544926-102d-447b-b47d-481be8771b28",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/21fde791-77ac-4b1e-9c90-b2c37f46b6e6",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "7a544926-102d-447b-b47d-481be8771b28",
+        "id": "21fde791-77ac-4b1e-9c90-b2c37f46b6e6",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "4014 (CBC)"
         },
@@ -1575,47 +1641,58 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/eb01b8ca-b9cf-4f31-814c-955fb5da053a"
+            "reference": "Observation/fe385973-3f62-41e8-96cd-6d46dc3714d7"
           },
           {
-            "reference": "Observation/3c87320f-b12c-4262-a43f-f3cb2017efad"
+            "reference": "Observation/6a887a53-40c6-4876-8ad7-2d53d34d95e3"
           },
           {
-            "reference": "Observation/13ae25a6-5db9-4e13-b36c-533b4f8ffdf9"
+            "reference": "Observation/124486c6-42c4-4d08-8733-d95af0ed947f"
           },
           {
-            "reference": "Observation/0bea37af-a48a-4c7a-b66e-b716a22f840b"
+            "reference": "Observation/fa7b3bb5-c8e3-4297-8aec-3a277ada80c9"
           },
           {
-            "reference": "Observation/85a0d68b-1124-49db-8965-29537ac5031f"
+            "reference": "Observation/aaefc876-16b9-4788-8cc0-5181949db95c"
           },
           {
-            "reference": "Observation/3e705abd-08e1-4243-8c7e-c4cdf396eb32"
+            "reference": "Observation/87a51af4-c65a-4f3d-ae24-568965cc0a17"
           },
           {
-            "reference": "Observation/537ac1da-c1c5-4346-8ac6-06e57bd6fde3"
+            "reference": "Observation/14053417-9d9c-4b3a-b6e8-0ed28f745ffd"
           },
           {
-            "reference": "Observation/33ad4afb-a0b9-4706-bcc9-69fe33821b8f"
+            "reference": "Observation/8ad16b96-5829-4944-993b-b49da05f26e7"
           },
           {
-            "reference": "Observation/5cbf3114-c127-49de-a382-c69f4d4e3678"
+            "reference": "Observation/76acaabc-6f67-4eca-860a-43101df6202e"
           },
           {
-            "reference": "Observation/0f797a4a-df94-4da3-87ab-6aaa4cad2559"
+            "reference": "Observation/f8285024-7d85-44d9-ba14-0ec0c967dd0a"
           },
           {
-            "reference": "Observation/4a407d26-58d9-4d96-a257-b03463b9ae3b"
+            "reference": "Observation/d5250f27-c61e-48b3-b46d-eb63670bb62a"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/cb164507-559c-448a-8db0-b4410c1b2bcd",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/980471a4-ef8b-4f58-b6e1-737865fbe6f0",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "cb164507-559c-448a-8db0-b4410c1b2bcd",
+        "id": "980471a4-ef8b-4f58-b6e1-737865fbe6f0",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "4014 (CBC)"
         },
@@ -1625,50 +1702,61 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "result": [
           {
-            "reference": "Observation/3aca3c3c-64e5-4832-94e5-8a7b4d7f5e14"
+            "reference": "Observation/de863fb7-5f5c-48e6-8c7e-6350cd26b121"
           },
           {
-            "reference": "Observation/78e63e5e-c375-4bf5-81c6-38443922b1b9"
+            "reference": "Observation/db5eb4ed-9bac-414f-a0d5-b2ebe6d5c2c7"
           },
           {
-            "reference": "Observation/17516935-f683-4343-9c05-59997ef2c073"
+            "reference": "Observation/c7f08e83-1e50-4f5f-8db7-d25f7ba0c79a"
           },
           {
-            "reference": "Observation/900da83b-88c4-4bc5-b78e-36d7b2b74c84"
+            "reference": "Observation/e5287904-473a-46d6-ab50-ddf79b588534"
           },
           {
-            "reference": "Observation/42e721a4-6970-439b-9ddf-5c3c872e9c2b"
+            "reference": "Observation/63266a4a-092b-4122-a648-da05b86771ec"
           },
           {
-            "reference": "Observation/51111fee-abb5-4fa0-9f67-53fe28a47e00"
+            "reference": "Observation/eeebd0aa-518c-4fbb-b306-58f95937b784"
           },
           {
-            "reference": "Observation/de9f4e46-07e4-489b-97c3-f30035b8a586"
+            "reference": "Observation/68cb4242-27e6-4c89-8a62-5f5f1f674c63"
           },
           {
-            "reference": "Observation/4e983644-b60e-4a70-a400-bf51877cba8e"
+            "reference": "Observation/070b0096-1e4a-4ceb-aa9d-4e5b630a6a1e"
           },
           {
-            "reference": "Observation/a8ad0bf5-ef74-4555-a4f2-4bf7b65add41"
+            "reference": "Observation/f1b1cc2c-756f-4d05-aa8f-4a0b5cccf2e3"
           },
           {
-            "reference": "Observation/3a8029c1-340d-4491-9d6d-f7621bc8c182"
+            "reference": "Observation/8e6a167d-a4fc-4423-89ce-edaa1239860c"
           },
           {
-            "reference": "Observation/90bdb03a-ac96-42ab-b739-7cf20196e476"
+            "reference": "Observation/c84632f2-224b-4892-ab19-bfdb49986b2d"
           },
           {
-            "reference": "Observation/d2ca745d-b50d-4c15-9868-8e60978433a0"
+            "reference": "Observation/a090a750-8a79-4898-83a7-c7b6b599e71a"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/aacb3934-81ac-4cce-b6ff-a6bd44c8c482",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/2fbbf833-3e39-4942-b589-47635fd56517",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "aacb3934-81ac-4cce-b6ff-a6bd44c8c482",
+        "id": "2fbbf833-3e39-4942-b589-47635fd56517",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "5780 (CRP)"
         },
@@ -1678,17 +1766,28 @@
         "effectiveDateTime": "2021-12-21T18:06:00+00:00",
         "result": [
           {
-            "reference": "Observation/1a13f6b0-dc66-4e52-9d9b-ce7dbe6d15f2"
+            "reference": "Observation/2b4e9174-a97d-44f1-816d-b16055df6ed8"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/8cc335ed-055d-4c1a-a0ef-716e3a7e329e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/37206e82-d986-4b54-a391-25e7cdce194c",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "8cc335ed-055d-4c1a-a0ef-716e3a7e329e",
+        "id": "37206e82-d986-4b54-a391-25e7cdce194c",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0063 (HBA1c)"
         },
@@ -1698,17 +1797,28 @@
         "effectiveDateTime": "2022-10-20T12:35:00+00:00",
         "result": [
           {
-            "reference": "Observation/7b24f8ec-7111-4369-a442-79ccbd107426"
+            "reference": "Observation/446d53a3-7c42-4175-80b1-d552fac6674a"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/c8be9dfb-3fba-4201-97d7-a9f6e81019a9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/8aefcd68-6dba-45d5-bd72-1af43b3f5d4f",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "c8be9dfb-3fba-4201-97d7-a9f6e81019a9",
+        "id": "8aefcd68-6dba-45d5-bd72-1af43b3f5d4f",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0055 (GENERAL CHEM....)"
         },
@@ -1718,17 +1828,28 @@
         "effectiveDateTime": "2021-12-06T16:06:00+00:00",
         "result": [
           {
-            "reference": "Observation/ff3f10d3-46ea-46cb-a388-bf53ab35c707"
+            "reference": "Observation/a07d8fad-d793-45b6-824e-9a9a017a1bad"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/81f4a244-a20b-440a-89cc-dd2d80d38a9d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/b9c59efa-f3fc-4230-8f12-2d77a36224d6",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "81f4a244-a20b-440a-89cc-dd2d80d38a9d",
+        "id": "b9c59efa-f3fc-4230-8f12-2d77a36224d6",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "1960 (B12 and folate)"
         },
@@ -1738,20 +1859,31 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/3ec12a1a-9110-47c1-9180-5122f788400b"
+            "reference": "Observation/05ea54ca-e25a-47a3-967f-769f76b00e97"
           },
           {
-            "reference": "Observation/1b643a8c-f5f5-4e3e-8850-86016c4ed557"
+            "reference": "Observation/6af29756-1f0f-41c9-9fd0-a4ced36fe5f6"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/7bce4816-bb80-43a8-bdcb-d8ddbe97b3cb",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/ce718f45-7448-4658-9f62-a438184931a4",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "7bce4816-bb80-43a8-bdcb-d8ddbe97b3cb",
+        "id": "ce718f45-7448-4658-9f62-a438184931a4",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "5780 (CRP)"
         },
@@ -1761,17 +1893,28 @@
         "effectiveDateTime": "2021-12-06T16:06:00+00:00",
         "result": [
           {
-            "reference": "Observation/31829418-8b82-468d-8fbe-2a553447d605"
+            "reference": "Observation/60216317-67cf-4403-ab52-c6686eb2ed76"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/24009073-60be-4cfd-8955-40428ba75eee",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/5cbedce4-7ff0-4429-b5fc-a8231f31c250",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "24009073-60be-4cfd-8955-40428ba75eee",
+        "id": "5cbedce4-7ff0-4429-b5fc-a8231f31c250",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "1540 (TFTs............)"
         },
@@ -1781,17 +1924,28 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/49c1c2ed-7c0d-4a5d-b935-fcb129e8f777"
+            "reference": "Observation/673c5d45-3318-4662-8659-af7aad17071a"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/56c7611f-ea26-40b4-9f06-2cd3a0749ede",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/96e229b6-d512-4a37-ac29-77ac2c04fc99",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "56c7611f-ea26-40b4-9f06-2cd3a0749ede",
+        "id": "96e229b6-d512-4a37-ac29-77ac2c04fc99",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0100 (Liver Function Tests)"
         },
@@ -1801,35 +1955,46 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/710d251d-9fd2-434f-9e22-719bfacafec1"
+            "reference": "Observation/0932f6d8-696a-4457-aa06-d08b3ab477f0"
           },
           {
-            "reference": "Observation/6821aabf-3287-43cc-9c05-e34ce81c3eae"
+            "reference": "Observation/989c0c54-324f-46e6-9a41-b2ea8e3eb5ed"
           },
           {
-            "reference": "Observation/2007abb3-f0fc-4aa2-be3b-8bc56c6cb9d3"
+            "reference": "Observation/62644809-8900-436e-aed4-cb5c40b8ca23"
           },
           {
-            "reference": "Observation/bade9485-087a-490f-9235-0024e68aa139"
+            "reference": "Observation/1e47fd61-3256-4827-9251-3bf0eef14eb3"
           },
           {
-            "reference": "Observation/b489b0e9-bcda-4b63-95bd-e0e2fc9b002d"
+            "reference": "Observation/66b5aa02-855f-497a-95ed-ee70b67a693f"
           },
           {
-            "reference": "Observation/8035ccfb-c6ac-46c4-9f8a-a39620ebcfef"
+            "reference": "Observation/39f6f6a0-b149-4f01-b158-1378c9a4fd34"
           },
           {
-            "reference": "Observation/c3bb159f-448e-43d8-a619-bf8d7d063e95"
+            "reference": "Observation/ff51afe5-5425-462e-b4d2-1b340c713924"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/48b50c47-2c6c-4fd8-98ea-75e91d55bcd0",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/93dcbb99-de8e-43ff-aae3-43cd1c5597b2",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "48b50c47-2c6c-4fd8-98ea-75e91d55bcd0",
+        "id": "93dcbb99-de8e-43ff-aae3-43cd1c5597b2",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "1080 (LIPIDS..........)"
         },
@@ -1839,32 +2004,43 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/821603e0-c7ad-4f03-a055-e314a9219373"
+            "reference": "Observation/29ed399f-77be-4bee-b5a8-f0711828f83e"
           },
           {
-            "reference": "Observation/b1c2ecf5-7439-4d25-b746-33d11ae8bbc5"
+            "reference": "Observation/d91724c9-1806-4749-b23e-fb33996c662b"
           },
           {
-            "reference": "Observation/2647be07-5b23-4eb6-992c-3d56132e2493"
+            "reference": "Observation/1fa4a99a-729a-4754-883a-aeef1cebe81c"
           },
           {
-            "reference": "Observation/58fe9320-a9a1-4d45-ac5d-095063236ed6"
+            "reference": "Observation/da73e046-d5a8-4a66-ab1c-6400fc0329f7"
           },
           {
-            "reference": "Observation/7b35da14-f94a-461a-8c91-99078f370631"
+            "reference": "Observation/152bb4a7-053f-4f28-85ca-69ec34474436"
           },
           {
-            "reference": "Observation/4c87db36-045f-4379-8a9f-2c4dfc029770"
+            "reference": "Observation/e2a419ac-a58b-49e2-83f9-e2adf5f82d7f"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/54fcba13-0166-4ad8-b4cb-9a4adb839107",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/30624c91-b60c-4416-b455-990e0de1079a",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "54fcba13-0166-4ad8-b4cb-9a4adb839107",
+        "id": "30624c91-b60c-4416-b455-990e0de1079a",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "0055 (GENERAL CHEM....)"
         },
@@ -1874,17 +2050,28 @@
         "effectiveDateTime": "2021-12-21T18:06:00+00:00",
         "result": [
           {
-            "reference": "Observation/85f9d759-9cba-4555-806e-93f80d60c7f0"
+            "reference": "Observation/aaa07e9f-6ffb-4872-9b64-99d9ea88f95a"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/e585cb79-6a8e-4d8d-b63c-96429ec36250",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/6fb373c4-8417-4078-b2cc-f6a735431b3b",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "e585cb79-6a8e-4d8d-b63c-96429ec36250",
+        "id": "6fb373c4-8417-4078-b2cc-f6a735431b3b",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "4014 (CBC)"
         },
@@ -1894,50 +2081,61 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "result": [
           {
-            "reference": "Observation/4681498b-39f6-4f27-ad2f-de63eb24d2b1"
+            "reference": "Observation/63e8ec0a-ac59-4d2e-a5b2-9e7eab61e82e"
           },
           {
-            "reference": "Observation/37d1d3d6-f3ae-4c13-aaa1-efbe83f660b4"
+            "reference": "Observation/3e07de36-6917-4082-b3cb-617ccf0ed10f"
           },
           {
-            "reference": "Observation/3a4913aa-bb56-45b4-bcdf-c93740305ecc"
+            "reference": "Observation/23ce3843-4847-47dd-b202-c349ec2ae349"
           },
           {
-            "reference": "Observation/e418c372-5495-46a6-9e86-56324d368f86"
+            "reference": "Observation/c8c5aa0e-5bc6-4e58-8b1b-2a76300240c8"
           },
           {
-            "reference": "Observation/f4dbdbd8-f75a-43ac-92fe-2187a052344f"
+            "reference": "Observation/a46f4cb0-3f29-400a-9ba7-97b7caf7e4f2"
           },
           {
-            "reference": "Observation/fc0fc730-509c-47a7-b2b3-77a3ce9d2637"
+            "reference": "Observation/f43a4a8f-463a-48b1-8cca-9e7b1b596c8c"
           },
           {
-            "reference": "Observation/9c1b59ca-58b0-49d5-a76f-aa3b15d4a396"
+            "reference": "Observation/9605db01-ba78-4726-ac9d-7547b02d64ee"
           },
           {
-            "reference": "Observation/1937f7a2-1f9c-4967-8fbd-5d4529fd9fde"
+            "reference": "Observation/6c155fde-4cc0-4fb9-8a87-07ef57362576"
           },
           {
-            "reference": "Observation/d29b8ea0-8933-4b34-ae49-94cccc9d24a9"
+            "reference": "Observation/959c3696-9ad5-424c-aba1-0f21f8386d79"
           },
           {
-            "reference": "Observation/bd6e7569-fc35-4b50-a786-d2941266648b"
+            "reference": "Observation/53e08de8-c08f-48f4-ae9c-25a4cf169cdb"
           },
           {
-            "reference": "Observation/f8bb5852-dfee-4aff-abe5-0e80d5914982"
+            "reference": "Observation/724d11f2-81f2-4ede-8901-1d180ba23d14"
           },
           {
-            "reference": "Observation/c1d39ab6-2b61-4bc7-a880-42a0177c4960"
+            "reference": "Observation/ba312bc2-9779-449a-b737-15580f50b8d8"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/963e5852-3af7-4394-a5e1-eed35c5561d4",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/e4f3ad3d-8262-48d2-b4cc-d0ebaa8c4d6d",
       "resource": {
         "resourceType": "DiagnosticReport",
-        "id": "963e5852-3af7-4394-a5e1-eed35c5561d4",
+        "id": "e4f3ad3d-8262-48d2-b4cc-d0ebaa8c4d6d",
         "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
         "code": {
           "text": "3711 (Screening FIT)"
         },
@@ -1947,16 +2145,16 @@
         "effectiveDateTime": "2021-12-10T21:00:00+00:00",
         "result": [
           {
-            "reference": "Observation/a61ad84b-0159-44c7-9e94-0afabf05394a"
+            "reference": "Observation/cf5dc87c-ef51-4a8b-9c7e-20674bee2aa5"
           }
         ]
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/9a2a7a87-21a0-427a-b6ee-f206e5bfa680",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2e86e1af-d0df-44af-9126-ec9272da52ac",
       "resource": {
         "resourceType": "Observation",
-        "id": "9a2a7a87-21a0-427a-b6ee-f206e5bfa680",
+        "id": "2e86e1af-d0df-44af-9126-ec9272da52ac",
         "status": "final",
         "category": [
           {
@@ -1983,7 +2181,7 @@
         "effectiveDateTime": "2022-01-10T15:36:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2000,10 +2198,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/726275e8-49d6-49be-a102-44f522046314",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/186d9b38-7801-484b-8de4-688e843f3d77",
       "resource": {
         "resourceType": "Observation",
-        "id": "726275e8-49d6-49be-a102-44f522046314",
+        "id": "186d9b38-7801-484b-8de4-688e843f3d77",
         "status": "final",
         "category": [
           {
@@ -2030,7 +2228,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2047,10 +2245,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/b06d67c7-fed6-4c5b-bf64-b4d387fd97d8",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/0fc378d2-a999-4d47-a0dd-756cf222d224",
       "resource": {
         "resourceType": "Observation",
-        "id": "b06d67c7-fed6-4c5b-bf64-b4d387fd97d8",
+        "id": "0fc378d2-a999-4d47-a0dd-756cf222d224",
         "status": "final",
         "category": [
           {
@@ -2077,7 +2275,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2094,10 +2292,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2e62b26e-1de8-4f4b-8051-27f792f94317",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/803b4a57-0f0a-4557-a101-97e059d41b81",
       "resource": {
         "resourceType": "Observation",
-        "id": "2e62b26e-1de8-4f4b-8051-27f792f94317",
+        "id": "803b4a57-0f0a-4557-a101-97e059d41b81",
         "status": "final",
         "category": [
           {
@@ -2124,7 +2322,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2141,10 +2339,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d2ba2391-2e8f-4346-a4d7-37c4a1502f94",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/46d66103-5649-4058-acc2-325867a3102a",
       "resource": {
         "resourceType": "Observation",
-        "id": "d2ba2391-2e8f-4346-a4d7-37c4a1502f94",
+        "id": "46d66103-5649-4058-acc2-325867a3102a",
         "status": "final",
         "category": [
           {
@@ -2171,7 +2369,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2188,10 +2386,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c386cd4e-84a1-4695-86c4-dc9dd839b6f9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/64d1fe6d-223a-491f-92f6-069ae078663e",
       "resource": {
         "resourceType": "Observation",
-        "id": "c386cd4e-84a1-4695-86c4-dc9dd839b6f9",
+        "id": "64d1fe6d-223a-491f-92f6-069ae078663e",
         "status": "final",
         "category": [
           {
@@ -2218,7 +2416,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2235,10 +2433,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8b418089-f2a3-4897-a90a-16964e454a22",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d1aef127-e2fb-4096-96db-d0f252b80697",
       "resource": {
         "resourceType": "Observation",
-        "id": "8b418089-f2a3-4897-a90a-16964e454a22",
+        "id": "d1aef127-e2fb-4096-96db-d0f252b80697",
         "status": "final",
         "category": [
           {
@@ -2265,7 +2463,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2282,10 +2480,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/19117f63-b38f-4623-9dfa-3c2304d5d234",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/ca1b80b6-eedd-4baf-90ae-d24237481dd6",
       "resource": {
         "resourceType": "Observation",
-        "id": "19117f63-b38f-4623-9dfa-3c2304d5d234",
+        "id": "ca1b80b6-eedd-4baf-90ae-d24237481dd6",
         "status": "final",
         "category": [
           {
@@ -2312,7 +2510,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2329,10 +2527,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/22a22e07-a68a-4631-b228-26505c7bcbc3",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3258eed1-873d-4884-8e1b-2b874c6db4d2",
       "resource": {
         "resourceType": "Observation",
-        "id": "22a22e07-a68a-4631-b228-26505c7bcbc3",
+        "id": "3258eed1-873d-4884-8e1b-2b874c6db4d2",
         "status": "final",
         "category": [
           {
@@ -2359,7 +2557,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2376,10 +2574,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/69f37193-0e1e-4231-9e6e-6f5face27488",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/191f2593-c53d-402b-bb22-2b61a48da014",
       "resource": {
         "resourceType": "Observation",
-        "id": "69f37193-0e1e-4231-9e6e-6f5face27488",
+        "id": "191f2593-c53d-402b-bb22-2b61a48da014",
         "status": "final",
         "category": [
           {
@@ -2406,7 +2604,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2423,10 +2621,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/eef7c20a-fd19-4cb6-b39e-78cacdaa3f9e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a7c26d7e-b405-4f2d-a931-4d027aa2ac45",
       "resource": {
         "resourceType": "Observation",
-        "id": "eef7c20a-fd19-4cb6-b39e-78cacdaa3f9e",
+        "id": "a7c26d7e-b405-4f2d-a931-4d027aa2ac45",
         "status": "final",
         "category": [
           {
@@ -2453,7 +2651,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2470,10 +2668,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/e715d4f1-92c3-442e-99e6-93a7c12273c6",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/233f8699-617e-48c1-95f2-4fc1b4fe98e2",
       "resource": {
         "resourceType": "Observation",
-        "id": "e715d4f1-92c3-442e-99e6-93a7c12273c6",
+        "id": "233f8699-617e-48c1-95f2-4fc1b4fe98e2",
         "status": "final",
         "category": [
           {
@@ -2500,7 +2698,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2517,10 +2715,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f76ebcf3-9c51-4b65-bc0d-18c420fec4ee",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/33ba34af-2631-4dd9-997e-51cc7ba76035",
       "resource": {
         "resourceType": "Observation",
-        "id": "f76ebcf3-9c51-4b65-bc0d-18c420fec4ee",
+        "id": "33ba34af-2631-4dd9-997e-51cc7ba76035",
         "status": "final",
         "category": [
           {
@@ -2547,7 +2745,7 @@
         "effectiveDateTime": "2021-12-06T16:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2564,10 +2762,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/064382b6-7632-4479-85aa-084cd44a480b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/55da787f-9155-4ce7-a2e9-9f0254379826",
       "resource": {
         "resourceType": "Observation",
-        "id": "064382b6-7632-4479-85aa-084cd44a480b",
+        "id": "55da787f-9155-4ce7-a2e9-9f0254379826",
         "status": "final",
         "category": [
           {
@@ -2594,7 +2792,7 @@
         "effectiveDateTime": "2022-01-10T15:36:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2619,10 +2817,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/34f7e8b2-55cf-4cc4-87b5-b889e6fc8eea",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/00143f63-8ca5-491e-815d-87d6095db66a",
       "resource": {
         "resourceType": "Observation",
-        "id": "34f7e8b2-55cf-4cc4-87b5-b889e6fc8eea",
+        "id": "00143f63-8ca5-491e-815d-87d6095db66a",
         "status": "final",
         "category": [
           {
@@ -2649,7 +2847,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2666,10 +2864,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/b3376265-4f9e-41d4-b1d1-ae915239667d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d9ed009b-6c49-46c4-a5d9-de32d6c1cb5e",
       "resource": {
         "resourceType": "Observation",
-        "id": "b3376265-4f9e-41d4-b1d1-ae915239667d",
+        "id": "d9ed009b-6c49-46c4-a5d9-de32d6c1cb5e",
         "status": "final",
         "category": [
           {
@@ -2696,7 +2894,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2713,10 +2911,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f718c953-38a5-42af-842f-d28551bccddb",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/12f7ec91-e9e7-48cb-a579-4bae5708ff67",
       "resource": {
         "resourceType": "Observation",
-        "id": "f718c953-38a5-42af-842f-d28551bccddb",
+        "id": "12f7ec91-e9e7-48cb-a579-4bae5708ff67",
         "status": "final",
         "category": [
           {
@@ -2743,7 +2941,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2760,10 +2958,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/63bda90e-1c9b-4bab-a895-95b39cd2c68b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/7aa2c0c6-d0b2-4771-b472-83a3de6a094d",
       "resource": {
         "resourceType": "Observation",
-        "id": "63bda90e-1c9b-4bab-a895-95b39cd2c68b",
+        "id": "7aa2c0c6-d0b2-4771-b472-83a3de6a094d",
         "status": "final",
         "category": [
           {
@@ -2790,7 +2988,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2826,10 +3024,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a74884f9-68e4-4d75-b2d7-5b427132383e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3063f8b9-b6e9-4886-bb57-c2235acb8f3a",
       "resource": {
         "resourceType": "Observation",
-        "id": "a74884f9-68e4-4d75-b2d7-5b427132383e",
+        "id": "3063f8b9-b6e9-4886-bb57-c2235acb8f3a",
         "status": "final",
         "category": [
           {
@@ -2856,7 +3054,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2873,10 +3071,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/41529a86-e1c6-46d9-ba3d-7936e21f765f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/e682477e-c81c-499e-94fc-68688d9e149b",
       "resource": {
         "resourceType": "Observation",
-        "id": "41529a86-e1c6-46d9-ba3d-7936e21f765f",
+        "id": "e682477e-c81c-499e-94fc-68688d9e149b",
         "status": "final",
         "category": [
           {
@@ -2903,7 +3101,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -2920,10 +3118,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/cddab1c1-f546-46b1-b3cb-a99b7ad29cd6",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/db7bb027-1ab6-4576-a122-c388c1eb1efe",
       "resource": {
         "resourceType": "Observation",
-        "id": "cddab1c1-f546-46b1-b3cb-a99b7ad29cd6",
+        "id": "db7bb027-1ab6-4576-a122-c388c1eb1efe",
         "status": "final",
         "category": [
           {
@@ -2950,7 +3148,7 @@
         "effectiveDateTime": "2021-12-29T12:36:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/3bd0852c-34a1-465c-a06d-8f37fddbd3ed"
+            "reference": "PractitionerRole/f65dac85-a603-4ffa-a7c4-8c431c7f8fd4"
           }
         ],
         "valueString": "This report is for Dr H. CoorayReferred ByDr H. CoorayX-RAY BOTH SHOULDERS 29122021 Reference 3294617 NHI NNJ9186IndicationBilateral shoulder pain initial relief with prednisone but now notresolving.FindingsMild degenerative changes in the AC joints bilaterally slightly moremarked on the left where there is subchondral sclerosis. Superiormarginal osteophyte formation bilaterally.Mild degenerative changes in the glenohumeral joints bilaterally withglenoid subchondral sclerosis joint spaces are well preserved.No other features of note on either side.CommentNon-specific degenerative changes on both sides with no plain filmevidence for a specific arthropathy.Radiologist Dr Barry Chatterton",
@@ -2962,10 +3160,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c0ec6b0a-ef62-4bf2-bc4b-aecd42477c95",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2a8ed65b-8662-40d3-a2ed-75523c268cc4",
       "resource": {
         "resourceType": "Observation",
-        "id": "c0ec6b0a-ef62-4bf2-bc4b-aecd42477c95",
+        "id": "2a8ed65b-8662-40d3-a2ed-75523c268cc4",
         "status": "final",
         "category": [
           {
@@ -2992,7 +3190,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3009,10 +3207,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/71c04057-999b-439c-a482-df97af5fab53",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/0df52c81-0b66-42cc-a433-efc7ce2371e5",
       "resource": {
         "resourceType": "Observation",
-        "id": "71c04057-999b-439c-a482-df97af5fab53",
+        "id": "0df52c81-0b66-42cc-a433-efc7ce2371e5",
         "status": "final",
         "category": [
           {
@@ -3039,11 +3237,11 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
-          "value": 1.0,
+          "value": 1.00,
           "unit": "mmol/L",
           "system": "http://unitsofmeasure.org",
           "code": "mmol/L"
@@ -3056,10 +3254,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8ddbc3ad-e942-4536-9571-b4c525c85b8d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/20331a81-bff2-4c65-8b59-e0d1042ef30e",
       "resource": {
         "resourceType": "Observation",
-        "id": "8ddbc3ad-e942-4536-9571-b4c525c85b8d",
+        "id": "20331a81-bff2-4c65-8b59-e0d1042ef30e",
         "status": "final",
         "category": [
           {
@@ -3086,7 +3284,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3103,10 +3301,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/eb01b8ca-b9cf-4f31-814c-955fb5da053a",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/fe385973-3f62-41e8-96cd-6d46dc3714d7",
       "resource": {
         "resourceType": "Observation",
-        "id": "eb01b8ca-b9cf-4f31-814c-955fb5da053a",
+        "id": "fe385973-3f62-41e8-96cd-6d46dc3714d7",
         "status": "final",
         "category": [
           {
@@ -3133,7 +3331,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3150,10 +3348,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3c87320f-b12c-4262-a43f-f3cb2017efad",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/6a887a53-40c6-4876-8ad7-2d53d34d95e3",
       "resource": {
         "resourceType": "Observation",
-        "id": "3c87320f-b12c-4262-a43f-f3cb2017efad",
+        "id": "6a887a53-40c6-4876-8ad7-2d53d34d95e3",
         "status": "final",
         "category": [
           {
@@ -3180,7 +3378,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3197,10 +3395,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/13ae25a6-5db9-4e13-b36c-533b4f8ffdf9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/124486c6-42c4-4d08-8733-d95af0ed947f",
       "resource": {
         "resourceType": "Observation",
-        "id": "13ae25a6-5db9-4e13-b36c-533b4f8ffdf9",
+        "id": "124486c6-42c4-4d08-8733-d95af0ed947f",
         "status": "final",
         "category": [
           {
@@ -3227,7 +3425,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3244,10 +3442,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/0bea37af-a48a-4c7a-b66e-b716a22f840b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/fa7b3bb5-c8e3-4297-8aec-3a277ada80c9",
       "resource": {
         "resourceType": "Observation",
-        "id": "0bea37af-a48a-4c7a-b66e-b716a22f840b",
+        "id": "fa7b3bb5-c8e3-4297-8aec-3a277ada80c9",
         "status": "final",
         "category": [
           {
@@ -3274,7 +3472,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3291,10 +3489,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/85a0d68b-1124-49db-8965-29537ac5031f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/aaefc876-16b9-4788-8cc0-5181949db95c",
       "resource": {
         "resourceType": "Observation",
-        "id": "85a0d68b-1124-49db-8965-29537ac5031f",
+        "id": "aaefc876-16b9-4788-8cc0-5181949db95c",
         "status": "final",
         "category": [
           {
@@ -3321,7 +3519,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3338,10 +3536,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3e705abd-08e1-4243-8c7e-c4cdf396eb32",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/87a51af4-c65a-4f3d-ae24-568965cc0a17",
       "resource": {
         "resourceType": "Observation",
-        "id": "3e705abd-08e1-4243-8c7e-c4cdf396eb32",
+        "id": "87a51af4-c65a-4f3d-ae24-568965cc0a17",
         "status": "final",
         "category": [
           {
@@ -3368,7 +3566,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3385,10 +3583,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/537ac1da-c1c5-4346-8ac6-06e57bd6fde3",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/14053417-9d9c-4b3a-b6e8-0ed28f745ffd",
       "resource": {
         "resourceType": "Observation",
-        "id": "537ac1da-c1c5-4346-8ac6-06e57bd6fde3",
+        "id": "14053417-9d9c-4b3a-b6e8-0ed28f745ffd",
         "status": "final",
         "category": [
           {
@@ -3415,7 +3613,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3432,10 +3630,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/33ad4afb-a0b9-4706-bcc9-69fe33821b8f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8ad16b96-5829-4944-993b-b49da05f26e7",
       "resource": {
         "resourceType": "Observation",
-        "id": "33ad4afb-a0b9-4706-bcc9-69fe33821b8f",
+        "id": "8ad16b96-5829-4944-993b-b49da05f26e7",
         "status": "final",
         "category": [
           {
@@ -3462,7 +3660,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3479,10 +3677,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/5cbf3114-c127-49de-a382-c69f4d4e3678",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/76acaabc-6f67-4eca-860a-43101df6202e",
       "resource": {
         "resourceType": "Observation",
-        "id": "5cbf3114-c127-49de-a382-c69f4d4e3678",
+        "id": "76acaabc-6f67-4eca-860a-43101df6202e",
         "status": "final",
         "category": [
           {
@@ -3509,7 +3707,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3526,10 +3724,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/0f797a4a-df94-4da3-87ab-6aaa4cad2559",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f8285024-7d85-44d9-ba14-0ec0c967dd0a",
       "resource": {
         "resourceType": "Observation",
-        "id": "0f797a4a-df94-4da3-87ab-6aaa4cad2559",
+        "id": "f8285024-7d85-44d9-ba14-0ec0c967dd0a",
         "status": "final",
         "category": [
           {
@@ -3556,7 +3754,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3573,10 +3771,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/4a407d26-58d9-4d96-a257-b03463b9ae3b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d5250f27-c61e-48b3-b46d-eb63670bb62a",
       "resource": {
         "resourceType": "Observation",
-        "id": "4a407d26-58d9-4d96-a257-b03463b9ae3b",
+        "id": "d5250f27-c61e-48b3-b46d-eb63670bb62a",
         "status": "final",
         "category": [
           {
@@ -3603,7 +3801,7 @@
         "effectiveDateTime": "2022-10-20T12:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3620,10 +3818,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3aca3c3c-64e5-4832-94e5-8a7b4d7f5e14",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/de863fb7-5f5c-48e6-8c7e-6350cd26b121",
       "resource": {
         "resourceType": "Observation",
-        "id": "3aca3c3c-64e5-4832-94e5-8a7b4d7f5e14",
+        "id": "de863fb7-5f5c-48e6-8c7e-6350cd26b121",
         "status": "final",
         "category": [
           {
@@ -3650,7 +3848,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3667,10 +3865,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/78e63e5e-c375-4bf5-81c6-38443922b1b9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/db5eb4ed-9bac-414f-a0d5-b2ebe6d5c2c7",
       "resource": {
         "resourceType": "Observation",
-        "id": "78e63e5e-c375-4bf5-81c6-38443922b1b9",
+        "id": "db5eb4ed-9bac-414f-a0d5-b2ebe6d5c2c7",
         "status": "final",
         "category": [
           {
@@ -3697,7 +3895,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3714,10 +3912,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/17516935-f683-4343-9c05-59997ef2c073",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c7f08e83-1e50-4f5f-8db7-d25f7ba0c79a",
       "resource": {
         "resourceType": "Observation",
-        "id": "17516935-f683-4343-9c05-59997ef2c073",
+        "id": "c7f08e83-1e50-4f5f-8db7-d25f7ba0c79a",
         "status": "final",
         "category": [
           {
@@ -3744,7 +3942,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3761,10 +3959,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/900da83b-88c4-4bc5-b78e-36d7b2b74c84",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/e5287904-473a-46d6-ab50-ddf79b588534",
       "resource": {
         "resourceType": "Observation",
-        "id": "900da83b-88c4-4bc5-b78e-36d7b2b74c84",
+        "id": "e5287904-473a-46d6-ab50-ddf79b588534",
         "status": "final",
         "category": [
           {
@@ -3791,7 +3989,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3808,10 +4006,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/42e721a4-6970-439b-9ddf-5c3c872e9c2b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/63266a4a-092b-4122-a648-da05b86771ec",
       "resource": {
         "resourceType": "Observation",
-        "id": "42e721a4-6970-439b-9ddf-5c3c872e9c2b",
+        "id": "63266a4a-092b-4122-a648-da05b86771ec",
         "status": "final",
         "category": [
           {
@@ -3838,7 +4036,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3855,10 +4053,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/51111fee-abb5-4fa0-9f67-53fe28a47e00",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/eeebd0aa-518c-4fbb-b306-58f95937b784",
       "resource": {
         "resourceType": "Observation",
-        "id": "51111fee-abb5-4fa0-9f67-53fe28a47e00",
+        "id": "eeebd0aa-518c-4fbb-b306-58f95937b784",
         "status": "final",
         "category": [
           {
@@ -3885,7 +4083,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3902,10 +4100,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/de9f4e46-07e4-489b-97c3-f30035b8a586",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/68cb4242-27e6-4c89-8a62-5f5f1f674c63",
       "resource": {
         "resourceType": "Observation",
-        "id": "de9f4e46-07e4-489b-97c3-f30035b8a586",
+        "id": "68cb4242-27e6-4c89-8a62-5f5f1f674c63",
         "status": "final",
         "category": [
           {
@@ -3932,7 +4130,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3949,10 +4147,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/4e983644-b60e-4a70-a400-bf51877cba8e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/070b0096-1e4a-4ceb-aa9d-4e5b630a6a1e",
       "resource": {
         "resourceType": "Observation",
-        "id": "4e983644-b60e-4a70-a400-bf51877cba8e",
+        "id": "070b0096-1e4a-4ceb-aa9d-4e5b630a6a1e",
         "status": "final",
         "category": [
           {
@@ -3979,7 +4177,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -3996,10 +4194,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a8ad0bf5-ef74-4555-a4f2-4bf7b65add41",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f1b1cc2c-756f-4d05-aa8f-4a0b5cccf2e3",
       "resource": {
         "resourceType": "Observation",
-        "id": "a8ad0bf5-ef74-4555-a4f2-4bf7b65add41",
+        "id": "f1b1cc2c-756f-4d05-aa8f-4a0b5cccf2e3",
         "status": "final",
         "category": [
           {
@@ -4026,7 +4224,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4043,10 +4241,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3a8029c1-340d-4491-9d6d-f7621bc8c182",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8e6a167d-a4fc-4423-89ce-edaa1239860c",
       "resource": {
         "resourceType": "Observation",
-        "id": "3a8029c1-340d-4491-9d6d-f7621bc8c182",
+        "id": "8e6a167d-a4fc-4423-89ce-edaa1239860c",
         "status": "final",
         "category": [
           {
@@ -4073,7 +4271,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4090,10 +4288,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/90bdb03a-ac96-42ab-b739-7cf20196e476",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c84632f2-224b-4892-ab19-bfdb49986b2d",
       "resource": {
         "resourceType": "Observation",
-        "id": "90bdb03a-ac96-42ab-b739-7cf20196e476",
+        "id": "c84632f2-224b-4892-ab19-bfdb49986b2d",
         "status": "final",
         "category": [
           {
@@ -4120,7 +4318,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4137,10 +4335,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d2ca745d-b50d-4c15-9868-8e60978433a0",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a090a750-8a79-4898-83a7-c7b6b599e71a",
       "resource": {
         "resourceType": "Observation",
-        "id": "d2ca745d-b50d-4c15-9868-8e60978433a0",
+        "id": "a090a750-8a79-4898-83a7-c7b6b599e71a",
         "status": "final",
         "category": [
           {
@@ -4167,7 +4365,7 @@
         "effectiveDateTime": "2021-12-21T19:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4184,10 +4382,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/1a13f6b0-dc66-4e52-9d9b-ce7dbe6d15f2",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2b4e9174-a97d-44f1-816d-b16055df6ed8",
       "resource": {
         "resourceType": "Observation",
-        "id": "1a13f6b0-dc66-4e52-9d9b-ce7dbe6d15f2",
+        "id": "2b4e9174-a97d-44f1-816d-b16055df6ed8",
         "status": "final",
         "category": [
           {
@@ -4214,7 +4412,7 @@
         "effectiveDateTime": "2021-12-21T18:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4231,10 +4429,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/7b24f8ec-7111-4369-a442-79ccbd107426",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/446d53a3-7c42-4175-80b1-d552fac6674a",
       "resource": {
         "resourceType": "Observation",
-        "id": "7b24f8ec-7111-4369-a442-79ccbd107426",
+        "id": "446d53a3-7c42-4175-80b1-d552fac6674a",
         "status": "final",
         "category": [
           {
@@ -4261,7 +4459,7 @@
         "effectiveDateTime": "2022-10-20T12:35:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4286,10 +4484,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/ff3f10d3-46ea-46cb-a388-bf53ab35c707",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a07d8fad-d793-45b6-824e-9a9a017a1bad",
       "resource": {
         "resourceType": "Observation",
-        "id": "ff3f10d3-46ea-46cb-a388-bf53ab35c707",
+        "id": "a07d8fad-d793-45b6-824e-9a9a017a1bad",
         "status": "final",
         "category": [
           {
@@ -4316,7 +4514,7 @@
         "effectiveDateTime": "2021-12-06T16:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4344,10 +4542,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3ec12a1a-9110-47c1-9180-5122f788400b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/05ea54ca-e25a-47a3-967f-769f76b00e97",
       "resource": {
         "resourceType": "Observation",
-        "id": "3ec12a1a-9110-47c1-9180-5122f788400b",
+        "id": "05ea54ca-e25a-47a3-967f-769f76b00e97",
         "status": "final",
         "category": [
           {
@@ -4374,7 +4572,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4391,10 +4589,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/1b643a8c-f5f5-4e3e-8850-86016c4ed557",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/6af29756-1f0f-41c9-9fd0-a4ced36fe5f6",
       "resource": {
         "resourceType": "Observation",
-        "id": "1b643a8c-f5f5-4e3e-8850-86016c4ed557",
+        "id": "6af29756-1f0f-41c9-9fd0-a4ced36fe5f6",
         "status": "final",
         "category": [
           {
@@ -4421,7 +4619,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4438,10 +4636,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/31829418-8b82-468d-8fbe-2a553447d605",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/60216317-67cf-4403-ab52-c6686eb2ed76",
       "resource": {
         "resourceType": "Observation",
-        "id": "31829418-8b82-468d-8fbe-2a553447d605",
+        "id": "60216317-67cf-4403-ab52-c6686eb2ed76",
         "status": "final",
         "category": [
           {
@@ -4468,7 +4666,7 @@
         "effectiveDateTime": "2021-12-06T16:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4485,10 +4683,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/49c1c2ed-7c0d-4a5d-b935-fcb129e8f777",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/673c5d45-3318-4662-8659-af7aad17071a",
       "resource": {
         "resourceType": "Observation",
-        "id": "49c1c2ed-7c0d-4a5d-b935-fcb129e8f777",
+        "id": "673c5d45-3318-4662-8659-af7aad17071a",
         "status": "final",
         "category": [
           {
@@ -4515,11 +4713,11 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
-          "value": 1.8,
+          "value": 1.80,
           "unit": "mU/L",
           "system": "http://unitsofmeasure.org",
           "code": "mU/L"
@@ -4532,10 +4730,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/710d251d-9fd2-434f-9e22-719bfacafec1",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/0932f6d8-696a-4457-aa06-d08b3ab477f0",
       "resource": {
         "resourceType": "Observation",
-        "id": "710d251d-9fd2-434f-9e22-719bfacafec1",
+        "id": "0932f6d8-696a-4457-aa06-d08b3ab477f0",
         "status": "final",
         "category": [
           {
@@ -4562,7 +4760,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4579,10 +4777,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/6821aabf-3287-43cc-9c05-e34ce81c3eae",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/989c0c54-324f-46e6-9a41-b2ea8e3eb5ed",
       "resource": {
         "resourceType": "Observation",
-        "id": "6821aabf-3287-43cc-9c05-e34ce81c3eae",
+        "id": "989c0c54-324f-46e6-9a41-b2ea8e3eb5ed",
         "status": "final",
         "category": [
           {
@@ -4609,7 +4807,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4626,10 +4824,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2007abb3-f0fc-4aa2-be3b-8bc56c6cb9d3",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/62644809-8900-436e-aed4-cb5c40b8ca23",
       "resource": {
         "resourceType": "Observation",
-        "id": "2007abb3-f0fc-4aa2-be3b-8bc56c6cb9d3",
+        "id": "62644809-8900-436e-aed4-cb5c40b8ca23",
         "status": "final",
         "category": [
           {
@@ -4656,7 +4854,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4673,10 +4871,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/bade9485-087a-490f-9235-0024e68aa139",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/1e47fd61-3256-4827-9251-3bf0eef14eb3",
       "resource": {
         "resourceType": "Observation",
-        "id": "bade9485-087a-490f-9235-0024e68aa139",
+        "id": "1e47fd61-3256-4827-9251-3bf0eef14eb3",
         "status": "final",
         "category": [
           {
@@ -4703,7 +4901,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4720,10 +4918,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/b489b0e9-bcda-4b63-95bd-e0e2fc9b002d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/66b5aa02-855f-497a-95ed-ee70b67a693f",
       "resource": {
         "resourceType": "Observation",
-        "id": "b489b0e9-bcda-4b63-95bd-e0e2fc9b002d",
+        "id": "66b5aa02-855f-497a-95ed-ee70b67a693f",
         "status": "final",
         "category": [
           {
@@ -4750,7 +4948,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4767,10 +4965,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8035ccfb-c6ac-46c4-9f8a-a39620ebcfef",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/39f6f6a0-b149-4f01-b158-1378c9a4fd34",
       "resource": {
         "resourceType": "Observation",
-        "id": "8035ccfb-c6ac-46c4-9f8a-a39620ebcfef",
+        "id": "39f6f6a0-b149-4f01-b158-1378c9a4fd34",
         "status": "final",
         "category": [
           {
@@ -4797,7 +4995,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4814,10 +5012,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c3bb159f-448e-43d8-a619-bf8d7d063e95",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/ff51afe5-5425-462e-b4d2-1b340c713924",
       "resource": {
         "resourceType": "Observation",
-        "id": "c3bb159f-448e-43d8-a619-bf8d7d063e95",
+        "id": "ff51afe5-5425-462e-b4d2-1b340c713924",
         "status": "final",
         "category": [
           {
@@ -4844,7 +5042,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4861,10 +5059,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/821603e0-c7ad-4f03-a055-e314a9219373",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/29ed399f-77be-4bee-b5a8-f0711828f83e",
       "resource": {
         "resourceType": "Observation",
-        "id": "821603e0-c7ad-4f03-a055-e314a9219373",
+        "id": "29ed399f-77be-4bee-b5a8-f0711828f83e",
         "status": "final",
         "category": [
           {
@@ -4891,7 +5089,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4908,10 +5106,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/b1c2ecf5-7439-4d25-b746-33d11ae8bbc5",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d91724c9-1806-4749-b23e-fb33996c662b",
       "resource": {
         "resourceType": "Observation",
-        "id": "b1c2ecf5-7439-4d25-b746-33d11ae8bbc5",
+        "id": "d91724c9-1806-4749-b23e-fb33996c662b",
         "status": "final",
         "category": [
           {
@@ -4938,7 +5136,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -4955,10 +5153,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2647be07-5b23-4eb6-992c-3d56132e2493",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/1fa4a99a-729a-4754-883a-aeef1cebe81c",
       "resource": {
         "resourceType": "Observation",
-        "id": "2647be07-5b23-4eb6-992c-3d56132e2493",
+        "id": "1fa4a99a-729a-4754-883a-aeef1cebe81c",
         "status": "final",
         "category": [
           {
@@ -4985,7 +5183,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5002,10 +5200,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/58fe9320-a9a1-4d45-ac5d-095063236ed6",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/da73e046-d5a8-4a66-ab1c-6400fc0329f7",
       "resource": {
         "resourceType": "Observation",
-        "id": "58fe9320-a9a1-4d45-ac5d-095063236ed6",
+        "id": "da73e046-d5a8-4a66-ab1c-6400fc0329f7",
         "status": "final",
         "category": [
           {
@@ -5032,7 +5230,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5049,10 +5247,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/7b35da14-f94a-461a-8c91-99078f370631",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/152bb4a7-053f-4f28-85ca-69ec34474436",
       "resource": {
         "resourceType": "Observation",
-        "id": "7b35da14-f94a-461a-8c91-99078f370631",
+        "id": "152bb4a7-053f-4f28-85ca-69ec34474436",
         "status": "final",
         "category": [
           {
@@ -5079,7 +5277,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueString": "A combined CVD risk of which lipids is one component should be estimated to guide CVD risk management decisions. If lipid modifying medication is considered suggest checking first for treatable secondary causes of dyslipidaemia.",
@@ -5091,10 +5289,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/4c87db36-045f-4379-8a9f-2c4dfc029770",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/e2a419ac-a58b-49e2-83f9-e2adf5f82d7f",
       "resource": {
         "resourceType": "Observation",
-        "id": "4c87db36-045f-4379-8a9f-2c4dfc029770",
+        "id": "e2a419ac-a58b-49e2-83f9-e2adf5f82d7f",
         "status": "final",
         "category": [
           {
@@ -5121,7 +5319,7 @@
         "effectiveDateTime": "2022-10-20T13:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5138,10 +5336,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/85f9d759-9cba-4555-806e-93f80d60c7f0",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/aaa07e9f-6ffb-4872-9b64-99d9ea88f95a",
       "resource": {
         "resourceType": "Observation",
-        "id": "85f9d759-9cba-4555-806e-93f80d60c7f0",
+        "id": "aaa07e9f-6ffb-4872-9b64-99d9ea88f95a",
         "status": "final",
         "category": [
           {
@@ -5168,7 +5366,7 @@
         "effectiveDateTime": "2021-12-21T18:06:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5185,10 +5383,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/4681498b-39f6-4f27-ad2f-de63eb24d2b1",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/63e8ec0a-ac59-4d2e-a5b2-9e7eab61e82e",
       "resource": {
         "resourceType": "Observation",
-        "id": "4681498b-39f6-4f27-ad2f-de63eb24d2b1",
+        "id": "63e8ec0a-ac59-4d2e-a5b2-9e7eab61e82e",
         "status": "final",
         "category": [
           {
@@ -5215,7 +5413,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5232,10 +5430,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/37d1d3d6-f3ae-4c13-aaa1-efbe83f660b4",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3e07de36-6917-4082-b3cb-617ccf0ed10f",
       "resource": {
         "resourceType": "Observation",
-        "id": "37d1d3d6-f3ae-4c13-aaa1-efbe83f660b4",
+        "id": "3e07de36-6917-4082-b3cb-617ccf0ed10f",
         "status": "final",
         "category": [
           {
@@ -5262,7 +5460,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5279,10 +5477,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3a4913aa-bb56-45b4-bcdf-c93740305ecc",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/23ce3843-4847-47dd-b202-c349ec2ae349",
       "resource": {
         "resourceType": "Observation",
-        "id": "3a4913aa-bb56-45b4-bcdf-c93740305ecc",
+        "id": "23ce3843-4847-47dd-b202-c349ec2ae349",
         "status": "final",
         "category": [
           {
@@ -5309,7 +5507,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5326,10 +5524,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/e418c372-5495-46a6-9e86-56324d368f86",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c8c5aa0e-5bc6-4e58-8b1b-2a76300240c8",
       "resource": {
         "resourceType": "Observation",
-        "id": "e418c372-5495-46a6-9e86-56324d368f86",
+        "id": "c8c5aa0e-5bc6-4e58-8b1b-2a76300240c8",
         "status": "final",
         "category": [
           {
@@ -5356,7 +5554,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5373,10 +5571,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f4dbdbd8-f75a-43ac-92fe-2187a052344f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a46f4cb0-3f29-400a-9ba7-97b7caf7e4f2",
       "resource": {
         "resourceType": "Observation",
-        "id": "f4dbdbd8-f75a-43ac-92fe-2187a052344f",
+        "id": "a46f4cb0-3f29-400a-9ba7-97b7caf7e4f2",
         "status": "final",
         "category": [
           {
@@ -5403,7 +5601,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5420,10 +5618,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/fc0fc730-509c-47a7-b2b3-77a3ce9d2637",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f43a4a8f-463a-48b1-8cca-9e7b1b596c8c",
       "resource": {
         "resourceType": "Observation",
-        "id": "fc0fc730-509c-47a7-b2b3-77a3ce9d2637",
+        "id": "f43a4a8f-463a-48b1-8cca-9e7b1b596c8c",
         "status": "final",
         "category": [
           {
@@ -5450,7 +5648,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5467,10 +5665,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/9c1b59ca-58b0-49d5-a76f-aa3b15d4a396",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/9605db01-ba78-4726-ac9d-7547b02d64ee",
       "resource": {
         "resourceType": "Observation",
-        "id": "9c1b59ca-58b0-49d5-a76f-aa3b15d4a396",
+        "id": "9605db01-ba78-4726-ac9d-7547b02d64ee",
         "status": "final",
         "category": [
           {
@@ -5497,7 +5695,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5514,10 +5712,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/1937f7a2-1f9c-4967-8fbd-5d4529fd9fde",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/6c155fde-4cc0-4fb9-8a87-07ef57362576",
       "resource": {
         "resourceType": "Observation",
-        "id": "1937f7a2-1f9c-4967-8fbd-5d4529fd9fde",
+        "id": "6c155fde-4cc0-4fb9-8a87-07ef57362576",
         "status": "final",
         "category": [
           {
@@ -5544,7 +5742,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5561,10 +5759,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/d29b8ea0-8933-4b34-ae49-94cccc9d24a9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/959c3696-9ad5-424c-aba1-0f21f8386d79",
       "resource": {
         "resourceType": "Observation",
-        "id": "d29b8ea0-8933-4b34-ae49-94cccc9d24a9",
+        "id": "959c3696-9ad5-424c-aba1-0f21f8386d79",
         "status": "final",
         "category": [
           {
@@ -5591,7 +5789,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5608,10 +5806,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/bd6e7569-fc35-4b50-a786-d2941266648b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/53e08de8-c08f-48f4-ae9c-25a4cf169cdb",
       "resource": {
         "resourceType": "Observation",
-        "id": "bd6e7569-fc35-4b50-a786-d2941266648b",
+        "id": "53e08de8-c08f-48f4-ae9c-25a4cf169cdb",
         "status": "final",
         "category": [
           {
@@ -5638,7 +5836,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5655,10 +5853,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f8bb5852-dfee-4aff-abe5-0e80d5914982",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/724d11f2-81f2-4ede-8901-1d180ba23d14",
       "resource": {
         "resourceType": "Observation",
-        "id": "f8bb5852-dfee-4aff-abe5-0e80d5914982",
+        "id": "724d11f2-81f2-4ede-8901-1d180ba23d14",
         "status": "final",
         "category": [
           {
@@ -5685,7 +5883,7 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
@@ -5702,10 +5900,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c1d39ab6-2b61-4bc7-a880-42a0177c4960",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/ba312bc2-9779-449a-b737-15580f50b8d8",
       "resource": {
         "resourceType": "Observation",
-        "id": "c1d39ab6-2b61-4bc7-a880-42a0177c4960",
+        "id": "ba312bc2-9779-449a-b737-15580f50b8d8",
         "status": "final",
         "category": [
           {
@@ -5732,11 +5930,11 @@
         "effectiveDateTime": "2022-01-10T16:05:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueQuantity": {
-          "value": 0.4,
+          "value": 0.40,
           "unit": "L/L",
           "system": "http://unitsofmeasure.org",
           "code": "L/L"
@@ -5749,10 +5947,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a61ad84b-0159-44c7-9e94-0afabf05394a",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/cf5dc87c-ef51-4a8b-9c7e-20674bee2aa5",
       "resource": {
         "resourceType": "Observation",
-        "id": "a61ad84b-0159-44c7-9e94-0afabf05394a",
+        "id": "cf5dc87c-ef51-4a8b-9c7e-20674bee2aa5",
         "status": "final",
         "category": [
           {
@@ -5779,7 +5977,7 @@
         "effectiveDateTime": "2021-12-10T21:00:00+00:00",
         "performer": [
           {
-            "reference": "PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7"
+            "reference": "PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403"
           }
         ],
         "valueString": "Negative",
@@ -5791,10 +5989,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/de14fe19-a712-4e00-b8f1-79ae0138c7d7",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/62fbdf5e-3f03-4328-a453-a7e89f432403",
       "resource": {
         "resourceType": "PractitionerRole",
-        "id": "de14fe19-a712-4e00-b8f1-79ae0138c7d7",
+        "id": "62fbdf5e-3f03-4328-a453-a7e89f432403",
         "code": [
           {
             "coding": [
@@ -5809,10 +6007,10 @@
       }
     },
     {
-      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/3bd0852c-34a1-465c-a06d-8f37fddbd3ed",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/f65dac85-a603-4ffa-a7c4-8c431c7f8fd4",
       "resource": {
         "resourceType": "PractitionerRole",
-        "id": "3bd0852c-34a1-465c-a06d-8f37fddbd3ed",
+        "id": "f65dac85-a603-4ffa-a7c4-8c431c7f8fd4",
         "code": [
           {
             "coding": [
