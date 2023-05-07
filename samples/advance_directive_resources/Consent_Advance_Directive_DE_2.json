@@ -1,0 +1,52 @@
+{
+  "resourceType": "Consent",
+  "id": "do-not-resuscitate-order-not-for-resuscitation",
+  "meta": {
+    "profile": [
+      "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/do-not-resuscitate-order"
+    ]
+  },
+  "scope": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "code": "adr",
+        "display": "Advanced Care Directive"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+          "code": "dnr",
+          "display": "Do Not Resuscitate"
+        }
+      ]
+    }
+  ],
+  "status": "active",
+  "patient": {
+    "reference": "Patient/gecco-patient"
+  },
+  "dateTime": "2021-09-01",
+  "policy": [
+    {
+      "uri": "https://www.aerzteblatt.de/archiv/65440/DNR-Anordnungen-Das-fehlende-Bindeglied"
+    }
+  ],
+  "provision": {
+    "code": [
+      {
+        "coding": [
+          {
+            "code": "304253006",
+            "system": "http://snomed.info/sct",
+            "display": "Not for resuscitation"
+          }
+        ]
+      }
+    ]
+  }
+}

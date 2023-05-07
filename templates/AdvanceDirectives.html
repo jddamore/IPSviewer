@@ -1,0 +1,18 @@
+<div class="card">
+    <header class="card-header">
+        <a href="#" data-toggle="collapse" data-target="#advanceDirectives-body" aria-expanded="true" class="">
+            <i class="icon-action fa fa-chevron-down"></i>
+        </a>
+        <span class="title">Advance Directives</span>
+    </header>
+    <div class="card-body collapse show" id="advanceDirectives-body">
+        <ul class="list-group">
+            {{each(options.ad)}}
+            <li>
+                {{@this.provision.code[0].coding[0].display}}
+
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

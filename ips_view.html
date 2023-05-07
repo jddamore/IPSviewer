@@ -81,7 +81,7 @@
             var jqxhr = $.get("templates/" + templateName + ".html", function() {})
                 .done(function(template) {
                     // console.log(template);
-                    // console.log(data);
+                    console.log(data);
                     var templateResult = Sqrl.Render(template, data);
                     $("#" + targetLocation).html(templateResult);
                 }).fail(function(e) {
@@ -238,6 +238,18 @@
                         });
                         render("Observations", section, "Observations");
                     }
+                    else if (section.code.coding[0].code == "42348-3") {
+                        console.log('Advance Directives Section');
+                        section.ad = [];
+                        section.entry.forEach(function(ad) {
+                            console.log(ad.reference);
+                            section.ad.push(getEntry(ips, ad.reference));
+                        });
+                        render("AdvanceDirectives", section, "AdvanceDirectives");
+                    }
+                    else {
+                        console.log(`Section with code: ${section.code.coding[0].code} not rendered since no template`);
+                    }
                 });
             if (alertMissingComposition) alert('Missing coding information in Composition resource. Rendering may be incomplete.')
             }
@@ -320,6 +332,10 @@
         </div>
         <div class="row col-md-12" style="margin: 15px;">
             <div class="col-md-12 output data" id="Observations">
+            </div>
+        </div>
+        <div class="row col-md-12" style="margin: 15px;">
+            <div class="col-md-12 output data" id="AdvanceDirectives">
             </div>
         </div>
     </div>

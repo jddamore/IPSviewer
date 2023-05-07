@@ -1,0 +1,49 @@
+{
+  "resourceType": "Goal",
+  "id": "Example-Smith-Johnson-PersonalInterventionPreference4",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR):</p><p><i>I want my healthcare agent to decide for me.</i></p></div>"
+  },
+  "lifecycleStatus": "proposed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "75779-9",
+          "display": "Thoughts on cardiopulmonary resuscitation (CPR) [Reported]"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "Context",
+            "valueString": "Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR)"
+          },
+          {
+            "url": "Value",
+            "valueString": "I want my healthcare agent to decide for me."
+          }
+        ],
+        "url": "http://hl7.org/fhir/us/pacio-adi/StructureDefinition/padi-contextualValue-extension"
+      }
+    ],
+    "text": "Although I understand that, depending on the situation and circumstances, medical personnel may not be able to follow my wishes, here are my general thoughts on cardiopulmonary resuscitation (CPR): I want my healthcare agent to decide for me."
+  },
+  "subject": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  },
+  "expressedBy": {
+    "reference": "Patient/Example-Smith-Johnson-Patient1"
+  }
+}
