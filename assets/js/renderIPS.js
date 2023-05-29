@@ -118,6 +118,7 @@ const getEntry = function (ips, fullUrl) {
 };
 
 const update = function (ips) {
+  $("#checksTable").html("");
   $(".output").html("");
   ips.entry.forEach(function (entry) {
     if (!entry.resource) console.log(entry);

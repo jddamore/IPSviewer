@@ -9,31 +9,37 @@
 </div>
 <hr>
 <div>
-  <h2>Submit Data</h2>This is for test data only. <strong style="color:red">Please do not submit PHI.</strong>
 </div>
 <div style="float:clear"></div>
-<div class="container" style="margin:15px;">
-  <div class="row">
-    <form class="col col-md-8">
+<h2>Submit Data</h2>
+<div class="row">
+  <div class="col col-lg-5 col-md-8 col-sm-12 col-12">
+    <form>
       <div class="form-group">
         <label for="ipsInput">Paste your IPS in TextBox below:</label>
         <br>
         <textarea id="ipsInput" rows="8" style="width: 100%; max-width: 100%;"></textarea>
       </div>
     </form>
-    <div class="col col-md-4">
-      <div class="row buttonSpacer">
-        <button type="button" id="loadSample" class="btn btn-success">Try a sample</button>
-      </div>
-      <div class="row">
-        <a href="https://github.com/jddamore/IPSviewer/tree/main/samples" target="_blank">Public Repository of IPS Samples</a>
-      </div>
-      <div class="row buttonSpacer">
-        <button type="button" id="submit" class="btn btn-primary">View IPS from TextBox</button>
-      </div>
-      <div class="row buttonSpacer">
-        <button type="button" id="clearSample" class="btn btn-danger">Clear</button>
-      </div>
+  </div>
+  <div class="col col-md-3 col-12">
+    <div class="row buttonSpacer">
+      <button type="button" id="loadSample" class="btn btn-success">Try a sample</button>
+    </div>
+    <div class="row">
+      <a href="https://github.com/jddamore/IPSviewer/tree/main/samples" target="_blank"
+        style="padding-left: 20px">Public Repository of IPS Samples</a>
+    </div>
+    <div class="row buttonSpacer">
+      <button type="button" id="submit" class="btn btn-primary">View IPS from TextBox</button>
+    </div>
+    <div class="row buttonSpacer">
+      <button type="button" id="clearSample" class="btn btn-danger">Clear</button>
+    </div>
+  </div>
+  <div class="col col-lg-4 col-md-12 col-12">
+    <div id="checksTable">
+
     </div>
   </div>
 </div>
