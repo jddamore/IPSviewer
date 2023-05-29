@@ -1,7 +1,9 @@
+let headerLength = 0;
+
 $(document).ready(function () {
 
-  var headerLength = $("#header").length;
-  var footerLength = $("#footer").length;
+  headerLength = $("#header").length;
+  let footerLength = $("#footer").length;
   if (headerLength === 1) {
     $("#header").load("assets/html/header.html", function () {
       $("#submit").click(function () {
@@ -9,7 +11,6 @@ $(document).ready(function () {
       });
       $('#clearSample').click(function () {
         clearData();
-        $('.data').empty();
       })
       $("#loadSample").click(function () {
         $.getJSON('./samples/sample.json', function () {
@@ -23,12 +24,12 @@ $(document).ready(function () {
             console.log("error", e);
           });
       });
-    });  
-  } 
+    });
+  }
   if (footerLength === 1) {
     $("#footer").load("assets/html/footer.html", function () {
       // no actions on footer currently
-    });  
+    });
   }
 });
 
@@ -36,7 +37,9 @@ mode = "Entries";
 Sqrl.autoEscaping(false);
 
 const clearData = function () {
-  document.getElementById("ipsInput").value = "";
+  $("#ipsInput").value = "";
+  $("#renderMessage").hide();
+  $('.data').empty();
 }
 
 const render = function (templateName, data, targetLocation) {
@@ -47,7 +50,7 @@ const render = function (templateName, data, targetLocation) {
       data.custodian.address = [{ city: '', country: '' }];
     }
   }
-  if (mode == "Entries") {
+  if (mode == "Entries" && templateName !== "Other") {
     var jqxhr = $.get("templates/" + templateName + ".html", function () { })
       .done(function (template) {
         // console.log(template);
@@ -57,7 +60,10 @@ const render = function (templateName, data, targetLocation) {
       }).fail(function (e) {
         console.log("error", e);
       });
-  } else {
+  }
+  else {
+    if (mode === "Entries") $("#renderMessage").attr("style", "display:inline");
+    else $("#renderMessage").hide();
     var content = { titulo: data.title, div: "No text defined." };
     if (!content.titulo) content.titulo = data.resourceType;
     if (data.text) content.div = data.text.div;
@@ -70,6 +76,15 @@ const render = function (templateName, data, targetLocation) {
       });
   }
 };
+
+const renderTable = function (data) {
+  let jqxhr = $.get("templates/Checks.html", function () { })
+    .done(function (template) {
+      let templateResult = Sqrl.Render(template, data);
+      console.log(data);
+      $("#checksTable").html(templateResult);
+    });
+}
 
 const updateFromText = function () {
   var ipsTxt = $('#ipsInput').val();
@@ -118,8 +133,8 @@ const getEntry = function (ips, fullUrl) {
 };
 
 const update = function (ips) {
-  $("#checksTable").html("");
   $(".output").html("");
+  $("#renderMessage").hide();
   ips.entry.forEach(function (entry) {
     if (!entry.resource) console.log(entry);
     if (entry.resource.resourceType == "Composition") {
@@ -220,10 +235,59 @@ const update = function (ips) {
           render("AdvanceDirectives", section, "AdvanceDirectives");
         }
         else {
+          render("Other", section, "Other");
           console.log(`Section with code: ${section.code.coding[0].code} not rendered since no template`);
         }
       });
       if (alertMissingComposition) alert('Missing coding information in Composition resource. Rendering may be incomplete.')
     }
   });
+  //don't need to do anything if the header is not shown
+  if (headerLength === 1) {
+    checks(ips)
+  }
 };
+
+const checks = function (ips) {
+  let composition = ips.entry[0];
+  let data = { 
+    data: [],
+    errors: [] 
+  };
+  if (composition.resource.resourceType === "Composition" && composition.resource.section) {
+    let sections = {
+      allergies: false,
+      medications: false,
+      problems: false
+    };
+    for (let i = 0; i < composition.resource.section.length; i++) {
+      let section = composition.resource.section[i]
+      let newData = {};
+      newData.display = section.title;
+      if (section.code.coding[0].code == "48765-2") sections.allergies = true;
+      if (section.code.coding[0].code == "10160-0") sections.medications = true;
+      if (section.code.coding[0].code == "11450-4") sections.problems = true;
+      if (section.entry) {
+        newData.entries =   section.entry.length;
+        newData.entriesColor = "green";
+      }
+      else {
+        newData.entries = 0;
+        newData.entriesColor = "red";
+      }
+      if (section.text && section.text.div) {
+        newData.narrative = "✓"
+        newData.narrativeColor = "green";
+      }
+      else {
+        newData.narrative = "✗"
+        newData.narrativeColor = "red";
+      }
+      data.data.push(newData);
+    }
+    if (!sections.allergies) data.errors.push("Missing required allergies section");
+    if (!sections.medications) data.errors.push("Missing required medications section");
+    if (!sections.problems) data.errors.push("Missing required problems section");
+  }
+  renderTable(data);
+}
