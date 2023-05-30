@@ -3,7 +3,7 @@ const https = require('https');
 const fs = require('fs');
 const express = require('express');
 
-const index = fs.readFileSync('./ips_view.html', 'utf-8');
+const index = fs.readFileSync('./ips_main.html', 'utf-8');
 const favicon = fs.readFileSync('./favicon.ico');
 const app = express();
 

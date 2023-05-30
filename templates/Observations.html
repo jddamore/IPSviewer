@@ -3,7 +3,7 @@
             <a href="#" data-toggle="collapse" data-target="#observations-body" aria-expanded="true" class="">
                 <i class="icon-action fa fa-chevron-down"></i>
             </a>
-            <span class="title">Observations</span>
+            <span class="title"><b>Observations (Results)</b></span>
         </header>
         <div class="card-body collapse show" id="observations-body">
          <table class="table table-bordered table-sm">
@@ -37,9 +37,11 @@
                 {{/if}}
                 {{if(options.observations[@index].valueQuantity)}}
                 {{@this.valueQuantity.value}} 
-                {{@this.valueQuantity.code}} 
+                {{@this.valueQuantity.unit}} 
                 {{/if}}
-
+                {{if(options.observations[@index].valueString)}}
+                {{@this.valueString}}
+                {{/if}}
             </td>
             {{if(options.observations[@index].category && options.observations[@index].category[0] && options.observations[@index].category[0].coding && options.observations[@index].category[0].coding[0])}}
             <td>

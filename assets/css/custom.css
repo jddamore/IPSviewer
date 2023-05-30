@@ -19,3 +19,21 @@
 	width: 100%;
 
 }
+
+.buttonSpacer {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.tdLeft {
+  text-align: left;
+}
+
+.tdCenter {
+  text-align: center;
+}
+
+.message {
+  color: red;
+  font-size: 1.0rem;
+}

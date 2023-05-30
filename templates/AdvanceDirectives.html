@@ -3,14 +3,33 @@
         <a href="#" data-toggle="collapse" data-target="#advanceDirectives-body" aria-expanded="true" class="">
             <i class="icon-action fa fa-chevron-down"></i>
         </a>
-        <span class="title">Advance Directives</span>
+        <span class="title"><b>Advance Directives</b></span>
     </header>
     <div class="card-body collapse show" id="advanceDirectives-body">
         <ul class="list-group">
             {{each(options.ad)}}
             <li>
-                {{@this.provision.code[0].coding[0].display}}
-
+                Type: {{@this.resourceType}}
+                <br/>
+                Text: 
+                {{if (@this.text && @this.text.div)}}
+                  {{@this.text.div}}
+                {{#else}}
+                  <i>No text provided in resource</i>
+                {{/if}}
+                <br />
+                Category:
+                {{if (@this.category && @this.category[0] && @this.category[0].coding && @this.category[0].coding[0])}}
+                  {{@this.category[0].coding[0].display}}
+                {{/if}}
+                <br/>
+                Intent:
+                {{if (@this.provision && @this.provision.code && @this.provision.code[0] && @this.provision.code[0].coding && @this.provision.code[0].coding[0]) }}
+                  {{@this.provision.code[0].coding[0].display}}
+                {{/if}}
+                {{if (@this.description && @this.description.text)}}
+                  {{@this.description.text}}
+                {{/if}}
             </li>
             {{/each}}
         </ul>

@@ -498,8 +498,8 @@
                     "coding": [
                         {
                             "system": "http://terminology.hl7.org/CodeSystem/consentscope",
-                            "code": "adr",
-                            "display": "Advanced Care Directive"
+                            "code": "treatment",
+                            "display": "Treatment"
                         }
                     ]
                 },

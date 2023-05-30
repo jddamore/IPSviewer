@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/squirrelly@7.9.2/dist/squirrelly.min.js"></script>
+  <!-- IPS Specific Custom CSS-->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- IPS Rendering -->
+  <script type="text/javascript" src="assets/js/renderIPS.js"></script>
+  <title>IPS Viewer</title>
+</head>
+
+<body style="margin: 10px;">
+  <!-- IPS Default Header for Connectathons -->
+  <!-- Removing header id element will remove header -->
+  <div id="header">
+  </div>
+  <!-- IPS Patient Summary Viewer -->
+  <!-- Note that you should be cautious in removing dropdowns since -->
+  <!-- IPS documents have both machine-processable FHIR resources and Narrative HTML -->
+  <div>
+    <h2>Patient Summary Viewer
+      <div class="dropdown" style="display:inline">
+        <button class="btn btn-secondary dropdown-toggle" id="mode" type="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Display FHIR Entries
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item"
+            href="javascript:mode='Entries'; $('#mode').html('Displaying FHIR Entries'); updateFromText();">
+            Display FHIR Resource Entries
+          </a>
+          <a class="dropdown-item"
+            href="javascript:mode='Text'; $('#mode').html('Displaying Narrative'); updateFromText();">
+            Display Narrative from Composition
+          </a>
+        </div>
+        <div class="message" id="renderMessage" style="display: none;">
+          This summary includes machine readable content outside of supported sections. Those are shown using narrative
+        </div>
+      </div>
+    </h2>
+  </div>
+  <div style="margin:40px;">
+    <div class="row">
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Patient"></div>
+      </div>
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Composition"></div>
+      </div>
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Allergies"></div>
+      </div>
+      <div class="row col-md-12" >
+          <div class="col-md-12 output data" id="Problems"></div>
+      </div>
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Medications"></div>
+      </div>
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Immunizations"></div>
+      </div>
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Observations"></div>
+      </div>
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="AdvanceDirectives"></div>
+      </div>
+      <!-- Note that any section not listed above will be shown in other-->
+      <div class="row col-md-12" >
+        <div class="col-md-12 output data" id="Other">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <!-- IPS Default Footer for Connectathons -->
+  <!-- Removing footer id element will remove footer -->
+  <!-- Code is maintained under APACHE-2 License. See https://github.com/jddamore/IPSviewer -->
+  <footer>
+    <div id="footer">
+    </div>
+  </footer>
+</body>
+
+</html>

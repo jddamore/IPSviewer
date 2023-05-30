@@ -1,11 +1,11 @@
 <div class="card">
     <header class="card-header">
-        <a href="#" data-toggle="collapse" data-target="#text-body" aria-expanded="true" class="">
+        <a href="#" data-toggle="collapse" data-target="#text-body{{index}}" aria-expanded="true" class="">
             <i class="icon-action fa fa-chevron-down"></i>
         </a>
-        <span class="title">{{titulo}}</span>
+        <span class="title"><b>{{titulo}}</b></span>
     </header>
-    <div class="card-body collapse show textBody" id="#text-body">
+    <div class="card-body collapse show textBody" id="text-body{{index}}">
         {{div}}
     </div>
 </div>

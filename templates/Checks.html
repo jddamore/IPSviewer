@@ -1,0 +1,36 @@
+<div class="card">
+  <header class="card-header">
+      <a href="#" data-toggle="collapse" data-target="#checks-body" aria-expanded="true" class="">
+          <i class="icon-action fa fa-chevron-down"></i>
+      </a>
+      <span class="title"><b>Simple Data Checks</b> (not complete FHIR validation)</span>
+  </header>
+  <div class="card-body collapse show" id="checks-body">
+      <table class="checksTable">
+        <colgroup>
+          <col span="1" style="width: 50%;">
+          <col span="1" style="width: 25%;">
+          <col span="1" style="width: 25%;">
+       </colgroup>
+        <thead>
+          <th>Section</th>
+          <th class="tdCenter">Entries</th>
+          <th class="tdCenter">Narrative</th>
+        </thead>
+        {{each(options.data)}}
+        <tr>
+          <td>{{@this.display}}</td>
+          <td class="tdCenter" style="color:{{@this.entriesColor}}">{{@this.entries}}</td>
+          <td class="tdCenter" style="color:{{@this.narrativeColor}}">{{@this.narrative}}</td>
+        </tr>
+        {{/each}}
+      </table>
+      <ul class="list-group">
+        {{each(options.errors)}}
+        <li style="color:red">
+            {{@this}}
+        </li>
+        {{/each}}
+    </ul>  
+  </div>
+</div>
