@@ -73,6 +73,7 @@ const updateFromText = function () {
 // Update the data in viewer based on mode and data
 const render = function (templateName, data, targetLocation) {
   let entryCheck = 0;
+  sectionCount++;
   if (templateName === 'Patient') {
     if (!data.custodian) data.custodian = {};
     if (!data.custodian.name) data.custodian.name = '[NOT FOUND]';
@@ -99,7 +100,7 @@ const render = function (templateName, data, targetLocation) {
     // if the mode was intended as Entries and narrative fallback used, display message
     if (mode === "Entries") $("#renderMessage").attr("style", "display:inline");
     else $("#renderMessage").hide();
-    var content = { titulo: data.title, div: "No text defined." };
+    var content = { titulo: data.title, div: "No text defined.", index: sectionCount };
     if (!content.titulo) content.titulo = data.resourceType;
     if (data.text) content.div = data.text.div;
     var jqxhr = $.get("templates/Text.html", function () { })
@@ -156,6 +157,7 @@ const getEntry = function (ips, fullUrl) {
 // Primary function to traverse the Bundle and get data
 // Calls the render function to display contents 
 const update = function (ips) {
+  sectionCount = 0;
   $(".output").html("");
   $("#renderMessage").hide();
   ips.entry.forEach(function (entry) {
