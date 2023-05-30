@@ -193,14 +193,15 @@ const update = function (ips) {
           section.medications = [];
           section.entry.forEach(function (medication) {
             console.log(medication.reference);
-            var statement = getEntry(ips, medication.reference);
-            // console.log(statement)
-            var medicationReference;
+            // while variable name is Statement, this may be either MedicationStatement or MedicationRequest
+            let statement = getEntry(ips, medication.reference);
+            let medicationReference;
             if (statement.medicationReference && statement.medicationReference.reference) medicationReference = getEntry(ips, statement.medicationReference.reference);
             else if (statement.medicationCodeableConcept) medicationReference = { code: statement.medicationCodeableConcept };
             else medicationReference = { code: { coding: [{ system: '', display: '', code: '' }] } }
             // console.log(medicationReference);
             section.medications.push({
+              type: type,
               statement: statement,
               medication: medicationReference
             });
