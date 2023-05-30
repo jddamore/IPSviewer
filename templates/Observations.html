@@ -37,9 +37,11 @@
                 {{/if}}
                 {{if(options.observations[@index].valueQuantity)}}
                 {{@this.valueQuantity.value}} 
-                {{@this.valueQuantity.code}} 
+                {{@this.valueQuantity.unit}} 
                 {{/if}}
-
+                {{if(options.observations[@index].valueString)}}
+                {{@this.valueString}}
+                {{/if}}
             </td>
             {{if(options.observations[@index].category && options.observations[@index].category[0] && options.observations[@index].category[0].coding && options.observations[@index].category[0].coding[0])}}
             <td>

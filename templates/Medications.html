@@ -9,69 +9,68 @@
         <ul class="list-group">
         {{each(options.medications)}}
             <li class="list-group-item">
-        {{if(options.medications[@index].medication.code) }} 
-
-            {{if (options.medications[@index].medication.code.coding && options.medications[@index].medication.code.coding.length)}}
+              {{@this.statement.resourceType}} 
+              <br />
+              {{if(options.medications[@index].medication.code && options.medications[@index].medication.code.coding && options.medications[@index].medication.code.coding.length)}}
                 {{each(options.medications[@index].medication.code.coding)}}
-                <span class="badge badge-primary">{{@this.system}}</span> {{@this.display}} 
-                {{if (@this.code)}}
-                    ({{@this.code}})
-                {{ /if }}
+                  <span class="badge badge-primary">{{@this.system}}</span> 
+                  {{@this.display}} 
+                  {{if (@this.code)}}
+                      ({{@this.code}})
+                  {{ /if }}
                 <br>
                 {{/each}}
-            {{#else}}
-                <span class="badge badge-primary">Uncoded</span> {{@this.medication.code.text}})<br>
-            {{/if}}
-        {{/if}}
-
-        <br>
-            {{if(options.medications[@index].medication.ingredient && options.medications[@index].medication.ingredient.itemCodeableConcept)}}
-            {{each(options.medications[@index].medication.ingredient)}}
-                    <table class="table table-bordered table-sm">
-                        <thead>
-                        <tr><th colspan="5">Composition</th></tr>
-                        <tr>
-                            <th scope="col">Ingredient</th>
-                            <th scope="col">Strength Numerator Qty</th>
-                            <th scope="col">Unit</th>
-                            <th scope="col">Strength Denominator Qty</th>
-                            <th scope="col">Strength Denominator Unit</th>
-                        </tr>
-                        </thead>
-                        <tr>
-                            <td>{{@this.itemCodeableConcept.coding[0].display}}</td>
-                            <td>{{@this.strength.numerator.value}}</td>
-                            <td>{{@this.strength.numerator.unit}}</td>
-                            <td>{{@this.strength.denominator.value}}</td>
-                            <td>{{@this.strength.denominator.unit}}</td>
-                        </tr>
-                    </table>
-            {{/each}}
-            {{/if}}
-            {{if(options.medications[@index].statement.dosage && options.medications[@index].statement.dosage[0].route && options.medications[@index].statement.dosage[0].route.coding && options.medications[@index].statement.dosage[0].doseAndRate)}}
-                <table class="table table-bordered table-sm">
-                    <thead>
-                    <tr><th colspan="5">Posología</th></tr>
-                    <tr>
-                        <th scope="col">Route</th>
-                        <th scope="col">Qty</th>
-                        <th scope="col">Unit</th>
-                        <th scope="col">Freq. Qty</th>
-                        <th scope="col">Freq. Period</th>
-                    </tr>
-                    </thead>
-                    <tr>
-                        <td>{{@this.statement.dosage[0].route.coding[0].display}}</td>
-                        <td>{{@this.statement.dosage[0].doseAndRate[0].doseQuantity.value}}</td>
-                        <td>{{@this.statement.dosage[0].doseAndRate[0].doseQuantity.unit}}</td>
-                        {{if(options.medications[@index].statement.dosage[0].timing && options.medications[@index].statement.dosage[0].timing.repeat)}}
-                        <td>{{@this.statement.dosage[0].timing.repeat.count}}</td>
-                        <td>{{@this.statement.dosage[0].timing.repeat.periodUnit}}</td>
-                        {{/if}}
-                    </tr>
-                </table>
+              {{#else}}
+                <span class="badge badge-primary">(Uncoded</span> {{@this.medication.code.text}})<br>
+              {{/if}}
+              {{if(options.medications[@index].medication.ingredient && options.medications[@index].medication.ingredient.itemCodeableConcept)}}
+                {{each(options.medications[@index].medication.ingredient)}}
+                  <table class="table table-bordered table-sm">
+                      <thead>
+                      <tr><th colspan="5">Composition</th></tr>
+                      <tr>
+                          <th scope="col">Ingredient</th>
+                          <th scope="col">Strength Numerator Qty</th>
+                          <th scope="col">Unit</th>
+                          <th scope="col">Strength Denominator Qty</th>
+                          <th scope="col">Strength Denominator Unit</th>
+                      </tr>
+                      </thead>
+                      <tr>
+                          <td>{{@this.itemCodeableConcept.coding[0].display}}</td>
+                          <td>{{@this.strength.numerator.value}}</td>
+                          <td>{{@this.strength.numerator.unit}}</td>
+                          <td>{{@this.strength.denominator.value}}</td>
+                          <td>{{@this.strength.denominator.unit}}</td>
+                      </tr>
+                  </table>
+                {{/each}}
+              {{/if}}
+              {{if(options.medications[@index].statement.dosage && options.medications[@index].statement.dosage[0].route && options.medications[@index].statement.dosage[0].route.coding && options.medications[@index].statement.dosage[0].doseAndRate)}}
+                  <table class="table table-bordered table-sm">
+                      <thead>
+                      <tr><th colspan="5">Dosage</th></tr>
+                      <tr>
+                          <th scope="col">Route</th>
+                          <th scope="col">Qty</th>
+                          <th scope="col">Unit</th>
+                          <th scope="col">Freq. Qty</th>
+                          <th scope="col">Freq. Period</th>
+                      </tr>
+                      </thead>
+                      <tr>
+                          <td>{{@this.statement.dosage[0].route.coding[0].display}}</td>
+                          <td>{{@this.statement.dosage[0].doseAndRate[0].doseQuantity.value}}</td>
+                          <td>{{@this.statement.dosage[0].doseAndRate[0].doseQuantity.unit}}</td>
+                          {{if(options.medications[@index].statement.dosage[0].timing && options.medications[@index].statement.dosage[0].timing.repeat)}}
+                            <td>{{@this.statement.dosage[0].timing.repeat.count}}</td>
+                            <td>{{@this.statement.dosage[0].timing.repeat.periodUnit}}</td>
+                          {{/if}}
+                      </tr>
+                  </table>
+              </li>
+              {{/if}}
             </li>
-            {{/if}}
         {{/each}}
         </ul>
     </div>
