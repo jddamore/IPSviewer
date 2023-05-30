@@ -24,7 +24,7 @@
                             "coding": [
                                 {
                                     "code": "48765-2",
-                                    "display": "Allergies and Adverse Reactions",
+                                    "display": "Allergies and adverse reactions Document",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -45,7 +45,7 @@
                             "coding": [
                                 {
                                     "code": "10160-0",
-                                    "display": "Medication List",
+                                    "display": "History of Medication use Narrative",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -66,7 +66,7 @@
                             "coding": [
                                 {
                                     "code": "11450-4",
-                                    "display": "Problem List",
+                                    "display": "Problem list - Reported",
                                     "system": "http://loinc.org"
                                 }
                             ]
@@ -210,8 +210,8 @@
                 },
                 "extension": [
                     {
-                        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
-                        "valueUri": "urn:uuid:7f828a20-ddb4-446d-ba02-baa0b77099aa#urn:uuid:61313865-25e9-49d4-8540-c8e3f92edace"
+                        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+                        "valueUrl": "urn:uuid:7f828a20-ddb4-446d-ba02-baa0b77099aa#urn:uuid:61313865-25e9-49d4-8540-c8e3f92edace"
                     }
                 ],
                 "patient": {
@@ -225,8 +225,8 @@
             "resource": {
                 "extension": [
                     {
-                        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
-                        "valueUri": "urn:uuid:7f828a20-ddb4-446d-ba02-baa0b77099aa#urn:uuid:bf0ad234-7664-41f0-a2bd-f18353a1ed8a"
+                        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+                        "valueUrl": "urn:uuid:7f828a20-ddb4-446d-ba02-baa0b77099aa#urn:uuid:bf0ad234-7664-41f0-a2bd-f18353a1ed8a"
                     }
                 ],
                 "medicationCodeableConcept": {
@@ -267,8 +267,8 @@
                 },
                 "extension": [
                     {
-                        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
-                        "valueUri": "urn:uuid:7f828a20-ddb4-446d-ba02-baa0b77099aa#urn:uuid:8daccbb0-6a1e-4846-9d94-0adc267bd2e2"
+                        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+                        "valueUrl": "urn:uuid:7f828a20-ddb4-446d-ba02-baa0b77099aa#urn:uuid:8daccbb0-6a1e-4846-9d94-0adc267bd2e2"
                     }
                 ],
                 "resourceType": "Condition",

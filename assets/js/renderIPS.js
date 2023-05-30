@@ -46,7 +46,7 @@ $(document).ready(function () {
 // Clear data button function. Should be called on all new data loads 
 const clearData = function () {
   // clear textbox
-  $("#ipsInput").value = "";
+  $("#ipsInput").val("");
   // clear prior message
   $("#renderMessage").hide();
   // clear all viewer data and data checks table

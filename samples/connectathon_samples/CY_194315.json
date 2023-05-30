@@ -887,7 +887,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#AllergiesAndIntolerances-216491"
           }
         ],
@@ -991,7 +991,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#AllergiesAndIntolerances-216492"
           }
         ],
@@ -1159,7 +1159,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#AllergiesAndIntolerances-216494"
           }
         ],
@@ -1263,7 +1263,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#AllergiesAndIntolerances-216495"
           }
         ],
@@ -1367,7 +1367,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#AllergiesAndIntolerances-216496"
           }
         ],
@@ -1508,7 +1508,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#ProblemList-194317"
           }
         ],
@@ -1579,7 +1579,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#ProblemList-194318"
           }
         ],
@@ -1650,7 +1650,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#ProblemList-194320"
           }
         ],
@@ -1721,7 +1721,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#ProblemList-194321"
           }
         ],
@@ -1795,7 +1795,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#ProblemList-194322"
           }
         ],
@@ -1869,7 +1869,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#ProblemList-194323"
           }
         ],
@@ -1943,7 +1943,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-196082"
           }
         ],
@@ -1984,7 +1984,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-196083"
           }
         ],
@@ -2025,7 +2025,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-196084"
           }
         ],
@@ -2120,7 +2120,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-196088"
           }
         ],
@@ -2168,7 +2168,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-196089"
           }
         ],
@@ -2216,7 +2216,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-196090"
           }
         ],
@@ -2264,7 +2264,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#MedicationSummary-198480"
           }
         ],
@@ -2321,7 +2321,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#MedicationSummary-198481"
           }
         ],
@@ -2378,7 +2378,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#MedicationSummary-198483"
           }
         ],
@@ -2435,7 +2435,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#MedicationSummary-198484"
           }
         ],
@@ -2492,7 +2492,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#MedicationSummary-198485"
           }
         ],
@@ -2549,7 +2549,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-198487"
           }
         ],
@@ -2634,7 +2634,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-198488"
           }
         ],
@@ -2733,7 +2733,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-198489"
           }
         ],
@@ -2832,7 +2832,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-198490"
           }
         ],
@@ -2932,7 +2932,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-198491"
           }
         ],
@@ -2998,7 +2998,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-198492"
           }
         ],
@@ -3097,7 +3097,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224063"
           }
         ],
@@ -3154,7 +3154,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224064"
           }
         ],
@@ -3211,7 +3211,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224065"
           }
         ],
@@ -3268,7 +3268,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224066"
           }
         ],
@@ -3325,7 +3325,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224067"
           }
         ],
@@ -3382,7 +3382,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224068"
           }
         ],
@@ -3439,7 +3439,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224069"
           }
         ],
@@ -3496,7 +3496,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224070"
           }
         ],
@@ -3553,7 +3553,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-224071"
           }
         ],
@@ -3614,7 +3614,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#DiagnosticResults-230641"
           }
         ],
@@ -3697,7 +3697,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230642"
           }
         ],
@@ -3744,7 +3744,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230643"
           }
         ],
@@ -3791,7 +3791,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230644"
           }
         ],
@@ -3838,7 +3838,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230645"
           }
         ],
@@ -3885,7 +3885,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230646"
           }
         ],
@@ -3932,7 +3932,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230647"
           }
         ],
@@ -3979,7 +3979,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230648"
           }
         ],
@@ -4026,7 +4026,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230649"
           }
         ],
@@ -4073,7 +4073,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230652"
           }
         ],
@@ -4120,7 +4120,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#Immunizations-230653"
           }
         ],
@@ -4167,7 +4167,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-230654"
           }
         ],
@@ -4233,7 +4233,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-230655"
           }
         ],
@@ -4299,7 +4299,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-230658"
           }
         ],
@@ -4365,7 +4365,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-230659"
           }
         ],
@@ -4431,7 +4431,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-230660"
           }
         ],
@@ -4497,7 +4497,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#SocialHistory-230661"
           }
         ],
@@ -4563,7 +4563,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230662"
           }
         ],
@@ -4662,7 +4662,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230663"
           }
         ],
@@ -4749,7 +4749,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230664"
           }
         ],
@@ -4836,7 +4836,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230665"
           }
         ],
@@ -4923,7 +4923,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230666"
           }
         ],
@@ -5010,7 +5010,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230667"
           }
         ],
@@ -5067,7 +5067,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230668"
           }
         ],
@@ -5124,7 +5124,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230669"
           }
         ],
@@ -5181,7 +5181,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230670"
           }
         ],
@@ -5238,7 +5238,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230671"
           }
         ],
@@ -5295,7 +5295,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230672"
           }
         ],
@@ -5352,7 +5352,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230673"
           }
         ],
@@ -5409,7 +5409,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230674"
           }
         ],
@@ -5466,7 +5466,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230675"
           }
         ],
@@ -5523,7 +5523,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230678"
           }
         ],
@@ -5580,7 +5580,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230679"
           }
         ],
@@ -5637,7 +5637,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230680"
           }
         ],
@@ -5694,7 +5694,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230681"
           }
         ],
@@ -5751,7 +5751,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230682"
           }
         ],
@@ -5808,7 +5808,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230683"
           }
         ],
@@ -5865,7 +5865,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230684"
           }
         ],
@@ -5922,7 +5922,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230685"
           }
         ],
@@ -5979,7 +5979,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230686"
           }
         ],
@@ -6036,7 +6036,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230687"
           }
         ],
@@ -6093,7 +6093,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230688"
           }
         ],
@@ -6150,7 +6150,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230689"
           }
         ],
@@ -6207,7 +6207,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230690"
           }
         ],
@@ -6264,7 +6264,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230691"
           }
         ],
@@ -6321,7 +6321,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-230692"
           }
         ],
@@ -6378,7 +6378,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-345268"
           }
         ],
@@ -6435,7 +6435,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#VitalSigns-345269"
           }
         ],
@@ -6495,7 +6495,7 @@
         },
         "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
             "valueUri": "urn:uuid:428e9bed-1f16-4595-91b9-80ae6ac12421#HistoryOfProcedures-399542"
           }
         ],

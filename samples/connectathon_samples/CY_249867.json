@@ -507,7 +507,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-travelhistory" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-249869"
       } ],
       "status": "final",
@@ -558,7 +558,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-travelhistory" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-249870"
       } ],
       "status": "final",
@@ -609,7 +609,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-allergyintorelrance-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#AllergiesAndIntolerances-249871"
       } ],
       "clinicalStatus": {
@@ -695,7 +695,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-allergyintorelrance-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#AllergiesAndIntolerances-249872"
       } ],
       "clinicalStatus": {
@@ -781,7 +781,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-problem-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#ProblemList-249873"
       } ],
       "clinicalStatus": {
@@ -867,7 +867,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Pregnancy-258406"
       } ],
       "status": "final",
@@ -911,7 +911,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-tobaccouse" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-260425"
       } ],
       "status": "final",
@@ -961,7 +961,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-consumptionofalcohol" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-260424"
       } ],
       "status": "final",
@@ -1012,7 +1012,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancyoutcome" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Pregnancy-261351"
       } ],
       "status": "final",
@@ -1049,7 +1049,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-342877"
       } ],
       "status": "final",
@@ -1097,7 +1097,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-sleep" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-342878"
       } ],
       "status": "final",
@@ -1147,7 +1147,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-342879"
       } ],
       "status": "final",
@@ -1250,7 +1250,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342880"
       } ],
       "status": "completed",
@@ -1286,7 +1286,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342881"
       } ],
       "status": "completed",
@@ -1322,7 +1322,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342882"
       } ],
       "status": "completed",
@@ -1358,7 +1358,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342883"
       } ],
       "status": "completed",
@@ -1544,7 +1544,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345249"
       } ],
       "status": "final",
@@ -1644,7 +1644,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345250"
       } ],
       "status": "final",
@@ -1744,7 +1744,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345251"
       } ],
       "status": "final",
@@ -1844,7 +1844,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345252"
       } ],
       "status": "final",
@@ -1944,7 +1944,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345253"
       } ],
       "status": "final",
@@ -2044,7 +2044,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345254"
       } ],
       "status": "final",
@@ -2108,7 +2108,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345255"
       } ],
       "status": "final",
@@ -2172,7 +2172,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345256"
       } ],
       "status": "final",
@@ -2236,7 +2236,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345257"
       } ],
       "status": "final",
@@ -2300,7 +2300,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345258"
       } ],
       "status": "final",
@@ -2364,7 +2364,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345260"
       } ],
       "status": "final",
@@ -2411,7 +2411,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345261"
       } ],
       "status": "final",
@@ -2458,7 +2458,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345265"
       } ],
       "status": "final",
@@ -2505,7 +2505,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345266"
       } ],
       "status": "final",
@@ -2552,7 +2552,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345267"
       } ],
       "status": "final",
@@ -2599,7 +2599,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-230676"
       } ],
       "status": "final",
@@ -2646,7 +2646,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345270"
       } ],
       "status": "final",
@@ -2693,7 +2693,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345271"
       } ],
       "status": "final",
@@ -2740,7 +2740,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345272"
       } ],
       "status": "final",
@@ -2787,7 +2787,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345273"
       } ],
       "status": "final",
@@ -2834,7 +2834,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345274"
       } ],
       "status": "final",
@@ -2881,7 +2881,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345275"
       } ],
       "status": "final",
@@ -2928,7 +2928,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345276"
       } ],
       "status": "final",
@@ -2975,7 +2975,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345277"
       } ],
       "status": "final",
@@ -3022,7 +3022,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345278"
       } ],
       "status": "final",
@@ -3069,7 +3069,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345279"
       } ],
       "status": "final",
@@ -3116,7 +3116,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345280"
       } ],
       "status": "final",
@@ -3163,7 +3163,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345281"
       } ],
       "status": "final",
@@ -3210,7 +3210,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345282"
       } ],
       "status": "final",
@@ -3257,7 +3257,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345283"
       } ],
       "status": "final",
@@ -3304,7 +3304,7 @@
         "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-headcircum" ]
       },
       "extension": [ {
-        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
         "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345284"
       } ],
       "status": "final",
