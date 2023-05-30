@@ -1,6 +1,8 @@
 // check variable to see if header, which includes data loading active
 let headerLength = 0;
 
+let sectionCount = 0;
+
 // Set the mode for the default mode for data presentation
 // Entries = machine readable FHIR resources, Narrative = Compostion.section.text.div
 let mode = "Entries";

@@ -32,63 +32,61 @@
 <body style="margin: 10px;">
   <!-- IPS Default Header for Connectathons -->
   <!-- Removing header id element will remove header -->
-  <div id="header" >
+  <div id="header">
   </div>
   <!-- IPS Patient Summary Viewer -->
   <!-- Note that you should be cautious in removing dropdowns since -->
   <!-- IPS documents have both machine-processable FHIR resources and Narrative HTML -->
   <div>
     <h2>Patient Summary Viewer
-    <div class="dropdown" style="display:inline">
-      <button class="btn btn-secondary dropdown-toggle" id="mode" type="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        Display FHIR Entries
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item"
-          href="javascript:mode='Entries'; $('#mode').html('Displaying FHIR Entries'); updateFromText();">
-          Display FHIR Resource Entries 
-        </a>
-        <a class="dropdown-item" href="javascript:mode='Text'; $('#mode').html('Displaying Narrative'); updateFromText();">
-          Display Narrative from Composition
-        </a>
+      <div class="dropdown" style="display:inline">
+        <button class="btn btn-secondary dropdown-toggle" id="mode" type="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Display FHIR Entries
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item"
+            href="javascript:mode='Entries'; $('#mode').html('Displaying FHIR Entries'); updateFromText();">
+            Display FHIR Resource Entries
+          </a>
+          <a class="dropdown-item"
+            href="javascript:mode='Text'; $('#mode').html('Displaying Narrative'); updateFromText();">
+            Display Narrative from Composition
+          </a>
+        </div>
+        <div class="message" id="renderMessage" style="display: none;">
+          This summary includes machine readable content outside of supported sections. Those are shown using narrative
+        </div>
       </div>
-      <div class="message" id="renderMessage" style="display: none;">
-        This summary includes machine readable content outside of supported sections. Those are shown using narrative 
-      </div>
-    </div>
     </h2>
   </div>
-  <div class="container" style="margin:15px;">
+  <div style="margin:40px;">
     <div class="row">
       <div class="row col-md-12" style="margin: 15px;">
-        <div class="col-md-6 output data" id="Composition">
-        </div>
-        <div class="col-md-6 output data" id="Patient">
-        </div>
+        <div class="col-md-12 output data" id="Patient"></div>
       </div>
       <div class="row col-md-12" style="margin: 15px;">
-        <div class="col-md-12 output data" id="Allergies">
-        </div>
-        <div class="col-md-12 output data" id="Problems">
-        </div>
+        <div class="col-md-12 output data" id="Composition"></div>
       </div>
       <div class="row col-md-12" style="margin: 15px;">
-        <div class="col-md-12 output data" id="Medications">
-        </div>
+        <div class="col-md-12 output data" id="Allergies"></div>
       </div>
       <div class="row col-md-12" style="margin: 15px;">
-        <div class="col-md-12 output data" id="Immunizations">
-        </div>
+          <div class="col-md-12 output data" id="Problems"></div>
       </div>
       <div class="row col-md-12" style="margin: 15px;">
-        <div class="col-md-12 output data" id="Observations">
-        </div>
+        <div class="col-md-12 output data" id="Medications"></div>
       </div>
       <div class="row col-md-12" style="margin: 15px;">
-        <div class="col-md-12 output data" id="AdvanceDirectives">
-        </div>
+        <div class="col-md-12 output data" id="Immunizations"></div>
       </div>
+      <div class="row col-md-12" style="margin: 15px;">
+        <div class="col-md-12 output data" id="Observations"></div>
+      </div>
+      <div class="row col-md-12" style="margin: 15px;">
+        <div class="col-md-12 output data" id="AdvanceDirectives"></div>
+      </div>
+      <!-- Note that any section not listed above will be shown in other-->
       <div class="row col-md-12" style="margin: 15px;">
         <div class="col-md-12 output data" id="Other">
         </div>
