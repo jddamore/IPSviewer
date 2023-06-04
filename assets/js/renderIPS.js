@@ -259,7 +259,13 @@ const update = function (ips) {
           section.observations = [];
           section.entry.forEach(function (observation) {
             console.log(observation.reference);
-            section.observations.push(getEntry(ips, observation.reference));
+            let thisResult = getEntry(ips, observation.reference);
+            section.observations.push(thisResult);
+            if (thisResult.hasMember) {
+              for (let k = 0; k < thisResult.hasMember.length; k++) {
+                if (thisResult.hasMember[k].reference) section.observations.push(getEntry(ips, thisResult.hasMember[k].reference));
+              }
+            }
           });
           render("Observations", section, "Observations", j);
         }
