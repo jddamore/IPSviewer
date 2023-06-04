@@ -21,7 +21,9 @@
                 <br>
                 {{/each}}
               {{#else}}
+                {{if(options.medications[@index].medication.code)}}
                 <span class="badge badge-primary">(Uncoded</span> {{@this.medication.code.text}})<br>
+                {{/if }}
               {{/if}}
               {{if(options.medications[@index].medication.ingredient && options.medications[@index].medication.ingredient.itemCodeableConcept)}}
                 {{each(options.medications[@index].medication.ingredient)}}
