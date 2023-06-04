@@ -10,7 +10,7 @@
         {{each(options.problems)}}
             <li class="list-group-item">
                 {{if(options.problems[@index].onsetDateTime)}}
-                {{@this.onsetDateTime}}
+                  {{@this.onsetDateTime}}
                 {{/if}}
                 {{if(options.problems[@index].code && options.problems[@index].code.coding && options.problems[@index].code.coding[0])}}
                 <span class="badge badge-primary">{{@this.code.coding[0].system}}</span>

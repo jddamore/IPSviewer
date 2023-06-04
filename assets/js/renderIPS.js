@@ -155,6 +155,7 @@ const getEntry = function (ips, fullUrl) {
   });
   if (!result) {
     console.log(`missing reference ${fullUrl}`);
+    $("#MissingReferences").show();
     result = {};
   }
   return result;
@@ -164,7 +165,7 @@ const getEntry = function (ips, fullUrl) {
 // Calls the render function to display contents 
 const update = function (ips) {
   $(".output").html("");
-  $("#renderMessage").hide();
+  $(".message").hide();
   for (let i = 0; i < ips.entry.length; i++) {
     let entry = ips.entry[i];
     if (!entry.resource) console.log(entry);
@@ -236,6 +237,10 @@ const update = function (ips) {
             else if (statement.medicationReference && statement.medicationReference.reference) medicationReference = getEntry(ips, statement.medicationReference.reference);
             else if (statement.medicationCodeableConcept) medicationReference = { code: statement.medicationCodeableConcept };
             else medicationReference = { code: { coding: [{ system: '', display: '', code: '' }] } }
+            // Fallback to display of reference if empty
+            if (!medicationReference.code && statement.medicationReference.display) {
+              medicationReference = { code: { coding: [{ system: '', display: statement.medicationReference.display, code: '' }] } }
+            }
             // MedicationStatement has dosage while MedicationRequest has dosageInstruction. Use alias to simplify template
             if (statement.dosageInstruction) statement.dosage = statement.dosageInstruction;
             section.medications.push({
@@ -278,6 +283,15 @@ const update = function (ips) {
           });
           render("AdvanceDirectives", section, "AdvanceDirectives", j);
         }
+        else if (section.code.coding[0].code == "11348-0") {
+          console.log('History of Past Illness Section', j);
+          section.illness = [];
+          section.entry.forEach(function (illness) {
+            console.log(illness.reference);
+            section.illness.push(getEntry(ips, illness.reference));
+          });
+          render("IllnessHistory", section, "IllnessHistory", j);
+        }
         else {
           console.log(`Section with code: ${section.code.coding[0].code} not rendered since no template, section: ${j}`);
           render("Other", section, "Other", j);
@@ -309,9 +323,11 @@ const checks = function (ips) {
       let section = composition.resource.section[i]
       let newData = {};
       newData.display = section.title;
-      if (section.code.coding[0].code == "48765-2") sections.allergies = true;
-      if (section.code.coding[0].code == "10160-0") sections.medications = true;
-      if (section.code.coding[0].code == "11450-4") sections.problems = true;
+      if (section.code && section.code.coding && section.code.coding[0]) {
+        if (section.code.coding[0].code == "48765-2") sections.allergies = true;
+        if (section.code.coding[0].code == "10160-0") sections.medications = true;
+        if (section.code.coding[0].code == "11450-4") sections.problems = true;          
+      }
       if (section.entry) {
         newData.entries =   section.entry.length;
         newData.entriesColor = "green";

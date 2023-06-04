@@ -1,0 +1,27 @@
+<div class="card">
+  <header class="card-header">
+      <a href="#" data-toggle="collapse" data-target="#illness-body" aria-expanded="true" class="">
+          <i class="icon-action fa fa-chevron-down"></i>
+      </a>
+      <span class="title"><b>History of Past Illness</b></span>
+  </header>
+  <div class="card-body collapse show" id="illness-body">
+      <ul class="list-group">
+      {{each(options.illness)}}
+          <li class="list-group-item">
+              {{if(options.illness[@index].onsetDateTime)}}
+                {{@this.onsetDateTime}}
+              {{/if}}
+              {{if(options.illness[@index].code && options.illness[@index].code.coding && options.illness[@index].code.coding[0])}}
+              <span class="badge badge-primary">{{@this.code.coding[0].system}}</span>
+              {{@this.code.coding[0].display}} ({{@this.code.coding[0].code}})
+              {{/if}}
+              {{if(options.illness[@index].code && options.illness[@index].code.text)}}
+              [Uncoded text shown]: {{@this.code.text}}
+              {{/if}}
+          </li>
+      {{/each}}
+      </ul>
+  </div>
+</div>
+
