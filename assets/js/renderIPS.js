@@ -90,10 +90,16 @@ const render = function (templateName, data, targetLocation, sectionCount) {
       .done(function (template) {
         // console.log(template);
         console.log(data);
-        var templateResult = Sqrl.Render(template, data);
+        var templateResult = ''
+        try {
+          templateResult = Sqrl.Render(template, data);
+        }
+        catch(e) {
+          console.log(`error in rendering template ${templateName}`, e);
+        }
         $("#" + targetLocation).html(templateResult);
       }).fail(function (e) {
-        console.log("error", e);
+        console.log("error in getting template", e);
       });
   }
   else {
@@ -106,7 +112,13 @@ const render = function (templateName, data, targetLocation, sectionCount) {
     console.log(content);
     var jqxhr = $.get("templates/Text.html", function () { })
       .done(function (template) {
-        var templateResult = Sqrl.Render(template, content);
+        var templateResult = ''
+        try {
+          templateResult = Sqrl.Render(template, content);
+        }
+        catch(e) {
+          console.log(`error in rendering template ${templateName}`, e);
+        }
         if (targetLocation !== "Other") $("#" + targetLocation).html(templateResult);
         else {
           // console.log(`#Other${sectionCount}`);
@@ -114,7 +126,7 @@ const render = function (templateName, data, targetLocation, sectionCount) {
           $(`#Other${sectionCount}`).html(templateResult);
         }
       }).fail(function (e) {
-        console.log("error", e);
+        console.log("error in getting template", e);
       });
   }
 };
