@@ -283,15 +283,6 @@ const update = function (ips) {
           });
           render("AdvanceDirectives", section, "AdvanceDirectives", j);
         }
-        else if (section.code.coding[0].code == "11348-0") {
-          console.log('History of Past Illness Section', j);
-          section.illness = [];
-          section.entry.forEach(function (illness) {
-            console.log(illness.reference);
-            section.illness.push(getEntry(ips, illness.reference));
-          });
-          render("IllnessHistory", section, "IllnessHistory", j);
-        }
         else {
           console.log(`Section with code: ${section.code.coding[0].code} not rendered since no template, section: ${j}`);
           render("Other", section, "Other", j);
