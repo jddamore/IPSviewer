@@ -54,10 +54,9 @@ const logThis = function (content) {
   else $('#testlog').append(`<div>${content}</div>`)
 }
 
-window.console.log = logThis;
-
 $(document).ready(function () {
   $('#test').click(function () {
+    window.console.log = logThis;
     alert('You have found a magic button that loads 40 samples and outputs debugging console.log information below. Refresh browser before re-using viewer.');
     runNext();
   });
