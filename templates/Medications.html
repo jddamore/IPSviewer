@@ -22,7 +22,16 @@
                 {{/each}}
               {{#else}}
                 {{if(options.medications[@index].medication.code)}}
-                <span class="badge badge-primary">(Uncoded</span> {{@this.medication.code.text}})<br>
+                  <span class="badge badge-primary">(Uncoded</span> {{@this.medication.code.text}})<br>
+                  {{#else}}
+                  <span class="badge badge-primary">(Uncoded)</span>
+                  {{if(@this.statement.medicationCodeableConcept && @this.statement.medicationCodeableConcept.text) }}
+                    {{@this.statement.medicationCodeableConcept.text}}
+                  {{/if}}
+                  {{if(@this.statement.medicationReference && @this.statement.medicationReference.display)}}
+                    {{@this.statement.medicationReference.display}}
+                  {{/if}}
+                  <br>
                 {{/if }}
               {{/if}}
               {{if(options.medications[@index].medication.ingredient && options.medications[@index].medication.ingredient.itemCodeableConcept)}}
