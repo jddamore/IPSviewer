@@ -1,20 +1,26 @@
 <div class="card">
-    <header class="card-header">
-        <a href="#" data-toggle="collapse" data-target="#immunizations-body" aria-expanded="true" class="">
-            <i class="icon-action fa fa-chevron-down"></i>
-        </a>
-        <span class="title"><b>Immunizations</b></span>
-    </header>
-    <div class="card-body collapse show" id="immunizations-body">
-        <ul class="list-group">
-        {{each(options.immunizations)}}
-            <li class="list-group-item">
-                <span><b>{{@this.occurrenceDateTime}}</b></span><br/>
-                {{each(options.immunizations[@index].vaccineCode.coding)}}
-                <span class="badge badge-primary">{{@this.system}}</span> {{@this.display}} ({{@this.code}})<br>
-                {{/each}}
-            </li>
-        {{/each}}
-        </ul>
-    </div>
+  <header class="card-header">
+    <a href="#" data-toggle="collapse" data-target="#immunizations-body" aria-expanded="true" class="">
+      <i class="icon-action fa fa-chevron-down"></i>
+    </a>
+    <span class="title"><b>Immunizations</b></span>
+  </header>
+  <div class="card-body collapse show" id="immunizations-body">
+    <ul class="list-group">
+      {{each(options.immunizations)}}
+      <li class="list-group-item">
+        <span><b>{{@this.occurrenceDateTime}}</b></span><br />
+        <span>
+          {{if(@this.vaccineCode.coding[0].display)}}
+            {{@this.vaccineCode.coding[0].display}}
+          {{#else}}
+            {{@this.vaccineCode.text}} np
+          {{/if}}
+        </span>
+        <span class="badge badge-primary">{{@this.vaccineCode.coding[0].system}}</span>
+        {{@this.vaccineCode.coding[0].code}}<br>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
 </div>
