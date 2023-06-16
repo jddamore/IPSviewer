@@ -34,6 +34,8 @@ $(document).ready(function () {
       });
     });
   }
+  $('#FhirDropdown').attr('href', "javascript:mode='Entries'; $('#mode').html('Displaying FHIR Entries'); updateFromText();");
+  $('#NarrativeDropdown').attr('href', "javascript:mode='Text'; $('#mode').html('Displaying Narrative'); updateFromText();");
   if (footerLength === 1) {
     $("#footer").load("assets/html/footer.html", function () {
       // no actions on footer currently
