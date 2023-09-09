@@ -22,13 +22,13 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results</h1>
- <p>0 errors, 104 warnings, 95 hints. Generated May 30, 2023, 7:25:49 PM by Validator Version 6.0.10 (Git# edd06865c702). Built 2023-05-29T22:44:34.937Z (24 hours old) (28252ms)</p>
+ <p>2 errors, 104 warnings, 115 hints. Generated Sep 9, 2023, 3:22:25 PM by Validator Version 6.0.10 (Git# edd06865c702). Built 2023-05-29T22:44:34.937Z (102 days old) (63706ms)</p>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#;1"><b>C:\test\validated_samples\AT_ELGA_GmbH_01.json</b></a></td><td><b>0</b></td><td><b>56</b></td><td><b>64</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#;1"><b>C:\test\validated_samples\AT_ELGA_GmbH_01.json</b></a></td><td><b>2</b></td><td><b>56</b></td><td><b>64</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#;2"><b>C:\test\validated_samples\DE_no_info_with_Advance_Directive.json</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>1</b></td>
@@ -61,10 +61,13 @@
      <td><a href="#;11"><b>C:\test\validated_samples\NZ_Peter_Jordan_AAA1234.json</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#;12"><b>C:\test\validated_samples\NZ_Peter_Jordan_NNJ9186.json</b></a></td><td><b>0</b></td><td><b>9</b></td><td><b>1</b></td>
+     <td><a href="#;12"><b>C:\test\validated_samples\NZ_Peter_Jordan_NNJ9186.json</b></a></td><td><b>0</b></td><td><b>9</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#;13"><b>C:\test\validated_samples\US_no_info_with_Advance_Directive.json</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>1</b></td>
+     <td><a href="#;13"><b>C:\test\validated_samples\US-Washington-GDHP.json</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>21</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#;14"><b>C:\test\validated_samples\US_no_info_with_Advance_Directive.json</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>1</b></td>
    </tr>
 </table>
 <hr/>
@@ -79,6 +82,12 @@
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Bundle.entry[4].resource/*Condition/null*/.code.coding[0] (l422/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.840.1.113883.6.96' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[5].resource/*Observation/null*/.code.coding[0] (l453/c14)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Wrong Display Name 'Heart Beat' for http://loinc.org#8867-4 - should be one of 2 choices: 'Heart rate' or 'Heart rate' (for the language(s) 'en') (from Tx-Server) for 'http://loinc.org#8867-4'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[8].resource/*Observation/null*/.code.coding[0] (l567/c14)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Wrong Display Name 'Heart Beat' for http://loinc.org#8867-4 - should be one of 2 choices: 'Heart rate' or 'Heart rate' (for the language(s) 'en') (from Tx-Server) for 'http://loinc.org#8867-4'</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Bundle.entry[11].resource/*MedicationStatement/null*/.dosage[0].route.coding[0] (l680/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.40.0.10.1.4.3.4.3.4' is unknown so the code cannot be validated</b></td>
@@ -713,36 +722,104 @@
    <tr style="background-color: #ffebcc">
      <td><b>Bundle.entry[1].resource/*Patient/NNJ9186*/.maritalStatus (l437/c10)</b></td><td><b>warning</b></td><td title="No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#M in the languages Married"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#M in the languages Married</b></td>
    </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Bundle.entry[9].resource/*MedicationStatement/8f167d01-a2fd-4422-825f-885af28b30f6*/.medication.ofType(CodeableConcept).coding[0] (l714/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://nzmt.org.nz' is unknown so the code cannot be validated</b></td>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[10].resource/*Immunization/aa7221b6-864d-48ad-8766-4c01c9868d2c*/.route.coding[0] (l793/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[10].resource/*Immunization/a5bf9478-f4fc-442f-a81a-e2feb0a27c79*/.route.coding[0] (l790/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
+     <td><b>Bundle.entry[11].resource/*Immunization/9374d1a5-9e80-4374-b5f7-fa150801eba5*/.route.coding[0] (l846/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[11].resource/*Immunization/c4092ef3-7ec2-43d6-a8d0-90d15ea36a52*/.route.coding[0] (l843/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
+     <td><b>Bundle.entry[12].resource/*Immunization/3907c182-feaa-4b1b-bc6c-936626223bd2*/.route.coding[0] (l899/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[12].resource/*Immunization/e472f4a9-635b-4cdd-890f-bf9f7c738a94*/.route.coding[0] (l896/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
+     <td><b>Bundle.entry[13].resource/*Immunization/564a570b-8f32-4c9d-876a-d6aba12b8775*/.route.coding[0] (l952/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[13].resource/*Immunization/5fba23e4-e5e8-4ae7-90ff-23aff175c9da*/.route.coding[0] (l949/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
+     <td><b>Bundle.entry[14].resource/*Immunization/1b36f4f2-e6ef-4568-ba99-90166b66a9f2*/.route.coding[0] (l996/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[14].resource/*Immunization/a47d774b-b3af-48fb-8626-7eb552e75a67*/.route.coding[0] (l993/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
+     <td><b>Bundle.entry[15].resource/*Immunization/19ab5914-462c-4063-b9e8-e98f63b70a42*/.route.coding[0] (l1049/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[15].resource/*Immunization/6efaee2a-dfc8-40f5-b616-dd00e7927b88*/.route.coding[0] (l1046/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
+     <td><b>Bundle.entry[16].resource/*Immunization/dfef16de-7fdf-48f2-aa06-9bcfd14ac751*/.route.coding[0] (l1102/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[16].resource/*Immunization/4ab1e4ad-60b0-4395-933a-07d3437192cb*/.route.coding[0] (l1099/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM in the languages Injection, intramuscular for 'http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration#IM'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Bundle.entry[31].resource/*Observation/e7f87b29-2524-47ac-8c39-0c35137ccf60*/.interpretation[0] (l1743/c12)</b></td><td><b>warning</b></td><td title="No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#H in the languages High"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#H in the languages High</b></td>
+     <td><b>Bundle.entry[31].resource/*Observation/ebca1547-fa73-4373-95fa-a013b85d7a6a*/.interpretation[0] (l1746/c12)</b></td><td><b>warning</b></td><td title="No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#H in the languages High"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#H in the languages High</b></td>
    </tr>
 </table>
 <hr/>
 <a name="l13"> </a>
+<h2><a href="file:C:\test\validated_samples\US-Washington-GDHP.json">C:\test\validated_samples\US-Washington-GDHP.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource/*Immunization/null*/.site.coding[0] (l389/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource/*Immunization/null*/.route.coding[0] (l397/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource/*Immunization/null*/.site.coding[0] (l441/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource/*Immunization/null*/.route.coding[0] (l449/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource/*Immunization/null*/.site.coding[0] (l493/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource/*Immunization/null*/.route.coding[0] (l501/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource/*Immunization/null*/.site.coding[0] (l546/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[10].resource/*Immunization/null*/.route.coding[0] (l554/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource/*Immunization/null*/.site.coding[0] (l643/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource/*Immunization/null*/.route.coding[0] (l651/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[12].resource/*Immunization/null*/.doseQuantity (l658/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4019' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[14].resource/*Immunization/null*/.site.coding[0] (l748/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[14].resource/*Immunization/null*/.route.coding[0] (l756/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[15].resource/*Immunization/null*/.site.coding[0] (l809/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[15].resource/*Immunization/null*/.route.coding[0] (l817/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[16].resource/*Immunization/null*/.doseQuantity (l859/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4019' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[17].resource/*Immunization/null*/.site.coding[0] (l905/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[17].resource/*Immunization/null*/.route.coding[0] (l913/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[17].resource/*Immunization/null*/.doseQuantity (l920/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4019' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource/*Immunization/null*/.site.coding[0] (l1004/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[19].resource/*Immunization/null*/.route.coding[0] (l1012/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="l14"> </a>
 <h2><a href="file:C:\test\validated_samples\US_no_info_with_Advance_Directive.json">C:\test\validated_samples\US_no_info_with_Advance_Directive.json</a></h2>
  <table class="grid">
    <tr>
@@ -758,7 +835,7 @@
      <td><b>Bundle.entry[1].resource/*Patient/f0aece39-1fb7-4366-9332-151f32963505*/.contact[1].relationship[0] (l261/c16)</b></td><td><b>warning</b></td><td title="No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RoleCode#FRND in the languages unrelated friend"><b>No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-RoleCode#FRND in the languages unrelated friend</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Bundle.entry[9].resource/*Goal/41765fc6-1f8f-4e5f-8370-d0d544b41ab5*/.category[0] (l503/c12)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference|0.1.0</b> <span id="sm198" class="flip" onclick="flip('m198')">Show Reasoning</span><div id="m198" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference|0.1.0<ul><li>Bundle.entry[9].resource/*Goal/41765fc6-1f8f-4e5f-8370-d0d544b41ab5*/.category[0]: discriminator = true and $this.coding.where((system = 'http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS') and (code = 'intervention-preference')).exists()</li></ul></div></td>
+     <td><b>Bundle.entry[9].resource/*Goal/41765fc6-1f8f-4e5f-8370-d0d544b41ab5*/.category[0] (l503/c12)</b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference|0.1.0</b> <span id="sm220" class="flip" onclick="flip('m220')">Show Reasoning</span><div id="m220" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile http://hl7.org/fhir/us/pacio-adi/StructureDefinition/PADI-PersonalInterventionPreference|0.1.0<ul><li>Bundle.entry[9].resource/*Goal/41765fc6-1f8f-4e5f-8370-d0d544b41ab5*/.category[0]: discriminator = true and $this.coding.where((system = 'http://hl7.org/fhir/us/pacio-adi/CodeSystem/PADIGoalCategoryCS') and (code = 'intervention-preference')).exists()</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle.entry[9].resource/*Goal/41765fc6-1f8f-4e5f-8370-d0d544b41ab5*/.category[0] (l503/c12)</b></td><td><b>warning</b></td><td title="Terminology_TX_NoValid_2_CC"><b>None of the codings provided are in the value set 'Intervention Preferences' (http://hl7.org/fhir/us/pacio-adi/ValueSet/PADIInterventionPreferencesVS|0.1.0), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#75779-9)</b></td>
