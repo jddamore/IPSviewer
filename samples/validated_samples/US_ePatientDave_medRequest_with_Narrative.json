@@ -421,7 +421,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "C10AX06"
+              "code": "C10AX06",
+              "display": "omega-3-triglycerides incl. other esters and acids"
             }
           ],
           "text": "Omega-3"
@@ -496,7 +497,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "N02BE01"
+              "code": "N02BE01",
+              "display": "paracetamol"
             }
           ],
           "text": "acetaminophen"
@@ -544,7 +546,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "M01AE02"
+              "code": "M01AE02",
+              "display": "naproxen"
             }
           ],
           "text": "naproxen"
@@ -592,7 +595,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "R06AA02"
+              "code": "R06AA02",
+              "display": "diphenhydramine"
             }
           ],
           "text": "Benadryl"
@@ -640,7 +644,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "S01EE01"
+              "code": "S01EE01",
+              "display": "latanoprost"
             }
           ],
           "text": "latanoprost"
@@ -720,7 +725,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "C07AA05"
+              "code": "C07AA05",
+              "display": "propranolol"
             }
           ],
           "text": "propranolol"
@@ -763,7 +769,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "C10AA05"
+              "code": "C10AA05",
+              "display": "atorvastatin"
             }
           ],
           "text": "atorvastatin"
@@ -806,10 +813,11 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "C03BA04"
+              "code": "C03BA04",
+              "display": "chlortalidone"
             }
           ],
-          "text": "chlortalidone"
+          "text": "chlorthalidone"
         },
         "subject": {
           "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
@@ -849,7 +857,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "C08CA02"
+              "code": "C08CA02",
+              "display": "felodipine"
             }
           ],
           "text": "felodipine"
@@ -886,7 +895,8 @@
           "coding": [
             {
               "system": "http://www.whocc.no/atc",
-              "code": "C08CA01"
+              "code": "C08CA01",
+              "display": "amlodipine"
             }
           ],
           "text": "amlodipine"
