@@ -254,7 +254,7 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">History of pre-diabetes</div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">History of pre-diabetes</div></div>"
             },
             "entry": [
               {
