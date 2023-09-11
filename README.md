@@ -15,7 +15,7 @@ This tool is not a validator of the IPS standard. The IPS implementation guide c
 
 Some samples IPS files (in JSON) are included in the "samples" folder. Note that these samples were collected during HL7 and [Global Digital Health Partnership, (GDHP)](https://www.healthit.gov/topic/global-digital-health-partnership) connectathons and through discussions on chat.fhir.org. Organizations may have made changes to their software and technologies without updating samples in this respository. All samples should be considered illustrative for learning purposes and not indicative of any organization or IPS documents in the real-world.  
 
-There are two folders: "connectathon samples" and "validated samples". For samples in the connectathon folder, they may (or may not) validate according to the current [IPS Implementation Guide](http://build.fhir.org/ig/HL7/fhir-ips/). Samples, which may have been edited to validate with no errors or warnings, may also been copied to validated samples folder. Validated samples have also been tested to render in the IPS Viewer. 
+There are two folders: "connectathon samples" and "validated samples". For samples in the connectathon folder, they may (or may not) validate according to the current [IPS Implementation Guide](http://build.fhir.org/ig/HL7/fhir-ips/). Samples, which may have been edited to validate with no errors (and reduced warnings), may also been copied to validated samples folder. Validated samples have also been tested to render in the IPS Viewer. 
 
 ## How to Run Locally?
 
