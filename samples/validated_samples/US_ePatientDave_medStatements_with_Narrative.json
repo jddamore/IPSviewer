@@ -1,0 +1,2528 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "b6a01aaa-f1c9-449c-8868-e9ca3efc79c7"
+  },
+  "type": "document",
+  "timestamp": "2023-09-11T18:54:20.386+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676",
+    "resource": {
+      "resourceType": "Composition",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><h1>Allergies and Intolerances</h1><div><div><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:c75bb2d6-d281-4bc2-98ab-4ac62d3fd1a8\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>Medication List</h1><div><div><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationStatement-urn:uuid:ab67569b-1fa1-4f28-84dd-080d5b771823\"><td> Vitamin D gummies </td><td>Active</td><td> Oral gum </td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:4c012f7e-725e-4103-930c-ce871c388116\"><td> Omega-3 </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:0482e2c3-9c74-413f-9d43-71bc1e914b73\"><td> Co-Q10 </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:0b272f9d-6a6f-4277-ade0-e05796a32cb9\"><td> Acetaminophen </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:5a7bc1fc-c412-43dd-8629-08bb7ec147b4\"><td> Acetaminophen </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:91bd1d54-77a7-4bbd-86cc-fbd1f3f48288\"><td> Acetaminophen </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:e95f8e72-89ce-4d3f-a820-55e9fceab8f9\"><td> Naprosin (Aleve) </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:d240302e-1cf4-4243-8788-33b49681edf8\"><td> Naprosin (Aleve) </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:fee113f8-7ccd-4676-bc79-81711b5a473c\"><td> Naprosin (Aleve) </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:36f2e5df-86ac-472a-9472-0f7d56fad0f6\"><td> Benadryl (OTC) </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:6d01945e-6454-4d83-b858-689077845b5c\"><td> Benadryl (OTC) </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:fe887299-cf7a-4d43-b7c5-7d60468be1fc\"><td> Benadryl (OTC) </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:e87fcb9e-5d7b-4430-82e2-c5fcf4483a1c\"><td> Latanoprost </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:ea2204d6-b151-482b-b861-96a347e868b2\"><td> Latanoprost </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:6b6340de-8fbe-4c64-b4c0-5be4593dca9e\"><td> Latanoprost </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:fe2a7efb-9b93-42d2-b3cd-47363a092290\"><td> Cosopt </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:71565696-99b6-4605-b2b3-d14c1db28872\"><td> Cosopt </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:91be0066-b28a-4806-b7cf-4002f08361fb\"><td> Cosopt </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:f78b8b1f-1d2b-45e5-9332-2fad5c60403c\"><td> Atorvastatin </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:409887e5-36c1-409c-b6ab-c4bf76ecd940\"><td> Atorvastatin </td><td>On Hold</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:87724ccb-6f8a-44c4-8f9f-5ac1d33996e8\"><td> Atorvastatin </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:6be53265-e99c-491e-9296-af2792eb0ade\"><td> Chlorthalidon </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:e61f40bf-ee91-44c8-85de-15ceb61dd27d\"><td> HcTz </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:eb0ede2f-eccb-4d8a-88b1-fd657c0146d8\"><td> HcTz </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:1f53493a-f924-4677-bc74-8e8dfa3264ce\"><td> Felodipine </td><td>On Hold</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:19b139ea-1b20-4ae5-869a-089e0affd5ab\"><td> Felodipine </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:bf670c36-482c-4ee8-ab08-1945e905d7cf\"><td> Amlodipine </td><td>On Hold</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:63871f89-7068-42e6-bfb2-5c6faae31a27\"><td> Amlodipine </td><td>On Hold</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:06d6580e-446a-41de-b9ed-868b35b60415\"><td> Amlodipine </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr></tbody></table></div></div></div><div><h1>Problem List</h1><div><div><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:a74727d7-c69e-45fc-a6d5-6059cf0030c0\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c5b59d07-b6be-4421-80f5-2eb25413fdeb\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:e8fd1ec8-3882-479b-bf37-63621385926b\"><td> Ocular Hypertension, Bilateral OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:e56f64b0-0b31-45c0-87a1-bad025a73a02\"><td> Lens-Pseudophakia OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:35486940-8a3d-41b7-a5ed-02d752137908\"><td> Hypotropia of left eye </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c8912368-ae1f-4a24-b106-6c96877ae582\"><td> Drusen Of Macula Of Both Eyes </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:6665196e-fdcd-4119-996f-e6ecedf83b78\"><td> Convergence insufficiency </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:21ec5ada-2bd9-4066-be03-cdbc0b6602d4\"><td> Cornea-Dry Eye Syndrome OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3a7fbf8b-449b-48ee-aa8b-85beae554dfa\"><td> Blepharitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:02ef7cc1-bb68-4372-8398-c6b38e25859b\"><td> TINNITUS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d406124c-673d-41eb-8e2d-d68efaecc0c1\"><td> Allergic rhinitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b4384387-32ea-4fbf-be4b-3956839e4fa3\"><td> Solar elastosis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7d5676db-37e6-40d4-b09d-6d8d05d28444\"><td> Seborrheic keratoses </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ed84b4cf-94ce-4f1a-ae9c-f46c1e553023\"><td> Lentigines </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:19707ffa-dc42-4ca1-bf4d-6c930cd07210\"><td> History of squamous cell carcinoma </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b9267d96-effc-40c9-9458-9a6ebd13d5da\"><td> Basal cell carcinoma (BCC) of skin </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:40b43235-bd28-4fa5-b0b8-590f68a43577\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ee4a8ee5-5f12-4f12-b8a9-8809678122a0\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d155b86c-952d-4623-b576-9fad1f7b1ecc\"><td> RAYNAUD'S PHENOMENON </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:a78cd6ad-6f1c-4b83-b13d-5c0c59fb3565\"><td> Migraine-Ophthalmic Migraine </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:52c07630-9bd2-4f66-83f8-c16db353c074\"><td> HISTORY OF MIGRAINES </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:23c93787-33a4-46bc-8393-1b4b5f10cc85\"><td> HYPERTENSION </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7a2f1e4f-a2b7-4f69-9573-b8520709eebe\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:2c5245ef-ee5a-475f-8d42-dcb9521fe7c3\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ecf2668a-8e4a-4f89-b422-7217a70b4272\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:6330720e-bf1f-4b3c-9dd3-c88f02b59107\"><td> COLONIC ADENOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:5c1e4673-bcd6-41a0-aa18-7bdaf96f3ed6\"><td> Colon Polyp </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b6b63d95-1814-4bb2-a656-fb48a8dc225c\"><td> Diverticulosis of colon </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:18df537d-da28-4f38-bd49-8ca55817ce1b\"><td> GOUT? </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:94b5fa06-84c5-4f78-b3bc-dc8f875958be\"><td> Hyperlipidemia </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:17a6386f-15bf-49d5-917a-b108ebfb0f71\"><td> Essential tremor </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7ccf2057-1bfc-4f30-97ce-bf50f86cfee8\"><td> HISTORY OF RENAL CELL CARCINOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3c548923-4b59-45bc-91eb-13aa5ec99a8d\"><td> Attention deficit hyperactivity disorder, predominantly inattentive type </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:877157cf-b29a-471d-9b3d-671e11e0faae\"><td> History of depression </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:50e980a1-7131-44ba-9f6a-578590a5f095\"><td> Memory Disorder </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:36e7b91f-7851-40d9-a53d-ea6746fb8ea5\"><td> Hypertension </td><td> active </td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>History of Past Illness</h1><div></div></div></div>"
+      },
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "date": "2023-09-11T18:54:19.840+00:00",
+      "author": [ {
+        "reference": "urn:uuid:e7d286b7-65f4-431d-b257-da2b8ec45e47"
+      } ],
+      "title": "Patient Summary as of 09/11/2023",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and adverse reactions Document"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:c75bb2d6-d281-4bc2-98ab-4ac62d3fd1a8\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:c75bb2d6-d281-4bc2-98ab-4ac62d3fd1a8"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "History of Medication use Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationStatement-urn:uuid:ab67569b-1fa1-4f28-84dd-080d5b771823\"><td> Vitamin D gummies </td><td>Active</td><td> Oral gum </td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:4c012f7e-725e-4103-930c-ce871c388116\"><td> Omega-3 </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:0482e2c3-9c74-413f-9d43-71bc1e914b73\"><td> Co-Q10 </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:0b272f9d-6a6f-4277-ade0-e05796a32cb9\"><td> Acetaminophen </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:5a7bc1fc-c412-43dd-8629-08bb7ec147b4\"><td> Acetaminophen </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:91bd1d54-77a7-4bbd-86cc-fbd1f3f48288\"><td> Acetaminophen </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:e95f8e72-89ce-4d3f-a820-55e9fceab8f9\"><td> Naprosin (Aleve) </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:d240302e-1cf4-4243-8788-33b49681edf8\"><td> Naprosin (Aleve) </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:fee113f8-7ccd-4676-bc79-81711b5a473c\"><td> Naprosin (Aleve) </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:36f2e5df-86ac-472a-9472-0f7d56fad0f6\"><td> Benadryl (OTC) </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:6d01945e-6454-4d83-b858-689077845b5c\"><td> Benadryl (OTC) </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:fe887299-cf7a-4d43-b7c5-7d60468be1fc\"><td> Benadryl (OTC) </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:e87fcb9e-5d7b-4430-82e2-c5fcf4483a1c\"><td> Latanoprost </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:ea2204d6-b151-482b-b861-96a347e868b2\"><td> Latanoprost </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:6b6340de-8fbe-4c64-b4c0-5be4593dca9e\"><td> Latanoprost </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:fe2a7efb-9b93-42d2-b3cd-47363a092290\"><td> Cosopt </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:71565696-99b6-4605-b2b3-d14c1db28872\"><td> Cosopt </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:91be0066-b28a-4806-b7cf-4002f08361fb\"><td> Cosopt </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:f78b8b1f-1d2b-45e5-9332-2fad5c60403c\"><td> Atorvastatin </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:409887e5-36c1-409c-b6ab-c4bf76ecd940\"><td> Atorvastatin </td><td>On Hold</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:87724ccb-6f8a-44c4-8f9f-5ac1d33996e8\"><td> Atorvastatin </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:6be53265-e99c-491e-9296-af2792eb0ade\"><td> Chlorthalidon </td><td>Active</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:e61f40bf-ee91-44c8-85de-15ceb61dd27d\"><td> HcTz </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:eb0ede2f-eccb-4d8a-88b1-fd657c0146d8\"><td> HcTz </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr><tr id=\"MedicationStatement-urn:uuid:1f53493a-f924-4677-bc74-8e8dfa3264ce\"><td> Felodipine </td><td>On Hold</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:19b139ea-1b20-4ae5-869a-089e0affd5ab\"><td> Felodipine </td><td>Active</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:bf670c36-482c-4ee8-ab08-1945e905d7cf\"><td> Amlodipine </td><td>On Hold</td><td></td><td></td><td> Thu Jun 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:63871f89-7068-42e6-bfb2-5c6faae31a27\"><td> Amlodipine </td><td>On Hold</td><td></td><td></td><td> Wed Feb 01 00:00:00 UTC 2023 </td></tr><tr id=\"MedicationStatement-urn:uuid:06d6580e-446a-41de-b9ed-868b35b60415\"><td> Amlodipine </td><td>Active</td><td></td><td></td><td> Mon Aug 01 00:00:00 UTC 2022 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:ab67569b-1fa1-4f28-84dd-080d5b771823"
+        }, {
+          "reference": "urn:uuid:4c012f7e-725e-4103-930c-ce871c388116"
+        }, {
+          "reference": "urn:uuid:0482e2c3-9c74-413f-9d43-71bc1e914b73"
+        }, {
+          "reference": "urn:uuid:0b272f9d-6a6f-4277-ade0-e05796a32cb9"
+        }, {
+          "reference": "urn:uuid:5a7bc1fc-c412-43dd-8629-08bb7ec147b4"
+        }, {
+          "reference": "urn:uuid:91bd1d54-77a7-4bbd-86cc-fbd1f3f48288"
+        }, {
+          "reference": "urn:uuid:e95f8e72-89ce-4d3f-a820-55e9fceab8f9"
+        }, {
+          "reference": "urn:uuid:d240302e-1cf4-4243-8788-33b49681edf8"
+        }, {
+          "reference": "urn:uuid:fee113f8-7ccd-4676-bc79-81711b5a473c"
+        }, {
+          "reference": "urn:uuid:36f2e5df-86ac-472a-9472-0f7d56fad0f6"
+        }, {
+          "reference": "urn:uuid:6d01945e-6454-4d83-b858-689077845b5c"
+        }, {
+          "reference": "urn:uuid:fe887299-cf7a-4d43-b7c5-7d60468be1fc"
+        }, {
+          "reference": "urn:uuid:e87fcb9e-5d7b-4430-82e2-c5fcf4483a1c"
+        }, {
+          "reference": "urn:uuid:ea2204d6-b151-482b-b861-96a347e868b2"
+        }, {
+          "reference": "urn:uuid:6b6340de-8fbe-4c64-b4c0-5be4593dca9e"
+        }, {
+          "reference": "urn:uuid:fe2a7efb-9b93-42d2-b3cd-47363a092290"
+        }, {
+          "reference": "urn:uuid:71565696-99b6-4605-b2b3-d14c1db28872"
+        }, {
+          "reference": "urn:uuid:91be0066-b28a-4806-b7cf-4002f08361fb"
+        }, {
+          "reference": "urn:uuid:f78b8b1f-1d2b-45e5-9332-2fad5c60403c"
+        }, {
+          "reference": "urn:uuid:409887e5-36c1-409c-b6ab-c4bf76ecd940"
+        }, {
+          "reference": "urn:uuid:87724ccb-6f8a-44c4-8f9f-5ac1d33996e8"
+        }, {
+          "reference": "urn:uuid:6be53265-e99c-491e-9296-af2792eb0ade"
+        }, {
+          "reference": "urn:uuid:e61f40bf-ee91-44c8-85de-15ceb61dd27d"
+        }, {
+          "reference": "urn:uuid:eb0ede2f-eccb-4d8a-88b1-fd657c0146d8"
+        }, {
+          "reference": "urn:uuid:1f53493a-f924-4677-bc74-8e8dfa3264ce"
+        }, {
+          "reference": "urn:uuid:19b139ea-1b20-4ae5-869a-089e0affd5ab"
+        }, {
+          "reference": "urn:uuid:bf670c36-482c-4ee8-ab08-1945e905d7cf"
+        }, {
+          "reference": "urn:uuid:63871f89-7068-42e6-bfb2-5c6faae31a27"
+        }, {
+          "reference": "urn:uuid:06d6580e-446a-41de-b9ed-868b35b60415"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem list - Reported"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:a74727d7-c69e-45fc-a6d5-6059cf0030c0\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c5b59d07-b6be-4421-80f5-2eb25413fdeb\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:e8fd1ec8-3882-479b-bf37-63621385926b\"><td> Ocular Hypertension, Bilateral OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:e56f64b0-0b31-45c0-87a1-bad025a73a02\"><td> Lens-Pseudophakia OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:35486940-8a3d-41b7-a5ed-02d752137908\"><td> Hypotropia of left eye </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c8912368-ae1f-4a24-b106-6c96877ae582\"><td> Drusen Of Macula Of Both Eyes </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:6665196e-fdcd-4119-996f-e6ecedf83b78\"><td> Convergence insufficiency </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:21ec5ada-2bd9-4066-be03-cdbc0b6602d4\"><td> Cornea-Dry Eye Syndrome OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3a7fbf8b-449b-48ee-aa8b-85beae554dfa\"><td> Blepharitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:02ef7cc1-bb68-4372-8398-c6b38e25859b\"><td> TINNITUS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d406124c-673d-41eb-8e2d-d68efaecc0c1\"><td> Allergic rhinitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b4384387-32ea-4fbf-be4b-3956839e4fa3\"><td> Solar elastosis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7d5676db-37e6-40d4-b09d-6d8d05d28444\"><td> Seborrheic keratoses </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ed84b4cf-94ce-4f1a-ae9c-f46c1e553023\"><td> Lentigines </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:19707ffa-dc42-4ca1-bf4d-6c930cd07210\"><td> History of squamous cell carcinoma </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b9267d96-effc-40c9-9458-9a6ebd13d5da\"><td> Basal cell carcinoma (BCC) of skin </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:40b43235-bd28-4fa5-b0b8-590f68a43577\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ee4a8ee5-5f12-4f12-b8a9-8809678122a0\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d155b86c-952d-4623-b576-9fad1f7b1ecc\"><td> RAYNAUD'S PHENOMENON </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:a78cd6ad-6f1c-4b83-b13d-5c0c59fb3565\"><td> Migraine-Ophthalmic Migraine </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:52c07630-9bd2-4f66-83f8-c16db353c074\"><td> HISTORY OF MIGRAINES </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:23c93787-33a4-46bc-8393-1b4b5f10cc85\"><td> HYPERTENSION </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7a2f1e4f-a2b7-4f69-9573-b8520709eebe\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:2c5245ef-ee5a-475f-8d42-dcb9521fe7c3\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ecf2668a-8e4a-4f89-b422-7217a70b4272\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:6330720e-bf1f-4b3c-9dd3-c88f02b59107\"><td> COLONIC ADENOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:5c1e4673-bcd6-41a0-aa18-7bdaf96f3ed6\"><td> Colon Polyp </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b6b63d95-1814-4bb2-a656-fb48a8dc225c\"><td> Diverticulosis of colon </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:18df537d-da28-4f38-bd49-8ca55817ce1b\"><td> GOUT? </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:94b5fa06-84c5-4f78-b3bc-dc8f875958be\"><td> Hyperlipidemia </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:17a6386f-15bf-49d5-917a-b108ebfb0f71\"><td> Essential tremor </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7ccf2057-1bfc-4f30-97ce-bf50f86cfee8\"><td> HISTORY OF RENAL CELL CARCINOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3c548923-4b59-45bc-91eb-13aa5ec99a8d\"><td> Attention deficit hyperactivity disorder, predominantly inattentive type </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:877157cf-b29a-471d-9b3d-671e11e0faae\"><td> History of depression </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:50e980a1-7131-44ba-9f6a-578590a5f095\"><td> Memory Disorder </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:36e7b91f-7851-40d9-a53d-ea6746fb8ea5\"><td> Hypertension </td><td> active </td><td></td><td></td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:a74727d7-c69e-45fc-a6d5-6059cf0030c0"
+        }, {
+          "reference": "urn:uuid:c5b59d07-b6be-4421-80f5-2eb25413fdeb"
+        }, {
+          "reference": "urn:uuid:e8fd1ec8-3882-479b-bf37-63621385926b"
+        }, {
+          "reference": "urn:uuid:e56f64b0-0b31-45c0-87a1-bad025a73a02"
+        }, {
+          "reference": "urn:uuid:35486940-8a3d-41b7-a5ed-02d752137908"
+        }, {
+          "reference": "urn:uuid:c8912368-ae1f-4a24-b106-6c96877ae582"
+        }, {
+          "reference": "urn:uuid:6665196e-fdcd-4119-996f-e6ecedf83b78"
+        }, {
+          "reference": "urn:uuid:21ec5ada-2bd9-4066-be03-cdbc0b6602d4"
+        }, {
+          "reference": "urn:uuid:3a7fbf8b-449b-48ee-aa8b-85beae554dfa"
+        }, {
+          "reference": "urn:uuid:02ef7cc1-bb68-4372-8398-c6b38e25859b"
+        }, {
+          "reference": "urn:uuid:d406124c-673d-41eb-8e2d-d68efaecc0c1"
+        }, {
+          "reference": "urn:uuid:b4384387-32ea-4fbf-be4b-3956839e4fa3"
+        }, {
+          "reference": "urn:uuid:7d5676db-37e6-40d4-b09d-6d8d05d28444"
+        }, {
+          "reference": "urn:uuid:ed84b4cf-94ce-4f1a-ae9c-f46c1e553023"
+        }, {
+          "reference": "urn:uuid:19707ffa-dc42-4ca1-bf4d-6c930cd07210"
+        }, {
+          "reference": "urn:uuid:b9267d96-effc-40c9-9458-9a6ebd13d5da"
+        }, {
+          "reference": "urn:uuid:40b43235-bd28-4fa5-b0b8-590f68a43577"
+        }, {
+          "reference": "urn:uuid:ee4a8ee5-5f12-4f12-b8a9-8809678122a0"
+        }, {
+          "reference": "urn:uuid:d155b86c-952d-4623-b576-9fad1f7b1ecc"
+        }, {
+          "reference": "urn:uuid:a78cd6ad-6f1c-4b83-b13d-5c0c59fb3565"
+        }, {
+          "reference": "urn:uuid:52c07630-9bd2-4f66-83f8-c16db353c074"
+        }, {
+          "reference": "urn:uuid:23c93787-33a4-46bc-8393-1b4b5f10cc85"
+        }, {
+          "reference": "urn:uuid:7a2f1e4f-a2b7-4f69-9573-b8520709eebe"
+        }, {
+          "reference": "urn:uuid:2c5245ef-ee5a-475f-8d42-dcb9521fe7c3"
+        }, {
+          "reference": "urn:uuid:ecf2668a-8e4a-4f89-b422-7217a70b4272"
+        }, {
+          "reference": "urn:uuid:6330720e-bf1f-4b3c-9dd3-c88f02b59107"
+        }, {
+          "reference": "urn:uuid:5c1e4673-bcd6-41a0-aa18-7bdaf96f3ed6"
+        }, {
+          "reference": "urn:uuid:b6b63d95-1814-4bb2-a656-fb48a8dc225c"
+        }, {
+          "reference": "urn:uuid:18df537d-da28-4f38-bd49-8ca55817ce1b"
+        }, {
+          "reference": "urn:uuid:94b5fa06-84c5-4f78-b3bc-dc8f875958be"
+        }, {
+          "reference": "urn:uuid:17a6386f-15bf-49d5-917a-b108ebfb0f71"
+        }, {
+          "reference": "urn:uuid:7ccf2057-1bfc-4f30-97ce-bf50f86cfee8"
+        }, {
+          "reference": "urn:uuid:3c548923-4b59-45bc-91eb-13aa5ec99a8d"
+        }, {
+          "reference": "urn:uuid:877157cf-b29a-471d-9b3d-671e11e0faae"
+        }, {
+          "reference": "urn:uuid:50e980a1-7131-44ba-9f6a-578590a5f095"
+        }, {
+          "reference": "urn:uuid:36e7b91f-7851-40d9-a53d-ea6746fb8ea5"
+        } ]
+      }, {
+        "title": "History of Past Illness",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11348-0",
+            "display": "History of Past illness Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">History of Pre-Diabetes</div></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:d23fc6e6-5ab4-45aa-9615-c37e522d7b19"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce",
+    "resource": {
+      "resourceType": "Patient",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:28.648+00:00",
+        "source": "#ekLHwdBOLz0PjhT9"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dave <b>DEBRONKART </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1234567</td></tr><tr><td>Date of birth</td><td><span>20 January 1951</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          } ]
+        },
+        "value": "1234567"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "family": "deBronkart",
+        "given": [ "Dave" ]
+      }, {
+        "use": "nickname",
+        "given": [ "ePatient Dave" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1951-01-20",
+      "contact": [ {
+        "telecom": [ {
+          "system": "phone",
+          "value": "555-555-5555",
+          "use": "home"
+        }, {
+          "system": "email",
+          "value": "john.anyperson@example.com"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:c75bb2d6-d281-4bc2-98ab-4ac62d3fd1a8",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:30.652+00:00",
+        "source": "#qrkKxmb5zmDqVvPG"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#AllergyIntolerance-urn:uuid:c75bb2d6-d281-4bc2-98ab-4ac62d3fd1a8"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-allergy-info",
+          "display": "No information about allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:ab67569b-1fa1-4f28-84dd-080d5b771823",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:08.945+00:00",
+        "source": "#LL1qPJott4TIoDiU",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:ab67569b-1fa1-4f28-84dd-080d5b771823"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "787969007",
+          "display": "Product containing vitamin D analog (product)"
+        } ],
+        "text": "Vitamin D gummies"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01",
+      "dosage": [ {
+        "route": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu",
+            "code": "10230000",
+            "display": "Oral gum"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:4c012f7e-725e-4103-930c-ce871c388116",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:09.944+00:00",
+        "source": "#MJxBS2sEdgkwzItn",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:4c012f7e-725e-4103-930c-ce871c388116"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "346441008",
+          "display": "Product containing fish derived omega 3 fatty acid (medicinal product)"
+        } ],
+        "text": "Omega-3"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:0482e2c3-9c74-413f-9d43-71bc1e914b73",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:10.944+00:00",
+        "source": "#8xHFYwbqIFA5iB4Y",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:0482e2c3-9c74-413f-9d43-71bc1e914b73"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "412130008",
+          "display": "Product containing ubidecarenone (medicinal product)"
+        } ],
+        "text": "Co-Q10"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:0b272f9d-6a6f-4277-ade0-e05796a32cb9",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:11.944+00:00",
+        "source": "#KBDjyl4saOri75wV",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:0b272f9d-6a6f-4277-ade0-e05796a32cb9"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "90332006",
+          "display": "Product containing paracetamol (medicinal product)"
+        } ],
+        "text": "Acetaminophen"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:5a7bc1fc-c412-43dd-8629-08bb7ec147b4",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:12.944+00:00",
+        "source": "#oyYifvlhMQSaYqNH",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:5a7bc1fc-c412-43dd-8629-08bb7ec147b4"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "90332006",
+          "display": "Product containing paracetamol (medicinal product)"
+        } ],
+        "text": "Acetaminophen"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:91bd1d54-77a7-4bbd-86cc-fbd1f3f48288",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:13.945+00:00",
+        "source": "#GUB9Y79BJ3OA6WLP",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:91bd1d54-77a7-4bbd-86cc-fbd1f3f48288"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "90332006",
+          "display": "Product containing paracetamol (medicinal product)"
+        } ],
+        "text": "Acetaminophen"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:e95f8e72-89ce-4d3f-a820-55e9fceab8f9",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:14.945+00:00",
+        "source": "#qmP5eZzQWY4ZnMgh",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:e95f8e72-89ce-4d3f-a820-55e9fceab8f9"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "11847009",
+          "display": "Product containing naproxen (medicinal product)"
+        } ],
+        "text": "Naprosin (Aleve)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:d240302e-1cf4-4243-8788-33b49681edf8",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:15.945+00:00",
+        "source": "#UdByPGhBeE64xQi7",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:d240302e-1cf4-4243-8788-33b49681edf8"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "11847009",
+          "display": "Product containing naproxen (medicinal product)"
+        } ],
+        "text": "Naprosin (Aleve)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:fee113f8-7ccd-4676-bc79-81711b5a473c",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:16.944+00:00",
+        "source": "#KmYvxei6VFieMrsm",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:fee113f8-7ccd-4676-bc79-81711b5a473c"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "11847009",
+          "display": "Product containing naproxen (medicinal product)"
+        } ],
+        "text": "Naprosin (Aleve)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:36f2e5df-86ac-472a-9472-0f7d56fad0f6",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:17.944+00:00",
+        "source": "#ilKBhd7TImadXle9",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:36f2e5df-86ac-472a-9472-0f7d56fad0f6"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "26458009",
+          "display": "Product containing diphenhydramine (medicinal product)"
+        } ],
+        "text": "Benadryl (OTC)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:6d01945e-6454-4d83-b858-689077845b5c",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:18.948+00:00",
+        "source": "#c6Pqcv3cL0u6Qc8k",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:6d01945e-6454-4d83-b858-689077845b5c"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "26458009",
+          "display": "Product containing diphenhydramine (medicinal product)"
+        } ],
+        "text": "Benadryl (OTC)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:fe887299-cf7a-4d43-b7c5-7d60468be1fc",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:19.944+00:00",
+        "source": "#sJvaBCSU8921SHZg",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:fe887299-cf7a-4d43-b7c5-7d60468be1fc"
+      } ],
+      "status": "active",
+      "category": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+          "code": "patientspecified"
+        } ]
+      },
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "26458009",
+          "display": "Product containing diphenhydramine (medicinal product)"
+        } ],
+        "text": "Benadryl (OTC)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01",
+      "dosage": [ {
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:e87fcb9e-5d7b-4430-82e2-c5fcf4483a1c",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:22.947+00:00",
+        "source": "#yUNDtpWZ5VO6ghuO",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:e87fcb9e-5d7b-4430-82e2-c5fcf4483a1c"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "330733003",
+          "display": "Product containing dorzolamide and timolol (medicinal product)"
+        } ],
+        "text": "Latanoprost"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:ea2204d6-b151-482b-b861-96a347e868b2",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:23.945+00:00",
+        "source": "#pLc1AhxQk3DqVwaV",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:ea2204d6-b151-482b-b861-96a347e868b2"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "330733003",
+          "display": "Product containing dorzolamide and timolol (medicinal product)"
+        } ],
+        "text": "Latanoprost"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:6b6340de-8fbe-4c64-b4c0-5be4593dca9e",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:24.948+00:00",
+        "source": "#b2jR69jV9sQ2opDE",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:6b6340de-8fbe-4c64-b4c0-5be4593dca9e"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "330733003",
+          "display": "Product containing dorzolamide and timolol (medicinal product)"
+        } ],
+        "text": "Latanoprost"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:fe2a7efb-9b93-42d2-b3cd-47363a092290",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:25.946+00:00",
+        "source": "#1GsQAtLLEQkqymx7",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:fe2a7efb-9b93-42d2-b3cd-47363a092290"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "330733003",
+          "display": "Product containing dorzolamide and timolol (medicinal product)"
+        } ],
+        "text": "Cosopt"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:71565696-99b6-4605-b2b3-d14c1db28872",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:26.944+00:00",
+        "source": "#lF5kOrqLD3hJKUJW",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:71565696-99b6-4605-b2b3-d14c1db28872"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "330733003",
+          "display": "Product containing dorzolamide and timolol (medicinal product)"
+        } ],
+        "text": "Cosopt"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:91be0066-b28a-4806-b7cf-4002f08361fb",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:27.947+00:00",
+        "source": "#oUoQXbaVjMgS5Mmb",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:91be0066-b28a-4806-b7cf-4002f08361fb"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "330733003",
+          "display": "Product containing dorzolamide and timolol (medicinal product)"
+        } ],
+        "text": "Cosopt"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:f78b8b1f-1d2b-45e5-9332-2fad5c60403c",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:31.946+00:00",
+        "source": "#LigHuBiGl3njTE0w",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:f78b8b1f-1d2b-45e5-9332-2fad5c60403c"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108537001",
+          "display": "Product containing amlodipine (medicinal product)"
+        } ],
+        "text": "Atorvastatin"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:409887e5-36c1-409c-b6ab-c4bf76ecd940",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:32.947+00:00",
+        "source": "#GTwNb8ipE82f55s0",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:409887e5-36c1-409c-b6ab-c4bf76ecd940"
+      } ],
+      "status": "on-hold",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108537001",
+          "display": "Product containing amlodipine (medicinal product)"
+        } ],
+        "text": "Atorvastatin"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:87724ccb-6f8a-44c4-8f9f-5ac1d33996e8",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:33.944+00:00",
+        "source": "#T5YuhjNo8bNgsdjX",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:87724ccb-6f8a-44c4-8f9f-5ac1d33996e8"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108600003",
+          "display": "Product containing atorvastatin (medicinal product)"
+        } ],
+        "text": "Atorvastatin"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:6be53265-e99c-491e-9296-af2792eb0ade",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:34.946+00:00",
+        "source": "#r1NWOWTLWm7XNXXV",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:6be53265-e99c-491e-9296-af2792eb0ade"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "57893000",
+          "display": "Product containing chlortalidone (medicinal product)"
+        } ],
+        "text": "Chlorthalidon"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:e61f40bf-ee91-44c8-85de-15ceb61dd27d",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:36.947+00:00",
+        "source": "#k2Q6rZvfNRfHcCzK",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:e61f40bf-ee91-44c8-85de-15ceb61dd27d"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "91667005",
+          "display": "Product containing hydrochlorothiazide (medicinal product)"
+        } ],
+        "text": "HcTz"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:eb0ede2f-eccb-4d8a-88b1-fd657c0146d8",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:37.947+00:00",
+        "source": "#JtAjz8DNTsMVUTwe",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:eb0ede2f-eccb-4d8a-88b1-fd657c0146d8"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "91667005",
+          "display": "Product containing hydrochlorothiazide (medicinal product)"
+        } ],
+        "text": "HcTz"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:1f53493a-f924-4677-bc74-8e8dfa3264ce",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:38.947+00:00",
+        "source": "#0cZvMbLXVvGnz3nM",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:1f53493a-f924-4677-bc74-8e8dfa3264ce"
+      } ],
+      "status": "on-hold",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108535009",
+          "display": "Product containing felodipine (medicinal product)"
+        } ],
+        "text": "Felodipine"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:19b139ea-1b20-4ae5-869a-089e0affd5ab",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:39.947+00:00",
+        "source": "#cDb1RFKNBdHDDwZq",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:19b139ea-1b20-4ae5-869a-089e0affd5ab"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108535009",
+          "display": "Product containing felodipine (medicinal product)"
+        } ],
+        "text": "Felodipine"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:bf670c36-482c-4ee8-ab08-1945e905d7cf",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:40.946+00:00",
+        "source": "#6tJUM9MwFkpLZy4S",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:bf670c36-482c-4ee8-ab08-1945e905d7cf"
+      } ],
+      "status": "on-hold",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108537001",
+          "display": "Product containing amlodipine (medicinal product)"
+        } ],
+        "text": "Amlodipine"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-06-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:63871f89-7068-42e6-bfb2-5c6faae31a27",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:41.946+00:00",
+        "source": "#wRxxkEg4LP0eNTMX",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:63871f89-7068-42e6-bfb2-5c6faae31a27"
+      } ],
+      "status": "on-hold",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108537001",
+          "display": "Product containing amlodipine (medicinal product)"
+        } ],
+        "text": "Amlodipine"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2023-02-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:06d6580e-446a-41de-b9ed-868b35b60415",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:42.944+00:00",
+        "source": "#gEA1yRiaphyj6nLw",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#MedicationStatement-urn:uuid:06d6580e-446a-41de-b9ed-868b35b60415"
+      } ],
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108537001",
+          "display": "Product containing amlodipine (medicinal product)"
+        } ],
+        "text": "Amlodipine"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      },
+      "effectiveDateTime": "2022-08-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:a74727d7-c69e-45fc-a6d5-6059cf0030c0",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:31.648+00:00",
+        "source": "#Lu1EjbVxC5XLxLXN",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:a74727d7-c69e-45fc-a6d5-6059cf0030c0"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "398909004",
+          "display": "Rosacea (disorder)"
+        } ],
+        "text": "Unspec. disorder of eye and adneyesa-Rosacea OD & OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:c5b59d07-b6be-4421-80f5-2eb25413fdeb",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:32.652+00:00",
+        "source": "#OC94sVszwoQKjqnj",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:c5b59d07-b6be-4421-80f5-2eb25413fdeb"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "37231002",
+          "display": "Macular retinal edema (disorder)"
+        } ],
+        "text": "Retina-Macular Edema (Post operative) OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:e8fd1ec8-3882-479b-bf37-63621385926b",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:33.652+00:00",
+        "source": "#m3JZ8n0n90DyXOAs",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:e8fd1ec8-3882-479b-bf37-63621385926b"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "4210003",
+          "display": "Ocular hypertension (disorder)"
+        } ],
+        "text": "Ocular Hypertension, Bilateral OD & OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:e56f64b0-0b31-45c0-87a1-bad025a73a02",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:34.946+00:00",
+        "source": "#C7pSaG8be2EChaOn",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:e56f64b0-0b31-45c0-87a1-bad025a73a02"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "95217000",
+          "display": "Pseudophakia"
+        } ],
+        "text": "Lens-Pseudophakia OD & OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:35486940-8a3d-41b7-a5ed-02d752137908",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:35.947+00:00",
+        "source": "#6gICX2GDBXtErOSQ",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:35486940-8a3d-41b7-a5ed-02d752137908"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "348681000119101",
+          "display": "Hypotropia of left eye (disorder)"
+        } ],
+        "text": "Hypotropia of left eye"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:c8912368-ae1f-4a24-b106-6c96877ae582",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:36.946+00:00",
+        "source": "#hKL7TQVjiaYln9Ue",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:c8912368-ae1f-4a24-b106-6c96877ae582"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "345261000119102",
+          "display": "Drusen of bilateral maculae (finding)"
+        } ],
+        "text": "Drusen Of Macula Of Both Eyes"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:6665196e-fdcd-4119-996f-e6ecedf83b78",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:37.947+00:00",
+        "source": "#RqXxbuAVcYRspRSj",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:6665196e-fdcd-4119-996f-e6ecedf83b78"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "194131002",
+          "display": "Convergence insufficiency (disorder)"
+        } ],
+        "text": "Convergence insufficiency"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:21ec5ada-2bd9-4066-be03-cdbc0b6602d4",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:38.945+00:00",
+        "source": "#ot7K2BXVutXfJFJ8",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:21ec5ada-2bd9-4066-be03-cdbc0b6602d4"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "46152009",
+          "display": "Tear film insufficiency (disorder)"
+        } ],
+        "text": "Cornea-Dry Eye Syndrome OD & OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:3a7fbf8b-449b-48ee-aa8b-85beae554dfa",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:39.947+00:00",
+        "source": "#N3KZCfWsal0PpFqG",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:3a7fbf8b-449b-48ee-aa8b-85beae554dfa"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "41446000",
+          "display": "Blepharitis (disorder)"
+        } ],
+        "text": "Blepharitis"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:02ef7cc1-bb68-4372-8398-c6b38e25859b",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:40.946+00:00",
+        "source": "#cZ25hrrZxwa1KgRq",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:02ef7cc1-bb68-4372-8398-c6b38e25859b"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "60862001",
+          "display": "Tinnitus (finding)"
+        } ],
+        "text": "TINNITUS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:d406124c-673d-41eb-8e2d-d68efaecc0c1",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:41.947+00:00",
+        "source": "#vk94O3COiwFEslLU",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:d406124c-673d-41eb-8e2d-d68efaecc0c1"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "61582004",
+          "display": "Allergic rhinitis (disorder)"
+        } ],
+        "text": "Allergic rhinitis"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b4384387-32ea-4fbf-be4b-3956839e4fa3",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:43.944+00:00",
+        "source": "#gHkUjFAeKJzL52Nh",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:b4384387-32ea-4fbf-be4b-3956839e4fa3"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "43982006",
+          "display": "Solar degeneration (disorder)"
+        } ],
+        "text": "Solar elastosis"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:7d5676db-37e6-40d4-b09d-6d8d05d28444",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:44.946+00:00",
+        "source": "#TWn7oco88rUrLe4z",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:7d5676db-37e6-40d4-b09d-6d8d05d28444"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "403863000",
+          "display": "Multiple basal cell papillomata (disorder)"
+        } ],
+        "text": "Seborrheic keratoses"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:ed84b4cf-94ce-4f1a-ae9c-f46c1e553023",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:45.944+00:00",
+        "source": "#5amfAq2wSRxUXAeQ",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:ed84b4cf-94ce-4f1a-ae9c-f46c1e553023"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "72100002",
+          "display": "Solar lentigo (disorder)"
+        } ],
+        "text": "Lentigines"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:19707ffa-dc42-4ca1-bf4d-6c930cd07210",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:46.945+00:00",
+        "source": "#yKG3kNoNOAscY7v0",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:19707ffa-dc42-4ca1-bf4d-6c930cd07210"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "429024007",
+          "display": "History of squamous cell carcinoma of skin (situation)"
+        } ],
+        "text": "History of squamous cell carcinoma"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b9267d96-effc-40c9-9458-9a6ebd13d5da",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:47.945+00:00",
+        "source": "#c8a3HDiFefof7jLF",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:b9267d96-effc-40c9-9458-9a6ebd13d5da"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "254701007",
+          "display": "Basal cell carcinoma of skin (disorder)"
+        } ],
+        "text": "Basal cell carcinoma (BCC) of skin"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:40b43235-bd28-4fa5-b0b8-590f68a43577",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:48.946+00:00",
+        "source": "#rZ8XR7XbCV1wePTh",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:40b43235-bd28-4fa5-b0b8-590f68a43577"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "95320005",
+          "display": "Skin disorder"
+        } ],
+        "text": "AK (actinic keratosis)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:ee4a8ee5-5f12-4f12-b8a9-8809678122a0",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:49.944+00:00",
+        "source": "#Thtkak7bPeqFei2P",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:ee4a8ee5-5f12-4f12-b8a9-8809678122a0"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "201101007",
+          "display": "Actinic keratosis"
+        } ],
+        "text": "AK (actinic keratosis)"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:d155b86c-952d-4623-b576-9fad1f7b1ecc",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:50.946+00:00",
+        "source": "#HwvP5puogD6Asmmr",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:d155b86c-952d-4623-b576-9fad1f7b1ecc"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "266261006",
+          "display": "Raynaud's phenomenon (finding)"
+        } ],
+        "text": "RAYNAUD'S PHENOMENON"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:a78cd6ad-6f1c-4b83-b13d-5c0c59fb3565",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:51.946+00:00",
+        "source": "#PkeMBUhCydHCn1Jo",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:a78cd6ad-6f1c-4b83-b13d-5c0c59fb3565"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "95655001",
+          "display": "Ophthalmic migraine (disorder)"
+        } ],
+        "text": "Migraine-Ophthalmic Migraine"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:52c07630-9bd2-4f66-83f8-c16db353c074",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:52.945+00:00",
+        "source": "#MF6y8YGgcdY25bLb",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:52c07630-9bd2-4f66-83f8-c16db353c074"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "161481007",
+          "display": "History of migraine (situation)"
+        } ],
+        "text": "HISTORY OF MIGRAINES"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:23c93787-33a4-46bc-8393-1b4b5f10cc85",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:53.944+00:00",
+        "source": "#LylBri52ThBsWyfw",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:23c93787-33a4-46bc-8393-1b4b5f10cc85"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "Hypertensive disorder, systemic arterial (disorder)"
+        } ],
+        "text": "HYPERTENSION"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:7a2f1e4f-a2b7-4f69-9573-b8520709eebe",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:54.947+00:00",
+        "source": "#3ya8E9iVZFa8FfRX"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:7a2f1e4f-a2b7-4f69-9573-b8520709eebe"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "37231002"
+        } ],
+        "text": "Retina-Macular Edema (Post operative) OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:2c5245ef-ee5a-475f-8d42-dcb9521fe7c3",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:55.944+00:00",
+        "source": "#icyYeBlILu7LrwK9"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:2c5245ef-ee5a-475f-8d42-dcb9521fe7c3"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "371405004"
+        } ],
+        "text": "Unspec. disorder of eye and adneyesa-Rosacea OD & OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:ecf2668a-8e4a-4f89-b422-7217a70b4272",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:56.945+00:00",
+        "source": "#cec5qMBkCoXhP0hg"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:ecf2668a-8e4a-4f89-b422-7217a70b4272"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "200933006"
+        } ],
+        "text": "Unspec. disorder of eye and adneyesa-Rosacea OD & OS"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:6330720e-bf1f-4b3c-9dd3-c88f02b59107",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:57.946+00:00",
+        "source": "#L1scf43oEzJIO4Ae"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:6330720e-bf1f-4b3c-9dd3-c88f02b59107"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "92065004"
+        } ],
+        "text": "COLONIC ADENOMA"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5c1e4673-bcd6-41a0-aa18-7bdaf96f3ed6",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:58.945+00:00",
+        "source": "#dfpFWJqV1jtHWLIg"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:5c1e4673-bcd6-41a0-aa18-7bdaf96f3ed6"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "92065004"
+        } ],
+        "text": "Colon Polyp"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b6b63d95-1814-4bb2-a656-fb48a8dc225c",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:59.945+00:00",
+        "source": "#ujUBTP8nsDUkjqXO"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:b6b63d95-1814-4bb2-a656-fb48a8dc225c"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "429430001"
+        } ],
+        "text": "Diverticulosis of colon"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:18df537d-da28-4f38-bd49-8ca55817ce1b",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:00.946+00:00",
+        "source": "#8DJ27AfWEfaOV4mV"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:18df537d-da28-4f38-bd49-8ca55817ce1b"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "90560007"
+        } ],
+        "text": "GOUT?"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:94b5fa06-84c5-4f78-b3bc-dc8f875958be",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:01.945+00:00",
+        "source": "#2laG2rIEK2h2nFlI"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:94b5fa06-84c5-4f78-b3bc-dc8f875958be"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "55822004",
+          "display": "Hyperlipidemia"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:17a6386f-15bf-49d5-917a-b108ebfb0f71",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:02.945+00:00",
+        "source": "#9lUw197k2ZX6bvWm"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:17a6386f-15bf-49d5-917a-b108ebfb0f71"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "609558009",
+          "display": "Essential tremor"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:7ccf2057-1bfc-4f30-97ce-bf50f86cfee8",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:03.945+00:00",
+        "source": "#fftmKyD5JKaC5Ofh"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:7ccf2057-1bfc-4f30-97ce-bf50f86cfee8"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "275903009",
+          "display": "History of carcinoma"
+        } ],
+        "text": "HISTORY OF RENAL CELL CARCINOMA"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:3c548923-4b59-45bc-91eb-13aa5ec99a8d",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:04.945+00:00",
+        "source": "#d2ZMsX88VhGr7TIQ"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:3c548923-4b59-45bc-91eb-13aa5ec99a8d"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "35253001",
+          "display": "Attention deficit hyperactivity disorder, predominantly inattentive type"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:877157cf-b29a-471d-9b3d-671e11e0faae",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:05.945+00:00",
+        "source": "#nficMiyzHsgSIF6y"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:877157cf-b29a-471d-9b3d-671e11e0faae"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "161469008",
+          "display": "History of depression"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:50e980a1-7131-44ba-9f6a-578590a5f095",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:06.945+00:00",
+        "source": "#K1fYIzdQUSMf2uA8"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:50e980a1-7131-44ba-9f6a-578590a5f095"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "106136008",
+          "display": "Memory finding"
+        } ],
+        "text": "Memory Disorder"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:36e7b91f-7851-40d9-a53d-ea6746fb8ea5",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:53:07.945+00:00",
+        "source": "#XlIEg5lox1IwoYc2"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:36e7b91f-7851-40d9-a53d-ea6746fb8ea5"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "Hypertension"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:d23fc6e6-5ab4-45aa-9615-c37e522d7b19",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-11T18:52:42.944+00:00",
+        "source": "#Oq8Ii41LnLLL6F31",
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:14d802f8-f57e-491b-8b25-673430786676#Condition-urn:uuid:d23fc6e6-5ab4-45aa-9615-c37e522d7b19"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "inactive"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "714628002",
+          "display": "Prediabetes (finding)"
+        } ],
+        "text": "HISTORY OF PRE-DIABETES"
+      },
+      "subject": {
+        "reference": "urn:uuid:6fafdf0e-9aec-4a20-ac24-5f1a872c42ce"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:e7d286b7-65f4-431d-b257-da2b8ec45e47",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "eHealthLab - University of Cyprus",
+      "address": [ {
+        "line": [ "1 University Avenue" ],
+        "city": "Nicosia",
+        "postalCode": "2109",
+        "country": "CY"
+      } ]
+    }
+  } ]
+}
