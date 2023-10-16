@@ -1,0 +1,1178 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "08f61333-2f10-4b09-b34d-4173579f537b"
+  },
+  "type": "document",
+  "timestamp": "2023-09-09T18:38:20.182+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570",
+    "resource": {
+      "resourceType": "Composition",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><h1>Allergies and Intolerances</h1><div><div><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:624f04a3-076b-496d-9621-e7f065e26a48\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>Medication List</h1><div><div><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationRequest-urn:uuid:0750bc5a-c138-4ec0-b3f6-1f36872f2b7f\"><td> atorvastatin 40mg Oral Tablet </td><td>Active</td><td></td><td> 40 mg/day </td><td></td><td></td></tr></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody></tbody></table></div></div></div><div><h1>Problem List</h1><div><div><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:084aae08-4fff-45e9-b6cd-0562605b64b0\"><td> Congestive heart failure </td><td> active </td><td></td><td> Thu Jan 01 00:00:00 UTC 2015 </td></tr><tr id=\"Condition-urn:uuid:838ec08b-e637-4025-b5e5-4e6a5b3141a3\"><td> Hypertension </td><td> active </td><td></td><td> Fri Jan 01 00:00:00 UTC 1993 </td></tr><tr id=\"Condition-urn:uuid:a858a074-c9ab-4daf-b23d-2ac23662346b\"><td> Hypertension </td><td> active </td><td></td><td> Fri Jan 01 00:00:00 UTC 1993 </td></tr></tbody></table></div></div></div><div><h1>History of Immunizations</h1><div><div><table class=\"hapiPropertyTable\"><caption>Immunizations</caption><thead><tr><th>Immunization</th><th>Status</th><th>Dose Number</th><th>Manufacturer</th><th>Lot Number</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Immunization-urn:uuid:225c0328-94f2-4fe3-8277-f532687d9567\"><td> Tdap </td><td>COMPLETED</td><td></td><td></td><td>C2825AA</td><td></td><td> Tue Sep 18 00:00:00 UTC 2007 </td></tr><tr id=\"Immunization-urn:uuid:4de50251-10f3-49eb-bceb-103d52f1d934\"><td> Poliovirus inactivated IPV (IPOL) </td><td>COMPLETED</td><td></td><td></td><td>Z0872</td><td></td><td> Tue Sep 18 00:00:00 UTC 2007 </td></tr><tr id=\"Immunization-urn:uuid:4b05ace6-a74d-41d1-bc74-a66ca4d6d79b\"><td> Hepatitis A, unspecified </td><td>COMPLETED</td><td></td><td></td><td>AHAVB195AB</td><td></td><td> Tue Sep 18 00:00:00 UTC 2007 </td></tr><tr id=\"Immunization-urn:uuid:9cec77ac-8d86-4653-885e-748c1ac08b1e\"><td> Hepatitis A, unspecified </td><td>COMPLETED</td><td></td><td></td><td>AHAVB251AA</td><td></td><td> Tue Sep 16 00:00:00 UTC 2008 </td></tr><tr id=\"Immunization-urn:uuid:1848946c-954a-4e9e-b901-1a3fe706eca8\"><td> Typhoid live (Vivotif) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Mon Sep 15 00:00:00 UTC 2008 </td></tr><tr id=\"Immunization-urn:uuid:a6f60aea-81ec-4b7e-a199-fb6c2d20abc5\"><td> Yellow fever live (YF-VAX) </td><td>COMPLETED</td><td></td><td></td><td>UF426AA</td><td></td><td> Fri Nov 21 00:00:00 UTC 2008 </td></tr><tr id=\"Immunization-urn:uuid:43d75c72-56c9-418a-90b5-d9c85cf0ff45\"><td> Tdap </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Sep 22 00:00:00 UTC 2020 </td></tr><tr id=\"Immunization-urn:uuid:1e5c3073-493c-4d72-b4fe-98058afdc569\"><td> COVID-19 Pfizer mRNA monovalent 12 yrs and older (purple cap) </td><td>COMPLETED</td><td></td><td></td><td>EL0140</td><td></td><td> Sat Dec 26 00:00:00 UTC 2020 </td></tr><tr id=\"Immunization-urn:uuid:064ce1eb-fc03-434d-a309-6a58ea7d62ea\"><td> COVID-19 Pfizer mRNA monovalent 12 yrs and older (purple cap) </td><td>COMPLETED</td><td></td><td></td><td>EL0140</td><td></td><td> Sun Jan 17 00:00:00 UTC 2021 </td></tr><tr id=\"Immunization-urn:uuid:c45efb76-e4c1-44b9-8bee-7fcee44106d5\"><td> Influenza quadrivalent recombinant (Flublok) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Sep 22 00:00:00 UTC 2020 </td></tr><tr id=\"Immunization-urn:uuid:f2c6e557-c219-466a-b86a-05b058be308b\"><td> Influenza quadrivalent PF </td><td>COMPLETED</td><td></td><td></td><td>7LX9G</td><td></td><td> Sat Sep 25 00:00:00 UTC 2021 </td></tr><tr id=\"Immunization-urn:uuid:b14a9c05-6944-42fc-9de5-8550712881a8\"><td> COVID-19 Moderna mRNA monovalent 12 yrs and older </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Fri Oct 15 00:00:00 UTC 2021 </td></tr><tr id=\"Immunization-urn:uuid:f62cea0b-b177-411e-bff3-3ed381fde3e9\"><td> COVID-19 Moderna mRNA monovalent 12 yrs and older </td><td>COMPLETED</td><td></td><td></td><td>027L21A</td><td></td><td> Wed Feb 09 00:00:00 UTC 2022 </td></tr><tr id=\"Immunization-urn:uuid:443f83c4-879f-43cb-9a06-9898f92fb6a3\"><td> Influenza quadrivalent MDCK PF (Flucelvax) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Oct 02 00:00:00 UTC 2018 </td></tr><tr id=\"Immunization-urn:uuid:2fb685ad-dddd-4ed8-9ea1-890badf0d7f1\"><td> Influenza quadrivalent MDCK PF (Flucelvax) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Wed Oct 02 00:00:00 UTC 2019 </td></tr><tr id=\"Immunization-urn:uuid:8cafae5c-7c89-4488-a45a-a50dc71f552d\"><td> Influenza, unspecified </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Oct 18 00:00:00 UTC 2022 </td></tr></tbody></table></div></div></div><div><h1>Social History</h1><div><div><table class=\"hapiPropertyTable\"><caption>Social History</caption><thead><tr><th>Code</th><th>Result</th><th>Unit</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Observation-urn:uuid:5e48db1b-68f1-4f48-a724-a9bfac808ba5\"><td> Tobacco smoking status </td><td> Former smoker </td><td></td><td></td><td> Mon Jul 15 00:00:00 UTC 2019 </td></tr></tbody></table></div></div></div></div>"
+      },
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "date": "2023-09-09T18:38:19.793+00:00",
+      "author": [ {
+        "reference": "urn:uuid:0990c2ef-aa93-4618-97d4-49a02663d581"
+      } ],
+      "title": "Patient Summary as of 09/09/2023",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and adverse reactions Document"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:624f04a3-076b-496d-9621-e7f065e26a48\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:624f04a3-076b-496d-9621-e7f065e26a48"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "History of Medication use Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationRequest-urn:uuid:0750bc5a-c138-4ec0-b3f6-1f36872f2b7f\"><td> atorvastatin 40mg Oral Tablet </td><td>Active</td><td></td><td> 40 mg/day </td><td></td><td></td></tr></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:0750bc5a-c138-4ec0-b3f6-1f36872f2b7f"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem list Reported"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:084aae08-4fff-45e9-b6cd-0562605b64b0\"><td> Congestive heart failure </td><td> active </td><td></td><td> Thu Jan 01 00:00:00 UTC 2015 </td></tr><tr id=\"Condition-urn:uuid:838ec08b-e637-4025-b5e5-4e6a5b3141a3\"><td> Hypertension </td><td> active </td><td></td><td> Fri Jan 01 00:00:00 UTC 1993 </td></tr><tr id=\"Condition-urn:uuid:a858a074-c9ab-4daf-b23d-2ac23662346b\"><td> Hypertension </td><td> active </td><td></td><td> Fri Jan 01 00:00:00 UTC 1993 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:084aae08-4fff-45e9-b6cd-0562605b64b0"
+        }, {
+          "reference": "urn:uuid:838ec08b-e637-4025-b5e5-4e6a5b3141a3"
+        }, {
+          "reference": "urn:uuid:a858a074-c9ab-4daf-b23d-2ac23662346b"
+        } ]
+      }, {
+        "title": "History of Immunizations",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11369-6",
+            "display": "History of Immunization Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Immunizations</caption><thead><tr><th>Immunization</th><th>Status</th><th>Dose Number</th><th>Manufacturer</th><th>Lot Number</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Immunization-urn:uuid:225c0328-94f2-4fe3-8277-f532687d9567\"><td> Tdap </td><td>COMPLETED</td><td></td><td></td><td>C2825AA</td><td></td><td> Tue Sep 18 00:00:00 UTC 2007 </td></tr><tr id=\"Immunization-urn:uuid:4de50251-10f3-49eb-bceb-103d52f1d934\"><td> Poliovirus inactivated IPV (IPOL) </td><td>COMPLETED</td><td></td><td></td><td>Z0872</td><td></td><td> Tue Sep 18 00:00:00 UTC 2007 </td></tr><tr id=\"Immunization-urn:uuid:4b05ace6-a74d-41d1-bc74-a66ca4d6d79b\"><td> Hepatitis A, unspecified </td><td>COMPLETED</td><td></td><td></td><td>AHAVB195AB</td><td></td><td> Tue Sep 18 00:00:00 UTC 2007 </td></tr><tr id=\"Immunization-urn:uuid:9cec77ac-8d86-4653-885e-748c1ac08b1e\"><td> Hepatitis A, unspecified </td><td>COMPLETED</td><td></td><td></td><td>AHAVB251AA</td><td></td><td> Tue Sep 16 00:00:00 UTC 2008 </td></tr><tr id=\"Immunization-urn:uuid:1848946c-954a-4e9e-b901-1a3fe706eca8\"><td> Typhoid live (Vivotif) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Mon Sep 15 00:00:00 UTC 2008 </td></tr><tr id=\"Immunization-urn:uuid:a6f60aea-81ec-4b7e-a199-fb6c2d20abc5\"><td> Yellow fever live (YF-VAX) </td><td>COMPLETED</td><td></td><td></td><td>UF426AA</td><td></td><td> Fri Nov 21 00:00:00 UTC 2008 </td></tr><tr id=\"Immunization-urn:uuid:43d75c72-56c9-418a-90b5-d9c85cf0ff45\"><td> Tdap </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Sep 22 00:00:00 UTC 2020 </td></tr><tr id=\"Immunization-urn:uuid:1e5c3073-493c-4d72-b4fe-98058afdc569\"><td> COVID-19 Pfizer mRNA monovalent 12 yrs and older (purple cap) </td><td>COMPLETED</td><td></td><td></td><td>EL0140</td><td></td><td> Sat Dec 26 00:00:00 UTC 2020 </td></tr><tr id=\"Immunization-urn:uuid:064ce1eb-fc03-434d-a309-6a58ea7d62ea\"><td> COVID-19 Pfizer mRNA monovalent 12 yrs and older (purple cap) </td><td>COMPLETED</td><td></td><td></td><td>EL0140</td><td></td><td> Sun Jan 17 00:00:00 UTC 2021 </td></tr><tr id=\"Immunization-urn:uuid:c45efb76-e4c1-44b9-8bee-7fcee44106d5\"><td> Influenza quadrivalent recombinant (Flublok) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Sep 22 00:00:00 UTC 2020 </td></tr><tr id=\"Immunization-urn:uuid:f2c6e557-c219-466a-b86a-05b058be308b\"><td> Influenza quadrivalent PF </td><td>COMPLETED</td><td></td><td></td><td>7LX9G</td><td></td><td> Sat Sep 25 00:00:00 UTC 2021 </td></tr><tr id=\"Immunization-urn:uuid:b14a9c05-6944-42fc-9de5-8550712881a8\"><td> COVID-19 Moderna mRNA monovalent 12 yrs and older </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Fri Oct 15 00:00:00 UTC 2021 </td></tr><tr id=\"Immunization-urn:uuid:f62cea0b-b177-411e-bff3-3ed381fde3e9\"><td> COVID-19 Moderna mRNA monovalent 12 yrs and older </td><td>COMPLETED</td><td></td><td></td><td>027L21A</td><td></td><td> Wed Feb 09 00:00:00 UTC 2022 </td></tr><tr id=\"Immunization-urn:uuid:443f83c4-879f-43cb-9a06-9898f92fb6a3\"><td> Influenza quadrivalent MDCK PF (Flucelvax) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Oct 02 00:00:00 UTC 2018 </td></tr><tr id=\"Immunization-urn:uuid:2fb685ad-dddd-4ed8-9ea1-890badf0d7f1\"><td> Influenza quadrivalent MDCK PF (Flucelvax) </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Wed Oct 02 00:00:00 UTC 2019 </td></tr><tr id=\"Immunization-urn:uuid:8cafae5c-7c89-4488-a45a-a50dc71f552d\"><td> Influenza, unspecified </td><td>COMPLETED</td><td></td><td></td><td></td><td></td><td> Tue Oct 18 00:00:00 UTC 2022 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:225c0328-94f2-4fe3-8277-f532687d9567"
+        }, {
+          "reference": "urn:uuid:4de50251-10f3-49eb-bceb-103d52f1d934"
+        }, {
+          "reference": "urn:uuid:4b05ace6-a74d-41d1-bc74-a66ca4d6d79b"
+        }, {
+          "reference": "urn:uuid:9cec77ac-8d86-4653-885e-748c1ac08b1e"
+        }, {
+          "reference": "urn:uuid:1848946c-954a-4e9e-b901-1a3fe706eca8"
+        }, {
+          "reference": "urn:uuid:a6f60aea-81ec-4b7e-a199-fb6c2d20abc5"
+        }, {
+          "reference": "urn:uuid:43d75c72-56c9-418a-90b5-d9c85cf0ff45"
+        }, {
+          "reference": "urn:uuid:1e5c3073-493c-4d72-b4fe-98058afdc569"
+        }, {
+          "reference": "urn:uuid:064ce1eb-fc03-434d-a309-6a58ea7d62ea"
+        }, {
+          "reference": "urn:uuid:c45efb76-e4c1-44b9-8bee-7fcee44106d5"
+        }, {
+          "reference": "urn:uuid:f2c6e557-c219-466a-b86a-05b058be308b"
+        }, {
+          "reference": "urn:uuid:b14a9c05-6944-42fc-9de5-8550712881a8"
+        }, {
+          "reference": "urn:uuid:f62cea0b-b177-411e-bff3-3ed381fde3e9"
+        }, {
+          "reference": "urn:uuid:443f83c4-879f-43cb-9a06-9898f92fb6a3"
+        }, {
+          "reference": "urn:uuid:2fb685ad-dddd-4ed8-9ea1-890badf0d7f1"
+        }, {
+          "reference": "urn:uuid:8cafae5c-7c89-4488-a45a-a50dc71f552d"
+        } ]
+      }, {
+        "title": "Social History",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "29762-2",
+            "display": "Social history Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Social History</caption><thead><tr><th>Code</th><th>Result</th><th>Unit</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Observation-urn:uuid:5e48db1b-68f1-4f48-a724-a9bfac808ba5\"><td> Tobacco smoking status </td><td> Former smoker </td><td></td><td></td><td> Mon Jul 15 00:00:00 UTC 2019 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:5e48db1b-68f1-4f48-a724-a9bfac808ba5"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9",
+    "resource": {
+      "resourceType": "Patient",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:30.892+00:00",
+        "source": "#CfeTOpMqABQtJbzu"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maria SEATTLE<b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>maria-1</td></tr><tr><td>Date of birth</td><td><span>05 May 1946</span></td></tr></tbody></table></div>"
+      },
+      "identifier": [ {
+        "system": "https://www.gravitatehealth.eu/sid/doc",
+        "value": "maria-1"
+      } ],
+      "active": true,
+      "name": [ {
+        "family": "Gravitate",
+        "given": [ "Maria SEATTLE" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1946-05-05"
+    }
+  }, {
+    "fullUrl": "urn:uuid:624f04a3-076b-496d-9621-e7f065e26a48",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:32.892+00:00",
+        "source": "#n0nqMzxzerlH1rzb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#AllergyIntolerance-urn:uuid:624f04a3-076b-496d-9621-e7f065e26a48"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-allergy-info",
+          "display": "No information about allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:0750bc5a-c138-4ec0-b3f6-1f36872f2b7f",
+    "resource": {
+      "resourceType": "MedicationRequest",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:53.889+00:00",
+        "source": "#fRNA113EYZXaqNiW"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#MedicationRequest-urn:uuid:0750bc5a-c138-4ec0-b3f6-1f36872f2b7f"
+      } ],
+      "status": "active",
+      "intent": "order",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617311",
+          "display": "atorvastatin 40 MG Oral Tablet"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "dosageInstruction": [ {
+        "text": "40 mg/day",
+        "timing": {
+          "repeat": {
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "doseAndRate": [ {
+          "doseQuantity": {
+            "value": 40,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          }
+        } ]
+      } ],
+      "dispenseRequest": {
+        "validityPeriod": {
+          "start": "2021-01-01"
+        }
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:084aae08-4fff-45e9-b6cd-0562605b64b0",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:33.889+00:00",
+        "source": "#jrYjwrgW3srC9eP8"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Condition-urn:uuid:084aae08-4fff-45e9-b6cd-0562605b64b0"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "42343007",
+          "display": "Congestive heart failure"
+        } ],
+        "text": "Congestive heart failure"
+      },
+      "subject": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9",
+        "display": "Maria SEATTLE Gravitate"
+      },
+      "onsetDateTime": "2015"
+    }
+  }, {
+    "fullUrl": "urn:uuid:838ec08b-e637-4025-b5e5-4e6a5b3141a3",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:34.890+00:00",
+        "source": "#SctTuYpMjgH0q5Mn"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Condition-urn:uuid:838ec08b-e637-4025-b5e5-4e6a5b3141a3"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "HT - Hypertension"
+        } ],
+        "text": "Hypertension"
+      },
+      "subject": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9",
+        "display": "Maria SEATTLE Gravitate"
+      },
+      "onsetDateTime": "1993"
+    }
+  }, {
+    "fullUrl": "urn:uuid:a858a074-c9ab-4daf-b23d-2ac23662346b",
+    "resource": {
+      "resourceType": "Condition",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:35.890+00:00",
+        "source": "#rKb0s31uXZS2k7q5"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Condition-urn:uuid:a858a074-c9ab-4daf-b23d-2ac23662346b"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38341003",
+          "display": "HT - Hypertension"
+        } ],
+        "text": "Hypertension"
+      },
+      "subject": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9",
+        "display": "Maria SEATTLE Gravitate"
+      },
+      "onsetDateTime": "1993"
+    }
+  }, {
+    "fullUrl": "urn:uuid:225c0328-94f2-4fe3-8277-f532687d9567",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:36.890+00:00",
+        "source": "#cS18mH9p2sqHi3I5"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:225c0328-94f2-4fe3-8277-f532687d9567"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "1922175"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "115"
+        } ],
+        "text": "Tdap"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2007-09-18",
+      "primarySource": true,
+      "manufacturer": {
+        "display": "Sanofi Pasteur"
+      },
+      "lotNumber": "C2825AA",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "7",
+          "display": "Left Deltoid"
+        } ],
+        "text": "Left Deltoid"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:4de50251-10f3-49eb-bceb-103d52f1d934",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:37.891+00:00",
+        "source": "#kUK6ILZBDBU8GdOh"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:4de50251-10f3-49eb-bceb-103d52f1d934"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "1922176"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "10"
+        } ],
+        "text": "Poliovirus inactivated IPV (IPOL)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2007-09-18",
+      "primarySource": true,
+      "manufacturer": {
+        "display": "Aventis Behring LLC"
+      },
+      "lotNumber": "Z0872",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "14",
+          "display": "Left Arm"
+        } ],
+        "text": "Left Arm"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "5",
+          "display": "Subcutaneous"
+        } ],
+        "text": "Subcutaneous"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:4b05ace6-a74d-41d1-bc74-a66ca4d6d79b",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:38.889+00:00",
+        "source": "#rnfFEzpyBUz40wMH"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:4b05ace6-a74d-41d1-bc74-a66ca4d6d79b"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "1922177"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "85"
+        } ],
+        "text": "Hepatitis A, unspecified"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2007-09-18",
+      "primarySource": true,
+      "manufacturer": {
+        "display": "GlaxoSmithKline"
+      },
+      "lotNumber": "AHAVB195AB",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "7",
+          "display": "Left Deltoid"
+        } ],
+        "text": "Left Deltoid"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:9cec77ac-8d86-4653-885e-748c1ac08b1e",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:39.892+00:00",
+        "source": "#tKgsBWhTAUWrWZuY"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:9cec77ac-8d86-4653-885e-748c1ac08b1e"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "2119113"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "85"
+        } ],
+        "text": "Hepatitis A, unspecified"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2008-09-16",
+      "primarySource": true,
+      "manufacturer": {
+        "display": "GlaxoSmithKline"
+      },
+      "lotNumber": "AHAVB251AA",
+      "expirationDate": "2010-10-09",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "7",
+          "display": "Left Deltoid"
+        } ],
+        "text": "Left Deltoid"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:1848946c-954a-4e9e-b901-1a3fe706eca8",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:40.891+00:00",
+        "source": "#F3OLAL0CriS5dg87"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:1848946c-954a-4e9e-b901-1a3fe706eca8"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "2167912"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "25"
+        } ],
+        "text": "Typhoid live (Vivotif)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2008-09-15",
+      "primarySource": true,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4082"
+        } ],
+        "text": "Confirmed"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:a6f60aea-81ec-4b7e-a199-fb6c2d20abc5",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:41.889+00:00",
+        "source": "#cDHQeHaSh3Ei6vcA"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:a6f60aea-81ec-4b7e-a199-fb6c2d20abc5"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "2167990"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "37"
+        } ],
+        "text": "Yellow fever live (YF-VAX)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2008-11-21",
+      "primarySource": true,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4082"
+        } ],
+        "text": "Confirmed"
+      },
+      "manufacturer": {
+        "display": "Sanofi Pasteur"
+      },
+      "lotNumber": "UF426AA",
+      "expirationDate": "2009-06-02",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "14",
+          "display": "Left Arm"
+        } ],
+        "text": "Left Arm"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "5",
+          "display": "Subcutaneous"
+        } ],
+        "text": "Subcutaneous"
+      },
+      "doseQuantity": {
+        "value": 0.5,
+        "unit": "mL",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4019",
+        "code": "1"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:43d75c72-56c9-418a-90b5-d9c85cf0ff45",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:42.891+00:00",
+        "source": "#QA3DbuNCk2qvpxfr"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:43d75c72-56c9-418a-90b5-d9c85cf0ff45"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "18470093"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "115"
+        } ],
+        "text": "Tdap"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2020-09-22",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4082"
+        } ],
+        "text": "Outside Medical Record"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:1e5c3073-493c-4d72-b4fe-98058afdc569",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:43.891+00:00",
+        "source": "#qiPOYq2Lo7TqbVg7"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:1e5c3073-493c-4d72-b4fe-98058afdc569"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "21452788"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "208"
+        } ],
+        "text": "COVID-19 Pfizer mRNA monovalent 12 yrs and older (purple cap)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2020-12-26",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4082"
+        } ],
+        "text": "Auto Reconciled From Outside Source"
+      },
+      "location": {
+        "display": "CHINOOK COUNTY BUILDING"
+      },
+      "manufacturer": {
+        "display": "Pfizer, Inc"
+      },
+      "lotNumber": "EL0140",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "7",
+          "display": "Left Deltoid"
+        } ],
+        "text": "Left Deltoid"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:064ce1eb-fc03-434d-a309-6a58ea7d62ea",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:44.888+00:00",
+        "source": "#B3EztWYak1uaFxrK"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:064ce1eb-fc03-434d-a309-6a58ea7d62ea"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "21452789"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "208"
+        } ],
+        "text": "COVID-19 Pfizer mRNA monovalent 12 yrs and older (purple cap)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2021-01-17",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4082"
+        } ],
+        "text": "Auto Reconciled From Outside Source"
+      },
+      "location": {
+        "display": "CHINOOK COUNTY BUILDING"
+      },
+      "manufacturer": {
+        "display": "Pfizer, Inc"
+      },
+      "lotNumber": "EL0140",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "7",
+          "display": "Left Deltoid"
+        } ],
+        "text": "Left Deltoid"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:c45efb76-e4c1-44b9-8bee-7fcee44106d5",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:45.889+00:00",
+        "source": "#FtMw7PNuPNMGb5J1"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:c45efb76-e4c1-44b9-8bee-7fcee44106d5"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "23870090"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "185"
+        } ],
+        "text": "Influenza quadrivalent recombinant (Flublok)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2020-09-22",
+      "primarySource": false,
+      "location": {
+        "display": "BARTELL DRUGS #14"
+      },
+      "doseQuantity": {
+        "value": 0.5,
+        "unit": "mL",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4019",
+        "code": "1"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f2c6e557-c219-466a-b86a-05b058be308b",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:46.888+00:00",
+        "source": "#ET8ThDZKkbKNAJKA"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:f2c6e557-c219-466a-b86a-05b058be308b"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "23870091"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "150"
+        } ],
+        "text": "Influenza quadrivalent PF"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2021-09-25",
+      "primarySource": false,
+      "location": {
+        "display": "BARTELL DRUG 6973"
+      },
+      "manufacturer": {
+        "display": "GlaxoSmithKline"
+      },
+      "lotNumber": "7LX9G",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "14",
+          "display": "Left Arm"
+        } ],
+        "text": "Left Arm"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      },
+      "doseQuantity": {
+        "value": 0.5,
+        "unit": "mL",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4019",
+        "code": "1"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b14a9c05-6944-42fc-9de5-8550712881a8",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:47.889+00:00",
+        "source": "#lw5lKXOxQ22haBbb"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:b14a9c05-6944-42fc-9de5-8550712881a8"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "23871020"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "207"
+        } ],
+        "text": "COVID-19 Moderna mRNA monovalent 12 yrs and older"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2021-10-15",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4082"
+        } ],
+        "text": "Patient reported"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f62cea0b-b177-411e-bff3-3ed381fde3e9",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:48.891+00:00",
+        "source": "#010PyNSER7OGj8q2"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:f62cea0b-b177-411e-bff3-3ed381fde3e9"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "27984800"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "207"
+        } ],
+        "text": "COVID-19 Moderna mRNA monovalent 12 yrs and older"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2022-02-09",
+      "primarySource": false,
+      "location": {
+        "display": "CVS PHARMACY - #10387"
+      },
+      "manufacturer": {
+        "display": "Moderna US, Inc"
+      },
+      "lotNumber": "027L21A",
+      "site": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4040",
+          "code": "7",
+          "display": "Left Deltoid"
+        } ],
+        "text": "Left Deltoid"
+      },
+      "route": {
+        "coding": [ {
+          "system": "urn:oid:1.2.840.114350.1.13.91.2.7.10.768076.4030",
+          "code": "2",
+          "display": "Intramuscular"
+        } ],
+        "text": "Intramuscular"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:443f83c4-879f-43cb-9a06-9898f92fb6a3",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:49.887+00:00",
+        "source": "#7pKStMdajOQFfdjF"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:443f83c4-879f-43cb-9a06-9898f92fb6a3"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "27984801"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "171"
+        } ],
+        "text": "Influenza quadrivalent MDCK PF (Flucelvax)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2018-10-02",
+      "primarySource": false,
+      "location": {
+        "display": "External Claim"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:2fb685ad-dddd-4ed8-9ea1-890badf0d7f1",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:50.889+00:00",
+        "source": "#mIjlQ5wxUJ8WOI5d"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:2fb685ad-dddd-4ed8-9ea1-890badf0d7f1"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "27984802"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "171"
+        } ],
+        "text": "Influenza quadrivalent MDCK PF (Flucelvax)"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2019-10-02",
+      "primarySource": false,
+      "location": {
+        "display": "External Claim"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:8cafae5c-7c89-4488-a45a-a50dc71f552d",
+    "resource": {
+      "resourceType": "Immunization",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:51.891+00:00",
+        "source": "#7VIOnoYWCc6NNyBD"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Immunization-urn:uuid:8cafae5c-7c89-4488-a45a-a50dc71f552d"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.91.2.7.2.768076",
+        "value": "27984803"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "88"
+        } ],
+        "text": "Influenza, unspecified"
+      },
+      "patient": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "occurrenceDateTime": "2022-10-18",
+      "primarySource": false
+    }
+  }, {
+    "fullUrl": "urn:uuid:5e48db1b-68f1-4f48-a724-a9bfac808ba5",
+    "resource": {
+      "resourceType": "Observation",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-09-09T18:37:52.890+00:00",
+        "source": "#rjAkbzoWsRBJEYK1"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"tobacco-use-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;tobacco-use-example&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Tobacco smoking status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#72166-2)</span></p><p><b>subject</b>: <a href=\"Patient-patient-example-female.html\">Patient/patient-example-female</a> &quot; DELAROSA&quot;</p><p><b>effective</b>: 2019-07-15</p><p><b>value</b>: Former smoker <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA15920-4)</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUrl": "urn:uuid:b2296cb4-a266-4206-91d4-918e48c1b570#Observation-urn:uuid:5e48db1b-68f1-4f48-a724-a9bfac808ba5"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Tobacco smoking status"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:7c45e8ef-8129-4fa2-95f9-19ce7fde21f9"
+      },
+      "effectiveDateTime": "2019-07-15",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15920-4",
+          "display": "Former smoker"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:0990c2ef-aa93-4618-97d4-49a02663d581",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "eHealthLab - University of Cyprus",
+      "address": [ {
+        "line": [ "1 University Avenue" ],
+        "city": "Nicosia",
+        "postalCode": "2109",
+        "country": "CY"
+      } ]
+    }
+  } ]
+}

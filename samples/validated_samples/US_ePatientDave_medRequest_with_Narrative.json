@@ -1,0 +1,2626 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "620ef070-0c07-4c41-9cde-a94bc20745e3"
+  },
+  "type": "document",
+  "timestamp": "2023-09-10T00:43:41.173+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7",
+      "resource": {
+        "resourceType": "Composition",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><h1>Allergies and Intolerances</h1><div><div><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:f7d8c468-fcfe-4351-9daa-0ce7d0b35b00\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>Medication List</h1><div><div><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationRequest-urn:uuid:c050f56c-340a-4cbc-bac0-3e30c18933f3\"><td> Vitamin D gummies </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:0103474f-1a39-4a90-9410-a7ae12568222\"><td> Omega-3 </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:85f19b8e-21bc-493b-a6ee-43c2506a2414\"><td> Co-Q10 </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:0b85017e-217f-4d92-8d4d-18c428dab7a3\"><td> acetaminophen </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:b38ec765-b00d-42c4-ac85-6ed0721cf95d\"><td> naproxen </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:13ae765a-a738-459b-9161-a9bd36e65dfe\"><td> Benadryl </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:59b2b492-6dd3-4e12-a1a0-6c6730ab1c4e\"><td> latanoprost </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:9a6b6bb6-3270-42ed-82e0-b2cff2f2f872\"><td> Cosopt (dorzolamide / timolol) </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:12a32b14-0fda-4ab7-920d-25c2d1ba44c7\"><td> propranolol </td><td>On Hold</td><td></td><td></td><td></td><td>Mon Aug 01 00:00:00 UTC 2022</td></tr><tr id=\"MedicationRequest-urn:uuid:38342ebd-c0e5-4d5f-b56b-88bcb9fbe56d\"><td> atorvastatin </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:474631b0-896b-454a-a1ac-a6dcc66a5075\"><td> chlortalidone </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:ddff8495-1d8a-4e2a-b27b-0c22e2724813\"><td> felodipine </td><td>On Hold</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:48c983c0-e3e6-4267-9737-8f8a3a8f4537\"><td> amlodipine </td><td>On Hold</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody></tbody></table></div></div></div><div><h1>Problem List</h1><div><div><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:31ff8e04-8615-4954-82e2-6039bd9fab2e\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:890ed44e-1e77-44fd-910a-f4c7e08adfa2\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:377573f9-f327-4f59-a1bf-ce3f23e2c7a4\"><td> Ocular Hypertension, Bilateral OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b4937681-bc6d-459c-8e3b-5371be699731\"><td> Lens-Pseudophakia OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b625fcae-185e-48ef-aa4b-14a969789698\"><td> Hypotropia of left eye </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:866de4e5-5edc-439d-ab8f-7995c4ba1bc9\"><td> Drusen Of Macula Of Both Eyes </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:f32785e0-ecf3-4f5b-baf3-c7f41d269458\"><td> Convergence insufficiency </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c4846f8e-b622-4d52-93da-b19a6b19b7bf\"><td> Cornea-Dry Eye Syndrome OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7d5643c6-5a13-46d6-9fd3-d92befdf9073\"><td> Blepharitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c7fb7a38-8be8-46f6-9cb2-a458ef96b2dd\"><td> TINNITUS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:86394aea-a998-4ab9-8c55-aded603434a0\"><td> Allergic rhinitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:35f6c1c3-01c5-4f4f-968d-707123f56af1\"><td> Solar elastosis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:9e76405d-3fc1-4a8f-96b8-ecb1b4a9ea64\"><td> Seborrheic keratoses </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:5293c61d-b493-4256-a788-c3b4e44637a5\"><td> Lentigines </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ebefafe0-36d8-4461-9384-c9b5127130be\"><td> History of squamous cell carcinoma </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d73dd88e-7a2c-42dc-9088-5663e8adecc2\"><td> Basal cell carcinoma (BCC) of skin </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:70f1ad6f-ecbb-49fe-a676-e59b8ea4f9bb\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:e4dd63e7-07b6-470d-8dc9-7cbbcb67f5a7\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:99d24f12-1917-416e-b373-7fdbd16fe7e2\"><td> RAYNAUD'S PHENOMENON </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d7891da3-1325-433d-9d3b-1b0137abe461\"><td> Migraine-Ophthalmic Migraine </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:411ac6bc-af11-455c-be82-5f1e82dc3721\"><td> HISTORY OF MIGRAINES </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:4b0e2132-2549-4bc7-9e4b-ce67fc83c691\"><td> HYPERTENSION </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:62cb4542-dce7-4182-b56d-2790c690deac\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:af12fa50-9d53-4203-a14a-747a09ded67d\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:5a2a4e9b-24bf-4bd3-b19c-6e0c1011bda1\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3d2bf52a-216c-4695-9234-75a50abf3569\"><td> COLONIC ADENOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:532e4294-5b05-4c3b-9416-32e3f7d91592\"><td> Colon Polyp </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3062e0b7-581f-46ef-b3bd-e0c4207a3df5\"><td> Diverticulosis of colon </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:953d7d2a-b567-4005-a2d4-be78433b3d11\"><td> GOUT? </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:78c2ed60-fcc0-4dec-a00a-c233c64121ae\"><td> Hyperlipidemia </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:169017b2-9cd4-4e7e-aa38-8eaecb375100\"><td> Essential tremor </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:16ca3dc1-3f5f-4752-b9ca-00b78f06242a\"><td> HISTORY OF RENAL CELL CARCINOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:71b8a08d-7d8a-44d3-b91d-4d2f339c9b96\"><td> Attention deficit hyperactivity disorder, predominantly inattentive type </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:2641dcf7-6cbc-439c-a8fb-bb94135c9507\"><td> History of depression </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:4768f913-d9f5-472e-9bd5-8bf4aa9e7438\"><td> Memory Disorder </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:58c0c972-63be-4d5d-91b1-ba8b3fb91b92\"><td> Hypertension </td><td> active </td><td></td><td></td></tr></tbody></table></div></div></div><div><h1>History of Past Illness</h1><div></div></div></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient Summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "date": "2023-09-10T00:43:40.909+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:853512a5-23c7-4b14-91d0-d3a4fe7f6139"
+          }
+        ],
+        "title": "Patient Summary as of 09/10/2023",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergyIntolerance-urn:uuid:f7d8c468-fcfe-4351-9daa-0ce7d0b35b00\"><td> No information about allergies </td><td> active </td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f7d8c468-fcfe-4351-9daa-0ce7d0b35b00"
+              }
+            ]
+          },
+          {
+            "title": "Medication List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationRequest-urn:uuid:c050f56c-340a-4cbc-bac0-3e30c18933f3\"><td> Vitamin D gummies </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:0103474f-1a39-4a90-9410-a7ae12568222\"><td> Omega-3 </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:85f19b8e-21bc-493b-a6ee-43c2506a2414\"><td> Co-Q10 </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:0b85017e-217f-4d92-8d4d-18c428dab7a3\"><td> acetaminophen </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:b38ec765-b00d-42c4-ac85-6ed0721cf95d\"><td> naproxen </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:13ae765a-a738-459b-9161-a9bd36e65dfe\"><td> Benadryl </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:59b2b492-6dd3-4e12-a1a0-6c6730ab1c4e\"><td> latanoprost </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:9a6b6bb6-3270-42ed-82e0-b2cff2f2f872\"><td> Cosopt (dorzolamide / timolol) </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:12a32b14-0fda-4ab7-920d-25c2d1ba44c7\"><td> propranolol </td><td>On Hold</td><td></td><td></td><td></td><td>Mon Aug 01 00:00:00 UTC 2022</td></tr><tr id=\"MedicationRequest-urn:uuid:38342ebd-c0e5-4d5f-b56b-88bcb9fbe56d\"><td> atorvastatin </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:474631b0-896b-454a-a1ac-a6dcc66a5075\"><td> chlortalidone </td><td>Active</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:ddff8495-1d8a-4e2a-b27b-0c22e2724813\"><td> felodipine </td><td>On Hold</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr><tr id=\"MedicationRequest-urn:uuid:48c983c0-e3e6-4267-9737-8f8a3a8f4537\"><td> amlodipine </td><td>On Hold</td><td></td><td></td><td></td><td>Thu Jun 01 00:00:00 UTC 2023</td></tr></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c050f56c-340a-4cbc-bac0-3e30c18933f3"
+              },
+              {
+                "reference": "urn:uuid:0103474f-1a39-4a90-9410-a7ae12568222"
+              },
+              {
+                "reference": "urn:uuid:85f19b8e-21bc-493b-a6ee-43c2506a2414"
+              },
+              {
+                "reference": "urn:uuid:0b85017e-217f-4d92-8d4d-18c428dab7a3"
+              },
+              {
+                "reference": "urn:uuid:b38ec765-b00d-42c4-ac85-6ed0721cf95d"
+              },
+              {
+                "reference": "urn:uuid:13ae765a-a738-459b-9161-a9bd36e65dfe"
+              },
+              {
+                "reference": "urn:uuid:59b2b492-6dd3-4e12-a1a0-6c6730ab1c4e"
+              },
+              {
+                "reference": "urn:uuid:9a6b6bb6-3270-42ed-82e0-b2cff2f2f872"
+              },
+              {
+                "reference": "urn:uuid:12a32b14-0fda-4ab7-920d-25c2d1ba44c7"
+              },
+              {
+                "reference": "urn:uuid:38342ebd-c0e5-4d5f-b56b-88bcb9fbe56d"
+              },
+              {
+                "reference": "urn:uuid:474631b0-896b-454a-a1ac-a6dcc66a5075"
+              },
+              {
+                "reference": "urn:uuid:ddff8495-1d8a-4e2a-b27b-0c22e2724813"
+              },
+              {
+                "reference": "urn:uuid:48c983c0-e3e6-4267-9737-8f8a3a8f4537"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"Condition-urn:uuid:31ff8e04-8615-4954-82e2-6039bd9fab2e\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:890ed44e-1e77-44fd-910a-f4c7e08adfa2\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:377573f9-f327-4f59-a1bf-ce3f23e2c7a4\"><td> Ocular Hypertension, Bilateral OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b4937681-bc6d-459c-8e3b-5371be699731\"><td> Lens-Pseudophakia OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:b625fcae-185e-48ef-aa4b-14a969789698\"><td> Hypotropia of left eye </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:866de4e5-5edc-439d-ab8f-7995c4ba1bc9\"><td> Drusen Of Macula Of Both Eyes </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:f32785e0-ecf3-4f5b-baf3-c7f41d269458\"><td> Convergence insufficiency </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c4846f8e-b622-4d52-93da-b19a6b19b7bf\"><td> Cornea-Dry Eye Syndrome OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:7d5643c6-5a13-46d6-9fd3-d92befdf9073\"><td> Blepharitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:c7fb7a38-8be8-46f6-9cb2-a458ef96b2dd\"><td> TINNITUS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:86394aea-a998-4ab9-8c55-aded603434a0\"><td> Allergic rhinitis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:35f6c1c3-01c5-4f4f-968d-707123f56af1\"><td> Solar elastosis </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:9e76405d-3fc1-4a8f-96b8-ecb1b4a9ea64\"><td> Seborrheic keratoses </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:5293c61d-b493-4256-a788-c3b4e44637a5\"><td> Lentigines </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:ebefafe0-36d8-4461-9384-c9b5127130be\"><td> History of squamous cell carcinoma </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d73dd88e-7a2c-42dc-9088-5663e8adecc2\"><td> Basal cell carcinoma (BCC) of skin </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:70f1ad6f-ecbb-49fe-a676-e59b8ea4f9bb\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:e4dd63e7-07b6-470d-8dc9-7cbbcb67f5a7\"><td> AK (actinic keratosis) </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:99d24f12-1917-416e-b373-7fdbd16fe7e2\"><td> RAYNAUD'S PHENOMENON </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:d7891da3-1325-433d-9d3b-1b0137abe461\"><td> Migraine-Ophthalmic Migraine </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:411ac6bc-af11-455c-be82-5f1e82dc3721\"><td> HISTORY OF MIGRAINES </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:4b0e2132-2549-4bc7-9e4b-ce67fc83c691\"><td> HYPERTENSION </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:62cb4542-dce7-4182-b56d-2790c690deac\"><td> Retina-Macular Edema (Post operative) OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:af12fa50-9d53-4203-a14a-747a09ded67d\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:5a2a4e9b-24bf-4bd3-b19c-6e0c1011bda1\"><td> Unspec. disorder of eye and adneyesa-Rosacea OD &amp; OS </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3d2bf52a-216c-4695-9234-75a50abf3569\"><td> COLONIC ADENOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:532e4294-5b05-4c3b-9416-32e3f7d91592\"><td> Colon Polyp </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:3062e0b7-581f-46ef-b3bd-e0c4207a3df5\"><td> Diverticulosis of colon </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:953d7d2a-b567-4005-a2d4-be78433b3d11\"><td> GOUT? </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:78c2ed60-fcc0-4dec-a00a-c233c64121ae\"><td> Hyperlipidemia </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:169017b2-9cd4-4e7e-aa38-8eaecb375100\"><td> Essential tremor </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:16ca3dc1-3f5f-4752-b9ca-00b78f06242a\"><td> HISTORY OF RENAL CELL CARCINOMA </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:71b8a08d-7d8a-44d3-b91d-4d2f339c9b96\"><td> Attention deficit hyperactivity disorder, predominantly inattentive type </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:2641dcf7-6cbc-439c-a8fb-bb94135c9507\"><td> History of depression </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:4768f913-d9f5-472e-9bd5-8bf4aa9e7438\"><td> Memory Disorder </td><td> active </td><td></td><td></td></tr><tr id=\"Condition-urn:uuid:58c0c972-63be-4d5d-91b1-ba8b3fb91b92\"><td> Hypertension </td><td> active </td><td></td><td></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:31ff8e04-8615-4954-82e2-6039bd9fab2e"
+              },
+              {
+                "reference": "urn:uuid:890ed44e-1e77-44fd-910a-f4c7e08adfa2"
+              },
+              {
+                "reference": "urn:uuid:377573f9-f327-4f59-a1bf-ce3f23e2c7a4"
+              },
+              {
+                "reference": "urn:uuid:b4937681-bc6d-459c-8e3b-5371be699731"
+              },
+              {
+                "reference": "urn:uuid:b625fcae-185e-48ef-aa4b-14a969789698"
+              },
+              {
+                "reference": "urn:uuid:866de4e5-5edc-439d-ab8f-7995c4ba1bc9"
+              },
+              {
+                "reference": "urn:uuid:f32785e0-ecf3-4f5b-baf3-c7f41d269458"
+              },
+              {
+                "reference": "urn:uuid:c4846f8e-b622-4d52-93da-b19a6b19b7bf"
+              },
+              {
+                "reference": "urn:uuid:7d5643c6-5a13-46d6-9fd3-d92befdf9073"
+              },
+              {
+                "reference": "urn:uuid:c7fb7a38-8be8-46f6-9cb2-a458ef96b2dd"
+              },
+              {
+                "reference": "urn:uuid:86394aea-a998-4ab9-8c55-aded603434a0"
+              },
+              {
+                "reference": "urn:uuid:35f6c1c3-01c5-4f4f-968d-707123f56af1"
+              },
+              {
+                "reference": "urn:uuid:9e76405d-3fc1-4a8f-96b8-ecb1b4a9ea64"
+              },
+              {
+                "reference": "urn:uuid:5293c61d-b493-4256-a788-c3b4e44637a5"
+              },
+              {
+                "reference": "urn:uuid:ebefafe0-36d8-4461-9384-c9b5127130be"
+              },
+              {
+                "reference": "urn:uuid:d73dd88e-7a2c-42dc-9088-5663e8adecc2"
+              },
+              {
+                "reference": "urn:uuid:70f1ad6f-ecbb-49fe-a676-e59b8ea4f9bb"
+              },
+              {
+                "reference": "urn:uuid:e4dd63e7-07b6-470d-8dc9-7cbbcb67f5a7"
+              },
+              {
+                "reference": "urn:uuid:99d24f12-1917-416e-b373-7fdbd16fe7e2"
+              },
+              {
+                "reference": "urn:uuid:d7891da3-1325-433d-9d3b-1b0137abe461"
+              },
+              {
+                "reference": "urn:uuid:411ac6bc-af11-455c-be82-5f1e82dc3721"
+              },
+              {
+                "reference": "urn:uuid:4b0e2132-2549-4bc7-9e4b-ce67fc83c691"
+              },
+              {
+                "reference": "urn:uuid:62cb4542-dce7-4182-b56d-2790c690deac"
+              },
+              {
+                "reference": "urn:uuid:af12fa50-9d53-4203-a14a-747a09ded67d"
+              },
+              {
+                "reference": "urn:uuid:5a2a4e9b-24bf-4bd3-b19c-6e0c1011bda1"
+              },
+              {
+                "reference": "urn:uuid:3d2bf52a-216c-4695-9234-75a50abf3569"
+              },
+              {
+                "reference": "urn:uuid:532e4294-5b05-4c3b-9416-32e3f7d91592"
+              },
+              {
+                "reference": "urn:uuid:3062e0b7-581f-46ef-b3bd-e0c4207a3df5"
+              },
+              {
+                "reference": "urn:uuid:953d7d2a-b567-4005-a2d4-be78433b3d11"
+              },
+              {
+                "reference": "urn:uuid:78c2ed60-fcc0-4dec-a00a-c233c64121ae"
+              },
+              {
+                "reference": "urn:uuid:169017b2-9cd4-4e7e-aa38-8eaecb375100"
+              },
+              {
+                "reference": "urn:uuid:16ca3dc1-3f5f-4752-b9ca-00b78f06242a"
+              },
+              {
+                "reference": "urn:uuid:71b8a08d-7d8a-44d3-b91d-4d2f339c9b96"
+              },
+              {
+                "reference": "urn:uuid:2641dcf7-6cbc-439c-a8fb-bb94135c9507"
+              },
+              {
+                "reference": "urn:uuid:4768f913-d9f5-472e-9bd5-8bf4aa9e7438"
+              },
+              {
+                "reference": "urn:uuid:58c0c972-63be-4d5d-91b1-ba8b3fb91b92"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">History of pre-diabetes</div></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a42080cb-dcf8-4106-b99e-71edc487d806"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344",
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:32.185+00:00",
+          "source": "#YcboKW0MxSewEvYT"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Dave <b>DEBRONKART </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1234567</td></tr><tr><td>Date of birth</td><td><span>20 January 1951</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "value": "1234567"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "family": "deBronkart",
+            "given": [
+              "Dave"
+            ]
+          },
+          {
+            "use": "nickname",
+            "given": [
+              "ePatient Dave"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1951-01-20",
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "555-555-5555",
+                "use": "home"
+              },
+              {
+                "system": "email",
+                "value": "john.anyperson@example.com"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7d8c468-fcfe-4351-9daa-0ce7d0b35b00",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:34.188+00:00",
+          "source": "#TQHILJVlKu9XBVHX"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#AllergyIntolerance-urn:uuid:f7d8c468-fcfe-4351-9daa-0ce7d0b35b00"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-allergy-info",
+              "display": "No information about allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c050f56c-340a-4cbc-bac0-3e30c18933f3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:12.185+00:00",
+          "source": "#0wuOwTLsTdXzf3bD"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:c050f56c-340a-4cbc-bac0-3e30c18933f3"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Vitamin D gummies"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1119304009",
+                "display": "Chronic post-COVID-19 syndrome"
+              }
+            ],
+            "text": "Post-COVID Inflammation"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0103474f-1a39-4a90-9410-a7ae12568222",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:13.184+00:00",
+          "source": "#7rfLzLjCNZUc4w0f"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:0103474f-1a39-4a90-9410-a7ae12568222"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AX06",
+              "display": "omega-3-triglycerides incl. other esters and acids"
+            }
+          ],
+          "text": "Omega-3"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1119304009",
+                "display": "Chronic post-COVID-19 syndrome"
+              }
+            ],
+            "text": "Post-COVID Inflammation"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85f19b8e-21bc-493b-a6ee-43c2506a2414",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:14.189+00:00",
+          "source": "#llehjxkpGJi7Cjjd"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:85f19b8e-21bc-493b-a6ee-43c2506a2414"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Co-Q10"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "text": "statin pain"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b85017e-217f-4d92-8d4d-18c428dab7a3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:15.188+00:00",
+          "source": "#qCrZDcq8APaevVjg"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:0b85017e-217f-4d92-8d4d-18c428dab7a3"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "paracetamol"
+            }
+          ],
+          "text": "acetaminophen"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "22253000",
+                "display": "pain"
+              }
+            ]
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "asNeededBoolean": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b38ec765-b00d-42c4-ac85-6ed0721cf95d",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:16.188+00:00",
+          "source": "#vyIVmWOdt2pMNpmM"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:b38ec765-b00d-42c4-ac85-6ed0721cf95d"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "M01AE02",
+              "display": "naproxen"
+            }
+          ],
+          "text": "naproxen"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "22253000",
+                "display": "pain"
+              }
+            ]
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "asNeededBoolean": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:13ae765a-a738-459b-9161-a9bd36e65dfe",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:17.188+00:00",
+          "source": "#ktRiN569K2Agj4GF"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:13ae765a-a738-459b-9161-a9bd36e65dfe"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R06AA02",
+              "display": "diphenhydramine"
+            }
+          ],
+          "text": "Benadryl"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "418290006",
+                "display": "Itching"
+              }
+            ]
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "asNeededBoolean": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59b2b492-6dd3-4e12-a1a0-6c6730ab1c4e",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:20.189+00:00",
+          "source": "#EkJpijl9IWotOFnZ"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:59b2b492-6dd3-4e12-a1a0-6c6730ab1c4e"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "S01EE01",
+              "display": "latanoprost"
+            }
+          ],
+          "text": "latanoprost"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "23986001",
+                "display": "Glaucoma"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a6b6bb6-3270-42ed-82e0-b2cff2f2f872",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:21.189+00:00",
+          "source": "#g6GDhbHnq7QZOfln"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:9a6b6bb6-3270-42ed-82e0-b2cff2f2f872"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "text": "Cosopt (dorzolamide / timolol)"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "23986001",
+                "display": "Glaucoma"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12a32b14-0fda-4ab7-920d-25c2d1ba44c7",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:23.189+00:00",
+          "source": "#ZgNknyRjUVoRSMQ1"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:12a32b14-0fda-4ab7-920d-25c2d1ba44c7"
+          }
+        ],
+        "status": "on-hold",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AA05",
+              "display": "propranolol"
+            }
+          ],
+          "text": "propranolol"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2022-08",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "26079004",
+                "display": "Tremor"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38342ebd-c0e5-4d5f-b56b-88bcb9fbe56d",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:25.189+00:00",
+          "source": "#yNDZDnxUYqYpSvjk"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:38342ebd-c0e5-4d5f-b56b-88bcb9fbe56d"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AA05",
+              "display": "atorvastatin"
+            }
+          ],
+          "text": "atorvastatin"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "13644009",
+                "display": "Hypercholesterolemia"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:474631b0-896b-454a-a1ac-a6dcc66a5075",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:26.188+00:00",
+          "source": "#nmSwuODMwz2RXPIa"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:474631b0-896b-454a-a1ac-a6dcc66a5075"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C03BA04",
+              "display": "chlortalidone"
+            }
+          ],
+          "text": "chlorthalidone"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38341003",
+                "display": "Hypertension"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ddff8495-1d8a-4e2a-b27b-0c22e2724813",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:28.188+00:00",
+          "source": "#HXP0AtEroXjmOcJk"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:ddff8495-1d8a-4e2a-b27b-0c22e2724813"
+          }
+        ],
+        "status": "on-hold",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C08CA02",
+              "display": "felodipine"
+            }
+          ],
+          "text": "felodipine"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "text": "Capillaries"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:48c983c0-e3e6-4267-9737-8f8a3a8f4537",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:29.187+00:00",
+          "source": "#x6qGvAC7nJchMfiO"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#MedicationRequest-urn:uuid:48c983c0-e3e6-4267-9737-8f8a3a8f4537"
+          }
+        ],
+        "status": "on-hold",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C08CA01",
+              "display": "amlodipine"
+            }
+          ],
+          "text": "amlodipine"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        },
+        "authoredOn": "2023-06",
+        "reasonCode": [
+          {
+            "text": "Capillaries"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31ff8e04-8615-4954-82e2-6039bd9fab2e",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:35.185+00:00",
+          "source": "#Kj2mIeTnd338Sv7s",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:31ff8e04-8615-4954-82e2-6039bd9fab2e"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "398909004",
+              "display": "Rosacea (disorder)"
+            }
+          ],
+          "text": "Unspec. disorder of eye and adneyesa-Rosacea OD & OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:890ed44e-1e77-44fd-910a-f4c7e08adfa2",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:36.188+00:00",
+          "source": "#DdHa9bB31b5jcVLG",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:890ed44e-1e77-44fd-910a-f4c7e08adfa2"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "37231002",
+              "display": "Macular retinal edema (disorder)"
+            }
+          ],
+          "text": "Retina-Macular Edema (Post operative) OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:377573f9-f327-4f59-a1bf-ce3f23e2c7a4",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:37.185+00:00",
+          "source": "#7BAiuIQXsiIFEqSV",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:377573f9-f327-4f59-a1bf-ce3f23e2c7a4"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "4210003",
+              "display": "Ocular hypertension (disorder)"
+            }
+          ],
+          "text": "Ocular Hypertension, Bilateral OD & OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b4937681-bc6d-459c-8e3b-5371be699731",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:38.185+00:00",
+          "source": "#nVNCV9qnlAUuA9ly",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:b4937681-bc6d-459c-8e3b-5371be699731"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "95217000",
+              "display": "Pseudophakia"
+            }
+          ],
+          "text": "Lens-Pseudophakia OD & OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b625fcae-185e-48ef-aa4b-14a969789698",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:39.186+00:00",
+          "source": "#i0vVcrAntJjrC5Nz",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:b625fcae-185e-48ef-aa4b-14a969789698"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "348681000119101",
+              "display": "Hypotropia of left eye (disorder)"
+            }
+          ],
+          "text": "Hypotropia of left eye"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:866de4e5-5edc-439d-ab8f-7995c4ba1bc9",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:40.187+00:00",
+          "source": "#drjGfLkJMbAZxlLs",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:866de4e5-5edc-439d-ab8f-7995c4ba1bc9"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "345261000119102",
+              "display": "Drusen of bilateral maculae (finding)"
+            }
+          ],
+          "text": "Drusen Of Macula Of Both Eyes"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f32785e0-ecf3-4f5b-baf3-c7f41d269458",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:41.187+00:00",
+          "source": "#q1w3XqO29zvRZhGp",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:f32785e0-ecf3-4f5b-baf3-c7f41d269458"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "194131002",
+              "display": "Convergence insufficiency (disorder)"
+            }
+          ],
+          "text": "Convergence insufficiency"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c4846f8e-b622-4d52-93da-b19a6b19b7bf",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:42.185+00:00",
+          "source": "#XrMRXy7iEzbDFhor",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:c4846f8e-b622-4d52-93da-b19a6b19b7bf"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "46152009",
+              "display": "Tear film insufficiency (disorder)"
+            }
+          ],
+          "text": "Cornea-Dry Eye Syndrome OD & OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d5643c6-5a13-46d6-9fd3-d92befdf9073",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:43.186+00:00",
+          "source": "#YTHclVFll6yInbog",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:7d5643c6-5a13-46d6-9fd3-d92befdf9073"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "41446000",
+              "display": "Blepharitis (disorder)"
+            }
+          ],
+          "text": "Blepharitis"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c7fb7a38-8be8-46f6-9cb2-a458ef96b2dd",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:44.186+00:00",
+          "source": "#A6pcZHiU7wUTXSbR",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:c7fb7a38-8be8-46f6-9cb2-a458ef96b2dd"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "60862001",
+              "display": "Tinnitus (finding)"
+            }
+          ],
+          "text": "TINNITUS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86394aea-a998-4ab9-8c55-aded603434a0",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:45.186+00:00",
+          "source": "#j9SR7NmZp1ERnaIq",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:86394aea-a998-4ab9-8c55-aded603434a0"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "61582004",
+              "display": "Allergic rhinitis (disorder)"
+            }
+          ],
+          "text": "Allergic rhinitis"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:35f6c1c3-01c5-4f4f-968d-707123f56af1",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:47.185+00:00",
+          "source": "#3vhQhMRPMbIzAHCn",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:35f6c1c3-01c5-4f4f-968d-707123f56af1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "43982006",
+              "display": "Solar degeneration (disorder)"
+            }
+          ],
+          "text": "Solar elastosis"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e76405d-3fc1-4a8f-96b8-ecb1b4a9ea64",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:48.185+00:00",
+          "source": "#ruZOkLdbjXGo32zC",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:9e76405d-3fc1-4a8f-96b8-ecb1b4a9ea64"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "403863000",
+              "display": "Multiple basal cell papillomata (disorder)"
+            }
+          ],
+          "text": "Seborrheic keratoses"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5293c61d-b493-4256-a788-c3b4e44637a5",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:49.188+00:00",
+          "source": "#veq2MoNK5LRf9Gx5",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:5293c61d-b493-4256-a788-c3b4e44637a5"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "72100002",
+              "display": "Solar lentigo (disorder)"
+            }
+          ],
+          "text": "Lentigines"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ebefafe0-36d8-4461-9384-c9b5127130be",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:50.186+00:00",
+          "source": "#Jc4LiEnQNHscDv66",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:ebefafe0-36d8-4461-9384-c9b5127130be"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "429024007",
+              "display": "History of squamous cell carcinoma of skin (situation)"
+            }
+          ],
+          "text": "History of squamous cell carcinoma"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d73dd88e-7a2c-42dc-9088-5663e8adecc2",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:51.187+00:00",
+          "source": "#2nDZt8Zjp2wuhxFr",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:d73dd88e-7a2c-42dc-9088-5663e8adecc2"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "254701007",
+              "display": "Basal cell carcinoma of skin (disorder)"
+            }
+          ],
+          "text": "Basal cell carcinoma (BCC) of skin"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70f1ad6f-ecbb-49fe-a676-e59b8ea4f9bb",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:52.187+00:00",
+          "source": "#nK40UlB64G82CnfY",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:70f1ad6f-ecbb-49fe-a676-e59b8ea4f9bb"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "95320005",
+              "display": "Skin disorder"
+            }
+          ],
+          "text": "AK (actinic keratosis)"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4dd63e7-07b6-470d-8dc9-7cbbcb67f5a7",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:53.187+00:00",
+          "source": "#0LxLXV5E5KQCit3E",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:e4dd63e7-07b6-470d-8dc9-7cbbcb67f5a7"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "201101007",
+              "display": "Actinic keratosis"
+            }
+          ],
+          "text": "AK (actinic keratosis)"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99d24f12-1917-416e-b373-7fdbd16fe7e2",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:54.186+00:00",
+          "source": "#O3XLIbcZftntnlBt",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:99d24f12-1917-416e-b373-7fdbd16fe7e2"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "266261006",
+              "display": "Raynaud's phenomenon (finding)"
+            }
+          ],
+          "text": "RAYNAUD'S PHENOMENON"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7891da3-1325-433d-9d3b-1b0137abe461",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:55.184+00:00",
+          "source": "#BLczVTCJG1rAD07g",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:d7891da3-1325-433d-9d3b-1b0137abe461"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "95655001",
+              "display": "Ophthalmic migraine (disorder)"
+            }
+          ],
+          "text": "Migraine-Ophthalmic Migraine"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:411ac6bc-af11-455c-be82-5f1e82dc3721",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:56.184+00:00",
+          "source": "#xQzi88NiKFqbKwSK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:411ac6bc-af11-455c-be82-5f1e82dc3721"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "161481007",
+              "display": "History of migraine (situation)"
+            }
+          ],
+          "text": "HISTORY OF MIGRAINES"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b0e2132-2549-4bc7-9e4b-ce67fc83c691",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:57.186+00:00",
+          "source": "#dUMmpvp7vyEktFId",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:4b0e2132-2549-4bc7-9e4b-ce67fc83c691"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive disorder, systemic arterial (disorder)"
+            }
+          ],
+          "text": "HYPERTENSION"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62cb4542-dce7-4182-b56d-2790c690deac",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:58.187+00:00",
+          "source": "#yS3CF9UpLWxOlbnn"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:62cb4542-dce7-4182-b56d-2790c690deac"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "37231002"
+            }
+          ],
+          "text": "Retina-Macular Edema (Post operative) OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af12fa50-9d53-4203-a14a-747a09ded67d",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:59.186+00:00",
+          "source": "#md6UWKL7yjsZ3c4S"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:af12fa50-9d53-4203-a14a-747a09ded67d"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "371405004"
+            }
+          ],
+          "text": "Unspec. disorder of eye and adneyesa-Rosacea OD & OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a2a4e9b-24bf-4bd3-b19c-6e0c1011bda1",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:00.186+00:00",
+          "source": "#DxM74sphB9lxT3xH"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:5a2a4e9b-24bf-4bd3-b19c-6e0c1011bda1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "200933006"
+            }
+          ],
+          "text": "Unspec. disorder of eye and adneyesa-Rosacea OD & OS"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d2bf52a-216c-4695-9234-75a50abf3569",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:01.185+00:00",
+          "source": "#bpVNeXsOXHpySVmO"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:3d2bf52a-216c-4695-9234-75a50abf3569"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "92065004"
+            }
+          ],
+          "text": "COLONIC ADENOMA"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:532e4294-5b05-4c3b-9416-32e3f7d91592",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:02.184+00:00",
+          "source": "#8XjhACxkrZR8QqdV"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:532e4294-5b05-4c3b-9416-32e3f7d91592"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "92065004"
+            }
+          ],
+          "text": "Colon Polyp"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3062e0b7-581f-46ef-b3bd-e0c4207a3df5",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:03.186+00:00",
+          "source": "#goVsnBH6jMssGDqH"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:3062e0b7-581f-46ef-b3bd-e0c4207a3df5"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "429430001"
+            }
+          ],
+          "text": "Diverticulosis of colon"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:953d7d2a-b567-4005-a2d4-be78433b3d11",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:04.184+00:00",
+          "source": "#4SE7t8HqRCzmPor1"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:953d7d2a-b567-4005-a2d4-be78433b3d11"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90560007"
+            }
+          ],
+          "text": "GOUT?"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78c2ed60-fcc0-4dec-a00a-c233c64121ae",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:05.185+00:00",
+          "source": "#ijmqmiAJVK3MYjd7"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:78c2ed60-fcc0-4dec-a00a-c233c64121ae"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "55822004",
+              "display": "Hyperlipidemia"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:169017b2-9cd4-4e7e-aa38-8eaecb375100",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:06.186+00:00",
+          "source": "#90ijRUuD81pyTPXu"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:169017b2-9cd4-4e7e-aa38-8eaecb375100"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "609558009",
+              "display": "Essential tremor"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:16ca3dc1-3f5f-4752-b9ca-00b78f06242a",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:07.187+00:00",
+          "source": "#NuS5nDJoapG3ie9M"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:16ca3dc1-3f5f-4752-b9ca-00b78f06242a"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "275903009",
+              "display": "History of carcinoma"
+            }
+          ],
+          "text": "HISTORY OF RENAL CELL CARCINOMA"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71b8a08d-7d8a-44d3-b91d-4d2f339c9b96",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:08.185+00:00",
+          "source": "#UoQ6rd8q797JfPlD"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:71b8a08d-7d8a-44d3-b91d-4d2f339c9b96"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35253001",
+              "display": "Attention deficit hyperactivity disorder, predominantly inattentive type"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2641dcf7-6cbc-439c-a8fb-bb94135c9507",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:09.184+00:00",
+          "source": "#MtZRv4elMdfd8fHX"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:2641dcf7-6cbc-439c-a8fb-bb94135c9507"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "161469008",
+              "display": "History of depression"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4768f913-d9f5-472e-9bd5-8bf4aa9e7438",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:10.186+00:00",
+          "source": "#S2ClDwgKrOwthAtI"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:4768f913-d9f5-472e-9bd5-8bf4aa9e7438"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "106136008",
+              "display": "Memory finding"
+            }
+          ],
+          "text": "Memory Disorder"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58c0c972-63be-4d5d-91b1-ba8b3fb91b92",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:42:11.185+00:00",
+          "source": "#0BOPOZkyIG0NlkWL"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:58c0c972-63be-4d5d-91b1-ba8b3fb91b92"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a42080cb-dcf8-4106-b99e-71edc487d806",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-09-10T00:41:46.186+00:00",
+          "source": "#i9Z7PZNtTxHjy9Ol",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+            "valueUrl": "urn:uuid:32c664eb-86af-46b4-8937-acfe5fb2f2c7#Condition-urn:uuid:a42080cb-dcf8-4106-b99e-71edc487d806"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "inactive"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "714628002",
+              "display": "Prediabetes (finding)"
+            }
+          ],
+          "text": "HISTORY OF PRE-DIABETES"
+        },
+        "subject": {
+          "reference": "urn:uuid:e154ab0d-b714-4e16-96a7-e6f8b1b95344"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:853512a5-23c7-4b14-91d0-d3a4fe7f6139",
+      "resource": {
+        "resourceType": "Organization",
+        "name": "eHealthLab - University of Cyprus",
+        "address": [
+          {
+            "line": [
+              "1 University Avenue"
+            ],
+            "city": "Nicosia",
+            "postalCode": "2109",
+            "country": "CY"
+          }
+        ]
+      }
+    }
+  ]
+}

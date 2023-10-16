@@ -146,27 +146,29 @@ const renderTable = function (data) {
 // For machine-readable content, use the reference in the Composition.section.entry to retrieve resource from Bundle
 const getEntry = function (ips, fullUrl) {
   var result;
-  ips.entry.forEach(function (entry) {
-    if (entry.fullUrl.includes(fullUrl)) {
-      console.log(`match ${fullUrl}`);
-      result = entry.resource;
-    }
-    // Attempt to match based on resource and uuid
-    else {
-      let newMatch = fullUrl
-      if (entry.resource && entry.resource.resourceType) {
-        // remove the resource from reference
-        newMatch = newMatch.replace(entry.resource.resourceType, '');
-        // remove slash
-        newMatch = newMatch.replace(/\//g, '');
-        // console.log(newMatch); 
-      }
-      if (entry.fullUrl.includes(newMatch)) {
-        console.log(`match uuid ${newMatch}`);
+  if (ips.entry) {
+    ips.entry.forEach(function (entry) {
+      if (entry.fullUrl.includes(fullUrl)) {
+        console.log(`match ${fullUrl}`);
         result = entry.resource;
       }
-    }
-  });
+      // Attempt to match based on resource and uuid
+      else {
+        let newMatch = fullUrl
+        if (entry.resource && entry.resource.resourceType) {
+          // remove the resource from reference
+          newMatch = newMatch.replace(entry.resource.resourceType, '');
+          // remove slash
+          newMatch = newMatch.replace(/\//g, '');
+          // console.log(newMatch); 
+        }
+        if (entry.fullUrl.includes(newMatch)) {
+          console.log(`match uuid ${newMatch}`);
+          result = entry.resource;
+        }
+      }
+    });  
+  }
   if (!result) {
     console.log(`missing reference ${fullUrl}`);
     $("#MissingReferences").show();
@@ -215,87 +217,98 @@ const update = function (ips) {
         else if (section.code.coding[0].code == "11450-4") {
           console.log('Problems Section', j);
           section.problems = [];
-          section.entry.forEach(function (problem) {
-            console.log(problem.reference)
-            section.problems.push(getEntry(ips, problem.reference));
-          });
+          if (section.entry) {
+            section.entry.forEach(function (problem) {
+              console.log(problem.reference)
+              section.problems.push(getEntry(ips, problem.reference));
+            });  
+          } 
           render("Problems", section, "Problems", j);
         }
-
         else if (section.code.coding[0].code == "48765-2") {
           console.log('Allergies Section', j);
           section.allergies = [];
-          section.entry.forEach(function (allergy) {
-            console.log(allergy.reference)
-            let allergy2 = getEntry(ips, allergy.reference);
-            if (!allergy2.category) allergy2.category = [' '];
-            if (!allergy2.type) allergy2.type = ' ';
-            section.allergies.push(allergy2);
-          });
+          if (section.entry) {
+            section.entry.forEach(function (allergy) {
+              console.log(allergy.reference)
+              let allergy2 = getEntry(ips, allergy.reference);
+              if (!allergy2.category) allergy2.category = [' '];
+              if (!allergy2.type) allergy2.type = ' ';
+              section.allergies.push(allergy2);
+            });  
+          } 
           render("Allergies", section, "Allergies", j);
         }
 
         else if (section.code.coding[0].code == "10160-0") {
           console.log('Medications Section', j);
           section.medications = [];
-          section.entry.forEach(function (medication) {
-            console.log(medication.reference);
-            // while variable name is Statement, this may be either MedicationStatement or MedicationRequest
-            let statement = getEntry(ips, medication.reference);
-            let medicationReference;
-            // First check if the medication is contained
-            if (statement.contained && statement.contained[0] && statement.contained[0].resourceType === 'Medication') {
-              medicationReference = statement.contained[0];
-            }
-            // Either MedicationRequest or MedicationStatement may have a reference to Medication 
-            else if (statement.medicationReference && statement.medicationReference.reference) medicationReference = getEntry(ips, statement.medicationReference.reference);
-            else if (statement.medicationCodeableConcept) medicationReference = { code: statement.medicationCodeableConcept };
-            else medicationReference = { code: { coding: [{ system: '', display: '', code: '' }] } }
-            // Fallback to display of reference if empty
-            if (!medicationReference.code && statement.medicationReference.display) {
-              medicationReference = { code: { coding: [{ system: '', display: statement.medicationReference.display, code: '' }] } }
-            }
-            // MedicationStatement has dosage while MedicationRequest has dosageInstruction. Use alias to simplify template
-            if (statement.dosageInstruction) statement.dosage = statement.dosageInstruction;
-            section.medications.push({
-              statement: statement,
-              medication: medicationReference
-            });
-          });
+          if (section.entry) {
+            section.entry.forEach(function (medication) {
+              console.log(medication.reference);
+              // while variable name is Statement, this may be either MedicationStatement or MedicationRequest
+              let statement = getEntry(ips, medication.reference);
+              let medicationReference;
+              // First check if the medication is contained
+              if (statement.contained && statement.contained[0] && statement.contained[0].resourceType === 'Medication') {
+                medicationReference = statement.contained[0];
+              }
+              // Either MedicationRequest or MedicationStatement may have a reference to Medication 
+              else if (statement.medicationReference && statement.medicationReference.reference) medicationReference = getEntry(ips, statement.medicationReference.reference);
+              else if (statement.medicationCodeableConcept) medicationReference = { code: statement.medicationCodeableConcept };
+              else medicationReference = { code: { coding: [{ system: '', display: '', code: '' }] } }
+              // Fallback to display of reference if empty
+              if (!medicationReference.code && statement.medicationReference.display) {
+                medicationReference = { code: { coding: [{ system: '', display: statement.medicationReference.display, code: '' }] } }
+              }
+              // MedicationStatement has dosage while MedicationRequest has dosageInstruction. Use alias to simplify template
+              if (statement.dosageInstruction) statement.dosage = statement.dosageInstruction;
+              section.medications.push({
+                statement: statement,
+                medication: medicationReference
+              });
+            });  
+          } 
           render("Medications", section, "Medications", j);
         }
         else if (section.code.coding[0].code == "11369-6") {
           console.log('Immunizations Section', j);
           section.immunizations = [];
-          section.entry.forEach(function (immunization) {
-            console.log(immunization.reference);
-            section.immunizations.push(getEntry(ips, immunization.reference));
-          });
+          if (section.entry) {
+            section.entry.forEach(function (immunization) {
+              console.log(immunization.reference);
+              section.immunizations.push(getEntry(ips, immunization.reference));
+            });  
+          } 
           render("Immunizations", section, "Immunizations", j);
         }
         else if (section.code.coding[0].code == "30954-2") {
           console.log('Observations Section', j);
           section.observations = [];
-          section.entry.forEach(function (observation) {
-            console.log(observation.reference);
-            let thisResult = getEntry(ips, observation.reference);
-            section.observations.push(thisResult);
-            if (thisResult.hasMember) {
-              for (let k = 0; k < thisResult.hasMember.length; k++) {
-                if (thisResult.hasMember[k].reference) section.observations.push(getEntry(ips, thisResult.hasMember[k].reference));
+          if (section.entry) {
+            section.entry.forEach(function (observation) {
+              console.log(observation.reference);
+              let thisResult = getEntry(ips, observation.reference);
+              section.observations.push(thisResult);
+              if (thisResult.hasMember) {
+                for (let k = 0; k < thisResult.hasMember.length; k++) {
+                  if (thisResult.hasMember[k].reference) section.observations.push(getEntry(ips, thisResult.hasMember[k].reference));
+                }
               }
-            }
-          });
+            });              
+          } 
           render("Observations", section, "Observations", j);
         }
         else if (section.code.coding[0].code == "42348-3") {
           console.log('Advance Directives Section', j);
           section.ad = [];
-          section.entry.forEach(function (ad) {
-            console.log(ad.reference);
-            section.ad.push(getEntry(ips, ad.reference));
-          });
-          render("AdvanceDirectives", section, "AdvanceDirectives", j);
+          if (section.entry) {
+            section.entry.forEach(function (ad) {
+              console.log(ad.reference);
+              section.ad.push(getEntry(ips, ad.reference));
+            });
+            render("AdvanceDirectives", section, "AdvanceDirectives", j);              
+          } 
         }
         else {
           console.log(`Section with code: ${section.code.coding[0].code} not rendered since no template, section: ${j}`);
