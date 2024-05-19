@@ -2,10 +2,10 @@
   "resourceType": "Bundle",
   "identifier": {
     "system": "urn:ietf:rfc:3986",
-    "value": "urn:uuid:71477d1e-c720-4973-a71d-5e4309fc7232"
+    "value": "urn:uuid:fe7e8ecf-4dc1-4f27-a1b8-72e93b152ebb"
   },
   "type": "document",
-  "timestamp": "2024-05-18T16:57:55Z",
+  "timestamp": "2024-05-19T15:42:02Z",
   "entry": [
     {
       "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Composition/fWrQ.sODYvhXHTKJF6wUGUw4",
@@ -14,7 +14,7 @@
         "id": "fWrQ.sODYvhXHTKJF6wUGUw4",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>International Patient Summary (IPS) for Connectathon, May JWJ</b></p><p>Generated at 5/18/2024 11:57 AM from connectathon-testing for EpicConnect and Pulsar testing only</p></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>International Patient Summary (IPS) for Connectathon, May JWJ</b></p><p>Generated at 5/19/2024 10:42 AM from connectathon-testing for EpicConnect and Pulsar testing only</p></div>"
         },
         "status": "final",
         "type": {
@@ -31,7 +31,7 @@
           "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
           "display": "Connectathon, May JWJ"
         },
-        "date": "2024-05-18T16:57:55Z",
+        "date": "2024-05-19T15:42:02Z",
         "author": [
           {
             "type": "Organization",
@@ -85,7 +85,7 @@
             },
             "text": {
               "status": "generated",
-              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Allergy</th><th>Reactions</th><th>Criticality</th></thead><tr><td>PENICILLINS</td><td>Hives, Shortness of Breath</td><td>High</td></tr><tr><td>MILK-RELATED COMPOUNDS</td><td>GI intolerance</td><td>Low</td></tr><tr><td>SHELLFISH-DERIVED PRODUCTS</td><td>Halitosis</td><td>Low</td></tr></table></div>"
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Allergy</th><th>Reactions</th><th>Criticality</th></tr></thead><tr><td>PENICILLINS</td><td>Hives, Shortness of Breath</td><td>High</td></tr><tr><td>MILK-RELATED COMPOUNDS</td><td>GI intolerance</td><td>Low</td></tr><tr><td>SHELLFISH-DERIVED PRODUCTS</td><td>Halitosis</td><td>Low</td></tr></table></div>"
             },
             "entry": [
               {
@@ -162,7 +162,7 @@
         "id": "eHXQnz7TxegLxLL92d2JKTw3",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>May JWJ Connectathon</b><br>Female; born 5/18/2004</p><table><thead><tr><th>Former Names / Aliases</th><th>Patient Address</th><th>Communication</th><th>Primary Care Provider</th></tr></thead><tbody><tr style=\"vertical-align:top\"><td><ul><li>May JWJ Connectathon</li></ul></td><td>1979 Milky Way<br>Verona, WI 53593<br>USA</td><td>300-555-4444 (home)<br>400-555-4444 (work)<br>fake_email@epic.com</td><td>-</td></tr></tbody></table></div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>May JWJ Connectathon</b><br></br>Female; born 5/18/2004</p><table><thead><tr><th>Former Names / Aliases</th><th>Patient Address</th><th>Communication</th><th>Primary Care Provider</th></tr></thead><tbody><tr style=\"vertical-align:top\"><td><ul><li>May JWJ Connectathon</li></ul></td><td>1979 Milky Way<br></br>Verona, WI 53593<br></br>USA</td><td>300-555-4444 (home)<br></br>400-555-4444 (work)<br></br>fake_email@epic.com</td><td>-</td></tr></tbody></table></div>"
         },
         "extension": [
           {
@@ -825,6 +825,14 @@
               }
             ],
             "text": "Problem List Item"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64572001"
+              }
+            ]
           }
         ],
         "code": {
@@ -897,6 +905,14 @@
               }
             ],
             "text": "Problem List Item"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64572001"
+              }
+            ]
           }
         ],
         "severity": {
@@ -975,6 +991,14 @@
               }
             ],
             "text": "Problem List Item"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64572001"
+              }
+            ]
           }
         ],
         "severity": {
@@ -1054,6 +1078,14 @@
               }
             ],
             "text": "Problem List Item"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64572001"
+              }
+            ]
           }
         ],
         "code": {
@@ -1305,7 +1337,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/ejbzzqQmSEAXVwsPUwpyK8naG0lBVTDz-3miti1.DWuIQxmDukLwuAZT2d0X3PLG3skcjsiYYQHCjBzptT9Cq88iye.8X6GVrHQa3sldgn-I3",
+          "reference": "Medication/fwJeJUc8e2edZmXYAs5r2-rVEYooh.EWFXTEQHwdunbg4",
           "display": "metformin (GLUCOPHAGE) tablet"
         },
         "subject": {
@@ -1343,22 +1375,22 @@
               {
                 "system": "http://hl7.org/fhir/sid/icd-9-cm",
                 "code": "250.41",
-                "display": "Type 1 DM with end-stage renal disease"
+                "display": "Type I (juvenile type) diabetes mellitus with renal manifestations, not stated as uncontrolled(250.41)"
               },
               {
                 "system": "http://hl7.org/fhir/sid/icd-9-cm",
                 "code": "585.6",
-                "display": "Type 1 DM with end-stage renal disease"
+                "display": "End stage renal disease"
               },
               {
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "code": "E10.22",
-                "display": "Type 1 DM with end-stage renal disease"
+                "display": "Type 1 diabetes mellitus with diabetic chronic kidney disease"
               },
               {
                 "system": "http://hl7.org/fhir/sid/icd-10-cm",
                 "code": "N18.6",
-                "display": "Type 1 DM with end-stage renal disease"
+                "display": "End stage renal disease"
               }
             ],
             "text": "Type 1 DM with end-stage renal disease"
@@ -1521,7 +1553,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/ecJfN.Z6LevgS2GZ6oM3x4IeodP.WvXPlm1OXRNxiIqIbz9pr3DjDvK--JJ92w4pmI5B4s4XPyW23KDH1CCoIi9XQcbaOmm7RAP9Nbg5fMNw3",
+          "reference": "Medication/fVOQkPKo4FLKFwglxBZOFHPEYnooI4UG2bKZIK5Q8TEo4",
           "display": "predniSONE (DELTASONE) tablet"
         },
         "subject": {
@@ -1678,10 +1710,10 @@
       }
     },
     {
-      "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Medication/ecJfN.Z6LevgS2GZ6oM3x4IeodP.WvXPlm1OXRNxiIqIbz9pr3DjDvK--JJ92w4pmI5B4s4XPyW23KDH1CCoIi9XQcbaOmm7RAP9Nbg5fMNw3",
+      "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Medication/fVOQkPKo4FLKFwglxBZOFHPEYnooI4UG2bKZIK5Q8TEo4",
       "resource": {
         "resourceType": "Medication",
-        "id": "ecJfN.Z6LevgS2GZ6oM3x4IeodP.WvXPlm1OXRNxiIqIbz9pr3DjDvK--JJ92w4pmI5B4s4XPyW23KDH1CCoIi9XQcbaOmm7RAP9Nbg5fMNw3",
+        "id": "fVOQkPKo4FLKFwglxBZOFHPEYnooI4UG2bKZIK5Q8TEo4",
         "identifier": [
           {
             "use": "usual",
@@ -1770,10 +1802,10 @@
       }
     },
     {
-      "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Medication/ejbzzqQmSEAXVwsPUwpyK8naG0lBVTDz-3miti1.DWuIQxmDukLwuAZT2d0X3PLG3skcjsiYYQHCjBzptT9Cq88iye.8X6GVrHQa3sldgn-I3",
+      "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Medication/fwJeJUc8e2edZmXYAs5r2-rVEYooh.EWFXTEQHwdunbg4",
       "resource": {
         "resourceType": "Medication",
-        "id": "ejbzzqQmSEAXVwsPUwpyK8naG0lBVTDz-3miti1.DWuIQxmDukLwuAZT2d0X3PLG3skcjsiYYQHCjBzptT9Cq88iye.8X6GVrHQa3sldgn-I3",
+        "id": "fwJeJUc8e2edZmXYAs5r2-rVEYooh.EWFXTEQHwdunbg4",
         "identifier": [
           {
             "use": "usual",
