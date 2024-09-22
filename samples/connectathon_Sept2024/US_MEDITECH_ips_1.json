@@ -1,0 +1,4154 @@
+{
+    "type": "searchset",
+    "entry": [
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Composition/d8d7cfa4-8baf-4ac8-a8d0-94af40cad3b0",
+            "resource": {
+                "id": "d8d7cfa4-8baf-4ac8-a8d0-94af40cad3b0",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-composition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/composition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Patient Summary ID</th><th>Patient</th><th>Composition Date</th><th>Author</th><th>Attester</th><th>Status</th></tr></thead><tbody><tr><td>d8d7cfa4-8baf-4ac8-a8d0-94af40cad3b0</td><td>Williams,Veronica</td><td>2024-09-22T16:56:18.407Z</td><td>BBK Donor</td><td>BBK Donor</td><td>final</td></tr></tbody></table></div>"
+                },
+                "identifier": {
+                    "system": "https://ehr.meditech.com/",
+                    "value": "d8d7cfa4-8baf-4ac8-a8d0-94af40cad3b0"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient Summary"
+                        }
+                    ],
+                    "text": "Patient Summary"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "author": [
+                    {
+                        "reference": "Organization/a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+                        "display": "BBK Donor",
+                        "type": "Organization"
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/Organization/a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+                    "display": "BBK Donor",
+                    "type": "Organization"
+                },
+                "event": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2024-09-22T16:56:18+00:00"
+                        }
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Medication Summary Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ],
+                            "text": "History of Medication use Narrative"
+                        },
+                        "entry": [
+                            {
+                                "reference": "MedicationRequest/4aab40e2-3567-5b9b-853c-e6a747f5f637",
+                                "display": "4aab40e2-3567-5b9b-853c-e6a747f5f637"
+                            },
+                            {
+                                "reference": "MedicationRequest/3126e517-709b-5907-8322-fdd31e5683ab",
+                                "display": "3126e517-709b-5907-8322-fdd31e5683ab"
+                            },
+                            {
+                                "reference": "MedicationRequest/5b212c94-eee7-5548-85c9-713a1a2b1c68",
+                                "display": "5b212c94-eee7-5548-85c9-713a1a2b1c68"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication</th><th>Status</th><th>Intent</th><th>Dose</th><th>Dosage Instructions</th><th>Validity Start Date</th><th>Validity End Date</th></tr></thead><tbody><tr idRef=\"4aab40e2-3567-5b9b-853c-e6a747f5f637\"><td>ibuprofen 200 mg capsule</td><td>active</td><td>proposal</td><td>200 mg</td><td>200 mg orally every 8 hours, for Migraines, start: 2024-08-08</td><td>2024-08-08</td><td></td></tr><tr idRef=\"3126e517-709b-5907-8322-fdd31e5683ab\"><td>lisinopriL</td><td>active</td><td>reflex-order</td><td>2.5 B20180406162601968-1</td><td>2.5 b20180406162601968-1 B20180406162630974 DAILY for 14 days, start: 2024-09-09T09:45:00-04:00 ~ end: 2024-09-23T09:44:00-04:00</td><td>2024-09-09T13:45:00+00:00</td><td>2024-09-23T13:44:00+00:00</td></tr><tr idRef=\"5b212c94-eee7-5548-85c9-713a1a2b1c68\"><td>Ibuprofen</td><td>completed</td><td>order</td><td>200 B20180406162601968-1</td><td>200 b20180406162601968-1 B20180406162630974 Q8H for 14 days, start: 2024-09-09T09:30:00-04:00 ~ end: 2024-09-23T09:29:00-04:00</td><td>2024-09-09T13:30:00+00:00</td><td>2024-09-23T13:29:00+00:00</td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "Allergies and Intolerances Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ],
+                            "text": "Allergies and adverse reactions Document"
+                        },
+                        "entry": [
+                            {
+                                "reference": "AllergyIntolerance/f3cb82a5-ce11-5bb6-8bde-294d84276af9",
+                                "display": "f3cb82a5-ce11-5bb6-8bde-294d84276af9"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Allergen</th><th>Clinical Status</th><th>Type</th><th>Severity</th><th>Reaction</th><th>Onset Date</th><th>Verification Status</th></tr></thead><tbody><tr idRef=\"f3cb82a5-ce11-5bb6-8bde-294d84276af9\"><td>amoxicillin</td><td>Active</td><td>intolerance</td><td>severe</td><td>Vomiting</td><td>2024-08-08T18:28:49+00:00</td><td>Confirmed</td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "Active Problems Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem List Reported"
+                                }
+                            ],
+                            "text": "Problem List Reported"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No known data for this section</div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ],
+                            "text": "Unavailable"
+                        }
+                    },
+                    {
+                        "title": "History of Procedures Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47519-4",
+                                    "display": "History of Procedures Document"
+                                }
+                            ],
+                            "text": "History of Procedures Document"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Procedure/1ba303f1-9a1d-5b6c-9dd1-ae4357ade600",
+                                "display": "1ba303f1-9a1d-5b6c-9dd1-ae4357ade600"
+                            },
+                            {
+                                "reference": "Procedure/6f0dcd24-5717-5333-8a84-8318e83dd973",
+                                "display": "6f0dcd24-5717-5333-8a84-8318e83dd973"
+                            },
+                            {
+                                "reference": "Procedure/8c98b184-ba33-5fd2-9dd3-c56b7267c69f",
+                                "display": "8c98b184-ba33-5fd2-9dd3-c56b7267c69f"
+                            },
+                            {
+                                "reference": "Procedure/efffb704-55e6-5094-92e6-d9284b2b3952",
+                                "display": "efffb704-55e6-5094-92e6-d9284b2b3952"
+                            },
+                            {
+                                "reference": "Procedure/2ab94879-0f64-5c64-807b-a2f5d3e83867",
+                                "display": "2ab94879-0f64-5c64-807b-a2f5d3e83867"
+                            },
+                            {
+                                "reference": "Procedure/b47db6db-e5e1-5042-84f5-3c668e987e5a",
+                                "display": "b47db6db-e5e1-5042-84f5-3c668e987e5a"
+                            },
+                            {
+                                "reference": "Procedure/ab0c7444-4291-5049-8654-65124167559f",
+                                "display": "ab0c7444-4291-5049-8654-65124167559f"
+                            },
+                            {
+                                "reference": "Procedure/c5f8fa9f-4e13-5c50-90dd-a765a6415f63",
+                                "display": "c5f8fa9f-4e13-5c50-90dd-a765a6415f63"
+                            },
+                            {
+                                "reference": "Procedure/9564230a-5c56-5562-8d44-de7788f40bb5",
+                                "display": "9564230a-5c56-5562-8d44-de7788f40bb5"
+                            },
+                            {
+                                "reference": "Procedure/cfe1ce5f-57ed-50cf-8fbd-74277068c80b",
+                                "display": "cfe1ce5f-57ed-50cf-8fbd-74277068c80b"
+                            },
+                            {
+                                "reference": "Procedure/8716feff-5fe1-5138-997b-1182dafb9400",
+                                "display": "8716feff-5fe1-5138-997b-1182dafb9400"
+                            },
+                            {
+                                "reference": "Procedure/2c83798a-a2c8-5fc1-80fc-ff8c3f721ee0",
+                                "display": "2c83798a-a2c8-5fc1-80fc-ff8c3f721ee0"
+                            },
+                            {
+                                "reference": "Procedure/63f98f71-1bff-5976-b84b-fbf4aa90586d",
+                                "display": "63f98f71-1bff-5976-b84b-fbf4aa90586d"
+                            },
+                            {
+                                "reference": "Procedure/5c6fa09c-dd9d-592f-bc47-4720eec32e80",
+                                "display": "5c6fa09c-dd9d-592f-bc47-4720eec32e80"
+                            },
+                            {
+                                "reference": "Procedure/3a7b8805-a34a-5686-8ba4-a39e597cb378",
+                                "display": "3a7b8805-a34a-5686-8ba4-a39e597cb378"
+                            },
+                            {
+                                "reference": "Procedure/263d69e6-b38b-559b-81dd-be2883f69926",
+                                "display": "263d69e6-b38b-559b-81dd-be2883f69926"
+                            },
+                            {
+                                "reference": "Procedure/f1b07c11-3a6a-586a-8eff-58bccf7f4262",
+                                "display": "f1b07c11-3a6a-586a-8eff-58bccf7f4262"
+                            },
+                            {
+                                "reference": "Procedure/26cfa34e-bc82-50bb-8138-bb54a829d7c3",
+                                "display": "26cfa34e-bc82-50bb-8138-bb54a829d7c3"
+                            },
+                            {
+                                "reference": "Procedure/4d3d9fa0-bdcd-518b-80eb-331f0d302d66",
+                                "display": "4d3d9fa0-bdcd-518b-80eb-331f0d302d66"
+                            },
+                            {
+                                "reference": "Procedure/2b4f43a4-c356-5ae7-811c-a32d0bf32785",
+                                "display": "2b4f43a4-c356-5ae7-811c-a32d0bf32785"
+                            },
+                            {
+                                "reference": "Procedure/048dcd99-2979-52fb-8b42-da96187c3046",
+                                "display": "048dcd99-2979-52fb-8b42-da96187c3046"
+                            },
+                            {
+                                "reference": "Procedure/4b2ae62d-8a5e-541f-b4e0-786d15338077",
+                                "display": "4b2ae62d-8a5e-541f-b4e0-786d15338077"
+                            },
+                            {
+                                "reference": "Procedure/af6922e8-8bed-5036-82aa-079a835cfa4f",
+                                "display": "af6922e8-8bed-5036-82aa-079a835cfa4f"
+                            },
+                            {
+                                "reference": "Procedure/73b55ec9-140d-500c-99aa-438820dc1be5",
+                                "display": "73b55ec9-140d-500c-99aa-438820dc1be5"
+                            },
+                            {
+                                "reference": "Procedure/44b9fe65-8b93-50d5-98aa-38231f901094",
+                                "display": "44b9fe65-8b93-50d5-98aa-38231f901094"
+                            },
+                            {
+                                "reference": "Procedure/0c672eec-af8d-5e8d-9980-f69c0fbf01fc",
+                                "display": "0c672eec-af8d-5e8d-9980-f69c0fbf01fc"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Procedure</th><th>Date Performed</th><th>Status</th></tr></thead><tbody><tr idRef=\"1ba303f1-9a1d-5b6c-9dd1-ae4357ade600\"><td>Pulmonary rehabilitation consult</td><td></td><td>preparation</td></tr><tr idRef=\"6f0dcd24-5717-5333-8a84-8318e83dd973\"><td>Alanine aminotransferase (ALT) measurement</td><td>2024-09-09T13:32:00+00:00</td><td>not-done</td></tr><tr idRef=\"8c98b184-ba33-5fd2-9dd3-c56b7267c69f\"><td>Aspartate aminotransferase (AST) measurement</td><td>2024-09-09T13:32:00+00:00</td><td>not-done</td></tr><tr idRef=\"efffb704-55e6-5094-92e6-d9284b2b3952\"><td>Basic Metabolic Panel</td><td></td><td>not-done</td></tr><tr idRef=\"2ab94879-0f64-5c64-807b-a2f5d3e83867\"><td>Complete Blood Count</td><td></td><td>not-done</td></tr><tr idRef=\"b47db6db-e5e1-5042-84f5-3c668e987e5a\"><td>Complete Blood Count</td><td></td><td>not-done</td></tr><tr idRef=\"ab0c7444-4291-5049-8654-65124167559f\"><td>White blood cell count</td><td></td><td>not-done</td></tr><tr idRef=\"c5f8fa9f-4e13-5c50-90dd-a765a6415f63\"><td>White blood cell count</td><td></td><td>not-done</td></tr><tr idRef=\"9564230a-5c56-5562-8d44-de7788f40bb5\"><td>White blood cell count</td><td></td><td>not-done</td></tr><tr idRef=\"cfe1ce5f-57ed-50cf-8fbd-74277068c80b\"><td>White blood cell count</td><td></td><td>not-done</td></tr><tr idRef=\"8716feff-5fe1-5138-997b-1182dafb9400\"><td>Complete Blood Count Auto Diff</td><td></td><td>not-done</td></tr><tr idRef=\"2c83798a-a2c8-5fc1-80fc-ff8c3f721ee0\"><td>Urine macro urinalysis panel using dipstick</td><td></td><td>not-done</td></tr><tr idRef=\"63f98f71-1bff-5976-b84b-fbf4aa90586d\"><td>Aspartate aminotransferase (AST) measurement</td><td>2024-06-21T13:38:00+00:00</td><td>completed</td></tr><tr idRef=\"5c6fa09c-dd9d-592f-bc47-4720eec32e80\"><td>Alanine aminotransferase (ALT) measurement</td><td>2024-06-21T13:38:00+00:00</td><td>completed</td></tr><tr idRef=\"3a7b8805-a34a-5686-8ba4-a39e597cb378\"><td>Complete Blood Count Auto Diff</td><td>2024-06-21T13:38:00+00:00</td><td>completed</td></tr><tr idRef=\"263d69e6-b38b-559b-81dd-be2883f69926\"><td>Urine culture</td><td></td><td>in-progress</td></tr><tr idRef=\"f1b07c11-3a6a-586a-8eff-58bccf7f4262\"><td>Direct antiglobulin test (DAT)</td><td></td><td>in-progress</td></tr><tr idRef=\"26cfa34e-bc82-50bb-8138-bb54a829d7c3\"><td>US abdomen complete</td><td>2024-06-21T13:54:00+00:00</td><td>completed</td></tr><tr idRef=\"4d3d9fa0-bdcd-518b-80eb-331f0d302d66\"><td>Alanine aminotransferase (ALT) measurement</td><td>2024-06-21T22:02:00+00:00</td><td>completed</td></tr><tr idRef=\"2b4f43a4-c356-5ae7-811c-a32d0bf32785\"><td>Aspartate aminotransferase (AST) measurement</td><td>2024-06-21T22:02:00+00:00</td><td>completed</td></tr><tr idRef=\"048dcd99-2979-52fb-8b42-da96187c3046\"><td>Bilirubin direct</td><td>2024-06-21T22:02:00+00:00</td><td>completed</td></tr><tr idRef=\"4b2ae62d-8a5e-541f-b4e0-786d15338077\"><td>White blood cell count</td><td>2024-06-21T22:02:00+00:00</td><td>completed</td></tr><tr idRef=\"af6922e8-8bed-5036-82aa-079a835cfa4f\"><td>Discharge Order-Unsign Order Rule</td><td></td><td>preparation</td></tr><tr idRef=\"73b55ec9-140d-500c-99aa-438820dc1be5\"><td>Full code status</td><td>2024-09-09T18:23:08+00:00</td><td>completed</td></tr><tr idRef=\"44b9fe65-8b93-50d5-98aa-38231f901094\"><td>Acid fast bacillus (AFB) smear</td><td>2024-09-10T21:20:00+00:00</td><td>in-progress</td></tr><tr idRef=\"0c672eec-af8d-5e8d-9980-f69c0fbf01fc\"><td>1,25-dihydroxyvitamin D measurement</td><td></td><td>in-progress</td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "Immunizations Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of immunization Narrative"
+                                }
+                            ],
+                            "text": "History of immunization Narrative"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Immunization/c3b81db3-67cf-5571-8773-8db715871424",
+                                "display": "c3b81db3-67cf-5571-8773-8db715871424"
+                            },
+                            {
+                                "reference": "Immunization/dcc3c16c-f106-522c-848a-eb1cc0daafad",
+                                "display": "dcc3c16c-f106-522c-848a-eb1cc0daafad"
+                            },
+                            {
+                                "reference": "Immunization/195d7586-5306-5457-83d5-9fc5f11d0080",
+                                "display": "195d7586-5306-5457-83d5-9fc5f11d0080"
+                            },
+                            {
+                                "reference": "Immunization/03985643-ceb4-503e-8813-977b99774e45",
+                                "display": "03985643-ceb4-503e-8813-977b99774e45"
+                            },
+                            {
+                                "reference": "Immunization/12942ed8-9216-5e3d-8d98-2eeba1697341",
+                                "display": "12942ed8-9216-5e3d-8d98-2eeba1697341"
+                            },
+                            {
+                                "reference": "Immunization/440e0c55-a61a-55ba-b8e6-264e625dcf49",
+                                "display": "440e0c55-a61a-55ba-b8e6-264e625dcf49"
+                            },
+                            {
+                                "reference": "Immunization/5062ef3f-2111-52f1-8278-1ce773a17c87",
+                                "display": "5062ef3f-2111-52f1-8278-1ce773a17c87"
+                            },
+                            {
+                                "reference": "Immunization/06f58e40-6958-5048-aa79-2e6983440f16",
+                                "display": "06f58e40-6958-5048-aa79-2e6983440f16"
+                            },
+                            {
+                                "reference": "Immunization/68bd13a7-9f58-50c2-821c-6ec45ac5c79b",
+                                "display": "68bd13a7-9f58-50c2-821c-6ec45ac5c79b"
+                            },
+                            {
+                                "reference": "Immunization/ae76efbc-4bee-5071-8c0e-9368ac331563",
+                                "display": "ae76efbc-4bee-5071-8c0e-9368ac331563"
+                            },
+                            {
+                                "reference": "Immunization/a37db336-ffd1-5be5-820f-f8a1bb898988",
+                                "display": "a37db336-ffd1-5be5-820f-f8a1bb898988"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Immunization</th><th>Administration Date</th><th>Status</th><th>Not Given Reason</th><th>Dose</th><th>Lot Number</th><th>Administration Location</th></tr></thead><tbody><tr idRef=\"c3b81db3-67cf-5571-8773-8db715871424\"><td>COVID-19 (J&J)</td><td>2021-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"dcc3c16c-f106-522c-848a-eb1cc0daafad\"><td>Influenza, Quadrivalent, PF</td><td>1962-04-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"195d7586-5306-5457-83d5-9fc5f11d0080\"><td>Tetanus, Diphtheria (Td)</td><td>1982-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"03985643-ceb4-503e-8813-977b99774e45\"><td>Tetanus, Diphtheria (Td)</td><td>1992-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"12942ed8-9216-5e3d-8d98-2eeba1697341\"><td>Tetanus, Diphtheria (Td)</td><td>2002-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"440e0c55-a61a-55ba-b8e6-264e625dcf49\"><td>Tetanus, Diphtheria (Td)</td><td>2012-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"5062ef3f-2111-52f1-8278-1ce773a17c87\"><td>Tetanus, Diphtheria (Td)</td><td>2022-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"06f58e40-6958-5048-aa79-2e6983440f16\"><td>Trivalent Influenza Vaccine</td><td>1962-04-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"68bd13a7-9f58-50c2-821c-6ec45ac5c79b\"><td>Trivalent Influenza Vaccine</td><td>1962-05-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"ae76efbc-4bee-5071-8c0e-9368ac331563\"><td>Shingles (Zoster)</td><td>2011-10-19</td><td>completed</td><td></td><td></td><td></td><td></td></tr><tr idRef=\"a37db336-ffd1-5be5-820f-f8a1bb898988\"><td>Shingles (Zoster)</td><td>2011-12-18</td><td>completed</td><td></td><td></td><td></td><td></td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "Results Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "30954-2",
+                                    "display": "Relevant diagnostic tests/laboratory data Narrative"
+                                }
+                            ],
+                            "text": "Relevant diagnostic tests/laboratory data Narrative"
+                        },
+                        "entry": [
+                            {
+                                "reference": "DiagnosticReport/8fa45774-5c16-5a4e-8010-5b1d32c03b6b",
+                                "display": "8fa45774-5c16-5a4e-8010-5b1d32c03b6b"
+                            },
+                            {
+                                "reference": "DiagnosticReport/325097c3-07c4-5420-8372-2f679f4b7200",
+                                "display": "325097c3-07c4-5420-8372-2f679f4b7200"
+                            },
+                            {
+                                "reference": "DiagnosticReport/80187425-a8ee-5fee-8128-3088fe2a2ac7",
+                                "display": "80187425-a8ee-5fee-8128-3088fe2a2ac7"
+                            },
+                            {
+                                "reference": "DiagnosticReport/1a477e03-3a67-5074-97c1-878e6f95b83f",
+                                "display": "1a477e03-3a67-5074-97c1-878e6f95b83f"
+                            },
+                            {
+                                "reference": "DiagnosticReport/bcd55a4a-ba4e-53c4-9d4a-b4832e8d266f",
+                                "display": "bcd55a4a-ba4e-53c4-9d4a-b4832e8d266f"
+                            },
+                            {
+                                "reference": "DiagnosticReport/5ab90ab1-ae01-5269-b205-b7c5944a5df8",
+                                "display": "5ab90ab1-ae01-5269-b205-b7c5944a5df8"
+                            },
+                            {
+                                "reference": "DiagnosticReport/761c882e-ecf4-5395-8ff0-f3622c4f0566",
+                                "display": "761c882e-ecf4-5395-8ff0-f3622c4f0566"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Observation</th><th>Date/Time</th><th>Category</th><th>Result</th><th>Status</th><th>Interpretation</th><th>Result Range</th><th>Body Site</th></tr></thead><tbody><tr idRef=\"8fa45774-5c16-5a4e-8010-5b1d32c03b6b\"><td># brothers and sisters</td><td>2024-06-21T13:38:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr><tr idRef=\"325097c3-07c4-5420-8372-2f679f4b7200\"><td>Aspartate Amino Transferase</td><td>2024-06-21T13:38:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr><tr idRef=\"80187425-a8ee-5fee-8128-3088fe2a2ac7\"><td>Alanine Aminotransferase</td><td>2024-06-21T13:38:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr><tr idRef=\"1a477e03-3a67-5074-97c1-878e6f95b83f\"><td>Leukocytes [#/volume] in Blood</td><td>2024-06-21T22:02:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr><tr idRef=\"bcd55a4a-ba4e-53c4-9d4a-b4832e8d266f\"><td>Bilirubin direct</td><td>2024-06-21T22:02:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr><tr idRef=\"5ab90ab1-ae01-5269-b205-b7c5944a5df8\"><td>Aspartate Amino Transferase</td><td>2024-06-21T22:02:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr><tr idRef=\"761c882e-ecf4-5395-8ff0-f3622c4f0566\"><td>Alanine Aminotransferase</td><td>2024-06-21T22:02:00+00:00</td><td>Laboratory</td><td></td><td>final</td><td></td><td></td><td></td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "History of Past Illness Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11348-0",
+                                    "display": "History of past illness Narrative"
+                                }
+                            ],
+                            "text": "History of past illness Narrative"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/abf4f2e7-2171-587d-859a-c5f44ee8642f",
+                                "display": "abf4f2e7-2171-587d-859a-c5f44ee8642f"
+                            },
+                            {
+                                "reference": "Condition/a3a8180c-9643-521f-87ee-c52d5fc9a933",
+                                "display": "a3a8180c-9643-521f-87ee-c52d5fc9a933"
+                            },
+                            {
+                                "reference": "Condition/99ff73ee-508d-5183-8447-3abb9f4ce7f3",
+                                "display": "99ff73ee-508d-5183-8447-3abb9f4ce7f3"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medical Problem</th><th>Onset Date</th><th>Clinical Status</th><th>Verification Status></th><th>Severity</th></tr></thead><tbody><tr idRef=\"abf4f2e7-2171-587d-859a-c5f44ee8642f\"><td>Chest pain, unspecified</td><td></td><td>Resolved</td><td>Confirmed</td><td></td></tr><tr idRef=\"a3a8180c-9643-521f-87ee-c52d5fc9a933\"><td>Acute myocardial infarction, unspecified</td><td></td><td></td><td>Entered in Error</td><td></td></tr><tr idRef=\"99ff73ee-508d-5183-8447-3abb9f4ce7f3\"><td>Calculus of gallbladder without cholecystitis without obstruction</td><td></td><td>Resolved</td><td>Confirmed</td><td></td></tr></tbody></table></div>"
+                        }
+                    }
+                ],
+                "date": "2024-09-22T16:56:18+00:00",
+                "title": "International Patient Summary",
+                "resourceType": "Composition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/AllergyIntolerance/f3cb82a5-ce11-5bb6-8bde-294d84276af9",
+            "resource": {
+                "id": "f3cb82a5-ce11-5bb6-8bde-294d84276af9",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-allergyintolerance",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/allergyintolerance-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "asserter": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "text": "Vomiting"
+                            }
+                        ],
+                        "severity": "severe"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "type": "intolerance",
+                "category": [
+                    "medication"
+                ],
+                "criticality": "high",
+                "code": {
+                    "text": "amoxicillin"
+                },
+                "onsetDateTime": "2024-08-08T18:28:49+00:00",
+                "recordedDate": "2024-08-08T18:29:03+00:00",
+                "lastOccurrence": "2024-08-08T18:28:49+00:00",
+                "resourceType": "AllergyIntolerance"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/abf4f2e7-2171-587d-859a-c5f44ee8642f",
+            "resource": {
+                "id": "abf4f2e7-2171-587d-859a-c5f44ee8642f",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ],
+                        "text": "Encounter Diagnosis"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "resolved",
+                            "display": "Resolved"
+                        }
+                    ],
+                    "text": "Resolved"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "R07.9",
+                            "display": "Chest pain, unspecified"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "29857009",
+                            "display": "Chest pain"
+                        }
+                    ],
+                    "text": "Chest pain"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "recordedDate": "2024-08-08",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/a3a8180c-9643-521f-87ee-c52d5fc9a933",
+            "resource": {
+                "id": "a3a8180c-9643-521f-87ee-c52d5fc9a933",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "entered-in-error",
+                            "display": "Entered in Error"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "I21.9",
+                            "display": "Acute myocardial infarction, unspecified"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "22298006",
+                            "display": "Myocardial infarction"
+                        }
+                    ],
+                    "text": "Heart attack"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "recordedDate": "2024-08-08",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/99ff73ee-508d-5183-8447-3abb9f4ce7f3",
+            "resource": {
+                "id": "99ff73ee-508d-5183-8447-3abb9f4ce7f3",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ],
+                        "text": "Encounter Diagnosis"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "resolved",
+                            "display": "Resolved"
+                        }
+                    ],
+                    "text": "Resolved"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "K80.20",
+                            "display": "Calculus of gallbladder without cholecystitis without obstruction"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "235919008",
+                            "display": "Gallstone"
+                        }
+                    ],
+                    "text": "Gallstone"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "recordedDate": "2024-09-09",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/8fa45774-5c16-5a4e-8010-5b1d32c03b6b",
+            "resource": {
+                "id": "8fa45774-5c16-5a4e-8010-5b1d32c03b6b",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "30974-0",
+                            "display": "# brothers and sisters"
+                        }
+                    ],
+                    "text": "# brothers and sisters"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Organization/f93823b8-9207-5567-81d0-40cffccd3e61",
+                        "display": "MEDITECH",
+                        "type": "Organization"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.c70b7d90-634f-5247-aa84-5b45fdd0f7b4",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.8d76ef5f-49b4-5634-bad4-778e75fd5acb",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.214fc6dd-6e0c-5694-859b-f289dbad45df",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.22f8a96e-7b63-51f0-a5f3-55229cf6845e",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.8a4fc8a3-6f1c-51ef-839b-a8b092916c3d",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.791feca2-a055-5049-80fb-b149e3369c79",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.e049c7c6-835c-53b2-9e54-7194fb3d14f7",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.17d70328-ac25-583a-88ab-95d0874ebc16",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.c8177649-0755-5eb1-8d5d-8ab9a474c7f1",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.5f7a2a57-b390-5707-8532-f70ef6cf2e67",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.eab6a06b-e3a5-5f69-864b-de3aa05fa8f7",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.9a51f40d-94c8-57af-96c5-32eeb077fb42",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.391dec52-5f78-51a8-8085-40296ebd79f4",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.f94849f8-6c44-51a6-9dda-ca92f64e9d83",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.f8d1d338-8bf5-51a6-b3a4-de8c97150b77",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.35211a96-199c-54b1-9fca-2d8a03595b77",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.f055cd5c-1fa8-5249-beba-2f38eaffbded",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.ef4b9723-4e53-5286-88c1-9c8c68398f34",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.a7bc8492-d785-51d9-8060-75c4376fd616",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.21511ed6-2769-5361-86a5-ee807ab6695e",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.c3222da1-e78f-5202-8c36-7742c58a0a85",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.6a8c96bd-4607-5146-8375-ef6562accbe4",
+                        "type": "Observation"
+                    },
+                    {
+                        "reference": "Observation/LA.35c43878-6f97-5b01-b88b-f49efd08030b",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T13:38:00+00:00",
+                "issued": "2024-09-09T13:43:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/325097c3-07c4-5420-8372-2f679f4b7200",
+            "resource": {
+                "id": "325097c3-07c4-5420-8372-2f679f4b7200",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "text": "Aspartate Amino Transferase"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/daf8201d-eab0-5119-abb2-9b1b0e89fe20",
+                        "display": "John Smith",
+                        "type": "Practitioner"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.3ee039ae-fb51-53cb-b3f8-68e34a934eec",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T13:38:00+00:00",
+                "issued": "2024-09-09T13:41:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/80187425-a8ee-5fee-8128-3088fe2a2ac7",
+            "resource": {
+                "id": "80187425-a8ee-5fee-8128-3088fe2a2ac7",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "text": "Alanine Aminotransferase"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/daf8201d-eab0-5119-abb2-9b1b0e89fe20",
+                        "display": "John Smith",
+                        "type": "Practitioner"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.84ab0b47-171d-5362-960e-0ddaf2f05b9b",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T13:38:00+00:00",
+                "issued": "2024-09-09T13:41:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/1a477e03-3a67-5074-97c1-878e6f95b83f",
+            "resource": {
+                "id": "1a477e03-3a67-5074-97c1-878e6f95b83f",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "26464-8",
+                            "display": "Leukocytes [#/volume] in Blood"
+                        }
+                    ],
+                    "text": "Leukocytes [#/volume] in Blood"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/daf8201d-eab0-5119-abb2-9b1b0e89fe20",
+                        "display": "John Smith",
+                        "type": "Practitioner"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.89e2518e-ce2f-5602-85e7-e432f9be447a",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T22:02:00+00:00",
+                "issued": "2024-09-09T18:10:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/bcd55a4a-ba4e-53c4-9d4a-b4832e8d266f",
+            "resource": {
+                "id": "bcd55a4a-ba4e-53c4-9d4a-b4832e8d266f",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "1968-7",
+                            "display": "Bilirubin direct"
+                        }
+                    ],
+                    "text": "Bilirubin direct"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/daf8201d-eab0-5119-abb2-9b1b0e89fe20",
+                        "display": "John Smith",
+                        "type": "Practitioner"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.b3647686-b0c7-5133-8e68-0e2dbc880600",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T22:02:00+00:00",
+                "issued": "2024-09-09T18:09:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/5ab90ab1-ae01-5269-b205-b7c5944a5df8",
+            "resource": {
+                "id": "5ab90ab1-ae01-5269-b205-b7c5944a5df8",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "text": "Aspartate Amino Transferase"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/daf8201d-eab0-5119-abb2-9b1b0e89fe20",
+                        "display": "John Smith",
+                        "type": "Practitioner"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.ec36ef7f-f487-515b-ae7d-0ed0236c8dfd",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T22:02:00+00:00",
+                "issued": "2024-09-09T18:09:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/DiagnosticReport/761c882e-ecf4-5395-8ff0-f3622c4f0566",
+            "resource": {
+                "id": "761c882e-ecf4-5395-8ff0-f3622c4f0566",
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                                "code": "LAB",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "text": "Alanine Aminotransferase"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "reference": "Practitioner/daf8201d-eab0-5119-abb2-9b1b0e89fe20",
+                        "display": "John Smith",
+                        "type": "Practitioner"
+                    }
+                ],
+                "result": [
+                    {
+                        "reference": "Observation/LA.0c7239b5-7a82-50be-8122-800d8bf5e3c0",
+                        "type": "Observation"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+                    ]
+                },
+                "effectiveDateTime": "2024-06-21T22:02:00+00:00",
+                "issued": "2024-09-09T18:09:00+00:00",
+                "resourceType": "DiagnosticReport"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/c3b81db3-67cf-5571-8773-8db715871424",
+            "resource": {
+                "id": "c3b81db3-67cf-5571-8773-8db715871424",
+                "status": "completed",
+                "vaccineCode": {
+                    "text": "COVID-19 (J&J)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "2021-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Patient"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/dcc3c16c-f106-522c-848a-eb1cc0daafad",
+            "resource": {
+                "id": "dcc3c16c-f106-522c-848a-eb1cc0daafad",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "150"
+                        }
+                    ],
+                    "text": "Influenza, Quadrivalent, PF"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "1962-04-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Patient"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/195d7586-5306-5457-83d5-9fc5f11d0080",
+            "resource": {
+                "id": "195d7586-5306-5457-83d5-9fc5f11d0080",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "138"
+                        }
+                    ],
+                    "text": "Tetanus, Diphtheria (Td)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "1982-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/03985643-ceb4-503e-8813-977b99774e45",
+            "resource": {
+                "id": "03985643-ceb4-503e-8813-977b99774e45",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "138"
+                        }
+                    ],
+                    "text": "Tetanus, Diphtheria (Td)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "1992-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/12942ed8-9216-5e3d-8d98-2eeba1697341",
+            "resource": {
+                "id": "12942ed8-9216-5e3d-8d98-2eeba1697341",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "138"
+                        }
+                    ],
+                    "text": "Tetanus, Diphtheria (Td)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "2002-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/440e0c55-a61a-55ba-b8e6-264e625dcf49",
+            "resource": {
+                "id": "440e0c55-a61a-55ba-b8e6-264e625dcf49",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "138"
+                        }
+                    ],
+                    "text": "Tetanus, Diphtheria (Td)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "2012-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/5062ef3f-2111-52f1-8278-1ce773a17c87",
+            "resource": {
+                "id": "5062ef3f-2111-52f1-8278-1ce773a17c87",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "138"
+                        }
+                    ],
+                    "text": "Tetanus, Diphtheria (Td)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "2022-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/06f58e40-6958-5048-aa79-2e6983440f16",
+            "resource": {
+                "id": "06f58e40-6958-5048-aa79-2e6983440f16",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "141"
+                        }
+                    ],
+                    "text": "Trivalent Influenza Vaccine"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "1962-04-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/68bd13a7-9f58-50c2-821c-6ec45ac5c79b",
+            "resource": {
+                "id": "68bd13a7-9f58-50c2-821c-6ec45ac5c79b",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "141"
+                        }
+                    ],
+                    "text": "Trivalent Influenza Vaccine"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "1962-05-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/ae76efbc-4bee-5071-8c0e-9368ac331563",
+            "resource": {
+                "id": "ae76efbc-4bee-5071-8c0e-9368ac331563",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "121"
+                        }
+                    ],
+                    "text": "Shingles (Zoster)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "2011-10-19",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Immunization/a37db336-ffd1-5be5-820f-f8a1bb898988",
+            "resource": {
+                "id": "a37db336-ffd1-5be5-820f-f8a1bb898988",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "121"
+                        }
+                    ],
+                    "text": "Shingles (Zoster)"
+                },
+                "patient": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-immunization",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/immunization-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/immunization-uv-ips"
+                    ]
+                },
+                "occurrenceDateTime": "2011-12-18",
+                "recorded": "2024-08-08",
+                "primarySource": false,
+                "reportOrigin": {
+                    "text": "Immunization Registry"
+                },
+                "resourceType": "Immunization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/4aab40e2-3567-5b9b-853c-e6a747f5f637",
+            "resource": {
+                "id": "4aab40e2-3567-5b9b-853c-e6a747f5f637",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/6c5815b8-6520-5b3e-9743-71ff2dd536ea",
+                    "display": "ibuprofen 200 mg capsule",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/7f98131b-58c0-5449-944c-cdf6b2dd8a5a",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "patient-reported",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2024-08-08"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "200 mg orally every 8 hours, for Migraines, start: 2024-08-08",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-08-08"
+                                },
+                                "frequency": 3,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+                                        "code": "Q8H",
+                                        "display": "every 8 hours"
+                                    }
+                                ],
+                                "text": "Q8H"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "PO"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "mg",
+                                    "value": 200,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "intent": "proposal",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": false,
+                "reportedBoolean": true,
+                "authoredOn": "2024-08-08T18:35:38+00:00",
+                "reasonCode": [
+                    {
+                        "text": "Migraines"
+                    }
+                ],
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/3126e517-709b-5907-8322-fdd31e5683ab",
+            "resource": {
+                "id": "3126e517-709b-5907-8322-fdd31e5683ab",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/a595e5fb-1d01-5146-80a9-6804f0cbb564",
+                    "display": "lisinopriL",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2024-09-09T13:45:00+00:00",
+                        "end": "2024-09-23T13:44:00+00:00"
+                    },
+                    "performer": {
+                        "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                        "display": "MEDITECH General Hospital",
+                        "type": "Organization"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "2.5 b20180406162601968-1 B20180406162630974 DAILY for 14 days, start: 2024-09-09T09:45:00-04:00 ~ end: 2024-09-23T09:44:00-04:00",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-09-09T13:45:00+00:00",
+                                    "end": "2024-09-23T13:44:00+00:00"
+                                },
+                                "count": 14,
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "B20180406162630974"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "B20180406162601968-1",
+                                    "value": 2.5,
+                                    "code": "B20180406162601968-1",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "intent": "reflex-order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": false,
+                "reportedBoolean": false,
+                "authoredOn": "2024-09-09T13:33:07+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/5b212c94-eee7-5548-85c9-713a1a2b1c68",
+            "resource": {
+                "id": "5b212c94-eee7-5548-85c9-713a1a2b1c68",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2024-09-09T13:30:00+00:00",
+                        "end": "2024-09-23T13:29:00+00:00"
+                    },
+                    "performer": {
+                        "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                        "display": "MEDITECH General Hospital",
+                        "type": "Organization"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "200 b20180406162601968-1 B20180406162630974 Q8H for 14 days, start: 2024-09-09T09:30:00-04:00 ~ end: 2024-09-23T09:29:00-04:00",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-09-09T13:30:00+00:00",
+                                    "end": "2024-09-23T13:29:00+00:00"
+                                },
+                                "count": 14,
+                                "frequency": 3,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+                                        "code": "Q8H",
+                                        "display": "every 8 hours"
+                                    }
+                                ],
+                                "text": "Q8H"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "B20180406162630974"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "B20180406162601968-1",
+                                    "value": 200,
+                                    "code": "B20180406162601968-1",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "completed",
+                "statusReason": {
+                    "text": "DC'd by Discharge"
+                },
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "outpatient",
+                                "display": "Outpatient"
+                            }
+                        ],
+                        "text": "Outpatient"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": false,
+                "reportedBoolean": false,
+                "medicationCodeableConcept": {
+                    "text": "Ibuprofen"
+                },
+                "authoredOn": "2024-09-09T13:25:50+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationStatement/6B727DB5-C663-450C-B07F-C714D68487D1",
+            "resource": {
+                "id": "6B727DB5-C663-450C-B07F-C714D68487D1",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationstatement|0.10.0",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "type": "Patient"
+                },
+                "context": {
+                    "reference": "Encounter/7f98131b-58c0-5449-944c-cdf6b2dd8a5a",
+                    "type": "Encounter"
+                },
+                "dosage": [
+                    {
+                        "text": "200 mg orally every 8 hours",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 3,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+                                        "code": "Q8H",
+                                        "display": "every 8 hours"
+                                    }
+                                ],
+                                "text": "Q8H"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "PO"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "unit": "mg",
+                                    "value": 200
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+                            "version": "4.0.0",
+                            "code": "patientspecified",
+                            "display": "Patient Specified"
+                        }
+                    ],
+                    "text": "Pt History"
+                },
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "69230014620",
+                            "system": "http://hl7.org/fhir/sid/ndc"
+                        }
+                    ]
+                },
+                "effectivePeriod": {
+                    "start": "2024-08-08T18:35:38+00:00"
+                },
+                "dateAsserted": "2024-08-08T18:35:55+00:00",
+                "resourceType": "MedicationStatement"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Patient/c06d8496-da94-514a-8f79-595b43895004",
+            "resource": {
+                "id": "c06d8496-da94-514a-8f79-595b43895004",
+                "identifier": [
+                    {
+                        "type": {
+                            "text": "Medical record number",
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/MRN",
+                        "value": "MR00685102"
+                    },
+                    {
+                        "type": {
+                            "text": "Medical record number",
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/MRN",
+                        "value": "ZR00685102"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Williams",
+                        "given": [
+                            "Veronica"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1961-10-19",
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "both",
+                        "line": [
+                            "1452 North Main Ave"
+                        ],
+                        "city": "Westwood",
+                        "state": "MA",
+                        "postalCode": "02090",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-Patient",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/Patient-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
+                    ]
+                },
+                "resourceType": "Patient"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/1ba303f1-9a1d-5b6c-9dd1-ae4357ade600",
+            "resource": {
+                "id": "1ba303f1-9a1d-5b6c-9dd1-ae4357ade600",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/1ba303f1-9a1d-5b6c-9dd1-ae4357ade600",
+                        "display": "Consult to Pulmonary Rehabilitation Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "preparation",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "307374004",
+                            "display": "Pulmonary rehabilitation consult"
+                        }
+                    ],
+                    "text": "Pulmonary rehabilitation consult"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/6f0dcd24-5717-5333-8a84-8318e83dd973",
+            "resource": {
+                "id": "6f0dcd24-5717-5333-8a84-8318e83dd973",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/6f0dcd24-5717-5333-8a84-8318e83dd973",
+                        "display": "Alanine Aminotransferase Stat",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "reasonReference": [
+                    {
+                        "reference": "Condition/abf4f2e7-2171-587d-859a-c5f44ee8642f",
+                        "display": "Chest pain",
+                        "type": "Condition"
+                    }
+                ],
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "84460",
+                            "display": "Alanine aminotransferase (ALT) measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "34608000",
+                            "display": "Alanine aminotransferase (ALT) measurement"
+                        }
+                    ],
+                    "text": "Alanine aminotransferase (ALT) measurement"
+                },
+                "performedDateTime": "2024-09-09T13:32:00+00:00",
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                                "code": "786.50",
+                                "display": "Chest pain, unspecified"
+                            },
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "29857009",
+                                "display": "Chest pain (finding)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "R07.9",
+                                "display": "Chest pain, unspecified"
+                            }
+                        ],
+                        "text": "Chest pain"
+                    }
+                ],
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/8c98b184-ba33-5fd2-9dd3-c56b7267c69f",
+            "resource": {
+                "id": "8c98b184-ba33-5fd2-9dd3-c56b7267c69f",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/8c98b184-ba33-5fd2-9dd3-c56b7267c69f",
+                        "display": "Aspartate Amino Transferase Stat",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "reasonReference": [
+                    {
+                        "reference": "Condition/abf4f2e7-2171-587d-859a-c5f44ee8642f",
+                        "display": "Chest pain",
+                        "type": "Condition"
+                    }
+                ],
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "84450",
+                            "display": "Aspartate aminotransferase (AST) measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "45896001",
+                            "display": "Aspartate aminotransferase (AST) measurement"
+                        }
+                    ],
+                    "text": "Aspartate aminotransferase (AST) measurement"
+                },
+                "performedDateTime": "2024-09-09T13:32:00+00:00",
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                                "code": "786.50",
+                                "display": "Chest pain, unspecified"
+                            },
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "29857009",
+                                "display": "Chest pain (finding)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "R07.9",
+                                "display": "Chest pain, unspecified"
+                            }
+                        ],
+                        "text": "Chest pain"
+                    }
+                ],
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/efffb704-55e6-5094-92e6-d9284b2b3952",
+            "resource": {
+                "id": "efffb704-55e6-5094-92e6-d9284b2b3952",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/efffb704-55e6-5094-92e6-d9284b2b3952",
+                        "display": "Basic Metabolic Panel Stat",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "text": "Basic Metabolic Panel"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/2ab94879-0f64-5c64-807b-a2f5d3e83867",
+            "resource": {
+                "id": "2ab94879-0f64-5c64-807b-a2f5d3e83867",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/2ab94879-0f64-5c64-807b-a2f5d3e83867",
+                        "display": "CBC [HEME] Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "58410-2",
+                            "display": "Complete Blood Count"
+                        }
+                    ],
+                    "text": "Complete Blood Count"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/b47db6db-e5e1-5042-84f5-3c668e987e5a",
+            "resource": {
+                "id": "b47db6db-e5e1-5042-84f5-3c668e987e5a",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/b47db6db-e5e1-5042-84f5-3c668e987e5a",
+                        "display": "CBC [HEME] Stat",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "58410-2",
+                            "display": "Complete Blood Count"
+                        }
+                    ],
+                    "text": "Complete Blood Count"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/ab0c7444-4291-5049-8654-65124167559f",
+            "resource": {
+                "id": "ab0c7444-4291-5049-8654-65124167559f",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/ab0c7444-4291-5049-8654-65124167559f",
+                        "display": "White Blood Count [HEME] DAILY",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "85048",
+                            "display": "White blood cell count"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "767002",
+                            "display": "White blood cell count"
+                        }
+                    ],
+                    "text": "White blood cell count"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/c5f8fa9f-4e13-5c50-90dd-a765a6415f63",
+            "resource": {
+                "id": "c5f8fa9f-4e13-5c50-90dd-a765a6415f63",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/c5f8fa9f-4e13-5c50-90dd-a765a6415f63",
+                        "display": "White Blood Count [HEME] DAILY",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "85048",
+                            "display": "White blood cell count"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "767002",
+                            "display": "White blood cell count"
+                        }
+                    ],
+                    "text": "White blood cell count"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/9564230a-5c56-5562-8d44-de7788f40bb5",
+            "resource": {
+                "id": "9564230a-5c56-5562-8d44-de7788f40bb5",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/9564230a-5c56-5562-8d44-de7788f40bb5",
+                        "display": "White Blood Count [HEME] DAILY",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "85048",
+                            "display": "White blood cell count"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "767002",
+                            "display": "White blood cell count"
+                        }
+                    ],
+                    "text": "White blood cell count"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/cfe1ce5f-57ed-50cf-8fbd-74277068c80b",
+            "resource": {
+                "id": "cfe1ce5f-57ed-50cf-8fbd-74277068c80b",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/cfe1ce5f-57ed-50cf-8fbd-74277068c80b",
+                        "display": "White Blood Count [HEME] DAILY",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "85048",
+                            "display": "White blood cell count"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "767002",
+                            "display": "White blood cell count"
+                        }
+                    ],
+                    "text": "White blood cell count"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/8716feff-5fe1-5138-997b-1182dafb9400",
+            "resource": {
+                "id": "8716feff-5fe1-5138-997b-1182dafb9400",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/8716feff-5fe1-5138-997b-1182dafb9400",
+                        "display": "Complete Blood Count Auto Diff [HEME] Stat",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "text": "Complete Blood Count Auto Diff"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/2c83798a-a2c8-5fc1-80fc-ff8c3f721ee0",
+            "resource": {
+                "id": "2c83798a-a2c8-5fc1-80fc-ff8c3f721ee0",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/2c83798a-a2c8-5fc1-80fc-ff8c3f721ee0",
+                        "display": "Urinalysis [URIN] Stat",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "not-done",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "81005",
+                            "display": "Urine macro urinalysis panel using dipstick"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "24357-6",
+                            "display": "Urine macro urinalysis panel using dipstick"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "167226008",
+                            "display": "Urine macro urinalysis panel using dipstick"
+                        }
+                    ],
+                    "text": "Urine macro urinalysis panel using dipstick"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/63f98f71-1bff-5976-b84b-fbf4aa90586d",
+            "resource": {
+                "id": "63f98f71-1bff-5976-b84b-fbf4aa90586d",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/63f98f71-1bff-5976-b84b-fbf4aa90586d",
+                        "display": "Aspartate Amino Transferase Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "84450",
+                            "display": "Aspartate aminotransferase (AST) measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "45896001",
+                            "display": "Aspartate aminotransferase (AST) measurement"
+                        }
+                    ],
+                    "text": "Aspartate aminotransferase (AST) measurement"
+                },
+                "performedDateTime": "2024-06-21T13:38:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/5c6fa09c-dd9d-592f-bc47-4720eec32e80",
+            "resource": {
+                "id": "5c6fa09c-dd9d-592f-bc47-4720eec32e80",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/5c6fa09c-dd9d-592f-bc47-4720eec32e80",
+                        "display": "Alanine Aminotransferase Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "84460",
+                            "display": "Alanine aminotransferase (ALT) measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "34608000",
+                            "display": "Alanine aminotransferase (ALT) measurement"
+                        }
+                    ],
+                    "text": "Alanine aminotransferase (ALT) measurement"
+                },
+                "performedDateTime": "2024-06-21T13:38:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/3a7b8805-a34a-5686-8ba4-a39e597cb378",
+            "resource": {
+                "id": "3a7b8805-a34a-5686-8ba4-a39e597cb378",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/3a7b8805-a34a-5686-8ba4-a39e597cb378",
+                        "display": "Complete Blood Count Auto Diff [HEME] Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "text": "Complete Blood Count Auto Diff"
+                },
+                "performedDateTime": "2024-06-21T13:38:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/263d69e6-b38b-559b-81dd-be2883f69926",
+            "resource": {
+                "id": "263d69e6-b38b-559b-81dd-be2883f69926",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/263d69e6-b38b-559b-81dd-be2883f69926",
+                        "display": "Urine Culture. Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "in-progress",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "87088",
+                            "display": "Urine culture"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "630-4",
+                            "display": "Urine culture"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "117010004",
+                            "display": "Urine culture"
+                        }
+                    ],
+                    "text": "Urine culture"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/f1b07c11-3a6a-586a-8eff-58bccf7f4262",
+            "resource": {
+                "id": "f1b07c11-3a6a-586a-8eff-58bccf7f4262",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/f1b07c11-3a6a-586a-8eff-58bccf7f4262",
+                        "display": "Dat Result Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "in-progress",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "86880",
+                            "display": "Direct antiglobulin test (DAT)"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "51006-5",
+                            "display": "Direct antiglobulin test (DAT)"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "77020008",
+                            "display": "Direct antiglobulin test (DAT)"
+                        }
+                    ],
+                    "text": "Direct antiglobulin test (DAT)"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/26cfa34e-bc82-50bb-8138-bb54a829d7c3",
+            "resource": {
+                "id": "26cfa34e-bc82-50bb-8138-bb54a829d7c3",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/26cfa34e-bc82-50bb-8138-bb54a829d7c3",
+                        "display": "US abdomen complete [US] Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "223366009",
+                                    "display": "Healthcare professional"
+                                }
+                            ],
+                            "text": "Healthcare professional"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                            "display": "Meditech DONOT EDIT JOBS MD",
+                            "type": "Practitioner"
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                            "display": "MEDITECH General Hospital",
+                            "type": "Organization"
+                        }
+                    }
+                ],
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "45036003",
+                            "display": "US abdomen complete"
+                        }
+                    ],
+                    "text": "US abdomen complete"
+                },
+                "performedDateTime": "2024-06-21T13:54:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/4d3d9fa0-bdcd-518b-80eb-331f0d302d66",
+            "resource": {
+                "id": "4d3d9fa0-bdcd-518b-80eb-331f0d302d66",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/4d3d9fa0-bdcd-518b-80eb-331f0d302d66",
+                        "display": "Alanine Aminotransferase Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "84460",
+                            "display": "Alanine aminotransferase (ALT) measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "34608000",
+                            "display": "Alanine aminotransferase (ALT) measurement"
+                        }
+                    ],
+                    "text": "Alanine aminotransferase (ALT) measurement"
+                },
+                "performedDateTime": "2024-06-21T22:02:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/2b4f43a4-c356-5ae7-811c-a32d0bf32785",
+            "resource": {
+                "id": "2b4f43a4-c356-5ae7-811c-a32d0bf32785",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/2b4f43a4-c356-5ae7-811c-a32d0bf32785",
+                        "display": "Aspartate Amino Transferase Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "84450",
+                            "display": "Aspartate aminotransferase (AST) measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "45896001",
+                            "display": "Aspartate aminotransferase (AST) measurement"
+                        }
+                    ],
+                    "text": "Aspartate aminotransferase (AST) measurement"
+                },
+                "performedDateTime": "2024-06-21T22:02:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/048dcd99-2979-52fb-8b42-da96187c3046",
+            "resource": {
+                "id": "048dcd99-2979-52fb-8b42-da96187c3046",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/048dcd99-2979-52fb-8b42-da96187c3046",
+                        "display": "Bilirubin Direct Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "82248",
+                            "display": "Bilirubin direct"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "1968-7",
+                            "display": "Bilirubin direct"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "39748002",
+                            "display": "Bilirubin direct"
+                        }
+                    ],
+                    "text": "Bilirubin direct"
+                },
+                "performedDateTime": "2024-06-21T22:02:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/4b2ae62d-8a5e-541f-b4e0-786d15338077",
+            "resource": {
+                "id": "4b2ae62d-8a5e-541f-b4e0-786d15338077",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/4b2ae62d-8a5e-541f-b4e0-786d15338077",
+                        "display": "White Blood Count [HEME] Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "85048",
+                            "display": "White blood cell count"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "767002",
+                            "display": "White blood cell count"
+                        }
+                    ],
+                    "text": "White blood cell count"
+                },
+                "performedDateTime": "2024-06-21T22:02:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/af6922e8-8bed-5036-82aa-079a835cfa4f",
+            "resource": {
+                "id": "af6922e8-8bed-5036-82aa-079a835cfa4f",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/af6922e8-8bed-5036-82aa-079a835cfa4f",
+                        "display": "Discharge Order-Unsign Order Rule Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "status": "preparation",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "text": "Discharge Order-Unsign Order Rule"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/73b55ec9-140d-500c-99aa-438820dc1be5",
+            "resource": {
+                "id": "73b55ec9-140d-500c-99aa-438820dc1be5",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/73b55ec9-140d-500c-99aa-438820dc1be5",
+                        "display": "Code Status Order",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/df9a290e-e10b-5223-83e7-d4ec158fac2b",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "223366009",
+                                    "display": "Healthcare professional"
+                                }
+                            ],
+                            "text": "Healthcare professional"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/da14451c-4bfe-576c-8391-230507b365cc",
+                            "display": "Background Daemon",
+                            "type": "Practitioner"
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                            "display": "MEDITECH General Hospital",
+                            "type": "Organization"
+                        }
+                    }
+                ],
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "92950",
+                            "display": "Full code status"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "89666000",
+                            "display": "Full code status"
+                        }
+                    ],
+                    "text": "Full code status"
+                },
+                "performedDateTime": "2024-09-09T18:23:08+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/44b9fe65-8b93-50d5-98aa-38231f901094",
+            "resource": {
+                "id": "44b9fe65-8b93-50d5-98aa-38231f901094",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/44b9fe65-8b93-50d5-98aa-38231f901094",
+                        "display": "Acid Fast Bacilli [REF] Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/d113b773-583c-502e-842d-3dea7ffa6e20",
+                    "type": "Encounter"
+                },
+                "status": "in-progress",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "87206",
+                            "display": "Acid fast bacillus (AFB) smear"
+                        },
+                        {
+                            "system": "http://loinc.org",
+                            "code": "20431-3",
+                            "display": "Acid fast bacillus (AFB) smear"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "67122001",
+                            "display": "Acid fast bacillus (AFB) smear"
+                        }
+                    ],
+                    "text": "Acid fast bacillus (AFB) smear"
+                },
+                "performedDateTime": "2024-09-10T21:20:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/0c672eec-af8d-5e8d-9980-f69c0fbf01fc",
+            "resource": {
+                "id": "0c672eec-af8d-5e8d-9980-f69c0fbf01fc",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/0c672eec-af8d-5e8d-9980-f69c0fbf01fc",
+                        "display": "1 25 Dihydroxy Vitamin D [REF] Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/c06d8496-da94-514a-8f79-595b43895004",
+                    "display": "Williams,Veronica",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/d113b773-583c-502e-842d-3dea7ffa6e20",
+                    "type": "Encounter"
+                },
+                "status": "in-progress",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "82652",
+                            "display": "1,25-dihydroxyvitamin D measurement"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "82457009",
+                            "display": "1,25-dihydroxyvitamin D measurement"
+                        }
+                    ],
+                    "text": "1,25-dihydroxyvitamin D measurement"
+                },
+                "_performedDateTime": {
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                            "valueCode": "unknown"
+                        }
+                    ]
+                },
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/a595e5fb-1d01-5146-80a9-6804f0cbb564",
+            "resource": {
+                "id": "a595e5fb-1d01-5146-80a9-6804f0cbb564",
+                "code": {
+                    "text": "lisinopriL"
+                },
+                "status": "active",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/6c5815b8-6520-5b3e-9743-71ff2dd536ea",
+            "resource": {
+                "id": "6c5815b8-6520-5b3e-9743-71ff2dd536ea",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "2673691",
+                            "display": "Proprinal 200 MG Oral Capsule"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "310964",
+                            "display": "ibuprofen 200 MG Oral Capsule"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "606990",
+                            "display": "Motrin 200 MG Oral Capsule"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "644386",
+                            "display": "Wal-Profen 200 MG Oral Capsule"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "731533",
+                            "display": "Advil 200 MG Oral Capsule"
+                        }
+                    ],
+                    "text": "ibuprofen 200 mg capsule"
+                },
+                "status": "active",
+                "form": {
+                    "text": "capsule"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "text": "ibuprofen"
+                        },
+                        "isActive": true
+                    }
+                ],
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Practitioner/da14451c-4bfe-576c-8391-230507b365cc",
+            "resource": {
+                "id": "da14451c-4bfe-576c-8391-230507b365cc",
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "PRN",
+                                    "display": "Provider number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/person",
+                        "value": "BKG DAEMON"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Daemon",
+                        "given": [
+                            "Background"
+                        ]
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+                        "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-practitioner"
+                    ]
+                },
+                "resourceType": "Practitioner"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+            "resource": {
+                "id": "57c5636b-c391-557e-82b0-5190a768fa9b",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "8547788017"
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "PRN",
+                                    "display": "Provider number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/person",
+                        "value": "MT"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "JOBS",
+                        "given": [
+                            "Meditech",
+                            "TEST"
+                        ],
+                        "suffix": [
+                            "MD"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "meditech@meditech.com",
+                        "rank": 1
+                    },
+                    {
+                        "system": "phone",
+                        "value": "DO NOT EDIT USER",
+                        "rank": 1
+                    },
+                    {
+                        "system": "email",
+                        "value": "meditech@meditech.com",
+                        "rank": 2
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "123 main st"
+                        ],
+                        "city": "WICHITA",
+                        "state": "KS",
+                        "postalCode": "67203",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+                        "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-practitioner"
+                    ]
+                },
+                "resourceType": "Practitioner"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+            "resource": {
+                "id": "ef89f8fc-a8da-5506-8a30-0425df67123d",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1952845521"
+                    }
+                ],
+                "active": true,
+                "name": "MEDITECH General Hospital",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "(741)789-7412"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "(741)789-7456"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "(741)789-8521"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "7000 Great Meadow Road"
+                        ],
+                        "city": "Dedham",
+                        "state": "MA",
+                        "postalCode": "02026",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips",
+                        "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-organization",
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-organization"
+                    ]
+                },
+                "resourceType": "Organization"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Organization/a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+            "resource": {
+                "id": "a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+                "active": true,
+                "name": "BBK Donor",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "687-5309"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "687-5309"
+                    }
+                ],
+                "resourceType": "Organization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Patient/c06d8496-da94-514a-8f79-595b43895004/$summary"
+        }
+    ],
+    "total": 55,
+    "resourceType": "Bundle"
+}

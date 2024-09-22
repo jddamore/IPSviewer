@@ -1,0 +1,2620 @@
+{
+  "resourceType": "Bundle",
+  "meta": {
+    "lastUpdated": "2023-10-16T20:13:35.583+02:00"
+  },
+  "type": "document",
+  "timestamp": "2023-10-16T20:13:35.583+02:00",
+  "entry": [
+    {
+      "fullUrl": "urn:oid:fdd1b80c-3fcc-4207-9e06-03676b2edf05",
+      "resource": {
+        "resourceType": "Composition",
+        "identifier": {
+          "system": "urn:oid:2.16.724.4.8.10.200.10",
+          "value": "urn:oid:8a20f96f-3178-451f-b2f4-9b75da30eec6"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "date": "2023-10-16T20:13:35+02:00",
+        "title": "Patient Summary as of Mon Oct 16 20:13:35 CEST 2023",
+        "section": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/ef5a86fd-5bbd-3506-8b96-32f00224292b"
+              },
+              {
+                "reference": "MedicationStatement/6bceb9b8-38c1-34a1-8514-a2b8d97beb8f"
+              },
+              {
+                "reference": "MedicationStatement/a82376fd-2f61-35f3-bca4-6ab22dc4835e"
+              },
+              {
+                "reference": "MedicationStatement/55cdc27c-9e90-3dac-a37d-e862dfef4011"
+              },
+              {
+                "reference": "MedicationStatement/bfff7109-5aa0-383f-b297-c7b769ca02fa"
+              },
+              {
+                "reference": "MedicationStatement/c4dbeb7a-6e34-34f1-a435-204e5d7ba4f0"
+              },
+              {
+                "reference": "MedicationStatement/f51acc6b-fb07-307d-a3b4-107acdfcefaa"
+              },
+              {
+                "reference": "MedicationStatement/910d981b-b718-37eb-9653-ad56ab7f1f7a"
+              },
+              {
+                "reference": "MedicationStatement/5a187f56-725f-3d91-9293-83a0fe7fa824"
+              },
+              {
+                "reference": "MedicationStatement/840e319d-c67c-3b15-a12a-23fc88fce593"
+              },
+              {
+                "reference": "MedicationStatement/ca7238dd-57d4-3903-a1e9-2ffce9a36a15"
+              },
+              {
+                "reference": "MedicationStatement/7ff685fb-7f5a-3c6a-973e-c114524e0d01"
+              },
+              {
+                "reference": "MedicationStatement/9c721360-5bc5-331c-852a-1464aaacfece"
+              },
+              {
+                "reference": "MedicationStatement/25859965-b78f-3f2a-b56d-52641e387d97"
+              },
+              {
+                "reference": "MedicationStatement/486bd4e2-6be0-3a2a-bc4c-161cf908be9c"
+              },
+              {
+                "reference": "MedicationStatement/02a467cb-633d-39b2-97f2-b00c33f66c07"
+              }
+            ]
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Immunization/e17a1af0-8d94-3fc7-8961-80e6f49fb6d5"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "37478061-c5bf-35ce-9fd7-b981a6f53f97",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips",
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:1.2.208.176.1.2",
+            "value": "2502889861"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Knudsen",
+            "given": [
+              "Knud",
+              "Gravitate"
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1988-02-25",
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Islands Brygge 405, "
+            ],
+            "district": "Søllested",
+            "postalCode": "4920"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e17a1af0-8d94-3fc7-8961-80e6f49fb6d5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-immunization",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://vaccinationsregister.dk/schemas/2013/12/01/VaccinationIdentifierType",
+            "value": "32115755576"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB",
+              "display": "Influenza vacciner"
+            },
+            {
+              "system": "https://www.ssi.dk/drugid",
+              "code": "32115566976",
+              "display": "Fluzone high dose quadrivalent"
+            },
+            {
+              "system": "http://vaccinationsregister.dk/schemas/2013/12/01/VaccineIdentifierType",
+              "code": "32115566977",
+              "display": "Fluzone high dose quadrivalent"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/6651632d-31ab-346a-afd0-71271798eb70"
+        },
+        "occurrenceDateTime": "2023-06-21T13:59:25+02:00"
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/ef5a86fd-5bbd-3506-8b96-32f00224292b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "ef5a86fd-5bbd-3506-8b96-32f00224292b",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552167"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/dbbe770a-19f0-35f5-91cf-6a28198340bb"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n2 tabletter morgen og 2 tabletter aften - hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "EVE"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 2,
+                  "unit": "tabletter"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/6bceb9b8-38c1-34a1-8514-a2b8d97beb8f",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "6bceb9b8-38c1-34a1-8514-a2b8d97beb8f",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552805"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/ac1cd0d8-59cf-3721-b345-a27dfb4d3f79"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 kapsel 3 gange hver dag\nBemærk: ved et hovedmåltid",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "patientInstruction": "ved et hovedmåltid",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 3,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "kapsel"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/a82376fd-2f61-35f3-bca4-6ab22dc4835e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a82376fd-2f61-35f3-bca4-6ab22dc4835e",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552175"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/4d489e12-d982-3ce3-ae7a-bbfd103df8ba"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tablet hver dag\nBemærk: før et måltid",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "patientInstruction": "før et måltid",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/55cdc27c-9e90-3dac-a37d-e862dfef4011",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "55cdc27c-9e90-3dac-a37d-e862dfef4011",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552238"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/e8fb997b-bd64-31f5-91c7-43f53e593bda"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-23T00:00:00+02:00",
+          "end": "2025-06-23T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "SC",
+                  "display": "Subkutan anvendelse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/bfff7109-5aa0-383f-b297-c7b769ca02fa",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "bfff7109-5aa0-383f-b297-c7b769ca02fa",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552174"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/ca45f5d7-ecc1-3299-92b5-b83a6517ec0e"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n10 mg morgen og 10 mg nat - hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "NIGHT"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "IV",
+                  "display": "Intravenøs anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 10,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/c4dbeb7a-6e34-34f1-a435-204e5d7ba4f0",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "c4dbeb7a-6e34-34f1-a435-204e5d7ba4f0",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552939"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b3cae11c-fcf2-3c86-b1e6-b2ddb13f4ec8"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 kapsel morgen, 1 kapsel middag og 1 kapsel aften - hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "NOON",
+                  "EVE"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "kapsel"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/f51acc6b-fb07-307d-a3b4-107acdfcefaa",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f51acc6b-fb07-307d-a3b4-107acdfcefaa",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552169"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/051186c9-6b3b-32b6-9390-b6385c462dd2"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tablet hver nat",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "NIGHT"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/910d981b-b718-37eb-9653-ad56ab7f1f7a",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "910d981b-b718-37eb-9653-ad56ab7f1f7a",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552791"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/0e614f88-1c12-375c-8008-56cb62a6638a"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tablet hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/5a187f56-725f-3d91-9293-83a0fe7fa824",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "5a187f56-725f-3d91-9293-83a0fe7fa824",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552183"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6353eafb-6cf4-3081-9a38-cc9464a99bfe"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tablet 3 gange hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 3,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/840e319d-c67c-3b15-a12a-23fc88fce593",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "840e319d-c67c-3b15-a12a-23fc88fce593",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552180"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/d7a650f4-d014-3abf-94af-2935064a65f7"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tablet morgen, 1 tablet middag, 1 tablet aften og 1 tablet nat - hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "NOON",
+                  "EVE",
+                  "NIGHT"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/ca7238dd-57d4-3903-a1e9-2ffce9a36a15",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "ca7238dd-57d4-3903-a1e9-2ffce9a36a15",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552179"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/3f697ba1-357e-3a4e-af8c-0faaca3ab613"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering kun d. 21. juni 2023:\n1 dosis",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00",
+                  "end": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "IM",
+                  "display": "Intramuskulær anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "dosis"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/7ff685fb-7f5a-3c6a-973e-c114524e0d01",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "7ff685fb-7f5a-3c6a-973e-c114524e0d01",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552051"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/897cf3a2-b0b5-3f05-8a70-35be448d9f2e"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n2 tabletter 2 gange hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 2,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 2,
+                  "unit": "tabletter"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/9c721360-5bc5-331c-852a-1464aaacfece",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "9c721360-5bc5-331c-852a-1464aaacfece",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552177"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/0d7563a7-0a7c-318e-b5be-0199494005dc"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "EFTER_BEHOV",
+                    "display": "efter behov"
+                  }
+                ]
+              }
+            ],
+            "asNeededBoolean": true,
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "SC",
+                  "display": "Subkutan anvendelse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/25859965-b78f-3f2a-b56d-52641e387d97",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "25859965-b78f-3f2a-b56d-52641e387d97",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552240"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/4471ece3-f761-3b48-a2c3-e9785eea95ac"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tablet 4 gange hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/486bd4e2-6be0-3a2a-bc4c-161cf908be9c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "486bd4e2-6be0-3a2a-bc4c-161cf908be9c",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552797"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/1a66f2d2-0982-3b59-9ff9-cf71568afa2c"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Dosering fra d. 21. juni 2023:\n1 tyggetablet morgen, 1 tyggetablet middag, 1 tyggetablet aften og 1 tyggetablet nat - hver dag",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-06-21T00:00:00+02:00"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "NOON",
+                  "EVE",
+                  "NIGHT"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tyggetablet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/02a467cb-633d-39b2-97f2-b00c33f66c07",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "02a467cb-633d-39b2-97f2-b00c33f66c07",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medicationstatement",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugMedicationIdentifierType",
+            "value": "23552796"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/8ac8c0dd-fdce-3dca-924b-13d38992d14f"
+        },
+        "subject": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "effectivePeriod": {
+          "start": "2023-06-21T00:00:00+02:00",
+          "end": "2025-06-21T00:00:00+02:00"
+        },
+        "informationSource": {
+          "reference": "Patient/37478061-c5bf-35ce-9fd7-b981a6f53f97"
+        },
+        "dosage": [
+          {
+            "text": "Tages efter skriftlig anvisning fra afdeling",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DosageTypeType",
+                    "code": "FAST",
+                    "display": "fast"
+                  }
+                ]
+              }
+            ],
+            "route": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS11/Kode",
+                  "code": "OR",
+                  "display": "Oral anvendelse"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/dbbe770a-19f0-35f5-91cf-6a28198340bb",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "dbbe770a-19f0-35f5-91cf-6a28198340bb",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105709515"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "L04AX07"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105709515",
+              "display": "Skilarence"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AX07",
+              "display": "Dimethylfumarat"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "ENTTAB",
+              "display": "enterotabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "DIMETHYLFUMARAT",
+                  "display": "DIMETHYLFUMARAT"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 120.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "enterotabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{enterotabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/ac1cd0d8-59cf-3721-b345-a27dfb4d3f79",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "ac1cd0d8-59cf-3721-b345-a27dfb4d3f79",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104611209"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A08AB01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104611209",
+              "display": "Orlistat \"Teva\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A08AB01",
+              "display": "Orlistat"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "KAPH",
+              "display": "kapsler, hårde"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "ORLISTAT",
+                  "display": "ORLISTAT"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 120.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "kapsler, hårde",
+                "system": "http://unitsofmeasure.org",
+                "code": "{kapsler, hårde}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/4d489e12-d982-3ce3-ae7a-bbfd103df8ba",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4d489e12-d982-3ce3-ae7a-bbfd103df8ba",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28103635304"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A03FA03"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28103635304",
+              "display": "Domperidon \"Alternova\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A03FA03",
+              "display": "Domperidon"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "DOMPERIDON",
+                  "display": "DOMPERIDON"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 10.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/e8fb997b-bd64-31f5-91c7-43f53e593bda",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "e8fb997b-bd64-31f5-91c7-43f53e593bda",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105730115"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "L04AB04"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105730115",
+              "display": "Humira"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AB04",
+              "display": "Adalimumab"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJVOIS",
+              "display": "injektionsvæske, opløsning i fyldt injektionssprøjte"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "ADALIMUMAB",
+                  "display": "ADALIMUMAB"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 100.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "milliliter",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/ca45f5d7-ecc1-3299-92b5-b83a6517ec0e",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "ca45f5d7-ecc1-3299-92b5-b83a6517ec0e",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105055512"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "L04AB02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105055512",
+              "display": "Remsima"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AB02",
+              "display": "Infliximab"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INFPUKO",
+              "display": "pulver til koncentrat til infusionsvæske, opløsning"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "INFLIXIMAB",
+                  "display": "INFLIXIMAB"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 100.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "pulver til koncentrat til infusionsvæske, opløsning",
+                "system": "http://unitsofmeasure.org",
+                "code": "{pulver til koncentrat til infusionsvæske, opløsning}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/b3cae11c-fcf2-3c86-b1e6-b2ddb13f4ec8",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b3cae11c-fcf2-3c86-b1e6-b2ddb13f4ec8",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Stærke vitaminer m.v.",
+            "value": "52610059497"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N06AX25"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Stærke vitaminer m.v.",
+              "code": "52610059497",
+              "display": "Vitacare Modigen"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N06AX25",
+              "display": "Perikon"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "KAPH",
+              "display": "kapsler, hårde"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/ActiveSubstanceTextPredefinedSourceType/Stærke vitaminer m.v.",
+                  "code": "Perikontørekstrakt, kvantificeret (Prikbladet Perikon)",
+                  "display": "Perikontørekstrakt, kvantificeret (Prikbladet Perikon)"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/051186c9-6b3b-32b6-9390-b6385c462dd2",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "051186c9-6b3b-32b6-9390-b6385c462dd2",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104029506"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N06AX11"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104029506",
+              "display": "Mirtazapin \"Actavis\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N06AX11",
+              "display": "Mirtazapin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "MIRTAZAPIN",
+                  "display": "MIRTAZAPIN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 30.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/0e614f88-1c12-375c-8008-56cb62a6638a",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "0e614f88-1c12-375c-8008-56cb62a6638a",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104452808"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "C09CA04"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104452808",
+              "display": "Irbesartan \"Medical Valley\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09CA04",
+              "display": "Irbesartan"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "IRBESARTAN",
+                  "display": "IRBESARTAN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 75.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/6353eafb-6cf4-3081-9a38-cc9464a99bfe",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6353eafb-6cf4-3081-9a38-cc9464a99bfe",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105174612"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N03AF01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105174612",
+              "display": "Tegretol"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N03AF01",
+              "display": "Carbamazepin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "CARBAMAZEPIN",
+                  "display": "CARBAMAZEPIN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 200.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/d7a650f4-d014-3abf-94af-2935064a65f7",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "d7a650f4-d014-3abf-94af-2935064a65f7",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105970117"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "J05AR20"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105970117",
+              "display": "Biktarvy"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J05AR20",
+              "display": "Emtricitabin, tenofovir alafenamid og bictegravir"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "tenofovir alafenamid",
+                  "display": "tenofovir alafenamid"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "EMTRICITABIN",
+                  "display": "EMTRICITABIN"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Bictegravirnatrium",
+                  "display": "Bictegravirnatrium"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/3f697ba1-357e-3a4e-af8c-0faaca3ab613",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "3f697ba1-357e-3a4e-af8c-0faaca3ab613",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105658315"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "J07BB02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105658315",
+              "display": "Vaxigriptetra"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02",
+              "display": "Influenza, renset antigen"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJVSIS",
+              "display": "injektionsvæske, suspension, fyldt injektionssprøjte"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "B/Phuket/3073/2013-lignende stamme (B/Phuket/3073/2013, vild type)",
+                  "display": "B/Phuket/3073/2013-lignende stamme (B/Phuket/3073/2013, vild type)"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "A/Victoria/2570/2019 (H1N1)pdm09-lignende stamme (A/Victoria/2570/2019, IVR-215)",
+                  "display": "A/Victoria/2570/2019 (H1N1)pdm09-lignende stamme (A/Victoria/2570/2019, IVR-215)"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "B/Austria/1359417/2021 - lignende stamme (B/Michigan/01/2021, vildtype)",
+                  "display": "B/Austria/1359417/2021 - lignende stamme (B/Michigan/01/2021, vildtype)"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "A/Darwin/9/2021 (H3N2) - lignende stamme (A/Darwin/9/2021, IVR-228)",
+                  "display": "A/Darwin/9/2021 (H3N2) - lignende stamme (A/Darwin/9/2021, IVR-228)"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/897cf3a2-b0b5-3f05-8a70-35be448d9f2e",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "897cf3a2-b0b5-3f05-8a70-35be448d9f2e",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104562609"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A07EC02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104562609",
+              "display": "Pentasa"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A07EC02",
+              "display": "Mesalazin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "DEPTAB",
+              "display": "depottabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "MESALAZIN",
+                  "display": "MESALAZIN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1.0,
+                "unit": "gram",
+                "system": "http://unitsofmeasure.org",
+                "code": "g"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "depottabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{depottabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/0d7563a7-0a7c-318e-b5be-0199494005dc",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "0d7563a7-0a7c-318e-b5be-0199494005dc",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104865811"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A10AD04"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104865811",
+              "display": "Humalog Mix25 KwikPen"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AD04",
+              "display": "Insulin lispro"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJVSK",
+              "display": "injektionsvæske"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "insulin lispro protamin",
+                  "display": "insulin lispro protamin"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Insulin lispro",
+                  "display": "Insulin lispro"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/4471ece3-f761-3b48-a2c3-e9785eea95ac",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4471ece3-f761-3b48-a2c3-e9785eea95ac",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101674394"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101674394",
+              "display": "Panodil"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1000.0,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1.0,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/1a66f2d2-0982-3b59-9ff9-cf71568afa2c",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "1a66f2d2-0982-3b59-9ff9-cf71568afa2c",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105626815"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A12AX"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105626815",
+              "display": "Calcichew-D3 Forte"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A12AX",
+              "display": "Calcium, kombinationer med d-vitamin og/eller andre stoffer"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TYGTAB",
+              "display": "tyggetabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Calciumcarbonat",
+                  "display": "Calciumcarbonat"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Cholecalciferol",
+                  "display": "Cholecalciferol"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Medication/8ac8c0dd-fdce-3dca-924b-13d38992d14f",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "8ac8c0dd-fdce-3dca-924b-13d38992d14f",
+        "meta": {
+          "source": "https://services.nsi.dk/en/Services/FMK",
+          "profile": [
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28106176218"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "J05AR25"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28106176218",
+              "display": "Dovato"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J05AR25",
+              "display": "Lamivudin og dolutegravir"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Dolutegravir",
+                  "display": "Dolutegravir"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "LAMIVUDIN",
+                  "display": "LAMIVUDIN"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      }
+    }
+  ]
+}

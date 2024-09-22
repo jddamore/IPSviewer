@@ -1,0 +1,725 @@
+{
+    "resourceType": "Bundle",
+    "id": "UK-IPS-examples-Bundle-02",
+    "language": "en-GB",
+    "identifier": {
+        "system": "urn:oid:2.16.724.4.8.10.200.10",
+        "value": "94d5ac3b-ceff-467d-9538-1e004b0a0ca8"
+    },
+    "type": "document",
+    "timestamp": "2021-10-04T14:30:00+01:00",
+    "entry":  [
+        {
+            "fullUrl": "urn:uuid:f35598b2-a84f-4bb3-8185-1e5d325c13b2",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "a6fd8a6e-67fb-4e8e-91ed-9ae42857b232",
+                "identifier": {
+                    "system": "urn:oid:2.16.724.4.8.10.200.10",
+                    "value": "92a11fa2-37fa-42e5-a6fa-288e780e434b"
+                },
+                "status": "final",
+                "type": {
+                    "coding":  [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "date": "2021-10-04T14:30:00+01:00",
+                "author":  [
+                    {
+                        "reference": "Practitioner/11"
+                    }
+                ],
+                "title": "Patient Summary as of October 04, 2021 14:30",
+                "confidentiality": "N",
+                "attester":  [
+                    {
+                        "mode": "legal",
+                        "time": "2021-10-04T14:30:00+01:00",
+                        "party": {
+                            "reference": "Practitioner/11"
+                        }
+                    },
+                    {
+                        "mode": "legal",
+                        "time": "2021-10-04T14:30:00+01:00",
+                        "party": {
+                            "reference": "Organization/21"
+                        }
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/21"
+                },
+                "relatesTo":  [
+                    {
+                        "code": "appends",
+                        "targetIdentifier": {
+                            "system": "urn:oid:2.16.724.4.8.10.200.10",
+                            "value": "5e8b4b97-4e66-48dd-95cd-cda13eb3938e"
+                        }
+                    }
+                ],
+                "event":  [
+                    {
+                        "code":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2021-10-04T14:30:00+01:00"
+                        }
+                    }
+                ],
+                "section":  [
+                    {
+                        "title": "Active Problems",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Problems List</div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "Condition/Problem-Asthma"
+                            },
+                            {
+                                "reference": "Condition/Problem-Dry-Eczema"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Medication",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'><table><thead><tr><th>Medication</th><th>Strength</th><th>Form</th><th>Dosage</th><th>Comment</th></tr></thead><tbody><tr><td>Sertraline</td><td>100 mg</td><td>tablet</td><td>1 tablet once a day</td><td>in the morning</td></tr><tr><td>Metformin</td><td>1g </td><td>modified release tablets</td><td>2 tablets a day </td><td>With evening meal</td></tr></tbody></table></div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "MedicationStatement/11"
+                            },
+                            {
+                                "reference": "MedicationStatement/19"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergies and Intolerances",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Allergy to Salicylate allergy</div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "AllergyIntolerance/6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Patient/12",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "12",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/nhs-number",
+                        "value": "9690938614"
+                    }
+                ],
+                "active": true,
+                "name":  [
+                    {
+                        "use": "official",
+                        "text": "Elsa LEARY",
+                        "family": "LEARY",
+                        "given":  [
+                            "Elsa"
+                        ],
+                        "prefix":  [
+                            "MISS"
+                        ]
+                    }
+                ],
+                "telecom":  [
+                    {
+                        "system": "phone",
+                        "value": "01454587554",
+                        "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1965-12-17",
+                "address":  [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "line":  [
+                            "RIGBY HOUSE",
+                            "THE MEADOWINGS"
+                        ],
+                        "city": "YARM",
+                        "district": "CLEVELAND",
+                        "postalCode": "TS15 9QQ"
+                    }
+                ],
+                "generalPractitioner":  [
+                    {
+                        "reference": "Practitioner/1"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/7"
+                }
+            }
+        },
+        {
+            "fullUrl": "Practitioner/11",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "11",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/sds-user-id",
+                        "value": "G13579135"
+                    }
+                ],
+                "name":  [
+                    {
+                        "use": "usual",
+                        "family": "Gilbert",
+                        "given":  [
+                            "Nichole"
+                        ],
+                        "prefix":  [
+                            "Miss"
+                        ]
+                    }
+                ],
+                "gender": "female"
+            }
+        },
+        {
+            "fullUrl": "Organization/2",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "2",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                        "value": "R1A14"
+                    }
+                ],
+                "name": "Test GP Care Trust",
+                "telecom":  [
+                    {
+                        "system": "phone",
+                        "value": "12345678",
+                        "use": "work"
+                    }
+                ],
+                "address":  [
+                    {
+                        "use": "work",
+                        "line":  [
+                            "24 Back Lane",
+                            "Farsley"
+                        ],
+                        "city": "Leeds",
+                        "district": "West Yorkshire",
+                        "postalCode": "GPC 113"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Condition/Problem-Asthma",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-Asthma",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "D06C0517-4D1C-11E3-A2DD-010000000161"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "category":  [
+                    {
+                        "coding":  [
+                            {
+                                "system": "http://hl7.org/fhir/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "195967001",
+                            "display": "Asthma"
+                        }
+                    ],
+                    "text": "Asthma"
+                },
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "encounter": {
+                    "reference": "Encounter/Encounter1"
+                },
+                "onsetDateTime": "2011-03-28T10:30:00+00:00",
+                "recordedDate": "2011-03-28T10:30:00+00:00",
+                "asserter": {
+                    "reference": "Practitioner/11"
+                }
+            }
+        },
+        {
+            "fullUrl": "Condition/Problem-Dry-Eczema",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-Dry-Eczema",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "7ba47065-5807-4f7b-8a39-95ab1a007f19"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "category":  [
+                    {
+                        "coding":  [
+                            {
+                                "system": "http://hl7.org/fhir/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "135841008",
+                            "display": "Dry eczema"
+                        }
+                    ],
+                    "text": "Dry eczema (disorder)"
+                },
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "encounter": {
+                    "reference": "Encounter/Encounter11"
+                },
+                "onsetDateTime": "1998-05-18T10:30:00+00:00",
+                "recordedDate": "1998-05-18T10:30:00+00:00",
+                "asserter": {
+                    "reference": "Practitioner/11"
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/11",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "11",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c472eff-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "basedOn":  [
+                    {
+                        "reference": "MedicationRequest/20"
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "Medication/20"
+                },
+                "effectivePeriod": {
+                    "start": "2017-11-10T00:00:00+00:00",
+                    "end": "2018-09-14T00:00:00+01:00"
+                },
+                "dateAsserted": "2017-11-10T00:00:00+00:00",
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "dosage":  [
+                    {
+                        "text": "1 puff",
+                        "patientInstruction": "When required"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Medication/20",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "20",
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "9382601000001102",
+                            "display": "Ventolin Evohaler 100 micrograms"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/19",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "19",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c473389-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "basedOn":  [
+                    {
+                        "reference": "MedicationRequest/32"
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "Medication/21"
+                },
+                "effectivePeriod": {
+                    "start": "2017-11-22T00:00:00+00:00",
+                    "end": "2018-09-26T00:00:00+01:00"
+                },
+                "dateAsserted": "2017-11-22T00:00:00+00:00",
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "dosage":  [
+                    {
+                        "text": "2 times a day"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Medication/21",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "21",
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "9277301000001107",
+                            "display": "Epaderm (product)"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationRequest/32",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "32",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c46f699-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "groupIdentifier": {
+                    "value": "M-2a"
+                },
+                "status": "active",
+                "intent": "plan",
+                "medicationReference": {
+                    "reference": "Medication/21"
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "authoredOn": "2017-11-22T00:00:00+00:00",
+                "recorder": {
+                    "reference": "Practitioner/1"
+                },
+                "dosageInstruction":  [
+                    {
+                        "text": "2 tablets a day",
+                        "patientInstruction": "With evening meal"
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2017-11-22T00:00:00+00:00",
+                        "end": "2018-12-27T00:00:00+00:00"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 28,
+                        "unit": "day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    },
+                    "performer": {
+                        "reference": "Organization/1"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationRequest/20",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "20",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c46edd5-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "groupIdentifier": {
+                    "value": "M-3"
+                },
+                "status": "active",
+                "intent": "plan",
+                "medicationReference": {
+                    "reference": "Medication/20"
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "authoredOn": "2017-11-10T00:00:00+00:00",
+                "recorder": {
+                    "reference": "Practitioner/1"
+                },
+                "dosageInstruction":  [
+                    {
+                        "text": "1 tablet once a day",
+                        "patientInstruction": "Take in morning"
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2017-11-10T00:00:00+00:00",
+                        "end": "2018-08-15T00:00:00+01:00"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 28,
+                        "unit": "day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    },
+                    "performer": {
+                        "reference": "Organization/1"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "AllergyIntolerance/6",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "6",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "62a4baf1-1e64-11ec-9680-00505692d4aa"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category":  [
+                    "medication"
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "293585002",
+                            "display": "Salicylate allergy (disorder)"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/12"
+                },
+                "onsetDateTime": "2016-05-01T12:00:00+01:00",
+                "recordedDate": "2016-06-01T12:00:00+01:00",
+                "recorder": {
+                    "reference": "Practitioner/1"
+                },
+                "note":  [
+                    {
+                        "text": "Wheezing, chest tightness, shortness of breath"
+                    }
+                ],
+                "reaction":  [
+                    {
+                        "manifestation":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "23924001",
+                                        "display": "Tight chest (finding)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "description": "Wheezing, chest tightness, shortness of breath"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Encounter/Encounter1",            
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "Encounter1",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "b6dfd800-7e80-41ba-9f91-0a5d981271f2"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "IMP",
+                    "display": "inpatient encounter"
+                },
+                "type":  [
+                    {
+                        "text": "Surgery Consultation"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/12"
+                },
+                "participant":  [
+                    {
+                        "type":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/11"
+                        }
+                    },
+                    {
+                        "type":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                                        "code": "REC",
+                                        "display": "recorder"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/11"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2019-03-28T10:30:00+00:00",
+                    "end": "2019-03-28T10:38:00+00:00"
+                },
+                "length": {
+                    "value": 8,
+                    "unit": "m",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "min"
+                }
+            }
+        }
+    ]
+}

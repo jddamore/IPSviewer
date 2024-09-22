@@ -1,0 +1,1986 @@
+{
+    "resourceType": "Bundle",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:1db8db5e-5a17-499c-8b13-1b0f68411041"
+    },
+    "type": "document",
+    "timestamp": "2024-09-22T17:05:18Z",
+    "entry": [
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Composition/zzz",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "zzz",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>International Patient Summary (IPS) for Connectathon, Sept JWJ</b></p><p>Generated at 9/22/2024 12:05 PM from connectathon-testing for EpicConnect and Pulsar testing only</p></div>"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient Summary Document"
+                        }
+                    ],
+                    "text": "International Patient Summary"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "date": "2024-09-22T17:05:18Z",
+                "author": [
+                    {
+                        "type": "Organization",
+                        "display": "connectathon-testing for EpicConnect and Pulsar testing only"
+                    }
+                ],
+                "title": "International Patient Summary (IPS) for Connectathon, Sept JWJ",
+                "section": [
+                    {
+                        "title": "Problem List",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list Reported"
+                                }
+                            ],
+                            "text": "Problem list Reported"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Active Problems</h3><table><thead><tr><th>Problem</th><th>Severity</th><th>Onset</th><th>Verification Status</th></tr></thead><tr idref=\"e2mZUha3piBjaWLgFVsNMrOmShLngxdtOSd0pab1f8EE3\"><td>Type 1 DM with end-stage renal disease</td><td>-</td><td>5/16/2024</td><td>Confirmed</td></tr><tr idref=\"e7e9DoHyH8d3o9uWFcd9mP2f7koQBUMUhv4Jc4kmb-sE3\"><td>Diffuse cellulitis</td><td>Lo</td><td>5/13/2024</td><td>Confirmed</td></tr><tr idref=\"ei1ckcRalsFoQsYlubrUeOJ.t7fVqC1snKANIzFkyk8c3\"><td>Hereditary nephritis</td><td>-</td><td>5/16/2024</td><td>Confirmed</td></tr></table><br/><h3>Resolved Problems</h3><table><thead><tr><th>Problem</th><th>Severity</th><th>Time Period</th><th>Verification Status</th></tr></thead><tr idref=\"eHdE-Zy21eLriyfz3Ek-I3zGSn4qZjYDESR.DXvBk2ck3\"><td>Peritonitis</td><td>Med</td><td>5/8/2024 to 5/10/2024</td><td>Confirmed</td></tr></table></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/e2mZUha3piBjaWLgFVsNMrOmShLngxdtOSd0pab1f8EE3"
+                            },
+                            {
+                                "reference": "Condition/e7e9DoHyH8d3o9uWFcd9mP2f7koQBUMUhv4Jc4kmb-sE3"
+                            },
+                            {
+                                "reference": "Condition/eHdE-Zy21eLriyfz3Ek-I3zGSn4qZjYDESR.DXvBk2ck3"
+                            },
+                            {
+                                "reference": "Condition/ei1ckcRalsFoQsYlubrUeOJ.t7fVqC1snKANIzFkyk8c3"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergies",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ],
+                            "text": "Allergies and adverse reactions Document"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Allergy</th><th>Reactions</th><th>Criticality</th></tr></thead><tr idref=\"eMGd4aGCV2BR6XgVnrmEM0fWP0NxCVQYi4YEc0UsajNQ3\"><td>PENICILLINS</td><td>Hives, Shortness of Breath</td><td>High</td></tr><tr idref=\"eLX8H4lgjeTcjjrtvDT3zaT0FuoNzPxv-rmQFi.CjnkE3\"><td>MILK-RELATED COMPOUNDS</td><td>GI intolerance</td><td>Low</td></tr><tr idref=\"eWLRWQ2LYNMrLSQh3D0vadzztFy-p0rUMOUYkfxlqhW03\"><td>SHELLFISH-DERIVED PRODUCTS</td><td>Halitosis</td><td>Low</td></tr></table></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "AllergyIntolerance/eLX8H4lgjeTcjjrtvDT3zaT0FuoNzPxv-rmQFi.CjnkE3"
+                            },
+                            {
+                                "reference": "AllergyIntolerance/eMGd4aGCV2BR6XgVnrmEM0fWP0NxCVQYi4YEc0UsajNQ3"
+                            },
+                            {
+                                "reference": "AllergyIntolerance/eWLRWQ2LYNMrLSQh3D0vadzztFy-p0rUMOUYkfxlqhW03"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Current Medications",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ],
+                            "text": "History of Medication use Narrative"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication</th><th>Form</th><th>Ingredient</th><th>Sig</th><th>Start Date</th><th>Status</th></tr></thead><tr idref=\"eEQl.knbqdVk5PWWogka6.tiWCjETyYdxRulsYBOlHbQ3\" style=\"vertical-align:top\"><td>metformin (GLUCOPHAGE) tablet</td><td>Tablet</td><td>metformin (GLUCOPHAGE) tablet</td><td>850 mg, Oral, 2 TIMES DAILY WITH MEALS Starting Sun 2/18/2024, Disp-60 tablet, R-0, Normal</td><td>2/18/2024</td><td>Active</td></tr><tr idref=\"eShz-f0oz-pexb7VDZ2XDGtRCpoESk71Cu2XWR7sTRRk3\" style=\"vertical-align:top\"><td>predniSONE (DELTASONE) tablet</td><td>Tablet</td><td>predniSONE (DELTASONE) tablet</td><td>2.5 mg, Oral, DAILY Starting Fri 5/3/2024, Disp-10 tablet, R-0, Normal</td><td>5/3/2024</td><td>Active</td></tr></table></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "MedicationRequest/eEQl.knbqdVk5PWWogka6.tiWCjETyYdxRulsYBOlHbQ3"
+                            },
+                            {
+                                "reference": "MedicationRequest/eShz-f0oz-pexb7VDZ2XDGtRCpoESk71Cu2XWR7sTRRk3"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Immunizations",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of Immunization Narrative"
+                                }
+                            ],
+                            "text": "History of Immunization Narrative"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Immunization</th><th>Administration Dates</th><th>Next Due</th></tr></thead><tbody><tr style=\"vertical-align:top\"><td>DPT/HIB</td><td>9/21/2024, 5/11/2005</td><td>-</td></tr><tr style=\"vertical-align:top\"><td>MMR</td><td>6/14/2007</td><td>7/17/2026</td></tr><tr style=\"vertical-align:top\"><td>IPV</td><td>6/13/2007</td><td>-</td></tr></tbody></table></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Immunization/eolPL3P4UnBtzmOTdwKL6feB5jsIUGc9LcbJn9O9hqQI3"
+                            },
+                            {
+                                "reference": "Immunization/exHF01.mZ0e7Hj11lY-XXYC2R2C9A5wC7Dfc2zSPHoYk3"
+                            },
+                            {
+                                "reference": "Immunization/exHF01.mZ0e7Hj11lY-XXYNsRVm5St49FPmv-HSiPX.c3"
+                            },
+                            {
+                                "reference": "Immunization/exHF01.mZ0e7Hj11lY-XXYPSK6yE7WffTaoRFAfE4g-w3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Patient/eHXQnz7TxegLxLL92d2JKTw3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eHXQnz7TxegLxLL92d2JKTw3",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Sept JWJ Connectathon</b><br />Female; born 5/18/2004</p><table><thead><tr><th>Former Names / Aliases</th><th>Patient Address</th><th>Communication</th><th>Primary Care Provider</th></tr></thead><tr style=\"vertical-align:top\"><td><ul><li>CONNECTATHON,MAY JWJ</li></ul></td><td>1979 Milky Way<br>Verona, WI 53593<br>USA</td><td>300-555-4444 (home)<br />400-555-4444 (work)<br />fake_email@epic.com</td><td>Brandon Best, MD</td></tr></table></div>"
+                },
+                "extension": [
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.698084.130.768080.39128",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.698084.130.768080.35144",
+                                    "code": "female",
+                                    "display": "female"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCode": "248152002",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS",
+                                            "code": "339",
+                                            "display": "Agdaagux Tribe of King Cove"
+                                        }
+                                    ],
+                                    "text": "Agdaagux Tribe of King Cove"
+                                },
+                                "url": "tribalAffiliation"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "LA29519-8",
+                                    "display": "she/her/her/hers/herself"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPI"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "108784"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698084",
+                        "value": "Z11029"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TOXa1CgmwobqibBQrt30rEWVVh5vd4-YyJ4aXWoJFOWAB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eHXQnz7TxegLxLL92d2JKTw3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698084",
+                        "value": "    Z11029"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "_value": {
+                            "extension": [
+                                {
+                                    "valueString": "xxx-xx-4444",
+                                    "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Sept JWJ Connectathon",
+                        "family": "Connectathon",
+                        "given": [
+                            "Sept",
+                            "JWJ"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Sept JWJ Connectathon",
+                        "family": "Connectathon",
+                        "given": [
+                            "Sept",
+                            "JWJ"
+                        ]
+                    },
+                    {
+                        "use": "old",
+                        "text": "CONNECTATHON,MAY JWJ",
+                        "family": "Connectathon",
+                        "given": [
+                            "May",
+                            "Jwj"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "300-555-4444",
+                        "use": "home",
+                        "rank": 1
+                    },
+                    {
+                        "system": "phone",
+                        "value": "400-555-4444",
+                        "use": "work",
+                        "rank": 2
+                    },
+                    {
+                        "system": "email",
+                        "value": "fake_email@epic.com",
+                        "rank": 1
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2004-05-18",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1979 Milky Way"
+                        ],
+                        "city": "Verona",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53593",
+                        "country": "USA"
+                    },
+                    {
+                        "use": "old",
+                        "line": [
+                            "1979 Milky Way"
+                        ],
+                        "city": "Verona",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53593",
+                        "country": "USA"
+                    }
+                ],
+                "maritalStatus": {
+                    "text": "Single"
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.827665.1000",
+                                        "code": "8",
+                                        "display": "Mother"
+                                    }
+                                ],
+                                "text": "Mother"
+                            }
+                        ],
+                        "name": {
+                            "use": "usual",
+                            "text": "Connectathon,Contact"
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "600-555-4444",
+                                "use": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "en",
+                                    "display": "English"
+                                }
+                            ],
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/e0y4Qz7pf9dsJyvCmVSl6WQ3",
+                        "type": "Practitioner",
+                        "display": "Brandon Best, MD"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/AllergyIntolerance/eLX8H4lgjeTcjjrtvDT3zaT0FuoNzPxv-rmQFi.CjnkE3",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "eLX8H4lgjeTcjjrtvDT3zaT0FuoNzPxv-rmQFi.CjnkE3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    "medication"
+                ],
+                "criticality": "low",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006539",
+                            "display": "MILK-RELATED COMPOUNDS"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006601"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006754"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006768"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000008022"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000167819"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179282"
+                        }
+                    ],
+                    "text": "MILK-RELATED COMPOUNDS"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2012",
+                "recordedDate": "2024-05-16T20:56:34Z",
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "text": "GI intolerance"
+                            }
+                        ],
+                        "description": "GI intolerance"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/AllergyIntolerance/eMGd4aGCV2BR6XgVnrmEM0fWP0NxCVQYi4YEc0UsajNQ3",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "eMGd4aGCV2BR6XgVnrmEM0fWP0NxCVQYi4YEc0UsajNQ3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    "medication"
+                ],
+                "criticality": "high",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000005840",
+                            "display": "PENICILLINS"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000005863"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000005873"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000005940"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006138"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006459"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006487"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000006583"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007002"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007253"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007337"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007418"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007468"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007469"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007471"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007481"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007482"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000011281"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000011298"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000166995"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000166996"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000166997"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000166998"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000166999"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000167000"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000167001"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000167685"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000178976"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000178981"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000178983"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000178984"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179370"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179395"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179429"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179548"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179587"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179599"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179600"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179641"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179710"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179727"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000179730"
+                        }
+                    ],
+                    "text": "PENICILLINS"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2024-05-16",
+                "recordedDate": "2024-05-16T20:54:20Z",
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "text": "Hives"
+                            }
+                        ],
+                        "description": "Hives"
+                    },
+                    {
+                        "manifestation": [
+                            {
+                                "text": "Shortness of Breath"
+                            }
+                        ],
+                        "description": "Shortness of Breath"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/AllergyIntolerance/eWLRWQ2LYNMrLSQh3D0vadzztFy-p0rUMOUYkfxlqhW03",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "eWLRWQ2LYNMrLSQh3D0vadzztFy-p0rUMOUYkfxlqhW03",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    "medication"
+                ],
+                "criticality": "low",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000007624",
+                            "display": "SHELLFISH-DERIVED PRODUCTS"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000168415"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000168510"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.26.1.5",
+                            "code": "N0000185020"
+                        }
+                    ],
+                    "text": "SHELLFISH-DERIVED PRODUCTS"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2024-05-14",
+                "recordedDate": "2024-05-16T20:55:09Z",
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "text": "Halitosis"
+                            }
+                        ],
+                        "description": "Halitosis"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Condition/e2mZUha3piBjaWLgFVsNMrOmShLngxdtOSd0pab1f8EE3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "e2mZUha3piBjaWLgFVsNMrOmShLngxdtOSd0pab1f8EE3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "E10.22",
+                            "display": "Type 1 diabetes mellitus with diabetic chronic kidney disease"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "N18.6",
+                            "display": "End stage renal disease"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "46635009",
+                            "display": "Type 1 Diabetes Mellitus"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "46177005",
+                            "display": "End-Stage Renal Disease"
+                        }
+                    ],
+                    "text": "Type 1 DM with end-stage renal disease"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2024-05-16",
+                "recordedDate": "2024-05-16"
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Condition/e7e9DoHyH8d3o9uWFcd9mP2f7koQBUMUhv4Jc4kmb-sE3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "e7e9DoHyH8d3o9uWFcd9mP2f7koQBUMUhv4Jc4kmb-sE3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.96",
+                            "code": "255604002",
+                            "display": "Mild"
+                        }
+                    ],
+                    "text": "Lo"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "L03.90",
+                            "display": "Cellulitis, unspecified"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "128045006",
+                            "display": "Cellulitis"
+                        }
+                    ],
+                    "text": "Diffuse cellulitis"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2024-05-13",
+                "recordedDate": "2024-05-16"
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Condition/eHdE-Zy21eLriyfz3Ek-I3zGSn4qZjYDESR.DXvBk2ck3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "eHdE-Zy21eLriyfz3Ek-I3zGSn4qZjYDESR.DXvBk2ck3",
+                "extension": [
+                    {
+                        "valueDateTime": "2024-03-08",
+                        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "resolved",
+                            "display": "Resolved"
+                        }
+                    ],
+                    "text": "Resolved"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.96",
+                            "code": "6736007",
+                            "display": "Moderate"
+                        }
+                    ],
+                    "text": "Med"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "K65.9",
+                            "display": "Peritonitis, unspecified"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "48661000",
+                            "display": "Peritonitis"
+                        }
+                    ],
+                    "text": "Peritonitis"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2024-05-08",
+                "abatementDateTime": "2024-05-10",
+                "recordedDate": "2024-05-16"
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Condition/ei1ckcRalsFoQsYlubrUeOJ.t7fVqC1snKANIzFkyk8c3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "ei1ckcRalsFoQsYlubrUeOJ.t7fVqC1snKANIzFkyk8c3",
+                "extension": [
+                    {
+                        "valueDateTime": "2007",
+                        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "N07.8",
+                            "display": "Hereditary nephropathy, not elsewhere classified with other morphologic lesions"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "399340005",
+                            "display": "Hereditary Nephritis"
+                        }
+                    ],
+                    "text": "Hereditary nephritis"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "onsetDateTime": "2024-05-16",
+                "recordedDate": "2024-05-16"
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Immunization/eolPL3P4UnBtzmOTdwKL6feB5jsIUGc9LcbJn9O9hqQI3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "eolPL3P4UnBtzmOTdwKL6feB5jsIUGc9LcbJn9O9hqQI3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.768076",
+                        "value": "1000001073"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "text": "DPT/HIB"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "occurrenceDateTime": "2024-09-21",
+                "primarySource": true,
+                "manufacturer": {
+                    "display": "Abbott"
+                },
+                "lotNumber": "ABCABC",
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4040",
+                            "code": "15",
+                            "display": "Right arm"
+                        }
+                    ],
+                    "text": "Right arm"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4030",
+                            "code": "2",
+                            "display": "Intramuscular"
+                        }
+                    ],
+                    "text": "Intramuscular"
+                },
+                "doseQuantity": {
+                    "value": 1,
+                    "unit": "drop",
+                    "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4019",
+                    "code": "5004"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/euJOUNeZyX6mofWELWG0Ibg3",
+                            "type": "Practitioner",
+                            "display": "Starter Provider"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Immunization/exHF01.mZ0e7Hj11lY-XXYC2R2C9A5wC7Dfc2zSPHoYk3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "exHF01.mZ0e7Hj11lY-XXYC2R2C9A5wC7Dfc2zSPHoYk3",
+                "extension": [
+                    {
+                        "valueDate": "2026-07-17",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/next-due-date"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.768076",
+                        "value": "1000001008"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "03"
+                        }
+                    ],
+                    "text": "MMR"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "occurrenceDateTime": "2007-06-14",
+                "primarySource": false,
+                "reportOrigin": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4082"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4040",
+                            "code": "15",
+                            "display": "Right arm"
+                        }
+                    ],
+                    "text": "Right arm"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4030",
+                            "code": "6",
+                            "display": "Intravenous"
+                        }
+                    ],
+                    "text": "Intravenous"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/eSC8Yf7UDTJx4ud-X0qPsbQ3",
+                            "type": "Practitioner",
+                            "display": "James Jahns"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Immunization/exHF01.mZ0e7Hj11lY-XXYNsRVm5St49FPmv-HSiPX.c3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "exHF01.mZ0e7Hj11lY-XXYNsRVm5St49FPmv-HSiPX.c3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.768076",
+                        "value": "1000001006"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "text": "DPT/HIB"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "occurrenceDateTime": "2005-05-11",
+                "primarySource": false,
+                "reportOrigin": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4082"
+                        }
+                    ],
+                    "text": "Patient reported"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/eRvOfpCMPQ4mCADEMcYsrvg3",
+                            "type": "Practitioner",
+                            "display": "Demo Nurse"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Immunization/exHF01.mZ0e7Hj11lY-XXYPSK6yE7WffTaoRFAfE4g-w3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "exHF01.mZ0e7Hj11lY-XXYPSK6yE7WffTaoRFAfE4g-w3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.768076",
+                        "value": "1000001007"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "text": "IPV"
+                },
+                "patient": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "occurrenceDateTime": "2007-06-13",
+                "primarySource": false,
+                "reportOrigin": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4082"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4040",
+                            "code": "6",
+                            "display": "Right deltoid"
+                        }
+                    ],
+                    "text": "Right deltoid"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4030",
+                            "code": "6",
+                            "display": "Intravenous"
+                        }
+                    ],
+                    "text": "Intravenous"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/eSC8Yf7UDTJx4ud-X0qPsbQ3",
+                            "type": "Practitioner",
+                            "display": "James Jahns"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/MedicationRequest/eEQl.knbqdVk5PWWogka6.tiWCjETyYdxRulsYBOlHbQ3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eEQl.knbqdVk5PWWogka6.tiWCjETyYdxRulsYBOlHbQ3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.798268",
+                        "value": "1000296029"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ejbzzqQmSEAXVwsPUwpyK8naG0lBVTDz-3miti1.DWuIQxmDukLwuAZT2d0X3PLG3skcjsiYYQHCjBzptT9Cq88iye.8X6GVrHQa3sldgn-I3",
+                    "display": "metformin (GLUCOPHAGE) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "encounter": {
+                    "reference": "Encounter/emM4l9XfOITYRElR9TydgWw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+                        "value": "329"
+                    },
+                    "display": "Orders Only"
+                },
+                "authoredOn": "2024-05-16",
+                "requester": {
+                    "reference": "Practitioner/eSC8Yf7UDTJx4ud-X0qPsbQ3",
+                    "type": "Practitioner",
+                    "display": "James Jahns"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eSC8Yf7UDTJx4ud-X0qPsbQ3",
+                    "type": "Practitioner",
+                    "display": "James Jahns"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "46635009",
+                                "display": "Diabetes mellitus type 1 (disorder)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                                "code": "250.41",
+                                "display": "Type I (juvenile type) diabetes mellitus with renal manifestations, not stated as uncontrolled(250.41)"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                                "code": "585.6",
+                                "display": "End stage renal disease"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "E10.22",
+                                "display": "Type 1 diabetes mellitus with diabetic chronic kidney disease"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                                "code": "N18.6",
+                                "display": "End stage renal disease"
+                            }
+                        ],
+                        "text": "Type 1 DM with end-stage renal disease"
+                    }
+                ],
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "850 mg, Oral, 2 TIMES DAILY WITH MEALS Starting Sun 2/18/2024, Disp-60 tablet, R-0, Normal",
+                        "patientInstruction": "Take 1 tablet by mouth in the morning and 1 tablet in the evening. Take with meals.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-02-18"
+                                },
+                                "timeOfDay": [
+                                    "08:00:00",
+                                    "18:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0800 & 1800"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 850,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 850,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2024-02-18"
+                    },
+                    "numberOfRepeatsAllowed": 0,
+                    "quantity": {
+                        "value": 60,
+                        "unit": "tablet"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 30,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/MedicationRequest/eShz-f0oz-pexb7VDZ2XDGtRCpoESk71Cu2XWR7sTRRk3",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "eShz-f0oz-pexb7VDZ2XDGtRCpoESk71Cu2XWR7sTRRk3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.798268",
+                        "value": "1000296030"
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "medicationReference": {
+                    "reference": "Medication/ecJfN.Z6LevgS2GZ6oM3x4IeodP.WvXPlm1OXRNxiIqIbz9pr3DjDvK--JJ92w4pmI5B4s4XPyW23KDH1CCoIi9XQcbaOmm7RAP9Nbg5fMNw3",
+                    "display": "predniSONE (DELTASONE) tablet"
+                },
+                "subject": {
+                    "reference": "Patient/eHXQnz7TxegLxLL92d2JKTw3",
+                    "display": "Connectathon, Sept JWJ"
+                },
+                "encounter": {
+                    "reference": "Encounter/emM4l9XfOITYRElR9TydgWw3",
+                    "identifier": {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+                        "value": "329"
+                    },
+                    "display": "Orders Only"
+                },
+                "authoredOn": "2024-05-16",
+                "requester": {
+                    "reference": "Practitioner/eSC8Yf7UDTJx4ud-X0qPsbQ3",
+                    "type": "Practitioner",
+                    "display": "James Jahns"
+                },
+                "recorder": {
+                    "reference": "Practitioner/eSC8Yf7UDTJx4ud-X0qPsbQ3",
+                    "type": "Practitioner",
+                    "display": "James Jahns"
+                },
+                "courseOfTherapyType": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+                            "code": "acute",
+                            "display": "Short course (acute) therapy"
+                        }
+                    ],
+                    "text": "Short course (acute) therapy"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "2.5 mg, Oral, DAILY Starting Fri 5/3/2024, Disp-10 tablet, R-0, Normal",
+                        "patientInstruction": "Take 1 tablet by mouth in the morning.",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2024-05-03"
+                                },
+                                "timeOfDay": [
+                                    "09:00:00"
+                                ]
+                            },
+                            "code": {
+                                "text": "0900"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "260548002",
+                                    "display": "Oral (qualifier value)"
+                                },
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.798268.7025",
+                                    "code": "15",
+                                    "display": "Oral"
+                                }
+                            ],
+                            "text": "Oral"
+                        },
+                        "method": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "419652001",
+                                    "display": "Take"
+                                }
+                            ],
+                            "text": "Take"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "calculated",
+                                            "display": "calculated"
+                                        }
+                                    ],
+                                    "text": "calculated"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "admin-amount",
+                                            "display": "admin-amount"
+                                        }
+                                    ],
+                                    "text": "admin-amount"
+                                },
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "tablet",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "{tbl}"
+                                }
+                            },
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://epic.com/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "ordered"
+                                        }
+                                    ],
+                                    "text": "ordered"
+                                },
+                                "doseQuantity": {
+                                    "value": 2.5,
+                                    "unit": "mg",
+                                    "system": "http://unitsofmeasure.org",
+                                    "code": "mg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2024-05-03"
+                    },
+                    "numberOfRepeatsAllowed": 0,
+                    "quantity": {
+                        "value": 10,
+                        "unit": "tablet"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 10,
+                        "unit": "Day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Medication/ecJfN.Z6LevgS2GZ6oM3x4IeodP.WvXPlm1OXRNxiIqIbz9pr3DjDvK--JJ92w4pmI5B4s4XPyW23KDH1CCoIi9XQcbaOmm7RAP9Nbg5fMNw3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ecJfN.Z6LevgS2GZ6oM3x4IeodP.WvXPlm1OXRNxiIqIbz9pr3DjDvK--JJ92w4pmI5B4s4XPyW23KDH1CCoIi9XQcbaOmm7RAP9Nbg5fMNw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698288",
+                        "value": "6495"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "17549"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "22100045000310"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "00712"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "8640"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "198146"
+                        }
+                    ],
+                    "text": "predniSONE (DELTASONE) tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "Tablet"
+                        }
+                    ],
+                    "text": "Tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "17549"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "22100045000310"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "00712"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "8640"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "198146"
+                                }
+                            ],
+                            "text": "predniSONE (DELTASONE) tablet"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 2.5,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 2.5,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://connectathon.epic.com/Interconnect-FHIR-OAuth/api/FHIR/R4/Medication/ejbzzqQmSEAXVwsPUwpyK8naG0lBVTDz-3miti1.DWuIQxmDukLwuAZT2d0X3PLG3skcjsiYYQHCjBzptT9Cq88iye.8X6GVrHQa3sldgn-I3",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "ejbzzqQmSEAXVwsPUwpyK8naG0lBVTDz-3miti1.DWuIQxmDukLwuAZT2d0X3PLG3skcjsiYYQHCjBzptT9Cq88iye.8X6GVrHQa3sldgn-I3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698288",
+                        "value": "14719"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.253",
+                            "code": "39510"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.68",
+                            "code": "27250050000340"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.162",
+                            "code": "14112"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "6809"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "235743"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "861010"
+                        }
+                    ],
+                    "text": "metformin (GLUCOPHAGE) tablet"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.698288.310",
+                            "code": "TABS",
+                            "display": "Tablet"
+                        }
+                    ],
+                    "text": "Tablet"
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.253",
+                                    "code": "39510"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.68",
+                                    "code": "27250050000340"
+                                },
+                                {
+                                    "system": "urn:oid:2.16.840.1.113883.6.162",
+                                    "code": "14112"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "6809"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "235743"
+                                },
+                                {
+                                    "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                                    "code": "861010"
+                                }
+                            ],
+                            "text": "metformin (GLUCOPHAGE) tablet"
+                        },
+                        "strength": {
+                            "numerator": {
+                                "value": 850,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 850,
+                                "unit": "MG",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

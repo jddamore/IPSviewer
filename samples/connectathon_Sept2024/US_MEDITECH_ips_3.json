@@ -1,0 +1,2425 @@
+{
+    "type": "searchset",
+    "entry": [
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Composition/e88a2344-5237-4cba-804e-c70f9055569b",
+            "resource": {
+                "id": "e88a2344-5237-4cba-804e-c70f9055569b",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-composition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/composition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Patient Summary ID</th><th>Patient</th><th>Composition Date</th><th>Author</th><th>Attester</th><th>Status</th></tr></thead><tbody><tr><td>e88a2344-5237-4cba-804e-c70f9055569b</td><td>Clarkson,Jane Annie NO EDITS</td><td>2024-09-22T16:58:06.035Z</td><td>BBK Donor</td><td>BBK Donor</td><td>final</td></tr></tbody></table></div>"
+                },
+                "identifier": {
+                    "system": "https://ehr.meditech.com/",
+                    "value": "e88a2344-5237-4cba-804e-c70f9055569b"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient Summary"
+                        }
+                    ],
+                    "text": "Patient Summary"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "author": [
+                    {
+                        "reference": "Organization/a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+                        "display": "BBK Donor",
+                        "type": "Organization"
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/Organization/a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+                    "display": "BBK Donor",
+                    "type": "Organization"
+                },
+                "event": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2024-09-22T16:58:06+00:00"
+                        }
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Medication Summary Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ],
+                            "text": "History of Medication use Narrative"
+                        },
+                        "entry": [
+                            {
+                                "reference": "MedicationRequest/e1647ed6-f5fd-59b9-8223-0488e6963357",
+                                "display": "e1647ed6-f5fd-59b9-8223-0488e6963357"
+                            },
+                            {
+                                "reference": "MedicationRequest/56bc3ad2-656d-57fe-9207-19b682e65ee7",
+                                "display": "56bc3ad2-656d-57fe-9207-19b682e65ee7"
+                            },
+                            {
+                                "reference": "MedicationRequest/3680b6f3-efaf-507e-b109-efd227234c62",
+                                "display": "3680b6f3-efaf-507e-b109-efd227234c62"
+                            },
+                            {
+                                "reference": "MedicationRequest/4fde9aaa-914d-52ad-832a-8130ca936f2e",
+                                "display": "4fde9aaa-914d-52ad-832a-8130ca936f2e"
+                            },
+                            {
+                                "reference": "MedicationRequest/ff3ad98f-b3b9-5020-8334-5c85610f2961",
+                                "display": "ff3ad98f-b3b9-5020-8334-5c85610f2961"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication</th><th>Status</th><th>Intent</th><th>Dose</th><th>Dosage Instructions</th><th>Validity Start Date</th><th>Validity End Date</th></tr></thead><tbody><tr idRef=\"e1647ed6-f5fd-59b9-8223-0488e6963357\"><td>citalopram 20 mg tablet</td><td>active</td><td>proposal</td><td>20 mg</td><td>20 mg orally daily, start: 2020-10-23</td><td>2020-10-23</td><td></td></tr><tr idRef=\"56bc3ad2-656d-57fe-9207-19b682e65ee7\"><td>aripiprazole 2 mg tablet</td><td>active</td><td>proposal</td><td>2 mg</td><td>2 mg orally, As Needed for dizziness or vertigo, start: 2020-10-23</td><td>2020-10-23</td><td></td></tr><tr idRef=\"3680b6f3-efaf-507e-b109-efd227234c62\"><td>Tylenol Extra Strength (acetaminophen)</td><td>cancelled</td><td>order</td><td>500 MG</td><td>500 mg PO Q4H as needed for 14 days, As Needed for Moderate Pain, start: 2020-11-22T19:34:00-05:00 ~ end: 2020-11-30T19:33:00-05:00</td><td>2020-11-23T00:34:00+00:00</td><td>2020-12-01T00:33:00+00:00</td></tr><tr idRef=\"4fde9aaa-914d-52ad-832a-8130ca936f2e\"><td>Aranesp (darbepoetin alfa in polysorbat)</td><td>cancelled</td><td>order</td><td>500 MCG</td><td>500 mcg IJ QWEEK for 14 days, start: 2020-11-22T20:00:00-05:00 ~ end: 2020-11-30T19:59:00-05:00</td><td>2020-11-23T01:00:00+00:00</td><td>2020-12-01T00:59:00+00:00</td></tr><tr idRef=\"ff3ad98f-b3b9-5020-8334-5c85610f2961\"><td>Rocephin (TAN) (ceftriaxone sodium)</td><td>cancelled</td><td>order</td><td>0.1 GM</td><td>0.1 gm IJ BID for 14 days, start: 2020-11-22T14:00:00-05:00 ~ end: 2020-11-30T13:59:00-05:00</td><td>2020-11-22T19:00:00+00:00</td><td>2020-11-30T18:59:00+00:00</td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "Allergies and Intolerances Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ],
+                            "text": "Allergies and adverse reactions Document"
+                        },
+                        "entry": [
+                            {
+                                "reference": "AllergyIntolerance/d7b7fa38-cbba-581f-b7a1-8133a0d4eb3b",
+                                "display": "d7b7fa38-cbba-581f-b7a1-8133a0d4eb3b"
+                            },
+                            {
+                                "reference": "AllergyIntolerance/df4c31f5-5e31-505d-b210-16f265c30ea2",
+                                "display": "df4c31f5-5e31-505d-b210-16f265c30ea2"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Allergen</th><th>Clinical Status</th><th>Type</th><th>Severity</th><th>Reaction</th><th>Onset Date</th><th>Verification Status</th></tr></thead><tbody><tr idRef=\"d7b7fa38-cbba-581f-b7a1-8133a0d4eb3b\"><td>ampicillin</td><td>Active</td><td>allergy</td><td>moderate</td><td>Hives</td><td>2020-11-17T15:59:01+00:00</td><td>Confirmed</td></tr><tr idRef=\"df4c31f5-5e31-505d-b210-16f265c30ea2\"><td>benzoic acid</td><td>Active</td><td>allergy</td><td>mild</td><td>Headache</td><td>2020-11-17T16:13:05+00:00</td><td>Confirmed</td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "Active Problems Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem List Reported"
+                                }
+                            ],
+                            "text": "Problem List Reported"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/34bc305a-4fbd-5785-80aa-788b57f08bae",
+                                "display": "34bc305a-4fbd-5785-80aa-788b57f08bae"
+                            },
+                            {
+                                "reference": "Condition/598b3f9d-a1c2-56ac-817e-ae8c09e09926",
+                                "display": "598b3f9d-a1c2-56ac-817e-ae8c09e09926"
+                            },
+                            {
+                                "reference": "Condition/e3f6f622-691f-5197-a109-9f2e8c730c1c",
+                                "display": "e3f6f622-691f-5197-a109-9f2e8c730c1c"
+                            },
+                            {
+                                "reference": "Condition/5f913a4b-ff05-51b3-81a5-2522f9965b06",
+                                "display": "5f913a4b-ff05-51b3-81a5-2522f9965b06"
+                            },
+                            {
+                                "reference": "Condition/3159d22d-46dc-50a7-ba59-acf1c07a20bb",
+                                "display": "3159d22d-46dc-50a7-ba59-acf1c07a20bb"
+                            },
+                            {
+                                "reference": "Condition/d4f1a626-7f46-5b55-86a3-0b893a03e635",
+                                "display": "d4f1a626-7f46-5b55-86a3-0b893a03e635"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medical Problem</th><th>Onset Date</th><th>Clinical Status</th><th>Verification Status></th><th>Severity</th></tr></thead><tbody><tr idRef=\"34bc305a-4fbd-5785-80aa-788b57f08bae\"><td>Essential (primary) hypertension</td><td>2019-06-10</td><td>Active</td><td>Confirmed</td><td></td></tr><tr idRef=\"598b3f9d-a1c2-56ac-817e-ae8c09e09926\"><td>Iron deficiency anemia, unspecified</td><td>2020-06-22</td><td>Active</td><td>Confirmed</td><td></td></tr><tr idRef=\"e3f6f622-691f-5197-a109-9f2e8c730c1c\"><td>Interstitial pulmonary disease, unspecified</td><td>2020-06-22</td><td>Active</td><td>Confirmed</td><td></td></tr><tr idRef=\"5f913a4b-ff05-51b3-81a5-2522f9965b06\"><td>Chronic kidney disease, unspecified</td><td>2020-06-22</td><td>Active</td><td>Confirmed</td><td></td></tr><tr idRef=\"3159d22d-46dc-50a7-ba59-acf1c07a20bb\"><td>Chronic kidney disease, unspecified</td><td>2020-06-22</td><td>Active</td><td>Confirmed</td><td></td></tr><tr idRef=\"d4f1a626-7f46-5b55-86a3-0b893a03e635\"><td>. Sickness exhibited by patient\rb. HealthCare Concerns refer to underlying clinical facts\ri. Documented HyperTension problem\rii. Watch Weight of patient\riii. Documented Anemia problem</td><td></td><td>Active</td><td>Confirmed</td><td></td></tr></tbody></table></div>"
+                        }
+                    },
+                    {
+                        "title": "History of Procedures Section",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47519-4",
+                                    "display": "History of Procedures Document"
+                                }
+                            ],
+                            "text": "History of Procedures Document"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Procedure/faf298b4-106d-56ae-a065-027d57a7221e",
+                                "display": "faf298b4-106d-56ae-a065-027d57a7221e"
+                            },
+                            {
+                                "reference": "Procedure/0da369df-e943-548d-876b-fab5f626c2a5",
+                                "display": "0da369df-e943-548d-876b-fab5f626c2a5"
+                            },
+                            {
+                                "reference": "Procedure/a2c58e59-8177-532e-bb9c-99e6eb084639",
+                                "display": "a2c58e59-8177-532e-bb9c-99e6eb084639"
+                            },
+                            {
+                                "reference": "Procedure/7dfad1ae-2e58-555d-83bd-aea662ff739c",
+                                "display": "7dfad1ae-2e58-555d-83bd-aea662ff739c"
+                            }
+                        ],
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Procedure</th><th>Date Performed</th><th>Status</th></tr></thead><tbody><tr idRef=\"faf298b4-106d-56ae-a065-027d57a7221e\"><td>Bronchoscopy</td><td>2020-06-22</td><td>completed</td></tr><tr idRef=\"0da369df-e943-548d-876b-fab5f626c2a5\"><td>Chest X-Ray, PA and Lateral Views</td><td>2020-06-22T14:27:00+00:00</td><td>completed</td></tr><tr idRef=\"a2c58e59-8177-532e-bb9c-99e6eb084639\"><td>Intro of Pacemaker via vein</td><td>2011-10-05T14:28:00+00:00</td><td>completed</td></tr><tr idRef=\"7dfad1ae-2e58-555d-83bd-aea662ff739c\"><td>Intro of Pacemaker via vein</td><td>2019-06-12T21:03:00+00:00</td><td>completed</td></tr></tbody></table></div>"
+                        }
+                    }
+                ],
+                "date": "2024-09-22T16:58:06+00:00",
+                "title": "International Patient Summary",
+                "resourceType": "Composition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/AllergyIntolerance/d7b7fa38-cbba-581f-b7a1-8133a0d4eb3b",
+            "resource": {
+                "id": "d7b7fa38-cbba-581f-b7a1-8133a0d4eb3b",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-allergyintolerance",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/allergyintolerance-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "asserter": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "text": "Hives"
+                            }
+                        ],
+                        "severity": "moderate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "type": "allergy",
+                "category": [
+                    "medication"
+                ],
+                "criticality": "high",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "733",
+                            "display": "ampicillin"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "31087008",
+                            "display": "ampicillin"
+                        }
+                    ]
+                },
+                "onsetDateTime": "2020-11-17T15:59:01+00:00",
+                "recordedDate": "2020-11-17T16:06:02+00:00",
+                "lastOccurrence": "2020-11-17T15:59:01+00:00",
+                "resourceType": "AllergyIntolerance"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/AllergyIntolerance/df4c31f5-5e31-505d-b210-16f265c30ea2",
+            "resource": {
+                "id": "df4c31f5-5e31-505d-b210-16f265c30ea2",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-allergyintolerance",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/allergyintolerance-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "asserter": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "text": "Headache"
+                            }
+                        ],
+                        "severity": "mild"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "type": "allergy",
+                "category": [
+                    "medication"
+                ],
+                "criticality": "low",
+                "code": {
+                    "text": "benzoic acid"
+                },
+                "onsetDateTime": "2020-11-17T16:13:05+00:00",
+                "recordedDate": "2020-11-17T16:15:36+00:00",
+                "lastOccurrence": "2020-11-17T16:13:05+00:00",
+                "resourceType": "AllergyIntolerance"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/34bc305a-4fbd-5785-80aa-788b57f08bae",
+            "resource": {
+                "id": "34bc305a-4fbd-5785-80aa-788b57f08bae",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "I10",
+                            "display": "Essential (primary) hypertension"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "59621000",
+                            "display": "Essential hypertension"
+                        }
+                    ],
+                    "text": "Essential hypertension"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "onsetDateTime": "2019-06-10",
+                "recordedDate": "2020-11-13",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/598b3f9d-a1c2-56ac-817e-ae8c09e09926",
+            "resource": {
+                "id": "598b3f9d-a1c2-56ac-817e-ae8c09e09926",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "D50.9",
+                            "display": "Iron deficiency anemia, unspecified"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "87522002",
+                            "display": "Iron deficiency anemia"
+                        }
+                    ],
+                    "text": "Iron deficiency anemia"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "onsetDateTime": "2020-06-22",
+                "recordedDate": "2020-11-13",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/e3f6f622-691f-5197-a109-9f2e8c730c1c",
+            "resource": {
+                "id": "e3f6f622-691f-5197-a109-9f2e8c730c1c",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "J84.9",
+                            "display": "Interstitial pulmonary disease, unspecified"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "64667001",
+                            "display": "Interstitial pneumonia"
+                        }
+                    ],
+                    "text": "Interstitial pneumonia"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "onsetDateTime": "2020-06-22",
+                "recordedDate": "2020-11-13",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/5f913a4b-ff05-51b3-81a5-2522f9965b06",
+            "resource": {
+                "id": "5f913a4b-ff05-51b3-81a5-2522f9965b06",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ],
+                        "text": "Encounter Diagnosis"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "N18.9",
+                            "display": "Chronic kidney disease, unspecified"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "D63.1",
+                            "display": "Anemia in chronic kidney disease"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "271737000",
+                            "display": "Anemia"
+                        }
+                    ],
+                    "text": "Anemia in chronic kidney disease"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "onsetDateTime": "2020-06-22",
+                "recordedDate": "2020-11-19",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/3159d22d-46dc-50a7-ba59-acf1c07a20bb",
+            "resource": {
+                "id": "3159d22d-46dc-50a7-ba59-acf1c07a20bb",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "encounter-diagnosis",
+                                "display": "Encounter Diagnosis"
+                            }
+                        ],
+                        "text": "Encounter Diagnosis"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "N18.9",
+                            "display": "Chronic kidney disease, unspecified"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "D63.1",
+                            "display": "Anemia in chronic kidney disease"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "234348004",
+                            "display": "Anemia of renal disease"
+                        }
+                    ],
+                    "text": "Anemia of renal disease"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "onsetDateTime": "2020-06-22",
+                "recordedDate": "2020-11-19",
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Condition/d4f1a626-7f46-5b55-86a3-0b893a03e635",
+            "resource": {
+                "id": "d4f1a626-7f46-5b55-86a3-0b893a03e635",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+                                "code": "health-concern",
+                                "display": "Health Concern"
+                            }
+                        ],
+                        "text": "Health Concern"
+                    }
+                ],
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "code": {
+                    "text": ". Sickness exhibited by patient\rb. HealthCare Concerns refer to underlying clinical facts\ri. Documented HyperTension problem\rii. Watch Weight of patient\riii. Documented Anemia problem"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-condition",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips"
+                    ]
+                },
+                "resourceType": "Condition"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/e1647ed6-f5fd-59b9-8223-0488e6963357",
+            "resource": {
+                "id": "e1647ed6-f5fd-59b9-8223-0488e6963357",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/b3e042c6-bbbd-5003-8244-390257154fd1",
+                    "display": "citalopram 20 mg tablet",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "patient-reported",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2020-10-23"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "20 mg orally daily, start: 2020-10-23",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2020-10-23"
+                                },
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "PO"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "mg",
+                                    "value": 20,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "intent": "proposal",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": false,
+                "reportedBoolean": true,
+                "authoredOn": "2020-10-23T13:02:49+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/56bc3ad2-656d-57fe-9207-19b682e65ee7",
+            "resource": {
+                "id": "56bc3ad2-656d-57fe-9207-19b682e65ee7",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/f8a2a45a-4420-5204-8a1c-30021852b88e",
+                    "display": "aripiprazole 2 mg tablet",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "patient-reported",
+                    "type": "Patient"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2020-10-23"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "2 mg orally, As Needed for dizziness or vertigo, start: 2020-10-23",
+                        "asNeededCodeableConcept": {
+                            "text": "dizziness or vertigo"
+                        },
+                        "route": {
+                            "text": "PO"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "mg",
+                                    "value": 2,
+                                    "code": "mg",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "intent": "proposal",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "community",
+                                "display": "Community"
+                            }
+                        ],
+                        "text": "Community"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": false,
+                "reportedBoolean": true,
+                "authoredOn": "2020-10-23T13:03:26+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/3680b6f3-efaf-507e-b109-efd227234c62",
+            "resource": {
+                "id": "3680b6f3-efaf-507e-b109-efd227234c62",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/29aee935-9ccf-53fe-90f0-971d9cc7ce11",
+                    "display": "Tylenol Extra Strength (acetaminophen)",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2020-11-23T00:34:00+00:00",
+                        "end": "2020-12-01T00:33:00+00:00"
+                    },
+                    "performer": {
+                        "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                        "display": "MEDITECH General Hospital",
+                        "type": "Organization"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "500 mg PO Q4H as needed for 14 days, As Needed for Moderate Pain, start: 2020-11-22T19:34:00-05:00 ~ end: 2020-11-30T19:33:00-05:00",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2020-11-23T00:34:00+00:00",
+                                    "end": "2020-12-01T00:33:00+00:00"
+                                },
+                                "count": 14,
+                                "frequency": 6,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+                                        "code": "Q4H",
+                                        "display": "Q4H"
+                                    }
+                                ],
+                                "text": "Q4H"
+                            }
+                        },
+                        "asNeededCodeableConcept": {
+                            "text": "Moderate Pain"
+                        },
+                        "route": {
+                            "text": "Oral"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "MG",
+                                    "value": 500,
+                                    "code": "MG",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "cancelled",
+                "statusReason": {
+                    "text": "Cancelled by PHABKGJOB"
+                },
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": true,
+                "reportedBoolean": false,
+                "authoredOn": "2020-11-18T00:34:51+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/4fde9aaa-914d-52ad-832a-8130ca936f2e",
+            "resource": {
+                "id": "4fde9aaa-914d-52ad-832a-8130ca936f2e",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/15bef179-6360-5742-a518-a6b4f6cc9653",
+                    "display": "Aranesp (darbepoetin alfa in polysorbat)",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2020-11-23T01:00:00+00:00",
+                        "end": "2020-12-01T00:59:00+00:00"
+                    },
+                    "performer": {
+                        "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                        "display": "MEDITECH General Hospital",
+                        "type": "Organization"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "500 mcg IJ QWEEK for 14 days, start: 2020-11-22T20:00:00-05:00 ~ end: 2020-11-30T19:59:00-05:00",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2020-11-23T01:00:00+00:00",
+                                    "end": "2020-12-01T00:59:00+00:00"
+                                },
+                                "count": 14,
+                                "frequency": 1,
+                                "period": 7,
+                                "periodUnit": "d"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "INJECTION"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "MCG",
+                                    "value": 500,
+                                    "code": "MCG",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "cancelled",
+                "statusReason": {
+                    "text": "Cancelled by PHABKGJOB"
+                },
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": true,
+                "reportedBoolean": false,
+                "authoredOn": "2020-11-18T01:00:12+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationRequest/ff3ad98f-b3b9-5020-8334-5c85610f2961",
+            "resource": {
+                "id": "ff3ad98f-b3b9-5020-8334-5c85610f2961",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationrequest",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/medicationrequest-uv-ips"
+                    ]
+                },
+                "medicationReference": {
+                    "reference": "Medication/876d4799-7069-508c-8158-888271c4d34b",
+                    "display": "Rocephin (TAN) (ceftriaxone sodium)",
+                    "type": "Medication"
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "requester": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "recorder": {
+                    "reference": "Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+                    "display": "Meditech DONOT EDIT JOBS MD",
+                    "type": "Practitioner"
+                },
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2020-11-22T19:00:00+00:00",
+                        "end": "2020-11-30T18:59:00+00:00"
+                    },
+                    "performer": {
+                        "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                        "display": "MEDITECH General Hospital",
+                        "type": "Organization"
+                    }
+                },
+                "dosageInstruction": [
+                    {
+                        "sequence": 1,
+                        "text": "0.1 gm IJ BID for 14 days, start: 2020-11-22T14:00:00-05:00 ~ end: 2020-11-30T13:59:00-05:00",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2020-11-22T19:00:00+00:00",
+                                    "end": "2020-11-30T18:59:00+00:00"
+                                },
+                                "count": 14,
+                                "frequency": 2,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+                                        "code": "BID",
+                                        "display": "BID"
+                                    }
+                                ],
+                                "text": "TWICE A DAY"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "INJECTION"
+                        },
+                        "doseAndRate": [
+                            {
+                                "type": {
+                                    "coding": [
+                                        {
+                                            "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                                            "code": "ordered",
+                                            "display": "Ordered"
+                                        }
+                                    ],
+                                    "text": "Ordered"
+                                },
+                                "doseQuantity": {
+                                    "unit": "GM",
+                                    "value": 0.1,
+                                    "code": "GM",
+                                    "system": "http://unitsofmeasure.org"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "cancelled",
+                "statusReason": {
+                    "text": "Cancelled by PHABKGJOB"
+                },
+                "intent": "order",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                                "code": "inpatient",
+                                "display": "Inpatient"
+                            }
+                        ],
+                        "text": "Inpatient"
+                    }
+                ],
+                "priority": "routine",
+                "doNotPerform": true,
+                "reportedBoolean": false,
+                "authoredOn": "2020-11-18T13:42:00+00:00",
+                "resourceType": "MedicationRequest"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationStatement/F1473466-4F1A-4993-A447-659767930669",
+            "resource": {
+                "id": "F1473466-4F1A-4993-A447-659767930669",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationstatement|0.10.0",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "type": "Patient"
+                },
+                "context": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "dosage": [
+                    {
+                        "text": "20 mg orally daily",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 1,
+                                "period": 1,
+                                "periodUnit": "d"
+                            },
+                            "code": {
+                                "text": "DAILY"
+                            }
+                        },
+                        "asNeededBoolean": false,
+                        "route": {
+                            "text": "PO"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "unit": "mg",
+                                    "value": 20
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+                            "version": "4.0.0",
+                            "code": "patientspecified",
+                            "display": "Patient Specified"
+                        }
+                    ],
+                    "text": "Pt History"
+                },
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "55111034301",
+                            "system": "http://hl7.org/fhir/sid/ndc"
+                        }
+                    ]
+                },
+                "effectivePeriod": {
+                    "start": "2020-10-23T13:02:49+00:00"
+                },
+                "dateAsserted": "2020-10-23T13:04:21+00:00",
+                "resourceType": "MedicationStatement"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/MedicationStatement/83F44138-9A73-472F-9F6C-7A545A4E8B13",
+            "resource": {
+                "id": "83F44138-9A73-472F-9F6C-7A545A4E8B13",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medicationstatement|0.10.0",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips"
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "type": "Patient"
+                },
+                "context": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "dosage": [
+                    {
+                        "text": "2 mg orally As Needed for dizziness or vertigo",
+                        "asNeededCodeableConcept": {
+                            "text": "dizziness or vertigo"
+                        },
+                        "route": {
+                            "text": "PO"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "unit": "mg",
+                                    "value": 2
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+                            "version": "4.0.0",
+                            "code": "patientspecified",
+                            "display": "Patient Specified"
+                        }
+                    ],
+                    "text": "Pt History"
+                },
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "code": "13668021630",
+                            "system": "http://hl7.org/fhir/sid/ndc"
+                        }
+                    ]
+                },
+                "effectivePeriod": {
+                    "start": "2020-10-23T13:03:26+00:00"
+                },
+                "resourceType": "MedicationStatement"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+            "resource": {
+                "id": "fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                "identifier": [
+                    {
+                        "type": {
+                            "text": "Medical record number",
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/MRN",
+                        "value": "MR00103967"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Clarkson",
+                        "given": [
+                            "Jane",
+                            "Annie NO EDITS"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "janeclarkson@gmail.com"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "(555)777-1234",
+                        "use": "mobile",
+                        "rank": 1
+                    },
+                    {
+                        "system": "phone",
+                        "value": "(555)723-1544",
+                        "use": "home",
+                        "rank": 2
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2018-06-01",
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "both",
+                        "line": [
+                            "1357 Amber Dr"
+                        ],
+                        "city": "BEAVERTON",
+                        "state": "OR",
+                        "postalCode": "97006",
+                        "country": "USA"
+                    },
+                    {
+                        "use": "old",
+                        "type": "both",
+                        "line": [
+                            "1402 Dariy Dr."
+                        ],
+                        "city": "BEAVERTON",
+                        "state": "OR",
+                        "postalCode": "97006",
+                        "country": "USA",
+                        "period": {
+                            "end": "2020-06-21"
+                        }
+                    }
+                ],
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/f3546a47-7d65-5011-802f-57e2326e17d4",
+                        "display": "Dr Albert Davis",
+                        "type": "Practitioner"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-Patient",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/Patient-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
+                    ]
+                },
+                "contact": [
+                    {
+                        "name": {
+                            "family": "Matthews",
+                            "given": [
+                                "Robert"
+                            ]
+                        },
+                        "address": {
+                            "use": "home",
+                            "type": "both",
+                            "line": [
+                                "1357 Amber Dr"
+                            ],
+                            "city": "BEAVERTON",
+                            "state": "OR",
+                            "postalCode": "97006",
+                            "country": "USA",
+                            "district": "WASHINGTON OR"
+                        },
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "CP"
+                                    }
+                                ],
+                                "text": "Contact person"
+                            },
+                            {
+                                "text": "Grandparent"
+                            }
+                        ],
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "(555)723-1544",
+                                "use": "home",
+                                "rank": 1
+                            },
+                            {
+                                "system": "phone",
+                                "value": "(555)777-1234",
+                                "use": "mobile",
+                                "rank": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": {
+                            "family": "Larson",
+                            "given": [
+                                "Frank"
+                            ]
+                        },
+                        "address": {
+                            "use": "home",
+                            "type": "both",
+                            "line": [
+                                "1357 Amber Dr"
+                            ],
+                            "city": "BEAVERTON",
+                            "state": "OR",
+                            "postalCode": "97006",
+                            "country": "USA",
+                            "district": "WASHINGTON OR"
+                        },
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                                        "code": "O"
+                                    }
+                                ],
+                                "text": "Other"
+                            },
+                            {
+                                "text": "Spouse"
+                            }
+                        ],
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "(555)723-1544",
+                                "use": "home",
+                                "rank": 1
+                            },
+                            {
+                                "system": "phone",
+                                "value": "(555)777-1234",
+                                "use": "mobile",
+                                "rank": 2
+                            }
+                        ]
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "resourceType": "Patient"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/faf298b4-106d-56ae-a065-027d57a7221e",
+            "resource": {
+                "id": "faf298b4-106d-56ae-a065-027d57a7221e",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/faf298b4-106d-56ae-a065-027d57a7221e",
+                        "display": "Bronchoscopy Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "10847001",
+                            "display": "Bronchoscopy"
+                        }
+                    ],
+                    "text": "Bronchoscopy"
+                },
+                "performedDateTime": "2020-06-22",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/0da369df-e943-548d-876b-fab5f626c2a5",
+            "resource": {
+                "id": "0da369df-e943-548d-876b-fab5f626c2a5",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/0da369df-e943-548d-876b-fab5f626c2a5",
+                        "display": "Chest X-Ray, PA and Lateral Vi Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "168731009",
+                            "display": "Chest X-Ray, PA and Lateral Views"
+                        }
+                    ],
+                    "text": "Chest X-Ray, PA and Lateral Views"
+                },
+                "performedDateTime": "2020-06-22T14:27:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/a2c58e59-8177-532e-bb9c-99e6eb084639",
+            "resource": {
+                "id": "a2c58e59-8177-532e-bb9c-99e6eb084639",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/a2c58e59-8177-532e-bb9c-99e6eb084639",
+                        "display": "Intro of Pacemaker via vein Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "223366009",
+                                    "display": "Healthcare professional"
+                                }
+                            ],
+                            "text": "Healthcare professional"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/a3a01177-d60f-5fe1-8f4f-d86348aeca3f",
+                            "display": "Cindy Barrows",
+                            "type": "Practitioner"
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                            "display": "MEDITECH General Hospital",
+                            "type": "Organization"
+                        }
+                    }
+                ],
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "175135009",
+                            "display": "Intro of Pacemaker via vein"
+                        }
+                    ],
+                    "text": "Intro of Pacemaker via vein"
+                },
+                "performedDateTime": "2011-10-05T14:28:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Procedure/7dfad1ae-2e58-555d-83bd-aea662ff739c",
+            "resource": {
+                "id": "7dfad1ae-2e58-555d-83bd-aea662ff739c",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-procedure",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/procedure-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/7dfad1ae-2e58-555d-83bd-aea662ff739c",
+                        "display": "Intro of Pacemaker via vein Routine",
+                        "type": "ServiceRequest"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2",
+                    "display": "Clarkson,Jane Annie NO EDITS",
+                    "type": "Patient"
+                },
+                "encounter": {
+                    "reference": "Encounter/4c74dbe3-8ffc-52a5-838e-43820b13d165",
+                    "type": "Encounter"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "223366009",
+                                    "display": "Healthcare professional"
+                                }
+                            ],
+                            "text": "Healthcare professional"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/a3a01177-d60f-5fe1-8f4f-d86348aeca3f",
+                            "display": "Cindy Barrows",
+                            "type": "Practitioner"
+                        },
+                        "onBehalfOf": {
+                            "reference": "Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+                            "display": "MEDITECH General Hospital",
+                            "type": "Organization"
+                        }
+                    }
+                ],
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "103693007",
+                            "display": "Diagnostic procedure"
+                        }
+                    ],
+                    "text": "Diagnostic procedure"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "175135009",
+                            "display": "Intro of Pacemaker via vein"
+                        }
+                    ],
+                    "text": "Intro of Pacemaker via vein"
+                },
+                "performedDateTime": "2019-06-12T21:03:00+00:00",
+                "resourceType": "Procedure"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/876d4799-7069-508c-8158-888271c4d34b",
+            "resource": {
+                "id": "876d4799-7069-508c-8158-888271c4d34b",
+                "code": {
+                    "text": "Rocephin (TAN) (ceftriaxone sodium)"
+                },
+                "status": "active",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/15bef179-6360-5742-a518-a6b4f6cc9653",
+            "resource": {
+                "id": "15bef179-6360-5742-a518-a6b4f6cc9653",
+                "code": {
+                    "text": "Aranesp (darbepoetin alfa in polysorbat)"
+                },
+                "status": "active",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/29aee935-9ccf-53fe-90f0-971d9cc7ce11",
+            "resource": {
+                "id": "29aee935-9ccf-53fe-90f0-971d9cc7ce11",
+                "code": {
+                    "text": "Tylenol Extra Strength (acetaminophen)"
+                },
+                "status": "active",
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/f8a2a45a-4420-5204-8a1c-30021852b88e",
+            "resource": {
+                "id": "f8a2a45a-4420-5204-8a1c-30021852b88e",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "602964",
+                            "display": "aripiprazole 2 MG Oral Tablet"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "615172",
+                            "display": "Abilify 2 MG Oral Tablet"
+                        }
+                    ],
+                    "text": "aripiprazole 2 mg tablet"
+                },
+                "status": "active",
+                "form": {
+                    "text": "tablet"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "text": "aripiprazole"
+                        },
+                        "isActive": true
+                    }
+                ],
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Medication/b3e042c6-bbbd-5003-8244-390257154fd1",
+            "resource": {
+                "id": "b3e042c6-bbbd-5003-8244-390257154fd1",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "200371",
+                            "display": "citalopram 20 MG Oral Tablet"
+                        },
+                        {
+                            "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                            "code": "213344",
+                            "display": "Celexa 20 MG Oral Tablet"
+                        }
+                    ],
+                    "text": "citalopram 20 mg tablet"
+                },
+                "status": "active",
+                "form": {
+                    "text": "tablet"
+                },
+                "meta": {
+                    "profile": [
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-medication",
+                        "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medication-ca-ps",
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips"
+                    ]
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "text": "citalopram hydrobromide"
+                        },
+                        "isActive": true
+                    }
+                ],
+                "resourceType": "Medication"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Organization/ef89f8fc-a8da-5506-8a30-0425df67123d",
+            "resource": {
+                "id": "ef89f8fc-a8da-5506-8a30-0425df67123d",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1952845521"
+                    }
+                ],
+                "active": true,
+                "name": "MEDITECH General Hospital",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "(741)789-7412"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "(741)789-7456"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "(741)789-8521"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "7000 Great Meadow Road"
+                        ],
+                        "city": "Dedham",
+                        "state": "MA",
+                        "postalCode": "02026",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips",
+                        "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-organization",
+                        "http://ontariohealth.ca/fhir/StructureDefinition/ca-on-ps-profile-organization"
+                    ]
+                },
+                "resourceType": "Organization"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Practitioner/a3a01177-d60f-5fe1-8f4f-d86348aeca3f",
+            "resource": {
+                "id": "a3a01177-d60f-5fe1-8f4f-d86348aeca3f",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "3636361230"
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "PRN",
+                                    "display": "Provider number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/person",
+                        "value": "CBARROWS"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "Barrows",
+                        "given": [
+                            "Cindy"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "cbarrows@meditech.com",
+                        "rank": 1
+                    },
+                    {
+                        "system": "email",
+                        "value": "cbarrows@meditech.com",
+                        "rank": 2
+                    },
+                    {
+                        "system": "phone",
+                        "value": "781-774-4791",
+                        "rank": 2
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "101 Martine Street"
+                        ],
+                        "city": "FALL RIVER",
+                        "state": "MA",
+                        "postalCode": "02723",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+                        "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-practitioner"
+                    ]
+                },
+                "resourceType": "Practitioner"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Practitioner/57c5636b-c391-557e-82b0-5190a768fa9b",
+            "resource": {
+                "id": "57c5636b-c391-557e-82b0-5190a768fa9b",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "8547788017"
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "PRN",
+                                    "display": "Provider number"
+                                }
+                            ]
+                        },
+                        "system": "https://dev-mtx-interop.meditech.com:443/identifier/person",
+                        "value": "MT"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "family": "JOBS",
+                        "given": [
+                            "Meditech",
+                            "TEST"
+                        ],
+                        "suffix": [
+                            "MD"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "email",
+                        "value": "meditech@meditech.com",
+                        "rank": 1
+                    },
+                    {
+                        "system": "phone",
+                        "value": "DO NOT EDIT USER",
+                        "rank": 1
+                    },
+                    {
+                        "system": "email",
+                        "value": "meditech@meditech.com",
+                        "rank": 2
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "123 main st"
+                        ],
+                        "city": "WICHITA",
+                        "state": "KS",
+                        "postalCode": "67203",
+                        "country": "USA"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+                        "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-practitioner"
+                    ]
+                },
+                "resourceType": "Practitioner"
+            },
+            "search": {
+                "mode": "include"
+            }
+        },
+        {
+            "fullUrl": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Organization/a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+            "resource": {
+                "id": "a9f7c0e3-9bb0-51eb-8ab4-99ac7bdaaa89",
+                "active": true,
+                "name": "BBK Donor",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "687-5309"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "687-5309"
+                    }
+                ],
+                "resourceType": "Organization"
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://dev-mtx-interop.meditech.com:443/v2/ips/STU1/Patient/fc0203ae-1a5d-57af-8af6-d66578d9cba2/$summary"
+        }
+    ],
+    "total": 22,
+    "resourceType": "Bundle"
+}

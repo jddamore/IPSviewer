@@ -1,0 +1,1971 @@
+{
+  "resourceType": "Bundle",
+  "id": "5630ac63-ba6e-4d5b-836f-0abf456debae",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "aa35d864-b85b-42b1-ae99-3eaf2cf2a8c3"
+  },
+  "type": "document",
+  "timestamp": "2021-10-01T14:19:33.248Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:232ced9b-01d8-4235-b395-1958c3c0f7d4",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "232ced9b-01d8-4235-b395-1958c3c0f7d4",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690"
+        },
+        "date": "2021-10-01T14:19:33.248Z",
+        "author": [
+          {
+            "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/1c20d20d-d637-4845-81ce-7ea472fc5fd3"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/bd81f52d-dabc-47d7-b331-b84e51650be5"
+              },
+              {
+                "reference": "Condition/200880ad-3711-430c-9a40-3d07e4fca832"
+              },
+              {
+                "reference": "Condition/96575e36-41cb-4b6e-83ea-77a16b088203"
+              },
+              {
+                "reference": "Condition/605ea5a7-5bfb-47eb-b55c-be8dba5bcbcd"
+              },
+              {
+                "reference": "Condition/79f2b567-e2d1-46a3-ac21-b81e5da2b8d6"
+              },
+              {
+                "reference": "Condition/ceb2c557-6293-4e4e-be68-cfd05c11523c"
+              },
+              {
+                "reference": "Condition/9d0bba75-045b-44cc-9aa0-54e4eed91d2f"
+              },
+              {
+                "reference": "Condition/8d4e4a5c-9aac-44c2-8d7e-e838df024a58"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative available on medications</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/e585282b-48a9-4152-8644-e2b37406f869"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/617e5d8c-fc9d-4ddc-8670-7e1f6e2c65f4"
+              },
+              {
+                "reference": "Observation/fc3ee569-63a1-4c20-b362-5b0b7e7abc34"
+              },
+              {
+                "reference": "Observation/8134ec90-79f4-486b-a301-f3633c4aeb84"
+              },
+              {
+                "reference": "Observation/37882810-24a6-4920-ad78-4ef11db70e37"
+              },
+              {
+                "reference": "Observation/d4308a9c-d0b4-4724-9f9b-977b81f2724a"
+              },
+              {
+                "reference": "Observation/035229cd-6a04-4c57-9cb1-46b4d4c8937a"
+              },
+              {
+                "reference": "Observation/9fee85c3-bb34-4841-a321-37fbb60c0883"
+              },
+              {
+                "reference": "Observation/b99545f7-6ab0-452e-9c7e-dd585927fb9a"
+              },
+              {
+                "reference": "DiagnosticReport/f3f54ee9-c6c5-40ac-ac07-4f65cf5e4e9c"
+              },
+              {
+                "reference": "Observation/112020ad-932a-4c44-ab68-b911b17c03b1"
+              },
+              {
+                "reference": "DiagnosticReport/baba8b59-cc67-4dda-8728-61704714f046"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/5690",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5690",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-09-29T00:13:28.679-04:00",
+          "source": "#0lmxzcrrsUSNiRlj"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Race",
+                  "code": "2131-1",
+                  "display": "Other Race"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Ethnicity",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                  "code": "1077",
+                  "display": "Protestant"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000000983"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "8bb88fbac2b348f495a3da6468d2dcb1"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "479904-983"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "f0b0187a-5e06-4e09-9867-578debef8ec6"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient External Identifier"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-identifier",
+            "value": "8bb88fbac2b348f495a3da6468d2dcb1"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "e026cb82-0965-46c6-9f54-11b0c402627c"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "767082-983"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Gross",
+            "given": [
+              "Troy",
+              "Dudley"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "947-555-5380",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "947-555-6957",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1977-02-22",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "line": [
+              "149 N Washington Avenue"
+            ],
+            "city": "Milford",
+            "district": "Oakland County",
+            "state": "MI",
+            "postalCode": "48380"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "654321"
+          }
+        ],
+        "name": "Sample Organization"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/1c20d20d-d637-4845-81ce-7ea472fc5fd3",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "1c20d20d-d637-4845-81ce-7ea472fc5fd3",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-allergy-info",
+              "display": "No information about allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5690"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/bd81f52d-dabc-47d7-b331-b84e51650be5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bd81f52d-dabc-47d7-b331-b84e51650be5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ff62a794-6979-49e3-bdff-66f5256e78f2"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49727002",
+              "display": "Cough (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/200880ad-3711-430c-9a40-3d07e4fca832",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "200880ad-3711-430c-9a40-3d07e4fca832",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "f5234ccd-3545-4650-9634-7c7234df8db7"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "248595008",
+              "display": "Sputum finding (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/96575e36-41cb-4b6e-83ea-77a16b088203",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "96575e36-41cb-4b6e-83ea-77a16b088203",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "2d238bbc-aa76-48a4-977c-d8cbc48bf0ef"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "68962001",
+              "display": "Muscle pain (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/605ea5a7-5bfb-47eb-b55c-be8dba5bcbcd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "605ea5a7-5bfb-47eb-b55c-be8dba5bcbcd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "b201a63c-1bba-400c-8d07-e825e1102255"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "57676002",
+              "display": "Joint pain (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/79f2b567-e2d1-46a3-ac21-b81e5da2b8d6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "79f2b567-e2d1-46a3-ac21-b81e5da2b8d6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "05d85bc8-7ff3-4034-8ab1-4b068707c2ef"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/ceb2c557-6293-4e4e-be68-cfd05c11523c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ceb2c557-6293-4e4e-be68-cfd05c11523c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "21648053-fa23-43f6-bda4-6c2367b076ef"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "36955009",
+              "display": "Loss of taste (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/9d0bba75-045b-44cc-9aa0-54e4eed91d2f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9d0bba75-045b-44cc-9aa0-54e4eed91d2f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "1809a052-b6ff-48e0-9428-7aaa9efbd435"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840544004",
+              "display": "Suspected COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T00:00:00-04:00",
+        "recordedDate": "2020-04-01T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/8d4e4a5c-9aac-44c2-8d7e-e838df024a58",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8d4e4a5c-9aac-44c2-8d7e-e838df024a58",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "0d66b2f8-a6bd-4877-8564-d2f070274a29"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840539006",
+              "display": "COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-01T01:22:00-04:00",
+        "recordedDate": "2020-04-01T01:22:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2942",
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999359"
+          },
+          "display": "Jerome Terrence Swanson MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/e585282b-48a9-4152-8644-e2b37406f869",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "e585282b-48a9-4152-8644-e2b37406f869",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
+        },
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-medication-info",
+              "display": "No information about medications"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/617e5d8c-fc9d-4ddc-8670-7e1f6e2c65f4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "617e5d8c-fc9d-4ddc-8670-7e1f6e2c65f4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "70a5c5a7-75fa-4e46-806b-e24fa6ae35a5"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8331-1",
+              "display": "Oral temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 41.516970884239996,
+          "unit": "Cel"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/fc3ee569-63a1-4c20-b362-5b0b7e7abc34",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fc3ee569-63a1-4c20-b362-5b0b7e7abc34",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "8671e656-473f-4149-9ed7-83e66011b5f3"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/8134ec90-79f4-486b-a301-f3633c4aeb84",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8134ec90-79f4-486b-a301-f3633c4aeb84",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "afe41a04-976b-45f5-8068-6a79416a3928"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 123,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/37882810-24a6-4920-ad78-4ef11db70e37",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "37882810-24a6-4920-ad78-4ef11db70e37",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "143aa309-64da-499d-8054-b81187968bbe"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 81,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/d4308a9c-d0b4-4724-9f9b-977b81f2724a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d4308a9c-d0b4-4724-9f9b-977b81f2724a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "bc0a7ced-7e37-4a76-aab4-61d99b6de8ce"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 114,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 76,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/035229cd-6a04-4c57-9cb1-46b4d4c8937a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "035229cd-6a04-4c57-9cb1-46b4d4c8937a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ab362f6b-9e16-452f-b4a8-5d02db50c4f5"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 94.8,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/9fee85c3-bb34-4841-a321-37fbb60c0883",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9fee85c3-bb34-4841-a321-37fbb60c0883",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "e5f5b06e-02d4-4128-a174-2b6943aa4201"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80382-5",
+              "display": "Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:13:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/b99545f7-6ab0-452e-9c7e-dd585927fb9a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b99545f7-6ab0-452e-9c7e-dd585927fb9a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "4bfa4218-11a8-41b7-b633-64ed7d092aa1"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80383-3",
+              "display": "Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:13:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/f3f54ee9-c6c5-40ac-ac07-4f65cf5e4e9c",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "f3f54ee9-c6c5-40ac-ac07-4f65cf5e4e9c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "9422d75f-262d-4393-b4fa-9546a46bdcd6"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80381-7",
+              "display": "Influenza virus A and B Ag panel - Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T00:13:00-04:00",
+        "issued": "2020-04-01T00:13:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/7522",
+            "display": "Influenza Not Detected_Observation_1"
+          },
+          {
+            "reference": "Observation/7523",
+            "display": "Influenza Not Detected_Observation_2"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/112020ad-932a-4c44-ab68-b911b17c03b1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "112020ad-932a-4c44-ab68-b911b17c03b1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "f4e268b8-5ec8-436f-b185-ba0916b6cc36"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T01:22:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/baba8b59-cc67-4dda-8728-61704714f046",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "baba8b59-cc67-4dda-8728-61704714f046",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:33:19.514-04:00",
+          "source": "#LyQCP4pyJ1wHcKHq"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "b6f9ac3c-be98-4b7e-bb3d-bf46f92db8a0"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5690",
+          "display": "Troy Dudley Gross"
+        },
+        "encounter": {
+          "reference": "Encounter/7506",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-01T01:22:00-04:00",
+        "issued": "2020-04-01T01:22:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2942",
+            "identifier": {
+              "system": "http://hl7.org/fhir/sid/us-npi",
+              "value": "9999999359"
+            },
+            "display": "Jerome Terrence Swanson MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/7528",
+            "display": "Administer COVID-19 Test Positive_Observation_1"
+          }
+        ]
+      }
+    }
+  ]
+}

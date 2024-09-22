@@ -1,0 +1,506 @@
+{
+  "resourceType": "Bundle",
+  "id": "CA-IPS-BundleMinExample",
+  "language": "en-CA",
+  "identifier": {
+    "system": "http://exampleCAFHIRServer.org",
+    "value": "269efaf3-2dbf-44fe-9561-c9ce27801c6f"
+  },
+  "type": "document",
+  "timestamp": "2020-12-11T14:30:00+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5e2b8170-07b4-4fd9-8c3f-770738375a14",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "CA-IPS-Composition1Example",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/composition-ca-ps"
+          ]
+        },
+        "identifier": {
+          "system": "http://exampleCAFHIRServer.org",
+          "value": "12345678"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8"
+        },
+        "date": "2021-09-11T16:30:00+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:b9986b4c-4df2-4e32-8fd9-bb0a74ebf767"
+          }
+        ],
+        "title": "Patient Summary as of January 5, 2022 16:30",
+        "confidentiality": "N",
+        "attester": [
+          {
+            "mode": "legal",
+            "time": "2020-12-11T14:30:00+01:00",
+            "party": {
+              "reference": "urn:uuid:b9986b4c-4df2-4e32-8fd9-bb0a74ebf767"
+            }
+          }
+        ],
+        "custodian": {
+          "reference": "urn:uuid:5d750a63-8167-45fa-a90c-633b97fd39f3"
+        },
+        "event": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                    "code": "PCPR"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "end": "2020-12-11T14:30:00+01:00"
+            }
+          }
+        ],
+        "section": [
+          {
+            "title": "Active Problems",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"heart-condition-example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-condition-ca-ps.html\">Condition (PS-CA)</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Problem List Item <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-category.html\">Condition Category Codes</a>#problem-list-item)</span></p><p><b>severity</b>: Moderate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#6736007)</span></p><p><b>code</b>: Disorder of heart valve <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#368009 \"Heart valve disorder\")</span></p><p><b>bodySite</b>: heart structure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#40768004 \"Left thorax\")</span></p><p><b>subject</b>: <a href=\"Patient-patient1-example.html\">Patient/patient1-example: Donald Duck</a> \" DONALD\"</p><p><b>onset</b>: 2021-08-05</p><p><b>asserter</b>: <a href=\"Patient-patient1-example.html\">Patient/patient1-example: Donald Duck</a> \" DONALD\"</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9eec93e3-a2c7-4a5a-aceb-039306161ea6"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary section",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"simvastatin-request-example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medicationrequest-ca-ps.html\">Medication Request (PS-CA)</a></p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>medication</b>: Fluspiral 50 mcg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-atc.html\">WHO ATC</a>#C10AA01 \"simvastatin\")</span></p><p><b>subject</b>: <a href=\"Patient-patient1-example.html\">Patient/patient1-example: Donald Duck</a> \" DONALD\"</p><p><b>authoredOn</b>: 2021-10-10</p><p><b>requester</b>: <a href=\"Practitioner-practitioner1-example.html\">Practitioner/practitioner1-example: Patrick Pump</a> \" PUMP\"</p><h3>DispenseRequests</h3><table class=\"grid\"><tr><td>-</td><td><b>ValidityPeriod</b></td></tr><tr><td>*</td><td>2021-01-01 --&gt; (ongoing)</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:82c7a22f-9bda-463b-b396-e3c2ba9beac7"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"cashew-allergy-example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-allergyintolerance-ca-ps.html\">Allergy Intolerance (PS-CA)</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed present <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#410605003)</span></p><p><b>type</b>: allergy</p><p><b>criticality</b>: high</p><p><b>code</b>: Cashew nut (substance)<span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#227493005)</span></p><p><b>patient</b>: <a href=\"Patient-patient1-example.html\">Patient/patient1-example: Donald Duck</a> \" DONALD\"</p><p><b>onset</b>: 2004</p><p><b>asserter</b>: <a href=\"Patient-patient1-example.html\">Patient/patient1-example: Donald Duck</a> \" DONALD\"</p><h3>Reactions</h3><table class=\"grid\"><tr><td>-</td><td><b>Manifestation</b></td><td><b>Onset</b></td><td><b>Severity</b></td></tr><tr><td>*</td><td>Anaphylaxis (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#39579001)</span></td><td>2004-06-12</td><td>severe</td></tr></table></div>"
+            },
+           "entry": [
+              {
+                "reference": "urn:uuid:8f3585cf-fdd2-4b2e-8680-18f1a99bf4be"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient1-example",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/patient-ca-ps"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            },
+            "system": "urn:oid:0.1.2.3.4.5.6.7",
+            "value": "654321"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "JHN"
+                }
+              ]
+            },
+            "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-on-patient-hcn",
+            "value": "5584486647"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Donald",
+            "given": [
+              "Duck"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1952-08-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b9986b4c-4df2-4e32-8fd9-bb0a74ebf767",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "practitionerrole1-example",
+        "identifier": [
+          {
+            "system": "http://www.example.org/practitioners",
+            "value": "874635264"
+          }
+        ],
+        "practitioner": {
+          "reference": "urn:uuid:d26a57cc-3821-4cc8-9a09-6c337fab98d6",
+          "display": "Patrick Pump"
+        },
+        "organization": {
+          "reference": "urn:uuid:5d750a63-8167-45fa-a90c-633b97fd39f3"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.infoway-inforoute.ca/CodeSystem/scptype",
+                "code": "MD",
+                "display": "Medical Doctor"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(647) 555 6473",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "patrick.pump@example.org",
+            "use": "work"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5d750a63-8167-45fa-a90c-633b97fd39f3",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "organization1-example",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-organization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.example.org/organizations",
+            "value": "44445555"
+          }
+        ],
+        "name": "XYZ Organization"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9eec93e3-a2c7-4a5a-aceb-039306161ea6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "heart-condition-example",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "Moderate"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "368009",
+              "display": "Heart valve disorder"
+            }
+          ],
+          "text": "Disorder of heart valve"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "40768004",
+                "display": "Left thorax"
+              }
+            ],
+            "text": "heart structure"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8",
+          "display": "Donald Duck"
+        },
+        "onsetDateTime": "2021-08-05",
+        "asserter": {
+          "reference": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8",
+          "display": "Donald Duck"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82c7a22f-9bda-463b-b396-e3c2ba9beac7",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "nystatinCCDD-request-example",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationrequest-ca-ps"
+          ]
+        },
+        "status": "completed",
+        "intent": "order",
+        "medicationCodeableConcept": {
+            "coding": [
+                {
+                    "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+                    "code": "02194201",
+                    "display": "TEVA-NYSTATIN (nystatin 100000 unit per mL oral suspension) TEVA CANADA LIMITED"
+                }
+            ],
+            "text": "TEVA-NYSTATIN (nystatin 100000 unit per mL oral suspension) TEVA CANADA LIMITED"
+        },
+        "subject": {
+          "reference": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8",
+          "display": "Donald Duck"
+        },
+        "authoredOn": "2015-01-15",
+        "requester": {
+          "reference": "urn:uuid:d26a57cc-3821-4cc8-9a09-6c337fab98d6",
+          "display": "Patrick Pump"
+        },
+        "dosageInstruction": [
+            {
+                "sequence": 1,
+                "text": "10 drops four times daily - apply in mouth using cotton swab or finger"
+            }
+        ],
+        "dispenseRequest": {
+            "validityPeriod": {
+                "start": "2015-01-15",
+                "end": "2016-01-15"
+            },
+            "numberOfRepeatsAllowed": 3,
+            "quantity": {
+                "value": 10,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+            },
+            "expectedSupplyDuration": {
+                "value": 10,
+                "unit": "days",
+                "system": "http://unitsofmeasure.org",
+                "code": "d"
+            }
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f3585cf-fdd2-4b2e-8680-18f1a99bf4be",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "cashew-allergy-example",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/allergyintolerance-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "410605003",
+              "display": "Confirmed present"
+            }
+          ]
+        },
+        "type": "allergy",
+        "criticality": "high",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "227493005",
+              "display": "Cashew nut (substance)"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8",
+          "display": "Donald Duck"
+        },
+        "onsetDateTime": "2004",
+        "asserter": {
+          "reference": "urn:uuid:baa38dda-c02c-4a2e-b3b4-347accdbf4b8",
+          "display": "Donald Duck"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "39579001",
+                    "display": "Anaphylaxis (disorder)"
+                  }
+                ]
+              }
+            ],
+            "onset": "2004-06-12",
+            "severity": "severe"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d26a57cc-3821-4cc8-9a09-6c337fab98d6",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "practitioner1-example",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.example.org/practitioners",
+            "value": "874635264"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Pump",
+            "given": [
+              "Patrick"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "020556936",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "example@eg.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

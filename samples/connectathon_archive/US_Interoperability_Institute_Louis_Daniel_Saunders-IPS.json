@@ -1,0 +1,1643 @@
+{
+  "resourceType": "Bundle",
+  "id": "86ac04c8-db1a-4693-a43a-ea1403e54175",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "a150c59c-4681-40fd-ae77-5207b2f9d47f"
+  },
+  "type": "document",
+  "timestamp": "2021-10-01T14:19:33.201Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f08dd28e-2e4c-4627-ae32-c060b4a013cc",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "f08dd28e-2e4c-4627-ae32-c060b4a013cc",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610"
+        },
+        "date": "2021-10-01T14:19:33.201Z",
+        "author": [
+          {
+            "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/87aa29d5-3f9b-46d6-a1f1-1056db78ce17"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/4883834a-e0f8-4a37-81d4-d4f8532a48e2"
+              },
+              {
+                "reference": "Condition/17052020-3b9e-4da4-a5dd-15722a036c8c"
+              },
+              {
+                "reference": "Condition/99e6ad4b-c670-406a-8679-f1dd7dbc931b"
+              },
+              {
+                "reference": "Condition/ae40b265-3cf8-45d3-b3e0-5943c557a0fa"
+              },
+              {
+                "reference": "Condition/6f5b64cb-ecb4-437b-8843-31534651d382"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative available on medications</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/f3c8113b-42ca-4327-9133-f8bea1c40623"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/133fbbde-ee49-4948-b36c-4e2fcbc179e5"
+              },
+              {
+                "reference": "DiagnosticReport/c1eb847a-9314-4e21-af7a-059c7916fa30"
+              },
+              {
+                "reference": "Observation/7df68151-ff48-44f3-a7ec-48d6433f23f3"
+              },
+              {
+                "reference": "DiagnosticReport/29602f25-776b-455d-80bb-bdf5563a82ab"
+              },
+              {
+                "reference": "Observation/1d75e9fa-2ea3-42b1-8e1a-3f76920c7863"
+              },
+              {
+                "reference": "Observation/862c41ce-1867-4c84-84aa-d5778513f525"
+              },
+              {
+                "reference": "Observation/8b3d7b9b-9d7d-4ab3-be05-5b2358e58f52"
+              },
+              {
+                "reference": "Observation/e0659de9-0216-467e-80d7-9939f3d6b05c"
+              },
+              {
+                "reference": "Observation/5d2fbf4e-17f1-4bb0-bee5-e0bb29e4cf9d"
+              },
+              {
+                "reference": "Observation/5c4610b1-9cb5-4c83-916c-5a7c4411aaa0"
+              },
+              {
+                "reference": "Observation/9cca2fb0-b8ee-4dae-9873-1694edb2fa3e"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/5610",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5610",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-09-29T05:38:34.308-04:00",
+          "source": "#rLBS9nfBG84ATUNk"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Race",
+                  "code": "2056-0",
+                  "display": "Black"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Ethnicity",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                  "code": "1007",
+                  "display": "Atheism"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000000943"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "9ec01d4becb04b9da5bc7bb293816122"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "776447-943"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "40c99481-3069-49b0-aee0-b636a4c9b256"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient External Identifier"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-identifier",
+            "value": "9ec01d4becb04b9da5bc7bb293816122"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "246134-943"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "8c0719ab-fb98-4389-83a6-af92d7e523b7"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Saunders",
+            "given": [
+              "Louis",
+              "Daniel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "989-555-9462",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "989-555-4494",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1984-03-15",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "line": [
+              "597 W Sixth Place"
+            ],
+            "city": "Saint Louis",
+            "district": "Gratiot County",
+            "state": "MI",
+            "postalCode": "48880"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "654321"
+          }
+        ],
+        "name": "Sample Organization"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/87aa29d5-3f9b-46d6-a1f1-1056db78ce17",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "87aa29d5-3f9b-46d6-a1f1-1056db78ce17",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-allergy-info",
+              "display": "No information about allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5610"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/4883834a-e0f8-4a37-81d4-d4f8532a48e2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4883834a-e0f8-4a37-81d4-d4f8532a48e2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "6ffa741d-be3b-4fce-a27e-3f84217ffb70"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840539006",
+              "display": "COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T01:10:00-04:00",
+        "recordedDate": "2020-04-08T01:10:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2310",
+          "display": "Andrew Joseph Patel MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/17052020-3b9e-4da4-a5dd-15722a036c8c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "17052020-3b9e-4da4-a5dd-15722a036c8c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "3aaacd28-fb13-447d-ab0b-670d8bb75aa0"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49727002",
+              "display": "Cough (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2310",
+          "display": "Andrew Joseph Patel MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/99e6ad4b-c670-406a-8679-f1dd7dbc931b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "99e6ad4b-c670-406a-8679-f1dd7dbc931b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "72a649a2-627b-4af6-9a20-66bb5c90a109"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2310",
+          "display": "Andrew Joseph Patel MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/ae40b265-3cf8-45d3-b3e0-5943c557a0fa",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ae40b265-3cf8-45d3-b3e0-5943c557a0fa",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "bf0201b6-c390-4eb8-9475-d11039e07eb7"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "36955009",
+              "display": "Loss of taste (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2310",
+          "display": "Andrew Joseph Patel MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/6f5b64cb-ecb4-437b-8843-31534651d382",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6f5b64cb-ecb4-437b-8843-31534651d382",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "bc1764d0-6003-4708-940b-ddf13355455c"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840544004",
+              "display": "Suspected COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2310",
+          "display": "Andrew Joseph Patel MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/f3c8113b-42ca-4327-9133-f8bea1c40623",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f3c8113b-42ca-4327-9133-f8bea1c40623",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
+        },
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-medication-info",
+              "display": "No information about medications"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/133fbbde-ee49-4948-b36c-4e2fcbc179e5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "133fbbde-ee49-4948-b36c-4e2fcbc179e5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "c724d7b4-12af-4dc0-9adc-c376ae759746"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80383-3",
+              "display": "Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:13:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/c1eb847a-9314-4e21-af7a-059c7916fa30",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "c1eb847a-9314-4e21-af7a-059c7916fa30",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ee743b2b-63f9-412f-a637-668d6a67a913"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80381-7",
+              "display": "Influenza virus A and B Ag panel - Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:13:00-04:00",
+        "issued": "2020-04-08T00:13:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/10303",
+            "display": "Influenza B Detected_Observation_1"
+          },
+          {
+            "reference": "Observation/10304",
+            "display": "Influenza B Detected_Observation_2"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/7df68151-ff48-44f3-a7ec-48d6433f23f3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7df68151-ff48-44f3-a7ec-48d6433f23f3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "a3d707fe-d894-4b02-8768-b63713f5a88b"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T01:10:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/29602f25-776b-455d-80bb-bdf5563a82ab",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "29602f25-776b-455d-80bb-bdf5563a82ab",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "356dc906-2f95-4f0e-9bd9-b5912c65381b"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T01:10:00-04:00",
+        "issued": "2020-04-08T01:10:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/10309",
+            "display": "Administer COVID-19 Test Positive_Observation_1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/1d75e9fa-2ea3-42b1-8e1a-3f76920c7863",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1d75e9fa-2ea3-42b1-8e1a-3f76920c7863",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "76a0f58b-55ff-49dd-9559-572ac1940c52"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8331-1",
+              "display": "Oral temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 38.719184728643576,
+          "unit": "Cel"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/862c41ce-1867-4c84-84aa-d5778513f525",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "862c41ce-1867-4c84-84aa-d5778513f525",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "e632fd0b-327f-462b-b253-1850d527db84"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 29,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/8b3d7b9b-9d7d-4ab3-be05-5b2358e58f52",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8b3d7b9b-9d7d-4ab3-be05-5b2358e58f52",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "61eeb126-11cf-41bb-a191-48e23cb08fb6"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 78,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/e0659de9-0216-467e-80d7-9939f3d6b05c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e0659de9-0216-467e-80d7-9939f3d6b05c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "3e42e977-6c9a-4757-a7a1-682dce1575fd"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 88,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/5d2fbf4e-17f1-4bb0-bee5-e0bb29e4cf9d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5d2fbf4e-17f1-4bb0-bee5-e0bb29e4cf9d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "41f1a153-394c-40cd-b621-11e17b6005d9"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 124,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 80,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/5c4610b1-9cb5-4c83-916c-5a7c4411aaa0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5c4610b1-9cb5-4c83-916c-5a7c4411aaa0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "df61df48-b6cd-4dd7-a776-7f2336533a49"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 72.9,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/9cca2fb0-b8ee-4dae-9873-1694edb2fa3e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9cca2fb0-b8ee-4dae-9873-1694edb2fa3e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:40:28.067-04:00",
+          "source": "#s895vddzaCnkGdoF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "72d86553-35d9-4d2b-9f58-b0449da7b356"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80382-5",
+              "display": "Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5610",
+          "display": "Louis Daniel Saunders"
+        },
+        "encounter": {
+          "reference": "Encounter/10290",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:13:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2310",
+            "display": "Andrew Joseph Patel MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
