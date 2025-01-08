@@ -19,14 +19,16 @@
   let navOpening = false;
   document.addEventListener('click', (event) => {
     // Ignore clicks on the navbar toggler
-    if (event.target?.className?.includes('navbar-toggler')) return;
-    // Ignore clicks on the dropdown toggle menu items
-    if (event.target?.className?.includes('nav-link') && event.target?.className?.includes('dropdown-toggle')) {
-      navOpening = true;
-      setTimeout(() => {
-        navOpening = false;
-      }, 100);
-      return;
+    if (event.target instanceof Element) {
+      if (event.target?.className?.includes('navbar-toggler')) return;
+      // Ignore clicks on the dropdown toggle menu items
+      if (event.target?.className?.includes('nav-link') && event.target?.className?.includes('dropdown-toggle')) {
+        navOpening = true;
+        setTimeout(() => {
+          navOpening = false;
+        }, 100);
+        return;
+      }
     }
     closeNav();
   });
