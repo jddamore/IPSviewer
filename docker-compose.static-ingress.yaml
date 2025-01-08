@@ -1,0 +1,9 @@
+# docker-compose override to expose web container port (80) to local VM
+# listens on the local VM at http://localhost:${EXTERNAL_PORT}
+---
+version: "3.9"
+services:
+  shlviewer:
+    # Allow override of published port
+    ports:
+      - "127.0.0.1:${EXTERNAL_PORT:-3000}:3000"

@@ -1,0 +1,7 @@
+---
+version: "3.4"
+services:
+  shlviewer:
+    build: ./
+    env_file:
+      - .env

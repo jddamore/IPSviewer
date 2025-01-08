@@ -1,0 +1,8 @@
+
+version: "3.4"
+services:
+  shlviewer:
+    command: npm run dev
+    volumes:
+      - ./src:/opt/app/src
+      - ./static:/opt/app/static
