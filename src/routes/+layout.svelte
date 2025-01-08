@@ -1,15 +1,10 @@
 <script lang="ts">
   import {
     Container,
-    Row,
-    Col,
     Styles
   } from 'sveltestrap';
   import { setContext } from 'svelte';
   import {writable } from 'svelte/store';
-
-  setContext('locale', locale);
-  setContext('locales', locales);
 
   const MODE_KEY = 'demo_mode';
   let mode = writable('normal');
