@@ -1,7 +1,5 @@
 import base64url from 'base64url';
 import * as jose from 'jose';
-import * as querystring from 'querystring';
-import { inflateRaw, deflateRaw } from 'pako';
 
 export interface SHLinkConnectRequest {
   shl: string;
