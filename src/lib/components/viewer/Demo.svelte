@@ -177,12 +177,8 @@
     {/if}
   </Col>
   <Col class="d-flex justify-content-end align-items-center">
-    <Col class="m-1 justify-content-end align-items-center">
-      <Button color="success" on:click={loadSample} style="width:max-content">Try a Sample</Button>
-    </Col>
-    <Col class="d-flex flex-fill justify-content-start align-items-center">
-      <a href="https://github.com/jddamore/IPSviewer/tree/main/samples" class="m-1" target="_blank" rel="noreferrer">Repository of IPS Samples</a>
-    </Col>
+    <Button color="success" on:click={loadSample} style="min-width:max-content; margin-right: 10px">Try a Sample</Button>
+    <a href="https://github.com/jddamore/IPSviewer/tree/main/samples" class="m-1" target="_blank" rel="noreferrer">Repository of IPS Samples</a>
   </Col>
 </Row>
 {#if content}
