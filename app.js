@@ -1,10 +1,17 @@
-const http = require('http');
-const https = require('https');
-const fs = require('fs');
-const express = require('express');
+import http from 'http';
+import https from 'https';
+import fs from 'fs';
+import path from 'path';
+import express from 'express';
 
-const index = fs.readFileSync('./ips_main.html', 'utf-8');
-const favicon = fs.readFileSync('./favicon.ico');
+const HTTP_PORT = process.env.HTTP_PORT || 3000;
+const HTTPS_PORT = process.env.HTTPS_PORT || 443;
+
+const __dirname = path.resolve();
+const buildDir = path.join(__dirname, 'build');
+const index = fs.readFileSync(path.join(buildDir, '404.html'), 'utf-8');
+const appDir = path.join(buildDir, '_app');
+
 const app = express();
 
 let privateKey; 
@@ -19,20 +26,13 @@ if  (fs.existsSync('./certs/ipsviewer2023.key') && fs.existsSync('./certs/ipsvie
 }
 
 
-app.use('/templates', express.static('templates'));
-app.use('/samples', express.static('samples'));
-app.use('/assets', express.static('assets'));
+app.use('/', express.static(appDir, { immutable: true, maxAge: '1y' }));
 
-app.get(['/favicon.ico'], (req, res) => {
-  res.send(favicon);
-});
+app.use(express.static(buildDir));
 
-app.get(['/', '/index.html'], (req, res) => {
-    res.send(index);
-});
-
+// Catch-all route to serve `index.html` for SPA routing
 app.get('*', (req, res) => {
-  res.redirect('/');
+  res.send(index);
 });
 
 var httpServer = http.createServer(app);
@@ -41,9 +41,10 @@ if (credentials) {
   httpsServer = https.createServer(credentials, app);
 }
 
-httpServer.listen(80);
+httpServer.listen(HTTP_PORT);
+console.log(`listening on HTTP port ${HTTP_PORT}...`);
 if (httpsServer) {
-  httpsServer.listen(443);
-  console.log('listening on HTTP and HTTPS...')
+  httpsServer.listen(HTTPS_PORT);
+  console.log('listening on HTTPS port ${HTTPS_PORT}...');
 }
 else console.log('HTTPS server not running...')
