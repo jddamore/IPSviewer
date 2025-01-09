@@ -1,0 +1,1727 @@
+{
+  "resourceType": "Bundle",
+  "id": "97f16868-c6db-4eee-8d56-ba4724a9b77f",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "24c27b86-febf-47c5-8e8e-622deef7da49"
+  },
+  "type": "document",
+  "timestamp": "2021-10-01T14:19:33.233Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:b88a0806-305a-4c56-9246-89ae95b13036",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "b88a0806-305a-4c56-9246-89ae95b13036",
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568"
+        },
+        "date": "2021-10-01T14:19:33.233Z",
+        "author": [
+          {
+            "reference": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9"
+          }
+        ],
+        "title": "International Patient Summary",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/4a0af6c6-1d07-4032-9af3-a6cbac9100dd"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/25f14e2d-b088-4b59-8134-c01b3d2b4fcb"
+              },
+              {
+                "reference": "Condition/3eb2a6ea-590b-4e89-83ef-7d8d4a367ce3"
+              },
+              {
+                "reference": "Condition/6e17ba31-6a0d-4f3d-b1f8-2dbbf7ee9d39"
+              },
+              {
+                "reference": "Condition/7fafacb9-502e-4030-ad5e-9500531b5fb1"
+              },
+              {
+                "reference": "Condition/3487ff6a-4a14-4bd0-81eb-12d67f6156a6"
+              },
+              {
+                "reference": "Condition/f6d053ea-26d7-4859-ad6b-abe3102762dd"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative available on medications</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/b2e3dc9e-a099-4506-bbfb-5f276295df70"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+            },
+            "entry": [
+              {
+                "reference": "DiagnosticReport/95475dcf-4f3e-4f81-888d-6b34c828a8d8"
+              },
+              {
+                "reference": "Observation/68fb1b1c-7c6a-4b5e-aad4-b32b7998dc08"
+              },
+              {
+                "reference": "DiagnosticReport/ba626026-ecfd-4d01-93aa-d35ee703e324"
+              },
+              {
+                "reference": "Observation/7cc98a49-f166-4970-8c76-48b4ab8c8cd5"
+              },
+              {
+                "reference": "Observation/6fe2d536-1c6b-48c0-8d96-7564a48daff0"
+              },
+              {
+                "reference": "Observation/67ce7f05-dd4c-45fb-9d30-2ed9fb8dfcc5"
+              },
+              {
+                "reference": "Observation/1ac10f63-fe7d-4cff-ac52-7c4901e0d20e"
+              },
+              {
+                "reference": "Observation/aecd8d45-112b-4d42-8012-49bd3ea0cb84"
+              },
+              {
+                "reference": "Observation/214ec539-4866-4561-ab50-66711d900a6d"
+              },
+              {
+                "reference": "Observation/9feb3f3f-c073-4101-baba-58834f41ec86"
+              },
+              {
+                "reference": "Observation/6530a1ed-12aa-482d-85ab-d334c1f89617"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/5568",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "5568",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-09-29T05:09:51.218-04:00",
+          "source": "#LYOfpF5yOLiC4hMm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Race",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/Ethnicity",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/ReligiousAffiliation",
+                  "code": "1077",
+                  "display": "Protestant"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "000000922"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/identifier-type",
+                  "code": "SB",
+                  "display": "Social Beneficiary Identifier"
+                }
+              ]
+            },
+            "system": "http://mihin.org/fhir/cks",
+            "value": "20c7980e636d415da14ec1850c16c482"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "915159-922"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "ee380587-8c47-43cf-9a4a-b00447e841d4"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PT",
+                  "display": "Patient External Identifier"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-identifier",
+            "value": "20c7980e636d415da14ec1850c16c482"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR",
+                  "display": "Medical Record Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mrn",
+            "value": "c54ee492-3627-4c64-9530-e1c15eb1e2cb"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MB",
+                  "display": "Member Number"
+                }
+              ]
+            },
+            "system": "http://www.bcbs.com/fhir/ns/NamingSystem/patient-mb",
+            "value": "638652-922"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Burnett",
+            "given": [
+              "Rose",
+              "Cox"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "231-555-0811",
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "231-555-1136",
+            "use": "mobile"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-03-11",
+        "address": [
+          {
+            "use": "home",
+            "type": "postal",
+            "line": [
+              "974 Atlantic Street"
+            ],
+            "city": "Muskegon",
+            "district": "Muskegon County",
+            "state": "MI",
+            "postalCode": "49445"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "f9f883fa-a146-4383-8aa3-0a5192a2c4e9",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.4.6",
+            "value": "654321"
+          }
+        ],
+        "name": "Sample Organization"
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/4a0af6c6-1d07-4032-9af3-a6cbac9100dd",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "4a0af6c6-1d07-4032-9af3-a6cbac9100dd",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about allergies</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-allergy-info",
+              "display": "No information about allergies"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/5568"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/25f14e2d-b088-4b59-8134-c01b3d2b4fcb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "25f14e2d-b088-4b59-8134-c01b3d2b4fcb",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "843fc129-d35a-4295-859d-7c4f5ebf3ee8"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840539006",
+              "display": "COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T01:13:00-04:00",
+        "recordedDate": "2020-04-08T01:13:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2470",
+          "display": "Henry Leo Moses MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/3eb2a6ea-590b-4e89-83ef-7d8d4a367ce3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3eb2a6ea-590b-4e89-83ef-7d8d4a367ce3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "8755607d-ccb5-4745-9e03-ed9bb88a4e96"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49727002",
+              "display": "Cough (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2470",
+          "display": "Henry Leo Moses MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/6e17ba31-6a0d-4f3d-b1f8-2dbbf7ee9d39",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6e17ba31-6a0d-4f3d-b1f8-2dbbf7ee9d39",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "764c68f1-29bc-4594-ace0-b1e9124a447e"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "267036007",
+              "display": "Dyspnea (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2470",
+          "display": "Henry Leo Moses MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/7fafacb9-502e-4030-ad5e-9500531b5fb1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7fafacb9-502e-4030-ad5e-9500531b5fb1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "25fcfb58-16f0-4a37-bde9-addfb0e34639"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "56018004",
+              "display": "Wheezing (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2470",
+          "display": "Henry Leo Moses MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/3487ff6a-4a14-4bd0-81eb-12d67f6156a6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3487ff6a-4a14-4bd0-81eb-12d67f6156a6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "8849418e-8ffb-4b73-a03b-cca777c3533d"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever (finding)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2470",
+          "display": "Henry Leo Moses MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/f6d053ea-26d7-4859-ad6b-abe3102762dd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f6d053ea-26d7-4859-ad6b-abe3102762dd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "121c3026-447f-4d7d-bb3d-2421d2067b83"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "840544004",
+              "display": "Suspected COVID-19"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "onsetDateTime": "2020-04-08T00:00:00-04:00",
+        "recordedDate": "2020-04-08T00:00:00-04:00",
+        "asserter": {
+          "reference": "Practitioner/2470",
+          "display": "Henry Leo Moses MD"
+        }
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/b2e3dc9e-a099-4506-bbfb-5f276295df70",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "b2e3dc9e-a099-4506-bbfb-5f276295df70",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p>No information about medications</div>"
+        },
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-medication-info",
+              "display": "No information about medications"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568"
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/95475dcf-4f3e-4f81-888d-6b34c828a8d8",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "95475dcf-4f3e-4f81-888d-6b34c828a8d8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "7c2c0890-c372-48db-897c-8c79724c6d5f"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80381-7",
+              "display": "Influenza virus A and B Ag panel - Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:12:00-04:00",
+        "issued": "2020-04-08T00:12:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/10046",
+            "display": "Influenza Not Detected_Observation_1"
+          },
+          {
+            "reference": "Observation/10047",
+            "display": "Influenza Not Detected_Observation_2"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/68fb1b1c-7c6a-4b5e-aad4-b32b7998dc08",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "68fb1b1c-7c6a-4b5e-aad4-b32b7998dc08",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "ff26bd18-4836-472b-b21e-a056a4fbb7ff"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T01:13:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "DiagnosticReport/ba626026-ecfd-4d01-93aa-d35ee703e324",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "ba626026-ecfd-4d01-93aa-d35ee703e324",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "18837284-d06a-48d8-b3ba-4230f280f643"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94531-1",
+              "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T01:13:00-04:00",
+        "issued": "2020-04-08T01:13:00.000-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/10052",
+            "display": "Administer COVID-19 Test Positive_Observation_1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/7cc98a49-f166-4970-8c76-48b4ab8c8cd5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7cc98a49-f166-4970-8c76-48b4ab8c8cd5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "0a88af25-ac63-47fb-a249-767b8befc1b3"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "8331-1",
+              "display": "Oral temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 42.12925349929387,
+          "unit": "Cel"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/6fe2d536-1c6b-48c0-8d96-7564a48daff0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6fe2d536-1c6b-48c0-8d96-7564a48daff0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "a5f83d93-b440-4310-af1b-a93609add9b3"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/67ce7f05-dd4c-45fb-9d30-2ed9fb8dfcc5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "67ce7f05-dd4c-45fb-9d30-2ed9fb8dfcc5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "3e56485c-b46d-41ad-aa20-e1fab7e506b0"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 184,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/1ac10f63-fe7d-4cff-ac52-7c4901e0d20e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1ac10f63-fe7d-4cff-ac52-7c4901e0d20e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "27416f14-86cf-4927-a91d-f42a384f56e1"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 77,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/aecd8d45-112b-4d42-8012-49bd3ea0cb84",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aecd8d45-112b-4d42-8012-49bd3ea0cb84",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "e22e7ccf-1881-4827-a0df-c449d9db92a7"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 115,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 82,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/214ec539-4866-4561-ab50-66711d900a6d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "214ec539-4866-4561-ab50-66711d900a6d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "28ef35c4-e1d3-4b98-bc8d-b750f1e605a4"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:00:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 85.3,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/9feb3f3f-c073-4101-baba-58834f41ec86",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9feb3f3f-c073-4101-baba-58834f41ec86",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "e0afae8f-b3a4-4aa7-b210-b2456a538e5b"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80382-5",
+              "display": "Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/6530a1ed-12aa-482d-85ab-d334c1f89617",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6530a1ed-12aa-482d-85ab-d334c1f89617",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-09-28T13:39:58.120-04:00",
+          "source": "#KgDDYqJNwUZRMCik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">This is a simple narrative with only plain text</div>"
+        },
+        "extension": [
+          {
+            "url": "http://mihin.org/extension/copyright",
+            "valueString": "Copyright 2014-2020 Michigan Health Information Network Shared Services. Licensed under the Apache License, Version 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0.  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://mihin.org/fhir/sid/elementId",
+            "value": "07cfed6a-0c79-469a-acef-dca28b61bc4e"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "80383-3",
+              "display": "Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5568",
+          "display": "Rose Cox Burnett"
+        },
+        "encounter": {
+          "reference": "Encounter/10032",
+          "display": "Encounter for Test"
+        },
+        "effectiveDateTime": "2020-04-08T00:12:00-04:00",
+        "performer": [
+          {
+            "reference": "Practitioner/2470",
+            "display": "Henry Leo Moses MD"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

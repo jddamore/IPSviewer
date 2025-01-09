@@ -1,0 +1,644 @@
+{
+  "resourceType": "Bundle",
+  "id": "98037",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-05-18T23:07:48.471+00:00",
+    "source": "#M15VG4Ce0IXIjMcY"
+  },
+  "identifier": {
+    "system": "http://trilliumbridge.eu/fhir/demos/eumfh/ips_id",
+    "value": "EUR01P0011"
+  },
+  "type": "document",
+  "timestamp": "2021-05-18T12:13:00+02:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:34c90ea0-d10e-4c62-9831-5cb3a81cde8d",
+    "resource": {
+      "resourceType": "Composition",
+      "id": "eumfh-70-288",
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "date": "2018-10-10T16:41:04+02:00",
+      "author": [ {
+        "reference": "urn:uuid:495b043c-f611-426d-aca5-d67a63534a4d",
+        "display": "Rita Meloni (inject 70-288)"
+      } ],
+      "title": "Patient Summary of Marco Peroni (inject 70-288)",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and adverse reactions Document"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><ul><li>No known allergies</li></ul></div></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:aeaa0d87-b9e7-481b-9482-a8dd185f6e1d",
+          "display": "No known allergies"
+        } ]
+      }, {
+        "title": "Active Problems",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem list Reported"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>[2007-04-27] - Attention deficit hyperactivity disorder</li><li>[2012-07-16] - Substance abuse</li><li>[2017-04-26] - Tonsillitis</li><li>[2007-01-26] - Decreased hearing</li></ul></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:1efd8e7a-fc4c-472a-82c3-e9f897999943",
+          "display": "[2007-04-27] - Attention deficit hyperactivity disorder"
+        }, {
+          "reference": "urn:uuid:874336dc-7107-45c5-b278-be80f3038608",
+          "display": "[2012-07-16] - Substance abuse"
+        }, {
+          "reference": "urn:uuid:ed6e9cc9-3e61-4d24-830d-fe115307030f",
+          "display": "[2017-04-26] - Tonsillitis"
+        }, {
+          "reference": "urn:uuid:4f81d386-80d5-4a22-8b32-892f8b736094",
+          "display": "[2007-01-26] - Decreased hearing"
+        } ]
+      }, {
+        "title": "Medication",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "Hx of Medication use"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>[2018] - Methylphenidate 5mg chewable tablet - 2 tablets per day</li><li>[2018] - Diazepam product</li></ul></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:fa22e718-b047-4505-ae72-6b5a3cabd231",
+          "display": "[2018] - Methylphenidate 5mg chewable tablet - 2 tablets per day"
+        }, {
+          "reference": "urn:uuid:439e741c-bbbf-4b5d-bf24-97a2030f76c5",
+          "display": "[2018] - Diazepam product"
+        } ]
+      }, {
+        "title": "Immunizations",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11369-6",
+            "display": "History of Immunization Narrative"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><ul><li>[2013-02-09] - Diphtheria + tetanus + poliomyelitis vaccine</li><li>[2013-07-08] - Hepatitis B virus vaccine</li></ul></div></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:f28d6b82-31bf-4764-9259-12e78aa0374d",
+          "display": "Diphtheria + tetanus + poliomyelitis vaccine"
+        }, {
+          "reference": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a493c",
+          "display": "Hepatitis B virus vaccine"
+        } ]
+      }, {
+        "title": "History of Occupation",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11341-5",
+            "display": "History of Occupation"
+          } ]
+        },
+        "entry": [ {
+          "reference": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a494c"
+        }, {
+          "reference": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a495c"
+        }, {
+          "reference": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a496c"
+        }, {
+          "reference": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a497c"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:aeaa0d87-b9e7-481b-9482-a8dd185f6e1d",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "eumfh-70-288-1",
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-known-allergies",
+          "display": "No known allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:1efd8e7a-fc4c-472a-82c3-e9f897999943",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "eumfh-70-288-E-1",
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "406506008",
+          "display": "Attention deficit hyperactivity disorder"
+        } ],
+        "text": "Attention deficit hyperactivity disorder"
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "onsetDateTime": "2007-04-27",
+      "asserter": {
+        "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+        "display": "Dr. Samantha Wang"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:874336dc-7107-45c5-b278-be80f3038608",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "eumfh-70-288-E-2",
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "66214007",
+          "display": "Substance abuse"
+        } ],
+        "text": "Substance abuse"
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "onsetDateTime": "2012-07-16",
+      "asserter": {
+        "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+        "display": "Dr. Samantha Wang"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:ed6e9cc9-3e61-4d24-830d-fe115307030f",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "eumfh-70-288-E-3",
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "J35.0",
+          "display": "Chronic tonsillitis and adenoiditis"
+        } ],
+        "text": "Tonsillitis"
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "onsetDateTime": "2017-04-26",
+      "asserter": {
+        "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+        "display": "Dr. Samantha Wang"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:4f81d386-80d5-4a22-8b32-892f8b736094",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "eumfh-70-288-E-4",
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "103276001",
+          "display": "Decreased hearing"
+        } ],
+        "text": "Decreased hearing"
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "onsetDateTime": "2007-01-26",
+      "asserter": {
+        "reference": "http://ehealthpass.gnomon.com.gr/hapi-fhir-jpaserver4/baseDstu3/Practitioner/eumfh-70-288-E",
+        "display": "Dr. Samantha Wang"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f28d6b82-31bf-4764-9259-12e78aa0374d",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "eumfh-70-288-1",
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "414006007",
+          "display": "Diphtheria + tetanus + poliomyelitis vaccine"
+        } ],
+        "text": "Diphtheria + tetanus + poliomyelitis vaccine"
+      },
+      "patient": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "occurrenceDateTime": "1995"
+    }
+  }, {
+    "fullUrl": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a493c",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "eumfh-70-288-2",
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "34689006",
+          "display": "Hepatitis B virus vaccine"
+        } ],
+        "text": "Hepatitis B virus vaccine"
+      },
+      "patient": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "occurrenceDateTime": "2005"
+    }
+  }, {
+    "fullUrl": "urn:uuid:e8590b9f-1f67-4df7-8750-858d3d90a5ce",
+    "resource": {
+      "resourceType": "Medication",
+      "id": "eumfh-70-288-E-1",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "429693005",
+          "display": "Methylphenidate 5mg chewable tablet"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:1025e148-8a23-44ea-8628-f4d73c23d9ba",
+    "resource": {
+      "resourceType": "Medication",
+      "id": "eumfh-70-288-E-2",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "48546005",
+          "display": "Diazepam-containing product"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:fa22e718-b047-4505-ae72-6b5a3cabd231",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "eumfh-70-288-E-1",
+      "status": "active",
+      "medicationReference": {
+        "reference": "urn:uuid:e8590b9f-1f67-4df7-8750-858d3d90a5ce",
+        "display": "Methylphenidate 5mg chewable tablet"
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "effectivePeriod": {
+        "start": "2018"
+      },
+      "dateAsserted": "2018-10-01",
+      "informationSource": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "dosage": [ {
+        "timing": {
+          "repeat": {
+            "frequency": 2,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:439e741c-bbbf-4b5d-bf24-97a2030f76c5",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "eumfh-70-288-E-2",
+      "status": "active",
+      "medicationReference": {
+        "reference": "urn:uuid:1025e148-8a23-44ea-8628-f4d73c23d9ba",
+        "display": "Diazepam product"
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "effectivePeriod": {
+        "start": "2018"
+      },
+      "dateAsserted": "2018-10-01",
+      "informationSource": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+        "display": "Marco Peroni (inject 70-288)"
+      },
+      "dosage": [ {
+        "text": "as required",
+        "asNeededBoolean": true
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "eumfh-70-288",
+      "meta": {
+        "lastUpdated": "2018-10-10T13:51:24+02:00"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+        "extension": [ {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "IT",
+              "display": "Italy"
+            } ]
+          }
+        } ]
+      } ],
+      "identifier": [ {
+        "system": "http://trilliumbridge.eu/fhir/demos/eumfh/inject",
+        "value": "70-288"
+      }, {
+        "system": "http://trilliumbridge.eu/fhir/demos/eumfh/patient_id",
+        "value": "EUR01P0011"
+      } ],
+      "active": true,
+      "name": [ {
+        "family": "Peroni",
+        "given": [ "Marco" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1995-07-28"
+    }
+  }, {
+    "fullUrl": "urn:uuid:495b043c-f611-426d-aca5-d67a63534a4d",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "eumfh-70-288-1",
+      "meta": {
+        "lastUpdated": "2018-10-10T13:52:19+02:00"
+      },
+      "name": [ {
+        "family": "Meloni",
+        "given": [ "Rita" ],
+        "prefix": [ "Dr." ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a494c",
+    "resource": {
+      "resourceType": "Observation",
+      "meta": {
+        "versionId": "7",
+        "lastUpdated": "2021-05-26T17:22:34.756+00:00",
+        "source": "#H1Oz6Eja94PABzAs",
+        "profile": [ "http://hl7.org/fhir/us/odh/StructureDefinition/odh-EmploymentStatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:126e7704-b9dc-4559-ad88-138ad7a3f233#HistoryOfOccupation-893a36f7-cb07-442f-9ec7-b80d433a494c"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "74165-2",
+          "display": "History of employment status NIOSH"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41"
+      },
+      "effectivePeriod": {
+        "start": "2021-09-07"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+          "code": "Employed",
+          "display": "Employed"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a495c",
+    "resource": {
+      "resourceType": "Observation",
+      "meta": {
+        "versionId": "10",
+        "lastUpdated": "2021-05-27T09:19:44.894+00:00",
+        "source": "#kx1P9fdzw85WYorA",
+        "profile": [ "http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/odh/StructureDefinition/odh-isCurrentJob-extension",
+        "valueBoolean": false
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "11341-5",
+          "display": "History of Occupation"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41"
+      },
+      "effectivePeriod": {
+        "start": "2021-09-07"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+          "code": "1650",
+          "display": "Medical scientists"
+        }, {
+          "system": "http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH.html",
+          "code": "19-1042.00.026469",
+          "display": "Medical Researcher [Medical Scientists, Except Epidemiologists]"
+        } ]
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "86188-0",
+            "display": "History of Occupation Industry"
+          } ]
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+            "code": "7460",
+            "display": "Scientific research and development services"
+          }, {
+            "system": "http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH.html",
+            "code": "611310.000015",
+            "display": "Academies, college or university [Colleges, Universities, and Professional Schools]"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a496c",
+    "resource": {
+      "resourceType": "Observation",
+      "meta": {
+        "versionId": "10",
+        "lastUpdated": "2021-05-27T09:19:44.894+00:00",
+        "source": "#kx1P9fdzw85WYorA",
+        "profile": [ "http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/odh/StructureDefinition/odh-isCurrentJob-extension",
+        "valueBoolean": false
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "11341-5",
+          "display": "History of Occupation"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41"
+      },
+      "effectivePeriod": {
+        "start": "2016-03-10",
+        "end": "2020-04-14"
+      },
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+          "code": "3600",
+          "display": "Nursing, psychiatric, and home health aides"
+        }, {
+          "system": "http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH.html",
+          "code": "31-1014.00.007136",
+          "display": "Certified Nursing Assistant (CNA) [Nursing Assistants]"
+        } ]
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "86188-0",
+            "display": "History of Occupation Industry"
+          } ]
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHIndustryCDCCensus2010.html",
+            "code": "8270",
+            "display": "Nursing care facilities"
+          }, {
+            "system": "http://terminology.hl7.org/CodeSystem/PHOccupationalDataForHealthODH.html",
+            "code": "621610.008495",
+            "display": "Home nursing services"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:893a36f7-cb07-442f-9ec7-b80d433a497c",
+    "resource": {
+      "resourceType": "Observation",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2021-05-26T02:30:21.329+00:00",
+        "source": "#RKwpT7ubUXgCKeEe",
+        "profile": [ "http://hl7.org/fhir/us/odh/StructureDefinition/odh-CombatZonePeriod" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:126e7704-b9dc-4559-ad88-138ad7a3f233#HistoryOfOccupation-893a36f7-cb07-442f-9ec7-b80d433a497c"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "87511-2",
+          "display": "Combat zone AndOr hazardous duty work dates"
+        } ]
+      },
+      "subject": {
+        "reference": "urn:uuid:922e38a9-c2dd-434e-8749-4689ec426d41"
+      },
+      "valuePeriod": {
+        "start": "2017-12-07",
+        "end": "2018-02-04"
+      }
+    }
+  } ]
+}

@@ -101,11 +101,15 @@
                             "status": "generated",
                             "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-GB' xml:lang='en-GB'>There is no information available regarding the subject's allergy conditions.</div>"
                         },
-                        "entry": [
-                            {
-                                "reference": "AllergyIntolerance/e198be1e-9861-46af-9d97-841ef9f7c707"
-                            }
-                        ]
+						"emptyReason": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+									"code": "unavailable"
+								}
+							]
+						}
+
                     },
                     {
                         "title": "Problem List",
@@ -122,11 +126,14 @@
                             "status": "generated",
                             "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-GB' xml:lang='en-GB'>There is no information available about the subject's health problems or disabilities.</div>"
                         },
-                        "entry": [
-                            {
-                                "reference": "Condition/da138a5d-633f-493f-9485-e5af1320db5b"
-                            }
-                        ]
+						"emptyReason": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+									"code": "unavailable"
+								}
+							]
+						}
                     },
                     {
                         "title": "Medication Summary",
@@ -143,11 +150,14 @@
                             "status": "generated",
                             "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-GB' xml:lang='en-GB'>There is no information available about the subject's medication use or administration.</div>"
                         },
-                        "entry": [
-                            {
-                                "reference": "MedicationStatement/ceb9a0d2-454c-4834-be55-2fa1eb2acd49"
-                            }
-                        ]
+						"emptyReason": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+									"code": "unavailable"
+								}
+							]
+						}
                     },
                     {
                         "title": "Advance Directives",
@@ -400,88 +410,6 @@
                     }
                 ],
                 "name": "NorthCare Pukete Road"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:e198be1e-9861-46af-9d97-841ef9f7c707",
-            "resource": {
-                "resourceType": "AllergyIntolerance",
-                "id": "e198be1e-9861-46af-9d97-841ef9f7c707",
-                "clinicalStatus": {
-                    "coding": [
-                        {
-                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
-                            "code": "active"
-                        }
-                    ]
-                },
-                "code": {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
-                            "code": "no-allergy-info",
-                            "display": "No information about allergies"
-                        }
-                    ]
-                },
-                "patient": {
-                    "reference": "Patient/f0aece39-1fb7-4366-9332-151f32963505"
-                }
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:da138a5d-633f-493f-9485-e5af1320db5b",
-            "resource": {
-                "resourceType": "Condition",
-                "id": "da138a5d-633f-493f-9485-e5af1320db5b",
-                "clinicalStatus": {
-                    "coding": [
-                        {
-                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
-                            "code": "active"
-                        }
-                    ]
-                },
-                "code": {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
-                            "code": "no-problem-info",
-                            "display": "No information about problems"
-                        }
-                    ]
-                },
-                "subject": {
-                    "reference": "Patient/f0aece39-1fb7-4366-9332-151f32963505"
-                }
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:ceb9a0d2-454c-4834-be55-2fa1eb2acd49",
-            "resource": {
-                "resourceType": "MedicationStatement",
-                "id": "ceb9a0d2-454c-4834-be55-2fa1eb2acd49",
-                "status": "unknown",
-                "medicationCodeableConcept": {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
-                            "code": "no-medication-info",
-                            "display": "No information about medications"
-                        }
-                    ]
-                },
-                "subject": {
-                    "reference": "Patient/f0aece39-1fb7-4366-9332-151f32963505"
-                },
-                "effectivePeriod": {
-                    "extension": [
-                        {
-                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-                            "valueCode": "not-applicable"
-                        }
-                    ]
-                }
             }
         },
         {

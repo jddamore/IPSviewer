@@ -1,0 +1,3669 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "606ad5ca-7629-41a4-baad-94616cbdbbfa"
+  },
+  "type": "document",
+  "timestamp": "2023-01-15T17:28:58.326+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0",
+    "resource": {
+      "resourceType": "Composition",
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "date": "2023-01-15T17:28:58+00:00",
+      "author": [ {
+        "reference": "urn:uuid:86c5780e-be44-4817-a839-794f80ec77e8"
+      } ],
+      "title": "Patient Summary as of 01/15/2023",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and Adverse Reactions"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+        },
+        "entry": [ {
+          "reference": "AllergyIntolerance/249871"
+        }, {
+          "reference": "AllergyIntolerance/249872"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+        },
+        "entry": [ {
+          "reference": "Condition/249873"
+        } ]
+      }, {
+        "title": "History of Immunizations",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11369-6",
+            "display": "History of Immunizations"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+        },
+        "entry": [ {
+          "reference": "Immunization/342880"
+        }, {
+          "reference": "Immunization/342881"
+        }, {
+          "reference": "Immunization/342882"
+        }, {
+          "reference": "Immunization/342883"
+        } ]
+      }, {
+        "title": "Vital Signs",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8716-3",
+            "display": "Vital Signs"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+        },
+        "entry": [ {
+          "reference": "Observation/345249"
+        }, {
+          "reference": "Observation/345250"
+        }, {
+          "reference": "Observation/345251"
+        }, {
+          "reference": "Observation/345252"
+        }, {
+          "reference": "Observation/345253"
+        }, {
+          "reference": "Observation/345254"
+        }, {
+          "reference": "Observation/345255"
+        }, {
+          "reference": "Observation/345256"
+        }, {
+          "reference": "Observation/345257"
+        }, {
+          "reference": "Observation/345258"
+        }, {
+          "reference": "Observation/345260"
+        }, {
+          "reference": "Observation/345261"
+        }, {
+          "reference": "Observation/345265"
+        }, {
+          "reference": "Observation/345266"
+        }, {
+          "reference": "Observation/345267"
+        }, {
+          "reference": "Observation/230676"
+        }, {
+          "reference": "Observation/345270"
+        }, {
+          "reference": "Observation/345271"
+        }, {
+          "reference": "Observation/345272"
+        }, {
+          "reference": "Observation/345273"
+        }, {
+          "reference": "Observation/345274"
+        }, {
+          "reference": "Observation/345275"
+        }, {
+          "reference": "Observation/345276"
+        }, {
+          "reference": "Observation/345277"
+        }, {
+          "reference": "Observation/345278"
+        }, {
+          "reference": "Observation/345279"
+        }, {
+          "reference": "Observation/345280"
+        }, {
+          "reference": "Observation/345281"
+        }, {
+          "reference": "Observation/345282"
+        }, {
+          "reference": "Observation/345283"
+        }, {
+          "reference": "Observation/345284"
+        } ]
+      }, {
+        "title": "Pregnancy Information",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10162-6",
+            "display": "Pregnancy Information"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+        },
+        "entry": [ {
+          "reference": "Observation/258406"
+        }, {
+          "reference": "Observation/261351"
+        } ]
+      }, {
+        "title": "Social History",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "29762-2",
+            "display": "Social History"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+        },
+        "entry": [ {
+          "reference": "Observation/249869"
+        }, {
+          "reference": "Observation/249870"
+        }, {
+          "reference": "Observation/260425"
+        }, {
+          "reference": "Observation/260424"
+        }, {
+          "reference": "Observation/342877"
+        }, {
+          "reference": "Observation/342878"
+        }, {
+          "reference": "Observation/342879"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:249867",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "249867",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-22T12:46:20.034+00:00",
+        "source": "#b8960562a89c58a0",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Maria <b>IOSIF </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CY/GHS-MI-1111</td></tr><tr><td>Address</td><td><span>Aitolon </span><br/><span>8 </span><br/><span>Parissinos </span><br/><span>Nicosia </span><br/><span>2621 </span><br/><span>Cyprus </span><br/><span>Nicosia </span><span>Cyprus </span></td></tr><tr><td>Date of birth</td><td><span>21 September 1986</span></td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-insurance",
+        "extension": [ {
+          "url": "insuranceOrganizationName",
+          "valueString": "Insurance_name_MI"
+        }, {
+          "url": "insurancePlanIdentifier",
+          "valueString": "Insurance_number_MI"
+        } ]
+      }, {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-fathersinformation",
+        "extension": [ {
+          "url": "fathersGivenName",
+          "valueString": "Sotiris"
+        }, {
+          "url": "fathersFamilyName",
+          "valueString": "Iosif"
+        }, {
+          "url": "contactPhone",
+          "valueString": "99090909"
+        }, {
+          "url": "email",
+          "valueString": "sotirisiosif@gmail.com"
+        }, {
+          "url": "placeOfBirth",
+          "valueString": "Nicosia"
+        }, {
+          "url": "placeOfOrigin",
+          "valueString": "Cyprus"
+        }, {
+          "url": "occupation",
+          "valueString": "Plumber"
+        } ]
+      }, {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-mothersinformation",
+        "extension": [ {
+          "url": "mothersGivenName",
+          "valueString": "Myroula"
+        }, {
+          "url": "mothersFamilyName",
+          "valueString": "Iosif"
+        }, {
+          "url": "contactPhone",
+          "valueString": "99101010"
+        }, {
+          "url": "email",
+          "valueString": "myroulaiosif@gmail.com"
+        }, {
+          "url": "placeOfBirth",
+          "valueString": "Nicosia"
+        }, {
+          "url": "placeOfOrigin",
+          "valueString": "Cyprus"
+        }, {
+          "url": "occupation",
+          "valueString": "Hair dresser"
+        } ]
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/GHS-MI-1111"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/Identity-MI-1111"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/Passport-MI-1111"
+      }, {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Social-Insurance-MI-1111"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "family": "Iosif",
+        "given": [ "Maria" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "99080808",
+        "use": "mobile"
+      }, {
+        "system": "email",
+        "value": "mariaiosif@gmail.com",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1986-09-21",
+      "address": [ {
+        "use": "home",
+        "type": "physical",
+        "line": [ "Aitolon", "8", "Parissinos", "Nicosia", "2621", "Cyprus" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Aitolon"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "8"
+          } ]
+        }, null, null, null, null, null ],
+        "city": "Nicosia",
+        "district": "Parissinos",
+        "postalCode": "2621",
+        "country": "Cyprus"
+      } ],
+      "contact": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-relationshiplevel",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://snomed.info/sct",
+              "code": "72705000",
+              "display": "Mother (person)"
+            } ]
+          }
+        } ],
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+            "code": "NOK",
+            "display": "Next of kin"
+          } ]
+        } ],
+        "name": {
+          "use": "official",
+          "family": "Iosif",
+          "given": [ "Myroula" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "99101010",
+          "use": "mobile"
+        }, {
+          "system": "email",
+          "value": "myroulaiosif@gmail.com",
+          "use": "home"
+        } ],
+        "address": {
+          "use": "home",
+          "type": "physical",
+          "line": [ "Melinas Merkouri", "6B", "Parissinos", "Nicosia", "2621", "Cyprus" ],
+          "_line": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Melinas Merkouri"
+            }, {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "6B"
+            } ]
+          }, null, null, null, null, null ],
+          "city": "Nicosia",
+          "district": "Parissinos",
+          "postalCode": "2621",
+          "country": "Cyprus"
+        },
+        "gender": "female"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-relationshiplevel",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://snomed.info/sct",
+              "code": "66839005",
+              "display": "Father (person)"
+            } ]
+          }
+        } ],
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+            "code": "ECON",
+            "display": "emergency contact"
+          } ]
+        } ],
+        "name": {
+          "use": "official",
+          "family": "Iosif",
+          "given": [ "Sotiris" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "99090909",
+          "use": "mobile"
+        }, {
+          "system": "email",
+          "value": "sotirisiosif@gmail.com",
+          "use": "home"
+        } ],
+        "address": {
+          "use": "home",
+          "type": "physical",
+          "line": [ "Melinas Merkouri", "6B", "Parissinos", "Nicosia", "2621", "Cyprus" ],
+          "_line": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Melinas Merkouri"
+            }, {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "6B"
+            } ]
+          }, null, null, null, null, null ],
+          "city": "Nicosia",
+          "district": "Parissinos",
+          "postalCode": "2621",
+          "country": "Cyprus"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "el-CY",
+            "display": "Greek, Modern (1453-)-CYPRUS"
+          } ]
+        }
+      } ],
+      "generalPractitioner": [ {
+        "reference": "PractitionerRole/194313"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:249868",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "249868",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-22T12:52:12.244+00:00",
+        "source": "#471d5d2857749a16",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-encounter-r4" ]
+      },
+      "status": "finished",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "SS",
+        "display": "short stay"
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "participant": [ {
+        "individual": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "period": {
+        "start": "2020-02-18",
+        "end": "2020-02-18"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:249869",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "249869",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-22T13:00:43.681+00:00",
+        "source": "#9749ea6b6274ebc2",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-travelhistory" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-249869"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8691-8",
+          "display": "History of Travel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectivePeriod": {
+        "start": "2014-08-12",
+        "end": "2014-08-19"
+      },
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "urn:oid:1.0.3166.1",
+          "code": "GR",
+          "display": "GREECE"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:249870",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "249870",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-22T13:04:14.204+00:00",
+        "source": "#97bda2e4140e7681",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-travelhistory" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-249870"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8691-8",
+          "display": "History of Travel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectivePeriod": {
+        "start": "2018-04-18",
+        "end": "2018-04-22"
+      },
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "urn:oid:1.0.3166.1",
+          "code": "FR",
+          "display": "FRANCE"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:249871",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "249871",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-22T13:20:29.160+00:00",
+        "source": "#2d5a24890cf4f234",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-allergyintorelrance-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#AllergiesAndIntolerances-249871"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "type": "allergy",
+      "_type": {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-extracode",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://snomed.info/sct",
+              "code": "609328004",
+              "display": "Allergic disposition"
+            } ]
+          }
+        } ]
+      },
+      "category": [ "food" ],
+      "criticality": "high",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "735971005",
+          "display": "Fish"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "onsetDateTime": "2008-11-08",
+      "recorder": {
+        "reference": "PractitionerRole/194313"
+      },
+      "reaction": [ {
+        "manifestation": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "76067001",
+            "display": "Sneezing"
+          } ]
+        } ],
+        "description": "Sneezing",
+        "onset": "2008-11-08",
+        "severity": "moderate",
+        "_severity": {
+          "extension": [ {
+            "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-extracode",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://snomed.info/sct",
+                "code": "371923003",
+                "display": "Mild to moderate"
+              } ]
+            }
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:249872",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "249872",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2023-01-11T11:10:04.627+00:00",
+        "source": "#aac2eaeb595734ea",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-allergyintorelrance-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#AllergiesAndIntolerances-249872"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "type": "allergy",
+      "_type": {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-extracode",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://snomed.info/sct",
+              "code": "609328004",
+              "display": "Allergic disposition"
+            } ]
+          }
+        } ]
+      },
+      "category": [ "food" ],
+      "criticality": "high",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "227425007",
+          "display": "Figs"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "onsetDateTime": "2010-08-03",
+      "recorder": {
+        "reference": "PractitionerRole/194313"
+      },
+      "reaction": [ {
+        "manifestation": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "267036007",
+            "display": "Dyspnoea"
+          } ]
+        } ],
+        "description": "Dyspnoea",
+        "onset": "2010-08-03",
+        "severity": "moderate",
+        "_severity": {
+          "extension": [ {
+            "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-extracode",
+            "valueCodeableConcept": {
+              "coding": [ {
+                "system": "http://snomed.info/sct",
+                "code": "371923003",
+                "display": "Mild to moderate"
+              } ]
+            }
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:249873",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "249873",
+      "meta": {
+        "versionId": "4",
+        "lastUpdated": "2023-01-11T13:39:36.746+00:00",
+        "source": "#017579415568d8c4",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-problem-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#ProblemList-249873"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ],
+        "text": "Problem List Item"
+      } ],
+      "severity": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "6736007",
+          "display": "Moderate"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.2",
+          "code": "O21.0",
+          "display": "Mild hyperemesis gravidarum"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "onsetDateTime": "2020-04-06",
+      "recorder": {
+        "reference": "PractitionerRole/194313"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:257263",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "257263",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-23T09:22:33.911+00:00",
+        "source": "#bdb84dfc69f3af1e",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancyedd" ]
+      },
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "11779-6",
+          "display": "Delivery date estimated from last menstrual period"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectiveDateTime": "2019-11-10",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueDateTime": "2020-02-18"
+    }
+  }, {
+    "fullUrl": "urn:uuid:258406",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "258406",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-23T09:34:44.391+00:00",
+        "source": "#012dbf78f120bc0b",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Pregnancy-258406"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectiveDateTime": "2020-02-18",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ]
+      },
+      "hasMember": [ {
+        "reference": "Observation/257263"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:260425",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "260425",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-23T11:53:14.641+00:00",
+        "source": "#45d962814a15d717",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-tobaccouse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-260425"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Tobacco use and exposure"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectivePeriod": {
+        "start": "2012-03-02"
+      },
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA18978-9",
+          "display": "Never smoker"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:260424",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "260424",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-23T10:01:11.427+00:00",
+        "source": "#e3a1fcf8aebd7b55",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-consumptionofalcohol" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-260424"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "80439-3",
+          "display": "Alcohol intake panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectivePeriod": {
+        "start": "2012-03-13",
+        "end": "2014-09-24"
+      },
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "105542008",
+          "display": "Non - drinker"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:261351",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "261351",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2023-01-11T11:19:58.183+00:00",
+        "source": "#c31311ed66f120a8",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancyoutcome" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Pregnancy-261351"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "11640-0",
+          "display": "[#] Births total"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectiveDateTime": "2020-08-07",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 1
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:342877",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "342877",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:00:52.702+00:00",
+        "source": "#be7f0540c137f1e8",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-342877"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectiveDateTime": "2018-06-14",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228368007",
+          "display": "Has never misused drugs (situation)"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:342878",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "342878",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:05:09.347+00:00",
+        "source": "#9843433d852e05b3",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-sleep" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-342878"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "401175000",
+          "display": "Sleep pattern finding"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectivePeriod": {
+        "start": "2020-08-14"
+      },
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "401161007",
+          "display": "Delayed onset of sleep"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:342879",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "342879",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:08:57.723+00:00",
+        "source": "#dbceeb1e202d8029",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#SocialHistory-342879"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55409-7",
+          "display": "Exercise tracking panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/249868"
+      },
+      "effectivePeriod": {
+        "start": "2012-03-13",
+        "end": "2014-09-24"
+      },
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "73985-4",
+            "display": "Exercise activity"
+          } ]
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.246.537.6.301",
+            "code": "A0101",
+            "display": "Basketball"
+          } ]
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74009-2",
+            "display": "Exercise duration/Exercise frequency"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 1,
+          "unit": "/wk",
+          "system": "http://unitsofmeasure.org",
+          "code": "/wk"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "55411-3",
+            "display": "Exercise duration"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 30,
+          "unit": "min",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74008-4",
+            "display": "Exercise intensity"
+          } ]
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "LA20165-9",
+            "display": "Moderate"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:342880",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "342880",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:11:31.139+00:00",
+        "source": "#18d0638b0a3a845a",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342880"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://www.whocc.no/atc",
+          "code": "J07AD",
+          "display": "Brucellosis vaccines"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/249867"
+      },
+      "occurrenceDateTime": "2009-11-15",
+      "performer": [ {
+        "actor": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "protocolApplied": [ {
+        "doseNumberPositiveInt": 1
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:342881",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "342881",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:20:29.822+00:00",
+        "source": "#82231a008af8e0ba",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342881"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://www.whocc.no/atc",
+          "code": "J07AF",
+          "display": "Diphtheria vaccines"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/249867"
+      },
+      "occurrenceDateTime": "2010-02-01",
+      "performer": [ {
+        "actor": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "protocolApplied": [ {
+        "doseNumberPositiveInt": 1
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:342882",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "342882",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:22:32.983+00:00",
+        "source": "#8c59c3dddd76d694",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342882"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "1119349007",
+          "display": "SARS-CoV-2 mRNA vaccine"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/249867"
+      },
+      "occurrenceDateTime": "2022-02-01",
+      "performer": [ {
+        "actor": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "protocolApplied": [ {
+        "doseNumberPositiveInt": 1
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:342883",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "342883",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-01T22:23:30.707+00:00",
+        "source": "#4ea7dc5399a9f1db",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-immunization-r4" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#Immunizations-342883"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "1119349007",
+          "display": "SARS-CoV-2 mRNA vaccine"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/249867"
+      },
+      "occurrenceDateTime": "2022-05-01",
+      "performer": [ {
+        "actor": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "protocolApplied": [ {
+        "doseNumberPositiveInt": 1
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:342884",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "342884",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T10:25:20.636+00:00",
+        "source": "#a4e9c0ebca3c4d69",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-encounter-r4" ]
+      },
+      "status": "finished",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "SS",
+        "display": "short stay"
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "participant": [ {
+        "individual": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "period": {
+        "start": "2020-04-06",
+        "end": "2020-04-06"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:344529",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "344529",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:00:01.616+00:00",
+        "source": "#7f66d1f5d962639d",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-encounter-r4" ]
+      },
+      "status": "finished",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "SS",
+        "display": "short stay"
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "participant": [ {
+        "individual": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "period": {
+        "start": "2020-05-06",
+        "end": "2020-05-06"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:344859",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "344859",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:02:04.907+00:00",
+        "source": "#846e60292363e8eb",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-encounter-r4" ]
+      },
+      "status": "finished",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "SS",
+        "display": "short stay"
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "participant": [ {
+        "individual": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "period": {
+        "start": "2020-06-06",
+        "end": "2020-06-06"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345232",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "345232",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:04:37.460+00:00",
+        "source": "#c57b365bcf857f08",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-encounter-r4" ]
+      },
+      "status": "finished",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "SS",
+        "display": "short stay"
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "participant": [ {
+        "individual": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "period": {
+        "start": "2020-07-06",
+        "end": "2020-07-06"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345248",
+    "resource": {
+      "resourceType": "Encounter",
+      "id": "345248",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:07:30.306+00:00",
+        "source": "#86281cc7e23c93c1",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-encounter-r4" ]
+      },
+      "status": "finished",
+      "class": {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "SS",
+        "display": "short stay"
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "participant": [ {
+        "individual": {
+          "reference": "PractitionerRole/194313"
+        }
+      } ],
+      "period": {
+        "start": "2020-08-06",
+        "end": "2020-08-06"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345249",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345249",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:17:53.499+00:00",
+        "source": "#e00cca74bfc5e4b4",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345249"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "low": {
+            "value": 120,
+            "unit": "mm[Hg]"
+          },
+          "high": {
+            "value": 129,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "high": {
+            "value": 80,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345250",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345250",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:21:17.614+00:00",
+        "source": "#49dbe1d465f5028f",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345250"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344529"
+      },
+      "effectiveDateTime": "2020-05-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 132,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "low": {
+            "value": 120,
+            "unit": "mm[Hg]"
+          },
+          "high": {
+            "value": 129,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "high": {
+            "value": 80,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345251",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345251",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T11:23:29.778+00:00",
+        "source": "#4f4ecd902f55773a",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345251"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344859"
+      },
+      "effectiveDateTime": "2020-06-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 121,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "low": {
+            "value": 120,
+            "unit": "mm[Hg]"
+          },
+          "high": {
+            "value": 129,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 76,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "high": {
+            "value": 80,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345252",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345252",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:11:44.928+00:00",
+        "source": "#4c298132f8be3834",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345252"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345232"
+      },
+      "effectiveDateTime": "2020-07-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 119,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "low": {
+            "value": 120,
+            "unit": "mm[Hg]"
+          },
+          "high": {
+            "value": 129,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 74,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "high": {
+            "value": 80,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345253",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345253",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:13:17.203+00:00",
+        "source": "#4485b074cc566fa8",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bloodpressure" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345253"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345248"
+      },
+      "effectiveDateTime": "2020-08-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 118,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "low": {
+            "value": 120,
+            "unit": "mm[Hg]"
+          },
+          "high": {
+            "value": 129,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ]
+        },
+        "valueQuantity": {
+          "value": 75,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [ {
+          "high": {
+            "value": 80,
+            "unit": "mm[Hg]"
+          },
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+              "code": "normal",
+              "display": "Normal Range"
+            } ]
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345254",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345254",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:18:35.607+00:00",
+        "source": "#bf0f2221a9ee4530",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345254"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 78,
+        "unit": "{beats}/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "{beats}/min"
+      },
+      "referenceRange": [ {
+        "low": {
+          "value": 60,
+          "unit": "BPM"
+        },
+        "high": {
+          "value": 100,
+          "unit": "BPM"
+        },
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+            "code": "normal",
+            "display": "Normal Range"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345255",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345255",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:20:08.177+00:00",
+        "source": "#825c78552113db67",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345255"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344529"
+      },
+      "effectiveDateTime": "2020-05-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 74,
+        "unit": "{beats}/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "{beats}/min"
+      },
+      "referenceRange": [ {
+        "low": {
+          "value": 60,
+          "unit": "BPM"
+        },
+        "high": {
+          "value": 100,
+          "unit": "BPM"
+        },
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+            "code": "normal",
+            "display": "Normal Range"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345256",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345256",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2023-01-02T12:24:58.281+00:00",
+        "source": "#7709c2f38baf116b",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345256"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344859"
+      },
+      "effectiveDateTime": "2020-06-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 81,
+        "unit": "{beats}/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "{beats}/min"
+      },
+      "referenceRange": [ {
+        "low": {
+          "value": 60,
+          "unit": "BPM"
+        },
+        "high": {
+          "value": 100,
+          "unit": "BPM"
+        },
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+            "code": "normal",
+            "display": "Normal Range"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345257",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345257",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:22:57.629+00:00",
+        "source": "#3b405177948853f1",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345257"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345232"
+      },
+      "effectiveDateTime": "2020-07-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 83,
+        "unit": "{beats}/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "{beats}/min"
+      },
+      "referenceRange": [ {
+        "low": {
+          "value": 60,
+          "unit": "BPM"
+        },
+        "high": {
+          "value": 100,
+          "unit": "BPM"
+        },
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+            "code": "normal",
+            "display": "Normal Range"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345258",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345258",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:23:57.951+00:00",
+        "source": "#2b77e8b7fd0404ea",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-heartrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345258"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345248"
+      },
+      "effectiveDateTime": "2020-08-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 85,
+        "unit": "{beats}/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "{beats}/min"
+      },
+      "referenceRange": [ {
+        "low": {
+          "value": 60,
+          "unit": "BPM"
+        },
+        "high": {
+          "value": 100,
+          "unit": "BPM"
+        },
+        "type": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+            "code": "normal",
+            "display": "Normal Range"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:345260",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345260",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:41:29.601+00:00",
+        "source": "#dc971f2887e44a68",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345260"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body temperature"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 36.6,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345261",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345261",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T12:44:14.978+00:00",
+        "source": "#cca950d7e5cc45b7",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345261"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body temperature"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344529"
+      },
+      "effectiveDateTime": "2020-05-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 36.6,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345265",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345265",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T16:23:35.694+00:00",
+        "source": "#9860e813e37dfd3d",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345265"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body temperature"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344859"
+      },
+      "effectiveDateTime": "2020-06-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 37.2,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345266",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345266",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T16:39:01.859+00:00",
+        "source": "#949399b383f091a2",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345266"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body temperature"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345232"
+      },
+      "effectiveDateTime": "2020-07-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 37.6,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345267",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345267",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T16:40:32.161+00:00",
+        "source": "#a90ce0491caefae2",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodytemperature" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345267"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8310-5",
+          "display": "Body temperature"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345248"
+      },
+      "effectiveDateTime": "2020-08-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 36.2,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:230676",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "230676",
+      "meta": {
+        "versionId": "3",
+        "lastUpdated": "2023-01-02T19:26:30.952+00:00",
+        "source": "#cacdc61a13ee8c40",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-230676"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345270",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345270",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:27:29.751+00:00",
+        "source": "#77be836ff9dd8bd6",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345270"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344529"
+      },
+      "effectiveDateTime": "2020-05-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345271",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345271",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:30:51.309+00:00",
+        "source": "#1abc7ea3ad796514",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345271"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344859"
+      },
+      "effectiveDateTime": "2020-06-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345272",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345272",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:31:57.014+00:00",
+        "source": "#969737f0ce6a1733",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345272"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345232"
+      },
+      "effectiveDateTime": "2020-07-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345273",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345273",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:33:02.494+00:00",
+        "source": "#763790062b3437b8",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-respiratoryrate" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345273"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "9279-1",
+          "display": "Respiratory rate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345248"
+      },
+      "effectiveDateTime": "2020-08-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345274",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345274",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:37:33.271+00:00",
+        "source": "#ec0a3c905321e38e",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345274"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8302-2",
+          "display": "Body height"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 168,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345275",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345275",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:39:57.452+00:00",
+        "source": "#a4a137f67e7aa2d2",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345275"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8302-2",
+          "display": "Body height"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344529"
+      },
+      "effectiveDateTime": "2020-05-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 168,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345276",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345276",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:41:04.126+00:00",
+        "source": "#ffb2e813f0e82ac9",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345276"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8302-2",
+          "display": "Body height"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344859"
+      },
+      "effectiveDateTime": "2020-06-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 168,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345277",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345277",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:42:00.576+00:00",
+        "source": "#a780989e69fb8038",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345277"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8302-2",
+          "display": "Body height"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345232"
+      },
+      "effectiveDateTime": "2020-06-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 168,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345278",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345278",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:43:10.119+00:00",
+        "source": "#f320326171fb5791",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyheight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345278"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8302-2",
+          "display": "Body height"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345248"
+      },
+      "effectiveDateTime": "2020-08-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 168,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345279",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345279",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:54:13.663+00:00",
+        "source": "#f2a58e2582c1aec8",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345279"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 52,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345280",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345280",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:56:02.949+00:00",
+        "source": "#284d3d7f5b35e455",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345280"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344529"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 54,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345281",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345281",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:57:00.649+00:00",
+        "source": "#18592fd1ffc86c4e",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345281"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/344859"
+      },
+      "effectiveDateTime": "2020-04-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 57,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345282",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345282",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:58:05.607+00:00",
+        "source": "#87edc2ab85dcaab5",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345282"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345232"
+      },
+      "effectiveDateTime": "2020-07-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 57,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345283",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345283",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T19:59:13.496+00:00",
+        "source": "#6aa28f50d569652d",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-bodyweight" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345283"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/345248"
+      },
+      "effectiveDateTime": "2020-08-06",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 62,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:345284",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "345284",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2023-01-02T20:01:03.363+00:00",
+        "source": "#1ab2012d609141f7",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-headcircum" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+        "valueUri": "urn:uuid:9ebadfd2-efe8-41a3-a184-b4cad9ac4aa0#VitalSigns-345284"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "363812007",
+          "display": "Head circumference"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/249867"
+      },
+      "encounter": {
+        "reference": "Encounter/342884"
+      },
+      "effectiveDateTime": "2020-02-18",
+      "performer": [ {
+        "reference": "PractitionerRole/194313"
+      } ],
+      "valueQuantity": {
+        "value": 54,
+        "unit": "cm",
+        "system": "http://unitsofmeasure.org",
+        "code": "cm"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:194310",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "194310",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-16T09:02:31.501+00:00",
+        "source": "#f5e97470a0e31aec",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-medicalteam-r4" ]
+      },
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "team",
+          "display": "Organizational team"
+        } ]
+      } ],
+      "name": "Dr. Helen Georgiou MO",
+      "partOf": {
+        "reference": "Organization/194309"
+      },
+      "contact": [ {
+        "name": {
+          "use": "official",
+          "text": "Helen Georgiou",
+          "family": "Georgiou",
+          "given": [ "Helen" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "22040404",
+          "use": "work"
+        }, {
+          "system": "email",
+          "value": "helengeorgiou@gmail.com",
+          "use": "work"
+        } ],
+        "address": {
+          "use": "home",
+          "type": "physical",
+          "line": [ "Aristofanous", "6", "Ay. Dometios", "Nicosia", "1134", "Cyprus" ],
+          "_line": [ {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Aristofanous"
+            }, {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "6"
+            } ]
+          }, null, null, null, null, null ],
+          "city": "Nicosia",
+          "district": "Ay. Dometios",
+          "postalCode": "1134",
+          "country": "Cyprus"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:194311",
+    "resource": {
+      "resourceType": "Location",
+      "id": "194311",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-16T09:06:15.337+00:00",
+        "source": "#b4f190d5518ee815",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-locationmedicalteam-r4" ]
+      },
+      "telecom": [ {
+        "system": "phone",
+        "value": "22040404",
+        "use": "work"
+      } ],
+      "address": {
+        "use": "home",
+        "type": "physical",
+        "line": [ "Aristofanous", "6", "Ay. Dometios", "Nicosia", "1134", "Cyprus" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Aristofanous"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "6"
+          } ]
+        }, null, null, null, null, null ],
+        "city": "Nicosia",
+        "district": "Ay. Dometios",
+        "postalCode": "1134",
+        "country": "Cyprus"
+      },
+      "managingOrganization": {
+        "reference": "Organization/194310"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:194308",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "194308",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-16T08:49:51.741+00:00",
+        "source": "#ba1f0a9fe6f4a58d",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/Identity-HG-1111"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/Passport-HG-1112"
+      }, {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Social-Insurance-HG-1113"
+      }, {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "CY/Medical-Register-HG-1114"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Helen Georgiou",
+        "family": "Georgiou",
+        "given": [ "Helen" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "22040404",
+        "use": "work"
+      }, {
+        "system": "email",
+        "value": "helengeorgiou@gmail.com",
+        "use": "work"
+      } ],
+      "address": [ {
+        "use": "home",
+        "type": "physical",
+        "line": [ "Aristofanous", "6", "Ay. Dometios", "Nicosia", "1134", "Cyprus" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Aristofanous"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "6"
+          } ]
+        }, null, null, null, null, null ],
+        "city": "Nicosia",
+        "district": "Ay. Dometios",
+        "postalCode": "1134",
+        "country": "Cyprus"
+      } ],
+      "gender": "female",
+      "birthDate": "1964-05-23",
+      "qualification": [ {
+        "extension": [ {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification",
+          "extension": [ {
+            "url": "fullname",
+            "valueString": "Bachelor's in Medical Science and Medicine"
+          }, {
+            "url": "year",
+            "valueDate": "1990"
+          }, {
+            "url": "institution",
+            "valueString": "Monash University"
+          }, {
+            "url": "city",
+            "valueString": "Melbourne"
+          }, {
+            "url": "country",
+            "valueString": "Australia"
+          } ]
+        } ],
+        "code": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+            "code": "BS",
+            "display": "Bachelor of Science"
+          } ]
+        }
+      }, {
+        "extension": [ {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification",
+          "extension": [ {
+            "url": "fullname",
+            "valueString": "Medicine"
+          }, {
+            "url": "year",
+            "valueDate": "1995"
+          }, {
+            "url": "institution",
+            "valueString": "Monash University"
+          }, {
+            "url": "city",
+            "valueString": "Melbourne"
+          }, {
+            "url": "country",
+            "valueString": "Australia"
+          } ]
+        } ],
+        "code": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.7",
+            "code": "MD",
+            "display": "Doctor of Medicine"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:194309",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "194309",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-16T08:59:24.593+00:00",
+        "source": "#47c12aaf78447cad",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-organization-r4" ]
+      },
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.2",
+        "value": "Organization-NGH-ID-1111"
+      } ],
+      "active": true,
+      "name": "Nicosia general hospital",
+      "telecom": [ {
+        "system": "phone",
+        "value": "+35722603000",
+        "use": "work"
+      } ],
+      "address": [ {
+        "use": "work",
+        "type": "both",
+        "line": [ "Limassol old road", "215", "2029", "Nicosia", "CY" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Limassol old road"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "215"
+          } ]
+        }, null, null, null, null ],
+        "district": "Nicosia",
+        "postalCode": "2029",
+        "country": "CY"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:194313",
+    "resource": {
+      "resourceType": "PractitionerRole",
+      "id": "194313",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-12-16T09:28:53.583+00:00",
+        "source": "#1372def5714c4b2e",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitionerrolehealthcareassociate-r4" ]
+      },
+      "active": true,
+      "practitioner": {
+        "reference": "Practitioner/194308"
+      },
+      "organization": {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-custodian",
+          "valueBoolean": true
+        } ],
+        "reference": "Organization/194310"
+      },
+      "code": [ {
+        "coding": [ {
+          "system": "urn:oid:2.16.840.1.113883.2.9.6.2.7",
+          "code": "221",
+          "display": "Medical doctors"
+        } ],
+        "text": "Doctor"
+      } ],
+      "specialty": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "408467006",
+          "display": "Adult mental illness"
+        } ]
+      } ],
+      "location": [ {
+        "reference": "Location/194311"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:86c5780e-be44-4817-a839-794f80ec77e8",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "eHealthLab - University of Cyprus",
+      "address": [ {
+        "line": [ "1 University Avenue" ],
+        "city": "Nicosia",
+        "postalCode": "2109",
+        "country": "CY"
+      } ]
+    }
+  } ]
+}

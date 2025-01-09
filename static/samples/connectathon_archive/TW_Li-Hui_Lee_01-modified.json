@@ -1,0 +1,342 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "bun-example-tw-1",
+  "meta" : {
+    "profile" : [
+      "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Bundle-dccvs"
+    ]
+  },
+  "identifier" : {
+    "system" : "https://www.cdc.gov.tw/",
+    "value" : "URN:UVCI:01:TW:10807843F94AEE0EE5093FBC254BD813#B",
+    "period" : {
+      "start" : "2021-05-14",
+      "end" : "2021-05-28"
+    }
+  },
+  "type" : "document",
+  "timestamp" : "2021-05-14T14:30:00+01:00",
+  "entry" : [
+    {
+      "fullUrl" : "urn:uuid:30551ce1-5a28-4356-b684-1e639095ad5d",
+      "resource" : {
+        "resourceType" : "Composition",
+        "id" : "Inline-Composition-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Composition-dccvs"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: URN:UVCI:01:TW:10807843F94AEE0EE5093FBC254BD813#B</p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 82593-5}\">Immunization summary report</span></p><p><b>date</b>: May 14, 2021, 6:30:00 AM</p><p><b>author</b>: <a href=\"#Organization_Inline-Organization-hos-example\">See above (Organization/Inline-Organization-hos-example)</a></p><p><b>title</b>: TWDCC-Vaccination Status 臺灣COVID疫苗接種數位證明</p><h3>Attesters</h3><table class=\"grid\"><tr><td>-</td><td><b>Mode</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>official</td><td><a href=\"#Organization_Inline-Organization-CDC-example\">See above (Organization/Inline-Organization-CDC-example)</a></td></tr></table></div>"
+        },
+        "identifier" : {
+          "system" : "https://www.cdc.gov.tw/",
+          "value" : "URN:UVCI:01:TW:10807843F94AEE0EE5093FBC254BD813#B"
+        },
+        "status" : "final",
+        "type" : {
+          "coding" : [
+            {
+              "system" : "http://loinc.org",
+              "code" : "82593-5",
+              "display" : "Immunization summary report"
+            }
+          ]
+        },
+        "subject" : {
+          "reference" : "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a365e07401e9"
+        },
+        "date" : "2021-05-14T14:30:00+08:00",
+        "author" : [
+          {
+            "reference" : "urn:uuid:15d9e5d7-4c89-4a63-a723-efc4c442acfd"
+          }
+        ],
+        "title" : "TWDCC-Vaccination Status 臺灣COVID疫苗接種數位證明",
+        "attester" : [
+          {
+            "mode" : "official",
+            "party" : {
+              "reference" : "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd3"
+            }
+          }
+        ],
+        "section" : [
+          {
+            "title" : "History of immunization Narrative",
+            "code" : {
+              "coding" : [
+                {
+                  "system" : "http://loinc.org",
+                  "code" : "11369-6",
+                  "display" : "History of immunization Narrative"
+                }
+              ]
+            },
+            "text" : {
+              "status" : "extensions",
+              "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3><b>History of immunization Narrative</b></h3><p><b>Vaccine marketing authorizati on holder or Vaccine manufacturer</b>: <span title=\"Codes: {http://hl7.eu/fhir/ig/dgc/ValueSet/vaccines-covid-19-auth-holders ORG-100001699}\">AstraZeneca AB</span></p><p><b>Vaccine medicinal product</b>: <span title=\"Codes: {http://hitstdio.ntunhs.edu.tw/fhir/ValueSet/vaccines-covid-19-names EU/1/21/1529}\">Vaxzevria</span></p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title=\"Codes: {http://hitstdio.ntunhs.edu.tw/fhir/CodeSystem/atc-vaccines-covid-19#J07BX03}\">covid-19 vaccines</span></p><p><b>patient</b>: <a href=\"Patient-pat-example-tw-1.html\">Patient/pat-example-tw-1</a></p><p><b>occurrence</b>: 2021-05-14</p><p><b>location</b>: <a href=\"Location-loc-example-tw-1.html\">Location/loc-example-tw-1</a></p><p><b>lotNumber</b>: CTMAV509</p><p><b>performer</b>: <a href=\"Practitioner-pra-example-tw-1.html\">Practitioner/pra-example-tw-1</a></p><p></p><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td>-</td><td><b>TargetDisease</b></td><td><b>DoseNumber[x]</b></td><td><b>SeriesDoses[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://snomed.info/sct#840539006}\">COVID-19</span></td><td>1</td><td>2</td></tr></table></div>"
+            },
+            "entry" : [
+              {
+                "reference" : "urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec4"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a365e07401e9",
+      "resource" : {
+        "resourceType" : "Patient",
+        "id" : "Inline-Patient-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Patient-dcc"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 310942728</p><p><b>name</b>: 王大明(OFFICIAL)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1990-01-01</p></div>"
+        },
+        "identifier" : [
+          {
+            "system" : "http://www.boca.gov.tw/",
+            "value" : "310942728"
+          }
+        ],
+        "name" : [
+          {
+            "use" : "official",
+            "text" : "王大明",
+            "family" : "WANG",
+            "given" : [
+              "DAMING"
+            ]
+          }
+        ],
+        "gender" : "male",
+        "birthDate" : "1990-01-01"
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd3",
+      "resource" : {
+        "resourceType" : "Organization",
+        "id" : "Inline-Organization-CDC-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Organization-dcc"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Centers for Disease Control, Ministry of Health and Welfare 衛生福利部疾病管制署</p><p><b>address</b>: TW </p></div>"
+        },
+        "name" : "Centers for Disease Control, Ministry of Health and Welfare 衛生福利部疾病管制署",
+        "address" : [
+          {
+            "country" : "TW"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec4",
+      "resource" : {
+        "resourceType" : "Immunization",
+        "id" : "Inline-Immunization-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Immunization-dccvs"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title=\"Codes: {http://hitstdio.ntunhs.edu.tw/fhir/CodeSystem/atc-vaccines-covid-19 J07BX03}, {http://hitstdio.ntunhs.edu.tw/fhir/CodeSystem/vaccines-covid-19-names EU/1/21/1529}\">covid-19 vaccines</span></p><p><b>patient</b>: <a href=\"#Patient_Inline-Patient-example\">See above (Patient/Inline-Patient-example)</a></p><p><b>occurrence</b>: 2021-05-14</p><p><b>location</b>: <a href=\"#Location_Inline-Location-example\">See above (Location/Inline-Location-example)</a></p><p><b>manufacturer</b>: <a href=\"#Organization_Inline-Organization-VaccineManufacturer-example\">See above (Organization/Inline-Organization-VaccineManufacturer-example)</a></p><p><b>lotNumber</b>: CTMAV509</p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href=\"#Practitioner_Inline-Practitioner-example\">See above (Practitioner/Inline-Practitioner-example)</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td>-</td><td><b>TargetDisease</b></td><td><b>DoseNumber[x]</b></td><td><b>SeriesDoses[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://snomed.info/sct 840539006}\">COVID-19</span></td><td>1</td><td>2</td></tr></table></div>"
+        },
+        "status" : "completed",
+        "vaccineCode" : {
+          "coding" : [
+            {
+              "system" : "http://hitstdio.ntunhs.edu.tw/fhir/CodeSystem/atc-vaccines-covid-19",
+              "code" : "J07BX03",
+              "display" : "covid-19 vaccines"
+            },
+            {
+              "system" : "http://hitstdio.ntunhs.edu.tw/fhir/CodeSystem/vaccines-covid-19-names",
+              "code" : "EU/1/21/1529",
+              "display" : "Vaxzevria"
+            }
+          ]
+        },
+        "patient" : {
+          "reference" : "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a365e07401e9"
+        },
+        "occurrenceDateTime" : "2021-05-14",
+        "location" : {
+          "reference" : "urn:uuid:15d9e5d7-4c89-4a63-a523-efc4c442acfd"
+        },
+        "manufacturer" : {
+          "reference" : "urn:uuid:29941281-a45a-4309-84b4-784a27fdc998"
+        },
+        "lotNumber" : "CTMAV509",
+        "performer" : [
+          {
+            "actor" : {
+              "reference" : "urn:uuid:d633060f-4865-45cf-9e98-44c90ef1788b"
+            }
+          }
+        ],
+        "protocolApplied" : [
+          {
+            "targetDisease" : [
+              {
+                "coding" : [
+                  {
+                    "system" : "http://snomed.info/sct",
+                    "code" : "840539006",
+                    "display" : "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt" : 1,
+            "seriesDosesPositiveInt" : 2
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:15d9e5d7-4c89-4a63-a523-efc4c442acfd",
+      "resource" : {
+        "resourceType" : "Location",
+        "id" : "Inline-Location-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Location-dccvs"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>address</b>: TW </p></div>"
+        },
+        "address" : {
+          "country" : "TW"
+        }
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:15d9e5d7-4c89-4a63-a723-efc4c442acfd",
+      "resource" : {
+        "resourceType" : "Organization",
+        "id" : "Inline-Organization-hos-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Organization-dcc"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 401180014</p><p><b>name</b>: National Taiwan University Hospital 國立臺灣大學醫學院附設醫院</p></div>"
+        },
+        "identifier" : [
+          {
+            "system" : "http://www.nhi.gov.tw",
+            "value" : "401180014"
+          }
+        ],
+        "name" : "National Taiwan University Hospital 國立臺灣大學醫學院附設醫院"
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:29941281-a45a-4309-84b4-784a27fdc998",
+      "resource" : {
+        "resourceType" : "Organization",
+        "id" : "Inline-Organization-VaccineManufacturer-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Organization-dccvs-manf"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: ORG-100001699</p><p><b>name</b>: AstraZeneca AB</p></div>"
+        },
+        "identifier" : [
+          {
+            "system" : "https://spor.ema.europa.eu/v1/organisations",
+            "value" : "ORG-100001699"
+          }
+        ],
+        "name" : "AstraZeneca AB"
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:d633060f-4865-45cf-9e98-44c90ef1788b",
+      "resource" : {
+        "resourceType" : "Practitioner",
+        "id" : "Inline-Practitioner-example",
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 20021</p><p><b>name</b>: LULU WANG </p></div>"
+        },
+        "identifier" : [
+          {
+            "value" : "20021"
+          }
+        ],
+        "name" : [
+          {
+            "family" : "WANG",
+            "given" : [
+              "LULU"
+            ],
+            "prefix" : [
+              "Dr."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl" : "urn:uuid:35d1734d-6ae1-405c-84c3-7d03c539b74f",
+      "resource" : {
+        "resourceType" : "Organization",
+        "id" : "Inline-Organization-mohw-example",
+        "meta" : {
+          "profile" : [
+            "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Organization-dcc"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>name</b>: Taiwan Ministry of Health and Welfare 衛生福利部</p><p><b>address</b>: TW </p></div>"
+        },
+        "name" : "Taiwan Ministry of Health and Welfare 衛生福利部",
+        "address" : [
+          {
+            "country" : "TW"
+          }
+        ]
+      }
+    }
+  ],
+  "signature" : {
+    "type" : [
+      {
+        "system" : "urn:iso-astm:E1762-95:2013",
+        "code" : "1.2.840.10065.1.12.1.6",
+        "display" : "Validation Signature"
+      }
+    ],
+    "when" : "2021-05-14T14:30:00+01:00",
+    "who" : {
+      "reference" : "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd3"
+    },
+    "data" : "JbuZIFILUSYF+aYl8kjqjbsk/cZg6rTDexO+RtamBIOUG+742R1LXTraOB63/mb2EzixN1+MyodFp1hLYzOgsg=="
+  }
+}

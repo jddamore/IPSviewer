@@ -1,0 +1,942 @@
+{
+    "resourceType": "Bundle",
+    "id": "UK-IPS-examples-Bundle-01",
+    "language": "en-GB",
+    "identifier": {
+        "system": "urn:oid:2.16.724.4.8.10.200.10",
+        "value": "7d45addb-10c4-4d33-b849-c18bb046d749"
+    },
+    "type": "document",
+    "timestamp": "2021-09-28T14:30:00+01:00",
+    "entry":  [
+        {
+            "fullUrl": "urn:uuid:30551ce1-5a28-4356-b684-1e639094ad4d",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "5a07f20b-df25-45b4-ab98-5fd1830c2869",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns='http://www.w3.org/1999/xhtml'><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 30551ce1-5a28-4356-b684-1e639094ad4d</p><p><b>identifier</b>: 3f69e0a5-2177-4540-baab-7a5d0877428f</p><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style='background: LightGoldenRodYellow'>(Details : {LOINC code '60591-5' = 'Patient summary Document', given as 'Patient summary Document'})</span></p><p><b>date</b>: Dec 11, 2017 1:30:00 PM</p><p><b>author</b>: <a href='#backboneelement_1c616b24-3895-48c4-9a02-9a64110351ef'>Generated Summary: unknown resource entry</a></p><p><b>title</b>: Patient Summary as of December 11, 2017 14:30</p><p><b>confidentiality</b>: N</p><blockquote><p><b>attester</b></p><p><b>mode</b>: legal</p><p><b>time</b>: Dec 11, 2017 1:30:00 PM</p><p><b>party</b>: <a href='#backboneelement_1c616b24-3895-48c4-9a02-9a64110351ef'>Generated Summary: unknown resource entry</a></p></blockquote><blockquote><p><b>attester</b></p><p><b>mode</b>: legal</p><p><b>time</b>: Dec 11, 2017 1:30:00 PM</p><p><b>party</b>: <a href='#backboneelement_890751f4-2924-4636-bab7-efffc7f3cf15'>Generated Summary: unknown resource entry</a></p></blockquote><p><b>custodian</b>: <a href='#backboneelement_890751f4-2924-4636-bab7-efffc7f3cf15'>Generated Summary: unknown resource entry</a></p><h3>RelatesTos</h3><table class='grid'><tr><td>-</td><td><b>Code</b></td><td><b>Target[x]</b></td></tr><tr><td>*</td><td>appends</td><td>c2277753-9f90-4a95-8ddb-a0b3f6e7d292</td></tr></table><h3>Events</h3><table class='grid'><tr><td>-</td><td><b>Code</b></td><td><b>Period</b></td></tr><tr><td>*</td><td>care provision <span style='background: LightGoldenRodYellow'>(Details : {http://terminology.hl7.org/CodeSystem/v3-ActClass code 'PCPR' = 'care provision)</span></td><td>?? --&gt; Dec 11, 2017 1:30:00 PM</td></tr></table></div>"
+                },
+                "identifier": {
+                    "system": "urn:oid:2.16.724.4.8.10.200.10",
+                    "value": "3f69e0a5-2177-4540-baab-7a5d0877428f"
+                },
+                "status": "final",
+                "type": {
+                    "coding":  [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "date": "2021-09-28T14:30:00+01:00",
+                "author":  [
+                    {
+                        "reference": "Practitioner/1"
+                    }
+                ],
+                "title": "Patient Summary as of September 28, 2021 14:30",
+                "confidentiality": "N",
+                "attester":  [
+                    {
+                        "mode": "legal",
+                        "time": "2017-12-11T14:30:00+01:00",
+                        "party": {
+                            "reference": "Practitioner/1"
+                        }
+                    },
+                    {
+                        "mode": "legal",
+                        "time": "2017-12-11T14:30:00+01:00",
+                        "party": {
+                            "reference": "Organization/7"
+                        }
+                    }
+                ],
+                "custodian": {
+                    "reference": "Organization/7"
+                },
+                "relatesTo":  [
+                    {
+                        "code": "appends",
+                        "targetIdentifier": {
+                            "system": "urn:oid:2.16.724.4.8.10.200.10",
+                            "value": "c2277753-9f90-4a95-8ddb-a0b3f6e7d292"
+                        }
+                    }
+                ],
+                "event":  [
+                    {
+                        "code":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2017-12-11T14:30:00+01:00"
+                        }
+                    }
+                ],
+                "section":  [
+                    {
+                        "title": "Active Problems",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Problems List</div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "Condition/Problem-A-Anxiety-With-Depression"
+                            },
+                            {
+                                "reference": "Condition/Problem-B-Swollen-Legs"
+                            },
+                            {
+                                "reference": "Condition/Problem-E-Post-viral-cough"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Medication",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'><table><thead><tr><th>Medication</th><th>Strength</th><th>Form</th><th>Dosage</th><th>Comment</th></tr></thead><tbody><tr><td>Sertraline</td><td>100 mg</td><td>tablet</td><td>1 tablet once a day</td><td>in the morning</td></tr><tr><td>Metformin</td><td>1g </td><td>modified release tablets</td><td>2 tablets a day </td><td>With evening meal</td></tr></tbody></table></div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "MedicationStatement/1"
+                            },
+                            {
+                                "reference": "MedicationStatement/9"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergies and Intolerances",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'>Allergy to sesame oil</div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "AllergyIntolerance/29"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "History of Past Illness",
+                        "code": {
+                            "coding":  [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11348-0",
+                                    "display": "Hx of Past illness"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml'>URTI</div>"
+                        },
+                        "entry":  [
+                            {
+                                "reference": "Condition/Problem-D-URTI"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Patient/2",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "2",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/nhs-number",
+                        "value": "9690937286"
+                    }
+                ],
+                "active": true,
+                "name":  [
+                    {
+                        "use": "official",
+                        "text": "Horace SKELLY",
+                        "family": "SKELLY",
+                        "given":  [
+                            "Horace"
+                        ],
+                        "prefix":  [
+                            "MR"
+                        ]
+                    }
+                ],
+                "telecom":  [
+                    {
+                        "system": "phone",
+                        "value": "01454587554",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "+447401254880",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1925-04-21",
+                "address":  [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "line":  [
+                            "3 BOWESFIELD CRESCENT"
+                        ],
+                        "city": "STOCKTON-ON-TEES",
+                        "postalCode": "TS18 3BL"
+                    }
+                ],
+                "contact":  [
+                    {
+                        "relationship":  [
+                            {
+                                "text": "Emergency contact"
+                            },
+                            {
+                                "text": "Next of kin"
+                            },
+                            {
+                                "text": "Daughter"
+                            }
+                        ],
+                        "name": {
+                            "use": "official",
+                            "text": "JACKSON Jane (Miss)",
+                            "family": "Jackson",
+                            "given":  [
+                                "Jane"
+                            ],
+                            "prefix":  [
+                                "Miss"
+                            ]
+                        },
+                        "telecom":  [
+                            {
+                                "system": "phone",
+                                "value": "07777123123",
+                                "use": "mobile"
+                            }
+                        ],
+                        "address": {
+                            "use": "home",
+                            "type": "physical",
+                            "line":  [
+                                "Trevelyan Square",
+                                "Boar Ln"
+                            ],
+                            "postalCode": "LS1 6AE"
+                        },
+                        "gender": "female"
+                    }
+                ],
+                "generalPractitioner":  [
+                    {
+                        "reference": "Practitioner/1"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/7"
+                }
+            }
+        },
+        {
+            "fullUrl": "Practitioner/2",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "1",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/sds-user-id",
+                        "value": "G13579135"
+                    }
+                ],
+                "name":  [
+                    {
+                        "use": "usual",
+                        "family": "Gilbert",
+                        "given":  [
+                            "Nichole"
+                        ],
+                        "prefix":  [
+                            "Miss"
+                        ]
+                    }
+                ],
+                "gender": "female"
+            }
+        },
+        {
+            "fullUrl": "Organization/7",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "7",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                        "value": "B82617"
+                    }
+                ],
+                "name": "COXWOLD SURGERY",
+                "telecom":  [
+                    {
+                        "system": "phone",
+                        "value": "12345678",
+                        "use": "work"
+                    }
+                ],
+                "address":  [
+                    {
+                        "use": "work",
+                        "line":  [
+                            "NHS NPFIT Test Data Manager",
+                            "Princes Exchange"
+                        ],
+                        "city": "Leeds",
+                        "district": "West Yorkshire",
+                        "postalCode": "LS1 4HY"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Condition/Problem-A-Anxiety-With-Depression",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-A-Anxiety-With-Depression",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "D06C0517-4D1C-11E3-A2DD-010000000161"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "category":  [
+                    {
+                        "coding":  [
+                            {
+                                "system": "http://hl7.org/fhir/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "extension":  [
+                                {
+                                    "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension":  [
+                                        {
+                                            "url": "DescriptionID",
+                                            "valueId": "346979010"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "system": "http://snomed.info/sct",
+                            "code": "231504006",
+                            "display": "Mixed anxiety and depressive disorder"
+                        }
+                    ],
+                    "text": "Anxiety with depression"
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "encounter": {
+                    "reference": "Encounter/Encounter1"
+                },
+                "onsetDateTime": "2019-03-28T10:30:00+00:00",
+                "recordedDate": "2019-03-28T10:30:00+00:00",
+                "asserter": {
+                    "reference": "Practitioner/1"
+                }
+            }
+        },
+        {
+            "fullUrl": "Condition/Problem-B-Swollen-Legs",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-B-Swollen-Legs",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "62658072-28af-47e5-b81c-bc0521d5c41c"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "category":  [
+                    {
+                        "coding":  [
+                            {
+                                "system": "http://hl7.org/fhir/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "449614009",
+                            "display": "Swelling of lower limb"
+                        }
+                    ],
+                    "text": "Swollen legs"
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "encounter": {
+                    "reference": "Encounter/Encounter1"
+                },
+                "onsetDateTime": "2019-03-28T10:30:00+00:00",
+                "recordedDate": "2019-03-28T10:30:00+00:00",
+                "asserter": {
+                    "reference": "Practitioner/1"
+                },
+                "note":  [
+                    {
+                        "text": "due to obesity and poor mobility and previous DVT"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Condition/Problem-E-Post-viral-cough",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-E-Post-viral-cough",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "CFE8F260-4D1C-11E3-9E6B-010000001205"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "category":  [
+                    {
+                        "coding":  [
+                            {
+                                "system": "http://hl7.org/fhir/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "445241004",
+                            "display": "Postviral cough"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "encounter": {
+                    "reference": "Encounter/Encounter2"
+                },
+                "onsetDateTime": "2019-03-28T10:30:00+00:00",
+                "recordedDate": "2019-03-28T10:30:00+00:00",
+                "asserter": {
+                    "reference": "Practitioner/1"
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/1",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "1",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c472eff-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "basedOn":  [
+                    {
+                        "reference": "MedicationRequest/20"
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "Medication/20"
+                },
+                "effectivePeriod": {
+                    "start": "2017-11-10T00:00:00+00:00",
+                    "end": "2018-09-14T00:00:00+01:00"
+                },
+                "dateAsserted": "2017-11-10T00:00:00+00:00",
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "dosage":  [
+                    {
+                        "text": "1 tablet once a day",
+                        "patientInstruction": "Take in the morning"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Medication/20",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "20",
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "9751511000001104",
+                            "display": "Sertraline 100mg tablets"
+                        },
+                        {
+                            "system": "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
+                            "code": "06157009",
+                            "display": "Sertraline 100mg tablets",
+                            "userSelected": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/9",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "9",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c473389-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "basedOn":  [
+                    {
+                        "reference": "MedicationRequest/32"
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "Medication/21"
+                },
+                "effectivePeriod": {
+                    "start": "2017-11-22T00:00:00+00:00",
+                    "end": "2018-09-26T00:00:00+01:00"
+                },
+                "dateAsserted": "2017-11-22T00:00:00+00:00",
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "dosage":  [
+                    {
+                        "text": "2 tablets a day",
+                        "patientInstruction": "With evening meal"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Medication/21",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "21",
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "411533003",
+                            "display": "Metformin 2G Modified-Release tablets"
+                        },
+                        {
+                            "system": "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
+                            "code": "16967001",
+                            "display": "Metformin 1g modified release tablets",
+                            "userSelected": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationRequest/32",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "32",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c46f699-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "groupIdentifier": {
+                    "value": "M-2a"
+                },
+                "status": "active",
+                "intent": "plan",
+                "medicationReference": {
+                    "reference": "Medication/21"
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "authoredOn": "2017-11-22T00:00:00+00:00",
+                "recorder": {
+                    "reference": "Practitioner/1"
+                },
+                "dosageInstruction":  [
+                    {
+                        "text": "2 tablets a day",
+                        "patientInstruction": "With evening meal"
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2017-11-22T00:00:00+00:00",
+                        "end": "2018-12-27T00:00:00+00:00"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 28,
+                        "unit": "day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    },
+                    "performer": {
+                        "reference": "Organization/1"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationRequest/20",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "20",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c46edd5-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "groupIdentifier": {
+                    "value": "M-3"
+                },
+                "status": "active",
+                "intent": "plan",
+                "medicationReference": {
+                    "reference": "Medication/20"
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "authoredOn": "2017-11-10T00:00:00+00:00",
+                "recorder": {
+                    "reference": "Practitioner/1"
+                },
+                "dosageInstruction":  [
+                    {
+                        "text": "1 tablet once a day",
+                        "patientInstruction": "Take in morning"
+                    }
+                ],
+                "dispenseRequest": {
+                    "validityPeriod": {
+                        "start": "2017-11-10T00:00:00+00:00",
+                        "end": "2018-08-15T00:00:00+01:00"
+                    },
+                    "expectedSupplyDuration": {
+                        "value": 28,
+                        "unit": "day",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "d"
+                    },
+                    "performer": {
+                        "reference": "Organization/1"
+                    }
+                }
+            }
+        },
+        {
+            "fullUrl": "AllergyIntolerance/29",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "29",
+                "identifier":  [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+                        "value": "2c46cb08-0868-11ec-b907-00505692d4aa"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed"
+                        }
+                    ]
+                },
+                "category":  [
+                    "environment"
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "89707004",
+                            "display": "Sesame oil (substance)"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "Patient/2"
+                },
+                "onsetDateTime": "1963-07-27T12:00:00+01:00",
+                "recordedDate": "1963-07-27T12:00:00+01:00",
+                "recorder": {
+                    "reference": "Practitioner/1"
+                },
+                "reaction":  [
+                    {
+                        "manifestation":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "230145002",
+                                        "display": "Difficulty breathing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "severity": "severe"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Condition/Problem-D-URTI",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "Problem-D-URTI",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "D03A94D9-4D1C-11E3-A2DD-010000000161"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding":  [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active"
+                        }
+                    ]
+                },
+                "category":  [
+                    {
+                        "coding":  [
+                            {
+                                "system": "http://hl7.org/fhir/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding":  [
+                        {
+                            "extension":  [
+                                {
+                                    "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension":  [
+                                        {
+                                            "url": "DescriptionID",
+                                            "valueId": "1231298013"
+                                        },
+                                        {
+                                            "url": "DescriptionDisplay",
+                                            "valueString": "Upper respiratory tract infection"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "system": "http://snomed.info/sct",
+                            "code": "54150009",
+                            "display": "Upper respiratory infection"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "encounter": {
+                    "reference": "Encounter/Encounter1"
+                },
+                "onsetDateTime": "2019-03-28T10:30:00+00:00",
+                "recordedDate": "2019-03-28T10:30:00+00:00",
+                "asserter": {
+                    "reference": "Practitioner/1"
+                }
+            }
+        },
+        {
+            "fullUrl": "Encounter/Encounter1",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "Encounter1",
+                "identifier":  [
+                    {
+                        "system": "https://provider.nhs.uk/data-identifier",
+                        "value": "b6dfd800-7e80-41ba-9f91-0a5d981271f2"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "IMP",
+                    "display": "inpatient encounter"
+                },
+                "type":  [
+                    {
+                        "text": "Surgery Consultation"
+                    }
+                ],
+                "subject": {
+                    "reference": "Patient/2"
+                },
+                "participant":  [
+                    {
+                        "type":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                                        "code": "PPRF",
+                                        "display": "primary performer"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/1"
+                        }
+                    },
+                    {
+                        "type":  [
+                            {
+                                "coding":  [
+                                    {
+                                        "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                                        "code": "REC",
+                                        "display": "recorder"
+                                    }
+                                ]
+                            }
+                        ],
+                        "individual": {
+                            "reference": "Practitioner/1"
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2019-03-28T10:30:00+00:00",
+                    "end": "2019-03-28T10:38:00+00:00"
+                },
+                "length": {
+                    "value": 8,
+                    "unit": "m",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "min"
+                }
+            }
+        }
+    ]
+}

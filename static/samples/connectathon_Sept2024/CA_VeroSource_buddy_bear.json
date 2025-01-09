@@ -1,0 +1,2898 @@
+{
+	"resourceType": "Bundle",
+	"id": "83e633f2-ee9d-4d45-bb62-6af6ed335533",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2024-09-19T18:02:01.757+00:00"
+	},
+	"identifier": {
+		"system": "urn:ietf:rfc:4122",
+		"value": "e9620a18-1428-4f8b-9b74-bbd08e50bb3a"
+	},
+	"type": "document",
+	"timestamp": "2024-09-19T18:02:01.757+00:00",
+	"entry": [
+		{
+			"fullUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9",
+			"resource": {
+				"resourceType": "Composition",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><p>VeroSource generated IPS</p></div></div>"
+				},
+				"status": "final",
+				"type": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "60591-5",
+							"display": "Patient Summary Document"
+						}
+					]
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"date": "2024-09-19T18:02:01.209+00:00",
+				"author": [
+					{
+						"reference": "urn:uuid:2fc5332d-7611-450c-8a5e-1034328e9225"
+					}
+				],
+				"title": "Patient Summary as of 09/19/2024",
+				"confidentiality": "N",
+				"custodian": {
+					"reference": "urn:uuid:2fc5332d-7611-450c-8a5e-1034328e9225"
+				},
+				"section": [
+					{
+						"title": "Allergies and Intolerances",
+						"code": {
+							"coding": [
+								{
+									"system": "http://loinc.org",
+									"code": "48765-2",
+									"display": "Allergies and adverse reactions Document"
+								}
+							]
+						},
+						"text": {
+							"status": "generated",
+							"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h5>Allergies And Intolerances</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody></tbody></table></div>"
+						},
+						"emptyReason": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+									"code": "unavailable"
+								}
+							]
+						}
+					},
+					{
+						"title": "Medication List",
+						"code": {
+							"coding": [
+								{
+									"system": "http://loinc.org",
+									"code": "10160-0",
+									"display": "History of Medication use Narrative"
+								}
+							]
+						},
+						"text": {
+							"status": "generated",
+							"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h5>Medication Summary: Medication Requests</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody></tbody></table><h5>Medication Summary: Medication Statements</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationStatement-urn:uuid:4a8874dd-bc58-4547-8f7a-46744808b20a\"><td> No information about medications </td><td>Unknown</td><td></td><td></td><td></td></tr></tbody></table></div>"
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:4a8874dd-bc58-4547-8f7a-46744808b20a"
+							}
+						]
+					},
+					{
+						"title": "Problem List",
+						"code": {
+							"coding": [
+								{
+									"system": "http://loinc.org",
+									"code": "11450-4",
+									"display": "Problem list - Reported"
+								}
+							]
+						},
+						"text": {
+							"status": "generated",
+							"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h5>Problem List</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody></tbody></table></div>"
+						},
+						"emptyReason": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+									"code": "unavailable"
+								}
+							]
+						}
+					},
+					{
+						"title": "History of Immunizations",
+						"code": {
+							"coding": [
+								{
+									"system": "http://loinc.org",
+									"code": "11369-6",
+									"display": "History of Immunization Narrative"
+								}
+							]
+						},
+						"text": {
+							"status": "generated",
+							"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h5>Immunizations</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Immunization</th><th>Status</th><th>Dose Number</th><th>Manufacturer</th><th>Lot Number</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Immunization-urn:uuid:27717ad5-128d-4462-b6f2-70464baaff6b\"><td> Rotavirus (Rota-u) <br/> Rota-unspecified <br/> unspecified </td><td>COMPLETED</td><td> 1 </td><td></td><td></td><td> Status Overridden </td><td> Fri Apr 01 16:30:00 GMT 2022 </td></tr><tr id=\"Immunization-urn:uuid:ce9ebc33-575c-4b89-b012-6dca36adc005\"><td> Smallpox (Sma) <br/> Sma <br/> Imvamune </td><td>COMPLETED</td><td> 1 </td><td></td><td>IMVAMUNE-123</td><td></td><td> Wed Mar 02 15:20:00 GMT 2022 </td></tr><tr id=\"Immunization-urn:uuid:e173f9e3-52cb-4941-acd3-cbabb900b2fd\"><td> Mumps (Mu) <br/> Measles (M) <br/> Rubella (R) <br/> MMR <br/> Priorix </td><td>COMPLETED</td><td> 1 </td><td></td><td>AMJRD238AB</td><td></td><td> Tue Jan 04 04:00:00 GMT 2022 </td></tr><tr id=\"Immunization-urn:uuid:0368cf02-3764-4dfb-95e4-7f4e41ec5837\"><td> Diphtheria antitoxin <br/> DAT <br/> Diphtheria Antitoxin - Antitoxine Diphtérique </td><td>COMPLETED</td><td> 1 </td><td></td><td>14AD17001</td><td></td><td> Tue May 09 03:00:00 GMT 2023 </td></tr><tr id=\"Immunization-urn:uuid:20f4b766-cb07-46a3-8435-9bf7458c6a80\"><td> Mumps (Mu) <br/> Mu <br/> unspecified </td><td>COMPLETED</td><td> 1 </td><td></td><td></td><td> error </td><td> Wed Oct 06 14:15:00 GMT 2021 </td></tr><tr id=\"Immunization-urn:uuid:ef4077df-8d29-4a5c-a6ac-e7e151ab6108\"><td> Diphtheria (D/d) <br/> Diptheria-unspecified <br/> unspecified </td><td>COMPLETED</td><td> 1 </td><td></td><td></td><td> Status Overridden </td><td> Fri Apr 01 03:00:00 GMT 2022 </td></tr><tr id=\"Immunization-urn:uuid:47748975-a71a-43fb-b29d-d218f7c3bc23\"><td> Haemophilus influenzae type b (Hib) <br/> Diphtheria (D) <br/> Hepatitis B (HB-pediatric) <br/> Pertussis (aP) <br/> Polio (IPV) <br/> Tetanus (T) <br/> DTaP-HB-IPV-Hib <br/> Infanrix-hexa </td><td>COMPLETED</td><td> 1 </td><td></td><td>AC20B-123</td><td></td><td> Wed Jun 15 03:00:00 GMT 2022 </td></tr><tr id=\"Immunization-urn:uuid:a64a5f4b-4d0a-40bc-b983-0b4dbb607488\"><td> Hepatitis A (HA-pediatric) <br/> HA-pediatric <br/> Havrix 720 Jr </td><td>COMPLETED</td><td> 1 </td><td></td><td>AHAVB953AG</td><td></td><td> Mon Jun 05 03:00:00 GMT 2023 </td></tr><tr id=\"Immunization-urn:uuid:b0155290-be94-4ea9-a36d-3badb4bd29fd\"><td> Rota-1 <br/> Rota-1 <br/> Rotarix </td><td>COMPLETED</td><td> 1 </td><td></td><td>AROLB825AB</td><td> Test <br/> Status Overridden </td><td> Thu Oct 08 15:30:00 GMT 2020 </td></tr><tr id=\"Immunization-urn:uuid:c704fc97-ec1a-4508-a80b-efcf6fc7bfce\"><td> Rota-5 <br/> Rota-5 <br/> RotaTeq </td><td>COMPLETED</td><td> 1 </td><td></td><td>rot-41111</td><td> Status Overridden </td><td> Wed Jan 05 04:00:00 GMT 2022 </td></tr><tr id=\"Immunization-urn:uuid:a8e111a5-1657-490e-8efe-852351cad1c4\"><td> SARS-CoV-2 <br/> COVID-19 mRNA <br/> COVID-19 Pfizer-BioNTech mRNA-ARNm BTM </td><td>COMPLETED</td><td> 1 </td><td></td><td>PFIZCOV-123</td><td> Test </td><td> Thu Jul 01 16:15:00 GMT 2021 </td></tr><tr id=\"Immunization-urn:uuid:ee5037bf-0b86-49ed-9fb1-90e4de0ec8b9\"><td> SARS-CoV-2 <br/> COVID-19 mRNA <br/> COVID-19 Moderna Spikevax Bivalent BA.1 </td><td>COMPLETED</td><td> 2 </td><td></td><td></td><td> Trade name/ Nom commercial: COVID-19 Moderna Spikevax Bivalent BA.1 <br/> test <br/> time added </td><td> Tue Oct 05 05:05:00 GMT 2021 </td></tr><tr id=\"Immunization-urn:uuid:2ee71563-7585-4b62-b398-b628a59c91ba\"><td> SARS-CoV-2 <br/> COVID-19 mRNA <br/> COVID-19 Moderna Spikevax Bivalent BA.1 </td><td>COMPLETED</td><td> 3 </td><td></td><td>009L21A</td><td></td><td> Tue Apr 04 03:00:00 GMT 2023 </td></tr><tr id=\"Immunization-urn:uuid:bf993a3e-1dda-43ea-8178-ac4c90be523a\"><td> Diluent-COVID-19-Pfizer-BioNTech <br/> Diluent-COVID-19-Pfizer-BioNTech <br/> Pfizer Diluent COVID-19 mRNA-Diluant COVID-19 ARNm </td><td>COMPLETED</td><td> 1 </td><td></td><td></td><td></td><td> Wed Jan 04 04:00:00 GMT 2023 </td></tr><tr id=\"Immunization-urn:uuid:3535ea17-d124-40cf-b49e-55039f67e188\"><td> SARS-CoV-2 <br/> COVID-19 non-replicating viral vector <br/> COVID-19 COVISHIELD </td><td>COMPLETED</td><td> 1 </td><td></td><td>COVSHLD-123</td><td></td><td> Wed Feb 08 04:00:00 GMT 2023 </td></tr><tr id=\"Immunization-urn:uuid:1433d4c7-1412-446f-8e03-598c7b372668\"><td> SARS-CoV-2 <br/> COVID-19 recombinant spike protein <br/> Nuvaxovid </td><td>COMPLETED</td><td> 1 </td><td></td><td></td><td> test </td><td> Sun Dec 06 17:02:00 GMT 2020 </td></tr><tr id=\"Immunization-urn:uuid:2abf5202-dc90-4328-aabb-e2516fd20264\"><td> SARS-CoV-2 <br/> COVID-19 virus-like particle <br/> Covifenz </td><td>COMPLETED</td><td> 1 </td><td></td><td>Covifenz-test-123</td><td> The immunization resource is intended to cover the recording of current and historical administration of vaccines to patients. NB specifically captures publicly funded immunizations which may be administered by a Physician in their office, an NB Pharmacy, or at various Public Health clinics. <br/> The immunization resource is intended to cover the recording of current and historical administration of vaccines to patients.&lt;br&gt;NB specifically captures publicly funded immunizations which may be administered by a Physician in their office, an NB Pharmacy, or at various Public Health clinics.&lt;br&gt;Third line added for fun </td><td> Sun Dec 12 04:00:00 GMT 2021 </td></tr><tr id=\"Immunization-urn:uuid:9a1df6fc-547d-476e-8b10-1a97628b6497\"><td> SARS-CoV-2 <br/> COVID-19 virus-like particle <br/> Covifenz </td><td>COMPLETED</td><td> 2 </td><td></td><td>Covifenz-test-123</td><td></td><td> Tue Mar 14 03:00:00 GMT 2023 </td></tr></tbody></table></div>"
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:27717ad5-128d-4462-b6f2-70464baaff6b"
+							},
+							{
+								"reference": "urn:uuid:ce9ebc33-575c-4b89-b012-6dca36adc005"
+							},
+							{
+								"reference": "urn:uuid:e173f9e3-52cb-4941-acd3-cbabb900b2fd"
+							},
+							{
+								"reference": "urn:uuid:0368cf02-3764-4dfb-95e4-7f4e41ec5837"
+							},
+							{
+								"reference": "urn:uuid:20f4b766-cb07-46a3-8435-9bf7458c6a80"
+							},
+							{
+								"reference": "urn:uuid:ef4077df-8d29-4a5c-a6ac-e7e151ab6108"
+							},
+							{
+								"reference": "urn:uuid:47748975-a71a-43fb-b29d-d218f7c3bc23"
+							},
+							{
+								"reference": "urn:uuid:a64a5f4b-4d0a-40bc-b983-0b4dbb607488"
+							},
+							{
+								"reference": "urn:uuid:b0155290-be94-4ea9-a36d-3badb4bd29fd"
+							},
+							{
+								"reference": "urn:uuid:c704fc97-ec1a-4508-a80b-efcf6fc7bfce"
+							},
+							{
+								"reference": "urn:uuid:a8e111a5-1657-490e-8efe-852351cad1c4"
+							},
+							{
+								"reference": "urn:uuid:ee5037bf-0b86-49ed-9fb1-90e4de0ec8b9"
+							},
+							{
+								"reference": "urn:uuid:2ee71563-7585-4b62-b398-b628a59c91ba"
+							},
+							{
+								"reference": "urn:uuid:bf993a3e-1dda-43ea-8178-ac4c90be523a"
+							},
+							{
+								"reference": "urn:uuid:3535ea17-d124-40cf-b49e-55039f67e188"
+							},
+							{
+								"reference": "urn:uuid:1433d4c7-1412-446f-8e03-598c7b372668"
+							},
+							{
+								"reference": "urn:uuid:2abf5202-dc90-4328-aabb-e2516fd20264"
+							},
+							{
+								"reference": "urn:uuid:9a1df6fc-547d-476e-8b10-1a97628b6497"
+							}
+						]
+					},
+					{
+						"title": "Diagnostic Results",
+						"code": {
+							"coding": [
+								{
+									"system": "http://loinc.org",
+									"code": "30954-2",
+									"display": "Relevant diagnostic tests/laboratory data Narrative"
+								}
+							]
+						},
+						"text": {
+							"status": "generated",
+							"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h5>Diagnostic Results: Observations</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Code</th><th>Result</th><th>Unit</th><th>Interpretation</th><th>Reference Range</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Observation-urn:uuid:578a0ac1-2232-48e3-98f7-c164c87c2266\"><td> Tick, Species </td><td> Ixodes scapularis </td><td></td><td></td><td></td><td> Prevalence de l'infection a Borrelia burgdorferi au N.-B.:&lt;br&gt;&amp;gt;20 % des tiques Ixodes scapularis du sud du&lt;br&gt;Nouveau-Brunswick sont infectees par B. burgdorferi. Pour&lt;br&gt;obtenir de plus amples renseignements et des cartes des&lt;br&gt;risques, voir Maladies transmises par les tiques GNB.&lt;br&gt;Commentaire/Considerations:&lt;br&gt;La prophylaxie a la doxycycline (de Borrelia burgdorferi)&lt;br&gt;est recommandee pour tous les groupes d'age presentant une&lt;br&gt;piqure de tique a risque eleve lorsque tous les criteres&lt;br&gt;suivants sont remplis :&lt;br&gt;1) La tique a ete identifiee comme etant Ixodes scapularis;&lt;br&gt;2) La tique a ete attachee pendant &amp;gt;=36 heures (notez que&lt;br&gt;seules les larves, les nymphes et les femelles adultes se&lt;br&gt;nourrissent pendant de longues periodes);&lt;br&gt;3) La morsure s'est produite dans une zone endemique (le&lt;br&gt;taux d'infectiosite d'I.scapularis avec B. burgdorferi&lt;br&gt;depasse 20%); et&lt;br&gt;4) La prophylaxie peut etre administree dans les 72 heures&lt;br&gt;suivant l'enlevement de la tique. Sauf contre-indication&lt;br&gt;contraire, la doxycycline peut etre administree en dose&lt;br&gt;orale unique : 200 mg pour les adultes et 4,4 mg/kg (jusqu'a&lt;br&gt;une dose maximale de 200 mg) pour les enfants.&lt;br&gt;Comme le traitement prophylactique n'est pas efficace a&lt;br&gt;100%, les patients doivent tout de meme etre surveilles pour&lt;br&gt;detecter l'apparition de signes et de symptomes de maladie&lt;br&gt;transmise par les tiques pendant les 30 jours suivant la&lt;br&gt;piqure de tique (c.-a-d. lesion erythemateuse en expansion&lt;br&gt;au site de la piqure de tique ou d'autres sites cutanes,&lt;br&gt;fievre, maux de tete, myalgies, arthralgies ou autres&lt;br&gt;maladies inexpliquees). I. scapularis peut egalement servir&lt;br&gt;de vecteur pour certains agents pathogenes autres que B.&lt;br&gt;burgdorferi.&lt;br&gt;Le traitement des piqures de tiques asymptomatiques, autre&lt;br&gt;que la prophylaxie des piqures de tiques a risque eleve,&lt;br&gt;n'est actuellement pas recommande. Les patients doivent etre&lt;br&gt;surveilles pour detecter l'apparition de signes et de&lt;br&gt;symptomes de maladie transmise par les tiques pendant 30&lt;br&gt;jours apres la morsure de tique (c.-a-d. eruptions cutanees,&lt;br&gt;fievre ou autre maladie inexpliquee).&lt;br&gt; </td><td> Fri Jan 12 14:26:00 GMT 2024 </td></tr><tr id=\"Observation-urn:uuid:b503700b-6fbd-48c8-bf77-d18321f1a33a\"><td> Tick, Estimated Length of Attachment Time </td><td> 24-48 heures </td><td></td><td></td><td></td><td></td><td> Fri Jan 12 14:26:00 GMT 2024 </td></tr><tr id=\"Observation-urn:uuid:fcb2920b-63ca-4dfb-95ae-367f8b7b9b55\"><td> Tick, Life Stage </td><td> Male adulte </td><td></td><td></td><td></td><td></td><td> Fri Jan 12 14:26:00 GMT 2024 </td></tr><tr id=\"Observation-urn:uuid:62046239-e336-455d-97b1-6364340afe56\"><td> Tick, Engorgement </td><td> Partiellement engorg </td><td></td><td></td><td></td><td></td><td> Fri Jan 12 14:26:00 GMT 2024 </td></tr><tr id=\"Observation-urn:uuid:ca2b30fa-c745-4cf2-8323-a7bc8fe39212\"><td> Condition of Tick </td><td> Bonne </td><td></td><td></td><td></td><td> Morte, excellente condition et dommage minime.&lt;br&gt; </td><td> Fri Jan 12 14:26:00 GMT 2024 </td></tr></tbody></table><h5>Diagnostic Results: Diagnostic Reports</h5><table class=\"hapiPropertyTable\"><thead><tr><th>Code</th><th>Date</th></tr></thead><tbody><tr id=\"DiagnosticReport-urn:uuid:79b15932-f283-40a8-b5bf-7c219752977f\"><td> TIQUE IDENT. </td><td> Fri Jan 12 14:26:00 GMT 2024 </td></tr></tbody></table></div>"
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:79b15932-f283-40a8-b5bf-7c219752977f"
+							},
+							{
+								"reference": "urn:uuid:578a0ac1-2232-48e3-98f7-c164c87c2266"
+							},
+							{
+								"reference": "urn:uuid:b503700b-6fbd-48c8-bf77-d18321f1a33a"
+							},
+							{
+								"reference": "urn:uuid:fcb2920b-63ca-4dfb-95ae-367f8b7b9b55"
+							},
+							{
+								"reference": "urn:uuid:62046239-e336-455d-97b1-6364340afe56"
+							},
+							{
+								"reference": "urn:uuid:ca2b30fa-c745-4cf2-8323-a7bc8fe39212"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e",
+			"resource": {
+				"resourceType": "Patient",
+				"meta": {
+					"id": "c29e7bcf-b4df-4809-a71f-5056307456e0",
+					"lastUpdated": "2023-09-18T13:54:51.000+00:00"
+				},
+				"language": "en",
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-citizen-healthcare-id",
+									"code": "JPID"
+								}
+							]
+						},
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-citizen-healthcare-id",
+						"value": "452172893"
+					},
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-patient-healthcare-id",
+									"code": "JHN"
+								}
+							]
+						},
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-patient-healthcare-id",
+						"value": "564376804"
+					}
+				],
+				"name": [
+					{
+						"use": "usual",
+						"family": "BEAR",
+						"given": [
+							"BUDDY",
+							"TEST"
+						]
+					}
+				],
+				"telecom": [
+					{
+						"system": "phone",
+						"value": "506 500 1232",
+						"use": "home"
+					}
+				],
+				"gender": "male",
+				"birthDate": "1998-05-03",
+				"address": [
+					{
+						"use": "home",
+						"type": "postal",
+						"line": [
+							"520 EDINBURGH DR."
+						],
+						"city": "MONCTON",
+						"state": "NB",
+						"postalCode": "E1E 4C6"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:27717ad5-128d-4462-b6f2-70464baaff6b",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1313.2022-12-16T18:10:14Z",
+					"lastUpdated": "2022-12-16T18:10:14.517+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:27717ad5-128d-4462-b6f2-70464baaff6b"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1313"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "121000004",
+							"display": "Rotavirus (Rota-u)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "116077000",
+							"display": "Rota-unspecified"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "unspecified"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2022-04-01T13:30:00-03:00",
+				"note": [
+					{
+						"text": "Status Overridden"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "18624000",
+										"display": "Rotavirus infection"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ce9ebc33-575c-4b89-b012-6dca36adc005",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1567.2023-03-03T15:32:56Z",
+					"lastUpdated": "2023-03-03T15:32:56.583+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:ce9ebc33-575c-4b89-b012-6dca36adc005"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1567"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "713631008",
+							"display": "Smallpox (Sma)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "33234009",
+							"display": "Sma"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Imvamune"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2022-03-02T11:20:00-04:00",
+				"location": {
+					"type": "Location",
+					"display": "Sobeys Pharmacy #738 Shediac"
+				},
+				"lotNumber": "IMVAMUNE-123",
+				"expirationDate": "2030-12-31",
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "368208006",
+							"display": "Left arm"
+						}
+					],
+					"text": "Left arm"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "258160008",
+							"display": "Inhalation"
+						}
+					],
+					"text": "Inhalation"
+				},
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "711365007",
+								"display": "High Risk Immunization"
+							}
+						],
+						"text": "High Risk Immunization"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "67924001",
+										"display": "Smallpox"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:e173f9e3-52cb-4941-acd3-cbabb900b2fd",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1360.2023-01-16T18:05:23Z",
+					"lastUpdated": "2023-01-16T18:05:23.370+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:e173f9e3-52cb-4941-acd3-cbabb900b2fd"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1360"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "121087003",
+							"display": "Mumps (Mu)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "120997001",
+							"display": "Measles (M)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "120998006",
+							"display": "Rubella (R)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "61153008",
+							"display": "MMR"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Priorix"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2022-01-04T00:00:00-04:00",
+				"location": {
+					"type": "Location",
+					"display": "Sobeys Pharmacy #738 Shediac"
+				},
+				"manufacturer": {
+					"type": "Organization",
+					"display": "GlaxoSmithKline"
+				},
+				"lotNumber": "AMJRD238AB",
+				"expirationDate": "2050-01-31",
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "368208006",
+							"display": "Left arm"
+						}
+					],
+					"text": "Left arm"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "258160008",
+							"display": "Inhalation"
+						}
+					],
+					"text": "Inhalation"
+				},
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "14189004",
+										"display": "Measles"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "36989005",
+										"display": "Mumps"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "36653000",
+										"display": "Rubella"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:0368cf02-3764-4dfb-95e4-7f4e41ec5837",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1700.2023-06-05T13:57:50Z",
+					"lastUpdated": "2023-06-05T13:57:50.476+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:0368cf02-3764-4dfb-95e4-7f4e41ec5837"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1700"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "412175006",
+							"display": "Diphtheria antitoxin"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "77048008",
+							"display": "DAT"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Diphtheria Antitoxin - Antitoxine Diphtérique"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2023-05-09T00:00:00-03:00",
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Vins Bioproducts"
+				},
+				"lotNumber": "14AD17001",
+				"expirationDate": "2019-01-31",
+				"doseQuantity": {
+					"value": 10.0,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "397428000",
+										"display": "Diphtheria"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:20f4b766-cb07-46a3-8435-9bf7458c6a80",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1310.2022-12-16T18:19:28Z",
+					"lastUpdated": "2022-12-16T18:19:28.196+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:20f4b766-cb07-46a3-8435-9bf7458c6a80"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1310"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "121087003",
+							"display": "Mumps (Mu)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "90043005",
+							"display": "Mu"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "unspecified"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2021-10-06T11:15:00-03:00",
+				"location": {
+					"type": "Location",
+					"display": "Sobeys Pharmacy #602 Dieppe"
+				},
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "368208006",
+							"display": "Left arm"
+						}
+					],
+					"text": "Left arm"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "258160008",
+							"display": "Inhalation"
+						}
+					],
+					"text": "Inhalation"
+				},
+				"doseQuantity": {
+					"value": 1.5,
+					"unit": "mcg",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "JISK_MCG"
+				},
+				"note": [
+					{
+						"text": "error"
+					}
+				],
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "ROUTINEADU",
+								"display": "Routine - Adult"
+							}
+						],
+						"text": "Routine - Adult"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "36989005",
+										"display": "Mumps"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ef4077df-8d29-4a5c-a6ac-e7e151ab6108",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1440.2023-01-30T15:31:14Z",
+					"lastUpdated": "2023-01-30T15:31:14.341+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": false
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:ef4077df-8d29-4a5c-a6ac-e7e151ab6108"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1440"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "396417009",
+							"display": "Diphtheria (D/d)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "428214002",
+							"display": "Diptheria-unspecified"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "unspecified"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2022-04-01T00:00:00-03:00",
+				"note": [
+					{
+						"text": "Status Overridden"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "397428000",
+										"display": "Diphtheria"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:47748975-a71a-43fb-b29d-d218f7c3bc23",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1703.2023-06-05T13:59:36Z",
+					"lastUpdated": "2023-06-05T13:59:36.365+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": false
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:47748975-a71a-43fb-b29d-d218f7c3bc23"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1703"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "120975003",
+							"display": "Haemophilus influenzae type b (Hib)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "8621000087102",
+							"display": "Diphtheria (D)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "19381000087100",
+							"display": "Hepatitis B (HB-pediatric)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "8601000087108",
+							"display": "Pertussis (aP)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "8301000087103",
+							"display": "Polio (IPV)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "8451000087106",
+							"display": "Tetanus (T)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "7731000087108",
+							"display": "DTaP-HB-IPV-Hib"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Infanrix-hexa"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2022-06-15T00:00:00-03:00",
+				"manufacturer": {
+					"type": "Organization",
+					"display": "GlaxoSmithKline"
+				},
+				"lotNumber": "AC20B-123",
+				"expirationDate": "2030-12-31",
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "397428000",
+										"display": "Diphtheria"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "406583002",
+										"display": "Haemophilus influenzae Type B"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "66071002",
+										"display": "Hepatitis B"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "27836007",
+										"display": "Pertussis"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "398102009",
+										"display": "Poliomyelitis"
+									}
+								]
+							},
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "76902006",
+										"display": "Tetanus"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:a64a5f4b-4d0a-40bc-b983-0b4dbb607488",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1702.2023-06-05T13:58:44Z",
+					"lastUpdated": "2023-06-05T13:58:44.717+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:a64a5f4b-4d0a-40bc-b983-0b4dbb607488"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1702"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "19451000087104",
+							"display": "Hepatitis A (HA-pediatric)"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "9811000087103",
+							"display": "HA-pediatric"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Havrix 720 Jr"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2023-06-05T00:00:00-03:00",
+				"manufacturer": {
+					"type": "Organization",
+					"display": "GlaxoSmithKline"
+				},
+				"lotNumber": "AHAVB953AG",
+				"expirationDate": "2020-12-31",
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "40468003",
+										"display": "Hepatitis A"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:b0155290-be94-4ea9-a36d-3badb4bd29fd",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1311.2022-12-16T18:09:23Z",
+					"lastUpdated": "2022-12-16T18:09:23.964+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:b0155290-be94-4ea9-a36d-3badb4bd29fd"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1311"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "7811000087105",
+							"display": "Rota-1"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "7811000087105",
+							"display": "Rota-1"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Rotarix"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2020-10-08T12:30:00-03:00",
+				"location": {
+					"type": "Location",
+					"display": "Shoppers Drug Mart #593 1633 Mountaun Rd"
+				},
+				"manufacturer": {
+					"type": "Organization",
+					"display": "GlaxoSmithKline"
+				},
+				"lotNumber": "AROLB825AB",
+				"expirationDate": "2050-07-31",
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "368208006",
+							"display": "Left arm"
+						}
+					],
+					"text": "Left arm"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "258160008",
+							"display": "Inhalation"
+						}
+					],
+					"text": "Inhalation"
+				},
+				"doseQuantity": {
+					"value": 1.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"note": [
+					{
+						"text": "Test"
+					},
+					{
+						"text": "Status Overridden"
+					}
+				],
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "ROUTINEADU",
+								"display": "Routine - Adult"
+							}
+						],
+						"text": "Routine - Adult"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "18624000",
+										"display": "Rotavirus infection"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:c704fc97-ec1a-4508-a80b-efcf6fc7bfce",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1312.2022-12-16T18:09:52Z",
+					"lastUpdated": "2022-12-16T18:09:52.885+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:c704fc97-ec1a-4508-a80b-efcf6fc7bfce"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1312"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "7821000087102",
+							"display": "Rota-5"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "7821000087102",
+							"display": "Rota-5"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "RotaTeq"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2022-01-05T00:00:00-04:00",
+				"location": {
+					"type": "Location",
+					"display": "Sobeys Pharmacy #602 Dieppe"
+				},
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Merck Canada"
+				},
+				"lotNumber": "rot-41111",
+				"expirationDate": "2021-01-01",
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "368208006",
+							"display": "Left arm"
+						}
+					],
+					"text": "Left arm"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "718329006",
+							"display": "Infiltrate"
+						}
+					],
+					"text": "Infiltrate"
+				},
+				"doseQuantity": {
+					"value": 2.0,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"note": [
+					{
+						"text": "Status Overridden"
+					}
+				],
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "ROUTINEADU",
+								"display": "Routine - Adult"
+							}
+						],
+						"text": "Routine - Adult"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "18624000",
+										"display": "Rotavirus infection"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:a8e111a5-1657-490e-8efe-852351cad1c4",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1306.2022-12-16T18:11:01Z",
+					"lastUpdated": "2022-12-16T18:11:01.430+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:a8e111a5-1657-490e-8efe-852351cad1c4"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1306"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "1119349007",
+							"display": "COVID-19 mRNA"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "COVID-19 Pfizer-BioNTech mRNA-ARNm BTM"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2021-07-01T13:15:00-03:00",
+				"location": {
+					"type": "Location",
+					"display": "Bathurst Public Health"
+				},
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Pfizer-BioNTech"
+				},
+				"lotNumber": "PFIZCOV-123",
+				"expirationDate": "2030-12-31",
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "368208006",
+							"display": "Left arm"
+						}
+					],
+					"text": "Left arm"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "718329006",
+							"display": "Infiltrate"
+						}
+					],
+					"text": "Infiltrate"
+				},
+				"doseQuantity": {
+					"value": 0.3,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"note": [
+					{
+						"text": "Test"
+					}
+				],
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "420008001",
+								"display": "Travel"
+							}
+						],
+						"text": "Travel"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ee5037bf-0b86-49ed-9fb1-90e4de0ec8b9",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1307.2022-12-16T18:13:40Z",
+					"lastUpdated": "2022-12-16T18:13:40.908+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:ee5037bf-0b86-49ed-9fb1-90e4de0ec8b9"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1307"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "1119349007",
+							"display": "COVID-19 mRNA"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "COVID-19 Moderna Spikevax Bivalent BA.1"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2021-10-05T02:05:00-03:00",
+				"note": [
+					{
+						"text": "Trade name/ Nom commercial: COVID-19 Moderna Spikevax Bivalent BA.1"
+					},
+					{
+						"text": "test"
+					},
+					{
+						"text": "time added"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 2
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2ee71563-7585-4b62-b398-b628a59c91ba",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1697.2023-06-05T13:56:00Z",
+					"lastUpdated": "2023-06-05T13:56:00.501+00:00",
+					"source": "JINS_PROVRECORD"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:2ee71563-7585-4b62-b398-b628a59c91ba"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1697"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "1119349007",
+							"display": "COVID-19 mRNA"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "COVID-19 Moderna Spikevax Bivalent BA.1"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2023-04-04T00:00:00-03:00",
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Moderna TX"
+				},
+				"lotNumber": "009L21A",
+				"expirationDate": "2022-08-18",
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "JINB_HLTHCARE_WRKRS_IMMS_RSN",
+								"display": "Healthcare workers"
+							}
+						],
+						"text": "Healthcare workers"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 3
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:bf993a3e-1dda-43ea-8178-ac4c90be523a",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1701.2023-06-05T13:58:14Z",
+					"lastUpdated": "2023-06-05T13:58:14.779+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:bf993a3e-1dda-43ea-8178-ac4c90be523a"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1701"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "JINB_PFIZER_COVID_DILNT_ANTGN",
+							"display": "Diluent-COVID-19-Pfizer-BioNTech"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "JINB_PFIZER_COVID_DILNT_AGT",
+							"display": "Diluent-COVID-19-Pfizer-BioNTech"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Pfizer Diluent COVID-19 mRNA-Diluant COVID-19 ARNm"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2023-01-04T00:00:00-04:00",
+				"protocolApplied": [
+					{
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:3535ea17-d124-40cf-b49e-55039f67e188",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1698.2023-06-05T13:56:27Z",
+					"lastUpdated": "2023-06-05T13:56:27.901+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:3535ea17-d124-40cf-b49e-55039f67e188"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1698"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "29061000087103",
+							"display": "COVID-19 non-replicating viral vector"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "COVID-19 COVISHIELD"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2023-02-08T00:00:00-04:00",
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Verity Pharmaceuticals/Serum Institute of India"
+				},
+				"lotNumber": "COVSHLD-123",
+				"expirationDate": "2030-12-31",
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:1433d4c7-1412-446f-8e03-598c7b372668",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1308.2022-12-16T18:14:27Z",
+					"lastUpdated": "2022-12-16T18:14:27.769+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:1433d4c7-1412-446f-8e03-598c7b372668"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1308"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "1162643001",
+							"display": "COVID-19 recombinant spike protein"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Nuvaxovid"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2020-12-06T13:02:00-04:00",
+				"note": [
+					{
+						"text": "test"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2abf5202-dc90-4328-aabb-e2516fd20264",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1309.2022-12-16T17:53:12Z",
+					"lastUpdated": "2022-12-16T17:53:12.177+00:00",
+					"source": "MEDICARE"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:2abf5202-dc90-4328-aabb-e2516fd20264"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1309"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "30141000087107",
+							"display": "COVID-19 virus-like particle"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Covifenz"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2021-12-12T00:00:00-04:00",
+				"location": {
+					"type": "Location",
+					"display": "Trinity Drive Medical Clinic"
+				},
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Medicago"
+				},
+				"lotNumber": "Covifenz-test-123",
+				"expirationDate": "2030-12-31",
+				"site": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AnatomicalSite",
+							"code": "48979004",
+							"display": "Left leg"
+						}
+					],
+					"text": "Left leg"
+				},
+				"route": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/RouteOfAdmin",
+							"code": "258160008",
+							"display": "Inhalation"
+						}
+					],
+					"text": "Inhalation"
+				},
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"note": [
+					{
+						"text": "The immunization resource is intended to cover the recording of current and historical administration of vaccines to patients.  NB specifically captures publicly funded immunizations which may be administered by a Physician in their office, an NB Pharmacy, or at various Public Health clinics."
+					},
+					{
+						"text": "The immunization resource is intended to cover the recording of current and historical administration of vaccines to patients.<br>NB specifically captures publicly funded immunizations which may be administered by a Physician in their office, an NB Pharmacy, or at various Public Health clinics.<br>Third line added for fun"
+					}
+				],
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-reason",
+								"code": "JINB_LTC_RESIDENTS_IMMS_RSN",
+								"display": "Long-Term Care Residents"
+							}
+						],
+						"text": "Long-Term Care Residents"
+					}
+				],
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 1
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:9a1df6fc-547d-476e-8b10-1a97628b6497",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"versionId": "1699.2023-06-05T13:57:20Z",
+					"lastUpdated": "2023-06-05T13:57:20.706+00:00"
+				},
+				"language": "en-CA",
+				"extension": [
+					{
+						"url": "https://fhir.infoway-inforoute.ca/StructureDefinition/ca-nb-immunization-extension-valid-flag",
+						"valueBoolean": true
+					},
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Immunization-urn:uuid:9a1df6fc-547d-476e-8b10-1a97628b6497"
+					}
+				],
+				"identifier": [
+					{
+						"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-immunization-id",
+						"value": "1699"
+					}
+				],
+				"status": "completed",
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/AntigenIgAntitoxin",
+							"code": "840536004",
+							"display": "SARS-CoV-2"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/Generic",
+							"code": "30141000087107",
+							"display": "COVID-19 virus-like particle"
+						},
+						{
+							"system": "https://cvc.canimmunize.ca/v3/ValueSet/TradeName",
+							"display": "Covifenz"
+						}
+					]
+				},
+				"patient": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"occurrenceDateTime": "2023-03-14T00:00:00-03:00",
+				"manufacturer": {
+					"type": "Organization",
+					"display": "Medicago"
+				},
+				"lotNumber": "Covifenz-test-123",
+				"expirationDate": "2030-12-31",
+				"doseQuantity": {
+					"value": 0.5,
+					"unit": "mL",
+					"system": "https://fhir.infoway-inforoute.ca/ValueSet/ca-nb-immunization-dosage-uom",
+					"code": "INV.UnitOfMeasure2"
+				},
+				"protocolApplied": [
+					{
+						"targetDisease": [
+							{
+								"coding": [
+									{
+										"system": "https://cvc.canimmunize.ca/v3/ValueSet/Disease",
+										"code": "840539006",
+										"display": "COVID-19"
+									}
+								]
+							}
+						],
+						"doseNumberPositiveInt": 2
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:79b15932-f283-40a8-b5bf-7c219752977f",
+			"resource": {
+				"resourceType": "DiagnosticReport",
+				"meta": {
+					"versionId": "2",
+					"lastUpdated": "2024-01-12T15:07:13.750+00:00",
+					"source": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb",
+					"profile": [
+						"https://fhir.infoway-inforoute.ca/StructureDefinition/profile-diagnosticreport-results"
+					]
+				},
+				"language": "en",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Identifier: 25653|00022981_24296|IDTIQ@RHA4LAB|~|RHA4|RHA4</p><p>Status: final</p><p>Category: Microbiology</p><p>Requestor: JOHN TOBIN</p></div>"
+				},
+				"contained": [
+					{
+						"resourceType": "ServiceRequest",
+						"id": "c4cfd12d-d367-4ee9-9ef7-84ee9a0249e1",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "REQI"
+										}
+									]
+								},
+								"value": "00022981_24296_25653_3350_5"
+							}
+						],
+						"status": "completed",
+						"intent": "order",
+						"requester": {
+							"type": "Practitioner",
+							"display": "TOBIN, JOHN"
+						},
+						"locationReference": [
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-facility-id",
+									"value": "809"
+								},
+								"display": "Hôpital régional d'Edmundston"
+							},
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-zone-id",
+									"value": "RHA4"
+								},
+								"display": "Madawaska-Victoria"
+							}
+						]
+					},
+					{
+						"resourceType": "Specimen",
+						"id": "5cdd4de0-0336-4b66-b6a0-87928867ca1e",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "SPEC"
+										}
+									]
+								},
+								"value": "1201:P00001R"
+							}
+						],
+						"receivedTime": "2024-01-12T14:26:00+00:00"
+					}
+				],
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#DiagnosticReport-urn:uuid:79b15932-f283-40a8-b5bf-7c219752977f"
+					}
+				],
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+									"code": "PLAC",
+									"display": "Placer Identifier"
+								}
+							],
+							"text": "Placer Identifier"
+						},
+						"system": "R4/OBI/DiagnosticReportIdentifiers",
+						"value": "00022981:25653:TIQUE IDENT."
+					}
+				],
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+								"code": "LAB",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					},
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+								"code": "MB",
+								"display": "Microbiology"
+							}
+						],
+						"text": "Microbiology"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https://ExampleFHIRServer.ca/R4/ValueSet/locallabtestcodes",
+							"code": "TIQUE IDENT.",
+							"display": "TIQUE IDENT."
+						}
+					],
+					"text": "TIQUE IDENT."
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"effectiveDateTime": "2024-01-12T14:26:00+00:00",
+				"issued": "2024-01-12T15:05:00.000+00:00",
+				"result": [
+					{
+						"reference": "urn:uuid:578a0ac1-2232-48e3-98f7-c164c87c2266"
+					},
+					{
+						"reference": "urn:uuid:b503700b-6fbd-48c8-bf77-d18321f1a33a"
+					},
+					{
+						"reference": "urn:uuid:fcb2920b-63ca-4dfb-95ae-367f8b7b9b55"
+					},
+					{
+						"reference": "urn:uuid:62046239-e336-455d-97b1-6364340afe56"
+					},
+					{
+						"reference": "urn:uuid:ca2b30fa-c745-4cf2-8323-a7bc8fe39212"
+					}
+				],
+				"conclusion": "La tique a ete trouvee sur: Humain\r\nDate que la tique a ete trouvee: 20240110\r\nHeure: 1450\r\nLieu geographique probable d'acquisition: Edmundston\r\nHistoire de voyage au N.-B.? Y\r\nHistoire de voyage a l'exterieur du N.-B.? N\r\nSpecifier: CHALET NORD EDMUNDSTON\r\nDate que la tique a ete soumise: 20240112\r\nHeure: 0800\r\nNombre de tiques soumis: 1\r\nAttachement tique: Attachee\r\n"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:578a0ac1-2232-48e3-98f7-c164c87c2266",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"versionId": "2",
+					"lastUpdated": "2024-01-12T15:07:13.750+00:00",
+					"source": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb",
+					"profile": [
+						"https://fhir.infoway-inforoute.ca/StructureDefinition/profile-observation-results"
+					]
+				},
+				"language": "en",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Identifier: 5475760</p><p>Status: final</p><p>Category: Microbiology</p><p>Observation Code: Tick, Species</p></div>"
+				},
+				"contained": [
+					{
+						"resourceType": "ServiceRequest",
+						"id": "e764d2a5-3e1c-4072-a76b-e3d6d35ab569",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "REQI"
+										}
+									]
+								},
+								"value": "00022981_24296_25653_3350_5"
+							}
+						],
+						"status": "completed",
+						"intent": "order",
+						"requester": {
+							"display": "TOBIN, JOHN"
+						},
+						"locationReference": [
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-facility-id",
+									"value": "809"
+								},
+								"display": "Hôpital régional d'Edmundston"
+							},
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-zone-id",
+									"value": "RHA4"
+								},
+								"display": "Madawaska-Victoria"
+							}
+						]
+					},
+					{
+						"resourceType": "Specimen",
+						"id": "22eeb49a-0f73-4650-9774-8eb0d5bddce8",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "SPEC"
+										}
+									]
+								},
+								"value": "1201:P00001R"
+							}
+						],
+						"receivedTime": "2024-01-12T14:26:00+00:00"
+					}
+				],
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Observation-urn:uuid:578a0ac1-2232-48e3-98f7-c164c87c2266"
+					}
+				],
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+									"code": "OBI",
+									"display": "Observation Instance Identifier"
+								}
+							],
+							"text": "Observation Instance Identifier"
+						},
+						"system": "R4/OBI/ObservationIdentifiers",
+						"value": "00022981:25653:TIQUE IDENT.:XNB1904-2"
+					}
+				],
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					},
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/PHIaccess-observation-lab-category-detail",
+								"code": "MB",
+								"display": "Microbiology"
+							}
+						],
+						"text": "Microbiology"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "XNB1904-2",
+							"display": "Tick, Species"
+						}
+					],
+					"text": "Tick, Species"
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"effectiveDateTime": "2024-01-12T14:26:00+00:00",
+				"issued": "2024-01-12T15:05:00.000+00:00",
+				"valueString": "Ixodes scapularis",
+				"note": [
+					{
+						"text": "Prevalence de l'infection a Borrelia burgdorferi au N.-B.:<br>&gt;20 % des tiques Ixodes scapularis du sud du<br>Nouveau-Brunswick sont infectees par B. burgdorferi. Pour<br>obtenir de plus amples renseignements et des cartes des<br>risques, voir Maladies transmises par les tiques GNB.<br>Commentaire/Considerations:<br>La prophylaxie a la doxycycline (de Borrelia burgdorferi)<br>est recommandee pour tous les groupes d'age presentant une<br>piqure de tique a risque eleve lorsque tous les criteres<br>suivants sont remplis :<br>1) La tique a ete identifiee comme etant Ixodes scapularis;<br>2) La tique a ete attachee pendant &gt;=36 heures (notez que<br>seules les larves, les nymphes et les femelles adultes se<br>nourrissent pendant de longues periodes);<br>3) La morsure s'est produite dans une zone endemique (le<br>taux d'infectiosite d'I.scapularis avec B. burgdorferi<br>depasse 20%); et<br>4) La prophylaxie peut etre administree dans les 72 heures<br>suivant l'enlevement de la tique. Sauf contre-indication<br>contraire, la doxycycline peut etre administree en dose<br>orale unique : 200 mg pour les adultes et 4,4 mg/kg (jusqu'a<br>une dose maximale de 200 mg) pour les enfants.<br>Comme le traitement prophylactique n'est pas efficace a<br>100%, les patients doivent tout de meme etre surveilles pour<br>detecter l'apparition de signes et de symptomes de maladie<br>transmise par les tiques pendant les 30 jours suivant la<br>piqure de tique (c.-a-d. lesion erythemateuse en expansion<br>au site de la piqure de tique ou d'autres sites cutanes,<br>fievre, maux de tete, myalgies, arthralgies ou autres<br>maladies inexpliquees). I. scapularis peut egalement servir<br>de vecteur pour certains agents pathogenes autres que B.<br>burgdorferi.<br>Le traitement des piqures de tiques asymptomatiques, autre<br>que la prophylaxie des piqures de tiques a risque eleve,<br>n'est actuellement pas recommande. Les patients doivent etre<br>surveilles pour detecter l'apparition de signes et de<br>symptomes de maladie transmise par les tiques pendant 30<br>jours apres la morsure de tique (c.-a-d. eruptions cutanees,<br>fievre ou autre maladie inexpliquee).<br>"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:b503700b-6fbd-48c8-bf77-d18321f1a33a",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"versionId": "2",
+					"lastUpdated": "2024-01-12T15:07:13.750+00:00",
+					"source": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb",
+					"profile": [
+						"https://fhir.infoway-inforoute.ca/StructureDefinition/profile-observation-results"
+					]
+				},
+				"language": "en",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Identifier: 5475761</p><p>Status: final</p><p>Category: Microbiology</p><p>Observation Code: Tick, Estimated Length of Attachment Time</p></div>"
+				},
+				"contained": [
+					{
+						"resourceType": "ServiceRequest",
+						"id": "deee4122-de10-4e19-a89d-0b49ca62977d",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "REQI"
+										}
+									]
+								},
+								"value": "00022981_24296_25653_3350_5"
+							}
+						],
+						"status": "completed",
+						"intent": "order",
+						"requester": {
+							"display": "TOBIN, JOHN"
+						},
+						"locationReference": [
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-facility-id",
+									"value": "809"
+								},
+								"display": "Hôpital régional d'Edmundston"
+							},
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-zone-id",
+									"value": "RHA4"
+								},
+								"display": "Madawaska-Victoria"
+							}
+						]
+					},
+					{
+						"resourceType": "Specimen",
+						"id": "6f5d1362-783c-4562-92f8-84fc9ea8abe0",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "SPEC"
+										}
+									]
+								},
+								"value": "1201:P00001R"
+							}
+						],
+						"receivedTime": "2024-01-12T14:26:00+00:00"
+					}
+				],
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Observation-urn:uuid:b503700b-6fbd-48c8-bf77-d18321f1a33a"
+					}
+				],
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+									"code": "OBI",
+									"display": "Observation Instance Identifier"
+								}
+							],
+							"text": "Observation Instance Identifier"
+						},
+						"system": "R4/OBI/ObservationIdentifiers",
+						"value": "00022981:25653:TIQUE IDENT.:XNB1906-7"
+					}
+				],
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					},
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/PHIaccess-observation-lab-category-detail",
+								"code": "MB",
+								"display": "Microbiology"
+							}
+						],
+						"text": "Microbiology"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "XNB1906-7",
+							"display": "Tick, Estimated Length of Attachment Time"
+						}
+					],
+					"text": "Tick, Estimated Length of Attachment Time"
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"effectiveDateTime": "2024-01-12T14:26:00+00:00",
+				"issued": "2024-01-12T15:05:00.000+00:00",
+				"valueString": "24-48 heures"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:fcb2920b-63ca-4dfb-95ae-367f8b7b9b55",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"versionId": "2",
+					"lastUpdated": "2024-01-12T15:07:13.750+00:00",
+					"source": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb",
+					"profile": [
+						"https://fhir.infoway-inforoute.ca/StructureDefinition/profile-observation-results"
+					]
+				},
+				"language": "en",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Identifier: 5475762</p><p>Status: final</p><p>Category: Microbiology</p><p>Observation Code: Tick, Life Stage</p></div>"
+				},
+				"contained": [
+					{
+						"resourceType": "ServiceRequest",
+						"id": "73bc5401-729f-454c-a5cd-d66ae1d973c1",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "REQI"
+										}
+									]
+								},
+								"value": "00022981_24296_25653_3350_5"
+							}
+						],
+						"status": "completed",
+						"intent": "order",
+						"requester": {
+							"display": "TOBIN, JOHN"
+						},
+						"locationReference": [
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-facility-id",
+									"value": "809"
+								},
+								"display": "Hôpital régional d'Edmundston"
+							},
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-zone-id",
+									"value": "RHA4"
+								},
+								"display": "Madawaska-Victoria"
+							}
+						]
+					},
+					{
+						"resourceType": "Specimen",
+						"id": "a045ea9e-b4cd-4612-a9b0-f970656a11d1",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "SPEC"
+										}
+									]
+								},
+								"value": "1201:P00001R"
+							}
+						],
+						"receivedTime": "2024-01-12T14:26:00+00:00"
+					}
+				],
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Observation-urn:uuid:fcb2920b-63ca-4dfb-95ae-367f8b7b9b55"
+					}
+				],
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+									"code": "OBI",
+									"display": "Observation Instance Identifier"
+								}
+							],
+							"text": "Observation Instance Identifier"
+						},
+						"system": "R4/OBI/ObservationIdentifiers",
+						"value": "00022981:25653:TIQUE IDENT.:XNB1905-9"
+					}
+				],
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					},
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/PHIaccess-observation-lab-category-detail",
+								"code": "MB",
+								"display": "Microbiology"
+							}
+						],
+						"text": "Microbiology"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "XNB1905-9",
+							"display": "Tick, Life Stage"
+						}
+					],
+					"text": "Tick, Life Stage"
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"effectiveDateTime": "2024-01-12T14:26:00+00:00",
+				"issued": "2024-01-12T15:05:00.000+00:00",
+				"valueString": "Male adulte"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:62046239-e336-455d-97b1-6364340afe56",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"versionId": "2",
+					"lastUpdated": "2024-01-12T15:07:13.767+00:00",
+					"source": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb",
+					"profile": [
+						"https://fhir.infoway-inforoute.ca/StructureDefinition/profile-observation-results"
+					]
+				},
+				"language": "en",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Identifier: 5475763</p><p>Status: final</p><p>Category: Microbiology</p><p>Observation Code: Tick, Engorgement</p></div>"
+				},
+				"contained": [
+					{
+						"resourceType": "ServiceRequest",
+						"id": "c9dfba69-fcc4-40f0-943d-b0464f64d241",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "REQI"
+										}
+									]
+								},
+								"value": "00022981_24296_25653_3350_5"
+							}
+						],
+						"status": "completed",
+						"intent": "order",
+						"requester": {
+							"display": "TOBIN, JOHN"
+						},
+						"locationReference": [
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-facility-id",
+									"value": "809"
+								},
+								"display": "Hôpital régional d'Edmundston"
+							},
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-zone-id",
+									"value": "RHA4"
+								},
+								"display": "Madawaska-Victoria"
+							}
+						]
+					},
+					{
+						"resourceType": "Specimen",
+						"id": "7f4306a7-e86d-4bb4-a1e7-be80d0aa700d",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "SPEC"
+										}
+									]
+								},
+								"value": "1201:P00001R"
+							}
+						],
+						"receivedTime": "2024-01-12T14:26:00+00:00"
+					}
+				],
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Observation-urn:uuid:62046239-e336-455d-97b1-6364340afe56"
+					}
+				],
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+									"code": "OBI",
+									"display": "Observation Instance Identifier"
+								}
+							],
+							"text": "Observation Instance Identifier"
+						},
+						"system": "R4/OBI/ObservationIdentifiers",
+						"value": "00022981:25653:TIQUE IDENT.:45345-6"
+					}
+				],
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					},
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/PHIaccess-observation-lab-category-detail",
+								"code": "MB",
+								"display": "Microbiology"
+							}
+						],
+						"text": "Microbiology"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "45345-6",
+							"display": "Tick, Engorgement"
+						}
+					],
+					"text": "Tick, Engorgement"
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"effectiveDateTime": "2024-01-12T14:26:00+00:00",
+				"issued": "2024-01-12T15:05:00.000+00:00",
+				"valueString": "Partiellement engorg"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ca2b30fa-c745-4cf2-8323-a7bc8fe39212",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"versionId": "2",
+					"lastUpdated": "2024-01-12T15:07:13.767+00:00",
+					"source": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb",
+					"profile": [
+						"https://fhir.infoway-inforoute.ca/StructureDefinition/profile-observation-results"
+					]
+				},
+				"language": "en",
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Identifier: 5475764</p><p>Status: final</p><p>Category: Microbiology</p><p>Observation Code: Condition of Tick</p></div>"
+				},
+				"contained": [
+					{
+						"resourceType": "ServiceRequest",
+						"id": "7a0c7256-5246-4d7d-bf62-3ba17c2bcfbc",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "REQI"
+										}
+									]
+								},
+								"value": "00022981_24296_25653_3350_5"
+							}
+						],
+						"status": "completed",
+						"intent": "order",
+						"requester": {
+							"display": "TOBIN, JOHN"
+						},
+						"locationReference": [
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-facility-id",
+									"value": "809"
+								},
+								"display": "Hôpital régional d'Edmundston"
+							},
+							{
+								"identifier": {
+									"system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-nb-zone-id",
+									"value": "RHA4"
+								},
+								"display": "Madawaska-Victoria"
+							}
+						]
+					},
+					{
+						"resourceType": "Specimen",
+						"id": "d084ecdd-23d8-4150-a455-b4025f91d873",
+						"identifier": [
+							{
+								"type": {
+									"coding": [
+										{
+											"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+											"code": "SPEC"
+										}
+									]
+								},
+								"value": "1201:P00001R"
+							}
+						],
+						"receivedTime": "2024-01-12T14:26:00+00:00"
+					}
+				],
+				"extension": [
+					{
+						"url": "http://hl7.org/fhir/StructureDefinition/narrativeLink",
+						"valueUrl": "urn:uuid:fee3cc80-caf0-4f03-830a-bd8ac56456e9#Observation-urn:uuid:ca2b30fa-c745-4cf2-8323-a7bc8fe39212"
+					}
+				],
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://hl7.org/fhir/ValueSet/identifier-type",
+									"code": "OBI",
+									"display": "Observation Instance Identifier"
+								}
+							],
+							"text": "Observation Instance Identifier"
+						},
+						"system": "R4/OBI/ObservationIdentifiers",
+						"value": "00022981:25653:TIQUE IDENT.:45349-8"
+					}
+				],
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/observation-category",
+								"code": "laboratory",
+								"display": "Laboratory"
+							}
+						],
+						"text": "Laboratory"
+					},
+					{
+						"coding": [
+							{
+								"system": "https://fhir.infoway-inforoute.ca/ValueSet/PHIaccess-observation-lab-category-detail",
+								"code": "MB",
+								"display": "Microbiology"
+							}
+						],
+						"text": "Microbiology"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "45349-8",
+							"display": "Condition of Tick"
+						}
+					],
+					"text": "Condition of Tick"
+				},
+				"subject": {
+					"reference": "urn:uuid:9e6b5590-ac4f-4159-ada7-4c1e6a75551e"
+				},
+				"effectiveDateTime": "2024-01-12T14:26:00+00:00",
+				"issued": "2024-01-12T15:05:00.000+00:00",
+				"valueString": "Bonne",
+				"note": [
+					{
+						"text": "Morte, excellente condition et dommage minime.<br>"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2fc5332d-7611-450c-8a5e-1034328e9225",
+			"resource": {
+				"resourceType": "Organization",
+				"name": "New Brunswick Department of Health"
+			}
+		}
+	]
+}

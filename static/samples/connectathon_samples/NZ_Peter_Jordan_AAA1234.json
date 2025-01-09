@@ -1,19 +1,19 @@
 {
     "resourceType": "Bundle",
-    "id": "NZ-IPS-20211010081347",
+    "id": "NZ-IPS-20231009024857",
     "language": "en-NZ",
     "identifier": {
         "system": "urn:oid:2.16.724.4.8.10.200.10",
         "value": "59f51f0b-2005-485c-858e-3d3ae9657287"
     },
     "type": "document",
-    "timestamp": "2021-10-10T08:13:47.2028681+00:00",
+    "timestamp": "2023-10-09T02:48:57.4219686+00:00",
     "entry": [
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Composition/dfa9a75c-c1ca-4c78-a26e-f61423ea5ac6",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Composition/d2d5d4dd-4e86-41c6-98d2-e412882e9b4c",
             "resource": {
                 "resourceType": "Composition",
-                "id": "dfa9a75c-c1ca-4c78-a26e-f61423ea5ac6",
+                "id": "d2d5d4dd-4e86-41c6-98d2-e412882e9b4c",
                 "meta": {
                     "versionId": "1"
                 },
@@ -42,7 +42,7 @@
                 "date": "2021-05-03",
                 "author": [
                     {
-                        "reference": "Organization/aac808e1-56d0-42b6-ad8c-efec7a269066"
+                        "reference": "Organization/03993b0c-87ae-478b-8556-8c52a68c3486"
                     }
                 ],
                 "title": "International Patient Summary",
@@ -52,12 +52,12 @@
                         "mode": "professional",
                         "time": "2021-05-03",
                         "party": {
-                            "reference": "PractitionerRole/c3369e2c-a25a-407a-a767-449885fa6b02"
+                            "reference": "PractitionerRole/1153dc30-cf69-402f-9522-132ec9ec14ac"
                         }
                     }
                 ],
                 "custodian": {
-                    "reference": "Organization/16c34cca-570a-457e-acbd-fade63a2af84"
+                    "reference": "Organization/15d2d767-48ba-4222-a1ca-8fa34393aed4"
                 },
                 "relatesTo": [
                     {
@@ -99,11 +99,11 @@
                         },
                         "text": {
                             "status": "generated",
-                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'>There is no information available regarding the subject's allergy conditions.</div>"
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ' idref='d46cc177-5660-46cc-9f55-6c28e1bc3bba'>There is no information available regarding the subject's allergy conditions.</div>"
                         },
                         "entry": [
                             {
-                                "reference": "AllergyIntolerance/acc8c368-fb16-406d-811f-15a8151ca1b9"
+                                "reference": "AllergyIntolerance/d46cc177-5660-46cc-9f55-6c28e1bc3bba"
                             }
                         ]
                     },
@@ -120,11 +120,11 @@
                         },
                         "text": {
                             "status": "generated",
-                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'>There is no information available about the subject's health problems or disabilities.</div>"
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ' idref='20a587fa-239f-49c2-a3c8-ff2f2a18b654'>There is no information available about the subject's health problems or disabilities.</div>"
                         },
                         "entry": [
                             {
-                                "reference": "Condition/898c4fe8-b9ca-499a-8ec4-86b14f7e69c8"
+                                "reference": "Condition/20a587fa-239f-49c2-a3c8-ff2f2a18b654"
                             }
                         ]
                     },
@@ -141,11 +141,11 @@
                         },
                         "text": {
                             "status": "generated",
-                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'>There is no information available about the subject's medication use or administration.</div>"
+                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ' idref='4e348646-0375-486a-a33d-d19801e6c7f7'>There is no information available about the subject's medication use or administration.</div>"
                         },
                         "entry": [
                             {
-                                "reference": "MedicationStatement/737bc56b-ce59-4fe2-8034-495f8f8d30c6"
+                                "reference": "MedicationStatement/4e348646-0375-486a-a33d-d19801e6c7f7"
                             }
                         ]
                     },
@@ -162,14 +162,14 @@
                         },
                         "text": {
                             "status": "generated",
-                            "div": "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'><table xmlns=\"http://www.w3.org/1999/xhtml\">\r\n        <thead>\r\n          <tr>\r\n            <th>Vaccine</th>\r\n            <th>Date</th>\r\n            <th>Seq</th>\r\n            <th>Route</th>\r\n            <th>Site</th>\r\n            <th>Indication</th>\r\n            <th>Status</th>\r\n            \r\n            \r\n          </tr>\r\n        </thead>\r\n        <tbody>\r\n          <tr>\r\n            <td>Influenza</td>\r\n            <td>03/07/2020</td>\r\n            <td>2</td>\r\n            <td>Injection, intramuscular</td>\r\n            <td>Entire left upper arm</td>\r\n            <td>Eligible condition (Influenza)</td>\r\n            <td>completed</td>\r\n            \r\n            \r\n          </tr>\r\n          <tr>\r\n            <td>Influenza</td>\r\n            <td>03/06/2019</td>\r\n            <td>1</td>\r\n            <td>Injection, intramuscular</td>\r\n            <td>Entire left upper arm</td>\r\n            <td>Eligible condition (Influenza)</td>\r\n            <td>completed</td>\r\n            \r\n            \r\n          </tr>\r\n        </tbody>\r\n      </table>\r\n    </div>"
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <table>\r\n    <thead>\r\n      <tr>\r\n        <th>Vaccine</th>\r\n        <th>Status</th>\r\n        <th>Occurance</th>\r\n        <th>Route</th>\r\n        <th>Dose #</th>\r\n        <th>Series</th>\r\n      </tr>\r\n    </thead>\r\n    <tbody>\r\n      <tr idref='c5efb4c3-91cf-4f63-b176-a697215d727a'>\r\n        <td>Influenza, seasonal, injectable</td>\r\n        <td>Completed</td>\r\n        <td>2020-07-03</td>\r\n        <td>Injection, intramuscular</td>\r\n        <td>2</td>\r\n        <td>45y (Eligible condition (Influenza))</td>\r\n      </tr>\r\n      <tr idref='f58b2627-eeac-4280-8475-195ae422aa2d'>\r\n        <td>Influenza, seasonal, injectable</td>\r\n        <td>Completed</td>\r\n        <td>2019-06-03</td>\r\n        <td>Injection, intramuscular</td>\r\n        <td>1</td>\r\n        <td>45y (Eligible condition (Influenza))</td>\r\n      </tr>\r\n    </tbody>\r\n  </table>\r\n</div>"
                         },
                         "entry": [
                             {
-                                "reference": "Immunization/ee1f7a6d-ec3b-4d77-a03b-f0441df5054a"
+                                "reference": "Immunization/c5efb4c3-91cf-4f63-b176-a697215d727a"
                             },
                             {
-                                "reference": "Immunization/1f09f10e-8b79-466a-b521-01e9ec560434"
+                                "reference": "Immunization/f58b2627-eeac-4280-8475-195ae422aa2d"
                             }
                         ]
                     }
@@ -211,21 +211,16 @@
                 "birthDate": "1985-04-25",
                 "address": [
                     {
-                        "extension": [
-                            {
-                                "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
-                                "valueString": "Rototuna North"
-                            }
-                        ],
                         "use": "home",
                         "type": "physical",
                         "line": [
                             "Bleak House",
-                            "3 Worcester Drive"
+                            "3 Worcester Drive",
+                            "Rototuna North"
                         ],
                         "city": "Hamilton",
                         "postalCode": "3210",
-                        "country": "New Zealand"
+                        "country": "NZ"
                     }
                 ],
                 "maritalStatus": {
@@ -295,7 +290,7 @@
                             ],
                             "city": "Hamilton",
                             "postalCode": "3210",
-                            "country": "New Zealand"
+                            "country": "NZ"
                         }
                     }
                 ],
@@ -309,10 +304,10 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/aac808e1-56d0-42b6-ad8c-efec7a269066",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/03993b0c-87ae-478b-8556-8c52a68c3486",
             "resource": {
                 "resourceType": "Organization",
-                "id": "aac808e1-56d0-42b6-ad8c-efec7a269066",
+                "id": "03993b0c-87ae-478b-8556-8c52a68c3486",
                 "identifier": [
                     {
                         "system": "https://standards.digital.health.nz/ns/hpi-facility-id",
@@ -323,12 +318,12 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/c3369e2c-a25a-407a-a767-449885fa6b02",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/1153dc30-cf69-402f-9522-132ec9ec14ac",
             "resource": {
                 "resourceType": "PractitionerRole",
-                "id": "c3369e2c-a25a-407a-a767-449885fa6b02",
+                "id": "1153dc30-cf69-402f-9522-132ec9ec14ac",
                 "practitioner": {
-                    "reference": "Practitioner/b91bc1a4-75a4-4d30-ae97-3d736fb6de5a"
+                    "reference": "Practitioner/944fee7f-7dfd-4f68-84f4-43ca5287f05d"
                 },
                 "code": [
                     {
@@ -344,10 +339,10 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Practitioner/b91bc1a4-75a4-4d30-ae97-3d736fb6de5a",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Practitioner/944fee7f-7dfd-4f68-84f4-43ca5287f05d",
             "resource": {
                 "resourceType": "Practitioner",
-                "id": "b91bc1a4-75a4-4d30-ae97-3d736fb6de5a",
+                "id": "944fee7f-7dfd-4f68-84f4-43ca5287f05d",
                 "name": [
                     {
                         "use": "usual",
@@ -376,19 +371,19 @@
                         ],
                         "city": "Hamilton",
                         "postalCode": "3211",
-                        "country": "New Zealand"
+                        "country": "NZ"
                     }
                 ]
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/16c34cca-570a-457e-acbd-fade63a2af84",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/15d2d767-48ba-4222-a1ca-8fa34393aed4",
             "resource": {
                 "resourceType": "Organization",
-                "id": "16c34cca-570a-457e-acbd-fade63a2af84",
+                "id": "15d2d767-48ba-4222-a1ca-8fa34393aed4",
                 "identifier": [
                     {
-                        "system": "https://standards.digital.health.nz/ns/psychotherapists-board-id",
+                        "system": "urn:oid:2.16.840.1.113883.2.18.3",
                         "value": "F2N000-J"
                     }
                 ],
@@ -396,10 +391,10 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/AllergyIntolerance/acc8c368-fb16-406d-811f-15a8151ca1b9",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/AllergyIntolerance/d46cc177-5660-46cc-9f55-6c28e1bc3bba",
             "resource": {
                 "resourceType": "AllergyIntolerance",
-                "id": "acc8c368-fb16-406d-811f-15a8151ca1b9",
+                "id": "d46cc177-5660-46cc-9f55-6c28e1bc3bba",
                 "clinicalStatus": {
                     "coding": [
                         {
@@ -423,10 +418,10 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/898c4fe8-b9ca-499a-8ec4-86b14f7e69c8",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/20a587fa-239f-49c2-a3c8-ff2f2a18b654",
             "resource": {
                 "resourceType": "Condition",
-                "id": "898c4fe8-b9ca-499a-8ec4-86b14f7e69c8",
+                "id": "20a587fa-239f-49c2-a3c8-ff2f2a18b654",
                 "clinicalStatus": {
                     "coding": [
                         {
@@ -450,10 +445,10 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/MedicationStatement/737bc56b-ce59-4fe2-8034-495f8f8d30c6",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/MedicationStatement/4e348646-0375-486a-a33d-d19801e6c7f7",
             "resource": {
                 "resourceType": "MedicationStatement",
-                "id": "737bc56b-ce59-4fe2-8034-495f8f8d30c6",
+                "id": "4e348646-0375-486a-a33d-d19801e6c7f7",
                 "status": "unknown",
                 "medicationCodeableConcept": {
                     "coding": [
@@ -466,14 +461,15 @@
                 },
                 "subject": {
                     "reference": "Patient/AAA1234"
-                }
+                },
+                "effectiveDateTime": "2023-10-09T02:48:57.467553+00:00"
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/ee1f7a6d-ec3b-4d77-a03b-f0441df5054a",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/c5efb4c3-91cf-4f63-b176-a697215d727a",
             "resource": {
                 "resourceType": "Immunization",
-                "id": "ee1f7a6d-ec3b-4d77-a03b-f0441df5054a",
+                "id": "c5efb4c3-91cf-4f63-b176-a697215d727a",
                 "status": "completed",
                 "vaccineCode": {
                     "coding": [
@@ -511,7 +507,7 @@
                 "performer": [
                     {
                         "actor": {
-                            "reference": "Organization/16c34cca-570a-457e-acbd-fade63a2af84"
+                            "reference": "Organization/15d2d767-48ba-4222-a1ca-8fa34393aed4"
                         }
                     }
                 ],
@@ -524,10 +520,10 @@
             }
         },
         {
-            "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/1f09f10e-8b79-466a-b521-01e9ec560434",
+            "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/f58b2627-eeac-4280-8475-195ae422aa2d",
             "resource": {
                 "resourceType": "Immunization",
-                "id": "1f09f10e-8b79-466a-b521-01e9ec560434",
+                "id": "f58b2627-eeac-4280-8475-195ae422aa2d",
                 "status": "completed",
                 "vaccineCode": {
                     "coding": [
@@ -565,7 +561,7 @@
                 "performer": [
                     {
                         "actor": {
-                            "reference": "Organization/16c34cca-570a-457e-acbd-fade63a2af84"
+                            "reference": "Organization/15d2d767-48ba-4222-a1ca-8fa34393aed4"
                         }
                     }
                 ],

@@ -98,13 +98,16 @@
                         },
                         "text": {
                             "status": "generated",
-                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Medication Name</b>: No known medications</div><div><b>Code</b>: <span>no-known-medications</span></div><div><b>Status</b>: <span>Active</span></div></li></ul></div>"
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Medication Name</b>: No known medications</div><div><b>Code</b>: <span>No information available</span></div><div><b>Status</b>: <span>Active</span></div></li></ul></div>"
                         },
-                        "entry": [
-                            {
-                                "reference": "MedicationStatement/MedicationStatement-00001"
-                            }
-                        ]
+						"emptyReason":  {
+						  "coding" : [{
+							"system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+							"code" : "unavailable",
+							"display" : "Unavailable"
+						  }],
+						  "text" : "No information available"
+						}
                     }
                 ]
             }
@@ -120,24 +123,14 @@
                         "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
                     ]
                 },
-                "language": "English- [en-US]",
+                "language": "en-US",
                 "text": {
                     "status": "generated",
-                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><b>Patient Name: </b>: PATIENT, PEACH</div><div><b>Sex</b>: Male</div><div><b>BirthDate</b>: 1951-01-01</div>"
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\" xml:lang=\"en-US\"><div><b>Patient Name: </b>: PATIENT, PEACH</div><div><b>Sex</b>: Male</div><div><b>BirthDate</b>: 1951-01-01</div>"
                 },
                 "identifier": [
                     {
                         "use": "official",
-                        "type": {
-                            "coding": [
-                                {
-                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
-                                    "code": "CZ",
-                                    "display": "Citizenship Card"
-                                }
-                            ],
-                            "text": "Citizenship Card"
-                        },
                         "value": "U6547890"
                     }
                 ],
@@ -330,7 +323,12 @@
                 "category": [
                     {
                         "coding": [
-                            {
+                          {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                            "code": "problem-list-item",
+                            "display": "Problem List Item"
+                        },
+                        {
                                 "system": "http://loinc.org",
                                 "code": "75326-9",
                                 "display": "Problem"
@@ -347,30 +345,6 @@
                         }
                     ],
                     "text": "Hyperlipidemia"
-                },
-                "subject": {
-                    "reference": "https://www.ehealth.gov.hk/Patient/00001",
-                    "display": "PATIENT, PEACH"
-                }
-            }
-        },
-        {
-            "fullUrl": "https://www.ehealth.gov.hk/MedicationStatement/MedicationStatement-00001",
-            "resource": {
-                "resourceType": "MedicationStatement",
-                "id": "MedicationStatement-00001",
-                "meta": {
-                    "versionId": "00001"
-                },
-                "status": "active",
-                "medicationCodeableConcept": {
-                    "coding": [
-                        {
-                            "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
-                            "code": "no-known-medications",
-                            "display": "No known medications"
-                        }
-                    ]
                 },
                 "subject": {
                     "reference": "https://www.ehealth.gov.hk/Patient/00001",

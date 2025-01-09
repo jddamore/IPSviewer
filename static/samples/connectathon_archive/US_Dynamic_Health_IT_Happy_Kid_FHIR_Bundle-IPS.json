@@ -1,0 +1,1395 @@
+{
+    "resourceType": "Bundle",
+    "id": "03139d37-995a-4540-9895-a52728ea9298",
+    "language": "en-US",
+    "identifier": {
+        "system": "urn:oid:2.16.724.4.8.10.200.10",
+        "value": "10194307-3bec-4ca9-b98f-0e51718e9a78"
+    },
+    "type": "document",
+    "timestamp": "2021-10-02T17:59:47.953Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:3d8099af-7f04-406f-8709-0bc1ca1a3cff",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "3d8099af-7f04-406f-8709-0bc1ca1a3cff",
+                "language": "en-US",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'>International Patient Summary </div>"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
+                },
+                "date": "2021-10-02T17:59:47.953Z",
+                "author": [
+                    {
+                        "reference": "Organization/200017-Organization-10001"
+                    }
+                ],
+                "title": "International Patient Summary",
+                "section": [
+                    {
+                        "title": "Allergies and Intolerances",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Allergy Name</b>: Ampicillin</div><div><b>Code</b>: <span>387170002</span></div><div><b>Start Date</b>: <span>2014-12-01</span></div><div><b>Reaction</b>: <span>Hives</span></div><div><b>Severity</b>: Moderate</div><div><b>Recorder</b>: Dr Albert Davis</div></li><li><div><b>Allergy Name</b>: Penicillin G</div><div><b>Code</b>: <span>323389000</span></div><div><b>Start Date</b>: <span>2013-12-01</span></div><div><b>Reaction</b>: <span>Hives</span></div><div><b>Severity</b>: Moderate</div><div><b>Recorder</b>: Dr Albert Davis</div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "AllergyIntolerance/200017-AllergyIntolerance-10001"
+                            },
+                            {
+                                "reference": "AllergyIntolerance/200017-AllergyIntolerance-10002"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Problem List",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Condition Name</b>: HYPO PLASTIC LEFT HEART SYNDROME</div><div><b>Code</b>: <span>62067003</span></div><div><b>Start Date</b>: <span>2013-06-01</span></div><div><b>Status</b>: <span>Active</span></div><div><b>Recorder</b>: Dr Albert Davis</div></li><li><div><b>Condition Name</b>: FEVER</div><div><b>Code</b>: <span>386661006</span></div><div><b>Start Date</b>: <span></span></div><div><b>Status</b>: <span>Resolved</span></div><div><b>Recorder</b>: Dr Albert Davis</div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/200017-Problem-10001"
+                            },
+                            {
+                                "reference": "Condition/200017-EncounterDiagnosis-10001"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Medication Summary",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Medication Name</b>: Acetaminophen 500 mg and codeine phosphate 12.8 mg oral tablet</div><div><b>Code</b>: <span>322379008</span></div><div><b>Start Date</b>: <span>2015-06-22</span></div><div><b>End Date</b>: <span>2015-07-02</span></div><div><b>Status</b>: <span>Completed</span></div><div><b>Category</b>: <span>Outpatient</span></div><div><b>Dosage</b>: 1 U  As needed Oral</div></li><li><div><b>Medication Name</b>: ceftriaxone 100 MG/ML Injectable Solution</div><div><b>Code</b>: <span>372670001</span></div><div><b>Start Date</b>: <span>2015-06-22</span></div><div><b>End Date</b>: <span>2015-06-30</span></div><div><b>Status</b>: <span>Completed</span></div><div><b>Category</b>: <span>Outpatient</span></div><div><b>Dosage</b>: 1 U  Two times daily Intravenous use</div></li><li><div><b>Medication Name</b>: Darbepoetin alfa</div><div><b>Code</b>: <span>322379008</span></div><div><b>Start Date</b>: <span>2015-06-22</span></div><div><b>End Date</b>: <span></span></div><div><b>Status</b>: <span>Active</span></div><div><b>Category</b>: <span>Outpatient</span></div><div><b>Dosage</b>: 1 U  Once a week Oral Intravenous use</div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "MedicationStatement/200017-MedicationStatement-10001"
+                            },
+                            {
+                                "reference": "MedicationStatement/200017-MedicationStatement-10002"
+                            },
+                            {
+                                "reference": "MedicationStatement/200017-MedicationStatement-10003"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Immunizations",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of Immunization Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Immunization Name</b>: Tetanus and diphtheria toxoids</div><div><b>Code</b>: <span>2031000221103</span></div><div><b>Date</b>: <span>2013-09-01</span></div><div><b>Manufacturer</b>: <span>Immuno Inc.</span></div><div><b>Lot</b>: <span>2</span></div></li><li><div><b>Immunization Name</b>: Influenza, intradermal, quadrivalent, preservative free</div><div><b>Code</b>: <span>836377006</span></div><div><b>Date</b>: <span>2014-06-01</span></div><div><b>Manufacturer</b>: <span>Immuno Inc.</span></div><div><b>Lot</b>: <span></span></div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Immunization/200017-Immunization-10001"
+                            },
+                            {
+                                "reference": "Immunization/200017-Immunization-10002"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Results",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "30954-2",
+                                    "display": "Relevant diagnostic tests/laboratory data Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><div><b>Result Name</b>: HGB</div><div><b>Code</b>: <span>30313-1</span></div><div><b>Date</b>: <span>2015-06-22</span></div><div><b>Result</b>: <span>10.2 g/dL</span></div><div><b>Interpretation</b>: </div><div><b>Reference Range</b>: </div><div><b>Category</b>: Laboratory</div></li><li><div><b>Result Name</b>: WBC</div><div><b>Code</b>: <span>33765-9</span></div><div><b>Date</b>: <span>2015-06-22</span></div><div><b>Result</b>: <span>12.3 10*3/uL</span></div><div><b>Interpretation</b>: </div><div><b>Reference Range</b>: </div><div><b>Category</b>: Laboratory</div></li><li><div><b>Result Name</b>: PLT</div><div><b>Code</b>: <span>26515-7</span></div><div><b>Date</b>: <span>2015-06-22</span></div><div><b>Result</b>: <span>123 10*3/uL</span></div><div><b>Interpretation</b>: </div><div><b>Reference Range</b>: </div><div><b>Category</b>: Laboratory</div></li><li><div><b>Result Name</b>: Everolimus BlEverolimus [Mass/volume] in Bloodood</div><div><b>Code</b>: <span>50544-6</span></div><div><b>Date</b>: <span>2015-06-21</span></div><div><b>Result</b>: <span>10 ng/mL</span></div><div><b>Interpretation</b>: Normal</div><div><b>Reference Range</b>: 2.0-8.0 ng/mL</div><div><b>Category</b>: Laboratory</div></li><li><div><b>Result Name</b>: Color of Urine</div><div><b>Code</b>: <span>5778-6</span></div><div><b>Date</b>: <span>2015-06-21</span></div><div><b>Result</b>: <span>YELLOW</span></div><div><b>Interpretation</b>: Normal</div><div><b>Reference Range</b>: YELLOW </div><div><b>Category</b>: Laboratory</div></li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Observation/200019-Result-10001"
+                            },
+                            {
+                                "reference": "Observation/200019-Result-10002"
+                            },
+                            {
+                                "reference": "Observation/200019-Result-10003"
+                            },
+                            {
+                                "reference": "Observation/200019-Result-10004"
+                            },
+                            {
+                                "reference": "Observation/200019-Result-10005"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "101304",
+                "meta": {
+                    "versionId": "200017",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
+                    ]
+                },
+                "language": "English- [en-US]",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div><b>Patient Name: </b>: Happy Always Always Kid</div><div><b>Medical Record Number</b>: <span>fhir_test_01</span></div><div><b>Telecom</b>: <span>555-777-1234</span></div><div><b>Email</b>: <span>happykid@gmail.com</span></div><div><b>Gender</b>: female</div><div><b>BirthDate</b>: 2013-06-01</div><div><b>Address</b>: 1357, Amber Dr, Beaverton OR 97006</div></div>"
+                },
+                "extension": [
+                    {
+                        "extension": [
+                            {
+                                "url": "ombCategory",
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2106-3",
+                                    "display": "White"
+                                }
+                            },
+                            {
+                                "url": "text",
+                                "valueString": "WHITE"
+                            },
+                            {
+                                "url": "detailed",
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2108-9",
+                                    "display": "White European"
+                                }
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "ombCategory",
+                                "valueCoding": {
+                                    "system": "urn:oid:2.16.840.1.113883.6.238",
+                                    "code": "2186-5",
+                                    "display": "Not Hispanic or Latino"
+                                }
+                            },
+                            {
+                                "url": "text",
+                                "valueString": "NOT HISPANIC OR LATINO"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+                        "valueCode": "F"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical Record Number"
+                                }
+                            ],
+                            "text": "MRN"
+                        },
+                        "system": "urn:oid:1.1.1.1.1.1",
+                        "value": "fhir_test_01"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "usual",
+                        "text": "Happy Always Always Kid",
+                        "family": "Kid",
+                        "given": [
+                            "Happy Always"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "N/A Always Always Kid",
+                        "family": "Kid",
+                        "given": [
+                            "N/A Always"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "555-777-1234",
+                        "use": "mobile"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "555-723-1544",
+                        "use": "home"
+                    },
+                    {
+                        "system": "email",
+                        "value": "happykid@gmail.com"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2013-06-01",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1357, Amber Dr,"
+                        ],
+                        "city": "Beaverton",
+                        "state": "OR",
+                        "postalCode": "97006",
+                        "country": "USA",
+                        "period": {
+                            "start": "2015-01-02"
+                        }
+                    },
+                    {
+                        "use": "home",
+                        "line": [
+                            "1402 Dariy Dr,"
+                        ],
+                        "city": "Beaverton",
+                        "state": "OR",
+                        "postalCode": "97006",
+                        "country": "USA",
+                        "period": {
+                            "start": "2011-01-01",
+                            "end": "2011-01-01"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Organization/200017-Organization-10001",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "200017-Organization-10001",
+                "meta": {
+                    "versionId": "200017",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <div>\r\n    <h2 style=\"color: black;\">Generated Narrative with Details</h2>\r\n    <p></p>\r\n  </div>\r\n  <div>\r\n    <h1>Organizational Details</h1>\r\n    <table>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Name: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Neighborhood Physicians Practice</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Telecom: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span></span>\r\n        </td>\r\n      </tr>\r\n    </table>\r\n  </div>\r\n</div>"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:c4355334-ec73-4a62-b7c3-2798080b344e"
+                    }
+                ],
+                "active": true,
+                "name": "Neighborhood Physicians Practice",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "555-555-1002",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "2472 Rocky place"
+                        ],
+                        "city": "Beaverton",
+                        "state": "OR",
+                        "postalCode": "97006"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "AllergyIntolerance/200017-AllergyIntolerance-10001",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "200017-AllergyIntolerance-10001",
+                "meta": {
+                    "versionId": "200017",
+                    "lastUpdated": "2020-07-13T12:26:57-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:b7e3f244-69b7-4b2a-9469-40a2fffdf4dc"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ],
+                    "text": "active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "unconfirmed"
+                        }
+                    ],
+                    "text": "unconfirmed"
+                },
+                "type": "allergy",
+                "category": [
+                    "medication"
+                ],
+                "criticality": "unable-to-assess",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "387170002",
+                            "display": "Ampicillin"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "onsetDateTime": "2014-12-01",
+                "recorder": {
+                    "reference": "Practitioner/200017-Practitioner-10001",
+                    "display": "Dr Albert Davis"
+                },
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "247472004",
+                                        "display": "Hives"
+                                    }
+                                ],
+                                "text": "Hives"
+                            }
+                        ],
+                        "onset": "2014-12-01",
+                        "severity": "moderate"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "AllergyIntolerance/200017-AllergyIntolerance-10002",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "200017-AllergyIntolerance-10002",
+                "meta": {
+                    "versionId": "200017",
+                    "lastUpdated": "2020-07-13T12:26:57-05:00",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:7c48ae1e-b4c5-453b-ba99-59d0fa8dd5f0"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active"
+                        }
+                    ],
+                    "text": "active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "unconfirmed"
+                        }
+                    ],
+                    "text": "unconfirmed"
+                },
+                "type": "allergy",
+                "category": [
+                    "medication"
+                ],
+                "criticality": "unable-to-assess",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "323389000",
+                            "display": "Penicillin G"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "onsetDateTime": "2013-12-01",
+                "recorder": {
+                    "reference": "Practitioner/200017-Practitioner-10001",
+                    "display": "Dr Albert Davis"
+                },
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "247472004",
+                                        "display": "Hives"
+                                    }
+                                ],
+                                "text": "Hives"
+                            }
+                        ],
+                        "onset": "2013-12-01",
+                        "severity": "moderate"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Condition/200017-Problem-10001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "200017-Problem-10001",
+                "meta": {
+                    "versionId": "R4"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:1.3.6.1.4.1.22812.18.99930.951951951.4.1.2.1"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "active"
+                        }
+                    ],
+                    "text": "active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "confirmed"
+                        }
+                    ],
+                    "text": "confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "75326-9",
+                                "display": "Problem"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "62067003",
+                            "display": "HYPO PLASTIC LEFT HEART SYNDROME"
+                        }
+                    ],
+                    "text": "Hypo Plastic Left Heart Syndrome"
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
+                },
+                "onsetDateTime": "2013-06-01",
+                "asserter": {
+                    "reference": "Practitioner/200017-Practitioner-10001",
+                    "display": "Dr. Davis Albert"
+                }
+            }
+        },
+        {
+            "fullUrl": "Condition/200017-EncounterDiagnosis-10001",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "200017-EncounterDiagnosis-10001",
+                "meta": {
+                    "versionId": "R4",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:997c89a4-732e-46d9-9370-4e7b54ca9e8e"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "resolved",
+                            "display": "resolved"
+                        }
+                    ],
+                    "text": "resolved"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "confirmed"
+                        }
+                    ],
+                    "text": "confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "75326-9",
+                                "display": "Problem"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "386661006",
+                            "display": "Fever (finding)"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
+                },
+                "encounter": {
+                    "reference": "Encounter/200017-Encounter-10001"
+                }
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/200017-MedicationStatement-10001",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "200017-MedicationStatement-10001",
+                "meta": {
+                    "versionId": "200017"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:1.3.6.1.4.1.22812.18.99930.951951951.4.9"
+                    }
+                ],
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+                            "code": "outpatient",
+                            "display": "Outpatient"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "322379008",
+                            "display": "Acetaminophen 500 mg and codeine phosphate 12.8 mg oral tablet"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectivePeriod": {
+                    "start": "2015-06-22",
+                    "end": "2015-07-02"
+                },
+                "dateAsserted": "2015-06-22",
+                "dosage": [
+                    {
+                        "text": "1 U  As needed",
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ]
+                        },
+                        "maxDosePerAdministration": {
+                            "value": 1,
+                            "unit": "U"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/200017-MedicationStatement-10002",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "200017-MedicationStatement-10002",
+                "meta": {
+                    "versionId": "200017"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:1.3.6.1.4.1.22812.18.99930.951951951.4.9"
+                    }
+                ],
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+                            "code": "outpatient",
+                            "display": "Outpatient"
+                        }
+                    ]
+                },
+                "status": "completed",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "372670001",
+                            "display": "ceftriaxone 100 MG/ML Injectable Solution"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectivePeriod": {
+                    "start": "2015-06-22",
+                    "end": "2015-06-30"
+                },
+                "dateAsserted": "2015-06-22",
+                "dosage": [
+                    {
+                        "text": "1 U  Two times daily",
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20045000",
+                                    "display": "Intravenous use"
+                                }
+                            ]
+                        },
+                        "maxDosePerAdministration": {
+                            "value": 1,
+                            "unit": "U"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "MedicationStatement/200017-MedicationStatement-10003",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "200017-MedicationStatement-10003",
+                "meta": {
+                    "versionId": "200017"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:1.3.6.1.4.1.22812.18.99930.951951951.4.9"
+                    }
+                ],
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+                            "code": "outpatient",
+                            "display": "Outpatient"
+                        }
+                    ]
+                },
+                "status": "active",
+                "medicationCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "385608005",
+                            "display": "Darbepoetin alfa"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectivePeriod": {
+                    "start": "2015-06-22"
+                },
+                "dateAsserted": "2015-06-22",
+                "dosage": [
+                    {
+                        "text": "1 U  Once a week",
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20045000",
+                                    "display": "Intravenous use"
+                                }
+                            ]
+                        },
+                        "maxDosePerAdministration": {
+                            "value": 1,
+                            "unit": "U"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Immunization/200017-Immunization-10001",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "200017-Immunization-10001",
+                "meta": {
+                    "versionId": "200017"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <div>\r\n    <h2 style=\"color: black;\">Generated Narrative with Details</h2>\r\n    <p></p>\r\n  </div>\r\n  <div>\r\n    <table>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[1] Vaccine Code: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>106</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[1] CodeSystem: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>CVX</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[2] Vaccine Code: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>49281-0286-01</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[2] CodeSystem: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>NDC</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Vaccine Name: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Tetanus and diphtheria toxoids</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Date: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>2013-09-01</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Status: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Completed</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Lot Number: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>2</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Manufacturer Name: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Immuno Inc.</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Additional Notes: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>N/A</span>\r\n        </td>\r\n      </tr>\r\n    </table>\r\n  </div>\r\n</div>"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:1ef1b495-c0cd-4d6a-9403-42327665e6e7"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "350327004",
+                            "display": "Adult diphtheria and tetanus toxoids vaccine"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "106",
+                            "display": "Tetanus and diphtheria toxoids"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "occurrenceDateTime": "2013-09-01T00:00:00-05:00",
+                "primarySource": true,
+                "manufacturer": {
+                    "display": "Immuno Inc."
+                },
+                "lotNumber": "2",
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/200017-Practitioner-10001"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Immunization/200017-Immunization-10002",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "200017-Immunization-10002",
+                "meta": {
+                    "versionId": "200017"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\r\n  <div>\r\n    <h2 style=\"color: black;\">Generated Narrative with Details</h2>\r\n    <p></p>\r\n  </div>\r\n  <div>\r\n    <table>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[1] Vaccine Code: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>166</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[1] CodeSystem: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>CVX</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[2] Vaccine Code: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>49281-0710-40</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>[2] CodeSystem: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>NDC</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Vaccine Name: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Influenza, intradermal, quadrivalent, preservative free</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Date: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>2014-06-01</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Status: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>NotDone (Cancelled)</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Lot Number: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>No lot number provided</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Manufacturer Name: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Immuno Inc.</span>\r\n        </td>\r\n      </tr>\r\n      <tr>\r\n        <td>\r\n          <span>\r\n            <b>Additional Notes: </b>\r\n          </span>\r\n        </td>\r\n        <td>\r\n          <span>Immunization was not given - The patient or their guardian objects to receiving the vaccine</span>\r\n        </td>\r\n      </tr>\r\n    </table>\r\n  </div>\r\n</div>"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:e2d6a359-97cb-453c-8a49-825cf8617423"
+                    }
+                ],
+                "status": "not-done",
+                "statusReason": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                            "code": "PATOBJ"
+                        }
+                    ]
+                },
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "443651005",
+                            "display": "Influenza, intradermal, quadrivalent, preservative free"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "166",
+                            "display": "Influenza, intradermal, quadrivalent, preservative free"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "occurrenceDateTime": "2014-06-01T00:00:00-05:00",
+                "primarySource": true,
+                "manufacturer": {
+                    "display": "Immuno Inc."
+                },
+                "lotNumber": "NI",
+                "performer": [
+                    {
+                        "actor": {
+                            "reference": "Practitioner/200017-Practitioner-10001"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Observation/200019-Result-10001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "200019-Result-10001",
+                "meta": {
+                    "versionId": "200019"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:f038fcdc-13a1-4a82-999a-5281b0d14f28"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "30313-1",
+                            "display": "HGB"
+                        }
+                    ],
+                    "text": "HGB"
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectiveDateTime": "2015-06-22",
+                "issued": "2015-06-21T19:00:00-05:00",
+                "valueQuantity": {
+                    "value": 10.2,
+                    "unit": "g/dL",
+                    "system": "http://unitsofmeasure.org"
+                }
+            }
+        },
+        {
+            "fullUrl": "Observation/200019-Result-10002",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "200019-Result-10002",
+                "meta": {
+                    "versionId": "200019"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:08320d4d-783b-4b4b-8f30-4f138af6b27a"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "33765-9",
+                            "display": "WBC"
+                        }
+                    ],
+                    "text": "WBC"
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectiveDateTime": "2015-06-22",
+                "issued": "2015-06-21T19:00:00-05:00",
+                "valueQuantity": {
+                    "value": 12.3,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org"
+                }
+            }
+        },
+        {
+            "fullUrl": "Observation/200019-Result-10003",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "200019-Result-10003",
+                "meta": {
+                    "versionId": "200019"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:d29ce900-43ac-4190-b23c-6faaa5f867d0"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "26515-7",
+                            "display": "PLT"
+                        }
+                    ],
+                    "text": "PLT"
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectiveDateTime": "2015-06-22",
+                "issued": "2015-06-21T19:00:00-05:00",
+                "valueQuantity": {
+                    "value": 123,
+                    "unit": "10*3/uL",
+                    "system": "http://unitsofmeasure.org"
+                }
+            }
+        },
+        {
+            "fullUrl": "Observation/200019-Result-10004",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "200019-Result-10004",
+                "meta": {
+                    "versionId": "200019"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:5e25609f-e53b-4e66-9228-63f5c4796115"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "50544-6",
+                            "display": "Everolimus BlEverolimus [Mass/volume] in Bloodood"
+                        }
+                    ],
+                    "text": "Everolimus [Mass/volume] in Blood"
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectiveDateTime": "2015-06-22",
+                "issued": "2015-06-21T19:00:00-05:00",
+                "valueQuantity": {
+                    "value": 10,
+                    "unit": "ng/mL",
+                    "system": "http://unitsofmeasure.org"
+                },
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "N",
+                                "display": "Normal"
+                            }
+                        ],
+                        "text": "Normal"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 2,
+                            "unit": "ng/mL",
+                            "system": "http://unitsofmeasure.org"
+                        },
+                        "high": {
+                            "value": 8,
+                            "unit": "ng/mL",
+                            "system": "http://unitsofmeasure.org"
+                        },
+                        "text": "2.0-8.0 ng/mL"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Observation/200019-Result-10005",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "200019-Result-10005",
+                "meta": {
+                    "versionId": "200019"
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:ccd9b68f-24b1-433b-900d-c2d63585fd72"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "5778-6",
+                            "display": "Color of Urine"
+                        }
+                    ],
+                    "text": "Color of Urine"
+                },
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f",
+                    "display": "Happy Kid"
+                },
+                "effectiveDateTime": "2015-06-22",
+                "issued": "2015-06-21T19:00:00-05:00",
+                "valueString": "YELLOW",
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                                "code": "N",
+                                "display": "Normal"
+                            }
+                        ],
+                        "text": "Normal"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "text": "YELLOW"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "Encounter/200017-Encounter-10001",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "200017-Encounter-10001",
+                "meta": {
+                    "versionId": "R4",
+                    "profile": [
+                        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "urn:ietf:rfc:3986",
+                        "value": "urn:uuid:997c89a4-732e-46d9-9370-4e7b54ca9e8e"
+                    }
+                ],
+                "status": "finished",
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "AMB",
+                    "display": "Ambulatory"
+                },
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://www.ama-assn.org/go/cpt",
+                                "code": "99213",
+                                "display": "Office outpatient visit"
+                            }
+                        ],
+                        "text": "Office outpatient visit"
+                    }
+                ],
+                "subject": {
+                    "reference": "urn:uuid:566e4baa-c840-42c4-84fd-cdedf6e6d42f"
+                },
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                                        "code": "PPRF"
+                                    }
+                                ],
+                                "text": "primary performer"
+                            }
+                        ],
+                        "period": {
+                            "start": "2015-06-22"
+                        },
+                        "individual": {
+                            "reference": "Practitioner/200017-Practitioner-10001",
+                            "display": "."
+                        }
+                    }
+                ],
+                "period": {
+                    "start": "2015-06-22"
+                },
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "386661006",
+                                "display": "Fever"
+                            }
+                        ],
+                        "text": "Fever"
+                    }
+                ],
+                "hospitalization": {
+                    "dischargeDisposition": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
+                                "code": "oth"
+                            }
+                        ]
+                    }
+                },
+                "serviceProvider": {
+                    "reference": "Organization/200017-Organization-10001",
+                    "display": "Neighborhood Physicians Practice"
+                }
+            }
+        },
+        {
+            "fullUrl": "Practitioner/200017-Practitioner-10001",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "200017-Practitioner-10001",
+                "meta": {
+                    "versionId": "200017",
+                    "profile": [
+                        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1004567891"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "usual",
+                        "text": "Davis Albert Dr",
+                        "family": "Albert",
+                        "given": [
+                            "Davis"
+                        ],
+                        "suffix": [
+                            "Dr"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "work",
+                        "type": "both",
+                        "line": [
+                            "2472 Rocky place"
+                        ],
+                        "city": "Beaverton",
+                        "state": "OR",
+                        "postalCode": "97006",
+                        "country": "USA"
+                    }
+                ],
+                "gender": "unknown"
+            }
+        }
+    ]
+}
