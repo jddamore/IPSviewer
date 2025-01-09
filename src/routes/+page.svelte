@@ -14,6 +14,7 @@
   import Demo from '$lib/components/viewer/Demo.svelte';
   
   import { SHOW_VIEWER_DEMO } from "$lib/config";
+  import { type Writable } from "svelte/store";
   import { getContext } from 'svelte';
 
   let shlContents: Bundle[] = [];
@@ -32,7 +33,7 @@
     }
   }
 
-  let displayMode = getContext("displayMode");
+  let displayMode: Writable<string> = getContext("displayMode");
 
   // Status display logic
   let status = "Retrieving contents...";
