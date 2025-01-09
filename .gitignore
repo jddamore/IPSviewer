@@ -31,6 +31,7 @@ certs/
 
 # Vite outputs
 /build
+# Temp files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
@@ -41,5 +42,5 @@ vite.config.ts.timestamp-*
 .env
 .env.*
 
-# VS Code
+# VS Code session
 /.vscode
