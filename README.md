@@ -26,6 +26,30 @@ There are two folders: "connectathon samples" and "validated samples". For sampl
 
 By default, app will start with HTTP hosting to localhost. If you want to serve using HTTPS, create a certs folder with key, crt and ca-bundle files. Then change the corresponding filenames in app.js
 
+### Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+### Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
 ## Who Supports?
 
 Maintenance of this repository is provided by John D'Amore, MS (github: jddamore). The hosting of the [online version](https://www.ipsviewer.com) is provided by More Informatics, Inc.
