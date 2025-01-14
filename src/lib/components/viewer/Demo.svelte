@@ -21,9 +21,7 @@
   let demoContent: string;
 
   onMount (() => {
-    if (!content) {
-      loadSample().then(submit);
-    }
+
   });
 
   $: {
@@ -44,7 +42,7 @@
     if (textInput) {
       try {
         let result = checks(JSON.parse(textInput));
-        if (result.errors) {
+        if (result.errors && result.errors.length) {
           result.errors.forEach(element => {
             setInputError(element);
           });
