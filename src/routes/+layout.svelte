@@ -179,8 +179,8 @@
   <Row>
     <Col style="margin-top: 20px; padding: 20px; border-top: 1px solid rgb(204, 204, 204);" >
       <footer>
-        <lead>Originally created by Alejandro Lopez Osornio, Diego Kaminker and Fernando Campos. Modified 2021-2023 by John
-          D'Amore</lead>
+        <lead>Originally created by Alejandro Lopez Osornio, Diego Kaminker and Fernando Campos. Modified 2021-2025 by John
+          D'Amore, Daniel Lorigan and many others. Thank you to all contributors!</lead>
         <br />
         <lead>Based on <a href="https://salud-ar.github.io/IPS-Argentina/demo.html">prior work</a> from <a
             href="https://github.com/SALUD-AR/IPS-Argentina">this repository</a></lead>
