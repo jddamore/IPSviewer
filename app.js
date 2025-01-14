@@ -14,6 +14,11 @@ const appDir = path.join(buildDir, '_app');
 
 const app = express();
 
+// classic version
+const classic = fs.readFileSync('./classic/ips_main.html', 'utf-8');
+const favicon = fs.readFileSync('./classic/favicon.ico');
+
+
 let privateKey; 
 let certificate;
 let ca;
@@ -25,13 +30,23 @@ if  (fs.existsSync('./certs/ipsviewer2023.key') && fs.existsSync('./certs/ipsvie
   credentials = {key: privateKey, cert: certificate, ca: ca};
 }
 
-
 app.use('/', express.static(appDir, { immutable: true, maxAge: '1y' }));
 
 app.use(express.static(buildDir));
 
+app.use('/classic/templates', express.static('classic/templates'));
+app.use('/classic/assets', express.static('classic/assets'));
+
+app.get('/classic', (req, res) => {
+  res.send(classic);
+});
+
+app.get(['/classic/favicon.ico'], (req, res) => {
+  res.send(favicon);
+});
+
 // Catch-all route to serve `index.html` for SPA routing
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.send(index);
 });
 
