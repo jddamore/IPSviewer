@@ -1,0 +1,799 @@
+<Bundle xmlns="http://hl7.org/fhir">
+    <id value="822a1bb4-72f3-4b3a-ad4b-d1189fff322e" />
+	<timestamp value="2021-10-04T14:30:00+01:00"/>
+    <type value="collection" />
+    <entry>
+        <resource>
+            <Patient>
+                <id value="12" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                    <value value="9690938614" />
+                </identifier>
+                <active value="true" />
+                <name>
+                    <use value="official" />
+                    <text value="Elsa LEARY" />
+                    <family value="LEARY" />
+                    <given value="Elsa" />
+                    <prefix value="MISS" />
+                </name>
+                <telecom>
+                    <system value="phone" />
+                    <value value="01454587554" />
+                    <use value="home" />
+                </telecom>
+                <gender value="female" />
+                <birthDate value="1965-12-17" />
+                <address>
+                    <use value="home" />
+                    <type value="physical" />
+                    <line value="RIGBY HOUSE" />
+                    <line value="THE MEADOWINGS" />
+                    <city value="YARM" />
+                    <district value="CLEVELAND" />
+                    <postalCode value="TS15 9QQ" />
+                </address>
+                <generalPractitioner>
+                    <reference value="Practitioner/1" />
+                </generalPractitioner>
+                <managingOrganization>
+                    <reference value="Organization/7" />
+                </managingOrganization>
+            </Patient>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <AllergyIntolerance>
+                <id value="6" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
+                    <value value="62a4baf1-1e64-11ec-9680-00505692d4aa" />
+                </identifier>
+                <clinicalStatus value="active" />
+                <verificationStatus value="unconfirmed" />
+                <category value="medication" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="293585002" />
+                        <display value="Salicylate allergy (disorder)" />
+                    </coding>
+                </code>
+                <patient>
+                    <reference value="Patient/12" />
+                </patient>
+                <onsetDateTime value="2016-05-01T12:00:00+01:00" />
+                <assertedDate value="2016-06-01T12:00:00+01:00" />
+                <recorder>
+                    <reference value="Practitioner/1" />
+                </recorder>
+                <note>
+                    <text value="Wheezing, chest tightness, shortness of breath" />
+                </note>
+                <reaction>
+                    <manifestation>
+                        <coding>
+                            <system value="http://snomed.info/sct" />
+                            <code value="23924001" />
+                            <display value="Tight chest (finding)" />
+                        </coding>
+                    </manifestation>
+                    <description value="Wheezing, chest tightness, shortness of breath" />
+                </reaction>
+            </AllergyIntolerance>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Allergies and adverse reactions" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="886921000000105" />
+                        <display value="Allergies and adverse reactions" />
+                    </coding>
+                </code>
+                <subject>
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <entry>
+                    <item>
+                        <reference value="AllergyIntolerance/6" />
+                    </item>
+                </entry>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <contained>
+                    <AllergyIntolerance>
+                        <id value="5" />
+                        <identifier>
+                            <system value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
+                            <value value="62a4ba28-1e64-11ec-9680-00505692d4aa" />
+                        </identifier>
+                        <clinicalStatus value="resolved" />
+                        <verificationStatus value="unconfirmed" />
+                        <category value="medication" />
+                        <code>
+                            <coding>
+                                <system value="http://snomed.info/sct" />
+                                <code value="294505008" />
+                                <display value="Amoxicillin allergy (disorder)" />
+                            </coding>
+                        </code>
+                        <patient>
+                            <reference value="Patient/12" />
+                        </patient>
+                        <onsetDateTime value="2016-05-01T12:00:00+01:00" />
+                        <assertedDate value="2016-06-01T12:00:00+01:00" />
+                        <recorder>
+                            <reference value="Practitioner/1" />
+                        </recorder>
+                        <lastOccurrence value="2016-07-01T12:00:00+01:00" />
+                        <note>
+                            <text value="Swollen lips, tongue, eyes" />
+                        </note>
+                        <reaction>
+                            <manifestation>
+                                <coding>
+                                    <system value="http://snomed.info/sct" />
+                                    <code value="703630003" />
+                                    <display value="Red eye (finding)" />
+                                </coding>
+                            </manifestation>
+                            <description value="Swollen lips, tongue, eyes" />
+                        </reaction>
+                    </AllergyIntolerance>
+                </contained>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Ended allergies" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="1103671000000101" />
+                        <display value="Ended allergies" />
+                    </coding>
+                </code>
+                <subject>
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <entry>
+                    <item>
+                        <reference value="#5" />
+                    </item>
+                </entry>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Medications and medical devices" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="933361000000108" />
+                        <display value="Medications and medical devices" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <entry>
+                    <item>
+                        <reference value="MedicationStatement/7" />
+                    </item>
+                </entry>
+                <entry>
+                    <item>
+                        <reference value="MedicationStatement/8" />
+                    </item>
+                </entry>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <MedicationStatement>
+                <id value="7" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
+                    <value value="62a55dfc-1e64-11ec-9680-00505692d4aa" />
+                </identifier>
+                <basedOn>
+                    <reference value="MedicationRequest/15" />
+                </basedOn>
+                <status value="completed" />
+                <medicationReference>
+                    <reference value="Medication/2" />
+                </medicationReference>
+                <effectivePeriod>
+                    <start value="1958-01-04T00:00:00+00:00" />
+                </effectivePeriod>
+                <dateAsserted value="1958-01-04T00:00:00+00:00" />
+                <subject>
+                    <reference value="Patient/12" />
+                </subject>
+                <taken value="unk" />
+                <note id="6">
+                    <authorReference>
+                        <reference value="Practitioner/1" />
+                    </authorReference>
+                    <text value="Patient feels nauseous after taking" />
+                </note>
+                <dosage>
+                    <text value="Take one tablet three times a day" />
+                    <patientInstruction value="Take with a full glass of water" />
+                </dosage>
+            </MedicationStatement>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Medication>
+                <id value="2" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="196421000000109" />
+                        <display value="Transfer-degraded medication entry" />
+                    </coding>
+                    <text value="Actomol" />
+                </code>
+            </Medication>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <MedicationRequest>
+                <id value="15" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
+                    <value value="62a50db0-1e64-11ec-9680-00505692d4aa" />
+                </identifier>
+                <status value="completed" />
+                <intent value="plan" />
+                <medicationReference>
+                    <reference value="Medication/2" />
+                </medicationReference>
+                <subject>
+                    <reference value="Patient/12" />
+                </subject>
+                <authoredOn value="1958-01-04T00:00:00+00:00" />
+                <recorder>
+                    <reference value="Practitioner/2" />
+                </recorder>
+                <note id="6">
+                    <authorReference>
+                        <reference value="Practitioner/1" />
+                    </authorReference>
+                    <time value="1958-01-03T00:00:00+00:00" />
+                    <text value="Patient feels nauseous after taking" />
+                </note>
+                <dosageInstruction>
+                    <text value="Take one tablet three times a day" />
+                    <patientInstruction value="Take with a full glass of water" />
+                </dosageInstruction>
+                <dispenseRequest>
+                    <validityPeriod>
+                        <start value="1958-01-04T00:00:00+00:00" />
+                    </validityPeriod>
+                    <expectedSupplyDuration>
+                        <value value="1" />
+                        <unit value="day" />
+                        <system value="http://unitsofmeasure.org" />
+                        <code value="d" />
+                    </expectedSupplyDuration>
+                    <performer>
+                        <reference value="Organization/2" />
+                    </performer>
+                </dispenseRequest>
+            </MedicationRequest>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <MedicationStatement>
+                <id value="8" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
+                    <value value="62a55ea1-1e64-11ec-9680-00505692d4aa" />
+                </identifier>
+                <basedOn>
+                    <reference value="MedicationRequest/17" />
+                </basedOn>
+                <status value="completed" />
+                <medicationReference>
+                    <reference value="Medication/2" />
+                </medicationReference>
+                <effectivePeriod>
+                    <start value="1958-01-04T00:00:00+00:00" />
+                </effectivePeriod>
+                <dateAsserted value="1958-01-04T00:00:00+00:00" />
+                <subject>
+                    <reference value="Patient/12" />
+                </subject>
+                <taken value="unk" />
+                <dosage>
+                    <text value="Take one tablet three times a day" />
+                    <patientInstruction value="Take with a full glass of water" />
+                </dosage>
+            </MedicationStatement>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <MedicationRequest>
+                <id value="17" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/cross-care-setting-identifier" />
+                    <value value="62a50fa7-1e64-11ec-9680-00505692d4aa" />
+                </identifier>
+                <status value="completed" />
+                <intent value="plan" />
+                <medicationReference>
+                    <reference value="Medication/2" />
+                </medicationReference>
+                <subject>
+                    <reference value="Patient/12" />
+                </subject>
+                <authoredOn value="1958-01-04T00:00:00+00:00" />
+                <recorder>
+                    <reference value="Practitioner/2" />
+                </recorder>
+                <dosageInstruction>
+                    <text value="Take one tablet three times a day" />
+                    <patientInstruction value="Take with a full glass of water" />
+                </dosageInstruction>
+                <dispenseRequest>
+                    <validityPeriod>
+                        <start value="1958-01-04T00:00:00+00:00" />
+                    </validityPeriod>
+                    <expectedSupplyDuration>
+                        <value value="1" />
+                        <unit value="day" />
+                        <system value="http://unitsofmeasure.org" />
+                        <code value="d" />
+                    </expectedSupplyDuration>
+                    <performer>
+                        <reference value="Organization/2" />
+                    </performer>
+                </dispenseRequest>
+            </MedicationRequest>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="List of consultations" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="1149501000000101" />
+                        <display value="List of consultations" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <note>
+                    <text value="Information not available" />
+                </note>
+                <emptyReason>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1" />
+                        <code value="no-content-recorded" />
+                        <display value="No Content Recorded" />
+                    </coding>
+                </emptyReason>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Immunisations" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="1102181000000102" />
+                        <display value="Immunisations" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <note>
+                    <text value="Information not available" />
+                </note>
+                <emptyReason>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1" />
+                        <code value="no-content-recorded" />
+                        <display value="No Content Recorded" />
+                    </coding>
+                </emptyReason>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Outbound referral" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="792931000000107" />
+                        <display value="Outbound referral" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <note>
+                    <text value="Information not available" />
+                </note>
+                <emptyReason>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1" />
+                        <code value="no-content-recorded" />
+                        <display value="No Content Recorded" />
+                    </coding>
+                </emptyReason>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Miscellaneous record" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="826501000000100" />
+                        <display value="Miscellaneous record" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <note>
+                    <text value="Information not available" />
+                </note>
+                <emptyReason>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1" />
+                        <code value="no-content-recorded" />
+                        <display value="No Content Recorded" />
+                    </coding>
+                </emptyReason>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Problems" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="717711000000103" />
+                        <display value="Problems" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <note>
+                    <text value="Information not available" />
+                </note>
+                <emptyReason>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1" />
+                        <code value="no-content-recorded" />
+                        <display value="No Content Recorded" />
+                    </coding>
+                </emptyReason>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <List>
+                <status value="current" />
+                <mode value="snapshot" />
+                <title value="Investigations and results" />
+                <code>
+                    <coding>
+                        <system value="http://snomed.info/sct" />
+                        <code value="887191000000108" />
+                        <display value="Investigations and results" />
+                    </coding>
+                </code>
+                <subject>
+                    <reference value="Patient/12" />
+                    <identifier>
+                        <system value="https://fhir.nhs.uk/Id/nhs-number" />
+                        <value value="9690938614" />
+                    </identifier>
+                </subject>
+                <date value="2021-10-04T12:51:13+01:00" />
+                <orderedBy>
+                    <coding>
+                        <system value="http://hl7.org/fhir/codesystem-list-order.html" />
+                        <code value="event-date" />
+                        <display value="Sorted by Event Date" />
+                    </coding>
+                </orderedBy>
+                <note>
+                    <text value="Information not available" />
+                </note>
+                <emptyReason>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1" />
+                        <code value="no-content-recorded" />
+                        <display value="No Content Recorded" />
+                    </coding>
+                </emptyReason>
+            </List>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="1" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/sds-user-id" />
+                    <value value="G13579135" />
+                </identifier>
+                <name>
+                    <use value="usual" />
+                    <family value="Gilbert" />
+                    <given value="Nichole" />
+                    <prefix value="Miss" />
+                </name>
+                <gender value="female" />
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="2" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/sds-user-id" />
+                    <value value="G22345655" />
+                </identifier>
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/sds-role-profile-id" />
+                    <value value="PT1122" />
+                </identifier>
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/sds-role-profile-id" />
+                    <value value="PT1234" />
+                </identifier>
+                <name>
+                    <use value="usual" />
+                    <family value="Slater" />
+                    <given value="Kibo" />
+                    <prefix value="Mr" />
+                </name>
+                <gender value="male" />
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <PractitionerRole>
+                <id value="PT1122" />
+                <practitioner>
+                    <reference value="Practitioner/2" />
+                </practitioner>
+                <organization>
+                    <reference value="Organization/1" />
+                </organization>
+                <code>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1" />
+                        <code value="R0050" />
+                        <display value="Consultant" />
+                    </coding>
+                </code>
+            </PractitionerRole>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <PractitionerRole>
+                <id value="PT1234" />
+                <practitioner>
+                    <reference value="Practitioner/2" />
+                </practitioner>
+                <organization>
+                    <reference value="Organization/1" />
+                </organization>
+                <code>
+                    <coding>
+                        <system value="https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1" />
+                        <code value="R0050" />
+                        <display value="Consultant" />
+                    </coding>
+                </code>
+            </PractitionerRole>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Organization>
+                <id value="1" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+                    <value value="GPC001" />
+                </identifier>
+                <name value="GP Connect Demonstrator" />
+                <telecom>
+                    <system value="phone" />
+                    <value value="12345678" />
+                    <use value="work" />
+                </telecom>
+                <address>
+                    <use value="work" />
+                    <line value="23 Main Street" />
+                    <line value="Pudsey" />
+                    <city value="Leeds" />
+                    <district value="West Yorkshire" />
+                    <postalCode value="GPC 111" />
+                </address>
+            </Organization>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Organization>
+                <id value="2" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+                    <value value="R1A14" />
+                </identifier>
+                <name value="Test GP Care Trust" />
+                <telecom>
+                    <system value="phone" />
+                    <value value="12345678" />
+                    <use value="work" />
+                </telecom>
+                <address>
+                    <use value="work" />
+                    <line value="24 Back Lane" />
+                    <line value="Farsley" />
+                    <city value="Leeds" />
+                    <district value="West Yorkshire" />
+                    <postalCode value="GPC 113" />
+                </address>
+            </Organization>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Organization>
+                <id value="7" />
+                <identifier>
+                    <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+                    <value value="B82617" />
+                </identifier>
+                <name value="COXWOLD SURGERY" />
+                <telecom>
+                    <system value="phone" />
+                    <value value="12345678" />
+                    <use value="work" />
+                </telecom>
+                <address>
+                    <use value="work" />
+                    <line value="NHS NPFIT Test Data Manager" />
+                    <line value="Princes Exchange" />
+                    <city value="Leeds" />
+                    <district value="West Yorkshire" />
+                    <postalCode value="LS1 4HY" />
+                </address>
+            </Organization>
+        </resource>
+    </entry>
+</Bundle>

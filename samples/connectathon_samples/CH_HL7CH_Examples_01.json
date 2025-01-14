@@ -1,0 +1,990 @@
+{
+  "resourceType": "Bundle",
+  "id": "IPS-SwissExample-Bundle",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+    ]
+  },
+  "language": "de-CH",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "175bd032-8b00-4728-b2dc-748bb1501aed"
+  },
+  "type": "document",
+  "timestamp": "2022-01-11T14:30:00+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:30551ce1-5a28-4356-b684-1e639094ad4d",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "30551ce1-5a28-4356-b684-1e639094ad4d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"30551ce1-5a28-4356-b684-1e639094ad4d\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips//StructureDefinition-Composition-uv-ips.html\">Composition (IPS)</a></p></div><p><b>identifier</b>: id: 4c0e0f96-bed1-4144-8239-7d03f795064f</p><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2022-01-11T14:30:00+01:00</p><p><b>author</b>: <a href=\"#Practitioner_1c616b24-3895-48c4-9a02-9a64110351ef\">See above (Practitioner/1c616b24-3895-48c4-9a02-9a64110351ef)</a></p><p><b>title</b>: Patient Summary for IPS Switerland</p><p><b>confidentiality</b>: N</p><blockquote><p><b>attester</b></p><p><b>mode</b>: legal</p><p><b>time</b>: 2022-01-11T14:30:00+01:00</p><p><b>party</b>: <a href=\"#Practitioner_1c616b24-3895-48c4-9a02-9a64110351ef\">See above (Practitioner/1c616b24-3895-48c4-9a02-9a64110351ef)</a></p></blockquote><blockquote><p><b>attester</b></p><p><b>mode</b>: legal</p><p><b>time</b>: 2022-01-11T14:30:00+01:00</p><p><b>party</b>: <a href=\"#Organization_890751f4-2924-4636-bab7-efffc7f3cf15\">See above (Organization/890751f4-2924-4636-bab7-efffc7f3cf15)</a></p></blockquote><p><b>custodian</b>: <a href=\"#Organization_890751f4-2924-4636-bab7-efffc7f3cf15\">See above (Organization/890751f4-2924-4636-bab7-efffc7f3cf15)</a></p><h3>Events</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Period</b></td></tr><tr><td>*</td><td>care provision <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActClass.html\">ActClass</a>#PCPR)</span></td><td>?? --&gt; 2022-01-11T14:30:00+01:00</td></tr></table></div>"
+        },
+        "identifier": {
+          "system": "urn:oid:2.16.724.4.8.10.200.10",
+          "value": "4c0e0f96-bed1-4144-8239-7d03f795064f"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "date": "2022-01-11T14:30:00+01:00",
+        "author": [
+          {
+            "reference": "Practitioner/1c616b24-3895-48c4-9a02-9a64110351ef"
+          }
+        ],
+        "title": "Patient Summary for IPS Switerland",
+        "confidentiality": "N",
+        "attester": [
+          {
+            "mode": "legal",
+            "time": "2022-01-11T14:30:00+01:00",
+            "party": {
+              "reference": "Practitioner/1c616b24-3895-48c4-9a02-9a64110351ef"
+            }
+          },
+          {
+            "mode": "legal",
+            "time": "2022-01-11T14:30:00+01:00",
+            "party": {
+              "reference": "Organization/890751f4-2924-4636-bab7-efffc7f3cf15"
+            }
+          }
+        ],
+        "custodian": {
+          "reference": "Organization/890751f4-2924-4636-bab7-efffc7f3cf15"
+        },
+        "event": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                    "code": "PCPR"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "end": "2022-01-11T14:30:00+01:00"
+            }
+          }
+        ],
+        "section": [
+          {
+            "title": "Active Problems",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No profile on Active Problems in Swizerland yet</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/da138a5d-633f-493f-9485-e5af1320db5b"
+              }
+            ]
+          },
+          {
+            "title": "Medication",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medication according ch-emd</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/c220e36c-eb67-4fc4-9ba1-2fabc52acec6"
+              },
+              {
+                "reference": "MedicationStatement/47524493-846a-4a26-bae2-4ab03e60f02e"
+              }
+            ]
+          },
+          {
+            "title": "Immunization",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Immunization according CH-VACD</div>"
+            },
+            "entry": [
+              {
+                "reference": "Immunization/564740e1-dc92-44a5-8c7e-1879162c26da"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">AllergyIntolerance according to ch-alleryintolerance</div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/72884cad-ebe6-4f43-a51a-2f978275f132"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "Hx of Past illness"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">History of past illness as in ch-etoc</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/c4597aa2-688a-401b-a658-70acc6de28c6"
+              }
+            ]
+          },
+          {
+            "title": "Plan of Treatment",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No plan of treatment yet define</div>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2b90dd2b-2dab-4c75-9bb9-a355e07401e8",
+        "meta": {
+          "source": "https://www.ti.bfh.ch/de/bachelor/medizininformatik.html",
+          "profile": [
+            "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p><p style=\"margin-bottom: 0px\">Information Source: https://www.ti.bfh.ch/de/bachelor/medizininformatik.html!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-patient.html\">CH Core Patient Profile</a></p></div><p><b>name</b>: Elisabeth Brönnimann-Bertholet </p><p><b>telecom</b>: <a href=\"tel:+41323216111\">+41 32 321 61 11</a>, <a href=\"mailto:elisabeth@broennimann.today\">elisabeth@broennimann.today</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1937-05-03</p><p><b>address</b>: Kreuzweg 11 Biel/Bienne 2500 (HOME)</p><p><b>maritalStatus</b>: verheiratet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://fhir.ch/ig/ch-core/CodeSystem-ech-11-maritalstatus.html\">eCH-011 MaritalStatus</a>#2; <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-MaritalStatus.html\">MaritalStatus</a>#M \"married\")</span></p></div>"
+        },
+        "name": [
+          {
+            "family": "Brönnimann-Bertholet",
+            "given": [
+              "Elisabeth"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+41 32 321 61 11",
+            "use": "home"
+          },
+          {
+            "system": "email",
+            "value": "elisabeth@broennimann.today"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1937-05-03",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Kreuzweg 11"
+            ],
+            "city": "Biel/Bienne",
+            "postalCode": "2500"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus",
+              "code": "2",
+              "display": "verheiratet"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "married"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1c616b24-3895-48c4-9a02-9a64110351ef",
+        "meta": {
+          "source": "https://www.ti.bfh.ch/de/bachelor/medizininformatik.html",
+          "profile": [
+            "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1c616b24-3895-48c4-9a02-9a64110351ef\" </p><p style=\"margin-bottom: 0px\">Information Source: https://www.ti.bfh.ch/de/bachelor/medizininformatik.html!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-practitioner.html\">CH Core Practitioner Profile</a></p></div><p><b>identifier</b>: id: 7601000050717, id: Q123456</p><p><b>name</b>: Hanspeter Wenger </p><p><b>gender</b>: male</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.51.1.3",
+            "value": "7601000050717"
+          },
+          {
+            "system": "urn:oid:2.16.756.5.30.1.123.100.2.1.1",
+            "value": "Q123456"
+          }
+        ],
+        "name": [
+          {
+            "family": "Wenger",
+            "given": [
+              "Hanspeter"
+            ],
+            "prefix": [
+              "Herr",
+              "Dr. med."
+            ],
+            "_prefix": [
+              null,
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+                    "valueCode": "AC"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "gender": "male"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:890751f4-2924-4636-bab7-efffc7f3cf15",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "890751f4-2924-4636-bab7-efffc7f3cf15",
+        "meta": {
+          "profile": [
+            "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"890751f4-2924-4636-bab7-efffc7f3cf15\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-organization.html\">CH Core Organization Profile</a></p></div><p><b>identifier</b>: id: 7601000618308</p><p><b>type</b>: Hospital <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#22232009)</span></p><p><b>name</b>: Spital Seeblick</p><p><b>telecom</b>: ph: 032 863 12 01</p><p><b>address</b>: Ausblick 11 Zürich 8000 CH </p></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.51.1.3",
+            "value": "7601000618308"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "22232009",
+                "display": "Hospital"
+              }
+            ]
+          }
+        ],
+        "name": "Spital Seeblick",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "032 863 12 01"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Ausblick 11"
+            ],
+            "city": "Zürich",
+            "postalCode": "8000",
+            "country": "CH"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da138a5d-633f-493f-9485-e5af1320db5b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "da138a5d-633f-493f-9485-e5af1320db5b",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"da138a5d-633f-493f-9485-e5af1320db5b\" </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: No information about problems <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://build.fhir.org/ig/HL7/fhir-ips//CodeSystem-absent-unknown-uv-ips.html\">Absent and Unknown Data - IPS</a>#no-problem-info)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+              "code": "no-problem-info",
+              "display": "No information about problems"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "c220e36c-eb67-4fc4-9ba1-2fabc52acec6",
+        "meta": {
+          "profile": [
+            "http://fhir.ch/ig/ch-emed/StructureDefinition/ch-emed-medicationstatement-treatmentplan"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"c220e36c-eb67-4fc4-9ba1-2fabc52acec6\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://fhir.ch/ig/ch-emed/StructureDefinition-ch-emed-medicationstatement-treatmentplan.html\">CH EMED MedicationStatement Profile (Medication Treatment Plan document)</a></p></div><p><b>identifier</b>: id: urn:uuid:c9f758a1-296c-4710-84d4-e181db8c7478</p><p><b>status</b>: completed</p><p><b>medication</b>: <a name=\"med\"> </a></p><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"med\" </p></div><p><b>code</b>: TRIATEC Tabl 2.5 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#7680538751228 \"TRIATEC Tabl 2.5 mg 20 Stk\")</span></p><p><b>form</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://fhir.ch/ig/ch-emed/CodeSystem-edqm-standardterms.html\">EDQM - Standard Terms</a>#10219000)</span></p><p><b>amount</b>: 20 Tablet (unit of presentation)<span style=\"background: LightGoldenRodYellow\"> (Details: SNOMED CT code 732936001 = 'Tablet (unit of presentation)')</span>/1 Package<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {Package} = '{Package}')</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Ramipril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#386872004 \"Ramipril (substance)\")</span></td><td>2.5 milligram<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet (unit of presentation)<span style=\"background: LightGoldenRodYellow\"> (Details: SNOMED CT code 732936001 = 'Tablet (unit of presentation)')</span></td></tr></table></blockquote><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>reasonCode</b>: Bluthochdruck <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>note</b>: -</p></div>"
+        },
+        "contained": [
+          {
+            "resourceType": "Medication",
+            "id": "med",
+            "code": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.51.1.1",
+                  "code": "7680538751228",
+                  "display": "TRIATEC Tabl 2.5 mg 20 Stk"
+                }
+              ],
+              "text": "TRIATEC Tabl 2.5 mg"
+            },
+            "form": {
+              "coding": [
+                {
+                  "system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+                  "code": "10219000",
+                  "display": "Tablet"
+                }
+              ]
+            },
+            "amount": {
+              "numerator": {
+                "value": 20,
+                "unit": "Tablet (unit of presentation)",
+                "system": "http://snomed.info/sct",
+                "code": "732936001"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Package",
+                "system": "http://unitsofmeasure.org",
+                "code": "{Package}"
+              }
+            },
+            "ingredient": [
+              {
+                "itemCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "386872004",
+                      "display": "Ramipril (substance)"
+                    }
+                  ],
+                  "text": "Ramipril"
+                },
+                "strength": {
+                  "numerator": {
+                    "value": 2.5,
+                    "unit": "milligram",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg"
+                  },
+                  "denominator": {
+                    "value": 1,
+                    "unit": "Tablet (unit of presentation)",
+                    "system": "http://snomed.info/sct",
+                    "code": "732936001"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:c9f758a1-296c-4710-84d4-e181db8c7478"
+          }
+        ],
+        "status": "completed",
+        "medicationReference": {
+          "reference": "#med"
+        },
+        "subject": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "reasonCode": [
+          {
+            "text": "Bluthochdruck"
+          }
+        ],
+        "note": [
+          {
+            "text": "-"
+          }
+        ],
+        "dosage": [
+          {
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2011-11-29"
+                },
+                "when": [
+                  "MORN"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 0.5,
+                  "unit": "Tablet (unit of presentation)",
+                  "system": "http://snomed.info/sct",
+                  "code": "732936001"
+                }
+              }
+            ]
+          },
+          {
+            "text": "Morgens 1/2 Tablette nehmen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47524493-846a-4a26-bae2-4ab03e60f02e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "47524493-846a-4a26-bae2-4ab03e60f02e",
+        "meta": {
+          "profile": [
+            "http://fhir.ch/ig/ch-emed/StructureDefinition/ch-emed-medicationstatement-treatmentplan"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"47524493-846a-4a26-bae2-4ab03e60f02e\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://fhir.ch/ig/ch-emed/StructureDefinition-ch-emed-medicationstatement-treatmentplan.html\">CH EMED MedicationStatement Profile (Medication Treatment Plan document)</a></p></div><p><b>identifier</b>: id: urn:uuid:17931678-20b4-11e6-b67b-9e71128cca77</p><p><b>status</b>: completed</p><p><b>medication</b>: <a name=\"med2\"> </a></p><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"med2\" </p></div><p><b>code</b>: BELOC ZOK Ret Tabl 50 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#7680521101306 \"BELOC ZOK Ret Tabl 50 mg 30 Stk\")</span></p><p><b>form</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://fhir.ch/ig/ch-emed/CodeSystem-edqm-standardterms.html\">EDQM - Standard Terms</a>#10219000)</span></p><p><b>amount</b>: 30 Tablet (unit of presentation)<span style=\"background: LightGoldenRodYellow\"> (Details: SNOMED CT code 732936001 = 'Tablet (unit of presentation)')</span>/1 Package<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {Package} = '{Package}')</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Metoprolol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#372826007 \"Metoprolol (substance)\")</span></td><td>50 milligram<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet (unit of presentation)<span style=\"background: LightGoldenRodYellow\"> (Details: SNOMED CT code 732936001 = 'Tablet (unit of presentation)')</span></td></tr></table></blockquote><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>reasonCode</b>: Bluthochdruck <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>note</b>: -</p></div>"
+        },
+        "contained": [
+          {
+            "resourceType": "Medication",
+            "id": "med2",
+            "code": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.51.1.1",
+                  "code": "7680521101306",
+                  "display": "BELOC ZOK Ret Tabl 50 mg 30 Stk"
+                }
+              ],
+              "text": "BELOC ZOK Ret Tabl 50 mg"
+            },
+            "form": {
+              "coding": [
+                {
+                  "system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+                  "code": "10219000",
+                  "display": "Tablet"
+                }
+              ]
+            },
+            "amount": {
+              "numerator": {
+                "value": 30,
+                "unit": "Tablet (unit of presentation)",
+                "system": "http://snomed.info/sct",
+                "code": "732936001"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Package",
+                "system": "http://unitsofmeasure.org",
+                "code": "{Package}"
+              }
+            },
+            "ingredient": [
+              {
+                "itemCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "372826007",
+                      "display": "Metoprolol (substance)"
+                    }
+                  ],
+                  "text": "Metoprolol"
+                },
+                "strength": {
+                  "numerator": {
+                    "value": 50,
+                    "unit": "milligram",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "mg"
+                  },
+                  "denominator": {
+                    "value": 1,
+                    "unit": "Tablet (unit of presentation)",
+                    "system": "http://snomed.info/sct",
+                    "code": "732936001"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:17931678-20b4-11e6-b67b-9e71128cca77"
+          }
+        ],
+        "status": "completed",
+        "medicationReference": {
+          "reference": "#med2"
+        },
+        "subject": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "reasonCode": [
+          {
+            "text": "Bluthochdruck"
+          }
+        ],
+        "note": [
+          {
+            "text": "-"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "Morgens 1 und abends 1/2 Tablette nehmen"
+          },
+          {
+            "sequence": 1,
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2012-02-04"
+                },
+                "when": [
+                  "MORN"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "Tablet (unit of presentation)",
+                  "system": "http://snomed.info/sct",
+                  "code": "732936001"
+                }
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2012-02-04"
+                },
+                "when": [
+                  "EVE"
+                ]
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 0.5,
+                  "unit": "Tablet (unit of presentation)",
+                  "system": "http://snomed.info/sct",
+                  "code": "732936001"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72884cad-ebe6-4f43-a51a-2f978275f132",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "72884cad-ebe6-4f43-a51a-2f978275f132",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"72884cad-ebe6-4f43-a51a-2f978275f132\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips//StructureDefinition-AllergyIntolerance-uv-ips.html\">Allergy Intolerance (IPS)</a></p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Unconfirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#unconfirmed)</span></p><p><b>type</b>: allergy</p><p><b>category</b>: medication</p><p><b>criticality</b>: low</p><p><b>code</b>: Penicillin (substance) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#764146007)</span></p><p><b>patient</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>onset</b>: 2019-01-06</p><p><b>lastOccurrence</b>: 2019-01-05</p><p><b>note</b>: Prick-Test positiv</p><h3>Reactions</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>Substance</b></td><td><b>Manifestation</b></td><td><b>Description</b></td><td><b>Onset</b></td><td><b>Severity</b></td><td><b>Note</b></td></tr><tr><td>*</td><td>, , , , , , </td><td>Amoxicillin (substance) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#372687004)</span></td><td>Nausea, vomiting and diarrhea <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#2919008)</span>, Itching of skin (finding) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#418363000)</span></td><td>Itching of Skin during 24hours, 3 times vomitus</td><td>2019-01-05</td><td>moderate</td><td>&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n        &lt;span id=\"co1\"&gt;\n\t\t\t\t\t\trespiratory tract infection whilst taking\n        &lt;/span&gt;\n      &lt;/div&gt;</td></tr></table></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "unconfirmed",
+              "display": "Unconfirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "category": [
+          "medication"
+        ],
+        "criticality": "low",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin (substance)"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "onsetDateTime": "2019-01-06",
+        "lastOccurrence": "2019-01-05",
+        "note": [
+          {
+            "text": "Prick-Test positiv"
+          }
+        ],
+        "reaction": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/openEHR-location",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "32361000",
+                      "display": "Popliteal fossa structure (body structure)"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration",
+                "valueDuration": {
+                  "value": 24,
+                  "unit": "h",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "h"
+                }
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/openEHR-exposureDate",
+                "valueDateTime": "2019-01-05T18:00:00+01:00"
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/openEHR-exposureDuration",
+                "valueDuration": {
+                  "value": 10,
+                  "unit": "min",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "min"
+                }
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty",
+                      "code": "likely",
+                      "display": "Likely"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/openEHR-exposureDescription",
+                "valueString": "taking 1000 mg of Amoxicillin"
+              },
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/openEHR-management",
+                "valueString": "antihistamine"
+              }
+            ],
+            "substance": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "372687004",
+                  "display": "Amoxicillin (substance)"
+                }
+              ]
+            },
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "2919008",
+                    "display": "Nausea, vomiting and diarrhea"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "418363000",
+                    "display": "Itching of skin (finding)"
+                  }
+                ]
+              }
+            ],
+            "description": "Itching of Skin during 24hours, 3 times vomitus",
+            "onset": "2019-01-05",
+            "severity": "moderate",
+            "note": [
+              {
+                "text": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n        <span id=\"co1\">\n\t\t\t\t\t\trespiratory tract infection whilst taking\n        </span>\n      </div>"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c4597aa2-688a-401b-a658-70acc6de28c6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c4597aa2-688a-401b-a658-70acc6de28c6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"c4597aa2-688a-401b-a658-70acc6de28c6\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips//StructureDefinition-Condition-uv-ips.html\">Condition (IPS)</a></p></div><p><b>clinicalStatus</b>: Inactive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#inactive)</span></p><p><b>category</b>: illness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://fhir.ch/ig/ch-etoc/CodeSystem-ch-etoc-conditioncategory.html\">Extension Category of Condition</a>#illness)</span></p><p><b>code</b>: Endokarditis 1999 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "inactive"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://fhir.ch/ig/ch-etoc/CodeSystem/ch-etoc-conditioncategory",
+                "code": "illness"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Endokarditis 1999"
+        },
+        "subject": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:564740e1-dc92-44a5-8c7e-1879162c26da",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "564740e1-dc92-44a5-8c7e-1879162c26da",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"564740e1-dc92-44a5-8c7e-1879162c26da\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips//StructureDefinition-Immunization-uv-ips.html\">Immunization (IPS)</a></p></div><p><b>identifier</b>: id: 1829774</p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: Boostrix <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://fhir.ch/ig/ch-vacd/CodeSystem-ch-vacd-swissmedic-cs.html\">Swiss Medic Authorized Vaccines Codesystem</a>#637)</span></p><p><b>patient</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>occurrence</b>: 2017-09-15T09:12:56+02:00</p><p><b>recorded</b>: 2017-09-15T09:12:56+02:00</p><p><b>lotNumber</b>: 12-34244</p><p><b>route</b>: Intramuscular use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20035000)</span></p><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td>-</td><td><b>TargetDisease</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td>*</td><td>Diphtheria caused by Corynebacterium diphtheriae (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#397430003)</span></td><td>1</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.756.5.30.1.147.1.3.1",
+            "value": "1829774"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
+              "code": "637",
+              "display": "Boostrix"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "occurrenceDateTime": "2017-09-15T09:12:56+02:00",
+        "recorded": "2017-09-15T09:12:56+02:00",
+        "lotNumber": "12-34244",
+        "route": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "20035000",
+              "display": "Intramuscular use"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "397430003",
+                    "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    }
+  ]
+}

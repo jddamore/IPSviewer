@@ -1,0 +1,6601 @@
+{
+	"resourceType": "Bundle",
+	"id": "7053968c-39a8-410a-9bee-ea64d51f7953",
+	"identifier": {
+		"system": "https:\/\/drimpy.com\/fhir\/my\/ips\/identifier",
+		"value": "b5d06a2e-9d05-4dc1-a699-23eff66f44dc-ips"
+	},
+	"language": "nl_NL",
+	"type": "document",
+	"timestamp": "2021-10-06T11:11:59.102058Z",
+	"entry": [
+		{
+			"fullUrl": "urn:uuid:2633ce6c-bf00-42de-9773-fe8ca785b3e2",
+			"resource": {
+				"id": "2633ce6c-bf00-42de-9773-fe8ca785b3e2",
+				"resourceType": "Composition",
+				"status": "final",
+				"type": {
+					"coding": [
+						[
+							{
+								"code": "60591-5",
+								"system": "http:\/\/loinc.org",
+								"display": "Patient summary Document"
+							}
+						]
+					]
+				},
+				"subject": {
+					"reference": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "LOCAL Hidde"
+				},
+				"date": "2021-10-06T11:11:59.102164Z",
+				"author": {
+					"reference": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "LOCAL Hidde"
+				},
+				"title": "Patient Summary (LOCAL Hidde)",
+				"confidentiality": "N",
+				"section": [
+					{
+						"title": "Allergies and Intolerances",
+						"code": {
+							"coding": [
+								{
+									"code": "48765-2",
+									"system": "http:\/\/loinc.org",
+									"display": "Allergies and adverse reactions Document"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:c1956d64-9547-4248-a701-9016e1f5ce40"
+							},
+							{
+								"reference": "urn:uuid:3ddf35b2-5f80-4f3e-8228-d57f8e479f1f"
+							},
+							{
+								"reference": "urn:uuid:954ac539-3407-4e5b-aa73-506bdd79bd03"
+							},
+							{
+								"reference": "urn:uuid:9e197368-d571-41a9-bd1d-e930ddda183b"
+							},
+							{
+								"reference": "urn:uuid:af56a6a9-814d-4187-8a20-a7b1aa6b66ac"
+							}
+						]
+					},
+					{
+						"title": "Problem List",
+						"code": {
+							"coding": [
+								{
+									"code": "11450-4",
+									"system": "http:\/\/loinc.org",
+									"display": "Problem list Reported"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:4f74a73e-4b9d-4fc8-97b0-9e2c4943ec50"
+							}
+						]
+					},
+					{
+						"title": "Medication Summary",
+						"code": {
+							"coding": [
+								{
+									"code": "10160-0",
+									"system": "http:\/\/loinc.org",
+									"display": "Hx of Medication use"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:2e9ce537-1938-4739-95af-2631d0fde6e2"
+							},
+							{
+								"reference": "urn:uuid:776222e5-ee0c-460f-a37a-c29e71c593a6"
+							},
+							{
+								"reference": "urn:uuid:0144aeb1-c653-4f8a-98e6-211714140f1d"
+							},
+							{
+								"reference": "urn:uuid:c4f502d4-de8d-41d9-a7eb-f53514a5a7ca"
+							},
+							{
+								"reference": "urn:uuid:dc9b4971-a271-4c09-bc16-ee748fde926c"
+							},
+							{
+								"reference": "urn:uuid:df6aec4e-9125-478b-9e61-2e1572745986"
+							},
+							{
+								"reference": "urn:uuid:8490b534-4602-4fc6-a212-a08d722d7d1e"
+							},
+							{
+								"reference": "urn:uuid:10b32d48-3318-49de-bce4-a3dfa6d650fa"
+							},
+							{
+								"reference": "urn:uuid:5d4d1e6b-b3e0-40c0-abe1-09c992e72697"
+							},
+							{
+								"reference": "urn:uuid:7cc44574-9dd2-46c2-a0ec-67ae7db0833a"
+							},
+							{
+								"reference": "urn:uuid:89b21bb2-10fe-4bf6-88cf-491372a331a3"
+							},
+							{
+								"reference": "urn:uuid:a752a1e6-db39-40f7-963a-812de08763b5"
+							},
+							{
+								"reference": "urn:uuid:2a7b4240-4586-466a-9495-673ffdbdb556"
+							},
+							{
+								"reference": "urn:uuid:15144b34-cf29-4a1d-9087-d8d4552525b7"
+							},
+							{
+								"reference": "urn:uuid:db75929c-d2e0-417b-8bb0-ef1f35ef33ee"
+							}
+						]
+					},
+					{
+						"title": "History of immunization Narrative",
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "11369-6",
+									"display": "History of immunization Narrative"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:2c3d5023-0f21-4b59-8e80-7e3662ae3f39"
+							}
+						]
+					},
+					{
+						"title": "Results",
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "30954-2",
+									"display": "Relevant diagnostic tests\/laboratory data Narrative"
+								}
+							]
+						},
+						"entry": [
+							{
+								"reference": "urn:uuid:5e559d9e-8a75-4a66-a573-20aa7ee6120e"
+							},
+							{
+								"reference": "urn:uuid:405424d0-26a9-4c0a-bca3-040d97e6f0c1"
+							},
+							{
+								"reference": "urn:uuid:2ab7d1bf-e8e4-40fc-9f5b-39e70c68b5cd"
+							},
+							{
+								"reference": "urn:uuid:d1aa029d-e5d6-49f9-9818-22d17b52512e"
+							},
+							{
+								"reference": "urn:uuid:ec8c5d11-da26-44d2-be4b-75733bd3de91"
+							},
+							{
+								"reference": "urn:uuid:d3de905d-6c36-41b5-b0f5-30291dd5378f"
+							},
+							{
+								"reference": "urn:uuid:8867783f-94c9-402c-924e-b60be0dfa4f3"
+							},
+							{
+								"reference": "urn:uuid:e8367f0d-b508-45ed-8ca9-864317fcefc8"
+							},
+							{
+								"reference": "urn:uuid:cacea603-f0d4-4fbf-b895-1dbaac28e18f"
+							},
+							{
+								"reference": "urn:uuid:023f7afe-d66b-4118-906e-0273bffa6075"
+							},
+							{
+								"reference": "urn:uuid:17b3be19-88fe-4e2e-aef1-44c40b1228b7"
+							},
+							{
+								"reference": "urn:uuid:1f483017-e91b-4eb3-b0f6-2da718f70eda"
+							},
+							{
+								"reference": "urn:uuid:26e98123-f7a8-48c7-8db3-4c84aebe0d65"
+							},
+							{
+								"reference": "urn:uuid:81a0ff23-4903-479a-8ec2-c1fcd26f05b2"
+							},
+							{
+								"reference": "urn:uuid:40e0af9b-10c9-4442-98cb-578e47856a2e"
+							},
+							{
+								"reference": "urn:uuid:be54387a-95b4-447b-ac8c-decb0385eac1"
+							},
+							{
+								"reference": "urn:uuid:36bd24bd-d727-4c03-bb18-a94dbdbb4119"
+							},
+							{
+								"reference": "urn:uuid:1db953df-aef7-4490-bb9d-da16cb4c2527"
+							},
+							{
+								"reference": "urn:uuid:fc31007c-9e0a-49ea-a607-6bbfc453871d"
+							},
+							{
+								"reference": "urn:uuid:3c935e03-4c44-4c89-ac93-57513772b167"
+							},
+							{
+								"reference": "urn:uuid:26d230b4-57cf-4dd3-9884-489d27ef6a32"
+							},
+							{
+								"reference": "urn:uuid:375af44b-fa99-4874-a346-56b9d20ea3bb"
+							},
+							{
+								"reference": "urn:uuid:1df23af5-505e-496f-b4e9-112a50468507"
+							},
+							{
+								"reference": "urn:uuid:48bb8c5c-ea40-4685-8cba-5063aba4c5b0"
+							},
+							{
+								"reference": "urn:uuid:feaa1f5e-38b9-47ae-8531-c0e5e2fe7d06"
+							},
+							{
+								"reference": "urn:uuid:4debbb73-4740-4515-8489-2f82693574f8"
+							},
+							{
+								"reference": "urn:uuid:5ba4863b-ce0e-4b7e-87de-12c4dd66c73a"
+							},
+							{
+								"reference": "urn:uuid:71b1d649-b320-433d-8b49-7ff56918ff6e"
+							},
+							{
+								"reference": "urn:uuid:a855764f-6668-4426-824a-33a9c6f1da87"
+							},
+							{
+								"reference": "urn:uuid:cdb701fc-8d53-43d3-a23e-7acd7b11a130"
+							},
+							{
+								"reference": "urn:uuid:30726b1b-55c6-4263-a3b0-1b9482b5330e"
+							},
+							{
+								"reference": "urn:uuid:b1366a97-6023-4f13-b4e9-cc45369eeb49"
+							},
+							{
+								"reference": "urn:uuid:5a616d45-ced8-4ce3-be2b-3ef22105cedd"
+							},
+							{
+								"reference": "urn:uuid:b4b360f1-f1ef-41cd-a49b-e7498a10d4e4"
+							},
+							{
+								"reference": "urn:uuid:f223f90e-30ab-4fbe-a9ca-2efd10431e41"
+							},
+							{
+								"reference": "urn:uuid:9960c0d1-9a80-4314-80a2-d95a18fdbfef"
+							},
+							{
+								"reference": "urn:uuid:7c0932e3-5f93-4d2e-ab93-ec00754bd0df"
+							},
+							{
+								"reference": "urn:uuid:65292965-cd76-4a09-9a21-b6c0bfb92837"
+							},
+							{
+								"reference": "urn:uuid:12959180-2623-43f5-9793-a5632462f44e"
+							},
+							{
+								"reference": "urn:uuid:903c8f2e-052b-499e-bc16-f9497e35cc60"
+							},
+							{
+								"reference": "urn:uuid:fbdf683d-7748-451d-b79c-d85d1d2571cc"
+							},
+							{
+								"reference": "urn:uuid:4ad7bc15-061a-4b91-a382-e34710018b28"
+							},
+							{
+								"reference": "urn:uuid:ea57f34f-6ec0-44b7-9a71-019e1cd6aa39"
+							},
+							{
+								"reference": "urn:uuid:613c6a9b-2a1f-4684-9dde-e2bfa570fd06"
+							},
+							{
+								"reference": "urn:uuid:67320dc7-6270-42a7-9239-00ddec50642c"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+			"resource": {
+				"resourceType": "Patient",
+				"meta": {
+					"id": "Patient\/d3468027-145c-4947-aa87-a4b23b6b2735",
+					"profile": [
+						"http:\/\/fhir.nl\/fhir\/StructureDefinition\/nl-core-patient"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "92f4fa5e-8ebc-4c90-ade6-77444220e94b"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "d3468027-145c-4947-aa87-a4b23b6b2735"
+						}
+					],
+					"versionId": "b8f51868-fd6d-4dad-b212-236b5e29fcf1",
+					"lastUpdated": "2021-10-06T11:09:15.545+00:00"
+				},
+				"name": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/humanname-assembly-order",
+								"valueCode": "NL1"
+							}
+						],
+						"use": "official",
+						"family": "Gr\u00ebc\u00f3wich",
+						"_family": {
+							"extension": [
+								{
+									"url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/humanname-own-name",
+									"valueString": "Gr\u00ebc\u00f3wich"
+								}
+							]
+						},
+						"given": [
+							"Janny",
+							"A.L.M."
+						],
+						"_given": [
+							{
+								"extension": [
+									{
+										"url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/iso21090-EN-qualifier",
+										"valueCode": "CL"
+									}
+								]
+							},
+							{
+								"extension": [
+									{
+										"url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/iso21090-EN-qualifier",
+										"valueCode": "IN"
+									}
+								]
+							}
+						]
+					}
+				],
+				"telecom": [
+					{
+						"system": "email",
+						"value": "parker@flora.nl",
+						"use": "home"
+					}
+				],
+				"gender": "female",
+				"birthDate": "1957-02-02",
+				"address": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/fhir.nl\/fhir\/StructureDefinition\/nl-core-address-official",
+								"valueBoolean": true
+							}
+						],
+						"use": "home",
+						"type": "physical",
+						"line": [
+							"Mari\u00ebnpoelstraat 21"
+						],
+						"_line": [
+							{
+								"extension": [
+									{
+										"url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/iso21090-ADXP-streetName",
+										"valueString": "Mari\u00ebnpoelstraat"
+									},
+									{
+										"url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/iso21090-ADXP-houseNumber",
+										"valueString": "21"
+									}
+								]
+							}
+						],
+						"city": "Leiden",
+						"postalCode": "2334CW",
+						"country": "NLD",
+						"_country": {
+							"extension": [
+								{
+									"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+									"valueCodeableConcept": {
+										"coding": [
+											{
+												"system": "urn:oid:2.16.840.1.113883.2.4.4.16.34",
+												"code": "6030",
+												"display": "Nederland"
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				],
+				"multipleBirthBoolean": false,
+				"generalPractitioner": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"managingOrganization": {
+					"reference": "http:\/\/fhircore:4080\/Organization\/615c2873-ca0c-43a4-80fa-66062fcf6210",
+					"display": "MicroHIS X praktijk"
+				},
+				"id": "5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+				"identifier": [
+					{
+						"system": "https:\/\/drimpy.com\/fhir\/my\/ips\/identifier",
+						"value": "b5d06a2e-9d05-4dc1-a699-23eff66f44dc-ips"
+					}
+				]
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:c1956d64-9547-4248-a701-9016e1f5ce40",
+			"resource": {
+				"resourceType": "AllergyIntolerance",
+				"meta": {
+					"id": "AllergyIntolerance\/33.4061287963.38414.20180.145.189.207.236.14.210.138.230",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AllergyIntolerance"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "67112ca5-fe43-4f2c-9d87-6d6c2d4eb999"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.4061287963.38414.20180.145.189.207.236.14.210.138.230"
+						}
+					],
+					"versionId": "f902b495-a817-43b7-89ba-2026e33b36fa",
+					"lastUpdated": "2021-10-06T11:09:37.777+00:00"
+				},
+				"clinicalStatus": "active",
+				"_clinicalStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/ActStatus",
+										"code": "active",
+										"display": "Active"
+									}
+								]
+							}
+						}
+					]
+				},
+				"verificationStatus": "confirmed",
+				"category": [
+					"medication"
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.750",
+							"code": "46078",
+							"display": "Perazine"
+						}
+					]
+				},
+				"patient": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"onsetDateTime": "2021-06-29",
+				"recorder": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference"
+						}
+					]
+				},
+				"note": [
+					{
+						"text": "Kijk uit voor de ernstige reactie"
+					}
+				],
+				"id": "c1956d64-9547-4248-a701-9016e1f5ce40"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:3ddf35b2-5f80-4f3e-8228-d57f8e479f1f",
+			"resource": {
+				"resourceType": "AllergyIntolerance",
+				"meta": {
+					"id": "AllergyIntolerance\/33.145049981.30176.16864.175.192.17.24.221.177.129.121",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AllergyIntolerance"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "67112ca5-fe43-4f2c-9d87-6d6c2d4eb999"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.145049981.30176.16864.175.192.17.24.221.177.129.121"
+						}
+					],
+					"versionId": "a7c7d910-f377-42a4-b267-fdbbddfe7b08",
+					"lastUpdated": "2021-10-06T11:09:37.745+00:00"
+				},
+				"clinicalStatus": "active",
+				"_clinicalStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/ActStatus",
+										"code": "active",
+										"display": "Active"
+									}
+								]
+							}
+						}
+					]
+				},
+				"verificationStatus": "confirmed",
+				"category": [
+					"medication"
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.7",
+							"code": "2742322",
+							"display": "Heel sarsaparilla officinalis d6 granule"
+						}
+					]
+				},
+				"patient": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"onsetDateTime": "2017-06-29",
+				"recorder": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference"
+						}
+					]
+				},
+				"note": [
+					{
+						"text": "Graag extra op letten"
+					}
+				],
+				"id": "3ddf35b2-5f80-4f3e-8228-d57f8e479f1f"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:954ac539-3407-4e5b-aa73-506bdd79bd03",
+			"resource": {
+				"resourceType": "AllergyIntolerance",
+				"meta": {
+					"id": "AllergyIntolerance\/33.2967573545.42450.19359.170.100.40.205.10.141.15.131",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AllergyIntolerance"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "67112ca5-fe43-4f2c-9d87-6d6c2d4eb999"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.2967573545.42450.19359.170.100.40.205.10.141.15.131"
+						}
+					],
+					"versionId": "a6a70d4e-e8e0-4858-86f7-882d6959d4bd",
+					"lastUpdated": "2021-10-06T11:09:37.711+00:00"
+				},
+				"clinicalStatus": "active",
+				"_clinicalStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/ActStatus",
+										"code": "active",
+										"display": "Active"
+									}
+								]
+							}
+						}
+					]
+				},
+				"verificationStatus": "confirmed",
+				"category": [
+					"medication"
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.7",
+							"code": "2742322",
+							"display": "Heel sarsaparilla officinalis d6 granule"
+						}
+					]
+				},
+				"patient": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"onsetDateTime": "2017-06-29",
+				"recorder": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+							"valueReference": {
+								"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+								"display": "A van Toor"
+							}
+						}
+					],
+					"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+					"display": "A van Toor"
+				},
+				"note": [
+					{
+						"text": "Graag extra op letten"
+					}
+				],
+				"id": "954ac539-3407-4e5b-aa73-506bdd79bd03"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:9e197368-d571-41a9-bd1d-e930ddda183b",
+			"resource": {
+				"resourceType": "AllergyIntolerance",
+				"meta": {
+					"id": "AllergyIntolerance\/33.190666679.51131.20062.161.102.186.145.44.146.214.155",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AllergyIntolerance"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "67112ca5-fe43-4f2c-9d87-6d6c2d4eb999"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.190666679.51131.20062.161.102.186.145.44.146.214.155"
+						}
+					],
+					"versionId": "4bb9662e-eee0-4a74-8a40-3bb2ac03c8d3",
+					"lastUpdated": "2021-10-06T11:09:37.650+00:00"
+				},
+				"clinicalStatus": "active",
+				"_clinicalStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/ActStatus",
+										"code": "active",
+										"display": "Active"
+									}
+								]
+							}
+						}
+					]
+				},
+				"verificationStatus": "confirmed",
+				"category": [
+					"medication"
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.750",
+							"code": "46078",
+							"display": "Perazine"
+						}
+					]
+				},
+				"patient": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"onsetDateTime": "2021-06-29",
+				"recorder": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+							"valueReference": {
+								"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+								"display": "A van Toor"
+							}
+						}
+					],
+					"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+					"display": "A van Toor"
+				},
+				"note": [
+					{
+						"text": "Kijk uit voor de ernstige reactie"
+					}
+				],
+				"id": "9e197368-d571-41a9-bd1d-e930ddda183b"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:af56a6a9-814d-4187-8a20-a7b1aa6b66ac",
+			"resource": {
+				"resourceType": "AllergyIntolerance",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AllergyIntolerance"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "2079db1c-4750-468a-91a2-281a8c42afb6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "05172a6f-21ad-4dae-9077-bf6029816930"
+						}
+					],
+					"versionId": "f3b8ecef-a0d5-424c-85f5-5986df873b41",
+					"lastUpdated": "2021-10-06T10:32:54.763+00:00"
+				},
+				"clinicalStatus": "active",
+				"_clinicalStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/ActStatus",
+										"code": "active",
+										"display": "Actief"
+									}
+								]
+							}
+						}
+					]
+				},
+				"verificationStatus": "confirmed",
+				"category": [
+					"environment"
+				],
+				"_category": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+								"valueCodeableConcept": {
+									"coding": [
+										{
+											"system": "http:\/\/snomed.info\/sct",
+											"code": "418471000",
+											"display": "Voeding"
+										}
+									]
+								}
+							}
+						]
+					}
+				],
+				"criticality": "high",
+				"_criticality": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/snomed.info\/sct",
+										"code": "255604002",
+										"display": "Licht"
+									}
+								]
+							}
+						}
+					]
+				},
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "28230009",
+							"display": "fazantenvlees"
+						}
+					]
+				},
+				"patient": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"onsetDateTime": "2001",
+				"reaction": [
+					{
+						"manifestation": [
+							{
+								"coding": [
+									{
+										"system": "http:\/\/snomed.info\/sct",
+										"code": "62315008",
+										"display": "Diarree"
+									}
+								]
+							}
+						],
+						"severity": "severe",
+						"_severity": {
+							"extension": [
+								{
+									"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+									"valueCodeableConcept": {
+										"coding": [
+											{
+												"system": "http:\/\/snomed.info\/sct",
+												"code": "6736007",
+												"display": "Matig"
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				],
+				"identifier": [
+					{
+						"use": "secondary",
+						"system": "http:\/\/fhir.drimpy.com\/NamingSystem\/answersetid",
+						"value": "24"
+					}
+				],
+				"lastOccurrence": "2014-09-05",
+				"id": "af56a6a9-814d-4187-8a20-a7b1aa6b66ac"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:4f74a73e-4b9d-4fc8-97b0-9e2c4943ec50",
+			"resource": {
+				"resourceType": "Condition",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Problem"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9b0fd6bb-6a56-4346-ba88-e89744fe20b9"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10026"
+						}
+					],
+					"versionId": "c9c0837b-79af-4b49-8310-973f94972245",
+					"lastUpdated": "2021-10-06T10:03:51.584+00:00"
+				},
+				"clinicalStatus": "active",
+				"_clinicalStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/snomed.info\/sct",
+										"code": "55561003",
+										"display": "Actueel"
+									}
+								]
+							}
+						}
+					]
+				},
+				"verificationStatus": "confirmed",
+				"_verificationStatus": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "http:\/\/snomed.info\/sct",
+										"code": "410605003",
+										"display": "Bevestigd"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "282291009",
+								"display": "Diagnose"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "251000119105",
+							"display": "Eenmalige episode van ernstige majeure depressieve stoornis"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"onsetDateTime": "2020-11-22T00:00:00+01:00",
+				"id": "4f74a73e-4b9d-4fc8-97b0-9e2c4943ec50"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2e9ce537-1938-4739-95af-2631d0fde6e2",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.1519489366.10329.19275.173.132.177.32.228.71.22.137",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.1519489366.10329.19275.173.132.177.32.228.71.22.137"
+						}
+					],
+					"versionId": "51823628-068c-465f-be13-7c266e11fb5c",
+					"lastUpdated": "2021-10-06T11:09:37.508+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.1519489366.10329.19275.173.132.177.32.228.71.22.137-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-06-22",
+							"end": "2021-07-21"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationUse-Duration",
+						"valueDuration": {
+							"value": 30,
+							"unit": "day",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "d"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.1519489366.10329.19275.173.132.177.32.228.71.22.137",
+					"display": "ACETYLCYSTEINE POEDER  200MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr?c?wich"
+				},
+				"authoredOn": "2021-06-29",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "ACETYLCYSTEINE POEDER  200MG, 1 maal per dag 1 tablet () . Te gebruiken van: 2021-06-22 tot 2021-07-21",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "T",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "T"
+						}
+					}
+				],
+				"id": "2e9ce537-1938-4739-95af-2631d0fde6e2"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:776222e5-ee0c-460f-a37a-c29e71c593a6",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.529635005.43707.18805.159.107.106.98.221.229.182.156",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.529635005.43707.18805.159.107.106.98.221.229.182.156"
+						}
+					],
+					"versionId": "7e421392-e647-4c7b-9d6a-04c96e809a04",
+					"lastUpdated": "2021-10-06T11:09:37.429+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.529635005.43707.18805.159.107.106.98.221.229.182.156-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-07-05",
+							"end": "2021-08-03"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationUse-Duration",
+						"valueDuration": {
+							"value": 30,
+							"unit": "day",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "d"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.529635005.43707.18805.159.107.106.98.221.229.182.156",
+					"display": "ACETYLCYSTEINE POEDER  200MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"authoredOn": "2021-07-05",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "ACETYLCYSTEINE POEDER  200MG, 1 maal per dag 1 tablet () . Te gebruiken van: 2021-07-05 tot 2021-08-03",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "T",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "T"
+						}
+					}
+				],
+				"id": "776222e5-ee0c-460f-a37a-c29e71c593a6"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:0144aeb1-c653-4f8a-98e6-211714140f1d",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.528991132.57504.19219.163.134.157.131.64.215.145.170",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.528991132.57504.19219.163.134.157.131.64.215.145.170"
+						}
+					],
+					"versionId": "b0976e1a-1512-4589-9ba1-a8104794317c",
+					"lastUpdated": "2021-10-06T11:09:35.261+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.528991132.57504.19219.163.134.157.131.64.215.145.170-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-03-10",
+							"end": "2021-03-19"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationUse-Duration",
+						"valueDuration": {
+							"value": 10,
+							"unit": "day",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "d"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.528991132.57504.19219.163.134.157.131.64.215.145.170",
+					"display": "PARACETAMOL ZETPIL  120MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.2885454822.437.17985.152.6.44.73.203.216.228.85",
+					"display": "contact 2021-03-10T14:36:14"
+				},
+				"authoredOn": "2021-07-05",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "PARACETAMOL ZETPIL  120MG, 1 maal per dag 1 tablet . Te gebruiken van: 2021-03-10 tot 2021-03-19",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "T",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "T"
+						}
+					}
+				],
+				"id": "0144aeb1-c653-4f8a-98e6-211714140f1d"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:c4f502d4-de8d-41d9-a7eb-f53514a5a7ca",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.188670279.7258.16638.151.8.231.145.240.16.81.206",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.188670279.7258.16638.151.8.231.145.240.16.81.206"
+						}
+					],
+					"versionId": "0921d3fa-32ed-4326-94d4-57f30e413321",
+					"lastUpdated": "2021-10-06T11:09:35.412+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.188670279.7258.16638.151.8.231.145.240.16.81.206-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-03-10",
+							"end": "2021-03-19"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationUse-Duration",
+						"valueDuration": {
+							"value": 10,
+							"unit": "day",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "d"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.188670279.7258.16638.151.8.231.145.240.16.81.206",
+					"display": "PARACETAMOL ZETPIL  120MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr?c?wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.4211559903.34483.16421.140.46.30.37.197.31.151.108",
+					"display": "contact 2021-03-10T16:28:25"
+				},
+				"authoredOn": "2021-06-29",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "PARACETAMOL ZETPIL  120MG, 1 maal per dag 1 tablet . Te gebruiken van: 2021-03-10 tot 2021-03-19",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "T",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "T"
+						}
+					}
+				],
+				"id": "c4f502d4-de8d-41d9-a7eb-f53514a5a7ca"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:dc9b4971-a271-4c09-bc16-ee748fde926c",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.765076352.25488.19761.136.9.169.37.87.26.249.119",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.765076352.25488.19761.136.9.169.37.87.26.249.119"
+						}
+					],
+					"versionId": "e92114f0-b61c-41e0-a6f8-f7f87a0586a2",
+					"lastUpdated": "2021-10-06T11:09:35.257+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.765076352.25488.19761.136.9.169.37.87.26.249.119-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-06-29"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.765076352.25488.19761.136.9.169.37.87.26.249.119",
+					"display": "PENICILLAMINE CAPSULE 125MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr?c?wich"
+				},
+				"authoredOn": "2021-06-29",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "PENICILLAMINE CAPSULE 125MG, 1 maal per dag 1 capsule () . Te gebruiken van: 2021-06-29 tot 2022-04-24",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "C",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "C"
+						}
+					}
+				],
+				"id": "dc9b4971-a271-4c09-bc16-ee748fde926c"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:df6aec4e-9125-478b-9e61-2e1572745986",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.3674097396.51964.20086.129.101.240.116.163.214.152.14",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.3674097396.51964.20086.129.101.240.116.163.214.152.14"
+						}
+					],
+					"versionId": "94a06333-08c2-4eb0-a4ce-e9fbfd17f60f",
+					"lastUpdated": "2021-10-06T11:09:35.176+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.3674097396.51964.20086.129.101.240.116.163.214.152.14-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-06-29",
+							"end": "2021-10-06"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationUse-Duration",
+						"valueDuration": {
+							"value": 100,
+							"unit": "day",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "d"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.3674097396.51964.20086.129.101.240.116.163.214.152.14",
+					"display": "FENPROCOUMON TABLET 3MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"authoredOn": "2021-07-05",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "FENPROCOUMON TABLET 3MG, 1 maal per dag 1 tablet, Gebruik volgens schema trombosedienst () . Te gebruiken van: 2021-06-29 tot 2021-10-06",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-25-gebruiksvoorschrift#aanvullend-mnemonic",
+										"code": "GVT",
+										"display": "Gebruik volgens schema trombosedienst"
+									}
+								],
+								"text": "Gebruik volgens schema trombosedienst"
+							}
+						],
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "T",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "T"
+						}
+					}
+				],
+				"id": "df6aec4e-9125-478b-9e61-2e1572745986"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:8490b534-4602-4fc6-a212-a08d722d7d1e",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.4217335090.24060.18592.143.56.111.186.65.115.86.145",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.4217335090.24060.18592.143.56.111.186.65.115.86.145"
+						}
+					],
+					"versionId": "7f7e4097-62f7-428c-ad2b-32aa7beba709",
+					"lastUpdated": "2021-10-06T11:09:35.135+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.4217335090.24060.18592.143.56.111.186.65.115.86.145-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-06-29",
+							"end": "2021-10-06"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationUse-Duration",
+						"valueDuration": {
+							"value": 100,
+							"unit": "day",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "d"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.4217335090.24060.18592.143.56.111.186.65.115.86.145",
+					"display": "MARCOUMAR TABLET 3MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr?c?wich"
+				},
+				"authoredOn": "2021-06-29",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "MARCOUMAR TABLET 3MG, VP, 1 maal per dag 1 tablet, Gebruik volgens schema trombosedienst () . Te gebruiken van: 2021-06-29 tot 2021-10-06",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-25-gebruiksvoorschrift#aanvullend-mnemonic",
+										"code": "GVT",
+										"display": "Gebruik volgens schema trombosedienst"
+									}
+								],
+								"text": "Gebruik volgens schema trombosedienst"
+							}
+						],
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "T",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "T"
+						}
+					}
+				],
+				"id": "8490b534-4602-4fc6-a212-a08d722d7d1e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:10b32d48-3318-49de-bce4-a3dfa6d650fa",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"id": "MedicationRequest\/MEDP33.1421187087.38402.16884.151.193.234.176.23.132.101.156",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "879fdcbe-4a33-4f8a-bfd9-b860d14199ef"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "MEDP33.1421187087.38402.16884.151.193.234.176.23.132.101.156"
+						}
+					],
+					"versionId": "f8f80037-d71b-4b2f-a04b-7fc22c436f26",
+					"lastUpdated": "2021-10-06T11:09:35.091+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.999.77.1.1",
+							"value": "MBH-33.1421187087.38402.16884.151.193.234.176.23.132.101.156-MA1"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-06-29"
+						}
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/MEDP33.1421187087.38402.16884.151.193.234.176.23.132.101.156",
+					"display": "PENICILLAMINE CAPSULE 125MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"authoredOn": "2021-07-05",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor || Huisartsen, niet nader gespecificeerd || MicroHIS X praktijk"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 0,
+						"text": "PENICILLAMINE CAPSULE 125MG, 1 maal per dag 1 capsule () . Te gebruiken van: 2021-06-29 tot 2022-04-24",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"doseQuantity": {
+							"value": 1,
+							"unit": "C",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "C"
+						}
+					}
+				],
+				"id": "10b32d48-3318-49de-bce4-a3dfa6d650fa"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5d4d1e6b-b3e0-40c0-abe1-09c992e72697",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9edf29f1-ce44-4d21-9f1c-aab512395515"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "urn:uuid:4edaa04d-2692-11ec-5276-005056bc1480"
+						}
+					],
+					"versionId": "f77dcd34-6866-4956-a1e5-22bcfe60ed81",
+					"lastUpdated": "2021-10-06T10:44:13.718+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-01-06T00:00:00+01:00",
+							"end": "2021-02-14T00:00:00+01:00"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.16",
+							"value": "4cf4a1bf-cb1c-46d2-b126-fd7d16e01b8b"
+						}
+					}
+				],
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.4",
+						"value": "f7cfc36c-5e8d-4eef-af74-79704793bd75"
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/efe881fb-9a06-4cc3-821f-5caed977e4a8",
+					"display": "SENNOSIDEN A+B STROOP 2MG\/ML"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "S. XXX_Jankie"
+				},
+				"authoredOn": "2021-04-26T14:13:36+02:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "urn:uuid:4eda9580-2692-11ec-5276-005056bc1480",
+									"display": "fmv f.f.m.v. admin || T\u00e9st Zorginstelling 01"
+								}
+							}
+						],
+						"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1123456",
+						"display": "fmv f.f.m.v. admin"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 1,
+						"text": "Vanaf 06-01-2021 00:00, gedurende 39 dagen, 1 maal per dag 10 milliliter \"(= 20 mg) \", oraal.",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/NullFlavor",
+										"code": "OTH",
+										"display": "overig"
+									}
+								],
+								"text": "(= 20 mg)"
+							}
+						],
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "9",
+									"display": "ORAAL"
+								}
+							]
+						},
+						"doseQuantity": {
+							"value": 10,
+							"unit": "milliliter",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "233"
+						}
+					}
+				],
+				"id": "5d4d1e6b-b3e0-40c0-abe1-09c992e72697"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:7cc44574-9dd2-46c2-a0ec-67ae7db0833a",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9edf29f1-ce44-4d21-9f1c-aab512395515"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "urn:uuid:4eda95a1-2692-11ec-5276-005056bc1480"
+						}
+					],
+					"versionId": "a7f4efaa-c045-41a6-8485-bc018686b72a",
+					"lastUpdated": "2021-10-06T10:44:13.567+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-04-16T00:00:00+02:00",
+							"end": "2021-05-15T00:00:00+02:00"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.16",
+							"value": "63ee24bd-fafb-4069-aac2-41f7952b288e"
+						}
+					}
+				],
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.4",
+						"value": "ccd07fd1-4843-4a5b-a597-2eadc9a6bb5e"
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "urn:oid:2.16.840.1.113883.2.4.4.10.3956",
+					"display": "ACETYLSALICYLZUUR TABLET 100MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "S. XXX_Jankie"
+				},
+				"authoredOn": "2021-04-26T14:11:30+02:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "urn:uuid:4eda9580-2692-11ec-5276-005056bc1480",
+									"display": "fmv f.f.m.v. admin || T\u00e9st Zorginstelling 01"
+								}
+							}
+						],
+						"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1123456",
+						"display": "fmv f.f.m.v. admin"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 1,
+						"text": "Vanaf 16-04-2021 00:00, gedurende 29 dagen, 1 maal per dag 3 stuks \"(= 300 mg) \", oraal.",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/NullFlavor",
+										"code": "OTH",
+										"display": "overig"
+									}
+								],
+								"text": "(= 300 mg)"
+							}
+						],
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "9",
+									"display": "ORAAL"
+								}
+							]
+						},
+						"doseQuantity": {
+							"value": 3,
+							"unit": "stuk",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "245"
+						}
+					}
+				],
+				"id": "7cc44574-9dd2-46c2-a0ec-67ae7db0833a"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:89b21bb2-10fe-4bf6-88cf-491372a331a3",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9edf29f1-ce44-4d21-9f1c-aab512395515"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "urn:uuid:4eda957a-2692-11ec-5276-005056bc1480"
+						}
+					],
+					"versionId": "a8d6ee9f-c1b1-48c1-bd18-0a6908317b52",
+					"lastUpdated": "2021-10-06T10:44:13.466+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-03-08T00:00:00+01:00",
+							"end": "2021-03-15T00:00:00+01:00"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.16",
+							"value": "1a8694ea-b0c3-498d-9340-90078ba523a0"
+						}
+					}
+				],
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.4",
+						"value": "694b0c83-6d2e-45cd-a617-69862d568c95"
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "urn:oid:2.16.840.1.113883.2.4.4.10.7323",
+					"display": "ACENOCOUMAROL TABLET 1MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "S. XXX_Jankie"
+				},
+				"authoredOn": "2021-04-26T14:10:40+02:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "urn:uuid:4eda9580-2692-11ec-5276-005056bc1480",
+									"display": "fmv f.f.m.v. admin || T\u00e9st Zorginstelling 01"
+								}
+							}
+						],
+						"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1123456",
+						"display": "fmv f.f.m.v. admin"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 1,
+						"text": "Vanaf 08-03-2021 00:00, gedurende 7 dagen, 1 maal per dag, oraal.",
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "9",
+									"display": "ORAAL"
+								}
+							]
+						}
+					}
+				],
+				"id": "89b21bb2-10fe-4bf6-88cf-491372a331a3"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:a752a1e6-db39-40f7-963a-812de08763b5",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9edf29f1-ce44-4d21-9f1c-aab512395515"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "urn:uuid:4eda9ff5-2692-11ec-5276-005056bc1480"
+						}
+					],
+					"versionId": "1804582f-5542-457a-8018-536133873d74",
+					"lastUpdated": "2021-10-06T10:44:13.425+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-04-06T00:00:00+02:00",
+							"end": "2021-05-05T00:00:00+02:00"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.16",
+							"value": "48573ad1-669d-43bd-a79f-69f17598450e"
+						}
+					}
+				],
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.4",
+						"value": "405db746-edd0-4b48-8b27-a9a428124d38"
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/98c17222-dac9-4e3a-9685-0a159d732302",
+					"display": "IBUPROFEN TABLET 600MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "S. XXX_Jankie"
+				},
+				"authoredOn": "2021-04-26T14:12:17+02:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "urn:uuid:4eda9580-2692-11ec-5276-005056bc1480",
+									"display": "fmv f.f.m.v. admin || T\u00e9st Zorginstelling 01"
+								}
+							}
+						],
+						"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1123456",
+						"display": "fmv f.f.m.v. admin"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 1,
+						"text": "Vanaf 06-04-2021 00:00, gedurende 29 dagen, 1 maal per dag 2 tabletten \"(= 1200 mg) \", oraal.",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/NullFlavor",
+										"code": "OTH",
+										"display": "overig"
+									}
+								],
+								"text": "(= 1200 mg)"
+							}
+						],
+						"timing": {
+							"repeat": {
+								"frequency": 1,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "9",
+									"display": "ORAAL"
+								}
+							]
+						},
+						"doseQuantity": {
+							"value": 2,
+							"unit": "stuk",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "245"
+						}
+					}
+				],
+				"id": "a752a1e6-db39-40f7-963a-812de08763b5"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2a7b4240-4586-466a-9495-673ffdbdb556",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9edf29f1-ce44-4d21-9f1c-aab512395515"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "urn:uuid:4edaa079-2692-11ec-5276-005056bc1480"
+						}
+					],
+					"versionId": "28f5ebdd-68a3-4f94-b6db-1334e7c4ad15",
+					"lastUpdated": "2021-10-06T10:44:13.236+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-03-08T00:00:00+01:00",
+							"end": "2021-04-15T00:00:00+02:00"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.16",
+							"value": "8e4e843c-3179-40fb-918b-30a8b01666b4"
+						}
+					}
+				],
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.4",
+						"value": "79c59689-6587-4d6b-96ab-90324c5027ca"
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/d48eb90f-5df3-44f7-a8d7-46b1a76d48c3",
+					"display": "CENAMAN DRINK AARDBEI"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "S. XXX_Jankie"
+				},
+				"authoredOn": "2021-04-26T14:14:27+02:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "urn:uuid:4eda9580-2692-11ec-5276-005056bc1480",
+									"display": "fmv f.f.m.v. admin || T\u00e9st Zorginstelling 01"
+								}
+							}
+						],
+						"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1123456",
+						"display": "fmv f.f.m.v. admin"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 1,
+						"text": "Vanaf 08-03-2021 00:00, gedurende 38 dagen, 2 maal per dag 50 milliliter, oraal (niet geregistreerd).",
+						"timing": {
+							"repeat": {
+								"frequency": 2,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "9",
+									"display": "ORAAL"
+								}
+							]
+						},
+						"doseQuantity": {
+							"value": 50,
+							"unit": "milliliter",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "233"
+						}
+					}
+				],
+				"id": "2a7b4240-4586-466a-9495-673ffdbdb556"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:15144b34-cf29-4a1d-9087-d8d4552525b7",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9edf29f1-ce44-4d21-9f1c-aab512395515"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "urn:uuid:4edaa021-2692-11ec-5276-005056bc1480"
+						}
+					],
+					"versionId": "ab6096d3-95c1-4f6b-8eca-e5068d0b2ed8",
+					"lastUpdated": "2021-10-06T10:44:12.906+00:00"
+				},
+				"extension": [
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-PeriodOfUse",
+						"valuePeriod": {
+							"start": "2021-04-21T00:00:00+02:00",
+							"end": "2021-04-27T00:00:00+02:00"
+						}
+					},
+					{
+						"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Medication-MedicationTreatment",
+						"valueIdentifier": {
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.16",
+							"value": "947a0d55-faaf-4b5c-9c50-23d4d884acda"
+						}
+					}
+				],
+				"identifier": [
+					{
+						"system": "urn:oid:2.16.840.1.113883.2.4.3.140.1.4",
+						"value": "ee087ece-f2cc-444c-a655-876de7f3a417"
+					}
+				],
+				"intent": "order",
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Medicatieafspraak"
+				},
+				"medicationReference": {
+					"reference": "http:\/\/fhircore:4080\/Medication\/5445a873-4982-4504-9aff-377ba427c5ba",
+					"display": "OXAZEPAM TABLET 10MG"
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "S. XXX_Jankie"
+				},
+				"authoredOn": "2021-04-26T14:12:56+02:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "urn:uuid:4eda9580-2692-11ec-5276-005056bc1480",
+									"display": "fmv f.f.m.v. admin || T\u00e9st Zorginstelling 01"
+								}
+							}
+						],
+						"reference": "urn:oid:2.16.840.1.113883.2.4.6.1.1123456",
+						"display": "fmv f.f.m.v. admin"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"sequence": 1,
+						"text": "Vanaf 21-04-2021 00:00, gedurende 6 dagen, 2 maal per dag 2 tabletten \"(= 20 mg) \", oraal.",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "http:\/\/hl7.org\/fhir\/v3\/NullFlavor",
+										"code": "OTH",
+										"display": "overig"
+									}
+								],
+								"text": "(= 20 mg)"
+							}
+						],
+						"timing": {
+							"repeat": {
+								"frequency": 2,
+								"period": 1,
+								"periodUnit": "d"
+							}
+						},
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "9",
+									"display": "ORAAL"
+								}
+							]
+						},
+						"doseQuantity": {
+							"value": 2,
+							"unit": "stuk",
+							"system": "urn:oid:2.16.840.1.113883.2.4.4.1.900.2",
+							"code": "245"
+						}
+					}
+				],
+				"id": "15144b34-cf29-4a1d-9087-d8d4552525b7"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:db75929c-d2e0-417b-8bb0-ef1f35ef33ee",
+			"resource": {
+				"resourceType": "MedicationRequest",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-MedicationAgreement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "30b061ee-f980-4cde-ba3c-93501e4222f4"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "45fd2913-5e14-43e9-8f1f-d46b431e9fbb"
+						}
+					],
+					"versionId": "a0864c14-5740-43ab-a550-2bf4f2fd7d49",
+					"lastUpdated": "2021-10-06T10:32:55.166+00:00"
+				},
+				"status": "active",
+				"identifier": [
+					{
+						"value": "875452574"
+					}
+				],
+				"category": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "16076005",
+							"display": "Prescription (procedure)"
+						}
+					],
+					"text": "Prescription"
+				},
+				"intent": "order",
+				"medicationReference": {
+					"reference": "https:\/\/mm.dvza.za.drimpy.com\/Medication\/6c9a10d2-680a-46c6-8e2e-354968698117",
+					"display": "ABARELIX PDR V INJSUSP 100MG FL PRK 100390"
+				},
+				"authoredOn": "2020-02-05T10:00:00+01:00",
+				"requester": {
+					"agent": {
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "https:\/\/mm.dvza.za.drimpy.com\/PractitionerRole\/"
+								}
+							}
+						],
+						"reference": "https:\/\/mm.dvza.za.drimpy.com\/Practitioner\/"
+					}
+				},
+				"dispenseRequest": {
+					"validityPeriod": {
+						"start": "2020-02-05"
+					},
+					"expectedSupplyDuration": {
+						"value": 30,
+						"unit": "day",
+						"system": "http:\/\/unitsofmeasure.org",
+						"code": "d"
+					}
+				},
+				"dosageInstruction": [
+					{
+						"route": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "000021",
+									"display": "SUBCUTAAN"
+								}
+							]
+						},
+						"text": "pillen om te proberen",
+						"additionalInstruction": [
+							{
+								"coding": [
+									{
+										"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-25-gebruiksvoorschrift#aanvullend-numeriek",
+										"code": "1145",
+										"display": "Bij koorts"
+									}
+								]
+							}
+						]
+					}
+				],
+				"reasonCode": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "473010000",
+								"display": "Overgevoeligheid"
+							}
+						]
+					}
+				],
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"id": "db75929c-d2e0-417b-8bb0-ef1f35ef33ee"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2c3d5023-0f21-4b59-8e80-7e3662ae3f39",
+			"resource": {
+				"resourceType": "Immunization",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-Vaccination"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "c4bce688-da69-43dd-b5c8-493ba1fb61e7"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "e51f05cc-fad3-4ed2-b72b-4ab02c4b1a5c"
+						}
+					],
+					"versionId": "89ff9ad9-cb40-4bc2-8e41-582412fc981b",
+					"lastUpdated": "2021-10-06T10:32:54.992+00:00"
+				},
+				"status": "completed",
+				"notGiven": false,
+				"primarySource": true,
+				"vaccineCode": {
+					"coding": [
+						{
+							"system": "http:\/\/www.whocc.no\/atc",
+							"code": "J07BC20",
+							"display": "hepatitis A+B-vaccin (J07BC20)"
+						}
+					]
+				},
+				"patient": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"date": "1999-06-05",
+				"practitioner": [
+					{
+						"actor": {
+							"reference": "https:\/\/mm.dvza.za.drimpy.com\/Practitioner\/9ef8d528-c99a-4e1a-9953-febf9a8222fb",
+							"display": "SADZA-KURVERS"
+						}
+					}
+				],
+				"note": [
+					{
+						"text": "indien op reis dan inenten"
+					}
+				],
+				"identifier": [
+					{
+						"use": "secondary",
+						"system": "http:\/\/fhir.drimpy.com\/NamingSystem\/answersetid",
+						"value": "28"
+					}
+				],
+				"doseQuantity": {
+					"value": 2
+				},
+				"id": "2c3d5023-0f21-4b59-8e80-7e3662ae3f39"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5e559d9e-8a75-4a66-a573-20aa7ee6120e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.3215614750.33748.16738.166.46.28.3.173.6.122.222",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.3215614750.33748.16738.166.46.28.3.173.6.122.222"
+						}
+					],
+					"versionId": "950256d4-2615-41ff-b646-f36c55ac21f7",
+					"lastUpdated": "2021-10-06T11:09:40.998+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "291",
+							"display": "erytrocyten"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.2588770452.15933.18657.131.84.164.15.186.155.209.57"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueString": "12,0",
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"id": "5e559d9e-8a75-4a66-a573-20aa7ee6120e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:405424d0-26a9-4c0a-bca3-040d97e6f0c1",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.3599905405.40320.19322.154.81.201.18.123.209.180.223",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.3599905405.40320.19322.154.81.201.18.123.209.180.223"
+						}
+					],
+					"versionId": "589111dd-057d-40f8-8e75-0a30d01c9951",
+					"lastUpdated": "2021-10-06T11:09:40.627+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "291",
+							"display": "erytrocyten"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.1655162094.65143.16863.131.229.0.20.116.121.16.71"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueString": "12,0",
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"id": "405424d0-26a9-4c0a-bca3-040d97e6f0c1"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:2ab7d1bf-e8e4-40fc-9f5b-39e70c68b5cd",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.2748269756.54424.19784.177.123.211.54.108.14.174.110",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.2748269756.54424.19784.177.123.211.54.108.14.174.110"
+						}
+					],
+					"versionId": "28772b78-977a-426a-a97a-c0d65e793d75",
+					"lastUpdated": "2021-10-06T11:09:40.558+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "1919",
+							"display": "eGFR volgens MDRD formule"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.4093587443.5523.18067.180.86.110.8.177.245.217.215"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 77,
+					"unit": "ml\/min\/1,73m2"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60
+						},
+						"high": {
+							"value": 500
+						}
+					}
+				],
+				"id": "2ab7d1bf-e8e4-40fc-9f5b-39e70c68b5cd"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:d1aa029d-e5d6-49f9-9818-22d17b52512e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.3965345253.38370.18555.128.226.131.5.250.169.109.65",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-DiagnosticResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.3965345253.38370.18555.128.226.131.5.250.169.109.65"
+						}
+					],
+					"versionId": "8a9c9ec8-5756-42a3-99a1-e4cc371c8a80",
+					"lastUpdated": "2021-10-06T11:09:40.473+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "1740",
+							"display": "diastolische bloeddruk"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.4131984527.3483.16456.152.86.94.193.166.47.104.215"
+				},
+				"effectiveDateTime": "2021-06-10",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 80,
+					"unit": "mmHg",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mm[Hg]"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"high": {
+							"value": 89,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					}
+				],
+				"id": "d1aa029d-e5d6-49f9-9818-22d17b52512e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ec8c5d11-da26-44d2-be4b-75733bd3de91",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.1307602523.47494.20215.190.116.53.221.46.123.93.129",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.1307602523.47494.20215.190.116.53.221.46.123.93.129"
+						}
+					],
+					"versionId": "ee9907ae-ff23-40b4-a66d-fd63f5df4f66",
+					"lastUpdated": "2021-10-06T11:09:40.440+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "3583",
+							"display": "eGFR volgens CKD-EPI formule"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.150648007.2120.17971.149.254.179.155.184.188.73.168"
+				},
+				"effectiveDateTime": "2021-06-29",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 83,
+					"unit": "ml\/min\/1,73m2"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60
+						},
+						"high": {
+							"value": 500
+						}
+					}
+				],
+				"id": "ec8c5d11-da26-44d2-be4b-75733bd3de91"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:d3de905d-6c36-41b5-b0f5-30291dd5378f",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.2078454011.18311.19577.174.141.251.109.104.196.195.171",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-DiagnosticResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.2078454011.18311.19577.174.141.251.109.104.196.195.171"
+						}
+					],
+					"versionId": "7f2d49ba-47d0-4b4f-9a5e-3790dc481e3f",
+					"lastUpdated": "2021-10-06T11:09:40.390+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "1744",
+							"display": "systolische bloeddruk"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.1229179805.53936.17834.136.91.239.79.58.173.26.217"
+				},
+				"effectiveDateTime": "2021-06-10",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 120,
+					"unit": "mmHg",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mm[Hg]"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"high": {
+							"value": 140,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					}
+				],
+				"id": "d3de905d-6c36-41b5-b0f5-30291dd5378f"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:8867783f-94c9-402c-924e-b60be0dfa4f3",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.694316183.424.18423.177.21.133.248.230.188.217.167",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-DiagnosticResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.694316183.424.18423.177.21.133.248.230.188.217.167"
+						}
+					],
+					"versionId": "48bc37e2-c703-47ae-8fe9-f74865b054b5",
+					"lastUpdated": "2021-10-06T11:09:40.359+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "1744",
+							"display": "systolische bloeddruk"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.4131984527.3483.16456.152.86.94.193.166.47.104.215"
+				},
+				"effectiveDateTime": "2021-06-10",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 120,
+					"unit": "mmHg",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mm[Hg]"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"high": {
+							"value": 140,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					}
+				],
+				"id": "8867783f-94c9-402c-924e-b60be0dfa4f3"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:e8367f0d-b508-45ed-8ca9-864317fcefc8",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.2409303944.19655.19047.182.216.44.121.239.141.9.44",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.2409303944.19655.19047.182.216.44.121.239.141.9.44"
+						}
+					],
+					"versionId": "f1d90e0f-29af-48d2-9240-1bd287c90dba",
+					"lastUpdated": "2021-10-06T11:09:40.284+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "1919",
+							"display": "eGFR volgens MDRD formule"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.150648007.2120.17971.149.254.179.155.184.188.73.168"
+				},
+				"effectiveDateTime": "2021-06-29",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 77,
+					"unit": "ml\/min\/1,73m2"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60
+						},
+						"high": {
+							"value": 500
+						}
+					}
+				],
+				"id": "e8367f0d-b508-45ed-8ca9-864317fcefc8"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:cacea603-f0d4-4fbf-b895-1dbaac28e18f",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.1832977965.60545.17831.172.151.112.250.137.70.33.14",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-DiagnosticResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.1832977965.60545.17831.172.151.112.250.137.70.33.14"
+						}
+					],
+					"versionId": "35987bd8-e15d-4f01-8475-7993879ebdcb",
+					"lastUpdated": "2021-10-06T11:09:40.256+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "1740",
+							"display": "diastolische bloeddruk"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.1229179805.53936.17834.136.91.239.79.58.173.26.217"
+				},
+				"effectiveDateTime": "2021-06-10",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 80,
+					"unit": "mmHg",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mm[Hg]"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"high": {
+							"value": 89,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					}
+				],
+				"id": "cacea603-f0d4-4fbf-b895-1dbaac28e18f"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:023f7afe-d66b-4118-906e-0273bffa6075",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.2509303838.12687.16794.188.161.155.100.19.186.250.104",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.2509303838.12687.16794.188.161.155.100.19.186.250.104"
+						}
+					],
+					"versionId": "18e95966-19f5-41f0-9d1f-c18e4b5a64ce",
+					"lastUpdated": "2021-10-06T11:09:40.215+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "372",
+							"display": "glucose nuchter, veneus (lab)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.2588770452.15933.18657.131.84.164.15.186.155.209.57"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 5,
+					"unit": "mmol\/l",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mmol\/L"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 4,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						},
+						"high": {
+							"value": 6.1,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						}
+					}
+				],
+				"id": "023f7afe-d66b-4118-906e-0273bffa6075"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:17b3be19-88fe-4e2e-aef1-44c40b1228b7",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.897755823.8678.18797.143.19.188.108.26.150.109.97",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.897755823.8678.18797.143.19.188.108.26.150.109.97"
+						}
+					],
+					"versionId": "7d7d78aa-4580-4e84-a1cd-2ea49758834a",
+					"lastUpdated": "2021-10-06T11:09:40.174+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "523",
+							"display": "creatinine"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.2588770452.15933.18657.131.84.164.15.186.155.209.57"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 67,
+					"unit": "micromol\/l"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60
+						},
+						"high": {
+							"value": 110
+						}
+					}
+				],
+				"id": "17b3be19-88fe-4e2e-aef1-44c40b1228b7"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:1f483017-e91b-4eb3-b0f6-2da718f70eda",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.1742239170.30514.17424.152.125.127.241.56.9.72.86",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.1742239170.30514.17424.152.125.127.241.56.9.72.86"
+						}
+					],
+					"versionId": "0551f960-b204-4df1-b80b-10b308408b78",
+					"lastUpdated": "2021-10-06T11:09:40.132+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "523",
+							"display": "creatinine"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.1655162094.65143.16863.131.229.0.20.116.121.16.71"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 67,
+					"unit": "micromol\/l"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60
+						},
+						"high": {
+							"value": 110
+						}
+					}
+				],
+				"id": "1f483017-e91b-4eb3-b0f6-2da718f70eda"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:26e98123-f7a8-48c7-8db3-4c84aebe0d65",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.3047517911.64015.19866.167.113.135.208.138.0.42.124",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.3047517911.64015.19866.167.113.135.208.138.0.42.124"
+						}
+					],
+					"versionId": "591f3661-3c8c-40c5-87d1-f80857e2c203",
+					"lastUpdated": "2021-10-06T11:09:37.676+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "3583",
+							"display": "eGFR volgens CKD-EPI formule"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.4093587443.5523.18067.180.86.110.8.177.245.217.215"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 83,
+					"unit": "ml\/min\/1,73m2"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60
+						},
+						"high": {
+							"value": 500
+						}
+					}
+				],
+				"id": "26e98123-f7a8-48c7-8db3-4c84aebe0d65"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:81a0ff23-4903-479a-8ec2-c1fcd26f05b2",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"id": "Observation\/33.3929790753.32472.19466.185.97.163.74.248.124.188.211",
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/gp-LaboratoryResult"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "7d285b0b-56ee-4dfc-8e48-789f993d52ad"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "33.3929790753.32472.19466.185.97.163.74.248.124.188.211"
+						}
+					],
+					"versionId": "ea13d941-f0c4-490a-bacb-d6ef8ddccb05",
+					"lastUpdated": "2021-10-06T11:09:37.618+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "https:\/\/referentiemodel.nhg.org\/tabellen\/nhg-tabel-45-diagnostische-bepalingen",
+							"code": "372",
+							"display": "glucose nuchter, veneus (lab)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "A.L.M. (Janny) Gr\u00ebc\u00f3wich"
+				},
+				"context": {
+					"reference": "http:\/\/fhircore:4080\/Encounter\/33.1655162094.65143.16863.131.229.0.20.116.121.16.71"
+				},
+				"effectiveDateTime": "2021-06-01",
+				"performer": [
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/practitionerrole-reference",
+								"valueReference": {
+									"reference": "http:\/\/fhircore:4080\/PractitionerRole\/4bc30f61-f834-4563-93e0-3b277961dc4b",
+									"display": "A van Toor"
+								}
+							}
+						],
+						"reference": "http:\/\/fhircore:4080\/Practitioner\/b3df7d58-e9d8-440e-a76c-c242f35fd46c",
+						"display": "A van Toor"
+					}
+				],
+				"valueQuantity": {
+					"value": 5,
+					"unit": "mmol\/l",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mmol\/L"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "https:\/\/www.hl7.org\/fhir\/DSTU2\/valueset-observation-interpretation.html",
+							"code": "N",
+							"display": "Normaal"
+						}
+					]
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 4,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						},
+						"high": {
+							"value": 6.1,
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						}
+					}
+				],
+				"id": "81a0ff23-4903-479a-8ec2-c1fcd26f05b2"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:40e0af9b-10c9-4442-98cb-578e47856a2e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-BloodPressure"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "2a9b0860-508b-47b0-96da-dbc3dcff97b5"
+						}
+					],
+					"versionId": "7c6d04c2-131d-417a-a48d-03337d6af023",
+					"lastUpdated": "2021-10-06T10:32:58.553+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "vital-signs",
+								"display": "Vital Signs"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "85354-9",
+							"display": "Blood pressure panel with all children optional"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectiveDateTime": "2009-08-08T00:00:00+01:00",
+				"performer": [
+					{
+						"reference": "https:\/\/mm.dvza.za.drimpy.com\/Practitioner\/9ef8d528-c99a-4e1a-9953-febf9a8222fb",
+						"display": "SADZA-KURVERS"
+					}
+				],
+				"comment": "kon ader niet makkelijk vinden",
+				"bodySite": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "40983000",
+							"display": "Bovenarm"
+						}
+					]
+				},
+				"method": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "22762002",
+							"display": "Niet-invasief"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "8480-6",
+									"display": "Systolic blood pressure"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 80,
+							"unit": "mmHg",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/loinc.org",
+									"code": "8462-4",
+									"display": "Diastolic blood pressure"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 120,
+							"unit": "mmHg",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mm[Hg]"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "70665002",
+									"display": "Blood pressure cuff"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+									"code": "STD",
+									"display": "Standaard (Standaard manchet voor een volwassene (manchet 16x30 cm)"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "424724000",
+									"display": "Body position for blood pressure measurememt"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "10904000",
+									"display": "Staande positie"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "85549033",
+									"display": "Korotkoff sounds"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "Fase IV",
+									"display": "Fase IV"
+								}
+							]
+						}
+					}
+				],
+				"id": "40e0af9b-10c9-4442-98cb-578e47856a2e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:be54387a-95b4-447b-ac8c-decb0385eac1",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-DrugUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "4bd761a2-4e4e-47da-98e5-5e8a0c5f5c3f"
+						}
+					],
+					"versionId": "09ec302f-8a9d-4227-a2ee-cb759b3eac7a",
+					"lastUpdated": "2021-10-06T10:32:58.339+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "social-history",
+								"display": "Social History"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228366006",
+							"display": "Finding relating to drug misuse behavior (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2018",
+					"end": "2019"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "44870007",
+							"display": "heeft in het verleden drugs gebruikt"
+						}
+					]
+				},
+				"comment": "in het verleden af en toe gebruikt",
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410942007",
+									"display": "Drug or medicament (substance)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "703842006",
+									"display": "Amfetamine, speed"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410675002",
+									"display": "Route of administration (attribute)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "6",
+									"display": "nasaal (snuiven)"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "228390007",
+									"display": "Frequency of drug misuse (observable entity)"
+								}
+							]
+						},
+						"valueString": "1 per dag"
+					}
+				],
+				"id": "be54387a-95b4-447b-ac8c-decb0385eac1"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:36bd24bd-d727-4c03-bb18-a94dbdbb4119",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FunctionalOrMentalStatus"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "409d3289-3015-4ace-ba36-15e530b55c0a"
+						}
+					],
+					"versionId": "9e29dba5-be71-42fa-9c62-ce1f667e2cba",
+					"lastUpdated": "2021-10-06T10:32:58.123+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "118228005",
+								"display": "Functional finding (finding)"
+							},
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "384821006",
+								"display": "Mental state, behavior and\/or psychosocial function finding (finding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "32572006",
+							"display": "fysieke beperking"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2015"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "162252005",
+							"display": "spraakbeperking"
+						}
+					]
+				},
+				"comment": "doofstom",
+				"id": "36bd24bd-d727-4c03-bb18-a94dbdbb4119"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:1db953df-aef7-4490-bb9d-da16cb4c2527",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-TobaccoUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "7ec8c5fa-34ba-4857-9fc8-bb6583cd833e"
+						}
+					],
+					"versionId": "de6f6160-0b0f-4dde-b9db-71e15c595fc4",
+					"lastUpdated": "2021-10-06T10:32:55.225+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365980008",
+							"display": "Finding of tobacco use and exposure (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2006",
+					"end": "2017"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "449868002",
+							"display": "Rookt dagelijks"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "53661000146106",
+									"display": "Type of tobacco used (observable entity)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "65568007",
+									"display": "Rookt sigaretten"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "266918002",
+									"display": "Tobacco smoking consumption (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 50,
+							"unit": "cigarettepacks\/week",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{cigarette packs}\/wk"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "401201003",
+									"display": "Cigarette pack-years (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 50,
+							"unit": "PackYears",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{PackYears}"
+						}
+					}
+				],
+				"id": "1db953df-aef7-4490-bb9d-da16cb4c2527"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:fc31007c-9e0a-49ea-a607-6bbfc453871d",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "be383989-984b-4481-b3bc-0c5dba407987"
+						}
+					],
+					"versionId": "2b7aed0c-0725-4009-8ce0-39fb82328dbc",
+					"lastUpdated": "2021-10-06T10:32:55.152+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "19851009",
+								"display": "Microbiologie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "2069-3",
+							"display": "Chloride [Moles\/volume] in Blood"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectiveDateTime": "2020-03-14T10:00:00+01:00",
+				"valueQuantity": {
+					"value": 2,
+					"unit": "mg\/mmol",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mg\/mmol"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281302008",
+							"display": "Boven referentiewaarde"
+						}
+					]
+				},
+				"specimen": {
+					"reference": "https:\/\/mm.dvza.za.drimpy.com\/Specimen\/c13991cb-547b-4ded-903e-618664e70c35",
+					"display": "bloed (substantie)"
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 60,
+							"unit": "mg\/mmol",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mg\/mmol"
+						},
+						"high": {
+							"value": 50,
+							"unit": "mg\/mmol",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mg\/mmol"
+						}
+					}
+				],
+				"id": "fc31007c-9e0a-49ea-a607-6bbfc453871d"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:3c935e03-4c44-4c89-ac93-57513772b167",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AlcoholUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "6aad63ca-ac55-4882-bc00-7bb3e30e44ef"
+						}
+					],
+					"versionId": "941d44f7-2da0-4301-adba-aee8eee495c6",
+					"lastUpdated": "2021-10-06T10:32:55.023+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228273003",
+							"display": "Finding relating to alcohol drinking behavior (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectivePeriod": {
+					"start": "2017",
+					"end": "2018"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "219006",
+							"display": "Drinkt alcohol"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "160573003",
+									"display": "Alcohol intake (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 1,
+							"unit": "glasses\/week",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{glasses}\/wk"
+						}
+					}
+				],
+				"id": "3c935e03-4c44-4c89-ac93-57513772b167"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:26d230b4-57cf-4dd3-9884-489d27ef6a32",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LivingSituation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cebe5a83-e9cd-4a39-aa2e-f6ba8ce461c8"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "bd4e01a5-8a23-4de1-8e2e-661d81854a6b"
+						}
+					],
+					"versionId": "1f81617b-0521-4b9e-80b1-16fdacfdaa02",
+					"lastUpdated": "2021-10-06T10:32:54.859+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365508006",
+							"display": "Finding of residence and accommodation circumstances (finding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Ellen XXX_Baltus"
+				},
+				"effectiveDateTime": "2012-02-05",
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.13.1",
+							"code": "BENEDENW",
+							"display": "Benedenwoning"
+						}
+					]
+				},
+				"comment": "eigen deur en tuin",
+				"id": "26d230b4-57cf-4dd3-9884-489d27ef6a32"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:375af44b-fa99-4874-a346-56b9d20ea3bb",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FamilySituation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "c2d8d8d0-0a83-41ef-a8f6-b98013c46391"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10020"
+						}
+					],
+					"versionId": "f394bc40-c55b-47fe-af3d-bc664d760a8f",
+					"lastUpdated": "2021-10-06T10:03:58.157+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365470003",
+							"display": "bevinding betreffende gegevens over gezin en gezinssamenstelling (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "224130005",
+									"display": "Household composition (observable entity)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "408821002",
+									"display": "Samenwonend met partner"
+								}
+							],
+							"text": "Samenwonend met partner"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "224118004",
+									"display": "Aantal nakomelingen (waarneembare entiteit))"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 1
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "55811000146107",
+									"display": "Number of children living at home (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 0
+						}
+					},
+					{
+						"extension": [
+							{
+								"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FamilySituation-LivingAtHomeIndicator",
+								"valueBoolean": false
+							}
+						],
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "67822003",
+									"display": "Kind"
+								}
+							]
+						},
+						"valueDateTime": "1990-10-31T00:00:00+01:00"
+					}
+				],
+				"id": "375af44b-fa99-4874-a346-56b9d20ea3bb"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:1df23af5-505e-496f-b4e9-112a50468507",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10007"
+						}
+					],
+					"versionId": "fbe7e96c-ad99-434e-b9cd-91a0049a7786",
+					"lastUpdated": "2021-10-06T10:03:57.787+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281117004",
+							"display": "Health of the Nation Outcome Scale item 3 - alcohol\/drug problem (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 1,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "1df23af5-505e-496f-b4e9-112a50468507"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:48bb8c5c-ea40-4685-8cba-5063aba4c5b0",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-ParticipationInSociety"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "29f4a0af-3efe-4752-8993-e86ca76c76e5"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10033"
+						}
+					],
+					"versionId": "7ece0fbc-2423-436a-9ec2-0505d94f6f79",
+					"lastUpdated": "2021-10-06T10:03:58.095+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "314845004",
+							"display": "Status van participatie van pati\u00ebnt (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "365469004",
+									"display": "Bevinding betreffende netwerk van gezin, familie en ondersteuners (bevinding)"
+								}
+							]
+						},
+						"valueString": "Hechte band met echtgenote en dochter, daarbuiten beperkt sociaal contact met collega's en buren. Geen contact meer met eigen familie (ouders, twee broers)"
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "405081003",
+									"display": "Vrijetijdsgedrag (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueString": "O.a. lezen en gitaar spelen maar komt hier wegens drukke baan weinig aan toe"
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "364703007",
+									"display": "Arbeidssituatie (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueString": "Senior ICT software ontwikkelaar, stuurt team van 10 junior collega's aan als enige senior, ervaart hierdoor veel druk"
+					}
+				],
+				"id": "48bb8c5c-ea40-4685-8cba-5063aba4c5b0"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:feaa1f5e-38b9-47ae-8531-c0e5e2fe7d06",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10006"
+						}
+					],
+					"versionId": "eec67a2c-8650-491c-be08-663790d687ec",
+					"lastUpdated": "2021-10-06T10:03:57.885+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281116008",
+							"display": "Health of the Nation Outcome Scale item 2 - non-accidental self injury (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "feaa1f5e-38b9-47ae-8531-c0e5e2fe7d06"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:4debbb73-4740-4515-8489-2f82693574f8",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10008"
+						}
+					],
+					"versionId": "d5f653f5-749e-4566-ac02-e9a504c0f6f5",
+					"lastUpdated": "2021-10-06T10:03:57.835+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281118009",
+							"display": "Health of the Nation Outcome Scale item 4 - cognitive problems (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 0,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "4debbb73-4740-4515-8489-2f82693574f8"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5ba4863b-ce0e-4b7e-87de-12c4dd66c73a",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10005"
+						}
+					],
+					"versionId": "83d2dcf7-c93c-497d-934a-1179fc8d5af5",
+					"lastUpdated": "2021-10-06T10:03:57.796+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281115007",
+							"display": "Health of the Nation Outcome Scale item 1 - aggressive\/disruptive behavior (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "5ba4863b-ce0e-4b7e-87de-12c4dd66c73a"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:71b1d649-b320-433d-8b49-7ff56918ff6e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9c214fcb-61df-4128-bab7-b466998943b6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10023"
+						}
+					],
+					"versionId": "b894242c-a43b-4f52-bf34-9a118e6d34ac",
+					"lastUpdated": "2021-10-06T10:03:54.544+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "275711006",
+								"display": "Klinische chemie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "718-7",
+							"display": "Hemoglobine"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-27T22:00:00+01:00",
+				"valueQuantity": {
+					"value": 11.5,
+					"unit": "mmol\/L",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "mmol\/L"
+				},
+				"interpretation": {
+					"coding": [
+						{
+							"system": "http:\/\/hl7.org\/fhir\/v2\/0078",
+							"code": "L",
+							"display": "Low"
+						},
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281300000",
+							"display": "Onder referentiewaarde"
+						}
+					]
+				},
+				"specimen": {
+					"reference": "http:\/\/fhircore:4080\/Specimen\/ggz-specimen-Bloed",
+					"display": "Materiaal: bloed"
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 12,
+							"unit": "mmol\/L",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						},
+						"high": {
+							"value": 16,
+							"unit": "mmol\/L",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "mmol\/L"
+						}
+					}
+				],
+				"id": "71b1d649-b320-433d-8b49-7ff56918ff6e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:a855764f-6668-4426-824a-33a9c6f1da87",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10014"
+						}
+					],
+					"versionId": "742a2abc-7d35-4ecf-8de9-d5985d97d84a",
+					"lastUpdated": "2021-10-06T10:03:54.421+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281124003",
+							"display": "Health of the Nation Outcome Scale item 10 - activities of daily living (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 2,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "a855764f-6668-4426-824a-33a9c6f1da87"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:cdb701fc-8d53-43d3-a23e-7acd7b11a130",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10009"
+						}
+					],
+					"versionId": "daa60085-b93a-4d02-abc1-05ffe5970206",
+					"lastUpdated": "2021-10-06T10:03:54.390+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281119001",
+							"display": "Health of the Nation Outcome Scale item 5 - physical illness\/disability (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 1,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "cdb701fc-8d53-43d3-a23e-7acd7b11a130"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:30726b1b-55c6-4263-a3b0-1b9482b5330e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10017"
+						}
+					],
+					"versionId": "932655ac-8fbe-4bba-b7ea-5ae0994b4f47",
+					"lastUpdated": "2021-10-06T10:03:54.297+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281113000",
+							"display": "Health of the Nation Outcome Scale - summated (generic version) (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 24,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "30726b1b-55c6-4263-a3b0-1b9482b5330e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:b1366a97-6023-4f13-b4e9-cc45369eeb49",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10018"
+						}
+					],
+					"versionId": "3fc6ddaa-9c2c-4f63-8d39-d374c42f52d6",
+					"lastUpdated": "2021-10-06T10:03:54.392+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "273513009",
+							"display": "Health of the Nation Outcome Scale (generic version) (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"related": [
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10005",
+							"display": "Health of the Nation Outcome Scale item 1 - aggressive\/disruptive behavior (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10006",
+							"display": "Health of the Nation Outcome Scale item 2 - non-accidental self injury (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10007",
+							"display": "Health of the Nation Outcome Scale item 3 - alcohol\/drug problem (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10008",
+							"display": "Health of the Nation Outcome Scale item 4 - cognitive problems (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10009",
+							"display": "Health of the Nation Outcome Scale item 5 - physical illness\/disability (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10010",
+							"display": "Health of the Nation Outcome Scale item 6 - hallucinations\/delusions (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10011",
+							"display": "Health of the Nation Outcome Scale item 7 - depressed mood (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10012",
+							"display": "Health of the Nation Outcome Scale item 8 - other mental\/behavioral problems (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10013",
+							"display": "Health of the Nation Outcome Scale item 9 - relationship problems (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10014",
+							"display": "Health of the Nation Outcome Scale item 10 - activities of daily living (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10015",
+							"display": "Health of the Nation Outcome scale item 11 - living conditions (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10016",
+							"display": "Health of the Nation Outcomes scale item 12 - occupation\/activities (assessment scale)"
+						}
+					},
+					{
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10017",
+							"display": "Health of the Nation Outcome Scale - summated (generic version) (assessment scale)"
+						}
+					}
+				],
+				"id": "b1366a97-6023-4f13-b4e9-cc45369eeb49"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:5a616d45-ced8-4ce3-be2b-3ef22105cedd",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10013"
+						}
+					],
+					"versionId": "20e90fc6-640a-4f63-94b1-dcd520f4051b",
+					"lastUpdated": "2021-10-06T10:03:54.383+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281123009",
+							"display": "Health of the Nation Outcome Scale item 9 - relationship problems (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 3,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "5a616d45-ced8-4ce3-be2b-3ef22105cedd"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:b4b360f1-f1ef-41cd-a49b-e7498a10d4e4",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10015"
+						}
+					],
+					"versionId": "668f2633-1581-430e-9f4f-9b386bff3b82",
+					"lastUpdated": "2021-10-06T10:03:54.298+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281125002",
+							"display": "Health of the Nation Outcome scale item 11 - living conditions (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 0,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "b4b360f1-f1ef-41cd-a49b-e7498a10d4e4"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:f223f90e-30ab-4fbe-a9ca-2efd10431e41",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10016"
+						}
+					],
+					"versionId": "cd64ccac-a70f-40e3-8dad-d1e5834aa804",
+					"lastUpdated": "2021-10-06T10:03:54.249+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281126001",
+							"display": "Health of the Nation Outcomes scale item 12 - occupation\/activities (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 1,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "f223f90e-30ab-4fbe-a9ca-2efd10431e41"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:9960c0d1-9a80-4314-80a2-d95a18fdbfef",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10011"
+						}
+					],
+					"versionId": "d445a30b-7a5e-479d-a797-c38f39eab1d0",
+					"lastUpdated": "2021-10-06T10:03:54.198+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281121006",
+							"display": "Health of the Nation Outcome Scale item 7 - depressed mood (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "9960c0d1-9a80-4314-80a2-d95a18fdbfef"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:7c0932e3-5f93-4d2e-ab93-ec00754bd0df",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10010"
+						}
+					],
+					"versionId": "01d2cb1a-8ab7-4f44-aada-505f1fcc1a54",
+					"lastUpdated": "2021-10-06T10:03:54.117+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "81120007",
+							"display": "Health of the Nation Outcome Scale item 6 - hallucinations\/delusions (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 0,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "7c0932e3-5f93-4d2e-ab93-ec00754bd0df"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:65292965-cd76-4a09-9a21-b6c0bfb92837",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-GeneralMeasurement"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "cd547cd5-6cb8-49c4-9a40-aa8aa571307c"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10012"
+						}
+					],
+					"versionId": "fb12f086-37de-49fc-954f-58ac126c4f4f",
+					"lastUpdated": "2021-10-06T10:03:54.072+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.15.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/hl7.org\/fhir\/observation-category",
+								"code": "survey",
+								"display": "survey"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "281122004",
+							"display": "Health of the Nation Outcome Scale item 8 - other mental\/behavioral problems (assessment scale)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-28T00:00:00+01:00",
+				"valueQuantity": {
+					"value": 4,
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "{score}"
+				},
+				"id": "65292965-cd76-4a09-9a21-b6c0bfb92837"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:12959180-2623-43f5-9793-a5632462f44e",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-TobaccoUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "87a102d3-85b1-4924-99d1-d4d85e2d4185"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10004"
+						}
+					],
+					"versionId": "92da2135-61cc-4790-825f-c501d6297049",
+					"lastUpdated": "2021-10-06T10:03:52.027+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365980008",
+							"display": "Bevinding betreffende tabakgebruik en blootstelling aan tabaksrook (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "1981-05-26T00:00:00+02:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "449868002",
+							"display": "Rookt dagelijks"
+						}
+					]
+				},
+				"comment": "Echtgenote rookt ook",
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "53661000146106",
+									"display": "Type of tobacco used (observable entity)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "65568007",
+									"display": "Rookt sigaretten"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "266918002",
+									"display": "Tobacco smoking consumption (observable entity)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 5,
+							"unit": "sigaretten per dag",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{sigarets}\/d"
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "401201003",
+									"display": "Pakjaren (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 10,
+							"unit": "PackYears",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{PackYears}"
+						}
+					}
+				],
+				"id": "12959180-2623-43f5-9793-a5632462f44e"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:903c8f2e-052b-499e-bc16-f9497e35cc60",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9c214fcb-61df-4128-bab7-b466998943b6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10025"
+						}
+					],
+					"versionId": "b66fec52-f9f0-4f98-a5bb-752db67f7738",
+					"lastUpdated": "2021-10-06T10:03:51.959+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "275711006",
+								"display": "Klinische chemie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "24360-0",
+							"display": "hemoglobine and hematocriet panel"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-27T22:00:00+01:00",
+				"specimen": {
+					"reference": "http:\/\/fhircore:4080\/Specimen\/ggz-specimen-Bloed",
+					"display": "Materiaal: bloed"
+				},
+				"related": [
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10023",
+							"display": "Hemoglobine"
+						}
+					},
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "http:\/\/fhircore:4080\/Observation\/10024",
+							"display": "Hematocriet"
+						}
+					}
+				],
+				"id": "903c8f2e-052b-499e-bc16-f9497e35cc60"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:fbdf683d-7748-451d-b79c-d85d1d2571cc",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-DrugUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "be5d548b-0b9e-4961-9699-d1070ac460f4"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10019"
+						}
+					],
+					"versionId": "0e5c6320-c53b-471b-ab30-6260aa2a8311",
+					"lastUpdated": "2021-10-06T10:03:51.903+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228366006",
+							"display": "Bevinding betreffende drugsgebruik (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "1981-05-26T00:00:00+02:00",
+					"end": "2000-05-26T00:00:00+02:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "44870007",
+							"display": "heeft in het verleden drugs gebruikt"
+						}
+					]
+				},
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410942007",
+									"display": "Drug of geneesmiddel (substantie)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "398705004",
+									"display": "Cannabis (substance)"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "410675002",
+									"display": "Toedieningsweg (attribuut)"
+								}
+							]
+						},
+						"valueCodeableConcept": {
+							"coding": [
+								{
+									"system": "urn:oid:2.16.840.1.113883.2.4.4.9",
+									"code": "62",
+									"display": "INHALATIE"
+								}
+							]
+						}
+					},
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "228390007",
+									"display": "Frequency of drug misuse (observable entity)"
+								}
+							]
+						},
+						"valueString": "1 keer per dag"
+					}
+				],
+				"id": "fbdf683d-7748-451d-b79c-d85d1d2571cc"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:4ad7bc15-061a-4b91-a382-e34710018b28",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-LaboratoryTestResult-Observation"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "9c214fcb-61df-4128-bab7-b466998943b6"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10024"
+						}
+					],
+					"versionId": "4c0ab037-6a76-43c0-9e7e-29aa36a3ec03",
+					"lastUpdated": "2021-10-06T10:03:51.847+00:00"
+				},
+				"status": "final",
+				"_status": {
+					"extension": [
+						{
+							"url": "http:\/\/nictiz.nl\/fhir\/StructureDefinition\/code-specification",
+							"valueCodeableConcept": {
+								"coding": [
+									{
+										"system": "urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.16.1",
+										"code": "final",
+										"display": "Final"
+									}
+								]
+							}
+						}
+					]
+				},
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "49581000146104",
+								"display": "Laboratory test finding (finding)"
+							}
+						]
+					},
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "275711006",
+								"display": "Klinische chemie"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/loinc.org",
+							"code": "20570-8",
+							"display": "Hematocriet"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectiveDateTime": "2020-11-27T22:00:00+01:00",
+				"valueQuantity": {
+					"value": 45,
+					"unit": "%",
+					"system": "http:\/\/unitsofmeasure.org",
+					"code": "%"
+				},
+				"specimen": {
+					"reference": "http:\/\/fhircore:4080\/Specimen\/ggz-specimen-Bloed",
+					"display": "Materiaal: bloed"
+				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": 39,
+							"unit": "%",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "%"
+						},
+						"high": {
+							"value": 51,
+							"unit": "%",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "%"
+						}
+					}
+				],
+				"id": "4ad7bc15-061a-4b91-a382-e34710018b28"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:ea57f34f-6ec0-44b7-9a71-019e1cd6aa39",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-AlcoholUse"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "04d15021-98ac-455a-8639-bc00924def59"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10000"
+						}
+					],
+					"versionId": "d7093314-6c42-4b8f-a0ac-d9051adc37ae",
+					"lastUpdated": "2021-10-06T10:03:51.757+00:00"
+				},
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "228273003",
+							"display": "Bevinding betreffende alcoholgebruik (bevinding)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "1981-05-26T00:00:00+02:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "219006",
+							"display": "Drinkt alcohol"
+						}
+					]
+				},
+				"comment": "Borrel voor het slapen gaan",
+				"component": [
+					{
+						"code": {
+							"coding": [
+								{
+									"system": "http:\/\/snomed.info\/sct",
+									"code": "160573003",
+									"display": "Inname van alcohol (waarneembare entiteit)"
+								}
+							]
+						},
+						"valueQuantity": {
+							"value": 1,
+							"unit": "eenheid per dag",
+							"system": "http:\/\/unitsofmeasure.org",
+							"code": "{eenheid}\/d"
+						}
+					}
+				],
+				"id": "ea57f34f-6ec0-44b7-9a71-019e1cd6aa39"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:613c6a9b-2a1f-4684-9dde-e2bfa570fd06",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FunctionalOrMentalStatus"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "3b8145ac-4613-4320-bc21-247a8ad48943"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10021"
+						}
+					],
+					"versionId": "1fad2d3a-e3d3-4328-8cb2-09f097858da9",
+					"lastUpdated": "2021-10-06T10:03:51.650+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "384821006",
+								"display": "Bevinding betreffende mentale toestand, gedrag en\/of psychosociaal functioneren (bevinding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365364005",
+							"display": "Gevaarlijke gedachten weerstaan"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "2020-11-22T00:00:00+01:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "285254009",
+							"display": "Moeite met gevaarlijke gedachten weerstaan"
+						}
+					]
+				},
+				"id": "613c6a9b-2a1f-4684-9dde-e2bfa570fd06"
+			}
+		},
+		{
+			"fullUrl": "urn:uuid:67320dc7-6270-42a7-9239-00ddec50642c",
+			"resource": {
+				"resourceType": "Observation",
+				"meta": {
+					"profile": [
+						"http:\/\/nictiz.nl\/fhir\/StructureDefinition\/zib-FunctionalOrMentalStatus"
+					],
+					"tag": [
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/my\/dtl\/id",
+							"code": "3b8145ac-4613-4320-bc21-247a8ad48943"
+						},
+						{
+							"system": "https:\/\/drimpy.com\/fhir\/medmij\/o_id",
+							"code": "10022"
+						}
+					],
+					"versionId": "81922a0c-992b-4dc6-834b-2f1dbd367cd6",
+					"lastUpdated": "2021-10-06T10:03:51.641+00:00"
+				},
+				"status": "final",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "http:\/\/snomed.info\/sct",
+								"code": "384821006",
+								"display": "Bevinding betreffende mentale toestand, gedrag en\/of psychosociaal functioneren (bevinding)"
+							}
+						]
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "365364005",
+							"display": "Gevaarlijke gedachten weerstaan"
+						}
+					]
+				},
+				"subject": {
+					"reference": "http:\/\/fhircore:4080\/Patient\/5b21c038-1ccf-4efb-b99d-c937e719bc0e",
+					"display": "Adam XXX_Bals"
+				},
+				"effectivePeriod": {
+					"start": "2020-11-27T00:00:00+01:00"
+				},
+				"valueCodeableConcept": {
+					"coding": [
+						{
+							"system": "http:\/\/snomed.info\/sct",
+							"code": "285252008",
+							"display": "Niet in staat om gevaarlijke gedachten te weerstaan"
+						}
+					]
+				},
+				"id": "67320dc7-6270-42a7-9239-00ddec50642c"
+			}
+		}
+	]
+}

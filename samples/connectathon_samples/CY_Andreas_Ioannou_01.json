@@ -1,0 +1,4080 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "fb49766b-e5cd-4cad-858f-bb32b0d96155"
+  },
+  "type": "document",
+  "timestamp": "2022-12-02T17:55:07.634+02:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6",
+    "resource": {
+      "resourceType": "Composition",
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11463"
+      },
+      "date": "2022-12-02T17:55:07+02:00",
+      "author": [ {
+        "reference": "urn:uuid:d5088786-3dad-4dbe-9ecb-a7f990e6b11e"
+      } ],
+      "title": "Patient Summary as of 12/02/2022",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and Adverse Reactions"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergiesAndIntolerances-urn:uuid:50ff21ba-617c-449c-92d1-c016f7999ef3\"><td> No information about allergies </td><td> active </td><td/><td/><td/><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:50ff21ba-617c-449c-92d1-c016f7999ef3"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "Medication List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody/></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationSummary-urn:uuid:f7e3434a-568f-4329-a390-0dd36a7d2ef9\"><td> No information about medications </td><td>Unknown</td><td/><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:f7e3434a-568f-4329-a390-0dd36a7d2ef9"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody><tr id=\"ProblemList-urn:uuid:b27f0725-ad2e-4d99-bd69-db2329bea954\"><td> No information about problems </td><td> active </td><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:b27f0725-ad2e-4d99-bd69-db2329bea954"
+        } ]
+      }, {
+        "title": "Pregnancy Information",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11362-0",
+            "display": "Pregnancy Information"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Pregnancy</caption><thead><tr><th>Code</th><th>Result</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Pregnancy-11717\"><td> Pregnancy status </td><td> Pregnant </td><td/><td> Fri Oct 21 20:37:23 EEST 2022 </td></tr><tr id=\"Pregnancy-11718\"><td> Pregnancy status </td><td> Pregnant </td><td/><td> Fri Oct 21 20:37:24 EEST 2022 </td></tr><tr id=\"Pregnancy-11721\"><td> Pregnancy status </td><td> Pregnant </td><td/><td> Fri Oct 21 20:37:25 EEST 2022 </td></tr><tr id=\"Pregnancy-11724\"><td> Pregnancy status </td><td> Pregnant </td><td/><td> Fri Oct 21 20:37:26 EEST 2022 </td></tr><tr id=\"Pregnancy-11727\"><td> Pregnancy status </td><td> Pregnant </td><td/><td> Fri Oct 21 20:37:29 EEST 2022 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/11717"
+        }, {
+          "reference": "Observation/11718"
+        }, {
+          "reference": "Observation/11721"
+        }, {
+          "reference": "Observation/11724"
+        }, {
+          "reference": "Observation/11727"
+        } ]
+      }, {
+        "title": "Social History",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "29762-2",
+            "display": "Social History"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Social History</caption><thead><tr><th>Code</th><th>Result</th><th>Unit</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"SocialHistory-11469\"><td> Finding relating to drug misuse behavior </td><td> Misuses drugs (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11467\"><td> Finding relating to drug misuse behavior </td><td> Misuses drugs (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11468\"><td> Finding relating to drug misuse behavior </td><td> Misuses drugs (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11470\"><td> Finding relating to drug misuse behavior </td><td> Misuses drugs (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11471\"><td> Finding relating to drug misuse behavior </td><td> Misuses drugs (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11472\"><td> Finding relating to drug misuse behavior </td><td> Misused drugs in past (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11502\"><td> Finding relating to drug misuse behavior </td><td> Misused drugs in past (finding) </td><td/><td/><td> Tue Sep 20 13:28:32 EEST 2022 </td></tr><tr id=\"SocialHistory-11767\"><td> Exercise tracking panel </td><td/><td/><td/><td> Fri Oct 21 17:37:54 EEST 2022 </td></tr><tr id=\"SocialHistory-11768\"><td> Exercise tracking panel </td><td/><td/><td/><td> Fri Oct 28 17:37:56 EEST 2022 </td></tr><tr id=\"SocialHistory-11771\"><td> Exercise tracking panel </td><td/><td/><td/><td> Fri Oct 21 17:37:57 EEST 2022 </td></tr><tr id=\"SocialHistory-11774\"><td> Exercise tracking panel </td><td/><td/><td/><td> Fri Oct 21 17:37:58 EEST 2022 </td></tr><tr id=\"SocialHistory-11777\"><td> Exercise tracking panel </td><td/><td/><td/><td> Fri Oct 21 17:38:01 EEST 2022 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/11469"
+        }, {
+          "reference": "Observation/11467"
+        }, {
+          "reference": "Observation/11468"
+        }, {
+          "reference": "Observation/11470"
+        }, {
+          "reference": "Observation/11471"
+        }, {
+          "reference": "Observation/11472"
+        }, {
+          "reference": "Observation/11502"
+        }, {
+          "reference": "Observation/11767"
+        }, {
+          "reference": "Observation/11768"
+        }, {
+          "reference": "Observation/11771"
+        }, {
+          "reference": "Observation/11774"
+        }, {
+          "reference": "Observation/11777"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11463",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11463",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T14:52:39.380+03:00",
+        "source": "#HftH78YWee8zBoe2"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Andreas <b>IOANNOU </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CY/GHS-AI-1234</td></tr><tr><td>Address</td><td><span>line 1 </span><br/><span>Nicosia </span><span>CY </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-insurance",
+        "valueString": "Insurance"
+      }, {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-fathersinformation",
+        "extension": [ {
+          "url": "fathersGivenName",
+          "valueString": "Michalis"
+        }, {
+          "url": "fathersFamilyName",
+          "valueString": "Georgiou"
+        }, {
+          "url": "contactPhone",
+          "valueString": "99000000"
+        }, {
+          "url": "email",
+          "valueString": "michalisgeorgiou@gmail.com"
+        }, {
+          "url": "placeOfBirth",
+          "valueString": "Nicosia"
+        }, {
+          "url": "placeOfOrigin",
+          "valueString": "Cyprus"
+        }, {
+          "url": "occupation",
+          "valueString": "Teacher"
+        } ]
+      }, {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-mothersinformation",
+        "extension": [ {
+          "url": "mothersGivenName",
+          "valueString": "Maria"
+        }, {
+          "url": "mothersFamilyName",
+          "valueString": "Georgiou"
+        }, {
+          "url": "contactPhone",
+          "valueString": "99111111"
+        }, {
+          "url": "email",
+          "valueString": "mariageorgiou@gmail.com"
+        }, {
+          "url": "placeOfBirth",
+          "valueString": "Nicosia"
+        }, {
+          "url": "placeOfOrigin",
+          "valueString": "Cyprus"
+        }, {
+          "url": "occupation",
+          "valueString": "Teacher"
+        } ]
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/GHS-AI-1234"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/Identity-AI-1234"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/Passport-AI-1234"
+      }, {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Social-Insurance-AI-1234"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "family": "Ioannou",
+        "given": [ "Andreas" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "99010101",
+        "use": "mobile"
+      }, {
+        "system": "email",
+        "value": "andreasioannou@gmail.com",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1990-01-01",
+      "address": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addressvillage",
+          "valueString": "Strovolos"
+        }, {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addresssettlement",
+          "valueString": "Strovolos"
+        } ],
+        "use": "home",
+        "type": "physical",
+        "line": [ "line 1" ],
+        "city": "Nicosia",
+        "district": "Nicosia",
+        "postalCode": "2020",
+        "country": "CY"
+      } ],
+      "contact": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-relationshiplevel",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://snomed.info/sct",
+              "code": "66839005",
+              "display": "Father (person)"
+            } ]
+          }
+        } ],
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+            "code": "ECON",
+            "display": "emergency contact"
+          } ]
+        } ],
+        "name": {
+          "use": "official",
+          "family": "Georgiou",
+          "given": [ "Michalis" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "99000000",
+          "use": "mobile"
+        }, {
+          "system": "email",
+          "value": "michalisgeorgiou@gmail.com",
+          "use": "home"
+        } ],
+        "address": {
+          "extension": [ {
+            "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addressvillage",
+            "valueString": "Engomi"
+          }, {
+            "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addresssettlement",
+            "valueString": "Engomi"
+          } ],
+          "use": "home",
+          "type": "physical",
+          "line": [ "line 1" ],
+          "city": "Nicosia",
+          "district": "Nicosia",
+          "postalCode": "2121",
+          "country": "CY"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11465",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11465",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T16:50:20.852+03:00",
+        "source": "#hamJ1zv2EOOQlNke",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Andreas <b>IOANNOU </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CY/GHS-AI-1234</td></tr><tr><td>Address</td><td><span>line 1 </span><br/><span>Nicosia </span><span>CY </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-fathersinformation",
+        "extension": [ {
+          "url": "fathersGivenName",
+          "valueString": "Michalis"
+        }, {
+          "url": "fathersFamilyName",
+          "valueString": "Georgiou"
+        }, {
+          "url": "contactPhone",
+          "valueString": "99000000"
+        }, {
+          "url": "email",
+          "valueString": "michalisgeorgiou@gmail.com"
+        }, {
+          "url": "placeOfBirth",
+          "valueString": "Nicosia"
+        }, {
+          "url": "placeOfOrigin",
+          "valueString": "Cyprus"
+        }, {
+          "url": "occupation",
+          "valueString": "Teacher"
+        } ]
+      }, {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-mothersinformation",
+        "extension": [ {
+          "url": "mothersGivenName",
+          "valueString": "Maria"
+        }, {
+          "url": "mothersFamilyName",
+          "valueString": "Georgiou"
+        }, {
+          "url": "contactPhone",
+          "valueString": "99111111"
+        }, {
+          "url": "email",
+          "valueString": "mariageorgiou@gmail.com"
+        }, {
+          "url": "placeOfBirth",
+          "valueString": "Nicosia"
+        }, {
+          "url": "placeOfOrigin",
+          "valueString": "Cyprus"
+        }, {
+          "url": "occupation",
+          "valueString": "Teacher"
+        } ]
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/GHS-AI-1234"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/Identity-AI-1234"
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/Passport-AI-1234"
+      }, {
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Social-Insurance-AI-1234"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "family": "Ioannou",
+        "given": [ "Andreas" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "99010101",
+        "use": "mobile"
+      }, {
+        "system": "email",
+        "value": "andreasioannou@gmail.com",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1990-01-01",
+      "address": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addressvillage",
+          "valueString": "Strovolos"
+        }, {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addresssettlement",
+          "valueString": "Strovolos"
+        } ],
+        "use": "home",
+        "type": "physical",
+        "line": [ "line 1" ],
+        "city": "Nicosia",
+        "district": "Nicosia",
+        "postalCode": "2020",
+        "country": "CY"
+      } ],
+      "contact": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-relationshiplevel",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "http://snomed.info/sct",
+              "code": "66839005",
+              "display": "Father (person)"
+            } ]
+          }
+        } ],
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+            "code": "ECON",
+            "display": "emergency contact"
+          } ]
+        } ],
+        "name": {
+          "use": "official",
+          "family": "Georgiou",
+          "given": [ "Michalis" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "99000000",
+          "use": "mobile"
+        }, {
+          "system": "email",
+          "value": "michalisgeorgiou@gmail.com",
+          "use": "home"
+        } ],
+        "address": {
+          "extension": [ {
+            "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addressvillage",
+            "valueString": "Engomi"
+          }, {
+            "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-addresssettlement",
+            "valueString": "Engomi"
+          } ],
+          "use": "home",
+          "type": "physical",
+          "line": [ "line 1" ],
+          "city": "Nicosia",
+          "district": "Nicosia",
+          "postalCode": "2121",
+          "country": "CY"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11715",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11715",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:23.309+03:00",
+        "source": "#CxIeVReooGyufYvC",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>GR/0000-test-551</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 997"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "GR/0000-test-551",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "GR/0000-test-241",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 293"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 176"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-130"
+      } ],
+      "telecom": [ {
+        "system": "pager",
+        "value": "0000-test-372",
+        "use": "mobile",
+        "rank": 4,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-479",
+        "use": "old",
+        "rank": 10,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-868",
+        "use": "temp",
+        "rank": 10,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "sms",
+        "value": "0000-test-850",
+        "use": "work",
+        "rank": 8,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "male"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11719",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11719",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:25.369+03:00",
+        "source": "#u3Mv1C0RLEOmdGn2",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CY/0000-test-549</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 629"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/0000-test-549",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "GR/0000-test-111",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 150"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 824"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-197"
+      } ],
+      "telecom": [ {
+        "system": "other",
+        "value": "0000-test-911",
+        "use": "old",
+        "rank": 7,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-567",
+        "use": "work",
+        "rank": 8,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-678",
+        "use": "old",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "pager",
+        "value": "0000-test-518",
+        "use": "home",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "other"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11722",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11722",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:26.484+03:00",
+        "source": "#Cu6aTbWs8qOQ5QjO",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>GR/0000-test-764</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 704"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "GR/0000-test-764",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/0000-test-427",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 802"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 544"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-811"
+      } ],
+      "telecom": [ {
+        "system": "pager",
+        "value": "0000-test-992",
+        "use": "mobile",
+        "rank": 8,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-503",
+        "use": "work",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-795",
+        "use": "mobile",
+        "rank": 1,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "other",
+        "value": "0000-test-678",
+        "use": "mobile",
+        "rank": 2,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "unknown"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11728",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11728",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:29.030+03:00",
+        "source": "#2SmM4kWG56PoN1gC",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>GR/0000-test-926</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 268"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "GR/0000-test-926",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/0000-test-348",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 323"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 710"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-508"
+      } ],
+      "telecom": [ {
+        "system": "url",
+        "value": "0000-test-923",
+        "use": "mobile",
+        "rank": 1,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-435",
+        "use": "temp",
+        "rank": 4,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-270",
+        "use": "old",
+        "rank": 7,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "other",
+        "value": "0000-test-426",
+        "use": "mobile",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "female"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11765",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11765",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:54.388+03:00",
+        "source": "#DoabbDkCGcNnkrhM",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>GR/0000-test-171</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 873"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "GR/0000-test-171",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/0000-test-419",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 114"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 306"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-396"
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "0000-test-274",
+        "use": "mobile",
+        "rank": 9,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-675",
+        "use": "work",
+        "rank": 6,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-635",
+        "use": "work",
+        "rank": 1,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "url",
+        "value": "0000-test-592",
+        "use": "home",
+        "rank": 1,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "other"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11769",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11769",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:57.083+03:00",
+        "source": "#olQWfxC7zxzE4T4L",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>GR/0000-test-899</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 442"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "GR/0000-test-899",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/0000-test-736",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 832"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 277"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-566"
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "0000-test-924",
+        "use": "mobile",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-558",
+        "use": "temp",
+        "rank": 5,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-327",
+        "use": "old",
+        "rank": 10,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "other",
+        "value": "0000-test-732",
+        "use": "home",
+        "rank": 6,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "male"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11772",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11772",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:58.348+03:00",
+        "source": "#mgIuY0mZDYA6MWQN",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CY/0000-test-491</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 714"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/0000-test-491",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "CY/0000-test-169",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 694"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 695"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-402"
+      } ],
+      "telecom": [ {
+        "system": "other",
+        "value": "0000-test-892",
+        "use": "work",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-715",
+        "use": "mobile",
+        "rank": 4,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-630",
+        "use": "old",
+        "rank": 3,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-910",
+        "use": "work",
+        "rank": 6,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "male"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11778",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "11778",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:38:01.156+03:00",
+        "source": "#KSZ23agOZ8frtxod",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-patient" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>CY/0000-test-814</td></tr></tbody></table></div>"
+      },
+      "extension": [ {
+        "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-race",
+        "valueString": "Fake Instance - 508"
+      } ],
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY",
+              "display": "Cyprus"
+            } ],
+            "text": "Cyprus"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "CY/0000-test-814",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR",
+              "display": "Greece"
+            } ],
+            "text": "Greece"
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "GR/0000-test-283",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "CY/Fake Instance - 274"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "CY/Fake Instance - 440"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.5",
+        "value": "CY/0000-test-666"
+      } ],
+      "telecom": [ {
+        "system": "pager",
+        "value": "0000-test-427",
+        "use": "mobile",
+        "rank": 2,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "email",
+        "value": "0000-test-191",
+        "use": "mobile",
+        "rank": 8,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "phone",
+        "value": "0000-test-777",
+        "use": "home",
+        "rank": 10,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "system": "fax",
+        "value": "0000-test-557",
+        "use": "temp",
+        "rank": 4,
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "other"
+    }
+  }, {
+    "fullUrl": "urn:uuid:11469",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11469",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:08:10.918+03:00",
+        "source": "#PBanVEevggEkJvpq",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11469"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "361055000",
+          "display": "Misuses drugs (finding)"
+        } ],
+        "text": "Misuses drugs (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "Route of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "Nasal use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11467",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11467",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:03:00.836+03:00",
+        "source": "#qYbLz25jT0fD7N1c",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11467"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "361055000",
+          "display": "Misuses drugs (finding)"
+        } ],
+        "text": "Misuses drugs (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 1,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "Route of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "Nasal use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11468",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11468",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:05:48.869+03:00",
+        "source": "#fviAC9rEKZf4YCQ6",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11468"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "361055000",
+          "display": "Misuses drugs (finding)"
+        } ],
+        "text": "Misuses drugs (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "Route of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "Nasal use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11470",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11470",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:08:19.479+03:00",
+        "source": "#vvaPlzRH1cvWYFVO",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11470"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "361055000",
+          "display": "Misuses drugs (finding)"
+        } ],
+        "text": "Misuses drugs (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "d of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "Nasal use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11471",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11471",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:08:27.754+03:00",
+        "source": "#Z5KjsHPC89MSHxa7",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11471"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "361055000",
+          "display": "Misuses drugs (finding)"
+        } ],
+        "text": "Misuses drugs (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "d of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "d use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11472",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11472",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:09:57.822+03:00",
+        "source": "#ERsneHTZDNyyariZ",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11472"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "44870007",
+          "display": "Misused drugs in past (finding)"
+        } ],
+        "text": "Misused drugs in past (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "Route of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "Nasal use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11502",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11502",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:21:36.484+03:00",
+        "source": "#NAfyitezonszSE1E",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-druguse" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11502"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "228366006",
+          "display": "Finding relating to drug misuse behavior"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11465"
+      },
+      "effectivePeriod": {
+        "start": "2022-09-20T13:28:32.1634774+03:00",
+        "end": "2022-09-27T13:28:32.1634896+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11466"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "44870007",
+          "display": "Misused drugs in past (finding)"
+        } ],
+        "text": "Misused drugs in past (finding)"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "105590001",
+            "display": "Substance"
+          } ],
+          "text": "Substance"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "229003004",
+            "display": "Cocaine freebase (substance)"
+          } ],
+          "text": "Cocaine freebase (substance)"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "260911001",
+            "display": "Dosage"
+          } ],
+          "text": "Dosage"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "g/d",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/d"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410675002",
+            "display": "Route of adminstration"
+          } ],
+          "text": "Route of adminstration"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu/",
+            "code": "20049000",
+            "display": "Nasal use"
+          } ],
+          "text": "Nasal use"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11717",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11717",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:24.508+03:00",
+        "source": "#OtvL9EI9qRxVFy04",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#Pregnancy-11717"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11715"
+      },
+      "effectiveDateTime": "2022-10-21T20:37:23.0000000+03:00",
+      "performer": [ {
+        "reference": "Practitioner/11716"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ],
+        "text": "Pregnant"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:11718",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11718",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:24.942+03:00",
+        "source": "#uZ3WnGqZVam5rqAy",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#Pregnancy-11718"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11715"
+      },
+      "effectiveDateTime": "2022-10-21T20:37:24.0000000+03:00",
+      "performer": [ {
+        "reference": "Practitioner/11716"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ],
+        "text": "Pregnant"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:11721",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11721",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:26.039+03:00",
+        "source": "#tfU8pBTuRiB48LMX",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#Pregnancy-11721"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11719"
+      },
+      "effectiveDateTime": "2022-10-21T20:37:25.0000000+03:00",
+      "performer": [ {
+        "reference": "Practitioner/11720"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ],
+        "text": "Pregnant"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:11724",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11724",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:27.120+03:00",
+        "source": "#lnfOD3pzepB1PkAy",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#Pregnancy-11724"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11722"
+      },
+      "effectiveDateTime": "2022-10-21T20:37:26.0000000+03:00",
+      "performer": [ {
+        "reference": "Practitioner/11723"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ],
+        "text": "Pregnant"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:11727",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11727",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2022-10-21T17:37:29.698+03:00",
+        "source": "#i8mDkJD0nHbq38nO",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-pregnancystatus" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#Pregnancy-11727"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11728"
+      },
+      "effectiveDateTime": "2022-10-21T20:37:29.0000000+03:00",
+      "performer": [ {
+        "reference": "Practitioner/11729"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ],
+        "text": "Pregnant"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:11767",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11767",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:56.027+03:00",
+        "source": "#L27KYy6bLetwSWtf",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11767"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55409-7",
+          "display": "Exercise tracking panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11765"
+      },
+      "effectivePeriod": {
+        "start": "2022-10-21T17:37:54.8707433+03:00",
+        "end": "2022-10-28T17:37:54.8707545+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11766"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "73985-4",
+            "display": "Exercise activity"
+          } ],
+          "text": "Exercise activity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.246.537.6.301",
+            "code": "A0109",
+            "display": "Soccer"
+          } ],
+          "text": "Soccer"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74009-2",
+            "display": "Exercise duration/Exercise frequency"
+          } ],
+          "text": "Exercise duration/Exercise frequency"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "/wk",
+          "system": "http://unitsofmeasure.org",
+          "code": "/wk"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "55411-3",
+            "display": "Exercise duration"
+          } ],
+          "text": "Exercise duration"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "min",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74008-4",
+            "display": "Exercise intensity"
+          } ],
+          "text": "Exercise intensity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "LA20165-9",
+            "display": "Moderate"
+          } ],
+          "text": "Moderate"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11768",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11768",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:56.620+03:00",
+        "source": "#hKQLwXzkHt89bvK6",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11768"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55409-7",
+          "display": "Exercise tracking panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11765"
+      },
+      "effectivePeriod": {
+        "start": "2022-10-28T17:37:56.2063141+03:00",
+        "end": "2022-11-04T17:37:56.2063273+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11766"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "73985-4",
+            "display": "Exercise activity"
+          } ],
+          "text": "Exercise activity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.246.537.6.301",
+            "code": "A0109",
+            "display": "Soccer"
+          } ],
+          "text": "Soccer"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74009-2",
+            "display": "Exercise duration/Exercise frequency"
+          } ],
+          "text": "Exercise duration/Exercise frequency"
+        },
+        "valueQuantity": {
+          "value": 4,
+          "unit": "/wk",
+          "system": "http://unitsofmeasure.org",
+          "code": "/wk"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "55411-3",
+            "display": "Exercise duration"
+          } ],
+          "text": "Exercise duration"
+        },
+        "valueQuantity": {
+          "value": 75,
+          "unit": "min",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74008-4",
+            "display": "Exercise intensity"
+          } ],
+          "text": "Exercise intensity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "LA20165-9",
+            "display": "Moderate"
+          } ],
+          "text": "Moderate"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11771",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11771",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:57.898+03:00",
+        "source": "#TIbRiBj3ApDdqDLD",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11771"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55409-7",
+          "display": "Exercise tracking panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11769"
+      },
+      "effectivePeriod": {
+        "start": "2022-10-21T17:37:57.5508873+03:00",
+        "end": "2022-10-28T17:37:57.5509187+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11770"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "73985-4",
+            "display": "Exercise activity"
+          } ],
+          "text": "Exercise activity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.246.537.6.301",
+            "code": "A0109",
+            "display": "Soccer"
+          } ],
+          "text": "Soccer"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74009-2",
+            "display": "Exercise duration/Exercise frequency"
+          } ],
+          "text": "Exercise duration/Exercise frequency"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "/wk",
+          "system": "http://unitsofmeasure.org",
+          "code": "/wk"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "55411-3",
+            "display": "Exercise duration"
+          } ],
+          "text": "Exercise duration"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "min",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74008-4",
+            "display": "Exercise intensity"
+          } ],
+          "text": "Exercise intensity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "LA20165-9",
+            "display": "Moderate"
+          } ],
+          "text": "Moderate"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11774",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11774",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:59.125+03:00",
+        "source": "#mlkJUwUzOjz1pfWN",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11774"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55409-7",
+          "display": "Exercise tracking panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11772"
+      },
+      "effectivePeriod": {
+        "start": "2022-10-21T17:37:58.7810792+03:00",
+        "end": "2022-10-28T17:37:58.7810900+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11773"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "73985-4",
+            "display": "Exercise activity"
+          } ],
+          "text": "Exercise activity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.246.537.6.301",
+            "code": "A0109",
+            "display": "Soccer"
+          } ],
+          "text": "Soccer"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74009-2",
+            "display": "Exercise duration/Exercise frequency"
+          } ],
+          "text": "Exercise duration/Exercise frequency"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "/wk",
+          "system": "http://unitsofmeasure.org",
+          "code": "/wk"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "55411-3",
+            "display": "Exercise duration"
+          } ],
+          "text": "Exercise duration"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "min",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74008-4",
+            "display": "Exercise intensity"
+          } ],
+          "text": "Exercise intensity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "LA20165-9",
+            "display": "Moderate"
+          } ],
+          "text": "Moderate"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11777",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "11777",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2022-10-21T17:38:02.027+03:00",
+        "source": "#hTs0tUPW39FpczTd",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-exercise" ]
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#SocialHistory-11777"
+      } ],
+      "status": "registered",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "55409-7",
+          "display": "Exercise tracking panel"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11778"
+      },
+      "effectivePeriod": {
+        "start": "2022-10-21T17:38:01.6275900+03:00",
+        "end": "2022-10-28T17:38:01.6276045+03:00"
+      },
+      "performer": [ {
+        "reference": "Practitioner/11779"
+      } ],
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "73985-4",
+            "display": "Exercise activity"
+          } ],
+          "text": "Exercise activity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.246.537.6.301",
+            "code": "A0109",
+            "display": "Soccer"
+          } ],
+          "text": "Soccer"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74009-2",
+            "display": "Exercise duration/Exercise frequency"
+          } ],
+          "text": "Exercise duration/Exercise frequency"
+        },
+        "valueQuantity": {
+          "value": 2,
+          "unit": "/wk",
+          "system": "http://unitsofmeasure.org",
+          "code": "/wk"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "55411-3",
+            "display": "Exercise duration"
+          } ],
+          "text": "Exercise duration"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "min",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "74008-4",
+            "display": "Exercise intensity"
+          } ],
+          "text": "Exercise intensity"
+        },
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "LA20165-9",
+            "display": "Moderate"
+          } ],
+          "text": "Moderate"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11779",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11779",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:38:01.487+03:00",
+        "source": "#ktPI4hJsHzcq2vnw",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-653",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-237",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 653"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 397"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-126"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-641"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-823"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-424"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-147"
+      } ],
+      "name": [ {
+        "text": "0000-test-765 Fake Instance - 249",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 249"
+          } ]
+        },
+        "given": [ "0000-test-765" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "old",
+        "type": "physical",
+        "text": "0000-test-233 Fake Instance - 238, PO Box 0000-test-692, 0000-test-364 Fake Instance - 361, Fake Instance - 993",
+        "line": [ "0000-test-233 Fake Instance - 238", "0000-test-692" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-233"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 238"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-692"
+          } ]
+        } ],
+        "city": "Fake Instance - 361",
+        "district": "Fake Instance - 626",
+        "state": "Fake Instance - 413",
+        "postalCode": "0000-test-364",
+        "country": "Fake Instance - 993",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "female",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11716",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11716",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:23.628+03:00",
+        "source": "#ARvppMbdms97c47u",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-854",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-277",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 182"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 277"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-649"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-467"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-418"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-230"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-609"
+      } ],
+      "name": [ {
+        "text": "0000-test-993 Fake Instance - 849",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 849"
+          } ]
+        },
+        "given": [ "0000-test-993" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "home",
+        "type": "postal",
+        "text": "0000-test-431 Fake Instance - 334, PO Box 0000-test-218, 0000-test-284 Fake Instance - 521, Fake Instance - 659",
+        "line": [ "0000-test-431 Fake Instance - 334", "0000-test-218" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-431"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 334"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-218"
+          } ]
+        } ],
+        "city": "Fake Instance - 521",
+        "district": "Fake Instance - 359",
+        "state": "Fake Instance - 448",
+        "postalCode": "0000-test-284",
+        "country": "Fake Instance - 659",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "female",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11720",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11720",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:25.731+03:00",
+        "source": "#slDp06EdoV59bhAY",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-771",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-870",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 700"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 464"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-825"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-793"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-816"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-724"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-139"
+      } ],
+      "name": [ {
+        "text": "0000-test-451 Fake Instance - 307",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 307"
+          } ]
+        },
+        "given": [ "0000-test-451" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "home",
+        "type": "physical",
+        "text": "0000-test-172 Fake Instance - 828, PO Box 0000-test-338, 0000-test-428 Fake Instance - 709, Fake Instance - 914",
+        "line": [ "0000-test-172 Fake Instance - 828", "0000-test-338" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-172"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 828"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-338"
+          } ]
+        } ],
+        "city": "Fake Instance - 709",
+        "district": "Fake Instance - 298",
+        "state": "Fake Instance - 952",
+        "postalCode": "0000-test-428",
+        "country": "Fake Instance - 914",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "other",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11466",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11466",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T16:58:37.015+03:00",
+        "source": "#0qRxkF9piBY5PjIT",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-321",
+        "period": {
+          "start": "2022-10-21T13:01:28.8188844+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-375",
+        "period": {
+          "start": "2022-10-21T13:01:28.8188844+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 714"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 324"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-728"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-593"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-883"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-828"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-939"
+      } ],
+      "name": [ {
+        "text": "0000-test-659 Fake Instance - 352",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 352"
+          } ]
+        },
+        "given": [ "0000-test-659" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "home",
+        "type": "physical",
+        "text": "0000-test-633 Fake Instance - 156, PO Box 0000-test-362, 0000-test-166 Fake Instance - 548, Fake Instance - 166",
+        "line": [ "0000-test-633 Fake Instance - 156", "0000-test-362" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-633"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 156"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-362"
+          } ]
+        } ],
+        "city": "Fake Instance - 548",
+        "district": "Fake Instance - 229",
+        "state": "Fake Instance - 453",
+        "postalCode": "0000-test-166",
+        "country": "Fake Instance - 166",
+        "period": {
+          "start": "2022-10-21T13:01:28.8188844+00:00",
+          "end": "2023-05-25T13:01:28.8188854+00:00"
+        }
+      } ],
+      "gender": "unknown",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11723",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11723",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:26.808+03:00",
+        "source": "#238p9dFljdGlWAVh",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-140",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-159",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 582"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 666"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-400"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-776"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-351"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-313"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-874"
+      } ],
+      "name": [ {
+        "text": "0000-test-162 Fake Instance - 736",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 736"
+          } ]
+        },
+        "given": [ "0000-test-162" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "temp",
+        "type": "physical",
+        "text": "0000-test-556 Fake Instance - 742, PO Box 0000-test-392, 0000-test-382 Fake Instance - 417, Fake Instance - 812",
+        "line": [ "0000-test-556 Fake Instance - 742", "0000-test-392" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-556"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 742"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-392"
+          } ]
+        } ],
+        "city": "Fake Instance - 417",
+        "district": "Fake Instance - 335",
+        "state": "Fake Instance - 944",
+        "postalCode": "0000-test-382",
+        "country": "Fake Instance - 812",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "unknown",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11729",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11729",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:29.371+03:00",
+        "source": "#bTGPEHzpyJvMU1FJ",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-228",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-244",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 806"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 545"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-389"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-377"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-760"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-102"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-613"
+      } ],
+      "name": [ {
+        "text": "0000-test-347 Fake Instance - 270",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 270"
+          } ]
+        },
+        "given": [ "0000-test-347" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "billing",
+        "type": "physical",
+        "text": "0000-test-892 Fake Instance - 717, PO Box 0000-test-585, 0000-test-233 Fake Instance - 557, Fake Instance - 861",
+        "line": [ "0000-test-892 Fake Instance - 717", "0000-test-585" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-892"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 717"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-585"
+          } ]
+        } ],
+        "city": "Fake Instance - 557",
+        "district": "Fake Instance - 376",
+        "state": "Fake Instance - 787",
+        "postalCode": "0000-test-233",
+        "country": "Fake Instance - 861",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "male",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11766",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11766",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:54.740+03:00",
+        "source": "#Rcrza080ktrzQhyJ",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-780",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-820",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 744"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 783"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-152"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-400"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-343"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-151"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-871"
+      } ],
+      "name": [ {
+        "text": "0000-test-141 Fake Instance - 500",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 500"
+          } ]
+        },
+        "given": [ "0000-test-141" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "work",
+        "type": "postal",
+        "text": "0000-test-204 Fake Instance - 353, PO Box 0000-test-978, 0000-test-868 Fake Instance - 100, Fake Instance - 418",
+        "line": [ "0000-test-204 Fake Instance - 353", "0000-test-978" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-204"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 353"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-978"
+          } ]
+        } ],
+        "city": "Fake Instance - 100",
+        "district": "Fake Instance - 809",
+        "state": "Fake Instance - 699",
+        "postalCode": "0000-test-868",
+        "country": "Fake Instance - 418",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "male",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11770",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11770",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:57.411+03:00",
+        "source": "#gJR6C82J2DfJbNbL",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-266",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-464",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 125"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 142"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-694"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-321"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-157"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-459"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-641"
+      } ],
+      "name": [ {
+        "text": "0000-test-166 Fake Instance - 739",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 739"
+          } ]
+        },
+        "given": [ "0000-test-166" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "home",
+        "type": "both",
+        "text": "0000-test-655 Fake Instance - 747, PO Box 0000-test-796, 0000-test-833 Fake Instance - 959, Fake Instance - 166",
+        "line": [ "0000-test-655 Fake Instance - 747", "0000-test-796" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-655"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 747"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-796"
+          } ]
+        } ],
+        "city": "Fake Instance - 959",
+        "district": "Fake Instance - 199",
+        "state": "Fake Instance - 239",
+        "postalCode": "0000-test-833",
+        "country": "Fake Instance - 166",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "unknown",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:11773",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "11773",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-10-21T17:37:58.659+03:00",
+        "source": "#vFQRZV4VDcgVrA7b",
+        "profile": [ "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-sd-practitioner-r4" ]
+      },
+      "identifier": [ {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "GR"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.1",
+        "value": "0000-test-819",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "extension": [ {
+          "url": "http://ig.ehealth4u.eu/fhir/StructureDefinition/cyehr-ext-issuingcountry",
+          "valueCodeableConcept": {
+            "coding": [ {
+              "system": "urn:iso:std:iso:3166",
+              "code": "CY"
+            } ]
+          }
+        } ],
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.2",
+        "value": "0000-test-473",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.3",
+        "value": "Fake Instance - 525"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.4",
+        "value": "Fake Instance - 243"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.10",
+        "value": "0000-test-613"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.12",
+        "value": "0000-test-263"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.13",
+        "value": "0000-test-615"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.14",
+        "value": "0000-test-620"
+      }, {
+        "use": "official",
+        "system": "urn:oid:2.16.840.1.113883.3.9143.2.1.6",
+        "value": "0000-test-266"
+      } ],
+      "name": [ {
+        "text": "0000-test-963 Fake Instance - 561",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "Fake Instance - 561"
+          } ]
+        },
+        "given": [ "0000-test-963" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "email@email.com"
+      }, {
+        "system": "phone",
+        "value": "99999999"
+      }, {
+        "system": "fax",
+        "value": "22222222"
+      } ],
+      "address": [ {
+        "use": "home",
+        "type": "postal",
+        "text": "0000-test-392 Fake Instance - 829, PO Box 0000-test-658, 0000-test-882 Fake Instance - 598, Fake Instance - 919",
+        "line": [ "0000-test-392 Fake Instance - 829", "0000-test-658" ],
+        "_line": [ {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString": "0000-test-392"
+          }, {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString": "Fake Instance - 829"
+          } ]
+        }, {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+            "valueString": "0000-test-658"
+          } ]
+        } ],
+        "city": "Fake Instance - 598",
+        "district": "Fake Instance - 951",
+        "state": "Fake Instance - 325",
+        "postalCode": "0000-test-882",
+        "country": "Fake Instance - 919",
+        "period": {
+          "start": "2022-10-21T14:36:02.4036327+00:00",
+          "end": "2022-11-05T14:36:02.4036369+00:00"
+        }
+      } ],
+      "gender": "female",
+      "communication": [ {
+        "coding": [ {
+          "system": "urn:ietf:bcp:47",
+          "code": "el-GR"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:50ff21ba-617c-449c-92d1-c016f7999ef3",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#AllergiesAndIntolerances-urn:uuid:50ff21ba-617c-449c-92d1-c016f7999ef3"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-allergy-info",
+          "display": "No information about allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/11463"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f7e3434a-568f-4329-a390-0dd36a7d2ef9",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#MedicationSummary-urn:uuid:f7e3434a-568f-4329-a390-0dd36a7d2ef9"
+      } ],
+      "status": "unknown",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-medication-info",
+          "display": "No information about medications"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11463"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b27f0725-ad2e-4d99-bd69-db2329bea954",
+    "resource": {
+      "resourceType": "Condition",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:38c444f6-21ac-4154-ba60-00102d3339a6#ProblemList-urn:uuid:b27f0725-ad2e-4d99-bd69-db2329bea954"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-problem-info",
+          "display": "No information about problems"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/11463"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:d5088786-3dad-4dbe-9ecb-a7f990e6b11e",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "eHealthLab - University of Cyprus",
+      "address": [ {
+        "line": [ "1 University Avenue" ],
+        "city": "Nicosia",
+        "postalCode": "2109",
+        "country": "CY"
+      } ]
+    }
+  } ]
+}

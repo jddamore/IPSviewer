@@ -29,3 +29,18 @@ certs/
 # Ignore Mac DS_Store files
 .DS_Store
 
+# Vite outputs
+/build
+# Temp files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Sveltekit
+/.svelte-kit
+
+# Envs
+.env
+.env.*
+
+# VS Code session
+/.vscode
