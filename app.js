@@ -5,7 +5,7 @@ import path from 'path';
 import express from 'express';
 
 const HTTP_PORT = process.env.HTTP_PORT || 3000;
-const HTTPS_PORT = process.env.HTTPS_PORT || 443;
+const HTTPS_PORT = 443;
 
 const __dirname = path.resolve();
 const buildDir = path.join(__dirname, 'build');
@@ -23,6 +23,9 @@ let privateKey;
 let certificate;
 let ca;
 let credentials;
+// if (fs.existsSync('./certs/ipsviewer2024.crt')) console.log('a');
+// if (fs.existsSync('./certs/ipsviewer2024.key')) console.log('b');
+// if (fs.existsSync('./certs/ipsviewer.ca-bundle')) console.log('c');
 if  (fs.existsSync('./certs/ipsviewer2024.key') && fs.existsSync('./certs/ipsviewer2024.crt') && fs.existsSync('./certs/ipsviewer.ca-bundle') ) {
   privateKey  = fs.readFileSync('./certs/ipsviewer2024.key', 'utf-8');
   certificate = fs.readFileSync('./certs/ipsviewer2024.crt', 'utf-8');
@@ -46,7 +49,7 @@ app.get(['/classic/favicon.ico'], (req, res) => {
 });
 
 // Catch-all route to serve `index.html` for SPA routing
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.send(index);
 });
 
@@ -56,10 +59,15 @@ if (credentials) {
   httpsServer = https.createServer(credentials, app);
 }
 
-httpServer.listen(HTTP_PORT);
-console.log(`listening on HTTP port ${HTTP_PORT}...`);
+// httpServer.listen(HTTP_PORT);
+//console.log(`listening on HTTP port ${HTTP_PORT}...`);
 if (httpsServer) {
+  httpServer.listen(80);
   httpsServer.listen(HTTPS_PORT);
-  console.log('listening on HTTPS port ${HTTPS_PORT}...');
+  console.log(`listening on HTTP 80 and HTTPS port ${HTTPS_PORT}...`);
 }
-else console.log('HTTPS server not running...')
+else {
+  console.log(`listening on HTTP port ${HTTP_PORT}...`)
+  httpServer.listen(HTTP_PORT);
+  console.log('HTTPS server not running...')
+}
