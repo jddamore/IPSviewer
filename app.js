@@ -23,10 +23,10 @@ let privateKey;
 let certificate;
 let ca;
 let credentials;
-if  (fs.existsSync('./certs/ipsviewer2023.key') && fs.existsSync('./certs/ipsviewer2023.crt') && fs.existsSync('./certs/ipsviewer2023.ca-bundle') ) {
-  privateKey  = fs.readFileSync('./certs/ipsviewer2023.key', 'utf-8');
-  certificate = fs.readFileSync('./certs/ipsviewer2023.crt', 'utf-8');
-  ca = fs.readFileSync('./certs/ipsviewer2023.ca-bundle', 'utf-8')
+if  (fs.existsSync('./certs/ipsviewer2024.key') && fs.existsSync('./certs/ipsviewer2024.crt') && fs.existsSync('./certs/ipsviewer.ca-bundle') ) {
+  privateKey  = fs.readFileSync('./certs/ipsviewer2024.key', 'utf-8');
+  certificate = fs.readFileSync('./certs/ipsviewer2024.crt', 'utf-8');
+  ca = fs.readFileSync('./certs/ipsviewer.ca-bundle', 'utf-8')
   credentials = {key: privateKey, cert: certificate, ca: ca};
 }
 

@@ -161,8 +161,8 @@
   >
   <h1>International Patient Summary (IPS) Viewer for Connectathon</h1>
   <div>
-    Links to <a href="https://hl7.org/fhir/uv/ips/">published Implementation Guide</a> and the <a
-      href="http://build.fhir.org/ig/HL7/fhir-ips/">latest CI build</a>
+    Links to <a href="https://hl7.org/fhir/uv/ips/">published Implementation Guide</a>, <a
+      href="http://build.fhir.org/ig/HL7/fhir-ips/">latest CI build</a>, and <a href="/classic">"classic" IPS Viewer</a>
   </div>
   <div>
     Please note that this tool is an open-source project under development. It only renders the following sections of
