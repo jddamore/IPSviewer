@@ -1,9 +1,11 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
   import type { MedicationRequest } from "fhir/r4";
+  import type { ResourceTemplateParams } from '$lib/utils/types';
   import Dosage from '$lib/components/resource-templates/Dosage.svelte';
   
-  export let resource: MedicationRequest; // Define a prop to pass the data to the component
+  export let content: ResourceTemplateParams<MedicationRequest>; // Define a prop to pass the data to the component
+  let resource: MedicationRequest = content.resource;
 </script>
 
 <Badge color="secondary">{resource.intent ? resource.intent : ''}</Badge>

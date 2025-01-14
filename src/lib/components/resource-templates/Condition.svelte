@@ -1,8 +1,11 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
   import type { Condition } from 'fhir/r4';
+  import type { ResourceTemplateParams } from '$lib/utils/types';
 
-  export let resource : Condition; // Define a prop to pass the data to the component
+  export let content: ResourceTemplateParams<Condition>; // Define a prop to pass the data to the component
+
+  let resource: Condition = content.resource;
 
   function badgeColor(severity: string) {
     if (severity) {

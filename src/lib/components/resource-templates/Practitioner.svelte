@@ -1,7 +1,11 @@
 <script lang="ts">
     import type { Practitioner } from "fhir/r4";
+    import type { ResourceTemplateParams } from '$lib/utils/types';
+    
+    export let content: ResourceTemplateParams<Practitioner>; // Define a prop to pass the data to the component
 
-    export let resource: Practitioner; // Define a prop to pass the data to the component
+    let resource: Practitioner = content.resource;
+
 </script>
   
 {#if resource.name}

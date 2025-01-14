@@ -1,8 +1,11 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
   import type { DiagnosticReport } from 'fhir/r4';
+  import type { ResourceTemplateParams } from '$lib/utils/types';
+  
+  export let content: ResourceTemplateParams<DiagnosticReport>; // Define a prop to pass the data to the component
 
-  export let resource: DiagnosticReport; // Define a prop to pass the data to the component
+  let resource: DiagnosticReport = content.resource;
 </script>
 
 {#if resource.code}

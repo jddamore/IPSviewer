@@ -158,7 +158,10 @@
                 <Row style="overflow:hidden">
                   <Col>
                     {#if mode === "app" && resource.resourceType in components}
-                      <svelte:component this={components[resource.resourceType]} resource={resource} />
+                      <svelte:component
+                        this={components[resource.resourceType]}
+                        content={{resource: resource, entries: content.entries}}
+                      />
                     {:else}
                       {#if mode === "app"}
                         {showInfoMessage(`Unsupported sections displayed using composition narratives`)};

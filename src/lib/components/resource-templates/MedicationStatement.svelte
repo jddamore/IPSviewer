@@ -2,8 +2,11 @@
   import { Badge } from 'sveltestrap';
   import type { MedicationStatement } from "fhir/r4";
   import Dosage from '$lib/components/resource-templates/Dosage.svelte';
+  import type { ResourceTemplateParams } from '$lib/utils/types';
   
-  export let resource: MedicationStatement; // Define a prop to pass the data to the component
+  export let content: ResourceTemplateParams<MedicationStatement>; // Define a prop to pass the data to the component
+
+  let resource: MedicationStatement = content.resource;
 </script>
 {#if resource.status}
 <Badge color={resource.status === "unknown" ? "secondary" : "primary"}>{resource.status}</Badge>

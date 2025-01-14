@@ -1,8 +1,11 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
   import type { Encounter } from 'fhir/r4';
+  import type { ResourceTemplateParams } from '$lib/utils/types';
+  
+  export let content: ResourceTemplateParams<Encounter>; // Define a prop to pass the data to the component
 
-  export let resource: Encounter; // Define a prop to pass the data to the component
+  let resource: Encounter = content.resource;
 </script>
 
 {#if resource.period?.start}
