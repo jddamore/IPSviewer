@@ -6171,7 +6171,7 @@
       }
     },
     {
-      "fullUrl": "https://hapi.fhir.org/baseR4/Procedure/39252",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Procedure/39252",
       "resource": {
         "resourceType": "Procedure",
         "id": "39252",
@@ -6198,6 +6198,7 @@
       }
     },
     {
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DeviceUseStatement/eumfh-70-275-1",
       "resource": {
         "resourceType": "DeviceUseStatement",
         "id": "eumfh-70-275-1",
@@ -6214,20 +6215,21 @@
           ]
         },
         "device": {
-          "reference": "Device/eumfh-70-275-1"
+          "reference": "Device/eumfh-70-275-2"
         }
       }
     },
     {
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Device/eumfh-70-275-2",
       "resource": {
         "resourceType": "Device",
-        "id": "eumfh-70-275-1",
+        "id": "eumfh-70-275-2",
         "type": {
           "coding": [
             {
               "system": "http://snomed.info/sct",
               "code": "67270000",
-              "display": " Hip prosthesis, device (physical object)"
+              "display": "Hip prosthesis, device (physical object)"
             }
           ]
         },
