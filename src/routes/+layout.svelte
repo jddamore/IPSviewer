@@ -124,36 +124,34 @@
         </Col>
       </Row>
     </NavbarBrand>
-    <NavbarToggler on:click={() => ($isOpen = !$isOpen)} />
-    <Collapse class="flex-row d-flex justify-content-end" isOpen={$isOpen} navbar expand="sm" on:update={handleUpdate}>
-      <Row class="d-flex justify-content-end align-items-center">
-        Displaying FHIR Resources Using:
-        <Col style="width: fit-content">
-          <Dropdown>
-            <DropdownToggle color="secondary" caret>
-              {displayModeText}
-            </DropdownToggle>
-            <DropdownMenu>
-              {#each Object.entries(displayModes) as [mode, {buttonText, dropdownText}]}
-                <DropdownItem
-                  on:click={() => {
-                    setMode(mode);
-                }}>
-                  <Row class="mr-0" style="min-width:340px">
-                    <Col class="d-flex justify-content-start align-items-center pe-0">
-                      {dropdownText}
-                    </Col>
-                    <Col class="d-flex justify-content-end ps-0">
-                      {#if mode === $displayMode} <Icon name="check" class="text-success fs-5"/>{/if}
-                    </Col>
-                  </Row>
-                </DropdownItem>
-              {/each}
-            </DropdownMenu>
-          </Dropdown>
-        </Col>
-      </Row>
-    </Collapse>
+    <Row class="d-flex justify-content-end align-items-center">
+      <Col class="d-none d-sm-inline" style="min-width: fit-content">Displaying FHIR Resources Using:</Col>
+      <Col style="width: fit-content">
+        <Dropdown>
+          <DropdownToggle color="secondary" caret>
+            <span class="d-none d-sm-inline">{displayModeText}</span>
+            <span class="d-inline d-sm-none">Display Mode</span>
+          </DropdownToggle>
+          <DropdownMenu>
+            {#each Object.entries(displayModes) as [mode, {buttonText, dropdownText}]}
+              <DropdownItem
+                on:click={() => {
+                  setMode(mode);
+              }}>
+                <Row class="mr-0" style="min-width:340px">
+                  <Col class="d-flex justify-content-start align-items-center pe-0">
+                    {dropdownText}
+                  </Col>
+                  <Col class="d-flex justify-content-end ps-0">
+                    {#if mode === $displayMode} <Icon name="check" class="text-success fs-5"/>{/if}
+                  </Col>
+                </Row>
+              </DropdownItem>
+            {/each}
+          </DropdownMenu>
+        </Dropdown>
+      </Col>
+    </Row>
   </Navbar>
   <Row 
     style="border-bottom: 1px solid rgb(204, 204, 204);"
