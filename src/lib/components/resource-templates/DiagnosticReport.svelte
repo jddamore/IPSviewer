@@ -45,14 +45,15 @@
     <Badge color="primary">{resource.code.coding[0].system} : {resource.code.coding[0].code}</Badge>
     <br />
     {#if resource.code.coding[0].display}
-      <strong>{resource.code.coding[0].display}</strong><br />
+      <strong>{resource.code.coding[0].display}</strong>
     {:else if resource.code.text}
-      <strong>{resource.code.text}</strong><br />
+      <strong>{resource.code.text}</strong>
     {/if}
   {:else if resource.code.text}
-    <strong>{resource.code.text}</strong><br />
+    <br><strong>{resource.code.text}</strong>
   {/if}
 {/if}
+<br>
 {#if resource.effectivePeriod}
   Effective: {resource.effectivePeriod.start ? resource.effectivePeriod.start : ''}{resource
     .effectivePeriod.end
@@ -61,11 +62,11 @@
 {:else if resource.effectiveDateTime}
   Date: {resource.effectiveDateTime.split('T')[0]}
 {/if}
-<br />
+<br>
 {#if resource.result}
   <table class="table table-bordered table-sm">
     <thead>
-      <tr><th colspan="5">Result(s)</th></tr>
+      <tr><th>Result(s)</th></tr>
     </thead>
     <tbody>
     {#each results as result}
