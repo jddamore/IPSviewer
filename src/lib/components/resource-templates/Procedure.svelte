@@ -23,11 +23,15 @@
 {#if resource.performedDateTime}
   Performed: {resource.performedDateTime.split("T")[0]}
 {:else if resource.performedPeriod}
-  Performed: {resource.performedPeriod}
+  Performed: {resource.performedPeriod.start ? resource.performedPeriod.start : ''}{resource.performedPeriod.end
+    ? ` - ${resource.performedPeriod.end}`
+    : ''}
 {:else if resource.performedString}
   Performed: {resource.performedString}
 {:else if resource.performedAge}
-  Performed age: {resource.performedAge}
+  Performed age: {resource.performedAge.value}{resource.performedAge.code}
 {:else if resource.performedRange}
-  Performed age: {resource.performedRange}
+  Performed age: {resource.performedRange.low ? resource.performedRange.low : ''}{resource.performedRange.high
+    ? ` - ${resource.performedRange.high}`
+    : ''}
 {/if}
