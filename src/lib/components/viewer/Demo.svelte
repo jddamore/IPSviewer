@@ -15,7 +15,7 @@
   import type { Bundle } from "fhir/r4";
   import IpsContent from "$lib/components/viewer/IPSContent.svelte";
 
-  export let content: Bundle | undefined;
+  export let bundle: Bundle | undefined;
   export let mode: string;
 
   let demoContent: string;
@@ -25,10 +25,10 @@
   });
 
   $: {
-    if (!content) {
+    if (!bundle) {
       demoContent = "";
     } else {
-      demoContent = JSON.stringify(content, null, 2);
+      demoContent = JSON.stringify(bundle, null, 2);
     }
   }
 
@@ -99,7 +99,7 @@
   let submitted = false;
   function submit() {
     try {
-      content = JSON.parse(textInput);
+      bundle = JSON.parse(textInput);
       clearInputErrors();
       submitted = true;
       setTimeout(() => submitted = false, 2000);
@@ -179,9 +179,9 @@
     <a href="https://github.com/jddamore/IPSviewer/tree/main/samples" class="m-1" target="_blank" rel="noreferrer">Repository of IPS Samples</a>
   </Col>
 </Row>
-{#if content}
+{#if bundle}
 <Row>
-  <IpsContent content={content} mode={mode} />
+  <IpsContent {bundle} {mode} />
 </Row>
 {/if}
 
