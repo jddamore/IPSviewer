@@ -2,9 +2,13 @@
   import {
     Accordion,
     AccordionItem,
+    Button,
+    ButtonGroup,
     Card,
     CardBody,
     Col,
+    Icon,
+    Offcanvas,
     Row,
   } from 'sveltestrap';
   import type {
@@ -13,6 +17,7 @@
     CompositionSection,
     Resource
   } from "fhir/r4";
+  import { download } from '$lib/utils/util.js';
 
   export let bundle: Bundle;
   export let mode: string;
@@ -139,7 +144,56 @@
     showInfo = false;
     infoMessage = "";
   }
+
+  let json = "";
+  let resourceType = "";
+  let isOpen = false;
+  function setJson(resource:any) {
+      json = JSON.stringify(resource, null, 2);
+      resourceType = resource.resourceType;
+      isOpen = true;
+  }
+  function toggle() {
+      isOpen = !isOpen;
+  }
 </script>
+
+<Offcanvas
+    {isOpen}
+    {toggle}
+    scroll={false}
+    header={resourceType + " JSON"}
+    placement="end"
+    title={resourceType + " JSON"}
+    style="display: flex;  overflow-y:hidden; height: 100dvh;"
+>
+    <Row class="d-flex" style="height: 100%">
+            <Row class="d-flex pe-0" style="height:calc(100% - 50px)">
+                <Col class="d-flex pe-0" style="height:100%">
+                    <div class="d-flex pe-0 pb-0 code-container">
+                        <pre class="code"><code>{json}</code></pre>
+                    </div>
+                </Col>
+            </Row>
+            <Row class="d-flex pe-0" style="height:50px">
+                <Col class="d-flex justify-content-start align-items-end" style="padding-top: 1rem">
+                    <ButtonGroup>
+                        <Button
+                            size="sm"
+                            color="primary"
+                            on:click={() => navigator.clipboard.writeText(json)}
+                        ><Icon name="clipboard" /> Copy</Button>
+                        <Button
+                            size="sm"
+                            outline
+                            color="secondary"
+                            on:click={() => download(resourceType + ".json", json)}
+                        ><Icon name="download" /> Download</Button>
+                      </ButtonGroup>
+                </Col>
+            </Row>
+    </Row>
+</Offcanvas>
 
 {#if showInfo}
   <Row class="text-info">{infoMessage}</Row>
@@ -168,6 +222,15 @@
                         {showInfoMessage(`Unsupported sections displayed using composition narratives`)};
                       {/if}
                     {/if}
+                  </Col>
+                  <Col class="d-flex justify-content-end align-items-start" style="max-width:max-content">
+                    <Button
+                        size="sm"
+                        color="secondary"
+                        on:click={() => setJson(resource)}
+                    >
+                        View <Icon name="braces"/>
+                    </Button>
                   </Col>
                 </Row>
               </CardBody>
@@ -229,4 +292,18 @@
     max-height: 40rem !important;
   }
 
+  .code {
+        overflow:auto;
+        margin: 0;
+        padding: 10px;
+    }
+    .code-container {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        border: 1px solid rgb(200, 200, 200);
+        overflow: hidden;
+    }
+    :global(div.offcanvas-body) {
+        overflow-y: hidden !important;
+    }
 </style>
