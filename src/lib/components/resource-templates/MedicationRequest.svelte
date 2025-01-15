@@ -58,6 +58,9 @@
   <br>
 {/if}
 
+{#if resource.authoredOn}
+  Authored: {resource.authoredOn.split('T')[0]}<br>
+{/if}
 {#if resource.dispenseRequest?.validityPeriod}
   Valid: {resource.dispenseRequest?.validityPeriod.start}{resource.dispenseRequest
     ?.validityPeriod.end
