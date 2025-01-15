@@ -20,6 +20,7 @@
   import AdvanceDirective from '$lib/components/resource-templates/AdvanceDirective.svelte';
   import AllergyIntolerance from '$lib/components/resource-templates/AllergyIntolerance.svelte';
   import Condition from '$lib/components/resource-templates/Condition.svelte';
+  import Consent from '$lib/components/resource-templates/Consent.svelte';
   import DiagnosticReport from '$lib/components/resource-templates/DiagnosticReport.svelte';
   import Encounter from '$lib/components/resource-templates/Encounter.svelte';
   import Immunization from '$lib/components/resource-templates/Immunization.svelte';
@@ -37,7 +38,7 @@
   const components: Record<string, any> = {
     "AllergyIntolerance": AllergyIntolerance,
     "Condition": Condition,
-    "Consent": AdvanceDirective,
+    "Consent": Consent,
     "DiagnosticReport": DiagnosticReport,
     "DocumentReference": AdvanceDirective,
     "Encounter": Encounter,
@@ -189,6 +190,10 @@
     border: 1px solid lightgray !important;
     padding: 0 7px !important;
     text-align: center !important;
+  }
+
+  :global(.ips-section td) {
+    margin-left: 2em !important;
   }
 
   :global(.ips-section thead) {
