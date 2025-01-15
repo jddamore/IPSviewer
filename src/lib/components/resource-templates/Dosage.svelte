@@ -5,6 +5,13 @@
 </script>
 
 {#if dosage}
+  {#if dosage.text}
+    Dosage: {dosage.text}
+  {:else if dosage.asNeededBoolean}
+    Dosage: as needed
+  {:else}
+    <span class="text-muted">No dosage information</span>
+  {/if}
   {#if dosage.route?.coding || dosage.doseAndRate || dosage.timing?.repeat}
     <table class="table table-bordered table-sm">
       <thead>
@@ -17,24 +24,20 @@
           <th scope="col">Freq. Period</th>
         </tr>
       </thead>
-      <tr>
-        <td>{dosage.route?.coding?.[0].display ?? ''}</td>
-        <td>{dosage.doseAndRate?.[0].doseQuantity?.value ?? ''}</td>
-        <td>{dosage.doseAndRate?.[0].doseQuantity?.unit ?? ''}</td>
-        <td>{dosage.timing?.repeat?.count ?? ''}</td>
-        <td>
-          {#if dosage.timing?.repeat?.period && dosage.timing?.repeat?.periodUnit}
-            {dosage.timing?.repeat?.period}{dosage.timing?.repeat?.periodUnit}
-          {/if}
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>{dosage.route?.coding?.[0].display ?? ''}</td>
+          <td>{dosage.doseAndRate?.[0].doseQuantity?.value ?? ''}</td>
+          <td>{dosage.doseAndRate?.[0].doseQuantity?.unit ?? ''}</td>
+          <td>{dosage.timing?.repeat?.count ?? ''}</td>
+          <td>
+            {#if dosage.timing?.repeat?.period && dosage.timing?.repeat?.periodUnit}
+              {dosage.timing?.repeat?.period}{dosage.timing?.repeat?.periodUnit}
+            {/if}
+          </td>
+        </tr>
+    </tbody>
     </table>
-  {:else if dosage.text}
-    Dosage: {dosage.text}
-  {:else if dosage.asNeededBoolean}
-    Dosage: as needed
-  {:else}
-    <span class="text-muted">No dosage information</span>
   {/if}
 {:else}
   <span class="text-muted">No dosage information</span>

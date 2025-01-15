@@ -1,8 +1,10 @@
 <script lang="ts">
     import { Badge } from 'sveltestrap';
     import type { Observation } from "fhir/r4";
+    import type { ResourceTemplateParams } from '$lib/utils/types';
     
-    export let resource: Observation; // Define a prop to pass the data to the component
+    export let content: ResourceTemplateParams<Observation>; // Define a prop to pass the data to the component
+    let resource: Observation = content.resource;
   </script>
 
   {#if resource.code.coding?.[0].code}

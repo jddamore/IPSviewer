@@ -1,7 +1,12 @@
-import type { DocumentReference } from 'fhir/r4';
+import type { BundleEntry, DocumentReference } from 'fhir/r4';
 
 export interface SHCFile {
   verifiableCredential: string[];
+}
+
+export interface ResourceTemplateParams<T> {
+  resource: T;
+  entries?: BundleEntry[];
 }
 
 export interface DocumentReferencePOLST extends DocumentReference {

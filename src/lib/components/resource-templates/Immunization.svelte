@@ -1,8 +1,11 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
   import type { Immunization } from 'fhir/r4';
+  import type { ResourceTemplateParams } from '$lib/utils/types';
+  
+  export let content: ResourceTemplateParams<Immunization>; // Define a prop to pass the data to the component
 
-  export let resource: Immunization; // Define a prop to pass the data to the component
+  let resource: Immunization = content.resource;
 </script>
 {#if resource.vaccineCode}
   {#if resource.vaccineCode.coding}

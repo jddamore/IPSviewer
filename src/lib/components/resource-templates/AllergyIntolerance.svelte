@@ -1,8 +1,11 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
   import type { AllergyIntolerance } from 'fhir/r4';
+  import type { ResourceTemplateParams } from '$lib/utils/types';
+  
+  export let content: ResourceTemplateParams<AllergyIntolerance>; // Define a prop to pass the data to the component
 
-  export let resource: AllergyIntolerance; // Define a prop to pass the data to the component
+  let resource: AllergyIntolerance = content.resource;
 
   function badgeColor(criticality: string) {
     if (criticality) {

@@ -14,7 +14,7 @@
     Resource
   } from "fhir/r4";
 
-  export let content: Bundle;
+  export let bundle: Bundle;
   export let mode: string;
 
   import AdvanceDirective from '$lib/components/resource-templates/AdvanceDirective.svelte';
@@ -63,8 +63,8 @@
 
   let ipsContent: Record<string, IpsContent> = {};
   $: {
-    if (content) {
-      ipsContent = getIpsContent(content);
+    if (bundle) {
+      ipsContent = getIpsContent(bundle);
     }
   }
 
@@ -143,22 +143,25 @@
 {#if showInfo}
   <Row class="text-info">{infoMessage}</Row>
 {/if}
-{#each Object.entries(ipsContent) as [title, content]}
+{#each Object.entries(ipsContent) as [title, sectionContent]}
 <Row class="mx-0">
   <!--wrap in accordion with title-->
   <Accordion class="mt-3">
     <AccordionItem active class="ips-section">
       <h6 slot="header" class="my-2">{title}</h6>
-      {#if content.useText || mode === "text"}
-        {@html content.section.text?.div}
+      {#if sectionContent.useText || mode === "text"}
+        {@html sectionContent.section.text?.div}
       {:else}
         <Card style="width: 100%; max-width: 100%" class="mb-2">
-            {#each content.entries as resource, index}
+            {#each sectionContent.entries as resource, index}
               <CardBody class={index > 0 ? "border-top" : ""}>
                 <Row style="overflow:hidden">
                   <Col>
                     {#if mode === "app" && resource.resourceType in components}
-                      <svelte:component this={components[resource.resourceType]} resource={resource} />
+                      <svelte:component
+                        this={components[resource.resourceType]}
+                        content={{resource: resource, entries: bundle.entry}}
+                      />
                     {:else}
                       {#if mode === "app"}
                         {showInfoMessage(`Unsupported sections displayed using composition narratives`)};
@@ -182,7 +185,7 @@
     width: 100% !important;
   }
 
-  :global(.ips-section th, td) {
+  :global(.ips-section th) {
     border: 1px solid lightgray !important;
     padding: 0 7px !important;
     text-align: center !important;
@@ -196,9 +199,11 @@
   /* Alternating table row coloring */
   :global(.ips-section tbody tr:nth-child(odd)) {
     background-color: #fff;
+    border: 1px solid lightgray;
   }
   :global(.ips-section tbody tr:nth-child(even)) {
     background-color: #e7f1ff;
+    border: 1px solid lightgray;
   }
   
   /* Sticky table header */
