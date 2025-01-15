@@ -6,6 +6,7 @@
   export let content: ResourceTemplateParams<Medication>; // Define a prop to pass the data to the component
 
   let resource: Medication = content.resource;
+  let codingMap = new Map();
 </script>
 
 {#if resource.code}
@@ -15,23 +16,22 @@
   {/if}
 {/if}
 {#if resource.code?.text}
+  {(codingMap.set(resource.code.text, 1) && undefined) ?? ""}
   <strong>{resource.code.text}</strong><br>
 {/if}
 {#if resource.code?.coding}
   {#each resource.code.coding as coding, index}
     {#if !resource.code?.text && index == 0}
       <strong>
-        {#if coding.display}
+        {#if coding.display && !codingMap.get(coding.display)}
+          {(codingMap.set(coding.display, 1) && undefined) ?? ""}
           {coding.display}<br>
-        {:else if resource.code.text}
-          {resource.code.text}<br>
         {/if}
       </strong>
     {:else}
-      {#if coding.display}
+      {#if coding.display && !codingMap.get(coding.display)}
+        {(codingMap.set(coding.display, 1) && undefined) ?? ""}
         {coding.display}<br>
-      {:else if resource.code.text}
-        {resource.code.text}<br>
       {/if}
     {/if}
   {/each}
