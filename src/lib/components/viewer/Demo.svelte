@@ -89,6 +89,7 @@
       });
     if (sample) {
       textInput = sample;
+      submit();
     }
   }
 
