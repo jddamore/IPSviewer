@@ -210,8 +210,8 @@
         <Card style="width: 100%; max-width: 100%" class="mb-2">
             {#each sectionContent.entries as resource, index}
               <CardBody class={index > 0 ? "border-top" : ""}>
-                <Row style="overflow:hidden">
-                  <Col>
+                <Row style="overflow:hidden" class="d-flex justify-content-end align-content-center">
+                  <Col class="flex-grow-1" style="overflow:hidden">
                     {#if mode === "app" && resource.resourceType in components}
                       <svelte:component
                         this={components[resource.resourceType]}
@@ -223,13 +223,14 @@
                       {/if}
                     {/if}
                   </Col>
-                  <Col class="d-flex justify-content-end align-items-start" style="max-width:max-content">
+                  <Col class="d-flex flex-row-reverse justify-content-end align-items-start" style="max-width: max-content">
                     <Button
                         size="sm"
                         color="secondary"
+                        outline
                         on:click={() => setJson(resource)}
                     >
-                        View <Icon name="braces"/>
+                      View
                     </Button>
                   </Col>
                 </Row>
