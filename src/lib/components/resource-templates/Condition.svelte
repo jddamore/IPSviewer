@@ -60,8 +60,8 @@
     <strong>{resource.code.text}</strong><br>
   {/if}
 {/if}
-{#if resource.bodySite}
-  Site: {resource.bodySite}<br>
+{#if resource.bodySite?.[0]?.coding?.[0]?.display}
+  Site: {resource.bodySite[0]?.coding?.[0]?.display}<br>
 {/if}
 {#if resource.onsetDateTime}
   Since: {resource.onsetDateTime.split("T")[0]}<br>
