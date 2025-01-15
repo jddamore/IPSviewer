@@ -185,7 +185,7 @@
     width: 100% !important;
   }
 
-  :global(.ips-section th, td) {
+  :global(.ips-section th) {
     border: 1px solid lightgray !important;
     padding: 0 7px !important;
     text-align: center !important;
@@ -199,9 +199,11 @@
   /* Alternating table row coloring */
   :global(.ips-section tbody tr:nth-child(odd)) {
     background-color: #fff;
+    border: 1px solid lightgray;
   }
   :global(.ips-section tbody tr:nth-child(even)) {
     background-color: #e7f1ff;
+    border: 1px solid lightgray;
   }
   
   /* Sticky table header */

@@ -48,8 +48,9 @@
         <th scope="col">Strength Denominator Unit</th>
       </tr>
     </thead>
+    <tbody>
     {#each resource.ingredient as ingredient}
-      <tr>
+      <tr style="text-align: center !important">
         <td>{ingredient.itemCodeableConcept?.coding?.[0].display}</td>
         <td>{ingredient.strength?.numerator?.value}</td>
         <td>{ingredient.strength?.numerator?.unit}</td>
@@ -57,5 +58,6 @@
         <td>{ingredient.strength?.denominator?.unit}</td>
       </tr>
     {/each}
+    </tbody>
   </table>
 {/if}

@@ -59,7 +59,7 @@
 {/if}
 
 {#if resource.dispenseRequest?.validityPeriod}
-  Valid from {resource.dispenseRequest?.validityPeriod.start}{resource.dispenseRequest
+  Valid: {resource.dispenseRequest?.validityPeriod.start}{resource.dispenseRequest
     ?.validityPeriod.end
     ? ` - ${resource.dispenseRequest?.validityPeriod.end}`
     : ''}

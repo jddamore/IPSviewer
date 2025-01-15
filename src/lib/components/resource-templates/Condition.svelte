@@ -64,5 +64,8 @@
   Site: {resource.bodySite}<br>
 {/if}
 {#if resource.onsetDateTime}
-  Since {resource.onsetDateTime.split("T")[0]}<br>
+  Since: {resource.onsetDateTime.split("T")[0]}<br>
+{/if}
+{#if resource.recordedDate}
+  Recorded: {resource.recordedDate.split("T")[0]}<br>
 {/if}

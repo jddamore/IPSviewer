@@ -21,13 +21,13 @@
   {/if}
 {/if}
 {#if resource.performedDateTime}
-  Performed {resource.performedDateTime.split("T")[0]}
+  Performed: {resource.performedDateTime.split("T")[0]}
 {:else if resource.performedPeriod}
-  Performed {resource.performedPeriod}
+  Performed: {resource.performedPeriod}
 {:else if resource.performedString}
-  Performed {resource.performedString}
+  Performed: {resource.performedString}
 {:else if resource.performedAge}
-  Performed age {resource.performedAge}
+  Performed age: {resource.performedAge}
 {:else if resource.performedRange}
-  Performed age {resource.performedRange}
+  Performed age: {resource.performedRange}
 {/if}

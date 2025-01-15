@@ -27,7 +27,7 @@
   }
 </script>
 {#if resource.status}
-<Badge color={resource.status === "unknown" ? "secondary" : "primary"}>{resource.status}</Badge>
+<Badge color={resource.status === "unknown" || resource.status === "stopped" ? "secondary" : "primary"}>{resource.status}</Badge>
 {/if}
 
 {#if resource.medicationCodeableConcept}
@@ -60,10 +60,10 @@
 
 <Dosage dosage={resource.dosage?.[0]} />
 
-{#if resource.effectivePeriod?.start}
-  Effective {resource.effectivePeriod.start}{resource.effectivePeriod.end
+{#if resource.effectivePeriod}
+  Effective: {resource.effectivePeriod.start ? resource.effectivePeriod.start : ''}{resource.effectivePeriod.end
     ? ` - ${resource.effectivePeriod.end}`
     : ''}
 {:else if resource.effectiveDateTime}
-  {resource.effectiveDateTime ? `Effective date: ${resource.effectiveDateTime.split("T")[0]}` : ''}
+    Date: {resource.effectiveDateTime.split("T")[0]}
 {/if}
