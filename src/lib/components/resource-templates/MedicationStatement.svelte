@@ -65,5 +65,5 @@
     ? ` - ${resource.effectivePeriod.end}`
     : ''}
 {:else if resource.effectiveDateTime}
-    Date: {resource.effectiveDateTime.split("T")[0]}
+  Date: {resource.effectiveDateTime.split("T")[0]}
 {/if}

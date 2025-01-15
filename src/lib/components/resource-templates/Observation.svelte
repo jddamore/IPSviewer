@@ -74,6 +74,6 @@ $: {
     <div class="ms-4"><svelte:self content={{ resource: member, entries: content.entries }} contained={true}/></div>
   {/each}
 {/if}
-{#if !contained}
-  Date: {resource.effectiveDateTime ? `${resource.effectiveDateTime.split("T")[0]}` : ''}
+{#if resource.effectiveDateTime}
+  Date: {resource.effectiveDateTime.split("T")[0]}
 {/if}
