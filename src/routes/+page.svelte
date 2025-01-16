@@ -177,19 +177,19 @@
     {#each shlContents as contents, index}
       <TabPane class={`ips${index}`} tabId={`ips${index}`} active={index === 0} style="padding-top:10px">
         <span class="smart-tab" slot="tab">{getTabLabel(contents)}</span>
-        <IPSContent content={contents} mode={$displayMode} />
+        <IPSContent bundle={contents} mode={$displayMode} />
       </TabPane>
     {/each}
     {#if SHOW_VIEWER_DEMO}
       <TabPane tabId="demo" active={shlContents.length === 0} style="padding-top:10px">
         <span class="demo-tab" slot="tab">IPS Demo</span>
-        <Demo content={shlContents[0]} mode={$displayMode} />
+        <Demo bundle={shlContents[0]} mode={$displayMode} />
       </TabPane>
     {/if}
   </TabContent>
 {:else}
   <!-- Single tab view -->
-  <IPSContent content={shlContents[0]} mode={$displayMode} />
+  <IPSContent bundle={shlContents[0]} mode={$displayMode} />
 {/if}
 
 <style lang="css">
