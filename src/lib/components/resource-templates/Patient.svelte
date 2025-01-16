@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Badge } from 'sveltestrap';
+    import { Badge, Button } from 'sveltestrap';
     import type { Patient } from "fhir/r4";
     import type { ResourceTemplateParams } from '$lib/utils/types';
 
@@ -9,7 +9,6 @@
     let showContact = false;
 </script>
 
-<div id={resource.id}>
 {#if resource.name}
     <strong>
         {#if resource.name[0]}
@@ -26,7 +25,7 @@
     </strong>
     <br>
 {/if}
-</div>
+
 {#if resource.birthDate}
     Birth Date: {resource.birthDate}<br>
 {/if}
@@ -34,7 +33,14 @@
     Gender: {resource.gender ?? ""}<br>
 {/if}
 {#if resource.telecom || resource.address || resource.contact}
-    <a href={`#${resource.id}`} on:click={() => showContact = !showContact}>{showContact ? 'Hide' : 'Show'} contact information</a>
+    <Button
+        class="my-1"
+        size="sm"
+        color={!showContact ? "secondary" : "primary"}
+        outline
+        on:click={() => showContact = !showContact}>
+        {showContact ? 'Hide' : 'Show'} contact information
+    </Button>
     {#if showContact}
         {#if resource.telecom}
             <table class="table table-bordered table-sm">
