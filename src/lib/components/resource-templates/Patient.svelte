@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Badge, Button } from 'sveltestrap';
+    import { Badge, Button, Icon } from 'sveltestrap';
     import type { Patient } from "fhir/r4";
     import type { ResourceTemplateParams } from '$lib/utils/types';
 
@@ -38,8 +38,10 @@
         size="sm"
         color={!showContact ? "secondary" : "primary"}
         outline
-        on:click={() => showContact = !showContact}>
+        on:click={() => showContact = !showContact}
+    >
         {showContact ? 'Hide' : 'Show'} contact information
+        <Icon style="font-size: x-small;" name={!showContact ? "caret-down" : "caret-up"} />
     </Button>
     {#if showContact}
         {#if resource.telecom}
