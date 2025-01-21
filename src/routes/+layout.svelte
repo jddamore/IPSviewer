@@ -165,8 +165,7 @@
       href="http://build.fhir.org/ig/HL7/fhir-ips/">latest CI build</a>, and <a href="/classic">"classic" IPS Viewer</a>
   </div>
   <div>
-    Please note that this tool is an open-source project under development. It only renders the following sections of
-    IPS bundles: Advance Directives, Allergies, Immunizations, Medications, Problems, Results, and Social History. Rendering of FHIR resources
+    Please note that this tool is an open-source project under development. Rendering of FHIR resources
     may be incomplete and using the narrative may be necessary in some circumstances. 
   </div>
   </Row>
