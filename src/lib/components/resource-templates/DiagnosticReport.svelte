@@ -71,7 +71,12 @@
     <tbody>
     {#each results as result}
       <tr>
-        <div class="mx-4"><ObservationTemplate content={{ resource: result, entries: content.entries }} contained={true}/></div>
+        <div class="ml-4">
+          <ObservationTemplate
+            content={{ resource: result, entries: content.entries }}
+            contained={resource.effectiveDateTime !== undefined || resource.effectivePeriod !== undefined}
+          />
+        </div>
       </tr>
     {/each}
     {#each resource.result as result}

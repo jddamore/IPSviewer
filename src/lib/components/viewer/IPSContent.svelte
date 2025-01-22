@@ -289,7 +289,7 @@
   /* Limit height for section content window */
   :global(.ips-section > .accordion-collapse > .accordion-body) {
     overflow: auto !important;
-    max-height: 40rem !important;
+    max-height: 50rem !important;
   }
 
   .code {

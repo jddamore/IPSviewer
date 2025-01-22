@@ -9,12 +9,18 @@
 
   let resource: Observation = content.resource;
 
-  let members: Observation[] | undefined = [];
+
+  interface ResolvedMember {
+    resource?: Observation;
+    display?: string;
+  }
+  let members: ResolvedMember[] | undefined = [];
 
 $: {
   if (resource) {
     if (resource.hasMember) {
       for (let member of resource.hasMember) {
+        let memberFields: ResolvedMember = {};
         if (member.reference) {
           let memberResource;
           if (resource.contained?.[0]?.resourceType === 'Observation') {
@@ -25,8 +31,14 @@ $: {
             memberResource = getEntry(content.entries as BundleEntry[], member.reference) as Observation;
           }
           if (memberResource) {
-            members.push(memberResource);
+            memberFields.resource = memberResource;
           }
+        }
+        if (member.display) {
+          memberFields.display = member.display;
+        }
+        if (Object.keys(memberFields).length > 0) {
+          members.push(memberFields);
         }
       }
     }
@@ -69,10 +81,28 @@ $: {
 {#if !(resource.valueCodeableConcept || resource.valueQuantity || resource.valueString)}
   <br>
 {/if}
-{#if members}
+{#if members.length > 0}
+<table class="table table-bordered table-sm">
+  <thead>
+    <tr><th>Result(s)</th></tr>
+  </thead>
+  <tbody>
   {#each members as member}
-    <div class="ms-4"><svelte:self content={{ resource: member, entries: content.entries }} contained={true}/></div>
+    <tr>
+      <div class="mx-4">
+        {#if member.resource}
+          <svelte:self
+            content={{ resource: member.resource, entries: content.entries }}
+            contained={resource.effectiveDateTime !== undefined || resource.effectivePeriod !== undefined}
+          />
+        {:else if member.display}
+          <strong>{member.display}</strong>
+        {/if}
+      </div>
+    </tr>
   {/each}
+  </tbody>
+</table>
 {/if}
 {#if resource.effectiveDateTime}
   Date: {resource.effectiveDateTime.split("T")[0]}
