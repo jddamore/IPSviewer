@@ -81,6 +81,14 @@
     if (!compositions || !compositions[0]) {
       return content;
     }
+    let patient = ips.entry?.filter((entry) => entry.resource?.resourceType === 'Patient').map((entry) => entry.resource);
+    if (patient?.[0]) {
+      content ["Patient"] = {
+        section: {},
+        entries: patient as Resource[],
+        useText: false
+      }
+    }
     let composition = compositions[0].resource as Composition;
     composition.section?.forEach((section) => {
       let title = (section.title ?? section.code?.coding?.[0].display) ?? "[Untitled section]";
