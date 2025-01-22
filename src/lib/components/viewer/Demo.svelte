@@ -99,6 +99,8 @@
 
   function clear() {
     textInput = "";
+    checksResult = undefined;
+    bundle = undefined;
   }
 
   let submitted = false;
