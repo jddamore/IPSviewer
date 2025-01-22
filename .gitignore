@@ -38,9 +38,9 @@ vite.config.ts.timestamp-*
 # Sveltekit
 /.svelte-kit
 
-# Envs
-.env
-.env.*
+# Envs - JUST GOING TO ALLOW SINCE WE NEED AND I FORGET ALL TIME
+#.env
+#.env.*
 
 # VS Code session
 /.vscode
