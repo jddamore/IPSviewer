@@ -1,0 +1,1538 @@
+{
+    "resourceType": "Bundle",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:b5c1dc49-096d-4342-a3e3-3be0f063b1d1"
+    },
+    "type": "document",
+    "timestamp": "2025-01-15T19:27:32Z",
+    "entry": [
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Composition/fiMPXIl4k05SApU2g7VyfHQ4",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "fiMPXIl4k05SApU2g7VyfHQ4",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>International Patient Summary (IPS) for Jan, Connectathon</b></p><p>Generated at 1/15/2024 14:32 PM from connectathon-testing for EpicConnect and Pulsar testing only</p></div>"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ],
+                    "text": "International Patient Summary"
+                },
+                "subject": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "date": "2025-01-15T19:27:32Z",
+                "author": [
+                    {
+                        "reference": "Organization/ePUQySFaW.ofXm2GhaXRMDA3",
+                        "display": "Facility"
+                    }
+                ],
+                "title": "International Patient Summary for Jan, Connectathon",
+                "custodian": {
+                    "reference": "Organization/ePUQySFaW.ofXm2GhaXRMDA3",
+                    "display": "Facility"
+                },
+                "section": [
+                    {
+                        "extension": [
+                            {
+                                "valueAnnotation": {
+                                    "extension": [
+                                        {
+                                            "valueString": "Formatting of this note might be different from the original.",
+                                            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                                        }
+                                    ],
+                                    "authorReference": {
+                                        "reference": "Practitioner/eIOnxJsdFcfgJ4iy716I3MA3",
+                                        "display": "Starter Provider, MD"
+                                    },
+                                    "time": "2024-10-28T21:19:09Z",
+                                    "text": "this is a general problem care note\r\n"
+                                },
+                                "url": "http://hl7.org/fhir/StructureDefinition/note"
+                            }
+                        ],
+                        "title": "Problems",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ],
+                            "text": "Problem list - Reported"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"ActiveProblems\"><h3>Active Problems</h3><table class=\"CareCoordination\"><thead><tr><th>Patient Care Coordination Note</th></tr></thead><tbody><tr><td class=\"Note\"><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">this is a general problem care note<br /></span></td></tr></tbody></table><br /><table class=\"ActiveProblemTable\"><thead><tr><th>Problem</th><th>Priority</th><th>Noted Date</th><th>Diagnosed Date</th></tr></thead><tbody><tr idref=\"en7haRgKWMrhLtK3PTPUmupiyPjB8bTY5-TzC-xU4FaY3\"><td class=\"Name\"><span class=\"ProblemName\">Stomach ache</span></td><td class=\"Priority\">Med</td><td class=\"NotedDate\">10/17/2024</td><td class=\"DiagnosedDate\">11/1/2024</td></tr><tr idref=\"etO8KjW6GlLe1WkM0ZcVwKsGLi5zagZX4sATQ8UTAPjw3\"><td class=\"Name\"><span class=\"ProblemName\">Intrahepatic cholangiocarcinoma (HCC)</span><ul><li class=\"Staging\">Cancer Staging: Stage IIIC (ycT0, ycN1, cM0)</li></ul></td><td class=\"Priority\">High</td><td class=\"NotedDate\">10/17/2024</td><td class=\"DiagnosedDate\">2024</td></tr><tr idref=\"enZzXfAG7pFElksMzEr1-l7rq6pgpVa8il9ITSWp1oy43\"><td class=\"Name\"><span class=\"ProblemName\">Influenza due to influenza virus, type A, porcine</span><ul><li class=\"Note\"><span class=\"NoteTitle\">Assessment &amp; Plan (10/29/2024 10:12 AM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">this is another a&amp;p note :)<br /></span></li><li class=\"Note\"><span class=\"NoteTitle\">Assessment &amp; Plan (10/29/2024 10:08 AM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">this is a a&amp;p note.<br />+some text in purple...<br /></span></li></ul></td><td class=\"Priority\">Lo</td><td class=\"NotedDate\">October 2024</td><td class=\"DiagnosedDate\">10/25/2024</td></tr></tbody></table></div><br /><div class=\"ResolvedProblems\"><h3>Resolved Problems</h3><table class=\"ResolvedProblemTable\"><thead><tr><th>Problem</th><th>Priority</th><th>Noted Date</th><th>Diagnosed Date</th><th>Resolved Date</th></tr></thead><tbody><tr idref=\"ejTvtb969esOwBBxYCJeG1sdNTXov6VvpRn9AZHGLN0U3\"><td class=\"Name\"><span class=\"ProblemName\">Cancer associated pain</span><ul><li class=\"Note\"><span class=\"NoteTitle\">Overview (10/29/2024 5:01 PM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">asdahnkjans<br /></span></li></ul></td><td class=\"Priority\">-</td><td class=\"NotedDate\">10/28/2024</td><td class=\"DiagnosedDate\">-</td><td class=\"ResolvedDate\">11/6/2024</td></tr><tr idref=\"eNGWS7kV6LY6RALSvogOcNvQyh6RCbY0fk-rAGZDWoW43\"><td class=\"Name\"><span class=\"ProblemName\">Acute tension-type headache</span><ul><li class=\"Note\"><span class=\"NoteTitle\">Overview (10/17/2024 12:59 PM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note is different from the original.</em><br /><em>Images from the original note were not included.</em></span><br /><span class=\"NoteText\">Too tired.<br />A B C <br />123 456 789 <br /></span></li><li class=\"Note\"><span class=\"NoteTitle\">Assessment &amp; Plan (10/29/2024 10:09 AM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">verified that no longer having headache.<br /></span></li></ul></td><td class=\"Priority\">Lo</td><td class=\"NotedDate\">4/19/2024</td><td class=\"DiagnosedDate\">April 2024</td><td class=\"ResolvedDate\">9/4/2024</td></tr></tbody></table></div></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Condition/eNGWS7kV6LY6RALSvogOcNvQyh6RCbY0fk-rAGZDWoW43"
+                            },
+                            {
+                                "reference": "Condition/ejTvtb969esOwBBxYCJeG1sdNTXov6VvpRn9AZHGLN0U3"
+                            },
+                            {
+                                "reference": "Condition/en7haRgKWMrhLtK3PTPUmupiyPjB8bTY5-TzC-xU4FaY3"
+                            },
+                            {
+                                "reference": "Condition/enZzXfAG7pFElksMzEr1-l7rq6pgpVa8il9ITSWp1oy43"
+                            },
+                            {
+                                "reference": "Condition/etO8KjW6GlLe1WkM0ZcVwKsGLi5zagZX4sATQ8UTAPjw3"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergies",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ],
+                            "text": "Allergies and adverse reactions Document"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"emptyReason\">No known active allergies</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "nilknown",
+                                    "display": "Nil Known"
+                                }
+                            ],
+                            "text": "Nil Known"
+                        }
+                    },
+                    {
+                        "title": "Medications",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ],
+                            "text": "History of Medication use Narrative"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"emptyReason\">Not on file</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "notasked",
+                                    "display": "Not Asked"
+                                }
+                            ],
+                            "text": "Not Asked"
+                        }
+                    },
+                    {
+                        "title": "Immunizations",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of Immunization Narrative"
+                                }
+                            ],
+                            "text": "History of Immunization Narrative"
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Immunization</th><th>Administration Dates</th><th>Next Due</th></tr></thead><tbody><tr idrefs=\"eG36wXTv4hhCLWKoVZuoKdgHaW.SDsekNJUC3wV1i3O83 eG36wXTv4hhCLWKoVZuoKdh7qJqwKskAuUcSStwcLQIM3\"><td>Mumps</td><td><span class=\"deferredDate\">9/18/2024 (Not Done: Patient Refused - don&#39;t want it today)</span>, 7/18/2024</td><td>-</td></tr><tr idref=\"ee9ryQK59SqJn7Z7CGEg7jBlnJ2qFTaj7z.h8SiH0eiw3\"><td>Pfizer COVID-19 Vaccine CORRECT</td><td><span class=\"deferredDate\">10/9/2024 (Not Done: CM Vaccine out of Stock)</span></td><td>-</td></tr><tr idrefs=\"eAfEj0PLRX-DOA8IPNQ2aMChkRNK-W1Ag54h1fUB91N03 eG36wXTv4hhCLWKoVZuoKdmu7Yq7vPSU9dnnQzdK67xI3 eG36wXTv4hhCLWKoVZuoKdtDa0PUnhtAwBInyZAGQG903\"><td>Yellow Fever, Live</td><td>9/18/2024, 9/5/2023, <span class=\"deferredDate\">7/15/2021 (Not Done: Patient Refused - travel plan cancelled.)</span></td><td>10/17/2025</td></tr></tbody></table></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "Immunization/eAfEj0PLRX-DOA8IPNQ2aMChkRNK-W1Ag54h1fUB91N03"
+                            },
+                            {
+                                "reference": "Immunization/eG36wXTv4hhCLWKoVZuoKdgHaW.SDsekNJUC3wV1i3O83"
+                            },
+                            {
+                                "reference": "Immunization/eG36wXTv4hhCLWKoVZuoKdh7qJqwKskAuUcSStwcLQIM3"
+                            },
+                            {
+                                "reference": "Immunization/eG36wXTv4hhCLWKoVZuoKdmu7Yq7vPSU9dnnQzdK67xI3"
+                            },
+                            {
+                                "reference": "Immunization/eG36wXTv4hhCLWKoVZuoKdtDa0PUnhtAwBInyZAGQG903"
+                            },
+                            {
+                                "reference": "Immunization/ee9ryQK59SqJn7Z7CGEg7jBlnJ2qFTaj7z.h8SiH0eiw3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Immunization/eAfEj0PLRX-DOA8IPNQ2aMChkRNK-W1Ag54h1fUB91N03",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "eAfEj0PLRX-DOA8IPNQ2aMChkRNK-W1Ag54h1fUB91N03",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.768076",
+                        "value": "1000150033"
+                    }
+                ],
+                "status": "not-done",
+                "statusReason": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4086",
+                            "code": "1",
+                            "display": "Patient Refused"
+                        }
+                    ],
+                    "text": "Patient Refused"
+                },
+                "vaccineCode": {
+                    "text": "Yellow Fever, Live"
+                },
+                "patient": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "occurrenceDateTime": "2021-07-15T19:10:00Z",
+                "primarySource": true,
+                "location": {
+                    "display": "Current Development Environment"
+                },
+                "note": [
+                    {
+                        "text": "travel plan cancelled."
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Immunization/eG36wXTv4hhCLWKoVZuoKdgHaW.SDsekNJUC3wV1i3O83",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "eG36wXTv4hhCLWKoVZuoKdgHaW.SDsekNJUC3wV1i3O83",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.768076",
+                        "value": "1000139424"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/ndc",
+                            "code": "50090-1223-0"
+                        }
+                    ],
+                    "text": "Mumps"
+                },
+                "patient": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "occurrenceDateTime": "2024-07-18",
+                "primarySource": true,
+                "location": {
+                    "display": "Current Development Environment"
+                },
+                "manufacturer": {
+                    "display": "GSK"
+                },
+                "lotNumber": "DRT ADULT",
+                "expirationDate": "2024-11-08",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4030",
+                            "code": "5",
+                            "display": "Subcutaneous"
+                        }
+                    ],
+                    "text": "Subcutaneous"
+                },
+                "doseQuantity": {
+                    "value": 0.5,
+                    "unit": "mL",
+                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4019",
+                    "code": "1"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/euJOUNeZyX6mofWELWG0Ibg3",
+                            "type": "Practitioner",
+                            "display": "Starter Provider, MD"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Immunization/eG36wXTv4hhCLWKoVZuoKdh7qJqwKskAuUcSStwcLQIM3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "eG36wXTv4hhCLWKoVZuoKdh7qJqwKskAuUcSStwcLQIM3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.768076",
+                        "value": "1000139425"
+                    }
+                ],
+                "status": "not-done",
+                "statusReason": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4086",
+                            "code": "1",
+                            "display": "Patient Refused"
+                        }
+                    ],
+                    "text": "Patient Refused"
+                },
+                "vaccineCode": {
+                    "text": "Mumps"
+                },
+                "patient": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "occurrenceDateTime": "2024-09-18",
+                "primarySource": true,
+                "location": {
+                    "display": "Current Development Environment"
+                },
+                "note": [
+                    {
+                        "text": "don't want it today"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Immunization/eG36wXTv4hhCLWKoVZuoKdmu7Yq7vPSU9dnnQzdK67xI3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "eG36wXTv4hhCLWKoVZuoKdmu7Yq7vPSU9dnnQzdK67xI3",
+                "extension": [
+                    {
+                        "valueDate": "2025-11-08",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/next-due-date"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.768076",
+                        "value": "1000139422"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "text": "Yellow Fever, Live"
+                },
+                "patient": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "occurrenceDateTime": "2023-09-05T15:00:00Z",
+                "primarySource": true,
+                "location": {
+                    "display": "Current Development Environment"
+                },
+                "manufacturer": {
+                    "display": "Abbott"
+                },
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4040",
+                            "code": "14",
+                            "display": "Left arm"
+                        }
+                    ],
+                    "text": "Left arm"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4030",
+                            "code": "5",
+                            "display": "Subcutaneous"
+                        }
+                    ],
+                    "text": "Subcutaneous"
+                },
+                "doseQuantity": {
+                    "value": 0.5,
+                    "unit": "mL",
+                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4019",
+                    "code": "1"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/euJOUNeZyX6mofWELWG0Ibg3",
+                            "type": "Practitioner",
+                            "display": "Starter Provider, MD"
+                        }
+                    }
+                ],
+                "note": [
+                    {
+                        "text": "ad0812fni1hd896sca"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Immunization/eG36wXTv4hhCLWKoVZuoKdtDa0PUnhtAwBInyZAGQG903",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "eG36wXTv4hhCLWKoVZuoKdtDa0PUnhtAwBInyZAGQG903",
+                "extension": [
+                    {
+                        "valueDate": "2025-10-17",
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/next-due-date"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.768076",
+                        "value": "1000139423"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                    "text": "Yellow Fever, Live"
+                },
+                "patient": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "occurrenceDateTime": "2024-09-18",
+                "primarySource": true,
+                "location": {
+                    "display": "Current Development Environment"
+                },
+                "manufacturer": {
+                    "display": "Abbott"
+                },
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4040",
+                            "code": "14",
+                            "display": "Left arm"
+                        }
+                    ],
+                    "text": "Left arm"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4030",
+                            "code": "5",
+                            "display": "Subcutaneous"
+                        }
+                    ],
+                    "text": "Subcutaneous"
+                },
+                "doseQuantity": {
+                    "value": 0.5,
+                    "unit": "mL",
+                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4019",
+                    "code": "1"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/euJOUNeZyX6mofWELWG0Ibg3",
+                            "type": "Practitioner",
+                            "display": "Starter Provider, MD"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Immunization/ee9ryQK59SqJn7Z7CGEg7jBlnJ2qFTaj7z.h8SiH0eiw3",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "ee9ryQK59SqJn7Z7CGEg7jBlnJ2qFTaj7z.h8SiH0eiw3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.768076",
+                        "value": "1000150559"
+                    }
+                ],
+                "status": "not-done",
+                "statusReason": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.768076.4086",
+                            "code": "201112",
+                            "display": "CM Vaccine out of Stock"
+                        }
+                    ],
+                    "text": "CM Vaccine out of Stock"
+                },
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "208"
+                        }
+                    ],
+                    "text": "Pfizer COVID-19 Vaccine CORRECT"
+                },
+                "patient": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "occurrenceDateTime": "2024-10-09",
+                "primarySource": true,
+                "location": {
+                    "display": "Current Development Environment"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Condition/eNGWS7kV6LY6RALSvogOcNvQyh6RCbY0fk-rAGZDWoW43",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "eNGWS7kV6LY6RALSvogOcNvQyh6RCbY0fk-rAGZDWoW43",
+                "extension": [
+                    {
+                        "valueDateTime": "2024-04",
+                        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "resolved",
+                            "display": "Resolved"
+                        }
+                    ],
+                    "text": "Resolved"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "64572001"
+                            }
+                        ]
+                    }
+                ],
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.96",
+                            "code": "255604002",
+                            "display": "Mild"
+                        }
+                    ],
+                    "text": "Lo"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "G44.209",
+                            "display": "Tension-type headache, unspecified, not intractable"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "398057008",
+                            "display": "Tension-Type Headache"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "735938006",
+                            "display": "Acute Headache"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "code": "339.10",
+                            "display": "Acute tension-type headache"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+                            "code": "63474369",
+                            "display": "Acute tension-type headache"
+                        }
+                    ],
+                    "text": "Acute tension-type headache"
+                },
+                "subject": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "onsetDateTime": "2024-04-19",
+                "abatementDateTime": "2024-09-04",
+                "recordedDate": "2024-04-19",
+                "note": [
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Formatting of this note is different from the original.",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                            },
+                            {
+                                "valueString": "Images from the original note were not included.",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                            },
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "68608-9",
+                                            "display": "Summary note"
+                                        }
+                                    ],
+                                    "text": "Problem Overview"
+                                },
+                                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+                            }
+                        ],
+                        "authorReference": {
+                            "reference": "Practitioner/eIOnxJsdFcfgJ4iy716I3MA3",
+                            "display": "Starter Provider, MD"
+                        },
+                        "time": "2024-10-17T17:59:57Z",
+                        "text": "Too tired.\r\nA B C \r\n123 456 789 \r\n\r\n\r\n"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Formatting of this note might be different from the original.",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                            },
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "51847-2",
+                                            "display": "Evaluation + Plan note"
+                                        }
+                                    ],
+                                    "text": "Assessment & Plan"
+                                },
+                                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+                            }
+                        ],
+                        "authorReference": {
+                            "reference": "Practitioner/eIOnxJsdFcfgJ4iy716I3MA3",
+                            "display": "Starter Provider, MD"
+                        },
+                        "time": "2024-10-29T15:09:33Z",
+                        "text": "verified that no longer having headache.\r\n"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Condition/ejTvtb969esOwBBxYCJeG1sdNTXov6VvpRn9AZHGLN0U3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "ejTvtb969esOwBBxYCJeG1sdNTXov6VvpRn9AZHGLN0U3",
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "resolved",
+                            "display": "Resolved"
+                        }
+                    ],
+                    "text": "Resolved"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "64572001"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "G89.3",
+                            "display": "Neoplasm related pain (acute) (chronic)"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "98921000119102",
+                            "display": "Pain Due To Neoplastic Disease"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "code": "338.3",
+                            "display": "Cancer associated pain"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+                            "code": "525904",
+                            "display": "Cancer associated pain"
+                        }
+                    ],
+                    "text": "Cancer associated pain"
+                },
+                "subject": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "onsetDateTime": "2024-10-28",
+                "abatementDateTime": "2024-11-06",
+                "recordedDate": "2024-10-28",
+                "note": [
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Formatting of this note might be different from the original.",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                            },
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "68608-9",
+                                            "display": "Summary note"
+                                        }
+                                    ],
+                                    "text": "Problem Overview"
+                                },
+                                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+                            }
+                        ],
+                        "authorReference": {
+                            "reference": "Practitioner/eIOnxJsdFcfgJ4iy716I3MA3",
+                            "display": "Starter Provider, MD"
+                        },
+                        "time": "2024-10-29T22:01:26Z",
+                        "text": "asdahnkjans\r\n"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Condition/en7haRgKWMrhLtK3PTPUmupiyPjB8bTY5-TzC-xU4FaY3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "en7haRgKWMrhLtK3PTPUmupiyPjB8bTY5-TzC-xU4FaY3",
+                "extension": [
+                    {
+                        "valueDateTime": "2024-11-01",
+                        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "64572001"
+                            }
+                        ]
+                    }
+                ],
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.96",
+                            "code": "6736007",
+                            "display": "Moderate"
+                        }
+                    ],
+                    "text": "Med"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "R10.9",
+                            "display": "Unspecified abdominal pain"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "271681002",
+                            "display": "Stomach Ache"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "code": "536.8",
+                            "display": "Stomach ache"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+                            "code": "8379",
+                            "display": "Stomach ache"
+                        }
+                    ],
+                    "text": "Stomach ache"
+                },
+                "subject": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "onsetDateTime": "2024-10-17",
+                "recordedDate": "2024-11-06"
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Condition/enZzXfAG7pFElksMzEr1-l7rq6pgpVa8il9ITSWp1oy43",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "enZzXfAG7pFElksMzEr1-l7rq6pgpVa8il9ITSWp1oy43",
+                "extension": [
+                    {
+                        "valueDateTime": "2024-10-25",
+                        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "64572001"
+                            }
+                        ]
+                    }
+                ],
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.96",
+                            "code": "255604002",
+                            "display": "Mild"
+                        }
+                    ],
+                    "text": "Lo"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "J09.X2",
+                            "display": "Influenza due to identified novel influenza A virus with other respiratory manifestations"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "442438000",
+                            "display": "Influenza Caused By Influenza A Virus"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "code": "487.1",
+                            "display": "Influenza due to influenza virus, type A, porcine"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+                            "code": "25590",
+                            "display": "Influenza due to influenza virus, type A, porcine"
+                        }
+                    ],
+                    "text": "Influenza due to influenza virus, type A, porcine"
+                },
+                "subject": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "onsetDateTime": "2024-10",
+                "recordedDate": "2024-10-28",
+                "note": [
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Formatting of this note might be different from the original.",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                            },
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "51847-2",
+                                            "display": "Evaluation + Plan note"
+                                        }
+                                    ],
+                                    "text": "Assessment & Plan"
+                                },
+                                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+                            }
+                        ],
+                        "authorReference": {
+                            "reference": "Practitioner/e72Itl0YskedJNleilznW2g3",
+                            "display": "Amber Hxl, MD"
+                        },
+                        "time": "2024-10-29T15:12:12Z",
+                        "text": "this is another a&p note :)\r\n"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Formatting of this note might be different from the original.",
+                                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+                            },
+                            {
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://loinc.org",
+                                            "code": "51847-2",
+                                            "display": "Evaluation + Plan note"
+                                        }
+                                    ],
+                                    "text": "Assessment & Plan"
+                                },
+                                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+                            }
+                        ],
+                        "authorReference": {
+                            "reference": "Practitioner/eIOnxJsdFcfgJ4iy716I3MA3",
+                            "display": "Starter Provider, MD"
+                        },
+                        "time": "2024-10-29T15:08:10Z",
+                        "text": "this is a a&p note.\r\n+some text in purple...\r\n"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Condition/etO8KjW6GlLe1WkM0ZcVwKsGLi5zagZX4sATQ8UTAPjw3",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "etO8KjW6GlLe1WkM0ZcVwKsGLi5zagZX4sATQ8UTAPjw3",
+                "extension": [
+                    {
+                        "valueDateTime": "2024",
+                        "url": "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+                    }
+                ],
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "version": "4.0.0",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "version": "4.0.0",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ],
+                    "text": "Confirmed"
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ],
+                        "text": "Problem List Item"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://loinc.org",
+                                "code": "75310-3",
+                                "display": "Health concerns Document"
+                            },
+                            {
+                                "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+                                "code": "health-concern",
+                                "display": "Health Concern"
+                            }
+                        ],
+                        "text": "Health Concern"
+                    },
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "64572001"
+                            }
+                        ]
+                    }
+                ],
+                "severity": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.6.96",
+                            "code": "24484000",
+                            "display": "Severe"
+                        }
+                    ],
+                    "text": "High"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "C22.1",
+                            "display": "Intrahepatic bile duct carcinoma"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1260050006",
+                            "display": "Cholangiocarcinoma Of Intrahepatic Biliary Tract"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "code": "155.1",
+                            "display": "Intrahepatic cholangiocarcinoma (HCC)"
+                        },
+                        {
+                            "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+                            "code": "72511",
+                            "display": "Intrahepatic cholangiocarcinoma (HCC)"
+                        }
+                    ],
+                    "text": "Intrahepatic cholangiocarcinoma (HCC)"
+                },
+                "subject": {
+                    "reference": "Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+                    "display": "Jan, Connectathon"
+                },
+                "onsetDateTime": "2024-10-17",
+                "recordedDate": "2024-10-28",
+                "stage": [
+                    {
+                        "summary": {
+                            "coding": [
+                                {
+                                    "system": "http://cancerstaging.org",
+                                    "code": "Stage IIIC"
+                                }
+                            ],
+                            "text": "Stage IIIC (ycT0, ycN1, cM0)"
+                        },
+                        "assessment": [
+                            {
+                                "reference": "Observation/NZGFydjeqp.Z08ky28wpN9F392ZzviTkAhZNBI66dDRcG7jSbYNoTc0onVHUW3sd"
+                            },
+                            {
+                                "reference": "Observation/fMMVEiDurcbyPi0BnBW2L-g4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - STAGE DATE"
+                            },
+                            {
+                                "reference": "Observation/fnlT41267cqA5AiaJVdfP1A4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - HISTOPATHOLOGIC TYPE"
+                            },
+                            {
+                                "reference": "Observation/fnyHQtGXdGGoNYrLWDEo8wg4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - STAGE PREFIX"
+                            },
+                            {
+                                "reference": "Observation/foerXNZPLvG5JUHyeSOZnvg4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - TNM CLASSIFICATION - AJCC T - PRIMARY TUMOR (T)"
+                            },
+                            {
+                                "reference": "Observation/fE-fHf37J3US5nygoVwFmNg4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - TNM CLASSIFICATION - AJCC N - REGIONAL LYMPH NODES (N)"
+                            },
+                            {
+                                "reference": "Observation/fB1.0g5Tcly449PEiMRJlWg4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - TNM CLASSIFICATION - AJCC M - DISTANT METASTASIS (M)"
+                            },
+                            {
+                                "reference": "Observation/f0YRcU9uxaeu86n6jWNnvfQ4",
+                                "display": "FINDINGS - PHYSICAL EXAM - ONCOLOGY - STAGING - STAGE GROUP"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Organization/ePUQySFaW.ofXm2GhaXRMDA3",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "ePUQySFaW.ofXm2GhaXRMDA3",
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.5.737384.101",
+                        "value": "2222222222"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "NPI_EAF_HL7ASSN"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.5.737384.137",
+                        "value": "1114920048"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.5.737384.441",
+                        "value": "092"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EAF"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.5.737384.1575",
+                        "value": "6"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "NPI"
+                        },
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1114920048"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "TAX"
+                        },
+                        "system": "urn:oid:2.16.840.1.113883.4.4",
+                        "value": "123456789"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.696570",
+                        "value": "1"
+                    }
+                ],
+                "active": true,
+                "name": "Facility",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "271-9000",
+                        "use": "work"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "608-271-9000",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "text": "MODEL DRIVE\r\nMadison WI 53711",
+                        "line": [
+                            "MODEL DRIVE"
+                        ],
+                        "city": "Madison",
+                        "state": "Wisconsin",
+                        "postalCode": "53711"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://vs-icx18-25/Interconnect-FHIR-CDE-Unsecured/api/FHIR/R4/Patient/eKjiwpS9XFAzR.NVNvC3.dA3",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "eKjiwpS9XFAzR.NVNvC3.dA3",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Connectathon Jan</b><br/>Male; born 1/29/1997</p><table><thead><tr><th>Former Names / Aliases</th><th>Patient Address</th><th>Communication</th><th>Primary Care Provider</th></tr></thead><tr style=\"vertical-align:top\"><td><ul><li>CONNECTATHON VIRTUAL HXL</li></ul></td><td>1979 Milky Way<br/>Verona, WI 53593<br/>USA</td><td>111-222-3333 (home)<br/>connectathon@epic.com</td><td>Brandon Best, MD</td></tr></table></div>"
+                },
+                "extension": [
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.698084.130.657370.2253",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ],
+                            "text": "Male"
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "urn:oid:1.2.840.114350.1.13.861.1.7.10.698084.130.657370.2253",
+                                    "code": "male",
+                                    "display": "male"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueCoding": {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                                    "code": "UNK",
+                                    "display": "Unknown"
+                                },
+                                "url": "ombCategory"
+                            },
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "valueString": "Unknown",
+                                "url": "text"
+                            }
+                        ],
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+                    },
+                    {
+                        "valueCode": "248153007",
+                        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+                    },
+                    {
+                        "valueCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "LA29518-0",
+                                    "display": "he/him/his/his/himself"
+                                }
+                            ]
+                        },
+                        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "CEID"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.3.688884.100",
+                        "value": "X013TS75688VCKR"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EXTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.698084",
+                        "value": "Z241630"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+                        "value": "TRmoODmArVrHWFo9BCj.C1AUUeye58H9.fhqB.sOKX3MB"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "FHIR STU3"
+                        },
+                        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+                        "value": "eKjiwpS9XFAzR.NVNvC3.dA3"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "INTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.698084",
+                        "value": "   Z241630"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "EPI"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.1",
+                        "value": "14041948"
+                    },
+                    {
+                        "use": "usual",
+                        "type": {
+                            "text": "WPRINTERNAL"
+                        },
+                        "system": "urn:oid:1.2.840.114350.1.13.861.1.7.2.878082",
+                        "value": "56052"
+                    },
+                    {
+                        "use": "usual",
+                        "system": "urn:oid:2.16.840.1.113883.4.1",
+                        "_value": {
+                            "extension": [
+                                {
+                                    "valueString": "xxx-xx-8522",
+                                    "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Connectathon Jan",
+                        "family": "Connectathon",
+                        "given": [
+                            "Jan"
+                        ]
+                    },
+                    {
+                        "use": "usual",
+                        "text": "Connectathon Jan",
+                        "family": "Connectathon",
+                        "given": [
+                            "Jan"
+                        ]
+                    },
+                    {
+                        "use": "old",
+                        "text": "CONNECTATHON VIRTUAL HXL",
+                        "family": "Connectathon",
+                        "given": [
+                            "Virtual",
+                            "HXL"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "111-222-3333",
+                        "use": "home",
+                        "rank": 1
+                    },
+                    {
+                        "system": "email",
+                        "value": "connectathon@epic.com",
+                        "rank": 1
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1997-01-29",
+                "deceasedBoolean": false,
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1979 Milky Way"
+                        ],
+                        "city": "Verona",
+                        "district": "DANE",
+                        "state": "WI",
+                        "postalCode": "53593",
+                        "country": "USA"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/egQM8bQbOG.xkvocbQTCvaw3",
+                    "display": "HXL Service Area"
+                },
+                "generalPractitioner": [
+                    {
+                        "reference": "Practitioner/e0y4Qz7pf9dsJyvCmVSl6WQ3",
+                        "type": "Practitioner",
+                        "display": "Brandon Best, MD"
+                    }
+                ]
+            }
+        }
+    ]
+}
