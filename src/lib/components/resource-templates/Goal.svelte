@@ -9,15 +9,18 @@
 
   // Helper function to format dates as "DD-MMM-YYYY"
   function formatDate(dateStr: string): string {
-    const options: Intl.DateTimeFormatOptions = { day: '2-digit', month: 'short', year: 'numeric' };
-    const date = new Date(dateStr);
-    return date.toLocaleDateString('en-GB', options);
+    return dateStr.split("T")[0];
+    // be consistent with how dates are rendered in the IPSViewer.
+    // We may come back and use this function throughout
+    // const options: Intl.DateTimeFormatOptions = { day: '2-digit', month: 'short', year: 'numeric' };
+    // const date = new Date(dateStr);
+    // return date.toLocaleDateString('en-GB', options);
   }
 
   // Extract start and due dates
   let startDate = resource.startDate
     ? formatDate(resource.startDate)
-    : resource.startCodeableConcept
+    : resource.startCodeableConcept && resource.startCodeableConcept.text
     ? resource.startCodeableConcept.text
     : '??';
 
