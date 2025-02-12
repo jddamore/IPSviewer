@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { Condition } from 'fhir/r4';
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -64,8 +65,8 @@
   Site: {resource.bodySite[0]?.coding?.[0]?.display}<br>
 {/if}
 {#if resource.onsetDateTime}
-  Since: {resource.onsetDateTime.split("T")[0]}<br>
+  Since: {formatDate(resource.onsetDateTime)}<br>
 {/if}
 {#if resource.recordedDate}
-  Recorded: {resource.recordedDate.split("T")[0]}<br>
+  Recorded: {formatDate(resource.recordedDate)}<br>
 {/if}

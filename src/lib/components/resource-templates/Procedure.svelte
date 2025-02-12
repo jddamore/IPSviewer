@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { Procedure } from "fhir/r4";
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -21,17 +22,29 @@
   {/if}
 {/if}
 {#if resource.performedDateTime}
-  Performed: {resource.performedDateTime.split("T")[0]}
+  Performed: {formatDate(resource.performedDateTime)}
 {:else if resource.performedPeriod}
-  Performed: {resource.performedPeriod.start ? resource.performedPeriod.start : ''}{resource.performedPeriod.end
-    ? ` - ${resource.performedPeriod.end}`
-    : ''}
+  Performed: {
+    resource.performedPeriod.start
+    ? formatDate(resource.performedPeriod.start)
+    : '??'
+  } - {
+    resource.performedPeriod.end
+    ? formatDate(resource.performedPeriod.end)
+    : '??'
+  }
 {:else if resource.performedString}
   Performed: {resource.performedString}
 {:else if resource.performedAge}
   Performed age: {resource.performedAge.value}{resource.performedAge.code}
 {:else if resource.performedRange}
-  Performed age: {resource.performedRange.low ? resource.performedRange.low : ''}{resource.performedRange.high
-    ? ` - ${resource.performedRange.high}`
-    : ''}
+  Performed age: {
+    resource.performedRange.low
+    ? resource.performedRange.low
+    : '??'
+  } - {
+    resource.performedRange.high
+    ? resource.performedRange.high
+    : '??'
+  }
 {/if}

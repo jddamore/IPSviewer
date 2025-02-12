@@ -2,7 +2,7 @@
   import { Badge } from 'sveltestrap';
   import type { BundleEntry, Observation } from "fhir/r4";
   import type { ResourceTemplateParams } from '$lib/utils/types';
-  import { getEntry } from '$lib/utils/util';
+  import { getEntry, formatDate } from '$lib/utils/util';
   
   export let content: ResourceTemplateParams<Observation>; // Define a prop to pass the data to the component
   export let contained: Boolean = false;
@@ -105,5 +105,5 @@ $: {
 </table>
 {/if}
 {#if resource.effectiveDateTime}
-  Date: {resource.effectiveDateTime.split("T")[0]}
+  Date: {formatDate(resource.effectiveDateTime)}
 {/if}

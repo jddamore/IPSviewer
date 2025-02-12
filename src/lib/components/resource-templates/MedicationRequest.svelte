@@ -4,7 +4,7 @@
   import type { ResourceTemplateParams } from '$lib/utils/types';
   import Dosage from '$lib/components/resource-templates/Dosage.svelte';
   import MedicationTemplate from '$lib/components/resource-templates/Medication.svelte';
-  import { getEntry } from '$lib/utils/util';
+  import { getEntry, formatDate } from '$lib/utils/util';
 
   export let content: ResourceTemplateParams<MedicationRequest>; // Define a prop to pass the data to the component
 
@@ -61,12 +61,14 @@
 {#if resource.authoredOn}
   Authored: {resource.authoredOn.split('T')[0]}<br>
 {/if}
-{#if resource.dispenseRequest?.validityPeriod}
-  Valid: {resource.dispenseRequest?.validityPeriod.start}{resource.dispenseRequest
-    ?.validityPeriod.end
-    ? ` - ${resource.dispenseRequest?.validityPeriod.end}`
-    : ''}
-  <br />
-{/if}
+Valid: {resource.dispenseRequest?.validityPeriod?.start
+  ? formatDate(resource.dispenseRequest.validityPeriod.start)
+  : '??'
+} - {
+  resource.dispenseRequest?.validityPeriod?.end
+  ? formatDate(resource.dispenseRequest.validityPeriod.end)
+  : '??'
+}
+<br />
 
 <Dosage dosage={resource.dosageInstruction?.[0]} />

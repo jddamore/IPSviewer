@@ -3,7 +3,7 @@
   import type { BundleEntry, DiagnosticReport, Observation } from 'fhir/r4';
   import ObservationTemplate from './Observation.svelte';
   import type { ResourceTemplateParams } from '$lib/utils/types';
-  import { getEntry } from '$lib/utils/util';
+  import { getEntry, formatDate } from '$lib/utils/util';
 
   export let content: ResourceTemplateParams<DiagnosticReport>; // Define a prop to pass the data to the component
 
@@ -55,12 +55,16 @@
 {/if}
 <br>
 {#if resource.effectivePeriod}
-  Effective: {resource.effectivePeriod.start ? resource.effectivePeriod.start : ''}{resource
-    .effectivePeriod.end
-    ? ` - ${resource.effectivePeriod.end}`
-    : ''}
+  Effective: {resource.effectivePeriod.start 
+    ? formatDate(resource.effectivePeriod.start)
+    : '??'
+  } - {
+    resource.effectivePeriod.end
+    ? formatDate(resource.effectivePeriod.end)
+    : '??'
+  }
 {:else if resource.effectiveDateTime}
-  Date: {resource.effectiveDateTime.split('T')[0]}
+  Date: {formatDate(resource.effectiveDateTime)}
 {/if}
 <br>
 {#if resource.result}

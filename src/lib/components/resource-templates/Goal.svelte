@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { Goal } from 'fhir/r4';
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -7,22 +8,13 @@
 
   let resource: Goal = content.resource;
 
-  // Helper function to format dates as "DD-MMM-YYYY"
-  function formatDate(dateStr: string): string {
-    return dateStr.split("T")[0];
-    // be consistent with how dates are rendered in the IPSViewer.
-    // We may come back and use this function throughout
-    // const options: Intl.DateTimeFormatOptions = { day: '2-digit', month: 'short', year: 'numeric' };
-    // const date = new Date(dateStr);
-    // return date.toLocaleDateString('en-GB', options);
-  }
-
   // Extract start and due dates
-  let startDate = resource.startDate
-    ? formatDate(resource.startDate)
-    : resource.startCodeableConcept && resource.startCodeableConcept.text
-    ? resource.startCodeableConcept.text
-    : '??';
+  let startDate = '??';
+  if (resource.startDate) {
+    startDate = formatDate(resource.startDate);
+  } else if (resource.startCodeableConcept && resource.startCodeableConcept.text) {
+    startDate = resource.startCodeableConcept.text;
+  }
 
   // Get first available due date or duration from targets
   let dueDate = '??';
@@ -56,13 +48,13 @@
       {/each}
     {/if}
   {:else}
-    No available
+    unavailable
   {/if}
 </Badge>
 
 <!-- Display achievementStatus if available -->
 <Badge color="primary">
-  Achievement:
+  achievement:
   {#if resource.achievementStatus}
     {#if resource.achievementStatus.text}
       {resource.achievementStatus.text}
@@ -75,7 +67,7 @@
       {/each}
     {/if}
   {:else}
-    Not available
+    unavailable
   {/if}
 </Badge>
 

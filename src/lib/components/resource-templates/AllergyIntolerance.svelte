@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { AllergyIntolerance } from 'fhir/r4';
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -47,4 +48,4 @@
     <strong>{resource.code.text}</strong><br>
   {/if}
 {/if}
-{resource.onsetDateTime ? `Since ${resource.onsetDateTime.split("T")[0]}` : ''}
+{resource.onsetDateTime ? `Since ${formatDate(resource.onsetDateTime)}` : ''}
