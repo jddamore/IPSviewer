@@ -12,7 +12,7 @@
   let startDate = '??';
   if (resource.startDate) {
     startDate = formatDate(resource.startDate);
-  } else if (resource.startCodeableConcept && resource.startCodeableConcept.text) {
+  } else if (resource.startCodeableConcept?.text) {
     startDate = resource.startCodeableConcept.text;
   }
 
