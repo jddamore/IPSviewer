@@ -34,9 +34,9 @@
 </Badge>
 
 <!-- Display priority if available -->
-<Badge color="primary">
-  priority: 
-  {#if resource.priority}
+{#if resource.priority}
+  <Badge color="primary">
+    priority:
     {#if resource.priority.text}
       {resource.priority.text}
     {:else if resource.priority.coding}
@@ -47,15 +47,13 @@
         {/if}
       {/each}
     {/if}
-  {:else}
-    unavailable
-  {/if}
-</Badge>
+  </Badge>
+{/if}
 
 <!-- Display achievementStatus if available -->
-<Badge color="primary">
-  achievement:
-  {#if resource.achievementStatus}
+{#if resource.achievementStatus}
+  <Badge color="primary">
+    achievement:
     {#if resource.achievementStatus.text}
       {resource.achievementStatus.text}
     {:else if resource.achievementStatus.coding}
@@ -66,12 +64,12 @@
         {/if}
       {/each}
     {/if}
-  {:else}
-    unavailable
-  {/if}
-</Badge>
+  </Badge>
+{/if}
 
-<br />
+{#if resource.priority || resource.achievementStatus}
+  <br />
+{/if}
 
 <!-- Display description --> 
 {#if resource.description}
