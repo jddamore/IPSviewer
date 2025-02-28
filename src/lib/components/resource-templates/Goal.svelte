@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { Goal } from 'fhir/r4';
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -7,22 +8,13 @@
 
   let resource: Goal = content.resource;
 
-  // Helper function to format dates as "DD-MMM-YYYY"
-  function formatDate(dateStr: string): string {
-    return dateStr.split("T")[0];
-    // be consistent with how dates are rendered in the IPSViewer.
-    // We may come back and use this function throughout
-    // const options: Intl.DateTimeFormatOptions = { day: '2-digit', month: 'short', year: 'numeric' };
-    // const date = new Date(dateStr);
-    // return date.toLocaleDateString('en-GB', options);
-  }
-
   // Extract start and due dates
-  let startDate = resource.startDate
-    ? formatDate(resource.startDate)
-    : resource.startCodeableConcept && resource.startCodeableConcept.text
-    ? resource.startCodeableConcept.text
-    : '??';
+  let startDate = '??';
+  if (resource.startDate) {
+    startDate = formatDate(resource.startDate);
+  } else if (resource.startCodeableConcept?.text) {
+    startDate = resource.startCodeableConcept.text;
+  }
 
   // Get first available due date or duration from targets
   let dueDate = '??';
@@ -42,9 +34,9 @@
 </Badge>
 
 <!-- Display priority if available -->
-<Badge color="primary">
-  priority: 
-  {#if resource.priority}
+{#if resource.priority}
+  <Badge color="primary">
+    priority:
     {#if resource.priority.text}
       {resource.priority.text}
     {:else if resource.priority.coding}
@@ -55,15 +47,13 @@
         {/if}
       {/each}
     {/if}
-  {:else}
-    No available
-  {/if}
-</Badge>
+  </Badge>
+{/if}
 
 <!-- Display achievementStatus if available -->
-<Badge color="primary">
-  Achievement:
-  {#if resource.achievementStatus}
+{#if resource.achievementStatus}
+  <Badge color="primary">
+    achievement:
     {#if resource.achievementStatus.text}
       {resource.achievementStatus.text}
     {:else if resource.achievementStatus.coding}
@@ -74,12 +64,12 @@
         {/if}
       {/each}
     {/if}
-  {:else}
-    Not available
-  {/if}
-</Badge>
+  </Badge>
+{/if}
 
-<br />
+{#if resource.priority || resource.achievementStatus}
+  <br />
+{/if}
 
 <!-- Display description --> 
 {#if resource.description}

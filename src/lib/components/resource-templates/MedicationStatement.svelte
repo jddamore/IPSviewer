@@ -3,7 +3,7 @@
   import type { BundleEntry, Medication, MedicationStatement } from "fhir/r4";
   import Dosage from '$lib/components/resource-templates/Dosage.svelte';
   import MedicationTemplate from '$lib/components/resource-templates/Medication.svelte';
-  import { getEntry } from '$lib/utils/util';
+  import { getEntry, formatDate } from '$lib/utils/util';
   import type { ResourceTemplateParams } from '$lib/utils/types';
 
   export let content: ResourceTemplateParams<MedicationStatement>; // Define a prop to pass the data to the component
@@ -61,9 +61,15 @@
 <Dosage dosage={resource.dosage?.[0]} />
 
 {#if resource.effectivePeriod}
-  Effective: {resource.effectivePeriod.start ? resource.effectivePeriod.start : ''}{resource.effectivePeriod.end
-    ? ` - ${resource.effectivePeriod.end}`
-    : ''}
+  Effective: {
+    resource.effectivePeriod.start
+    ? formatDate(resource.effectivePeriod.start)
+    : '??'
+  } - {
+    resource.effectivePeriod.end
+    ? formatDate(resource.effectivePeriod.end)
+    : '??'
+  }
 {:else if resource.effectiveDateTime}
-  Date: {resource.effectiveDateTime.split("T")[0]}
+  Date: {formatDate(resource.effectiveDateTime)}
 {/if}

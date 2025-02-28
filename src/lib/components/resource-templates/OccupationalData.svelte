@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
     import { Badge } from 'sveltestrap';
     import type { Observation } from "fhir/r4";
     import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -16,12 +17,12 @@
         <br>
         {#if resource.effectivePeriod?.start}
             {#if resource.effectivePeriod.end}
-                From {resource.effectivePeriod.start} - {resource.effectivePeriod.end}
+                From {formatDate(resource.effectivePeriod.start)} - {formatDate(resource.effectivePeriod.end)}
             {:else}
-                Since {resource.effectivePeriod.start}
+                Since {formatDate(resource.effectivePeriod.start)}
             {/if}
         {:else if resource.effectiveDateTime}
-            Since {resource.effectiveDateTime.split("T")[0]}
+            Since {formatDate(resource.effectiveDateTime)}
         {/if}
     {:else if resource.code.coding[0].code === "87510-4"}
         <strong>Retirement Date</strong>
@@ -34,21 +35,21 @@
         {#if resource.valuePeriod?.start}
             <br>
             {#if resource.valuePeriod.end}
-                From {resource.valuePeriod.start} - {resource.valuePeriod.end}
+                From {formatDate(resource.valuePeriod.start)} - {formatDate(resource.valuePeriod.end)}
             {:else}
-                Since {resource.valuePeriod.start}
+                Since {formatDate(resource.valuePeriod.start)}
             {/if}
         {/if}
     {:else if resource.code.coding[0].code === "11341-5"}
         <strong>Job History</strong>
         {#if resource.effectivePeriod?.start}
             {#if resource.effectivePeriod.end}
-                From {resource.effectivePeriod.start} - {resource.effectivePeriod.end}
+                From {formatDate(resource.effectivePeriod.start)} - {formatDate(resource.effectivePeriod.end)}
             {:else}
-                Since {resource.effectivePeriod.start}
+                Since {formatDate(resource.effectivePeriod.start)}
             {/if}
         {:else if resource.effectiveDateTime}
-            Since {resource.effectiveDateTime.split("T")[0]}
+            Since {formatDate(resource.effectiveDateTime)}
         {/if}
         {#if resource.valueCodeableConcept}
             {#if resource.valueCodeableConcept.coding}

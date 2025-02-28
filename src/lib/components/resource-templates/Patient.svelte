@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { formatDate } from '$lib/utils/util';
     import { Badge, Button, Icon } from 'sveltestrap';
     import type { Patient } from "fhir/r4";
     import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -27,7 +28,7 @@
 {/if}
 
 {#if resource.birthDate}
-    Birth Date: {resource.birthDate}<br>
+    Birth Date: {formatDate(resource.birthDate)}<br>
 {/if}
 {#if resource.gender}
     Gender: {resource.gender ?? ""}<br>

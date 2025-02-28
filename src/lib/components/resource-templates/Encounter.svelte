@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { Encounter } from 'fhir/r4';
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -8,11 +9,15 @@
   let resource: Encounter = content.resource;
 </script>
 
-{#if resource.period?.start}
-Effective {resource.period.start}{resource.period.end
-    ? ` - ${resource.period.end}`
-    : ''}
-{/if}
+Effective {
+  resource.period?.start
+  ? formatDate(resource.period.start)
+  : '??'
+} - {
+  resource.period?.end
+  ? formatDate(resource.period.end)
+  : '??'
+}
 <br>
 {#if resource.status}
   Status: {resource.status}

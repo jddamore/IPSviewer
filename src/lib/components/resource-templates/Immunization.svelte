@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatDate } from '$lib/utils/util';
   import { Badge } from 'sveltestrap';
   import type { Immunization } from 'fhir/r4';
   import type { ResourceTemplateParams } from '$lib/utils/types';
@@ -22,7 +23,7 @@
 {/if}
 
 {#if resource.occurrenceDateTime}
-  Date: {resource.occurrenceDateTime.split("T")[0]}
+  Date: {formatDate(resource.occurrenceDateTime)}
 {:else if resource.occurrenceString}
   Date: {resource.occurrenceString}
 {/if}

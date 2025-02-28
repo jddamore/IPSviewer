@@ -7,6 +7,13 @@ export async function base64toBlob(base64:string, type="application/octet-stream
   return window.URL.createObjectURL(await result.blob());
 }
 
+// Helper function to format dates as "dd-MMM-yyyy"
+export function formatDate(dateStr: string) {
+  const options: Intl.DateTimeFormatOptions = { day: '2-digit', month: 'short', year: 'numeric' };
+  const date = new Date(dateStr);
+  return date.toLocaleDateString('en-GB', options);
+}
+
 // For machine-readable content, use the reference in the Composition.section.entry to retrieve resource from Bundle
 export function getEntry(entries: Array<BundleEntry>, reference: string) {
   let result;
