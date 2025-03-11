@@ -116,10 +116,15 @@
         setError(errorMsg);
         return;
     }
+
+    shlContents = [];
     if (retrieveResult.shcs) {
       const decoded = await Promise.all(retrieveResult.shcs.map(verify));
       const data = decoded.map((e) => e.fhirBundle);
-      shlContents = data;
+      shlContents.concat(data);
+    }
+    if (retrieveResult.jsons) {
+      shlContents.concat(retrieveResult.jsons);
     }
 }
   // End retrieving SHL
