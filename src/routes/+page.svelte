@@ -124,6 +124,8 @@
     }
     if (retrieveResult.jsons) {
       shlContents = [...shlContents, ...retrieveResult.jsons];
+      console.log('got some JSON')
+      console.log(retrieveResult.jsons)
     }
 }
   // End retrieving SHL
