@@ -1,0 +1,2176 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:4dcfd353-49fd-4ab0-b521-c8d57ced74d6"
+  },
+  "type": "document",
+  "timestamp": "2025-05-11T10:06:57Z",
+  "entry": [
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Composition/fQWuMMytDusF9FZF76lAUVw4",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "fQWuMMytDusF9FZF76lAUVw4",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"Section\" idref=\"ePioZEeqCYv.F5W96swOaXA3\"><div class=\"Header\"><h3>Author</h3></div><div class=\"Body\"><span>EDI Healthcare Management #%~&amp;<br />608-163-0001<br />101 NORTH SHORE DRIVE<br />MADISON WI 53711</span></div></div><br /><div class=\"Section\"><div class=\"Header\"><h3>Document Information</h3></div><div class=\"Body\"><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>UTC offset: </strong></span><span class=\"Value\">UTC-06:00</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Date format: </strong></span><span class=\"Value\">M/d/yyyy</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Decimal separator: </strong></span><span class=\"Value\">.</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Date generated: </strong></span><span class=\"Value\">5/11/2025</span></div></div></div></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "International Patient Summary"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "date": "2025-05-11T10:06:57Z",
+        "author": [
+          {
+            "reference": "Organization/ePioZEeqCYv.F5W96swOaXA3",
+            "display": "EDI Healthcare Management #%~&"
+          }
+        ],
+        "title": "International Patient Summary for FHIR, Automation",
+        "custodian": {
+          "reference": "Organization/ePioZEeqCYv.F5W96swOaXA3",
+          "display": "EDI Healthcare Management #%~&"
+        },
+        "section": [
+          {
+            "title": "Problems",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ],
+              "text": "Problem list - Reported"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"ActiveProblems\"><h3>Active Problems</h3><table class=\"ActiveProblemTable\"><thead><tr><th>Problem</th><th>Priority</th><th>Noted Date</th><th>Diagnosed Date</th></tr></thead><tbody><tr><td class=\"Name\"><span class=\"ProblemName\">Essential hypertension</span></td><td class=\"Priority\">Med</td><td class=\"NotedDate\">3/4/2020</td><td class=\"DiagnosedDate\">-</td></tr><tr><td class=\"Name\"><span class=\"ProblemName\">Routine general medical examination at a health care facility</span></td><td class=\"Priority\">-</td><td class=\"NotedDate\">3/4/2020</td><td class=\"DiagnosedDate\">-</td></tr><tr><td class=\"Name\"><span class=\"ProblemName\">Acute bronchitis</span><ul><li class=\"Note\"><span class=\"NoteTitle\">Overview (3/4/2020 1:29 PM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">Overview note for bronchitis<br /></span></li></ul></td><td class=\"Priority\">-</td><td class=\"NotedDate\">3/4/2020</td><td class=\"DiagnosedDate\">-</td></tr><tr><td class=\"Name\"><span class=\"ProblemName\">PCOS (polycystic ovarian syndrome)</span><ul><li class=\"Note\"><span class=\"NoteTitle\">Overview (3/4/2020 12:28 PM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">Overview note on PCOS<br /></span></li><li class=\"Note\"><span class=\"NoteTitle\">Assessment &amp; Plan (3/4/2020 12:28 PM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">A&amp;P note on PCOS<br /></span></li></ul></td><td class=\"Priority\">-</td><td class=\"NotedDate\">June 2005</td><td class=\"DiagnosedDate\">-</td></tr></tbody></table></div><br /><div class=\"ResolvedProblems\"><h3>Resolved Problems</h3><table class=\"ResolvedProblemTable\"><thead><tr><th>Problem</th><th>Priority</th><th>Noted Date</th><th>Diagnosed Date</th><th>Resolved Date</th></tr></thead><tbody><tr><td class=\"Name\"><span class=\"ProblemName\">Pneumonia</span><ul><li class=\"Note\"><span class=\"NoteTitle\">Overview (3/4/2020 12:30 PM):</span><br /><span class=\"WarningMsg\"><em>Formatting of this note might be different from the original.</em></span><br /><span class=\"NoteText\">Overview on pneumonia (resolved)<br /></span></li></ul></td><td class=\"Priority\">-</td><td class=\"NotedDate\">12/5/2016</td><td class=\"DiagnosedDate\">-</td><td class=\"ResolvedDate\">12/20/2016</td></tr></tbody></table></div></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/e6.ToRrlZE9pwFAPiLa6E2nRUitzucwMQODU8OsVpNGA3"
+              },
+              {
+                "reference": "Condition/eK.v1ndIFKTZm1ve0TRFa2byekZbTkS0xnsoQOqN-o5I3"
+              },
+              {
+                "reference": "Condition/eSofV5nlkrNNFQd0NZ6X.HOgiJP4L3UZL5czBjs2ToOQ3"
+              },
+              {
+                "reference": "Condition/ehN5aPR4nNqeszDOlWcCRiRQMSog2u1hzynRNa.pcN8s3"
+              },
+              {
+                "reference": "Condition/eo9oUyWxTbupFnhoob3sokZWszZfHWjFM0dOzVsDDRig3"
+              }
+            ]
+          },
+          {
+            "title": "Allergies",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ],
+              "text": "Allergies and adverse reactions Document"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"ActiveAllergyTable\"><thead class=\"ActiveAllergyHeader\"><tr><th>Active Allergy</th><th>Allergen Type</th><th>Reactions</th><th>Criticality</th><th>Noted Date</th><th>Comments</th></tr></thead><tbody class=\"ActiveAllergy\"><tr class=\"ActiveAllergy\"><td class=\"Name\">LACTOSE</td><td class=\"Type\">-</td><td class=\"Reactions\">GI intolerance</td><td class=\"Criticality\">High</td><td class=\"NotedDate\">3/4/2020</td><td class=\"Comments\">Comment lactose allergy</td></tr><tr class=\"ActiveAllergy\"><td class=\"Name\">NICKEL</td><td class=\"Type\">-</td><td class=\"Reactions\">Hives, Itching</td><td class=\"Criticality\">Low</td><td class=\"NotedDate\">3/4/2020</td><td class=\"Comments\">Comment on nickel allergy</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/eWnSvqVtUdx9Y08zZy-RCwekkG16SLp1A9E5OJknfJX43"
+              },
+              {
+                "reference": "AllergyIntolerance/ea4ONTVbS3dfxGuPfqSkmQlXKazDiglC4WXbwegpukDU3"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ],
+              "text": "History of Medication use Narrative"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication</th><th>Sig</th><th>Dispense Quantity</th><th>Refills</th><th>Start Date</th><th>End Date</th><th>Status</th></tr></thead><tbody><tr><td>MULTIVITAMIN ADULT PO TABS<ul></ul></td><td>Take 1 tablet by mouth daily.</td><td>-</td><td>-</td><td>3/4/2017</td><td>-</td><td>Active</td></tr><tr><td>ferrous gluconate (FERGON) tablet<ul></ul></td><td>Take 1 tablet by mouth daily. This is the patient sig</td><td>90 tablet</td><td>55</td><td>3/4/2020</td><td>-</td><td>Active</td></tr><tr><td>drospirenone-ethinyl estradiol (YAZ) tablet 3-0.02 mg<ul></ul></td><td>Take 1 tablet by mouth daily.</td><td>4748 tablet</td><td>0</td><td>3/4/2020</td><td>-</td><td>Active</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationRequest/e-4CRXcPmBwxyJQPeMKGH8zYuFoQAVvUsacWCmHYTDfk3"
+              },
+              {
+                "reference": "MedicationRequest/eIaWvzbMPJYDlqly5ikGg7Vz5ESpxTD4Zj4zKS67.DGs3"
+              },
+              {
+                "reference": "MedicationRequest/eIaWvzbMPJYDlqly5ikGg7ZjQNNehE3nGWSqDNrxGDlY3"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization Narrative"
+                }
+              ],
+              "text": "History of Immunization Narrative"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Immunization</th><th>Administration Dates</th><th>Next Due</th></tr></thead><tbody><tr><td>DTaP, Unspecified Formulation (IST) Imm-rx</td><td>3/4/2020</td><td>-</td></tr><tr><td>MMR</td><td>3/4/2000</td><td>-</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Immunization/emAKcOP2creGzeLlEt5R4MBF6oYm0wzxJ9aWwOTiOqHI3"
+              },
+              {
+                "reference": "Immunization/emAKcOP2creGzeLlEt5R4MFyM.TLHisGiY2OL7vh-KKI3"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/AllergyIntolerance/eWnSvqVtUdx9Y08zZy-RCwekkG16SLp1A9E5OJknfJX43",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "eWnSvqVtUdx9Y08zZy-RCwekkG16SLp1A9E5OJknfJX43",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "medication"
+        ],
+        "criticality": "low",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "31738",
+              "display": "NICKEL"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1311629"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1546280"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.4.9",
+              "code": "4FLT4T3WUN"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.4.9",
+              "code": "696BNE976J"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.4.9",
+              "code": "7OV03QG267"
+            }
+          ],
+          "text": "NICKEL"
+        },
+        "patient": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2020-03-04",
+        "recordedDate": "2020-03-04T18:24:29Z",
+        "note": [
+          {
+            "text": "Comment on nickel allergy"
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "text": "Hives"
+              }
+            ],
+            "description": "Hives"
+          },
+          {
+            "manifestation": [
+              {
+                "text": "Itching"
+              }
+            ],
+            "description": "Itching"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/AllergyIntolerance/ea4ONTVbS3dfxGuPfqSkmQlXKazDiglC4WXbwegpukDU3",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "ea4ONTVbS3dfxGuPfqSkmQlXKazDiglC4WXbwegpukDU3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "6211",
+              "display": "LACTOSE"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1305527"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1307662"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.4.9",
+              "code": "3SY5LH9PMK"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.4.9",
+              "code": "EWQ57Q8I5X"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.4.9",
+              "code": "J2B2A4N98G"
+            }
+          ],
+          "text": "LACTOSE"
+        },
+        "patient": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2020-03-04",
+        "recordedDate": "2020-03-04T18:25:09Z",
+        "note": [
+          {
+            "text": "Comment lactose allergy"
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "text": "GI intolerance"
+              }
+            ],
+            "description": "GI intolerance"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Immunization/emAKcOP2creGzeLlEt5R4MBF6oYm0wzxJ9aWwOTiOqHI3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "emAKcOP2creGzeLlEt5R4MBF6oYm0wzxJ9aWwOTiOqHI3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.768076",
+            "value": "1000000246"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "03"
+            }
+          ],
+          "text": "MMR"
+        },
+        "patient": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "encounter": {
+          "reference": "Encounter/eo9eZM25NuJMcjFJyO1Ez9Xday6CzUV8PSZGAEJJeiVY3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+            "value": "10000036923"
+          },
+          "display": "Office Visit"
+        },
+        "occurrenceDateTime": "2000-03-04",
+        "primarySource": false,
+        "reportOrigin": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4082",
+              "code": "1",
+              "display": "Patient reported"
+            }
+          ],
+          "text": "Patient reported"
+        },
+        "location": {
+          "display": "right arm"
+        },
+        "performer": [
+          {
+            "function": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                  "code": "AP",
+                  "display": "Administering Provider"
+                }
+              ],
+              "text": "Administering Provider"
+            },
+            "actor": {
+              "reference": "Practitioner/euJOUNeZyX6mofWELWG0Ibg3",
+              "type": "Practitioner",
+              "display": "Starter Provider"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "comment on MMR"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Immunization/emAKcOP2creGzeLlEt5R4MFyM.TLHisGiY2OL7vh-KKI3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "emAKcOP2creGzeLlEt5R4MFyM.TLHisGiY2OL7vh-KKI3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.768076",
+            "value": "1000000244"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "107"
+            }
+          ],
+          "text": "DTaP, Unspecified Formulation (IST) Imm-rx"
+        },
+        "patient": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "encounter": {
+          "reference": "Encounter/eo9eZM25NuJMcjFJyO1Ez9Xday6CzUV8PSZGAEJJeiVY3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+            "value": "10000036923"
+          },
+          "display": "Office Visit"
+        },
+        "occurrenceDateTime": "2020-03-04T18:56:00Z",
+        "primarySource": true,
+        "location": {
+          "display": "connectathon-testing for EpicConnect and Pulsar testing only"
+        },
+        "manufacturer": {
+          "display": "Merck, Sharp, Dohme"
+        },
+        "lotNumber": "486745",
+        "expirationDate": "2030-03-04",
+        "site": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4040",
+              "code": "14",
+              "display": "Left arm"
+            }
+          ],
+          "text": "Left arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4030",
+              "code": "2",
+              "display": "Intramuscular"
+            }
+          ],
+          "text": "Intramuscular"
+        },
+        "doseQuantity": {
+          "value": 0.5,
+          "unit": "mL",
+          "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.768076.4019",
+          "code": "1"
+        },
+        "performer": [
+          {
+            "function": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                  "code": "AP",
+                  "display": "Administering Provider"
+                }
+              ],
+              "text": "Administering Provider"
+            },
+            "actor": {
+              "reference": "Practitioner/eb3d.4apzwRM33Q91Nm7wJA3",
+              "type": "Practitioner",
+              "display": "Emily Williams, MD"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "comment on DTAP"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/MedicationRequest/e-4CRXcPmBwxyJQPeMKGH8zYuFoQAVvUsacWCmHYTDfk3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "e-4CRXcPmBwxyJQPeMKGH8zYuFoQAVvUsacWCmHYTDfk3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.798268",
+            "value": "1000000880"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                "code": "community",
+                "display": "Community"
+              }
+            ],
+            "text": "Community"
+          }
+        ],
+        "medicationReference": {
+          "reference": "Medication/e1jDXZ0rLE2qz2BxNnqqBmMuGX5KUuDuA-bKGFgaClVtCtbtdNOayPQVhjuhUkYyuQMlFaDcMdxAy0AcdRbUVBeU7uoOuzJq988jAaxrcWk03",
+          "display": "ferrous gluconate (FERGON) tablet"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "encounter": {
+          "reference": "Encounter/eo9eZM25NuJMcjFJyO1Ez9Xday6CzUV8PSZGAEJJeiVY3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+            "value": "10000036923"
+          },
+          "display": "Office Visit"
+        },
+        "authoredOn": "2020-03-04",
+        "requester": {
+          "reference": "Practitioner/eb3d.4apzwRM33Q91Nm7wJA3",
+          "type": "Practitioner",
+          "display": "Emily Williams, MD"
+        },
+        "recorder": {
+          "reference": "Practitioner/eb3d.4apzwRM33Q91Nm7wJA3",
+          "type": "Practitioner",
+          "display": "Emily Williams, MD"
+        },
+        "courseOfTherapyType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+              "code": "acute",
+              "display": "Short course (acute) therapy"
+            }
+          ],
+          "text": "Short course (acute) therapy"
+        },
+        "dosageInstruction": [
+          {
+            "text": "This is the patient sig\n240 mg, Oral, DAILY Starting Wed 3/4/2020, Until Thu 11/10/2033, For 4999 days, Disp-90 tablet,R-55, Normal",
+            "patientInstruction": "Take 1 tablet by mouth daily. This is the patient sig",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2020-03-04"
+                },
+                "timeOfDay": [
+                  "09:00:00"
+                ]
+              },
+              "code": {
+                "text": "0900"
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "260548002",
+                  "display": "Oral (qualifier value)"
+                },
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.798268.7025",
+                  "code": "15",
+                  "display": "Oral"
+                }
+              ],
+              "text": "Oral"
+            },
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "419652001",
+                  "display": "Take"
+                }
+              ],
+              "text": "Take"
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "calculated",
+                      "display": "calculated"
+                    }
+                  ],
+                  "text": "calculated"
+                },
+                "doseQuantity": {
+                  "value": 240,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "admin-amount",
+                      "display": "admin-amount"
+                    }
+                  ],
+                  "text": "admin-amount"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "ordered"
+                    }
+                  ],
+                  "text": "ordered"
+                },
+                "doseQuantity": {
+                  "value": 240,
+                  "unit": "mg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg"
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2020-03-04"
+          },
+          "numberOfRepeatsAllowed": 55,
+          "quantity": {
+            "value": 90,
+            "unit": "tablet"
+          },
+          "expectedSupplyDuration": {
+            "value": 90,
+            "unit": "Day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/MedicationRequest/eIaWvzbMPJYDlqly5ikGg7Vz5ESpxTD4Zj4zKS67.DGs3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "eIaWvzbMPJYDlqly5ikGg7Vz5ESpxTD4Zj4zKS67.DGs3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.798268",
+            "value": "1000000878"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                "code": "community",
+                "display": "Community"
+              }
+            ],
+            "text": "Community"
+          }
+        ],
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "Medication/eXvhInmZfvFm.d4g-LtIpzyFttH99pPD-AtsQP8JVsVNUMYQoMRDAYsGT.-ZkYwzCypU8Fr4hyvXumIQiwI-LeQX58wTnla5ANLmszn52Vts3",
+          "display": "MULTIVITAMIN ADULT PO TABS"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "encounter": {
+          "reference": "Encounter/eo9eZM25NuJMcjFJyO1Ez9Xday6CzUV8PSZGAEJJeiVY3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+            "value": "10000036923"
+          },
+          "display": "Office Visit"
+        },
+        "authoredOn": "2020-03-04T18:43:49Z",
+        "requester": {
+          "extension": [
+            {
+              "valueCode": "unknown",
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            }
+          ]
+        },
+        "recorder": {
+          "reference": "Practitioner/eb3d.4apzwRM33Q91Nm7wJA3",
+          "type": "Practitioner",
+          "display": "Emily Williams, MD"
+        },
+        "courseOfTherapyType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+              "code": "acute",
+              "display": "Short course (acute) therapy"
+            }
+          ],
+          "text": "Short course (acute) therapy"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 tablet, Oral, DAILY Starting Sat 3/4/2017, Historical Med",
+            "patientInstruction": "Take 1 tablet by mouth daily.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2017-03-04"
+                },
+                "timeOfDay": [
+                  "09:00:00"
+                ]
+              },
+              "code": {
+                "text": "0900"
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "260548002",
+                  "display": "Oral (qualifier value)"
+                },
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.798268.7025",
+                  "code": "15",
+                  "display": "Oral"
+                }
+              ],
+              "text": "Oral"
+            },
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "419652001",
+                  "display": "Take"
+                }
+              ],
+              "text": "Take"
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "ordered"
+                    }
+                  ],
+                  "text": "ordered"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/MedicationRequest/eIaWvzbMPJYDlqly5ikGg7ZjQNNehE3nGWSqDNrxGDlY3",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "eIaWvzbMPJYDlqly5ikGg7ZjQNNehE3nGWSqDNrxGDlY3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.798268",
+            "value": "1000000879"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                "code": "community",
+                "display": "Community"
+              }
+            ],
+            "text": "Community"
+          }
+        ],
+        "medicationReference": {
+          "reference": "Medication/e5V8qL1eUqBVQKh1O-UkAqLbzWyH6dLF5FqsSnYOlqggPNKwm4k40S8fd6FgUAi3hN6OcGugnFedGxnbCzKtpSNVv2868XNezPelLsMaMqeE3",
+          "display": "drospirenone-ethinyl estradiol (YAZ) tablet 3-0.02 mg"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "encounter": {
+          "reference": "Encounter/eo9eZM25NuJMcjFJyO1Ez9Xday6CzUV8PSZGAEJJeiVY3",
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.698084.8",
+            "value": "10000036923"
+          },
+          "display": "Office Visit"
+        },
+        "authoredOn": "2020-03-04",
+        "requester": {
+          "reference": "Practitioner/eb3d.4apzwRM33Q91Nm7wJA3",
+          "type": "Practitioner",
+          "display": "Emily Williams, MD"
+        },
+        "recorder": {
+          "reference": "Practitioner/eb3d.4apzwRM33Q91Nm7wJA3",
+          "type": "Practitioner",
+          "display": "Emily Williams, MD"
+        },
+        "courseOfTherapyType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+              "code": "acute",
+              "display": "Short course (acute) therapy"
+            }
+          ],
+          "text": "Short course (acute) therapy"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 tablet, Oral, DAILY Starting Wed 3/4/2020, Until Fri 3/4/2033, For 4748 days, Disp-4748 tablet,R-0, Normal",
+            "patientInstruction": "Take 1 tablet by mouth daily.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2020-03-04"
+                },
+                "timeOfDay": [
+                  "09:00:00"
+                ]
+              },
+              "code": {
+                "text": "0900"
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "260548002",
+                  "display": "Oral (qualifier value)"
+                },
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.798268.7025",
+                  "code": "15",
+                  "display": "Oral"
+                }
+              ],
+              "text": "Oral"
+            },
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "419652001",
+                  "display": "Take"
+                }
+              ],
+              "text": "Take"
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "calculated",
+                      "display": "calculated"
+                    }
+                  ],
+                  "text": "calculated"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "admin-amount",
+                      "display": "admin-amount"
+                    }
+                  ],
+                  "text": "admin-amount"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "ordered"
+                    }
+                  ],
+                  "text": "ordered"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2020-03-04"
+          },
+          "numberOfRepeatsAllowed": 0,
+          "quantity": {
+            "value": 4748,
+            "unit": "tablet"
+          },
+          "expectedSupplyDuration": {
+            "value": 999,
+            "unit": "Day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Condition/e6.ToRrlZE9pwFAPiLa6E2nRUitzucwMQODU8OsVpNGA3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e6.ToRrlZE9pwFAPiLa6E2nRUitzucwMQODU8OsVpNGA3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ],
+          "text": "Resolved"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J18.9",
+              "display": "Pneumonia, unspecified organism"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "233604007",
+              "display": "Pneumonia"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "486",
+              "display": "Pneumonia"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "87580",
+              "display": "Pneumonia"
+            }
+          ],
+          "text": "Pneumonia"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2016-12-05",
+        "abatementDateTime": "2016-12-20",
+        "recordedDate": "2020-03-04",
+        "note": [
+          {
+            "extension": [
+              {
+                "valueString": "Formatting of this note might be different from the original.",
+                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "68608-9",
+                      "display": "Summary note"
+                    }
+                  ],
+                  "text": "Problem Overview"
+                },
+                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+              }
+            ],
+            "authorReference": {
+              "reference": "Practitioner/eMqwQScPw6FOlWzs-BLtrZg3",
+              "display": "Emily Williams, MD"
+            },
+            "time": "2020-03-04T18:30:00Z",
+            "text": "Overview on pneumonia (resolved)\r\n"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Condition/eK.v1ndIFKTZm1ve0TRFa2byekZbTkS0xnsoQOqN-o5I3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eK.v1ndIFKTZm1ve0TRFa2byekZbTkS0xnsoQOqN-o5I3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "75310-3",
+                "display": "Health concerns Document"
+              },
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+                "code": "health-concern",
+                "display": "Health Concern"
+              }
+            ],
+            "text": "Health Concern"
+          }
+        ],
+        "severity": {
+          "text": "Med"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I10",
+              "display": "Essential (primary) hypertension"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential Hypertension"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "401.9",
+              "display": "Essential hypertension"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "30422",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2020-03-04",
+        "recordedDate": "2020-03-04"
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Condition/eSofV5nlkrNNFQd0NZ6X.HOgiJP4L3UZL5czBjs2ToOQ3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eSofV5nlkrNNFQd0NZ6X.HOgiJP4L3UZL5czBjs2ToOQ3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "Z00.00",
+              "display": "Encounter for general adult medical examination without abnormal findings"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "305058001",
+              "display": "Patient Encounter Status"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "V70.0",
+              "display": "Routine general medical examination at a health care facility"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "35427",
+              "display": "Routine general medical examination at a health care facility"
+            }
+          ],
+          "text": "Routine general medical examination at a health care facility"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2020-03-04",
+        "recordedDate": "2020-03-04"
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Condition/ehN5aPR4nNqeszDOlWcCRiRQMSog2u1hzynRNa.pcN8s3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ehN5aPR4nNqeszDOlWcCRiRQMSog2u1hzynRNa.pcN8s3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E28.2",
+              "display": "Polycystic ovarian syndrome"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "237055002",
+              "display": "Polycystic Ovary Syndrome"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "256.4",
+              "display": "PCOS (polycystic ovarian syndrome)"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "330918",
+              "display": "PCOS (polycystic ovarian syndrome)"
+            }
+          ],
+          "text": "PCOS (polycystic ovarian syndrome)"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2005-06",
+        "recordedDate": "2020-03-04",
+        "note": [
+          {
+            "extension": [
+              {
+                "valueString": "Formatting of this note might be different from the original.",
+                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "68608-9",
+                      "display": "Summary note"
+                    }
+                  ],
+                  "text": "Problem Overview"
+                },
+                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+              }
+            ],
+            "authorReference": {
+              "reference": "Practitioner/eMqwQScPw6FOlWzs-BLtrZg3",
+              "display": "Emily Williams, MD"
+            },
+            "time": "2020-03-04T18:28:47Z",
+            "text": "Overview note on PCOS\r\n"
+          },
+          {
+            "extension": [
+              {
+                "valueString": "Formatting of this note might be different from the original.",
+                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "51847-2",
+                      "display": "Evaluation + Plan note"
+                    }
+                  ],
+                  "text": "Assessment & Plan"
+                },
+                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+              }
+            ],
+            "authorReference": {
+              "reference": "Practitioner/eMqwQScPw6FOlWzs-BLtrZg3",
+              "display": "Emily Williams, MD"
+            },
+            "time": "2020-03-04T18:28:50Z",
+            "text": "A&P note on PCOS\r\n"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Condition/eo9oUyWxTbupFnhoob3sokZWszZfHWjFM0dOzVsDDRig3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eo9oUyWxTbupFnhoob3sokZWszZfHWjFM0dOzVsDDRig3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "J20.9",
+              "display": "Acute bronchitis, unspecified"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "10509002",
+              "display": "Acute Bronchitis"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "466.0",
+              "display": "Acute bronchitis"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "58543",
+              "display": "Acute bronchitis"
+            }
+          ],
+          "text": "Acute bronchitis"
+        },
+        "subject": {
+          "reference": "Patient/e5ZHnklVuYuT85PnDVOepOg3",
+          "display": "FHIR, Automation"
+        },
+        "onsetDateTime": "2020-03-04",
+        "recordedDate": "2020-03-04",
+        "note": [
+          {
+            "extension": [
+              {
+                "valueString": "Formatting of this note might be different from the original.",
+                "url": "http://open.epic.com/FHIR/StructureDefinition/extension/data-conversion-warning"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "68608-9",
+                      "display": "Summary note"
+                    }
+                  ],
+                  "text": "Problem Overview"
+                },
+                "url": "http://hl7.org/fhir/StructureDefinition/annotationType"
+              }
+            ],
+            "authorReference": {
+              "reference": "Practitioner/eMqwQScPw6FOlWzs-BLtrZg3",
+              "display": "Emily Williams, MD"
+            },
+            "time": "2020-03-04T19:29:12Z",
+            "text": "Overview note for bronchitis\r\n"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Medication/e1jDXZ0rLE2qz2BxNnqqBmMuGX5KUuDuA-bKGFgaClVtCtbtdNOayPQVhjuhUkYyuQMlFaDcMdxAy0AcdRbUVBeU7uoOuzJq988jAaxrcWk03",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "e1jDXZ0rLE2qz2BxNnqqBmMuGX5KUuDuA-bKGFgaClVtCtbtdNOayPQVhjuhUkYyuQMlFaDcMdxAy0AcdRbUVBeU7uoOuzJq988jAaxrcWk03",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698288",
+            "value": "25938"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.253",
+              "code": "61279"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.68",
+              "code": "82300020000308"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.162",
+              "code": "26349"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "24942"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "242590"
+            }
+          ],
+          "text": "ferrous gluconate (FERGON) tablet"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.698288.310",
+              "code": "TABS",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.253",
+                  "code": "61279"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.68",
+                  "code": "82300020000308"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.162",
+                  "code": "26349"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "24942"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "242590"
+                }
+              ],
+              "text": "ferrous gluconate (FERGON) tablet"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Medication/e5V8qL1eUqBVQKh1O-UkAqLbzWyH6dLF5FqsSnYOlqggPNKwm4k40S8fd6FgUAi3hN6OcGugnFedGxnbCzKtpSNVv2868XNezPelLsMaMqeE3",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "e5V8qL1eUqBVQKh1O-UkAqLbzWyH6dLF5FqsSnYOlqggPNKwm4k40S8fd6FgUAi3hN6OcGugnFedGxnbCzKtpSNVv2868XNezPelLsMaMqeE3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698288",
+            "value": "73935"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "G03EK01"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.253",
+              "code": "100899"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.68",
+              "code": "25990002150316"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.162",
+              "code": "49431"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "4124"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "11636"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "630734"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "748794"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "748798"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "840781"
+            }
+          ],
+          "text": "drospirenone-ethinyl estradiol (YAZ) tablet 3-0.02 mg"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.698288.310",
+              "code": "TABS",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.whocc.no/atc",
+                  "code": "G03EK01"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.253",
+                  "code": "100899"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.68",
+                  "code": "25990002150316"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.162",
+                  "code": "49431"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "4124"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "11636"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "630734"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "748794"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "748798"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "840781"
+                }
+              ],
+              "text": "drospirenone-ethinyl estradiol (YAZ) tablet 3-0.02 mg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Medication/eXvhInmZfvFm.d4g-LtIpzyFttH99pPD-AtsQP8JVsVNUMYQoMRDAYsGT.-ZkYwzCypU8Fr4hyvXumIQiwI-LeQX58wTnla5ANLmszn52Vts3",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "eXvhInmZfvFm.d4g-LtIpzyFttH99pPD-AtsQP8JVsVNUMYQoMRDAYsGT.-ZkYwzCypU8Fr4hyvXumIQiwI-LeQX58wTnla5ANLmszn52Vts3",
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698288",
+            "value": "144886"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.253",
+              "code": "171037"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.68",
+              "code": "78310000000300"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.162",
+              "code": "04209"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1151"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "11256"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "11359"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "11423"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "19143"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "21842"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "36717"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "218860"
+            }
+          ],
+          "text": "MULTIVITAMIN ADULT PO TABS"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.1.1.7.4.698288.310",
+              "code": "TABS",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.253",
+                  "code": "171037"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.68",
+                  "code": "78310000000300"
+                },
+                {
+                  "system": "urn:oid:2.16.840.1.113883.6.162",
+                  "code": "04209"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1151"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "11256"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "11359"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "11423"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "19143"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "21842"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "36717"
+                },
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "218860"
+                }
+              ],
+              "text": "MULTIVITAMIN ADULT PO TABS"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Organization/ePioZEeqCYv.F5W96swOaXA3",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "ePioZEeqCYv.F5W96swOaXA3",
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "NPI"
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1111111112"
+          },
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.696570",
+            "value": "163000"
+          }
+        ],
+        "active": true,
+        "name": "EDI Healthcare Management #%~&",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "608-163-0001",
+            "use": "work"
+          },
+          {
+            "system": "fax",
+            "value": "608-163-0101",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "text": "101 NORTH SHORE DRIVE\r\nMADISON WI 53711",
+            "line": [
+              "101 NORTH SHORE DRIVE"
+            ],
+            "city": "MADISON",
+            "state": "Wisconsin",
+            "postalCode": "53711"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://connectathon.epic.com/Interconnect-Fhir-Unsecure/api/FHIR/R4/Patient/e5ZHnklVuYuT85PnDVOepOg3",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "e5ZHnklVuYuT85PnDVOepOg3",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h1>Automation FHIR</h1><div class=\"Section\"><div class=\"Header\"><h2>Demographics</h2></div><div class=\"Body\"><div class=\"Section\"><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Legal name:</strong></span> <span class=\"Value\">Automation FHIR</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Preferred name:</strong></span> <span class=\"Value\">Not on file</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Age:</strong></span> <span class=\"Value\">42 y.o.</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Legal sex:</strong></span> <span class=\"Value\">Female</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Gender identity:</strong></span> <span class=\"Value\">Female</span></div><div class=\"SingleLineField\"><span class=\"Prefix\"><strong>Birth date:</strong></span> <span class=\"Value\">3/4/1983</span></div></div><br /><div class=\"Section\"><div class=\"Header\"><h3>Identifiers</h3></div><div class=\"Body\"><p class=\"NotOnFile\">Not on file</p></div></div><br /><div class=\"Section\"><div class=\"Header\"><h3>Addresses</h3></div><div class=\"Body\"><div class=\"Section\"><div class=\"Header\"><h4>Current Addresses</h4></div><div class=\"Body\"><p class=\"NotOnFile\">Not on file</p></div></div><br /><div class=\"Section\"><div class=\"Header\"><h4>Former Addresses</h4></div><div class=\"Body\"><p class=\"NotOnFile\">Not on file</p></div></div></div></div><br /><div class=\"Section\"><div class=\"Header\"><h3>Communication</h3></div><div class=\"Body\"><ol class=\"unlist\"><li>fhirauto@email.com (Email)</li><li>+1 608-777-7777 (Work Phone)</li></ol></div></div><br /><div class=\"Section\"><div class=\"Header\"><h3>Languages</h3></div><div class=\"Body\"><div class=\"Section\"><div class=\"Header\"><h4>Spoken Languages</h4></div><div class=\"Body\"><ol class=\"unlist\"><li>English (Preferred)</li></ol></div></div><br /><div class=\"Section\"><div class=\"Header\"><h4>Written Languages</h4></div><div class=\"Body\"><p class=\"NotOnFile\">Not on file</p></div></div></div></div></div></div><br /><br /><div class=\"Section\"><div class=\"Header\"><h2>Contacts</h2></div><div class=\"Body\"><p class=\"NotOnFile\">Not on file</p></div></div><br /><br /><div class=\"Section\"><div class=\"Header\"><h2>Primary Care Providers</h2></div><div class=\"Body\"><table><thead><tr><th>Provider Name</th></tr></thead><tbody><tr><td class=\"PCPName\">Provider Fhir, MD</td></tr></tbody></table></div></div></div>"
+        },
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.698084.130.768080.39128",
+                  "code": "female",
+                  "display": "female"
+                }
+              ],
+              "text": "Female"
+            },
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+          },
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/gender-identity",
+                  "code": "female",
+                  "display": "female"
+                }
+              ],
+              "text": "Female"
+            },
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity"
+          },
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.1.1.7.10.698084.130.768080.35144",
+                  "code": "female",
+                  "display": "female"
+                }
+              ]
+            },
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+          },
+          {
+            "valueCode": "F",
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"
+          },
+          {
+            "extension": [
+              {
+                "valueCoding": {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                  "code": "UNK",
+                  "display": "Unknown"
+                },
+                "url": "ombCategory"
+              },
+              {
+                "valueString": "Unknown",
+                "url": "text"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+          },
+          {
+            "extension": [
+              {
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                },
+                "url": "ombCategory"
+              },
+              {
+                "valueString": "Not Hispanic or Latino",
+                "url": "text"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+          },
+          {
+            "valueCode": "248152002",
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"
+          },
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "LA29519-8",
+                  "display": "she/her/her/hers/herself"
+                }
+              ]
+            },
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/calculated-pronouns-to-use-for-text"
+          },
+          {
+            "extension": [
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://open.epic.com/FHIR/Epic/pronoun-set",
+                      "code": "99",
+                      "display": "not listed"
+                    }
+                  ],
+                  "text": "she/her/hers"
+                },
+                "url": "value"
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/individual-pronouns"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "EPI"
+            },
+            "system": "urn:oid:1.2.840.114350.1.1",
+            "value": "107732"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "EXTERNAL"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698084",
+            "value": "Z10043"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "FHIR"
+            },
+            "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+            "value": "TK5vsXNIzDfaVOVRMPfDXvWJtR.NNbsXjiZF0gXcoriYB"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "FHIR STU3"
+            },
+            "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+            "value": "e5ZHnklVuYuT85PnDVOepOg3"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "INTERNAL"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.698084",
+            "value": "    Z10043"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "MYCHARTLOGIN"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.3.878082.110",
+            "value": "FHIRAUTO"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "WPRINTERNAL"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.1.1.7.2.878082",
+            "value": "8440"
+          },
+          {
+            "use": "usual",
+            "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+            "value": "1598765"
+          },
+          {
+            "use": "usual",
+            "system": "urn:oid:2.16.840.1.113883.4.1",
+            "_value": {
+              "extension": [
+                {
+                  "valueString": "xxx-xx-6254",
+                  "url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Automation FHIR",
+            "family": "FHIR",
+            "given": [
+              "Automation"
+            ]
+          },
+          {
+            "use": "usual",
+            "text": "Automation FHIR",
+            "family": "FHIR",
+            "given": [
+              "Automation"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+1 608-777-7777",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "fhirauto@email.com",
+            "rank": 1
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1983-03-04",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "1979 Milky Way"
+            ],
+            "city": "VERONA",
+            "district": "DANE",
+            "state": "WI",
+            "postalCode": "53593",
+            "country": "USA",
+            "period": {
+              "start": "2020-03-04"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "valueCoding": {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+                      "code": "ESP",
+                      "display": "Expressed spoken"
+                    },
+                    "url": "type"
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/patient-proficiency"
+              }
+            ],
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English"
+                }
+              ],
+              "text": "English"
+            },
+            "preferred": true,
+            "_preferred": {
+              "extension": [
+                {
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/language-preference-type",
+                    "code": "verbal",
+                    "display": "verbal"
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/patient-preferenceType"
+                }
+              ]
+            }
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/eR7klEsAf29cdTFOh25gtmA3",
+            "type": "Practitioner",
+            "display": "Provider Fhir, MD"
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/ePioZEeqCYv.F5W96swOaXA3",
+          "display": "EDI Healthcare Management #%~&"
+        }
+      }
+    }
+  ]
+}
