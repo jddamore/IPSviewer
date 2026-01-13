@@ -213,20 +213,7 @@
 {#if showInfo}
   <Row class="text-info">{infoMessage}</Row>
 {/if}
-<!-- Render Composition first, then Patient, then sections -->
-{#if mode === 'text' && typeof compositionTextDiv === 'string' && compositionTextDiv.trim() !== ''}
-  <Row class="mx-0">
-    <Accordion class="mt-3">
-      <AccordionItem active class="ips-section">
-        <h6 slot="header" class="my-2">
-          Composition (Content from Composition.text, which may repeat or summarize
-          information displayed in individual sections further below.)
-        </h6>
-        {@html compositionTextDiv}
-      </AccordionItem>
-    </Accordion>
-  </Row>
-{/if}
+<!-- Render Patient first, then Composition, then sections per https://www.hl7.org/fhir/R4/documents.html-->
 {#if ipsContent.Patient}
   <Row class="mx-0">
     <Accordion class="mt-3">
@@ -260,6 +247,19 @@
             </CardBody>
           </Card>
         {/if}
+      </AccordionItem>
+    </Accordion>
+  </Row>
+{/if}
+{#if mode === 'text' && typeof compositionTextDiv === 'string' && compositionTextDiv.trim() !== ''}
+  <Row class="mx-0">
+    <Accordion class="mt-3">
+      <AccordionItem active class="ips-section">
+        <h6 slot="header" class="my-2">
+          Composition (Content from Composition.text, which may repeat or summarize
+          information displayed in individual sections further below.)
+        </h6>
+        {@html compositionTextDiv}
       </AccordionItem>
     </Accordion>
   </Row>
