@@ -69,10 +69,15 @@
     useText: boolean;
   }
 
+
   let ipsContent: Record<string, IpsContent> = {};
+  let compositionTextDiv: string | undefined = undefined;
   $: {
     if (bundle) {
       ipsContent = getIpsContent(bundle);
+      // Extract the first Composition narrative if available
+      const compositionEntry = bundle.entry?.find(e => e.resource?.resourceType === 'Composition');
+      compositionTextDiv = compositionEntry?.resource?.text?.div;
     }
   }
 
@@ -208,14 +213,48 @@
 {#if showInfo}
   <Row class="text-info">{infoMessage}</Row>
 {/if}
+<!-- Render Patient narrative first, then Composition, then sections -->
+{#if ipsContent.Patient}
+  <Row class="mx-0">
+    <Accordion class="mt-3">
+      <AccordionItem active class="ips-section">
+        <h6 slot="header" class="my-2">Patient</h6>
+        {#if mode === 'text' && ipsContent.Patient.entries && typeof ipsContent.Patient.entries[0]?.text?.div === 'string' && ipsContent.Patient.entries[0].text.div.trim() !== ''}
+          {@html ipsContent.Patient.entries[0].text.div}
+        {:else}
+          <span class="text-muted">No patient narrative available.</span>
+        {/if}
+      </AccordionItem>
+    </Accordion>
+  </Row>
+{/if}
+{#if mode === 'text' && typeof compositionTextDiv === 'string' && compositionTextDiv.trim() !== ''}
+  <Row class="mx-0">
+    <Accordion class="mt-3">
+      <AccordionItem active class="ips-section">
+        <h6 slot="header" class="my-2">Composition</h6>
+        {@html compositionTextDiv}
+      </AccordionItem>
+    </Accordion>
+  </Row>
+{/if}
 {#each Object.entries(ipsContent) as [title, sectionContent]}
-<Row class="mx-0">
+  {#if title !== 'Patient'}
+    <Row class="mx-0">
   <!--wrap in accordion with title-->
   <Accordion class="mt-3">
     <AccordionItem active class="ips-section">
       <h6 slot="header" class="my-2">{title}</h6>
       {#if sectionContent.useText || mode === "text"}
-        {@html sectionContent.section.text?.div}
+        {#if title === 'Patient'}
+          {#if sectionContent.entries && typeof sectionContent.entries[0]?.text?.div === 'string' && sectionContent.entries[0].text.div.trim() !== ''}
+            {@html sectionContent.entries[0].text.div}
+          {:else}
+            <span class="text-muted">No patient narrative available.</span>
+          {/if}
+        {:else}
+          {@html sectionContent.section.text?.div}
+        {/if}
       {:else}
         <Card style="width: 100%; max-width: 100%" class="mb-2">
             {#each sectionContent.entries as resource, index}
@@ -250,7 +289,8 @@
         {/if}
     </AccordionItem>
   </Accordion>
-</Row>
+    </Row>
+  {/if}
 {/each}
 
 <style>
