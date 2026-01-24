@@ -9,14 +9,9 @@
     Col,
     Icon,
     Offcanvas,
-    Row,
+    Row
   } from 'sveltestrap';
-  import type {
-    Bundle,
-    Composition,
-    CompositionSection,
-    Resource
-  } from "fhir/r4";
+  import type { Bundle, Composition, CompositionSection, Resource } from 'fhir/r4';
   import { download } from '$lib/utils/util.js';
 
   export let bundle: Bundle;
@@ -42,25 +37,25 @@
   import OccupationalData from '$lib/components/resource-templates/OccupationalData.svelte';
 
   const components: Record<string, any> = {
-    "AllergyIntolerance": AllergyIntolerance,
-    "Condition": Condition,
-    "Consent": Consent,
-    "DiagnosticReport": DiagnosticReport,
-    "DocumentReference": AdvanceDirective,
-    "Encounter": Encounter,
-    "Goal": Goal,
-    "Immunization": Immunization,
-    "Location": Location,
-    "Medication": Medication,
-    "MedicationRequest": MedicationRequest,
-    "MedicationStatement": MedicationStatement,
-    "Observation": Observation,
-    "Organization": Organization,
-    "Patient": Patient,
-    "Practitioner": Practitioner,
-    "Procedure": Procedure,
-    "Occupational Data": OccupationalData,
-    "Advance Directives": AdvanceDirective
+    AllergyIntolerance: AllergyIntolerance,
+    Condition: Condition,
+    Consent: Consent,
+    DiagnosticReport: DiagnosticReport,
+    DocumentReference: AdvanceDirective,
+    Encounter: Encounter,
+    Goal: Goal,
+    Immunization: Immunization,
+    Location: Location,
+    Medication: Medication,
+    MedicationRequest: MedicationRequest,
+    MedicationStatement: MedicationStatement,
+    Observation: Observation,
+    Organization: Organization,
+    Patient: Patient,
+    Practitioner: Practitioner,
+    Procedure: Procedure,
+    'Occupational Data': OccupationalData,
+    'Advance Directives': AdvanceDirective
   };
 
   interface IpsContent {
@@ -70,9 +65,15 @@
   }
 
   let ipsContent: Record<string, IpsContent> = {};
+  let compositionTextDiv: string | undefined = undefined;
   $: {
     if (bundle) {
       ipsContent = getIpsContent(bundle);
+      // Extract the first Composition narrative if available
+      const compositionEntry = bundle.entry?.find(
+        (e) => e.resource?.resourceType === 'Composition'
+      );
+      compositionTextDiv = compositionEntry?.resource?.text?.div;
     }
   }
 
@@ -83,22 +84,27 @@
     if (!compositions || !compositions[0]) {
       return content;
     }
-    let patient = ips.entry?.filter((entry) => entry.resource?.resourceType === 'Patient').map((entry) => entry.resource);
+    let patient = ips.entry
+      ?.filter((entry) => entry.resource?.resourceType === 'Patient')
+      .map((entry) => entry.resource);
     if (patient?.[0]) {
-      content ["Patient"] = {
+      content['Patient'] = {
         section: {},
         entries: patient as Resource[],
         useText: false
-      }
+      };
     }
     let composition = compositions[0].resource as Composition;
     composition.section?.forEach((section) => {
-      let title = (section.title ?? section.code?.coding?.[0].display) ?? "[Untitled section]";
-      let entries = section.entry?.map((entry) => {
-          if (entry.reference) {
-            return getEntry(ips, entry.reference) as Resource;
-          }
-        }).filter((entry) => entry !== undefined) ?? [];
+      let title = section.title ?? section.code?.coding?.[0].display ?? '[Untitled section]';
+      let entries =
+        section.entry
+          ?.map((entry) => {
+            if (entry.reference) {
+              return getEntry(ips, entry.reference) as Resource;
+            }
+          })
+          .filter((entry) => entry !== undefined) ?? [];
       let useText = entries.filter((entry) => entry.resourceType in components).length === 0;
 
       let sectionContent = {
@@ -108,7 +114,7 @@
       };
       content[title] = sectionContent;
     });
-
+    console.log(content);
     return content;
   }
 
@@ -120,14 +126,14 @@
         console.log(`match ${fullUrl}`);
         result = entry.resource;
       } else {
-      // Attempt to match based on resource and uuid
-        let newMatch = fullUrl
+        // Attempt to match based on resource and uuid
+        let newMatch = fullUrl;
         if (entry.resource && entry.resource.resourceType) {
           // remove the resource from reference
           newMatch = newMatch.replace(entry.resource.resourceType, '');
           // remove slash
           newMatch = newMatch.replace(/\//g, '');
-          // console.log(newMatch); 
+          // console.log(newMatch);
         }
         if (entry.fullUrl?.includes(newMatch)) {
           console.log(`match uuid ${newMatch}`);
@@ -140,117 +146,175 @@
       result = {};
     }
     return result;
-  };
+  }
 
   let showInfo = false;
-  let infoMessage = "";
+  let infoMessage = '';
 
-  function showInfoMessage(message:string) {
+  function showInfoMessage(message: string) {
     infoMessage = message;
     showInfo = true;
   }
 
   function hideInfoMessage() {
     showInfo = false;
-    infoMessage = "";
+    infoMessage = '';
   }
 
-  let json = "";
-  let resourceType = "";
+  let json = '';
+  let resourceType = '';
   let isOpen = false;
-  function setJson(resource:any) {
-      json = JSON.stringify(resource, null, 2);
-      resourceType = resource.resourceType;
-      isOpen = true;
+  function setJson(resource: any) {
+    json = JSON.stringify(resource, null, 2);
+    resourceType = resource.resourceType;
+    isOpen = true;
   }
   function toggle() {
-      isOpen = !isOpen;
+    isOpen = !isOpen;
   }
 </script>
 
 <Offcanvas
-    {isOpen}
-    {toggle}
-    scroll={false}
-    header={resourceType + " JSON"}
-    placement="end"
-    title={resourceType + " JSON"}
-    style="display: flex;  overflow-y:hidden; height: 100dvh;"
+  {isOpen}
+  {toggle}
+  scroll={false}
+  header={resourceType + ' JSON'}
+  placement="end"
+  title={resourceType + ' JSON'}
+  style="display: flex;  overflow-y:hidden; height: 100dvh;"
 >
-    <Row class="d-flex" style="height: 100%">
-            <Row class="d-flex pe-0" style="height:calc(100% - 50px)">
-                <Col class="d-flex pe-0" style="height:100%">
-                    <div class="d-flex pe-0 pb-0 code-container">
-                        <pre class="code"><code>{json}</code></pre>
-                    </div>
-                </Col>
-            </Row>
-            <Row class="d-flex pe-0" style="height:50px">
-                <Col class="d-flex justify-content-start align-items-end" style="padding-top: 1rem">
-                    <ButtonGroup>
-                        <Button
-                            size="sm"
-                            color="primary"
-                            on:click={() => navigator.clipboard.writeText(json)}
-                        ><Icon name="clipboard" /> Copy</Button>
-                        <Button
-                            size="sm"
-                            outline
-                            color="secondary"
-                            on:click={() => download(resourceType + ".json", json)}
-                        ><Icon name="download" /> Download</Button>
-                      </ButtonGroup>
-                </Col>
-            </Row>
+  <Row class="d-flex" style="height: 100%">
+    <Row class="d-flex pe-0" style="height:calc(100% - 50px)">
+      <Col class="d-flex pe-0" style="height:100%">
+        <div class="d-flex pe-0 pb-0 code-container">
+          <pre class="code"><code>{json}</code></pre>
+        </div>
+      </Col>
     </Row>
+    <Row class="d-flex pe-0" style="height:50px">
+      <Col class="d-flex justify-content-start align-items-end" style="padding-top: 1rem">
+        <ButtonGroup>
+          <Button size="sm" color="primary" on:click={() => navigator.clipboard.writeText(json)}
+            ><Icon name="clipboard" /> Copy</Button
+          >
+          <Button
+            size="sm"
+            outline
+            color="secondary"
+            on:click={() => download(resourceType + '.json', json)}
+            ><Icon name="download" /> Download</Button
+          >
+        </ButtonGroup>
+      </Col>
+    </Row>
+  </Row>
 </Offcanvas>
 
 {#if showInfo}
   <Row class="text-info">{infoMessage}</Row>
 {/if}
+<!-- Render Patient first, then Composition, then sections per https://www.hl7.org/fhir/R4/documents.html-->
+{#if ipsContent.Patient}
+  <Row class="mx-0">
+    <Accordion class="mt-3">
+      <AccordionItem active class="ips-section">
+        <h6 slot="header" class="my-2">Patient</h6>
+        {#if mode === 'text'}
+          {#if ipsContent.Patient.entries && typeof ipsContent.Patient.entries[0]?.text?.div === 'string' && ipsContent.Patient.entries[0].text.div.trim() !== ''}
+            {@html ipsContent.Patient.entries[0].text.div}
+          {:else}
+            <span class="text-muted">No patient narrative available.</span>
+          {/if}
+        {:else}
+          <Card style="width: 100%; max-width: 100%" class="mb-2">
+            <CardBody>
+              <Row style="overflow:hidden" class="d-flex justify-content-end align-content-center">
+                <Col class="flex-grow-1" style="overflow:hidden">
+                  <svelte:component
+                    this={components['Patient']}
+                    content={{ resource: ipsContent.Patient.entries[0] }}
+                  />
+                </Col>
+                <Col
+                  class="d-flex flex-row-reverse justify-content-end align-items-start"
+                  style="max-width: max-content"
+                >
+                  <Button size="sm" color="secondary" outline on:click={() => setJson(ipsContent.Patient.entries[0])}>
+                    View
+                  </Button>
+                </Col>
+              </Row>
+            </CardBody>
+          </Card>
+        {/if}
+      </AccordionItem>
+    </Accordion>
+  </Row>
+{/if}
+{#if mode === 'text' && typeof compositionTextDiv === 'string' && compositionTextDiv.trim() !== ''}
+  <Row class="mx-0">
+    <Accordion class="mt-3">
+      <AccordionItem active class="ips-section">
+        <h6 slot="header" class="my-2">
+          Composition (Content from Composition.text, which may repeat or summarize
+          information displayed in individual sections further below.)
+        </h6>
+        {@html compositionTextDiv}
+      </AccordionItem>
+    </Accordion>
+  </Row>
+{/if}
 {#each Object.entries(ipsContent) as [title, sectionContent]}
-<Row class="mx-0">
-  <!--wrap in accordion with title-->
-  <Accordion class="mt-3">
-    <AccordionItem active class="ips-section">
-      <h6 slot="header" class="my-2">{title}</h6>
-      {#if sectionContent.useText || mode === "text"}
-        {@html sectionContent.section.text?.div}
-      {:else}
-        <Card style="width: 100%; max-width: 100%" class="mb-2">
-            {#each sectionContent.entries as resource, index}
-              <CardBody class={index > 0 ? "border-top" : ""}>
-                <Row style="overflow:hidden" class="d-flex justify-content-end align-content-center">
-                  <Col class="flex-grow-1" style="overflow:hidden">
-                    {#if mode === "app" && resource.resourceType in components}
-                      <svelte:component
-                        this={components[resource.resourceType]}
-                        content={{resource: resource, entries: bundle.entry}}
-                      />
-                    {:else}
-                      {#if mode === "app"}
-                        {showInfoMessage(`Unsupported sections displayed using composition narratives`)};
+  {#if title !== 'Patient'}
+    <Row class="mx-0">
+      <!--wrap in accordion with title-->
+      <Accordion class="mt-3">
+        <AccordionItem active class="ips-section">
+          <h6 slot="header" class="my-2">{title}</h6>
+          {#if sectionContent.useText || mode === 'text'}
+            {@html sectionContent.section.text?.div}
+          {:else}
+            <Card style="width: 100%; max-width: 100%" class="mb-2">
+              {#each sectionContent.entries as resource, index}
+                <CardBody class={index > 0 ? 'border-top' : ''}>
+                  <Row
+                    style="overflow:hidden"
+                    class="d-flex justify-content-end align-content-center"
+                  >
+                    <Col class="flex-grow-1" style="overflow:hidden">
+                      {#if mode === 'app' && resource.resourceType in components}
+                        <svelte:component
+                          this={components[resource.resourceType]}
+                          content={{ resource: resource, entries: bundle.entry }}
+                        />
+                      {:else if mode === 'app'}
+                        {showInfoMessage(
+                          `Unsupported sections displayed using composition narratives`
+                        )};
                       {/if}
-                    {/if}
-                  </Col>
-                  <Col class="d-flex flex-row-reverse justify-content-end align-items-start" style="max-width: max-content">
-                    <Button
+                    </Col>
+                    <Col
+                      class="d-flex flex-row-reverse justify-content-end align-items-start"
+                      style="max-width: max-content"
+                    >
+                      <Button
                         size="sm"
                         color="secondary"
                         outline
                         on:click={() => setJson(resource)}
-                    >
-                      View
-                    </Button>
-                  </Col>
-                </Row>
-              </CardBody>
-            {/each}
-          </Card>
-        {/if}
-    </AccordionItem>
-  </Accordion>
-</Row>
+                      >
+                        View
+                      </Button>
+                    </Col>
+                  </Row>
+                </CardBody>
+              {/each}
+            </Card>
+          {/if}
+        </AccordionItem>
+      </Accordion>
+    </Row>
+  {/if}
 {/each}
 
 <style>
@@ -284,7 +348,7 @@
     background-color: #e7f1ff;
     border: 1px solid lightgray;
   }
-  
+
   /* Sticky table header */
   :global(.ips-section th) {
     background: #0c63e4;
@@ -304,17 +368,17 @@
   }
 
   .code {
-        overflow:auto;
-        margin: 0;
-        padding: 10px;
-    }
-    .code-container {
-        background-color: #f5f5f5;
-        border-radius: 10px;
-        border: 1px solid rgb(200, 200, 200);
-        overflow: hidden;
-    }
-    :global(div.offcanvas-body) {
-        overflow-y: hidden !important;
-    }
+    overflow: auto;
+    margin: 0;
+    padding: 10px;
+  }
+  .code-container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    overflow: hidden;
+  }
+  :global(div.offcanvas-body) {
+    overflow-y: hidden !important;
+  }
 </style>
