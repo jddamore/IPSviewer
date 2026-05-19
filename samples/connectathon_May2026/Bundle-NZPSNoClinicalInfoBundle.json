@@ -1,0 +1,487 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "NZPSNoClinicalInfoBundle",
+  "meta" : {
+    "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-bundle"]
+  },
+  "identifier" : {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:8f718d0c-2b2d-4bc8-8f28-1fc4aa419501"
+  },
+  "type" : "document",
+  "timestamp" : "2026-04-09T10:15:00+12:00",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:9078ff0b-2ff0-4d38-aa30-cf96d1d2d2ab",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "NZPSNoClinicalInfoComposition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-composition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_NZPSNoClinicalInfoComposition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition NZPSNoClinicalInfoComposition</b></p><a name=\"NZPSNoClinicalInfoComposition\"> </a><a name=\"hcNZPSNoClinicalInfoComposition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-composition.html\">NZPS-Composition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 60591-5}\">Patient summary Document</span></p><p><b>date</b>: 2026-04-09 10:15:00+1200</p><p><b>author</b>: <a href=\"Bundle-NZPSNoClinicalInfoBundle.html#Practitioner_NZPSNoClinicalInfoPractitioner\">Bundle: identifier = UUID:8f718d0c-2b2d-4bc8-8f28-1fc4aa419501; type = document; timestamp = 2026-04-09 10:15:00+1200</a></p><p><b>title</b>: New Zealand Patient Summary</p><p><b>custodian</b>: <a href=\"Bundle-NZPSNoClinicalInfoBundle.html#Organization_NZPSNoClinicalInfoOrganization\">Bundle: identifier = UUID:8f718d0c-2b2d-4bc8-8f28-1fc4aa419501; type = document; timestamp = 2026-04-09 10:15:00+1200</a></p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "60591-5",
+          "display" : "Patient summary Document"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/NZPSNoClinicalInfoPatient"
+      },
+      "date" : "2026-04-09T10:15:00+12:00",
+      "author" : [{
+        "reference" : "Practitioner/NZPSNoClinicalInfoPractitioner"
+      }],
+      "title" : "New Zealand Patient Summary",
+      "custodian" : {
+        "reference" : "Organization/NZPSNoClinicalInfoOrganization"
+      },
+      "section" : [{
+        "title" : "Medications",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "10160-0",
+            "display" : "History of medication use Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No known current medicines.</div>"
+        },
+        "entry" : [{
+          "reference" : "MedicationStatement/NZPSNoKnownMedicationStatement"
+        }]
+      },
+      {
+        "title" : "Allergies and Intolerances",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "48765-2",
+            "display" : "Allergies and adverse reactions Document"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No known allergies.</div>"
+        },
+        "entry" : [{
+          "reference" : "AllergyIntolerance/NZPSNoKnownAllergy"
+        }]
+      },
+      {
+        "title" : "Problems",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11450-4",
+            "display" : "Problem list Reported"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No known current problems or disability.</div>"
+        },
+        "entry" : [{
+          "reference" : "Condition/NZPSNoKnownProblem"
+        }]
+      },
+      {
+        "title" : "Immunizations",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11369-6",
+            "display" : "History of immunizations"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No immunization history is known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      },
+      {
+        "title" : "Results",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "30954-2",
+            "display" : "Relevant diagnostic tests and/or laboratory data"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No diagnostic results are known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      },
+      {
+        "title" : "Vital Signs",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8716-3",
+            "display" : "Vital signs"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No vital signs are known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      },
+      {
+        "title" : "Past Problems",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11348-0",
+            "display" : "History of past illness Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No past problems are known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      },
+      {
+        "title" : "Functional Status",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "47420-5"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status has not been recorded for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "notasked",
+            "display" : "Not Asked"
+          }]
+        }
+      },
+      {
+        "title" : "Patient Story",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "81338-6",
+            "display" : "Patient story"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No patient story has been recorded for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "notasked",
+            "display" : "Not Asked"
+          }]
+        }
+      },
+      {
+        "title" : "Plan of Care",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "18776-5",
+            "display" : "Plan of care note"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No active plan of care is known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      },
+      {
+        "title" : "Social History",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "29762-2",
+            "display" : "Social history Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Social history has not been recorded for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "notasked",
+            "display" : "Not Asked"
+          }]
+        }
+      },
+      {
+        "title" : "Advance Directives",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "42348-3",
+            "display" : "Advance directives"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No advance directives are known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "notasked",
+            "display" : "Not Asked"
+          }]
+        }
+      },
+      {
+        "title" : "Encounters",
+        "code" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+            "code" : "ENC",
+            "display" : "encounter"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No recent encounters are known for this example patient.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6b58fcac-f2ff-4c11-9609-ec92265e6496",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "NZPSNoClinicalInfoPatient",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-patient"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_NZPSNoClinicalInfoPatient\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient NZPSNoClinicalInfoPatient</b></p><a name=\"NZPSNoClinicalInfoPatient\"> </a><a name=\"hcNZPSNoClinicalInfoPatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-patient.html\">NZPS-Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Ariana Ngata (official) Female, DoB: 1989-07-14 ( https://standards.digital.health.nz/ns/nhi-id#NHI#ZMC3491\u00a0(use:\u00a0official,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+64215550184\">+64 21 555 0184</a></li><li><a href=\"mailto:ariana.ngata@example.nz\">ariana.ngata@example.nz</a></li><li>24 Kowhai Street Rotorua 3010 NZ (home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The ethnic group or groups that a person identifies with or feels they belong to.  Ethnicity is a measure of cultural affiliation as opposed to race, ancestry, nationality or citizen.  Ethnicity is self-perceived and a person can belong to more than one group.\n\nThe Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17).\"><a href=\"http://fhir.org.nz/ig/base/StructureDefinition-nz-ethnicity.html\">NZ Ethnicity</a></td><td colspan=\"3\"><span title=\"Codes:{https://standards.digital.health.nz/ns/nz-ethnic-group-codes 21111}\">Maori</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+            "code" : "21111",
+            "display" : "Maori"
+          }]
+        }
+      }],
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://standards.digital.health.nz/ns/nhi-id",
+        "value" : "ZMC3491"
+      }],
+      "active" : true,
+      "name" : [{
+        "use" : "official",
+        "family" : "Ngata",
+        "given" : ["Ariana"]
+      }],
+      "telecom" : [{
+        "system" : "phone",
+        "value" : "+64 21 555 0184",
+        "use" : "mobile"
+      },
+      {
+        "system" : "email",
+        "value" : "ariana.ngata@example.nz"
+      }],
+      "gender" : "female",
+      "birthDate" : "1989-07-14",
+      "address" : [{
+        "use" : "home",
+        "type" : "physical",
+        "line" : ["24 Kowhai Street"],
+        "city" : "Rotorua",
+        "postalCode" : "3010",
+        "country" : "NZ"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:29ea7d2c-0bb6-45c5-8b78-dd0e32b716fd",
+    "resource" : {
+      "resourceType" : "Practitioner",
+      "id" : "NZPSNoClinicalInfoPractitioner",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-ppractitioner"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_NZPSNoClinicalInfoPractitioner\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner NZPSNoClinicalInfoPractitioner</b></p><a name=\"NZPSNoClinicalInfoPractitioner\"> </a><a name=\"hcNZPSNoClinicalInfoPractitioner\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-ppractitioner.html\">NZPS-Practitioner</a></p></div><p><b>active</b>: true</p><p><b>name</b>: Hana Wilson </p></div>"
+      },
+      "active" : true,
+      "name" : [{
+        "family" : "Wilson",
+        "given" : ["Hana"]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:53fcfe4b-c917-4d59-a245-269ba916d3aa",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "NZPSNoClinicalInfoOrganization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/NZPS-organization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_NZPSNoClinicalInfoOrganization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization NZPSNoClinicalInfoOrganization</b></p><a name=\"NZPSNoClinicalInfoOrganization\"> </a><a name=\"hcNZPSNoClinicalInfoOrganization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NZPS-organization.html\">NZPS-Organization</a></p></div><p><b>active</b>: true</p><p><b>name</b>: Lakes Community Health Centre</p></div>"
+      },
+      "active" : true,
+      "name" : "Lakes Community Health Centre"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:3d629d2a-8187-4e3d-bbef-1d885eb89a9d",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "NZPSNoKnownProblem",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_NZPSNoKnownProblem\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition NZPSNoKnownProblem</b></p><a name=\"NZPSNoKnownProblem\"> </a><a name=\"hcNZPSNoKnownProblem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:\">No known current problems or disability</span></p><p><b>subject</b>: <a href=\"Bundle-NZPSNoClinicalInfoBundle.html#Patient_NZPSNoClinicalInfoPatient\">Bundle: identifier = UUID:8f718d0c-2b2d-4bc8-8f28-1fc4aa419501; type = document; timestamp = 2026-04-09 10:15:00+1200</a></p><p><b>recordedDate</b>: 2026-04-09 10:15:00+1200</p></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "code" : {
+        "text" : "No known current problems or disability"
+      },
+      "subject" : {
+        "reference" : "Patient/NZPSNoClinicalInfoPatient"
+      },
+      "recordedDate" : "2026-04-09T10:15:00+12:00"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6ae9df95-c5dd-4cca-a1f4-95ca3ddca0b1",
+    "resource" : {
+      "resourceType" : "AllergyIntolerance",
+      "id" : "NZPSNoKnownAllergy",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-allergyintolerance"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AllergyIntolerance_NZPSNoKnownAllergy\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AllergyIntolerance NZPSNoKnownAllergy</b></p><a name=\"NZPSNoKnownAllergy\"> </a><a name=\"hcNZPSNoKnownAllergy\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-allergyintolerance.html\">NZPS-AllergyIntolerance</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>code</b>: <span title=\"Codes:\">No known allergies</span></p><p><b>patient</b>: <a href=\"Bundle-NZPSNoClinicalInfoBundle.html#Patient_NZPSNoClinicalInfoPatient\">Bundle: identifier = UUID:8f718d0c-2b2d-4bc8-8f28-1fc4aa419501; type = document; timestamp = 2026-04-09 10:15:00+1200</a></p><p><b>recordedDate</b>: 2026-04-09 10:15:00+1200</p></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "code" : {
+        "text" : "No known allergies"
+      },
+      "patient" : {
+        "reference" : "Patient/NZPSNoClinicalInfoPatient"
+      },
+      "recordedDate" : "2026-04-09T10:15:00+12:00"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:f6230cd3-c0cc-4b98-b38e-1d1e2827e86c",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "NZPSNoKnownMedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_NZPSNoKnownMedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement NZPSNoKnownMedicationStatement</b></p><a name=\"NZPSNoKnownMedicationStatement\"> </a><a name=\"hcNZPSNoKnownMedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:\">No known current medications</span></p><p><b>subject</b>: <a href=\"Bundle-NZPSNoClinicalInfoBundle.html#Patient_NZPSNoClinicalInfoPatient\">Bundle: identifier = UUID:8f718d0c-2b2d-4bc8-8f28-1fc4aa419501; type = document; timestamp = 2026-04-09 10:15:00+1200</a></p><p><b>effective</b>: 2026-04-09 10:15:00+1200</p></div>"
+      },
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "text" : "No known current medications"
+      },
+      "subject" : {
+        "reference" : "Patient/NZPSNoClinicalInfoPatient"
+      },
+      "effectiveDateTime" : "2026-04-09T10:15:00+12:00"
+    }
+  }]
+}
