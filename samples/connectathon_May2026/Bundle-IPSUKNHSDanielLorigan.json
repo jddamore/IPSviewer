@@ -1,0 +1,1521 @@
+{
+  "resourceType": "Bundle",
+  "id": "39277b11-fe44-4af2-9cd8-3bb6690ab750",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-05-15T02:15:58.181+00:00",
+    "source": "#7k5gqawDhpohnuwA",
+    "profile": [
+      "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "0f4ced40-feb1-4a15-b703-f810429b865b"
+  },
+  "type": "document",
+  "timestamp": "2026-05-15T02:14:58.876+00:00",
+  "total": 19,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f6584326-bad5-4eaf-996c-67e568e41fe0",
+      "resource": {
+        "resourceType": "Composition",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch1\u003EInternational Patient Summary Document\u003C/h1\u003E\u003C/div\u003E"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient Summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "date": "2026-05-15T02:14:58.587+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:738d4fe8-3b84-4c56-9f6f-04f988ccd04f"
+          }
+        ],
+        "title": "Patient Summary as of 05/15/2026",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EAllergies And Intolerances\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EAllergen\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ECategory\u003C/th\u003E\u003Cth\u003EReaction\u003C/th\u003E\u003Cth\u003ESeverity\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EOnset\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"AllergyIntolerance-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/5cda3f42-d00a-4c96-81b1-5243b205cb2e/_history/1\"\u003E\u003Ctd\u003E Substance with penicillin structure and antibacterial mechanism of action (substance) \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd\u003E MEDICATION \u003C/td\u003E\u003Ctd\u003E Vomiting \u003C/td\u003E\u003Ctd\u003E severe \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 1963-07-27T12:00:00+01:00 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"AllergyIntolerance-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/e89b3527-f3b0-40a9-9e4d-62ee5ada0614/_history/1\"\u003E\u003Ctd\u003E Sesame oil (substance) \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd\u003E ENVIRONMENT \u003C/td\u003E\u003Ctd\u003E Difficulty breathing \u003C/td\u003E\u003Ctd\u003E severe \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 1963-07-27T12:00:00+01:00 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/5cda3f42-d00a-4c96-81b1-5243b205cb2e"
+              },
+              {
+                "reference": "AllergyIntolerance/e89b3527-f3b0-40a9-9e4d-62ee5ada0614"
+              }
+            ]
+          },
+          {
+            "title": "Medication List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EMedication Summary: Medication Requests\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedication\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ERoute\u003C/th\u003E\u003Cth\u003ESig\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EAuthored Date\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"MedicationRequest-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationRequest/60479489-1cd5-4735-ac74-6146b6194b9a/_history/1\"\u003E\u003Ctd\u003E Sertraline 100mg tablets \u003Cbr/\u003E Sertraline 100mg tablets \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 1 tablet once a day \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2017-11-10T00:00:00+00:00 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"MedicationRequest-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationRequest/60ecc107-a965-4fae-b7f6-fe99e4804880/_history/1\"\u003E\u003Ctd\u003E Metformin 2G Modified-Release tablets \u003Cbr/\u003E Metformin 1g modified release tablets \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2 tablets a day \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2017-11-22T00:00:00+00:00 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003Ch5\u003EMedication Summary: Medication Statements\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedication\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ERoute\u003C/th\u003E\u003Cth\u003ESig\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"MedicationStatement-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/9d36c932-ddd1-4691-926f-53cd7218a3cb/_history/1\"\u003E\u003Ctd\u003E Metformin 2G Modified-Release tablets \u003Cbr/\u003E Metformin 1g modified release tablets \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2 tablets a day \u003C/td\u003E\u003Ctd\u003E 2017-11-22T00:00:00+00:00 - 2018-09-26T00:00:00+01:00 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"MedicationStatement-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/141cd8fe-da9f-44d6-bc94-08cb60093375/_history/1\"\u003E\u003Ctd\u003E Sertraline 100mg tablets \u003Cbr/\u003E Sertraline 100mg tablets \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 1 tablet once a day \u003C/td\u003E\u003Ctd\u003E 2017-11-10T00:00:00+00:00 - 2018-09-14T00:00:00+01:00 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/9d36c932-ddd1-4691-926f-53cd7218a3cb"
+              },
+              {
+                "reference": "MedicationStatement/141cd8fe-da9f-44d6-bc94-08cb60093375"
+              },
+              {
+                "reference": "MedicationRequest/60479489-1cd5-4735-ac74-6146b6194b9a"
+              },
+              {
+                "reference": "MedicationRequest/60ecc107-a965-4fae-b7f6-fe99e4804880"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EProblem List\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedical Problems\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EOnset Date\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/a7c4495a-07b2-4fcc-9ec5-bc4099202cd7/_history/1\"\u003E\u003Ctd\u003E Upper respiratory infection \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2019-03-28T10:30:00+00:00 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/bcdc9d26-d526-41ce-bb01-e79bf87ad179/_history/1\"\u003E\u003Ctd\u003E Postviral cough \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2019-03-28T10:30:00+00:00 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/03ec7dbe-1fa1-483f-b926-22c7b167c0a5/_history/1\"\u003E\u003Ctd\u003E Swollen legs \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd\u003E due to obesity and poor mobility and previous DVT \u003C/td\u003E\u003Ctd\u003E 2019-03-28T10:30:00+00:00 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/e99e80b5-ca95-4a1c-b84b-0297a9fe7172/_history/1\"\u003E\u003Ctd\u003E Anxiety with depression \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2019-03-28T10:30:00+00:00 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Condition/a7c4495a-07b2-4fcc-9ec5-bc4099202cd7"
+              },
+              {
+                "reference": "Condition/bcdc9d26-d526-41ce-bb01-e79bf87ad179"
+              },
+              {
+                "reference": "Condition/03ec7dbe-1fa1-483f-b926-22c7b167c0a5"
+              },
+              {
+                "reference": "Condition/e99e80b5-ca95-4a1c-b84b-0297a9fe7172"
+              }
+            ]
+          },
+          {
+            "title": "Social History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003ESocial History\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EUnit\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/ea00c47f-f135-45c9-a2f9-0a2cc39c120f/_history/1\"\u003E\u003Ctd\u003E History of employment status NIOSH \u003C/td\u003E\u003Ctd\u003E Employed \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2026-02-10 - \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/92b677b3-057f-47b5-bed9-08b70e65ac7a/_history/1\"\u003E\u003Ctd\u003E History of Occupation \u003C/td\u003E\u003Ctd\u003E Teachers and Instructors, All Other \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2026-02-10 - \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/e36c231e-7382-4f03-8438-57e2f3f05e79/_history/1\"\u003E\u003Ctd\u003E History of Occupation \u003C/td\u003E\u003Ctd\u003E Childcare Workers \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2026-02-10 - 2026-02-28 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/4244044a-b45a-40db-9dbd-89f299df350f/_history/1\"\u003E\u003Ctd\u003E Date of Retirement \u003C/td\u003E\u003Ctd\u003E Tue Feb 03 00:00:00 GMT 2026 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/ce9287b9-c6f0-460c-9d0a-8776bd893818/_history/1\"\u003E\u003Ctd\u003E Combat zone AndOr hazardous duty work dates \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/ea00c47f-f135-45c9-a2f9-0a2cc39c120f"
+              },
+              {
+                "reference": "Observation/92b677b3-057f-47b5-bed9-08b70e65ac7a"
+              },
+              {
+                "reference": "Observation/e36c231e-7382-4f03-8438-57e2f3f05e79"
+              },
+              {
+                "reference": "Observation/4244044a-b45a-40db-9dbd-89f299df350f"
+              },
+              {
+                "reference": "Observation/ce9287b9-c6f0-460c-9d0a-8776bd893818"
+              }
+            ]
+          },
+          {
+            "title": "Advance Directives",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "42348-3",
+                  "display": "Advance Directives"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EAdvance Directives\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EScope\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EAction Controlled\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody/\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "DocumentReference/b823a017-78e1-48a0-a782-984d22b2fb08"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://healthintersections.com.au/fhir/StructureDefinition/patient-story",
+                "valueString": "I am a healthy person and would like to stay that way."
+              }
+            ],
+            "title": "Patient Story",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "Patient Story"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\n      \n      \u003Cp\u003EI am a healthy person and would like to stay that way.\u003C/p\u003E\n      \u003Cp\u003E\u003Cstrong\u003EPatient's Goals\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003EGo for a walk every day\u003C/li\u003E\u003Cli\u003EGet my A1C below a 6.0\u003C/li\u003E\u003C/ul\u003E\n    \u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Goal/8e97ce34-168b-4f26-97ec-6076522d2c25"
+              },
+              {
+                "reference": "Goal/5011a284-f6f1-44f3-a7cd-dbc99748cf70"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Patient/c69d1092-8579-4aef-abcc-1e4161404759",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c69d1092-8579-4aef-abcc-1e4161404759",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0006",
+                  "code": "CHR",
+                  "display": "Christian"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://healthintersections.com.au/fhir/StructureDefinition/patient-cultural-background",
+            "valueString": "American"
+          },
+          {
+            "url": "http://hl7.org.au/fhir/StructureDefinition/community-affiliation",
+            "valueString": "Seattle, WA"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/individual-pronouns",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "LA29518-0",
+                  "display": "he/him/his/his/himself"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.au/fhir/StructureDefinition/sex-characteristic-variation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.abs.gov.au/ausstats/XXXX",
+                  "code": "2",
+                  "display": "No"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Lorigan",
+            "given": [
+              "Daniel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "dlorigan@uw.edu"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1970-01-01",
+        "communication": [
+          {
+            "language": {
+              "text": "English"
+            },
+            "preferred": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/5cda3f42-d00a-4c96-81b1-5243b205cb2e",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "5cda3f42-d00a-4c96-81b1-5243b205cb2e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+            "value": "2c46cb08-0868-11ec-b907-00505692d4bb"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "373270004",
+              "display": "Substance with penicillin structure and antibacterial mechanism of action (substance)"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "onsetDateTime": "1963-07-27T12:00:00+01:00",
+        "recordedDate": "1963-07-27T12:00:00+01:00",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "422400008",
+                    "display": "Vomiting"
+                  }
+                ]
+              }
+            ],
+            "severity": "severe"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/e89b3527-f3b0-40a9-9e4d-62ee5ada0614",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "e89b3527-f3b0-40a9-9e4d-62ee5ada0614",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+            "value": "2c46cb08-0868-11ec-b907-00505692d4aa"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "89707004",
+              "display": "Sesame oil (substance)"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "onsetDateTime": "1963-07-27T12:00:00+01:00",
+        "recordedDate": "1963-07-27T12:00:00+01:00",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "230145002",
+                    "display": "Difficulty breathing"
+                  }
+                ]
+              }
+            ],
+            "severity": "severe"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/9d36c932-ddd1-4691-926f-53cd7218a3cb",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "9d36c932-ddd1-4691-926f-53cd7218a3cb",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+            "value": "2c473389-0868-11ec-b907-00505692d4aa"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "MedicationRequest/60ecc107-a965-4fae-b7f6-fe99e4804880"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/292a937a-68d4-44c3-bed7-f71901d72761"
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "effectivePeriod": {
+          "start": "2017-11-22T00:00:00+00:00",
+          "end": "2018-09-26T00:00:00+01:00"
+        },
+        "dateAsserted": "2017-11-22T00:00:00+00:00",
+        "dosage": [
+          {
+            "text": "2 tablets a day",
+            "patientInstruction": "With evening meal"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/141cd8fe-da9f-44d6-bc94-08cb60093375",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "141cd8fe-da9f-44d6-bc94-08cb60093375",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+            "value": "2c472eff-0868-11ec-b907-00505692d4aa"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "MedicationRequest/60479489-1cd5-4735-ac74-6146b6194b9a"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/e1d1c3ce-b2f7-4b11-a8b3-a78ad1734d82"
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "effectivePeriod": {
+          "start": "2017-11-10T00:00:00+00:00",
+          "end": "2018-09-14T00:00:00+01:00"
+        },
+        "dateAsserted": "2017-11-10T00:00:00+00:00",
+        "dosage": [
+          {
+            "text": "1 tablet once a day",
+            "patientInstruction": "Take in the morning"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Medication/292a937a-68d4-44c3-bed7-f71901d72761",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "292a937a-68d4-44c3-bed7-f71901d72761",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "411533003",
+              "display": "Metformin 2G Modified-Release tablets"
+            },
+            {
+              "system": "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
+              "code": "16967001",
+              "display": "Metformin 1g modified release tablets",
+              "userSelected": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Medication/e1d1c3ce-b2f7-4b11-a8b3-a78ad1734d82",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "e1d1c3ce-b2f7-4b11-a8b3-a78ad1734d82",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "9751511000001104",
+              "display": "Sertraline 100mg tablets"
+            },
+            {
+              "system": "https://fhir.hl7.org.uk/Id/multilex-drug-codes",
+              "code": "06157009",
+              "display": "Sertraline 100mg tablets",
+              "userSelected": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationRequest/60479489-1cd5-4735-ac74-6146b6194b9a",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "60479489-1cd5-4735-ac74-6146b6194b9a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+            "value": "2c46edd5-0868-11ec-b907-00505692d4aa"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "medicationReference": {
+          "reference": "Medication/e1d1c3ce-b2f7-4b11-a8b3-a78ad1734d82"
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "authoredOn": "2017-11-10T00:00:00+00:00",
+        "groupIdentifier": {
+          "value": "M-3"
+        },
+        "dosageInstruction": [
+          {
+            "text": "1 tablet once a day",
+            "patientInstruction": "Take in morning"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationRequest/60ecc107-a965-4fae-b7f6-fe99e4804880",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "60ecc107-a965-4fae-b7f6-fe99e4804880",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+            "value": "2c46f699-0868-11ec-b907-00505692d4aa"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "medicationReference": {
+          "reference": "Medication/292a937a-68d4-44c3-bed7-f71901d72761"
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "authoredOn": "2017-11-22T00:00:00+00:00",
+        "groupIdentifier": {
+          "value": "M-2a"
+        },
+        "dosageInstruction": [
+          {
+            "text": "2 tablets a day",
+            "patientInstruction": "With evening meal"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/a7c4495a-07b2-4fcc-9ec5-bc4099202cd7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a7c4495a-07b2-4fcc-9ec5-bc4099202cd7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://provider.nhs.uk/data-identifier",
+            "value": "D03A94D9-4D1C-11E3-A2DD-010000000161"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "extension": [
+                {
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "DescriptionID",
+                      "valueId": "1231298013"
+                    },
+                    {
+                      "url": "DescriptionDisplay",
+                      "valueString": "Upper respiratory tract infection"
+                    }
+                  ]
+                }
+              ],
+              "system": "http://snomed.info/sct",
+              "code": "54150009",
+              "display": "Upper respiratory infection"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "onsetDateTime": "2019-03-28T10:30:00+00:00",
+        "recordedDate": "2019-03-28T10:30:00+00:00"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/bcdc9d26-d526-41ce-bb01-e79bf87ad179",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bcdc9d26-d526-41ce-bb01-e79bf87ad179",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://provider.nhs.uk/data-identifier",
+            "value": "CFE8F260-4D1C-11E3-9E6B-010000001205"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "445241004",
+              "display": "Postviral cough"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "onsetDateTime": "2019-03-28T10:30:00+00:00",
+        "recordedDate": "2019-03-28T10:30:00+00:00"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/03ec7dbe-1fa1-483f-b926-22c7b167c0a5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "03ec7dbe-1fa1-483f-b926-22c7b167c0a5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://provider.nhs.uk/data-identifier",
+            "value": "62658072-28af-47e5-b81c-bc0521d5c41c"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "449614009",
+              "display": "Swelling of lower limb"
+            }
+          ],
+          "text": "Swollen legs"
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "onsetDateTime": "2019-03-28T10:30:00+00:00",
+        "recordedDate": "2019-03-28T10:30:00+00:00",
+        "note": [
+          {
+            "text": "due to obesity and poor mobility and previous DVT"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/e99e80b5-ca95-4a1c-b84b-0297a9fe7172",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e99e80b5-ca95-4a1c-b84b-0297a9fe7172",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://provider.nhs.uk/data-identifier",
+            "value": "D06C0517-4D1C-11E3-A2DD-010000000161"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "extension": [
+                {
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "DescriptionID",
+                      "valueId": "346979010"
+                    }
+                  ]
+                }
+              ],
+              "system": "http://snomed.info/sct",
+              "code": "231504006",
+              "display": "Mixed anxiety and depressive disorder"
+            }
+          ],
+          "text": "Anxiety with depression"
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "onsetDateTime": "2019-03-28T10:30:00+00:00",
+        "recordedDate": "2019-03-28T10:30:00+00:00"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/ea00c47f-f135-45c9-a2f9-0a2cc39c120f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ea00c47f-f135-45c9-a2f9-0a2cc39c120f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-EmploymentStatus"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74165-2",
+              "display": "History of employment status NIOSH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "effectivePeriod": {
+          "start": "2026-02-10"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+              "code": "Employed",
+              "display": "Employed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/92b677b3-057f-47b5-bed9-08b70e65ac7a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "92b677b3-057f-47b5-bed9-08b70e65ac7a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/odh/StructureDefinition/odh-isCurrentJob-extension",
+            "valueBoolean": true
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11341-5",
+              "display": "History of Occupation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "effectivePeriod": {
+          "start": "2026-02-10"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+              "code": "25-3099",
+              "display": "Teachers and Instructors, All Other"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "86188-0",
+                  "display": "History of Occupation Industry"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHIndustryCDCCensus2010.html",
+                  "code": "611110",
+                  "display": "Elementary and Secondary Schools"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/e36c231e-7382-4f03-8438-57e2f3f05e79",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e36c231e-7382-4f03-8438-57e2f3f05e79",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/odh/StructureDefinition/odh-isCurrentJob-extension",
+            "valueBoolean": false
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11341-5",
+              "display": "History of Occupation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "effectivePeriod": {
+          "start": "2026-02-10",
+          "end": "2026-02-28"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+              "code": "39-9011",
+              "display": "Childcare Workers"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "86188-0",
+                  "display": "History of Occupation Industry"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHIndustryCDCCensus2010.html",
+                  "code": "624410",
+                  "display": "Child Day Care Services"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/4244044a-b45a-40db-9dbd-89f299df350f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4244044a-b45a-40db-9dbd-89f299df350f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-RetirementDate"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "87510-4",
+              "display": "Date of Retirement"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "valueDateTime": "2026-02-03"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/ce9287b9-c6f0-460c-9d0a-8776bd893818",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ce9287b9-c6f0-460c-9d0a-8776bd893818",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:14:58.263+00:00",
+          "source": "#ANU4wQvdMwYNP74h",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-CombatZonePeriod"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "87511-2",
+              "display": "Combat zone AndOr hazardous duty work dates"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c69d1092-8579-4aef-abcc-1e4161404759"
+        },
+        "valuePeriod": {
+          "start": "2026-02-11",
+          "end": "2026-02-13"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DocumentReference/b823a017-78e1-48a0-a782-984d22b2fb08",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "b823a017-78e1-48a0-a782-984d22b2fb08",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-04-20T23:25:00.779+00:00",
+          "source": "#tbKx0hEboFP0l5pO",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber",
+            "valueString": "1720981601"
+          }
+        ],
+        "masterIdentifier": {
+          "system": "https://mydirectives.com/standards/terminology/namingSystem/clinicalDocumentId",
+          "value": "2.16.840.1.113883.15.15.100.1:5412-87f37989294a408897aacd1fc5d8fd16-1720981601"
+        },
+        "identifier": [
+          {
+            "system": "https://mydirectives.com/standards/terminology/namingSystem/setId",
+            "value": "2.16.840.1.113883.15.15.200.1:5412-87f37989294a408897aacd1fc5d8fd16"
+          }
+        ],
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "100821-8",
+              "display": "National POLST form: portable medical order panel"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "42348-3",
+                "display": "Advance Healthcare Directive"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/6fc01ce8-ed40-45a0-9197-a1bce8724d2d",
+          "display": "Wilson, Cynthia"
+        },
+        "date": "2024-09-22T16:30:45.080+00:00",
+        "author": [
+          {
+            "reference": "Practitioner/61a19d14-e7bf-4bf4-abcd-7f0126a85769",
+            "display": "Chu, Anita"
+          }
+        ],
+        "authenticator": {
+          "reference": "Organization/8749f296-24f5-43c8-9183-8182e840eaa7"
+        },
+        "custodian": {
+          "reference": "Organization/18515bb3-bb1f-46b0-b98a-468e6181827e"
+        },
+        "relatesTo": [
+          {
+            "code": "replaces",
+            "target": {
+              "reference": "DocumentReference/0fc1d47e-fad2-474b-94af-c20615bb4a15"
+            }
+          }
+        ],
+        "description": "National ePOLST Form: A Portable Medical Order - Version 1",
+        "securityLabel": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/Confidentiality",
+                "code": "N",
+                "display": "normal"
+              }
+            ]
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/cda+xml",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Binary/2d4e9d80-7c19-4c63-a58a-93138b4b3ac1",
+              "creation": "2024-07-14T19:26:41+00:00"
+            },
+            "format": {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+              "code": "urn:hl7-org:sdwg:epolst-structuredBody:1.1",
+              "display": "ePOLST Structured CDA Document"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/pdf",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Binary/0dfc0e10-9004-4687-b8a8-5ff01ea9cbb1",
+              "creation": "2024-07-14T19:26:41+00:00"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/fhir+json",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Binary/95d346de-ba3c-4981-af51-f50a2de2ccd7",
+              "creation": "2024-07-14T19:26:41+00:00"
+            },
+            "format": {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+              "code": "urn:hl7-org:pe:adipmo-structuredBody:1.1",
+              "display": "ADIPMO Structured Body"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/fhir+json",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Bundle/cc56ac11-d2c4-46c0-8835-86cd1feb05ad"
+            },
+            "format": {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+              "code": "urn:hl7-org:pe:adipmo-structuredBody:1.1",
+              "display": "ADIPMO Structured Body Bundle"
+            }
+          },
+          {
+            "attachment": {
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Composition/3bfd84fc-419c-4776-bad7-39ab9e72c8d6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Goal/8e97ce34-168b-4f26-97ec-6076522d2c25",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "8e97ce34-168b-4f26-97ec-6076522d2c25",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T01:59:30.914+00:00",
+          "source": "#4sjhU9KssiZw2aWc",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Cp/\u003E\u003Cp/\u003E\u003C/div\u003E"
+        },
+        "lifecycleStatus": "active",
+        "achievementStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+              "code": "in-progress",
+              "display": "In Progress"
+            }
+          ]
+        },
+        "description": {
+          "text": "Go for a walk every day"
+        },
+        "subject": {
+          "reference": "Patient/6fc01ce8-ed40-45a0-9197-a1bce8724d2d"
+        },
+        "statusDate": "2026-05-15"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Goal/5011a284-f6f1-44f3-a7cd-dbc99748cf70",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "5011a284-f6f1-44f3-a7cd-dbc99748cf70",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T01:59:30.914+00:00",
+          "source": "#4sjhU9KssiZw2aWc",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Cp/\u003E\u003Cp/\u003E\u003C/div\u003E"
+        },
+        "lifecycleStatus": "active",
+        "achievementStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+              "code": "in-progress",
+              "display": "In Progress"
+            }
+          ]
+        },
+        "description": {
+          "text": "Get my A1C below a 6.0"
+        },
+        "subject": {
+          "reference": "Patient/6fc01ce8-ed40-45a0-9197-a1bce8724d2d"
+        },
+        "statusDate": "2026-05-15"
+      }
+    }
+  ]
+}

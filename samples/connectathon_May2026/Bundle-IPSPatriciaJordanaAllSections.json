@@ -1,0 +1,2806 @@
+{
+  "resourceType": "Bundle",
+  "id": "08618900-cf37-404f-b62d-69efe7375ec8",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-05-15T02:22:31.740+00:00",
+    "source": "#Wl8IOH5HY3uYRdrF",
+    "profile": [
+      "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "a1a1926b-b337-4b1d-83f2-98be8d4a5dd4"
+  },
+  "type": "document",
+  "timestamp": "2026-05-15T02:20:37.558+00:00",
+  "total": 38,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:b2c71508-b0c7-4e44-937b-45a6169b2404",
+      "resource": {
+        "resourceType": "Composition",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch1\u003EInternational Patient Summary Document\u003C/h1\u003E\u003C/div\u003E"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient Summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "date": "2026-05-15T02:20:37.178+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:19086d90-5ce9-444d-8609-f27f7bf91aca"
+          }
+        ],
+        "title": "Patient Summary as of 05/15/2026",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EAllergies And Intolerances\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EAllergen\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ECategory\u003C/th\u003E\u003Cth\u003EReaction\u003C/th\u003E\u003Cth\u003ESeverity\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EOnset\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"AllergyIntolerance-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/70d97b2b-3f6f-42b2-bf4f-3dec1ba15f72/_history/1\"\u003E\u003Ctd\u003E Penicillin \u003Cbr/\u003E Penicillins with extended spectrum \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/70d97b2b-3f6f-42b2-bf4f-3dec1ba15f72"
+              }
+            ]
+          },
+          {
+            "title": "Medication List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EMedication Summary: Medication Statements\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedication\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ERoute\u003C/th\u003E\u003Cth\u003ESig\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"MedicationStatement-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/830a1703-6b5b-4dcb-8f31-0f87c94ad09b/_history/1\"\u003E\u003Ctd\u003E lisinopril 5 mg tablet \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd\u003E Swallow, oral \u003C/td\u003E\u003Ctd\u003E Take One tablet once daily \u003C/td\u003E\u003Ctd\u003E 2024-08-13 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"MedicationStatement-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/53e8117f-9891-42dc-a7f3-8d9996e0a5d2/_history/1\"\u003E\u003Ctd\u003E Ultraproct - cinchocaine 0.5% (5 mg/g) + fluocortolone hexanoate 0.095% (945 microgram/g) + fluocortolone pivalate 0.092% (918 microgram/g) ointment \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E apply a small amount to the affected area up to 4 times daily on the first day, then twice daily for at least 1 week; continue for up to a maximum of 4 weeks \u003C/td\u003E\u003Ctd\u003E 2024-08-30 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/830a1703-6b5b-4dcb-8f31-0f87c94ad09b"
+              },
+              {
+                "reference": "MedicationStatement/53e8117f-9891-42dc-a7f3-8d9996e0a5d2"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EProblem List\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedical Problems\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EOnset Date\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/6bab61fb-3714-4bd7-a621-fa1b4ac0f327/_history/1\"\u003E\u003Ctd\u003E Essential hypertension \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2016-05-25 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/efe92e48-ef41-4525-9ded-7702a0483152/_history/1\"\u003E\u003Ctd\u003E Gout \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2016-05-25 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/3860b727-30d9-41b9-89ab-c98ca7ad5925/_history/1\"\u003E\u003Ctd\u003E Impaired Mobility \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2016-05-25 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Condition/6bab61fb-3714-4bd7-a621-fa1b4ac0f327"
+              },
+              {
+                "reference": "Condition/efe92e48-ef41-4525-9ded-7702a0483152"
+              },
+              {
+                "reference": "Condition/3860b727-30d9-41b9-89ab-c98ca7ad5925"
+              }
+            ]
+          },
+          {
+            "title": "History of Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EImmunizations\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EImmunization\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EDose Number\u003C/th\u003E\u003Cth\u003EManufacturer\u003C/th\u003E\u003Cth\u003ELot Number\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/766d668f-5dd5-471f-a357-362ca5d3a1f6/_history/1\"\u003E\u003Ctd\u003E Influenza, split virus, trivalent, preservative \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 1 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EH06\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2024-04-10 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/da3fdc33-07df-482e-ae73-b0d0c01aeb97/_history/1\"\u003E\u003Ctd\u003E COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 5 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EGK3908-068\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2024-02-18 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/dc85eef0-664c-4d83-83be-92904e02032b/_history/1\"\u003E\u003Ctd\u003E Influenza, split virus, trivalent, preservative \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 1 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E358899\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2023-04-12 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/b5b991cf-4aab-42c7-9eb6-4ac708302b7b/_history/1\"\u003E\u003Ctd\u003E COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 4 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EPCB0008-07\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2022-08-01 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/b6be7070-31fa-4b42-92e2-d56899445f3a/_history/1\"\u003E\u003Ctd\u003E zoster live \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 1 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EU021248\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2022-07-13 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/0c7de2c8-9e57-459a-a068-abfde70fff35/_history/1\"\u003E\u003Ctd\u003E COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 3 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EFL1072-025\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2022-01-13 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/f71f91cd-23ed-4f14-9acc-bc13e97ba9c0/_history/1\"\u003E\u003Ctd\u003E COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 2 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EFE8163-007\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2021-08-27 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/3243ab4e-0d65-4dce-8a4f-f753c37d863c/_history/1\"\u003E\u003Ctd\u003E COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd\u003E 1 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EFF8871-001\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2021-08-05 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Immunization/766d668f-5dd5-471f-a357-362ca5d3a1f6"
+              },
+              {
+                "reference": "Immunization/da3fdc33-07df-482e-ae73-b0d0c01aeb97"
+              },
+              {
+                "reference": "Immunization/dc85eef0-664c-4d83-83be-92904e02032b"
+              },
+              {
+                "reference": "Immunization/b5b991cf-4aab-42c7-9eb6-4ac708302b7b"
+              },
+              {
+                "reference": "Immunization/b6be7070-31fa-4b42-92e2-d56899445f3a"
+              },
+              {
+                "reference": "Immunization/0c7de2c8-9e57-459a-a068-abfde70fff35"
+              },
+              {
+                "reference": "Immunization/f71f91cd-23ed-4f14-9acc-bc13e97ba9c0"
+              },
+              {
+                "reference": "Immunization/3243ab4e-0d65-4dce-8a4f-f753c37d863c"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EHistory Of Procedures\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EProcedure\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Procedure-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Procedure/f029e412-97e7-4a5d-a185-401dab39d8b1/_history/1\"\u003E\u003Ctd\u003E Total hip replacement \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2000-04-28 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Procedure/f029e412-97e7-4a5d-a185-401dab39d8b1"
+              }
+            ]
+          },
+          {
+            "title": "Medical Devices",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EMedical Devices\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EDevice\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate Recorded\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"DeviceUseStatement-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DeviceUseStatement/d2610a4b-e083-45b1-86b2-c01dd76c3824/_history/1\"\u003E\u003Ctd\u003E Hip prosthesis, device (physical object) \u003C/td\u003E\u003Ctd\u003EACTIVE\u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "DeviceUseStatement/d2610a4b-e083-45b1-86b2-c01dd76c3824"
+              }
+            ]
+          },
+          {
+            "title": "Diagnostic Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EDiagnostic Results: Observations\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EUnit\u003C/th\u003E\u003Cth\u003EInterpretation\u003C/th\u003E\u003Cth\u003EReference Range\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/03c62992-17b0-462f-8fcf-75d61a3361ac/_history/1\"\u003E\u003Ctd\u003E Cholesterol.total/Cholesterol in HDL [Molar ratio] in Serum or Plasma \u003C/td\u003E\u003Ctd\u003E 4.1 \u003C/td\u003E\u003Ctd\u003E mmol/L \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E NA \u003C/td\u003E\u003Ctd\u003E Incr chol 5.7, LDL 3.6, HDL 1.39 \u003C/td\u003E\u003Ctd\u003E Tue Oct 31 15:06:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/f4cf603e-a4be-4518-864b-d92569d00391/_history/1\"\u003E\u003Ctd\u003E Lipid risk factors [Finding] \u003C/td\u003E\u003Ctd\u003E A combined CVD risk of which lipids is one component should be estimated to guide CVD risk management decisions. If lipid modifying medication is considered suggest checking first for treatable secondary causes of dyslipidaemia. \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E NA \u003C/td\u003E\u003Ctd\u003E Incr chol 5.7, LDL 3.6, HDL 1.39 \u003C/td\u003E\u003Ctd\u003E Tue Oct 31 15:06:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/03f9ca03-2930-43aa-a142-5d5874a6f6ce/_history/1\"\u003E\u003Ctd\u003E Cholesterol in LDL [Moles/volume] in Serum or Plasma by calculation \u003C/td\u003E\u003Ctd\u003E 3.6 \u003C/td\u003E\u003Ctd\u003E mmol/L \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E NA \u003C/td\u003E\u003Ctd\u003E Incr chol 5.7, LDL 3.6, HDL 1.39 \u003C/td\u003E\u003Ctd\u003E Tue Oct 31 15:06:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/98cc5cac-df9a-4e3a-9b8e-409db01f43c1/_history/1\"\u003E\u003Ctd\u003E Triglyceride [Moles/volume] in Serum or Plasma \u003C/td\u003E\u003Ctd\u003E 1.7 \u003C/td\u003E\u003Ctd\u003E mmol/L \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E NA \u003C/td\u003E\u003Ctd\u003E Incr chol 5.7, LDL 3.6, HDL 1.39 \u003C/td\u003E\u003Ctd\u003E Tue Oct 31 15:06:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/e0774528-687b-479f-b447-31cc8307b59d/_history/1\"\u003E\u003Ctd\u003E Cholesterol [Moles/volume] in Serum or Plasma \u003C/td\u003E\u003Ctd\u003E 5.7 \u003C/td\u003E\u003Ctd\u003E mmol/L \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E NA \u003C/td\u003E\u003Ctd\u003E Incr chol 5.7, LDL 3.6, HDL 1.39 \u003C/td\u003E\u003Ctd\u003E Tue Oct 31 15:06:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/f7cc936e-f0a6-47bd-8539-faf8003d9518/_history/1\"\u003E\u003Ctd\u003E Cholesterol in HDL [Moles/volume] in Serum or Plasma \u003C/td\u003E\u003Ctd\u003E 1.39 \u003C/td\u003E\u003Ctd\u003E mmol/L \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E NA \u003C/td\u003E\u003Ctd\u003E Incr chol 5.7, LDL 3.6, HDL 1.39 \u003C/td\u003E\u003Ctd\u003E Tue Oct 31 15:06:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/03c62992-17b0-462f-8fcf-75d61a3361ac"
+              },
+              {
+                "reference": "Observation/f4cf603e-a4be-4518-864b-d92569d00391"
+              },
+              {
+                "reference": "Observation/03f9ca03-2930-43aa-a142-5d5874a6f6ce"
+              },
+              {
+                "reference": "Observation/98cc5cac-df9a-4e3a-9b8e-409db01f43c1"
+              },
+              {
+                "reference": "Observation/e0774528-687b-479f-b447-31cc8307b59d"
+              },
+              {
+                "reference": "Observation/f7cc936e-f0a6-47bd-8539-faf8003d9518"
+              }
+            ]
+          },
+          {
+            "title": "Vital Signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EVital Signs\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EUnit\u003C/th\u003E\u003Cth\u003EInterpretation\u003C/th\u003E\u003Cth\u003EComponent(s)\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/c34f6a53-03e7-46f9-bb39-1388222842d6/_history/1\"\u003E\u003Ctd\u003E Body weight \u003C/td\u003E\u003Ctd\u003E 91.5 \u003C/td\u003E\u003Ctd\u003E kg \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E Wed Apr 10 09:58:00 GMT 2024 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/aec72e05-64c2-472f-8f2b-07bcc0274035/_history/1\"\u003E\u003Ctd\u003E Body mass index (BMI) [Ratio] \u003C/td\u003E\u003Ctd\u003E 24.56 \u003C/td\u003E\u003Ctd\u003E kg/m2 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E Wed Apr 10 09:58:00 GMT 2024 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/90b7419f-e70e-4e77-b479-e72ed3d05a5f/_history/1\"\u003E\u003Ctd\u003E Blood pressure panel with all children optional \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E Systolic blood pressure 140 , Diastolic blood pressure 80 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E Fri Aug 30 08:32:00 GMT 2024 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/c34f6a53-03e7-46f9-bb39-1388222842d6"
+              },
+              {
+                "reference": "Observation/aec72e05-64c2-472f-8f2b-07bcc0274035"
+              },
+              {
+                "reference": "Observation/90b7419f-e70e-4e77-b479-e72ed3d05a5f"
+              }
+            ]
+          },
+          {
+            "title": "Pregnancy Information",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "History of pregnancies Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EPregnancy\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/5addb7ae-a8dc-4464-a9b7-d65d0b8502d1/_history/1\"\u003E\u003Ctd\u003E Pregnancy status \u003C/td\u003E\u003Ctd\u003E Not Pregnant \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E Fri Jan 10 00:00:00 GMT 2020 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/5addb7ae-a8dc-4464-a9b7-d65d0b8502d1"
+              }
+            ]
+          },
+          {
+            "title": "Social History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003ESocial History\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EUnit\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/3e9c00fb-35d0-4757-91f7-0f7836da0f8b/_history/1\"\u003E\u003Ctd\u003E Tobacco smoking status \u003C/td\u003E\u003Ctd\u003E Never smoker \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2022-10-20 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/ca9efc82-8e1f-4aac-9b44-c566800950d5/_history/1\"\u003E\u003Ctd\u003E Alcoholic drinks per day \u003C/td\u003E\u003Ctd\u003E 1 \u003C/td\u003E\u003Ctd\u003E d \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2016-06-22 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/f041dfbb-b6e5-4dec-93f2-0098fff3771a/_history/1\"\u003E\u003Ctd\u003E History of employment status NIOSH \u003C/td\u003E\u003Ctd\u003E Employed \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2026-02-10 - \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/b63f5e28-5448-429c-a340-bcd7affe70b3/_history/1\"\u003E\u003Ctd\u003E History of Occupation \u003C/td\u003E\u003Ctd\u003E Teachers and Instructors, All Other \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2026-02-10 - \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/064bf6b5-b361-4d1d-aa43-174abd08093e/_history/1\"\u003E\u003Ctd\u003E History of Occupation \u003C/td\u003E\u003Ctd\u003E Childcare Workers \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E 2026-02-10 - 2026-02-28 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/6c24518a-54bc-4542-a56b-6d70d3bb6aac/_history/1\"\u003E\u003Ctd\u003E Date of Retirement \u003C/td\u003E\u003Ctd\u003E Tue Feb 03 00:00:00 GMT 2026 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/41869e31-b511-491b-b98a-b9bd2e8e61aa/_history/1\"\u003E\u003Ctd\u003E Combat zone AndOr hazardous duty work dates \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/3e9c00fb-35d0-4757-91f7-0f7836da0f8b"
+              },
+              {
+                "reference": "Observation/ca9efc82-8e1f-4aac-9b44-c566800950d5"
+              },
+              {
+                "reference": "Observation/f041dfbb-b6e5-4dec-93f2-0098fff3771a"
+              },
+              {
+                "reference": "Observation/b63f5e28-5448-429c-a340-bcd7affe70b3"
+              },
+              {
+                "reference": "Observation/064bf6b5-b361-4d1d-aa43-174abd08093e"
+              },
+              {
+                "reference": "Observation/6c24518a-54bc-4542-a56b-6d70d3bb6aac"
+              },
+              {
+                "reference": "Observation/41869e31-b511-491b-b98a-b9bd2e8e61aa"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated"
+            },
+            "entry": [
+              {
+                "reference": "Condition/5bac9745-27ef-4a8e-ad1e-6ebec195642c"
+              }
+            ]
+          },
+          {
+            "title": "Advance Directives",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "42348-3",
+                  "display": "Advance directives"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EAdvance Directives\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EScope\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EAction Controlled\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Consent-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Consent/1db451cd-e1ae-40b6-ba73-dc5c066d71a0/_history/1\"\u003E\u003Ctd\u003E Treatment \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003EWed Sep 01 00:00:00 GMT 2021\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Consent/1db451cd-e1ae-40b6-ba73-dc5c066d71a0"
+              },
+              {
+                "reference": "DocumentReference/b823a017-78e1-48a0-a782-984d22b2fb08"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://healthintersections.com.au/fhir/StructureDefinition/patient-story",
+                "valueString": "I am a healthy person and would like to stay that way."
+              }
+            ],
+            "title": "Patient Story",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "Patient Story"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\n      \n      \u003Cp\u003EI am a healthy person and would like to stay that way.\u003C/p\u003E\n      \u003Cp\u003E\u003Cstrong\u003EPatient's Goals\u003C/strong\u003E\u003C/p\u003E\u003Cul\u003E\u003Cli\u003EGo for a walk every day\u003C/li\u003E\u003Cli\u003EGet my A1C below a 6.0\u003C/li\u003E\u003C/ul\u003E\n    \u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Goal/8e97ce34-168b-4f26-97ec-6076522d2c25"
+              },
+              {
+                "reference": "Goal/5011a284-f6f1-44f3-a7cd-dbc99748cf70"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cab0b377-7724-4c53-a20e-fc6e21fbb7f2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0006",
+                  "code": "CHR",
+                  "display": "Christian"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://healthintersections.com.au/fhir/StructureDefinition/patient-cultural-background",
+            "valueString": "American"
+          },
+          {
+            "url": "http://hl7.org.au/fhir/StructureDefinition/community-affiliation",
+            "valueString": "Seattle, WA"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/individual-pronouns",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "LA29518-0",
+                  "display": "he/him/his/his/himself"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.au/fhir/StructureDefinition/sex-characteristic-variation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.abs.gov.au/ausstats/XXXX",
+                  "code": "2",
+                  "display": "No"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Lorigan",
+            "given": [
+              "Daniel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "dlorigan@uw.edu"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1970-01-01",
+        "communication": [
+          {
+            "language": {
+              "text": "English"
+            },
+            "preferred": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/70d97b2b-3f6f-42b2-bf4f-3dec1ba15f72",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "70d97b2b-3f6f-42b2-bf4f-3dec1ba15f72",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J01CA",
+              "display": "Penicillins with extended spectrum"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/830a1703-6b5b-4dcb-8f31-0f87c94ad09b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "830a1703-6b5b-4dcb-8f31-0f87c94ad09b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "108575001",
+              "display": "Product containing lisinopril (medicinal product)"
+            }
+          ],
+          "text": "lisinopril 5 mg tablet"
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2024-08-13",
+        "dosage": [
+          {
+            "text": "Take One tablet once daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+                  "code": "PO",
+                  "display": "Swallow, oral"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://snomed.info/sct",
+                  "code": "428673006"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationStatement/53e8117f-9891-42dc-a7f3-8d9996e0a5d2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "53e8117f-9891-42dc-a7f3-8d9996e0a5d2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C05AA08",
+              "display": "Fluocortolone"
+            }
+          ],
+          "text": "Ultraproct - cinchocaine 0.5% (5 mg/g) + fluocortolone hexanoate 0.095% (945 microgram/g) + fluocortolone pivalate 0.092% (918 microgram/g) ointment"
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2024-08-30",
+        "dosage": [
+          {
+            "text": "apply a small amount to the affected area up to 4 times daily on the first day, then twice daily for at least 1 week; continue for up to a maximum of 4 weeks",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "ointment",
+                  "system": "http://snomed.info/sct",
+                  "code": "385101003"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/6bab61fb-3714-4bd7-a621-fa1b4ac0f327",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6bab61fb-3714-4bd7-a621-fa1b4ac0f327",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "onsetDateTime": "2016-05-25",
+        "recordedDate": "2016-05-25"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/efe92e48-ef41-4525-9ded-7702a0483152",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "efe92e48-ef41-4525-9ded-7702a0483152",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90560007",
+              "display": "Gout"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "onsetDateTime": "2016-05-25",
+        "recordedDate": "2020-10-01"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/3860b727-30d9-41b9-89ab-c98ca7ad5925",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3860b727-30d9-41b9-89ab-c98ca7ad5925",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "82971005",
+              "display": "Impaired Mobility"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "onsetDateTime": "2016-05-25",
+        "recordedDate": "2016-05-25"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/766d668f-5dd5-471f-a357-362ca5d3a1f6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "766d668f-5dd5-471f-a357-362ca5d3a1f6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "141",
+              "display": "Influenza, split virus, trivalent, preservative"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2024-04-10",
+        "lotNumber": "H06",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "1 (Over 65 years (Influenza))",
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/da3fdc33-07df-482e-ae73-b0d0c01aeb97",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "da3fdc33-07df-482e-ae73-b0d0c01aeb97",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "300",
+              "display": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2024-02-18",
+        "lotNumber": "GK3908-068",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "6 (Booster or Extra dose)",
+            "doseNumberPositiveInt": 5
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/dc85eef0-664c-4d83-83be-92904e02032b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "dc85eef0-664c-4d83-83be-92904e02032b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "141",
+              "display": "Influenza, split virus, trivalent, preservative"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2023-04-12",
+        "lotNumber": "358899",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217661000119109",
+              "display": "Structure of right deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "1 (Over 65 years (Influenza))",
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/b5b991cf-4aab-42c7-9eb6-4ac708302b7b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b5b991cf-4aab-42c7-9eb6-4ac708302b7b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2022-08-01",
+        "lotNumber": "PCB0008-07",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "doseNumberPositiveInt": 4
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/b6be7070-31fa-4b42-92e2-d56899445f3a",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b6be7070-31fa-4b42-92e2-d56899445f3a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "121",
+              "display": "zoster live"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2022-07-13",
+        "lotNumber": "U021248",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "72098002",
+              "display": "Entire left upper arm"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "65Y (65 years)",
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/0c7de2c8-9e57-459a-a068-abfde70fff35",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "0c7de2c8-9e57-459a-a068-abfde70fff35",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2022-01-13",
+        "lotNumber": "FL1072-025",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "doseNumberPositiveInt": 3
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/f71f91cd-23ed-4f14-9acc-bc13e97ba9c0",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "f71f91cd-23ed-4f14-9acc-bc13e97ba9c0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2021-08-27",
+        "lotNumber": "FE8163-007",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "doseNumberPositiveInt": 2
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/3243ab4e-0d65-4dce-8a4f-f753c37d863c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3243ab4e-0d65-4dce-8a4f-f753c37d863c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "occurrenceDateTime": "2021-08-05",
+        "lotNumber": "FF8871-001",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Procedure/f029e412-97e7-4a5d-a185-401dab39d8b1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f029e412-97e7-4a5d-a185-401dab39d8b1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "52734007",
+              "display": "Total hip replacement"
+            }
+          ],
+          "text": "Total hip replacement"
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "performedDateTime": "2000-04-28"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DeviceUseStatement/d2610a4b-e083-45b1-86b2-c01dd76c3824",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "d2610a4b-e083-45b1-86b2-c01dd76c3824",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "extensions"
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "_timingDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "device": {
+          "reference": "Device/24e05c94-51e6-4315-a9f0-5c7d65253b57",
+          "display": "Hip prosthesis"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Device/24e05c94-51e6-4315-a9f0-5c7d65253b57",
+      "resource": {
+        "resourceType": "Device",
+        "id": "24e05c94-51e6-4315-a9f0-5c7d65253b57",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "67270000",
+              "display": "Hip prosthesis, device (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/03c62992-17b0-462f-8fcf-75d61a3361ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "03c62992-17b0-462f-8fcf-75d61a3361ac",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32309-7",
+              "display": "Cholesterol.total/Cholesterol in HDL [Molar ratio] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2023-10-31T15:06:00+00:00",
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Incr chol 5.7, LDL 3.6, HDL 1.39"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/f4cf603e-a4be-4518-864b-d92569d00391",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f4cf603e-a4be-4518-864b-d92569d00391",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49062-3",
+              "display": "Lipid risk factors [Finding]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2023-10-31T15:06:00+00:00",
+        "valueString": "A combined CVD risk of which lipids is one component should be estimated to guide CVD risk management decisions. If lipid modifying medication is considered suggest checking first for treatable secondary causes of dyslipidaemia.",
+        "note": [
+          {
+            "text": "Incr chol 5.7, LDL 3.6, HDL 1.39"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/03f9ca03-2930-43aa-a142-5d5874a6f6ce",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "03f9ca03-2930-43aa-a142-5d5874a6f6ce",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39469-2",
+              "display": "Cholesterol in LDL [Moles/volume] in Serum or Plasma by calculation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2023-10-31T15:06:00+00:00",
+        "valueQuantity": {
+          "value": 3.6,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Incr chol 5.7, LDL 3.6, HDL 1.39"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/98cc5cac-df9a-4e3a-9b8e-409db01f43c1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "98cc5cac-df9a-4e3a-9b8e-409db01f43c1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14927-8",
+              "display": "Triglyceride [Moles/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2023-10-31T15:06:00+00:00",
+        "valueQuantity": {
+          "value": 1.7,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Incr chol 5.7, LDL 3.6, HDL 1.39"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/e0774528-687b-479f-b447-31cc8307b59d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e0774528-687b-479f-b447-31cc8307b59d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14647-2",
+              "display": "Cholesterol [Moles/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2023-10-31T15:06:00+00:00",
+        "valueQuantity": {
+          "value": 5.7,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Incr chol 5.7, LDL 3.6, HDL 1.39"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/f7cc936e-f0a6-47bd-8539-faf8003d9518",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7cc936e-f0a6-47bd-8539-faf8003d9518",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14646-4",
+              "display": "Cholesterol in HDL [Moles/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2023-10-31T15:06:00+00:00",
+        "valueQuantity": {
+          "value": 1.39,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Incr chol 5.7, LDL 3.6, HDL 1.39"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/c34f6a53-03e7-46f9-bb39-1388222842d6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c34f6a53-03e7-46f9-bb39-1388222842d6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2024-04-10T09:58:00+00:00",
+        "valueQuantity": {
+          "value": 91.5,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/aec72e05-64c2-472f-8f2b-07bcc0274035",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aec72e05-64c2-472f-8f2b-07bcc0274035",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2024-04-10T09:58:00+00:00",
+        "valueQuantity": {
+          "value": 24.56,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/90b7419f-e70e-4e77-b479-e72ed3d05a5f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "90b7419f-e70e-4e77-b479-e72ed3d05a5f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2024-08-30T08:32:00+00:00",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 140,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 80,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/5addb7ae-a8dc-4464-a9b7-d65d0b8502d1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5addb7ae-a8dc-4464-a9b7-d65d0b8502d1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "82810-3",
+              "display": "Pregnancy status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2020-01-10",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "60001007",
+              "display": "Not Pregnant"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/3e9c00fb-35d0-4757-91f7-0f7836da0f8b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3e9c00fb-35d0-4757-91f7-0f7836da0f8b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2022-10-20",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA18978-9",
+              "display": "Never smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/ca9efc82-8e1f-4aac-9b44-c566800950d5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ca9efc82-8e1f-4aac-9b44-c566800950d5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74013-4",
+              "display": "Alcoholic drinks per day"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectiveDateTime": "2016-06-22",
+        "valueQuantity": {
+          "value": 1,
+          "unit": "d",
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/f041dfbb-b6e5-4dec-93f2-0098fff3771a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f041dfbb-b6e5-4dec-93f2-0098fff3771a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-EmploymentStatus"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74165-2",
+              "display": "History of employment status NIOSH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectivePeriod": {
+          "start": "2026-02-10"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+              "code": "Employed",
+              "display": "Employed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/b63f5e28-5448-429c-a340-bcd7affe70b3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b63f5e28-5448-429c-a340-bcd7affe70b3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/odh/StructureDefinition/odh-isCurrentJob-extension",
+            "valueBoolean": true
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11341-5",
+              "display": "History of Occupation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectivePeriod": {
+          "start": "2026-02-10"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+              "code": "25-3099",
+              "display": "Teachers and Instructors, All Other"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "86188-0",
+                  "display": "History of Occupation Industry"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHIndustryCDCCensus2010.html",
+                  "code": "611110",
+                  "display": "Elementary and Secondary Schools"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/064bf6b5-b361-4d1d-aa43-174abd08093e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "064bf6b5-b361-4d1d-aa43-174abd08093e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-PastOrPresentJob"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/odh/StructureDefinition/odh-isCurrentJob-extension",
+            "valueBoolean": false
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11341-5",
+              "display": "History of Occupation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "effectivePeriod": {
+          "start": "2026-02-10",
+          "end": "2026-02-28"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHOccupationCDCCensus2010.html",
+              "code": "39-9011",
+              "display": "Childcare Workers"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "86188-0",
+                  "display": "History of Occupation Industry"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://terminology.hl7.org/2.0.0/CodeSystem-PHIndustryCDCCensus2010.html",
+                  "code": "624410",
+                  "display": "Child Day Care Services"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/6c24518a-54bc-4542-a56b-6d70d3bb6aac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6c24518a-54bc-4542-a56b-6d70d3bb6aac",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-RetirementDate"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "87510-4",
+              "display": "Date of Retirement"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "valueDateTime": "2026-02-03"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/41869e31-b511-491b-b98a-b9bd2e8e61aa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "41869e31-b511-491b-b98a-b9bd2e8e61aa",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "profile": [
+            "http://hl7.org/fhir/us/odh/StructureDefinition/odh-CombatZonePeriod"
+          ],
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "87511-2",
+              "display": "Combat zone AndOr hazardous duty work dates"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "valuePeriod": {
+          "start": "2026-02-11",
+          "end": "2026-02-13"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/5bac9745-27ef-4a8e-ad1e-6ebec195642c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5bac9745-27ef-4a8e-ad1e-6ebec195642c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "onsetDateTime": "2013-05-25",
+        "recordedDate": "2016-05-25"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Consent/1db451cd-e1ae-40b6-ba73-dc5c066d71a0",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "1db451cd-e1ae-40b6-ba73-dc5c066d71a0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:20:36.701+00:00",
+          "source": "#HWSRTK1pGqL01Zdd",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated"
+        },
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+              "code": "treatment",
+              "display": "Treatment"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+                "code": "dnr",
+                "display": "Do Not Resuscitate"
+              }
+            ]
+          }
+        ],
+        "patient": {
+          "reference": "Patient/cab0b377-7724-4c53-a20e-fc6e21fbb7f2"
+        },
+        "dateTime": "2021-09-01",
+        "policyRule": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/consentpolicycodes",
+              "code": "cric"
+            }
+          ]
+        },
+        "provision": {
+          "code": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "304253006",
+                  "display": "Not for resuscitation"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DocumentReference/b823a017-78e1-48a0-a782-984d22b2fb08",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "b823a017-78e1-48a0-a782-984d22b2fb08",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-04-20T23:25:00.779+00:00",
+          "source": "#tbKx0hEboFP0l5pO",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber",
+            "valueString": "1720981601"
+          }
+        ],
+        "masterIdentifier": {
+          "system": "https://mydirectives.com/standards/terminology/namingSystem/clinicalDocumentId",
+          "value": "2.16.840.1.113883.15.15.100.1:5412-87f37989294a408897aacd1fc5d8fd16-1720981601"
+        },
+        "identifier": [
+          {
+            "system": "https://mydirectives.com/standards/terminology/namingSystem/setId",
+            "value": "2.16.840.1.113883.15.15.200.1:5412-87f37989294a408897aacd1fc5d8fd16"
+          }
+        ],
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "100821-8",
+              "display": "National POLST form: portable medical order panel"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "42348-3",
+                "display": "Advance Healthcare Directive"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/6fc01ce8-ed40-45a0-9197-a1bce8724d2d",
+          "display": "Wilson, Cynthia"
+        },
+        "date": "2024-09-22T16:30:45.080+00:00",
+        "author": [
+          {
+            "reference": "Practitioner/61a19d14-e7bf-4bf4-abcd-7f0126a85769",
+            "display": "Chu, Anita"
+          }
+        ],
+        "authenticator": {
+          "reference": "Organization/8749f296-24f5-43c8-9183-8182e840eaa7"
+        },
+        "custodian": {
+          "reference": "Organization/18515bb3-bb1f-46b0-b98a-468e6181827e"
+        },
+        "relatesTo": [
+          {
+            "code": "replaces",
+            "target": {
+              "reference": "DocumentReference/0fc1d47e-fad2-474b-94af-c20615bb4a15"
+            }
+          }
+        ],
+        "description": "National ePOLST Form: A Portable Medical Order - Version 1",
+        "securityLabel": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/Confidentiality",
+                "code": "N",
+                "display": "normal"
+              }
+            ]
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/cda+xml",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Binary/2d4e9d80-7c19-4c63-a58a-93138b4b3ac1",
+              "creation": "2024-07-14T19:26:41+00:00"
+            },
+            "format": {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+              "code": "urn:hl7-org:sdwg:epolst-structuredBody:1.1",
+              "display": "ePOLST Structured CDA Document"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/pdf",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Binary/0dfc0e10-9004-4687-b8a8-5ff01ea9cbb1",
+              "creation": "2024-07-14T19:26:41+00:00"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/fhir+json",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Binary/95d346de-ba3c-4981-af51-f50a2de2ccd7",
+              "creation": "2024-07-14T19:26:41+00:00"
+            },
+            "format": {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+              "code": "urn:hl7-org:pe:adipmo-structuredBody:1.1",
+              "display": "ADIPMO Structured Body"
+            }
+          },
+          {
+            "attachment": {
+              "contentType": "application/fhir+json",
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Bundle/cc56ac11-d2c4-46c0-8835-86cd1feb05ad"
+            },
+            "format": {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+              "code": "urn:hl7-org:pe:adipmo-structuredBody:1.1",
+              "display": "ADIPMO Structured Body Bundle"
+            }
+          },
+          {
+            "attachment": {
+              "url": "https://fhir.ips-demo.dev.cirg.uw.edu/fhir/Composition/3bfd84fc-419c-4776-bad7-39ab9e72c8d6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Goal/8e97ce34-168b-4f26-97ec-6076522d2c25",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "8e97ce34-168b-4f26-97ec-6076522d2c25",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T01:59:30.914+00:00",
+          "source": "#4sjhU9KssiZw2aWc",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Cp/\u003E\u003Cp/\u003E\u003C/div\u003E"
+        },
+        "lifecycleStatus": "active",
+        "achievementStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+              "code": "in-progress",
+              "display": "In Progress"
+            }
+          ]
+        },
+        "description": {
+          "text": "Go for a walk every day"
+        },
+        "subject": {
+          "reference": "Patient/6fc01ce8-ed40-45a0-9197-a1bce8724d2d"
+        },
+        "statusDate": "2026-05-15"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Goal/5011a284-f6f1-44f3-a7cd-dbc99748cf70",
+      "resource": {
+        "resourceType": "Goal",
+        "id": "5011a284-f6f1-44f3-a7cd-dbc99748cf70",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T01:59:30.914+00:00",
+          "source": "#4sjhU9KssiZw2aWc",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Cp/\u003E\u003Cp/\u003E\u003C/div\u003E"
+        },
+        "lifecycleStatus": "active",
+        "achievementStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+              "code": "in-progress",
+              "display": "In Progress"
+            }
+          ]
+        },
+        "description": {
+          "text": "Get my A1C below a 6.0"
+        },
+        "subject": {
+          "reference": "Patient/6fc01ce8-ed40-45a0-9197-a1bce8724d2d"
+        },
+        "statusDate": "2026-05-15"
+      }
+    }
+  ]
+}
