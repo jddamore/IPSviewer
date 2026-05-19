@@ -1,0 +1,2019 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "IosefaFuimaono-Bundle",
+  "meta" : {
+    "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-bundle"]
+  },
+  "identifier" : {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:79c87f51-3fcc-437e-ad12-2ad2b95b2321"
+  },
+  "type" : "document",
+  "timestamp" : "2023-11-26T09:37:19+00:00",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:2c462fa5-c18d-4fe6-b583-6d981f79f4e8",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "IosefaFuimaono-Composition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-composition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_IosefaFuimaono-Composition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition IosefaFuimaono-Composition</b></p><a name=\"IosefaFuimaono-Composition\"> </a><a name=\"hcIosefaFuimaono-Composition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-composition.html\">NZPS-Composition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 60591-5}\">Patient summary Document</span></p><p><b>date</b>: 2023-11-26 09:37:18+1300</p><p><b>author</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#PractitionerRole_DrJamesTestSmith-PractitionerRole\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>title</b>: New Zealand Patient Summary</p><p><b>custodian</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Organization_TrainingDatabase-Organization\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "60591-5",
+          "display" : "Patient summary Document"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "date" : "2023-11-26T09:37:18+13:00",
+      "author" : [{
+        "reference" : "PractitionerRole/DrJamesTestSmith-PractitionerRole"
+      }],
+      "title" : "New Zealand Patient Summary",
+      "custodian" : {
+        "reference" : "Organization/TrainingDatabase-Organization"
+      },
+      "section" : [{
+        "title" : "Medications",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "10160-0",
+            "display" : "History of medication use Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Losartan potassium 50 mg tablet – 1 tablet daily (oral)</li><li>Insulin glargine (Lantus) 100 IU/mL – 20 units per day (injection)</li><li>Dulaglutide 1.5 mg/0.5 mL – 1 injection weekly</li><li>Metformin – twice daily</li><li>Amlodipine 5 mg tablet – 1 tablet daily (oral)</li><li>Aspirin 75 mg – 1 tablet daily (oral)</li><li>Allopurinol 300 mg tablet – 1 tablet nightly (oral)</li></ul></div>"
+        },
+        "entry" : [{
+          "reference" : "MedicationStatement/Losartan-MedicationStatement"
+        },
+        {
+          "reference" : "MedicationStatement/InsulinGlargine-MedicationStatement"
+        },
+        {
+          "reference" : "MedicationStatement/Dulaglutide-MedicationStatement"
+        },
+        {
+          "reference" : "MedicationStatement/Metformin-MedicationStatement"
+        },
+        {
+          "reference" : "MedicationStatement/Amlodipine-MedicationStatement"
+        },
+        {
+          "reference" : "MedicationStatement/Aspirin-MedicationStatement"
+        },
+        {
+          "reference" : "MedicationStatement/Allopurinol-MedicationStatement"
+        }]
+      },
+      {
+        "title" : "Allergies and Intolerances",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "48765-2",
+            "display" : "Allergies and adverse reactions Document"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Diazepam – confirmed allergy. Experienced increased confusion and headaches when prescribed for anxiety and difficulty sleeping.</p></div>"
+        },
+        "entry" : [{
+          "reference" : "AllergyIntolerance/Diazepam-AllergyIntolerance"
+        }]
+      },
+      {
+        "title" : "Problems",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11450-4",
+            "display" : "Problem list Reported"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Fracture of neck of femur (left hip) – onset June 2019</li><li>Type 2 diabetes mellitus – onset February 2011, on insulin</li><li>Gout – onset March 2015</li><li>Benign essential hypertension (mild) – onset October 2012</li></ul></div>"
+        },
+        "entry" : [{
+          "reference" : "Condition/NeckOfFemurFracture-Condition"
+        },
+        {
+          "reference" : "Condition/Type2Diabetes-Condition"
+        },
+        {
+          "reference" : "Condition/Gout-Condition"
+        },
+        {
+          "reference" : "Condition/Hypertension-Condition"
+        }]
+      },
+      {
+        "title" : "Immunizations",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11369-6",
+            "display" : "History of Immunization Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Influenza (Flu 65+) – June 2015</li><li>Pneumococcal PCV13 High Risk – July 2015</li><li>Influenza (Flu 65+) – June 2019</li><li>Tdap adult – June 2019</li><li>COVID-19 Comirnaty dose 1 – July 2021</li><li>COVID-19 Comirnaty dose 2 – August 2022</li></ul></div>"
+        },
+        "entry" : [{
+          "reference" : "Immunization/FluVaccine2015-Immunization"
+        },
+        {
+          "reference" : "Immunization/PCV13-Immunization"
+        },
+        {
+          "reference" : "Immunization/FluVaccine2019-Immunization"
+        },
+        {
+          "reference" : "Immunization/TdapAdult-Immunization"
+        },
+        {
+          "reference" : "Immunization/COVID19Dose1-Immunization"
+        },
+        {
+          "reference" : "Immunization/COVID19Dose2-Immunization"
+        }]
+      },
+      {
+        "title" : "Results",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "30954-2",
+            "display" : "Relevant diagnostic tests and/or laboratory data"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Results from 5 March 2023:</p><ul><li>HbA1c: 60 mmol/mol</li><li>LDL cholesterol: 3.4 mmol/L</li><li>Total cholesterol: 5.1 mmol/L</li><li>HDL cholesterol: 1.5 mmol/L</li></ul></div>"
+        },
+        "entry" : [{
+          "reference" : "Observation/HbA1c-Observation"
+        },
+        {
+          "reference" : "Observation/LDL-Observation"
+        },
+        {
+          "reference" : "Observation/TotalCholesterol-Observation"
+        },
+        {
+          "reference" : "Observation/HDL-Observation"
+        }]
+      },
+      {
+        "title" : "Vital Signs",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8716-3",
+            "display" : "Vital signs"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Most recent readings (25 November 2023):</p><ul><li>Blood pressure: 136/88 mmHg</li><li>Heart rate: 84 bpm</li><li>Height: 1.84 m</li><li>Weight: 104 kg (29 September 2023)</li></ul></div>"
+        },
+        "entry" : [{
+          "reference" : "Observation/BloodPressure-Observation"
+        },
+        {
+          "reference" : "Observation/HeartRate-Observation"
+        },
+        {
+          "reference" : "Observation/BodyHeight-Observation"
+        },
+        {
+          "reference" : "Observation/BodyWeight-Observation"
+        }]
+      },
+      {
+        "title" : "Past Problems",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11348-0",
+            "display" : "History of past illness Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Primary open reduction and internal fixation of left proximal femoral fracture – June 2019. Concussion symptoms ongoing following fall.</li></ul></div>"
+        },
+        "entry" : [{
+          "reference" : "Condition/HipFractureRepair-Condition"
+        }]
+      },
+      {
+        "title" : "Functional Status",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "47420-5",
+            "display" : "Functional status assessment note"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Uses a walking frame or electric scooter. Often confused, struggles to communicate in English. Relies on caregiver Cindy for assistance with many activities of daily living. Does not leave the house much. Family arranging transfer to residential care.</p></div>"
+        },
+        "entry" : [{
+          "reference" : "Condition/WalkingAid-Condition"
+        }]
+      },
+      {
+        "title" : "Patient Story",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "81338-6",
+            "display" : "Patient story"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Iosefa is a 73-year-old Samoan man who speaks Samoan as his primary language. He lives in Hamilton and relies heavily on his next of kin Cindy Fuimaono. He uses a walking frame or electric scooter to get around and rarely leaves the home. Family is in the process of arranging a transfer to residential care.</p></div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "notasked",
+            "display" : "Not Asked"
+          }]
+        }
+      },
+      {
+        "title" : "Plan of Care",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "18776-5",
+            "display" : "Plan of care note"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No active plan of care recorded.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "nilknown",
+            "display" : "Nil Known"
+          }]
+        }
+      },
+      {
+        "title" : "Social History",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "29762-2",
+            "display" : "Social history Narrative"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ex-smoker. Was smoking 30 packs per year, quit in 2005 (1-9 cigarettes/day, light smoker).</p></div>"
+        },
+        "entry" : [{
+          "reference" : "Observation/SmokingStatus-Observation"
+        }]
+      },
+      {
+        "title" : "Advance Directives",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "42348-3",
+            "display" : "Advance directives"
+          }]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">No advance directives recorded.</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "notasked",
+            "display" : "Not Asked"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:036f662687f7d30f8204d43dc9f48d3f",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "IosefaFuimaono-Patient",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-patient"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_IosefaFuimaono-Patient\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient IosefaFuimaono-Patient</b></p><a name=\"IosefaFuimaono-Patient\"> </a><a name=\"hcIosefaFuimaono-Patient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-patient.html\">NZPS-Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Iosefa Fuimaono (official) Male, DoB: 1950-07-04 ( https://standards.digital.health.nz/ns/nhi-id#NHI#ZZZ0016\u00a0(use:\u00a0official,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 021111111(Mobile)</li><li>Brooklyn Street Claudelands Hamilton 3214 NZ (home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{urn:ietf:bcp:47 sm}\">Samoan</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: Next-of-kin\">Next-of-kin:</td><td colspan=\"3\"><ul><li>Cindy Fuimaono </li><li>ph: 021111111(Mobile)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <a href=\"Bundle-IosefaFuimaono-Bundle.html#PractitionerRole_DrJamesTestSmith-PractitionerRole\">Dr James Test-Smith</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.\"><a href=\"http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-patient-birthPlace.html\">Patient Birth Place</a></td><td colspan=\"3\">Samoa </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The ethnic group or groups that a person identifies with or feels they belong to.  Ethnicity is a measure of cultural affiliation as opposed to race, ancestry, nationality or citizen.  Ethnicity is self-perceived and a person can belong to more than one group.\n\nThe Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17).\"><a href=\"http://fhir.org.nz/ig/base/StructureDefinition-nz-ethnicity.html\">NZ Ethnicity</a></td><td colspan=\"3\"><span title=\"Codes:{https://standards.digital.health.nz/ns/ethnic-group-level-4-code 31111}\">Samoan</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+            "code" : "31111",
+            "display" : "Samoan"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+        "valueAddress" : {
+          "country" : "Samoa"
+        }
+      }],
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://standards.digital.health.nz/ns/nhi-id",
+        "value" : "ZZZ0016"
+      }],
+      "active" : true,
+      "name" : [{
+        "use" : "official",
+        "family" : "Fuimaono",
+        "given" : ["Iosefa"],
+        "prefix" : ["Mr"]
+      }],
+      "telecom" : [{
+        "system" : "phone",
+        "value" : "021111111",
+        "use" : "mobile"
+      }],
+      "gender" : "male",
+      "birthDate" : "1950-07-04",
+      "address" : [{
+        "use" : "home",
+        "type" : "physical",
+        "line" : ["Brooklyn Street",
+        "Claudelands"],
+        "city" : "Hamilton",
+        "postalCode" : "3214",
+        "country" : "NZ"
+      }],
+      "contact" : [{
+        "relationship" : [{
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code" : "N",
+            "display" : "Next-of-kin"
+          }]
+        }],
+        "name" : {
+          "family" : "Fuimaono",
+          "given" : ["Cindy"]
+        },
+        "telecom" : [{
+          "system" : "phone",
+          "value" : "021111111",
+          "use" : "mobile"
+        }]
+      }],
+      "communication" : [{
+        "language" : {
+          "coding" : [{
+            "system" : "urn:ietf:bcp:47",
+            "code" : "sm",
+            "display" : "Samoan"
+          }]
+        }
+      }],
+      "generalPractitioner" : [{
+        "reference" : "PractitionerRole/DrJamesTestSmith-PractitionerRole",
+        "display" : "Dr James Test-Smith"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:33c4a7626b35b4ceb5fd1cc32b5f93df",
+    "resource" : {
+      "resourceType" : "Practitioner",
+      "id" : "DrJamesTestSmith-Practitioner",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-ppractitioner"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_DrJamesTestSmith-Practitioner\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner DrJamesTestSmith-Practitioner</b></p><a name=\"DrJamesTestSmith-Practitioner\"> </a><a name=\"hcDrJamesTestSmith-Practitioner\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-ppractitioner.html\">NZPS-Practitioner</a></p></div><p><b>active</b>: true</p><p><b>name</b>: James Test-Smith </p></div>"
+      },
+      "active" : true,
+      "name" : [{
+        "family" : "Test-Smith",
+        "given" : ["James"],
+        "prefix" : ["Dr"]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:9953dad2925ab4f7fa3a2eff5fa5fc25",
+    "resource" : {
+      "resourceType" : "PractitionerRole",
+      "id" : "DrJamesTestSmith-PractitionerRole",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-ppractitionerRole"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PractitionerRole_DrJamesTestSmith-PractitionerRole\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole DrJamesTestSmith-PractitionerRole</b></p><a name=\"DrJamesTestSmith-PractitionerRole\"> </a><a name=\"hcDrJamesTestSmith-PractitionerRole\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-ppractitionerRole.html\">NZPS-PractitionerRole</a></p></div><p><b>practitioner</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>organization</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Organization_TrainingDatabase-Organization\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>code</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/nz-practitioner-role-code enrolledGP}\">Enrolled GP</span></p></div>"
+      },
+      "practitioner" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "organization" : {
+        "reference" : "Organization/TrainingDatabase-Organization"
+      },
+      "code" : [{
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/nz-practitioner-role-code",
+          "code" : "enrolledGP",
+          "display" : "Enrolled GP"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:fab8a5ac1c4e5706198e1b493950fb74",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "TrainingDatabase-Organization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-organization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_TrainingDatabase-Organization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization TrainingDatabase-Organization</b></p><a name=\"TrainingDatabase-Organization\"> </a><a name=\"hcTrainingDatabase-Organization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-organization</code></p></div><p><b>identifier</b>: <a href=\"http://fhir.org.nz/ig/base/NamingSystem-hpiFacility.html\" title=\"HPI facilities\">HPIFacility</a>/F99820-C\u00a0(use:\u00a0official,\u00a0)</p><p><b>active</b>: true</p><p><b>name</b>: Training Database</p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://standards.digital.health.nz/ns/hpi-facility-id",
+        "value" : "F99820-C"
+      }],
+      "active" : true,
+      "name" : "Training Database"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:48ca96b1b18156892219d1677da61311",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "NeckOfFemurFracture-Condition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_NeckOfFemurFracture-Condition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition NeckOfFemurFracture-Condition</b></p><a name=\"NeckOfFemurFracture-Condition\"> </a><a name=\"hcNeckOfFemurFracture-Condition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>Long Term Condition Indicator</b>: true</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 263220003}\">Fracture of neck of femur</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2019-06-08</p><p><b>recordedDate</b>: 2023-11-26 09:58:31+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>note</b>: </p><blockquote><div><p>Left hip fracture</p>\n</div></blockquote></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+        "valueBoolean" : true
+      }],
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "263220003",
+          "display" : "Fracture of neck of femur"
+        }],
+        "text" : "Fracture of neck of femur"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2019-06-08",
+      "recordedDate" : "2023-11-26T09:58:31+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "note" : [{
+        "text" : "Left hip fracture"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:02fbdd1b0da8ba4eefc444cf486250c4",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "Type2Diabetes-Condition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_Type2Diabetes-Condition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition Type2Diabetes-Condition</b></p><a name=\"Type2Diabetes-Condition\"> </a><a name=\"hcType2Diabetes-Condition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>Long Term Condition Indicator</b>: true</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 44054006}\">Type 2 diabetes mellitus</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2011-02-05</p><p><b>recordedDate</b>: 2023-11-26 10:02:45+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>note</b>: </p><blockquote><div><p>On insulin</p>\n</div></blockquote></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+        "valueBoolean" : true
+      }],
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "44054006",
+          "display" : "Diabetes mellitus type 2"
+        }],
+        "text" : "Type 2 diabetes mellitus"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2011-02-05",
+      "recordedDate" : "2023-11-26T10:02:45+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "note" : [{
+        "text" : "On insulin"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:74b42c9b1f42eaf8e85bb36a5658fb41",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "Gout-Condition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_Gout-Condition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition Gout-Condition</b></p><a name=\"Gout-Condition\"> </a><a name=\"hcGout-Condition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>Long Term Condition Indicator</b>: true</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 90560007}\">Gout</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2015-03-18</p><p><b>recordedDate</b>: 2023-11-26 10:05:13+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+        "valueBoolean" : true
+      }],
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "90560007",
+          "display" : "Gout"
+        }],
+        "text" : "Gout"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2015-03-18",
+      "recordedDate" : "2023-11-26T10:05:13+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:b7d026c435307a67da16b541c27394dd",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "Hypertension-Condition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_Hypertension-Condition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition Hypertension-Condition</b></p><a name=\"Hypertension-Condition\"> </a><a name=\"hcHypertension-Condition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>Long Term Condition Indicator</b>: true</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>severity</b>: <span title=\"Codes:{http://snomed.info/sct 255604002}\">Mild</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1201005}\">Benign essential hypertension</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2012-10-24</p><p><b>recordedDate</b>: 2023-11-26 10:07:25+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+        "valueBoolean" : true
+      }],
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "severity" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "255604002",
+          "display" : "Mild"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "1201005",
+          "display" : "Benign essential hypertension"
+        }],
+        "text" : "Benign essential hypertension"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2012-10-24",
+      "recordedDate" : "2023-11-26T10:07:25+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:b0aea1cbb4d9f62301f116b8b6e6ffc5",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "HipFractureRepair-Condition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_HipFractureRepair-Condition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition HipFractureRepair-Condition</b></p><a name=\"HipFractureRepair-Condition\"> </a><a name=\"hcHipFractureRepair-Condition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>Long Term Condition Indicator</b>: true</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical resolved}\">Resolved</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 57356009}\">Primary open reduction and internal fixation of proximal femoral fracture</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2019-06-08</p><p><b>recordedDate</b>: 2023-11-26 10:24:06+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>note</b>: </p><blockquote><div><p>Left femur fracture. Concussion symptoms still ongoing following fall in 2019.</p>\n</div></blockquote></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+        "valueBoolean" : true
+      }],
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "resolved",
+          "display" : "Resolved"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "57356009",
+          "display" : "Open reduction of fracture with internal fixation"
+        }],
+        "text" : "Primary open reduction and internal fixation of proximal femoral fracture"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2019-06-08",
+      "recordedDate" : "2023-11-26T10:24:06+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "note" : [{
+        "text" : "Left femur fracture. Concussion symptoms still ongoing following fall in 2019."
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:1a8dffadb213ef5b67b37b1644801e69",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "WalkingAid-Condition",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-problem"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_WalkingAid-Condition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition WalkingAid-Condition</b></p><a name=\"WalkingAid-Condition\"> </a><a name=\"hcWalkingAid-Condition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-problem.html\">NZPS-Problem (Condition)</a></p></div><p><b>Long Term Condition Indicator</b>: true</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 444661007}\">Walking aid use</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2019-06-30</p><p><b>recordedDate</b>: 2023-11-26 10:29:07+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>note</b>: </p><blockquote><div><p>Uses a walker or scooter</p>\n</div></blockquote></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+        "valueBoolean" : true
+      }],
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code" : "problem-list-item",
+          "display" : "Problem List Item"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "444661007",
+          "display" : "Uses walking aid"
+        }],
+        "text" : "Walking aid use"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2019-06-30",
+      "recordedDate" : "2023-11-26T10:29:07+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "note" : [{
+        "text" : "Uses a walker or scooter"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:5253154ae81536f2d40c111d7bbfb8e9",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "Losartan-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_Losartan-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement Losartan-MedicationStatement</b></p><a name=\"Losartan-MedicationStatement\"> </a><a name=\"hcLosartan-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://nzmt.org.nz 10195211000116102}\">Losartan potassium 50 mg tablet</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet daily</td><td><span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://nzmt.org.nz",
+          "code" : "10195211000116102",
+          "display" : "Losartan potassium 50 mg tablet"
+        }],
+        "text" : "Losartan potassium 50 mg tablet"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "1 tablet daily",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "26643006",
+            "display" : "Oral route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:9ca9432b46c084cad83347dbcf464820",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "InsulinGlargine-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_InsulinGlargine-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement InsulinGlargine-MedicationStatement</b></p><a name=\"InsulinGlargine-MedicationStatement\"> </a><a name=\"hcInsulinGlargine-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://nzmt.org.nz 10368321000116100}\">Lantus – insulin glargine 100 IU/mL injection, 3 mL cartridge</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>20 units per day</td><td><span title=\"Codes:{http://snomed.info/sct 34206005}\">Subcutaneous route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://nzmt.org.nz",
+          "code" : "10368321000116100",
+          "display" : "Insulin glargine 100 units/mL injection, 3 mL cartridge"
+        }],
+        "text" : "Lantus – insulin glargine 100 IU/mL injection, 3 mL cartridge"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "20 units per day",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "34206005",
+            "display" : "Subcutaneous route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:88423fa47cc3b84d83d02e9094c200cb",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "Dulaglutide-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_Dulaglutide-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement Dulaglutide-MedicationStatement</b></p><a name=\"Dulaglutide-MedicationStatement\"> </a><a name=\"hcDulaglutide-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://nzmt.org.nz 47230201000116108}\">Dulaglutide 1.5 mg/0.5 mL injection pen</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>1 injection every week</td><td><span title=\"Codes:{http://snomed.info/sct 34206005}\">Subcutaneous route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://nzmt.org.nz",
+          "code" : "47230201000116108",
+          "display" : "Dulaglutide 1.5 mg/0.5 mL injection, pen"
+        }],
+        "text" : "Dulaglutide 1.5 mg/0.5 mL injection pen"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "1 injection every week",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "34206005",
+            "display" : "Subcutaneous route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:2ef824b7138563c6223d8b1a5187af3a",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "Metformin-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_Metformin-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement Metformin-MedicationStatement</b></p><a name=\"Metformin-MedicationStatement\"> </a><a name=\"hcMetformin-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://snomed.info/sct 372567009}\">Metformin</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>Twice daily – 1 in morning and 1 at night</td><td><span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "372567009",
+          "display" : "Metformin"
+        }],
+        "text" : "Metformin"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "Twice daily – 1 in morning and 1 at night",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "26643006",
+            "display" : "Oral route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:ecdae4372aa167d1380def606d69c7e5",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "Amlodipine-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_Amlodipine-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement Amlodipine-MedicationStatement</b></p><a name=\"Amlodipine-MedicationStatement\"> </a><a name=\"hcAmlodipine-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://nzmt.org.nz 10109621000116108}\">Amlodipine 5 mg tablet</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet daily</td><td><span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://nzmt.org.nz",
+          "code" : "10109621000116108",
+          "display" : "Amlodipine 5 mg tablet"
+        }],
+        "text" : "Amlodipine 5 mg tablet"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "1 tablet daily",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "26643006",
+            "display" : "Oral route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:8bd8c9ba09ab3681ba54e7e03fb0b403",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "Aspirin-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_Aspirin-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement Aspirin-MedicationStatement</b></p><a name=\"Aspirin-MedicationStatement\"> </a><a name=\"hcAspirin-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://snomed.info/sct 387458008}\">Aspirin 75 mg tablet</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet daily – 75 mg</td><td><span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "387458008",
+          "display" : "Aspirin"
+        }],
+        "text" : "Aspirin 75 mg tablet"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "1 tablet daily – 75 mg",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "26643006",
+            "display" : "Oral route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:62549ba6c27b5d0afdbeef3b7f77803c",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "Allopurinol-MedicationStatement",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-medicationstatement"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationStatement_Allopurinol-MedicationStatement\"> </a><p class=\"res-header-id\"><b>Generated Narrative: MedicationStatement Allopurinol-MedicationStatement</b></p><a name=\"Allopurinol-MedicationStatement\"> </a><a name=\"hcAllopurinol-MedicationStatement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-medicationstatement.html\">NZPS-MedicationStatement</a></p></div><p><b>NZePS Long Term Medication Indicator</b>: true</p><p><b>status</b>: Active</p><p><b>medication</b>: <span title=\"Codes:{http://nzmt.org.nz 10030521000116104}\">Allopurinol 300 mg tablet</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>dateAsserted</b>: 2023-11-25</p><p><b>informationSource</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td><td><b>Route</b></td></tr><tr><td style=\"display: none\">*</td><td>1 tablet nightly</td><td><span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
+        "valueBoolean" : true
+      }],
+      "status" : "active",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://nzmt.org.nz",
+          "code" : "10030521000116104",
+          "display" : "Allopurinol 300 mg tablet"
+        }],
+        "text" : "Allopurinol 300 mg tablet"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "dateAsserted" : "2023-11-25",
+      "informationSource" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "dosage" : [{
+        "text" : "1 tablet nightly",
+        "route" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "26643006",
+            "display" : "Oral route"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:2f2747acd1288279ac39e2a09ebd0e57",
+    "resource" : {
+      "resourceType" : "AllergyIntolerance",
+      "id" : "Diazepam-AllergyIntolerance",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-allergyintolerance"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AllergyIntolerance_Diazepam-AllergyIntolerance\"> </a><p class=\"res-header-id\"><b>Generated Narrative: AllergyIntolerance Diazepam-AllergyIntolerance</b></p><a name=\"Diazepam-AllergyIntolerance\"> </a><a name=\"hcDiazepam-AllergyIntolerance\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-allergyintolerance.html\">NZPS-AllergyIntolerance</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 372814008}\">Diazepam</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>onset</b>: 2023-11-26</p><p><b>recordedDate</b>: 2023-11-26 10:34:09+1300</p><p><b>recorder</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>note</b>: </p><blockquote><div><p>Prescribed diazepam for anxiety and difficulty sleeping. Experienced increased confusion and headaches, which went away after stopping the drug.</p>\n</div></blockquote></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "verificationStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code" : "confirmed",
+          "display" : "Confirmed"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "372814008",
+          "display" : "Diazepam"
+        }],
+        "text" : "Diazepam"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "onsetDateTime" : "2023-11-26",
+      "recordedDate" : "2023-11-26T10:34:09+13:00",
+      "recorder" : {
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      },
+      "note" : [{
+        "text" : "Prescribed diazepam for anxiety and difficulty sleeping. Experienced increased confusion and headaches, which went away after stopping the drug."
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:7b634530b7b02f838a53008070506508",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "FluVaccine2015-Immunization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-immunization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_FluVaccine2015-Immunization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization FluVaccine2015-Immunization</b></p><a name=\"FluVaccine2015-Immunization\"> </a><a name=\"hcFluVaccine2015-Immunization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-immunization.html\">NZPS-Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/immunisation-code 99006}, {http://snomed.info/sct 46233009}\">Influenza</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>occurrence</b>: 2015-06-01</p><p><b>recorded</b>: 2015-06-01</p><p><b>lotNumber</b>: P9076556</p><p><b>site</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActSite LA}\">Left Arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0443 AP}\">Administering Provider</span></td><td><a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></td></tr></table></div>"
+      },
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/immunisation-code",
+          "code" : "99006",
+          "display" : "Flu 65+"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "46233009",
+          "display" : "Influenza virus vaccine"
+        }],
+        "text" : "Influenza"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "occurrenceDateTime" : "2015-06-01",
+      "recorded" : "2015-06-01",
+      "lotNumber" : "P9076556",
+      "site" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+          "code" : "LA",
+          "display" : "Left Arm"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code" : "IM",
+          "display" : "Injection, intramuscular"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code" : "AP",
+            "display" : "Administering Provider"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+          "display" : "Dr James Test-Smith"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:2eb5ee1650806e5c9f5d9cca2bc353fd",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "PCV13-Immunization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-immunization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_PCV13-Immunization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization PCV13-Immunization</b></p><a name=\"PCV13-Immunization\"> </a><a name=\"hcPCV13-Immunization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-immunization.html\">NZPS-Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/immunisation-code 133}, {http://snomed.info/sct 333607001}\">Pneumococcal conjugate vaccine, 13 valent</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>occurrence</b>: 2015-07-01</p><p><b>recorded</b>: 2015-07-01</p><p><b>lotNumber</b>: U456789</p><p><b>site</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActSite RA}\">Right Arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0443 AP}\">Administering Provider</span></td><td><a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></td></tr></table></div>"
+      },
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/immunisation-code",
+          "code" : "133",
+          "display" : "PCV13 High Risk"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "333607001",
+          "display" : "Pneumococcal 13-valent conjugate vaccine"
+        }],
+        "text" : "Pneumococcal conjugate vaccine, 13 valent"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "occurrenceDateTime" : "2015-07-01",
+      "recorded" : "2015-07-01",
+      "lotNumber" : "U456789",
+      "site" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+          "code" : "RA",
+          "display" : "Right Arm"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code" : "IM",
+          "display" : "Injection, intramuscular"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code" : "AP",
+            "display" : "Administering Provider"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+          "display" : "Dr James Test-Smith"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:07b9d9377576d4a893205190d66ae17c",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "FluVaccine2019-Immunization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-immunization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_FluVaccine2019-Immunization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization FluVaccine2019-Immunization</b></p><a name=\"FluVaccine2019-Immunization\"> </a><a name=\"hcFluVaccine2019-Immunization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-immunization.html\">NZPS-Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/immunisation-code 99006}, {http://snomed.info/sct 46233009}\">Influenza</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>occurrence</b>: 2019-06-01</p><p><b>recorded</b>: 2019-06-01</p><p><b>lotNumber</b>: Y789T75</p><p><b>site</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActSite LA}\">Left Arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0443 AP}\">Administering Provider</span></td><td><a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></td></tr></table></div>"
+      },
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/immunisation-code",
+          "code" : "99006",
+          "display" : "Flu 65+"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "46233009",
+          "display" : "Influenza virus vaccine"
+        }],
+        "text" : "Influenza"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "occurrenceDateTime" : "2019-06-01",
+      "recorded" : "2019-06-01",
+      "lotNumber" : "Y789T75",
+      "site" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+          "code" : "LA",
+          "display" : "Left Arm"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code" : "IM",
+          "display" : "Injection, intramuscular"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code" : "AP",
+            "display" : "Administering Provider"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+          "display" : "Dr James Test-Smith"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:ab27e21761f52344df7c954f54afb3cc",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "TdapAdult-Immunization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-immunization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_TdapAdult-Immunization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization TdapAdult-Immunization</b></p><a name=\"TdapAdult-Immunization\"> </a><a name=\"hcTdapAdult-Immunization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-immunization.html\">NZPS-Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/immunisation-code 99012}, {http://snomed.info/sct 871875004}\">Diphtheria adult dosage, Tetanus, acellular Pertussis</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>occurrence</b>: 2019-06-08</p><p><b>recorded</b>: 2019-06-08</p><p><b>lotNumber</b>: 12345</p><p><b>site</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActSite LA}\">Left Arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0443 AP}\">Administering Provider</span></td><td><a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></td></tr></table></div>"
+      },
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/immunisation-code",
+          "code" : "99012",
+          "display" : "Tdap adult (misc)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "871875004",
+          "display" : "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens"
+        }],
+        "text" : "Diphtheria adult dosage, Tetanus, acellular Pertussis"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "occurrenceDateTime" : "2019-06-08",
+      "recorded" : "2019-06-08",
+      "lotNumber" : "12345",
+      "site" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+          "code" : "LA",
+          "display" : "Left Arm"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code" : "IM",
+          "display" : "Injection, intramuscular"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code" : "AP",
+            "display" : "Administering Provider"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+          "display" : "Dr James Test-Smith"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6aaa45c30aab6f5da7c7f13a2fa035e0",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "COVID19Dose1-Immunization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-immunization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_COVID19Dose1-Immunization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization COVID19Dose1-Immunization</b></p><a name=\"COVID19Dose1-Immunization\"> </a><a name=\"hcCOVID19Dose1-Immunization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-immunization.html\">NZPS-Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/immunisation-code 208}, {http://snomed.info/sct 1119349007}\">COVID-19 Comirnaty (Pfizer/BioNTech)</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>occurrence</b>: 2021-07-14</p><p><b>recorded</b>: 2021-07-14</p><p><b>lotNumber</b>: 2907888</p><p><b>site</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActSite LA}\">Left Arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0443 AP}\">Administering Provider</span></td><td><a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></td></tr></table><p><b>note</b>: </p><blockquote><div><p>Dose 1</p>\n</div></blockquote></div>"
+      },
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/immunisation-code",
+          "code" : "208",
+          "display" : "COVID19 Comirnaty"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1119349007",
+          "display" : "COVID-19 mRNA vaccine"
+        }],
+        "text" : "COVID-19 Comirnaty (Pfizer/BioNTech)"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "occurrenceDateTime" : "2021-07-14",
+      "recorded" : "2021-07-14",
+      "lotNumber" : "2907888",
+      "site" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+          "code" : "LA",
+          "display" : "Left Arm"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code" : "IM",
+          "display" : "Injection, intramuscular"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code" : "AP",
+            "display" : "Administering Provider"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+          "display" : "Dr James Test-Smith"
+        }
+      }],
+      "note" : [{
+        "text" : "Dose 1"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:65da648ba7a1d796c72e5a2af8747945",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "COVID19Dose2-Immunization",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-immunization"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_COVID19Dose2-Immunization\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization COVID19Dose2-Immunization</b></p><a name=\"COVID19Dose2-Immunization\"> </a><a name=\"hcCOVID19Dose2-Immunization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-immunization.html\">NZPS-Immunization</a></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{https://standards.digital.health.nz/ns/immunisation-code 208}, {http://snomed.info/sct 1119349007}\">COVID-19 Comirnaty (Pfizer/BioNTech)</span></p><p><b>patient</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>occurrence</b>: 2022-08-04</p><p><b>recorded</b>: 2022-08-04</p><p><b>lotNumber</b>: 56789</p><p><b>site</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActSite RA}\">Right Arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0443 AP}\">Administering Provider</span></td><td><a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></td></tr></table><p><b>note</b>: </p><blockquote><div><p>Dose 2</p>\n</div></blockquote></div>"
+      },
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "https://standards.digital.health.nz/ns/immunisation-code",
+          "code" : "208",
+          "display" : "COVID19 Comirnaty"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1119349007",
+          "display" : "COVID-19 mRNA vaccine"
+        }],
+        "text" : "COVID-19 Comirnaty (Pfizer/BioNTech)"
+      },
+      "patient" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "occurrenceDateTime" : "2022-08-04",
+      "recorded" : "2022-08-04",
+      "lotNumber" : "56789",
+      "site" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActSite",
+          "code" : "RA",
+          "display" : "Right Arm"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code" : "IM",
+          "display" : "Injection, intramuscular"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code" : "AP",
+            "display" : "Administering Provider"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+          "display" : "Dr James Test-Smith"
+        }
+      }],
+      "note" : [{
+        "text" : "Dose 2"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:273b1118abd62a58ea39de94dec2254c",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "HbA1c-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-results-laboratory-pathology"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_HbA1c-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation HbA1c-Observation</b></p><a name=\"HbA1c-Observation\"> </a><a name=\"hcHbA1c-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-observation-results-laboratory-pathology.html\">NZPS-Observation-Results-Laboratory-Pathology</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 4548-4}, {http://snomed.info/sct 43396009}\">HbA1c</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-03-05 10:46:20+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 60 mmol/mol<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/mol = 'mmol/mol')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory",
+          "display" : "Laboratory"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "4548-4",
+          "display" : "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "43396009",
+          "display" : "Haemoglobin A1c measurement"
+        }],
+        "text" : "HbA1c"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-03-05T10:46:20+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 60,
+        "unit" : "mmol/mol",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mmol/mol"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:e5092ac2a96575423d0c24a34467530d",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "LDL-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-results-laboratory-pathology"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_LDL-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation LDL-Observation</b></p><a name=\"LDL-Observation\"> </a><a name=\"hcLDL-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-observation-results-laboratory-pathology.html\">NZPS-Observation-Results-Laboratory-Pathology</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 18262-6}, {http://snomed.info/sct 22644003}\">LDL cholesterol</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-03-05 10:46:24+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 3.4 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory",
+          "display" : "Laboratory"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "18262-6",
+          "display" : "LDL Cholesterol [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "22644003",
+          "display" : "Serum LDL cholesterol measurement"
+        }],
+        "text" : "LDL cholesterol"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-03-05T10:46:24+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 3.4,
+        "unit" : "mmol/L",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mmol/L"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:e7e97c3f132a641f0f1fd15701d24073",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "TotalCholesterol-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-results-laboratory-pathology"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_TotalCholesterol-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation TotalCholesterol-Observation</b></p><a name=\"TotalCholesterol-Observation\"> </a><a name=\"hcTotalCholesterol-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-observation-results-laboratory-pathology.html\">NZPS-Observation-Results-Laboratory-Pathology</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2093-3}, {http://snomed.info/sct 121868005}\">Total cholesterol</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-03-05 10:46:26+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 5.1 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory",
+          "display" : "Laboratory"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "2093-3",
+          "display" : "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "121868005",
+          "display" : "Total cholesterol measurement"
+        }],
+        "text" : "Total cholesterol"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-03-05T10:46:26+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 5.1,
+        "unit" : "mmol/L",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mmol/L"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:b4f44ff5e0e630804b846e61933df15e",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "HDL-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-results-laboratory-pathology"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_HDL-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation HDL-Observation</b></p><a name=\"HDL-Observation\"> </a><a name=\"hcHDL-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-observation-results-laboratory-pathology.html\">NZPS-Observation-Results-Laboratory-Pathology</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2085-9}, {http://snomed.info/sct 17888004}\">HDL cholesterol</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-03-05 10:46:27+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 1.5 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory",
+          "display" : "Laboratory"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "2085-9",
+          "display" : "HDL Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "17888004",
+          "display" : "High density lipoprotein cholesterol measurement"
+        }],
+        "text" : "HDL cholesterol"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-03-05T10:46:27+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 1.5,
+        "unit" : "mmol/L",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mmol/L"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:020731df5eea5c0eaf4a600985814d39",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BloodPressure-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-vitalsigns",
+        "http://hl7.org/fhir/StructureDefinition/bp"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_BloodPressure-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation BloodPressure-Observation</b></p><a name=\"BloodPressure-Observation\"> </a><a name=\"hcBloodPressure-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-nzps-observation-vitalsigns.html\">NZPS-Observation-Vital-Signs</a>, <a href=\"http://hl7.org/fhir/R4/bp.html\">Observation Blood Pressure Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 85354-9}\">Blood pressure</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-11-25 14:20:33+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8480-6}\">Systolic blood pressure</span></p><p><b>value</b>: 136 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8462-4}\">Diastolic blood pressure</span></p><p><b>value</b>: 88 mmHg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs",
+          "display" : "Vital Signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "85354-9",
+          "display" : "Blood pressure panel with all children optional"
+        }],
+        "text" : "Blood pressure"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-11-25T14:20:33+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "component" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8480-6",
+            "display" : "Systolic blood pressure"
+          }]
+        },
+        "valueQuantity" : {
+          "value" : 136,
+          "unit" : "mmHg",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "mm[Hg]"
+        }
+      },
+      {
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8462-4",
+            "display" : "Diastolic blood pressure"
+          }]
+        },
+        "valueQuantity" : {
+          "value" : 88,
+          "unit" : "mmHg",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "mm[Hg]"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:1b8c11ab07360666a849008d5c383760",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "HeartRate-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-vitalsigns",
+        "http://hl7.org/fhir/StructureDefinition/heartrate"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_HeartRate-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation HeartRate-Observation</b></p><a name=\"HeartRate-Observation\"> </a><a name=\"hcHeartRate-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-nzps-observation-vitalsigns.html\">NZPS-Observation-Vital-Signs</a>, <a href=\"http://hl7.org/fhir/R4/heartrate.html\">Observation Heart Rate Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8867-4}\">Heart rate</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-11-25 14:20:11+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 84 beats/minute<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/min = '/min')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs",
+          "display" : "Vital Signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8867-4",
+          "display" : "Heart rate"
+        }],
+        "text" : "Heart rate"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-11-25T14:20:11+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 84,
+        "unit" : "beats/minute",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "/min"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:68aa862c7d803fb339c1dab856053940",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BodyHeight-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-vitalsigns",
+        "http://hl7.org/fhir/StructureDefinition/bodyheight"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_BodyHeight-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation BodyHeight-Observation</b></p><a name=\"BodyHeight-Observation\"> </a><a name=\"hcBodyHeight-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-nzps-observation-vitalsigns.html\">NZPS-Observation-Vital-Signs</a>, <a href=\"http://hl7.org/fhir/R4/bodyheight.html\">Observation Body Height Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8302-2}\">Body height</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-11-25 14:21:02+1300</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 184 cm<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecm = 'cm')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs",
+          "display" : "Vital Signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "8302-2",
+          "display" : "Body height"
+        }],
+        "text" : "Body height"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-11-25T14:21:02+13:00",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 184,
+        "unit" : "cm",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "cm"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:3ec9fa7e620474cddb8928cc3096dbaf",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "BodyWeight-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-vitalsigns",
+        "http://hl7.org/fhir/StructureDefinition/bodyweight"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_BodyWeight-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation BodyWeight-Observation</b></p><a name=\"BodyWeight-Observation\"> </a><a name=\"hcBodyWeight-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profiles: <a href=\"StructureDefinition-nzps-observation-vitalsigns.html\">NZPS-Observation-Vital-Signs</a>, <a href=\"http://hl7.org/fhir/R4/bodyweight.html\">Observation Body Weight Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-09-29</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: 104 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs",
+          "display" : "Vital Signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "29463-7",
+          "display" : "Body weight"
+        }],
+        "text" : "Body weight"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-09-29",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueQuantity" : {
+        "value" : 104,
+        "unit" : "kg",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kg"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:06b2cb39d2f19ff8c2e1080d8e9e199e",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "SmokingStatus-Observation",
+      "meta" : {
+        "profile" : ["https://fhir-ig.digital.health.nz/nzps/StructureDefinition/nzps-observation-smokingstatus"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_SmokingStatus-Observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation SmokingStatus-Observation</b></p><a name=\"SmokingStatus-Observation\"> </a><a name=\"hcSmokingStatus-Observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-nzps-observation-smokingstatus.html\">NZPS-Observation-Smoking-Status</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category social-history}\">Social History</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 72166-2}\">Tobacco smoking status</span></p><p><b>subject</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Patient_IosefaFuimaono-Patient\">Bundle: identifier = UUID:79c87f51-3fcc-437e-ad12-2ad2b95b2321; type = document; timestamp = 2023-11-26 09:37:19+0000</a></p><p><b>effective</b>: 2023-11-26</p><p><b>performer</b>: <a href=\"Bundle-IosefaFuimaono-Bundle.html#Practitioner_DrJamesTestSmith-Practitioner\">Dr James Test-Smith</a></p><p><b>value</b>: <span title=\"Codes:{http://snomed.info/sct 8517006}\">Ex-smoker</span></p><p><b>note</b>: </p><blockquote><div><p>Was smoking 30 packs per year, quit in 2005. Previously 1-9 cigarettes per day (light smoker).</p>\n</div></blockquote></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "social-history",
+          "display" : "Social History"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "72166-2",
+          "display" : "Tobacco smoking status"
+        }],
+        "text" : "Tobacco smoking status"
+      },
+      "subject" : {
+        "reference" : "Patient/IosefaFuimaono-Patient"
+      },
+      "effectiveDateTime" : "2023-11-26",
+      "performer" : [{
+        "reference" : "Practitioner/DrJamesTestSmith-Practitioner",
+        "display" : "Dr James Test-Smith"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "8517006",
+          "display" : "Ex-smoker"
+        }],
+        "text" : "Ex-smoker"
+      },
+      "note" : [{
+        "text" : "Was smoking 30 packs per year, quit in 2005. Previously 1-9 cigarettes per day (light smoker)."
+      }]
+    }
+  }]
+}
