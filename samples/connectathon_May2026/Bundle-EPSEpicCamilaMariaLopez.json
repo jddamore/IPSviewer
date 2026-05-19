@@ -1,0 +1,2225 @@
+{
+  "resourceType": "Bundle",
+  "id": "99713d97-4dfd-47fa-829f-cfca3bd64262",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-05-15T02:08:03.033+00:00",
+    "source": "#rUeQ9iZtiPbartJU",
+    "profile": [
+      "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "7710e236-91d7-4fe8-ba2a-a378bbe736ff"
+  },
+  "type": "document",
+  "timestamp": "2026-05-15T02:04:32.477+00:00",
+  "total": 21,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:a39a01e0-84d6-479c-80de-25ec5cb1fe37",
+      "resource": {
+        "resourceType": "Composition",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch1\u003EInternational Patient Summary Document\u003C/h1\u003E\u003C/div\u003E"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient Summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784"
+        },
+        "date": "2026-05-15T02:04:32.181+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:59e9601d-8d94-4c3c-8035-cdabba472df6"
+          }
+        ],
+        "title": "Patient Summary as of 05/15/2026",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EAllergies And Intolerances\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EAllergen\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ECategory\u003C/th\u003E\u003Cth\u003EReaction\u003C/th\u003E\u003Cth\u003ESeverity\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EOnset\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"AllergyIntolerance-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/dc92b3c6-5ed3-48c9-b522-5f9a847c113a/_history/1\"\u003E\u003Ctd\u003E Not on File \u003C/td\u003E\u003Ctd\u003E active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/dc92b3c6-5ed3-48c9-b522-5f9a847c113a"
+              }
+            ]
+          },
+          {
+            "title": "Medication List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EMedication Summary: Medication Requests\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedication\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003ERoute\u003C/th\u003E\u003Cth\u003ESig\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EAuthored Date\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"MedicationRequest-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationRequest/a26e1c23-69b2-46ed-a195-851bfd71f055/_history/1\"\u003E\u003Ctd\u003E drospirenone-ethinyl estradiol 3-0.02 MG per tablet \u003C/td\u003E\u003Ctd\u003EActive\u003C/td\u003E\u003Ctd\u003E Oral \u003C/td\u003E\u003Ctd\u003E Take 1 tablet by mouth 1 (one) time each day., Starting Tue 5/28/2019, Until Wed 5/27/2020, Normal \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2019-05-28 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "MedicationRequest/a26e1c23-69b2-46ed-a195-851bfd71f055"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EProblem List\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EMedical Problems\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EOnset Date\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/63daaa01-9386-4b42-8c4e-9d6ad5287121/_history/1\"\u003E\u003Ctd\u003E Polycystic ovaries \u003C/td\u003E\u003Ctd\u003E Active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2005-09-20 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/6980b225-cdeb-4743-964f-8e24a916c2a1/_history/1\"\u003E\u003Ctd\u003E Stomach ache \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/b1acf7d7-439f-45d7-9024-a84624d1c9b7/_history/1\"\u003E\u003Ctd\u003E Ischemic chest pain \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/a9c2faf6-1e75-4264-80ae-dd80bef9fe8b/_history/1\"\u003E\u003Ctd\u003E Ischemic chest pain \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/b0ecb64b-0a44-4490-9442-25a57b8b3fe9/_history/1\"\u003E\u003Ctd\u003E Ischemic chest pain \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/3f9a34fb-dc3a-4f69-a60e-d9637a678780/_history/1\"\u003E\u003Ctd\u003E Pain aggravated by activities of daily living \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003C/tr\u003E\u003Ctr id=\"Condition-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/6e898aa5-c3b5-4a63-a3d8-369538070478/_history/1\"\u003E\u003Ctd\u003E Polycystic ovaries \u003C/td\u003E\u003Ctd\u003E Active \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2005-09-20 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Condition/63daaa01-9386-4b42-8c4e-9d6ad5287121"
+              },
+              {
+                "reference": "Condition/6980b225-cdeb-4743-964f-8e24a916c2a1"
+              },
+              {
+                "reference": "Condition/b1acf7d7-439f-45d7-9024-a84624d1c9b7"
+              },
+              {
+                "reference": "Condition/a9c2faf6-1e75-4264-80ae-dd80bef9fe8b"
+              },
+              {
+                "reference": "Condition/b0ecb64b-0a44-4490-9442-25a57b8b3fe9"
+              },
+              {
+                "reference": "Condition/3f9a34fb-dc3a-4f69-a60e-d9637a678780"
+              },
+              {
+                "reference": "Condition/6e898aa5-c3b5-4a63-a3d8-369538070478"
+              }
+            ]
+          },
+          {
+            "title": "History of Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EImmunizations\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EImmunization\u003C/th\u003E\u003Cth\u003EStatus\u003C/th\u003E\u003Cth\u003EDose Number\u003C/th\u003E\u003Cth\u003EManufacturer\u003C/th\u003E\u003Cth\u003ELot Number\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Immunization-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/f908f728-e206-4240-9ccb-841555d00ffb/_history/1\"\u003E\u003Ctd\u003E Tdap \u003C/td\u003E\u003Ctd\u003ECOMPLETED\u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E1\u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2023-05-21 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Immunization/f908f728-e206-4240-9ccb-841555d00ffb"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EHistory Of Procedures\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003EProcedure\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Procedure-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Procedure/923ab7fc-3ffb-4433-af3f-4c11da8f3cf1/_history/1\"\u003E\u003Ctd\u003E TRANSTHORACIC ECHO (TTE) COMPLETE \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2023-06-02T20:50:25Z \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"Procedure-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Procedure/b2ca47e0-45e3-4a89-9250-28fa0a6b4ee5/_history/1\"\u003E\u003Ctd\u003E Removal of appendix (APPENDECTOMY) \u003C/td\u003E\u003Ctd/\u003E\u003Ctd\u003E 2023-06-06T13:56:00Z - 2023-06-06T14:56:00Z \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Procedure/923ab7fc-3ffb-4433-af3f-4c11da8f3cf1"
+              },
+              {
+                "reference": "Procedure/b2ca47e0-45e3-4a89-9250-28fa0a6b4ee5"
+              }
+            ]
+          },
+          {
+            "title": "Diagnostic Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003EDiagnostic Results: Observations\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EUnit\u003C/th\u003E\u003Cth\u003EInterpretation\u003C/th\u003E\u003Cth\u003EReference Range\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/3312451b-b810-4495-9ff7-12b5776cffc3/_history/1\"\u003E\u003Ctd\u003E Hemoglobin A1C \u003C/td\u003E\u003Ctd\u003E 5.1 \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E Tue May 28 14:22:00 GMT 2019 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003Ch5\u003EDiagnostic Results: Diagnostic Reports\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"DiagnosticReport-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/595a0eec-cdde-4495-844a-e7f76208ee14/_history/1\"\u003E\u003Ctd\u003E Hemoglobin A1c \u003C/td\u003E\u003Ctd\u003E Tue May 28 14:22:00 GMT 2019 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"DiagnosticReport-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/5d910a3c-21df-43cf-b24c-5e90ae18803e/_history/1\"\u003E\u003Ctd\u003E X-ray Chest 2 Views \u003C/td\u003E\u003Ctd\u003E Fri Jun 02 20:43:46 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"DiagnosticReport-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/e6f331a1-0932-4c9b-b466-0b68e6ef9f34/_history/1\"\u003E\u003Ctd\u003E Transthoracic Echo (TTE) Complete \u003C/td\u003E\u003Ctd\u003E Fri Jun 02 20:50:25 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003Ctr id=\"DiagnosticReport-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/92dcd4d5-0bbe-468e-840a-cbc800176c5f/_history/1\"\u003E\u003Ctd\u003E Specimen to pathology \u003C/td\u003E\u003Ctd\u003E Fri Jun 02 21:02:00 GMT 2023 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "DiagnosticReport/595a0eec-cdde-4495-844a-e7f76208ee14"
+              },
+              {
+                "reference": "DiagnosticReport/5d910a3c-21df-43cf-b24c-5e90ae18803e"
+              },
+              {
+                "reference": "DiagnosticReport/e6f331a1-0932-4c9b-b466-0b68e6ef9f34"
+              },
+              {
+                "reference": "DiagnosticReport/92dcd4d5-0bbe-468e-840a-cbc800176c5f"
+              },
+              {
+                "reference": "Observation/3312451b-b810-4495-9ff7-12b5776cffc3"
+              }
+            ]
+          },
+          {
+            "title": "Social History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\u003Ch5\u003ESocial History\u003C/h5\u003E\u003Ctable class=\"hapiPropertyTable\"\u003E\u003Cthead\u003E\u003Ctr\u003E\u003Cth\u003ECode\u003C/th\u003E\u003Cth\u003EResult\u003C/th\u003E\u003Cth\u003EUnit\u003C/th\u003E\u003Cth\u003EComments\u003C/th\u003E\u003Cth\u003EDate\u003C/th\u003E\u003C/tr\u003E\u003C/thead\u003E\u003Ctbody\u003E\u003Ctr id=\"Observation-https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/4be7c93c-0f25-4d04-885b-b945a295e39c/_history/1\"\u003E\u003Ctd\u003E Smoking History \u003C/td\u003E\u003Ctd\u003E Never Assessed \u003C/td\u003E\u003Ctd/\u003E\u003Ctd/\u003E\u003Ctd\u003E - 2026-05-07 \u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/4be7c93c-0f25-4d04-885b-b945a295e39c"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cb1b077f-9d54-4431-9bc9-367a449f6784",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-religion",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0006",
+                  "code": "CHR",
+                  "display": "Christian"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://healthintersections.com.au/fhir/StructureDefinition/patient-cultural-background",
+            "valueString": "American"
+          },
+          {
+            "url": "http://hl7.org.au/fhir/StructureDefinition/community-affiliation",
+            "valueString": "Seattle, WA"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/individual-pronouns",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "LA29518-0",
+                  "display": "he/him/his/his/himself"
+                }
+              ]
+            }
+          },
+          {
+            "url": "http://hl7.org.au/fhir/StructureDefinition/sex-characteristic-variation",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://www.abs.gov.au/ausstats/XXXX",
+                  "code": "2",
+                  "display": "No"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Lorigan",
+            "given": [
+              "Daniel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "dlorigan@uw.edu"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1970-01-01",
+        "communication": [
+          {
+            "language": {
+              "text": "English"
+            },
+            "preferred": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/AllergyIntolerance/dc92b3c6-5ed3-48c9-b522-5f9a847c113a",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "dc92b3c6-5ed3-48c9-b522-5f9a847c113a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "version": "4.0.0",
+              "code": "unconfirmed",
+              "display": "Unconfirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1631000175102",
+              "display": "Patient not asked"
+            }
+          ],
+          "text": "Not on File"
+        },
+        "patient": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/MedicationRequest/a26e1c23-69b2-46ed-a195-851bfd71f055",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "a26e1c23-69b2-46ed-a195-851bfd71f055",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+            "value": "1066899"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                "code": "community",
+                "display": "Community"
+              }
+            ],
+            "text": "Community"
+          }
+        ],
+        "medicationReference": {
+          "reference": "Medication/a48583c8-a54d-4257-a7ec-e1e84122e9a5",
+          "display": "drospirenone-ethinyl estradiol 3-0.02 MG per tablet"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "27558"
+          },
+          "display": "Office Visit"
+        },
+        "authoredOn": "2019-05-28",
+        "requester": {
+          "type": "Practitioner",
+          "display": "Physician"
+        },
+        "recorder": {
+          "type": "Practitioner",
+          "display": "Physician"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "69878008",
+                "display": "Polycystic ovaries (disorder)"
+              },
+              {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "code": "256.4",
+                "display": "Polycystic ovaries"
+              },
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "E28.2",
+                "display": "Polycystic ovarian syndrome"
+              }
+            ],
+            "text": "Polycystic ovaries"
+          }
+        ],
+        "courseOfTherapyType": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+              "code": "continuous",
+              "display": "Continuous long term therapy"
+            }
+          ],
+          "text": "Continuous long term therapy"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Take 1 tablet by mouth 1 (one) time each day., Starting Tue 5/28/2019, Until Wed 5/27/2020, Normal",
+            "patientInstruction": "Take 1 tablet by mouth 1 (one) time each day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2019-05-28"
+                },
+                "count": 365,
+                "timeOfDay": [
+                  "09:00:00"
+                ]
+              },
+              "code": {
+                "text": "1 (one) time each day"
+              }
+            },
+            "asNeededBoolean": false,
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "260548002",
+                  "display": "Oral (qualifier value)"
+                },
+                {
+                  "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798268.7025",
+                  "code": "15",
+                  "display": "Oral"
+                }
+              ],
+              "text": "Oral"
+            },
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "419652001",
+                  "display": "Take"
+                }
+              ],
+              "text": "Take"
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "calculated",
+                      "display": "calculated"
+                    }
+                  ],
+                  "text": "calculated"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "admin-amount",
+                      "display": "admin-amount"
+                    }
+                  ],
+                  "text": "admin-amount"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://epic.com/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "ordered"
+                    }
+                  ],
+                  "text": "ordered"
+                },
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "{tbl}"
+                }
+              }
+            ]
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2019-05-28"
+          },
+          "numberOfRepeatsAllowed": 12,
+          "quantity": {
+            "value": 28,
+            "unit": "tablet"
+          },
+          "expectedSupplyDuration": {
+            "value": 28,
+            "unit": "Day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Medication/a48583c8-a54d-4257-a7ec-e1e84122e9a5",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "a48583c8-a54d-4257-a7ec-e1e84122e9a5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698288",
+            "value": "70784"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.253",
+              "code": "100899"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.68",
+              "code": "25990002150316"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.162",
+              "code": "49431"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "4124"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "11636"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "630734"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "748794"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "748798"
+            },
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "840781"
+            }
+          ],
+          "text": "drospirenone-ethinyl estradiol 3-0.02 MG per tablet"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.698288.310",
+              "code": "TABS",
+              "display": "tablet"
+            }
+          ],
+          "text": "tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "text": "drospirenone-ethinyl estradiol 3-0.02 MG per tablet"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/63daaa01-9386-4b42-8c4e-9d6ad5287121",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "63daaa01-9386-4b42-8c4e-9d6ad5287121",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "severity": {
+          "text": "Medium"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E28.2",
+              "display": "Polycystic ovarian syndrome"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69878008",
+              "display": "Polycystic Ovaries"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "256.4",
+              "display": "PCOS (polycystic ovarian syndrome)"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.3.247.1.1",
+              "code": "330918",
+              "display": "PCOS (polycystic ovarian syndrome)"
+            }
+          ],
+          "text": "Polycystic ovaries"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "onsetDateTime": "2005-09-20",
+        "recordedDate": "2019-05-28"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/6980b225-cdeb-4743-964f-8e24a916c2a1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6980b225-cdeb-4743-964f-8e24a916c2a1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "271681002",
+              "display": "Stomach ache (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "536.8",
+              "display": "Dyspepsia and other specified disorders of function of stomach"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "R10.9",
+              "display": "Unspecified abdominal pain"
+            }
+          ],
+          "text": "Stomach ache"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "recordedDate": "2023-06-02"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/b1acf7d7-439f-45d7-9024-a84624d1c9b7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b1acf7d7-439f-45d7-9024-a84624d1c9b7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "225566008",
+              "display": "Ischemic chest pain (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "786.50",
+              "display": "Chest pain, unspecified"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I20.9",
+              "display": "Angina pectoris, unspecified"
+            }
+          ],
+          "text": "Ischemic chest pain"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29542"
+          },
+          "display": "Hospital Outpatient Visit"
+        },
+        "recordedDate": "2023-06-02"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/a9c2faf6-1e75-4264-80ae-dd80bef9fe8b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a9c2faf6-1e75-4264-80ae-dd80bef9fe8b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "225566008",
+              "display": "Ischemic chest pain (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "786.50",
+              "display": "Chest pain, unspecified"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I20.9",
+              "display": "Angina pectoris, unspecified"
+            }
+          ],
+          "text": "Ischemic chest pain"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29541"
+          },
+          "display": "Hospital Outpatient Visit"
+        },
+        "recordedDate": "2023-06-02"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/b0ecb64b-0a44-4490-9442-25a57b8b3fe9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b0ecb64b-0a44-4490-9442-25a57b8b3fe9",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "225566008",
+              "display": "Ischemic chest pain (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "786.50",
+              "display": "Chest pain, unspecified"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I20.9",
+              "display": "Angina pectoris, unspecified"
+            }
+          ],
+          "text": "Ischemic chest pain"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "recordedDate": "2023-06-02"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/3f9a34fb-dc3a-4f69-a60e-d9637a678780",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3f9a34fb-dc3a-4f69-a60e-d9637a678780",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "22253000",
+              "display": "Pain (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "780.96",
+              "display": "Generalized pain"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "R52",
+              "display": "Pain, unspecified"
+            }
+          ],
+          "text": "Pain aggravated by activities of daily living"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29539"
+          },
+          "display": "Office Visit"
+        },
+        "recordedDate": "2023-05-21"
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Condition/6e898aa5-c3b5-4a63-a3d8-369538070478",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6e898aa5-c3b5-4a63-a3d8-369538070478",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "version": "4.0.0",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "version": "4.0.0",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://open.epic.com/FHIR/StructureDefinition/condition-category",
+                "code": "visit-diagnosis",
+                "display": "Visit Diagnosis"
+              }
+            ],
+            "text": "Visit Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "69878008",
+              "display": "Polycystic ovaries (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "256.4",
+              "display": "Polycystic ovaries"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "E28.2",
+              "display": "Polycystic ovarian syndrome"
+            }
+          ],
+          "text": "Polycystic ovaries"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "onsetDateTime": "2005-09-20",
+        "recordedDate": "2019-05-28",
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "Condition/63daaa01-9386-4b42-8c4e-9d6ad5287121",
+                "display": "Polycystic ovaries"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Immunization/f908f728-e206-4240-9ccb-841555d00ffb",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "f908f728-e206-4240-9ccb-841555d00ffb",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768076",
+            "value": "29421"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "115"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "58160-842-11"
+            }
+          ],
+          "text": "Tdap"
+        },
+        "patient": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29539"
+          },
+          "display": "Office Visit"
+        },
+        "occurrenceDateTime": "2023-05-21",
+        "primarySource": true,
+        "location": {
+          "display": "FHIR Sandbox"
+        },
+        "manufacturer": {
+          "display": "Sanofi Pasteur"
+        },
+        "lotNumber": "1",
+        "site": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.768076.4040",
+              "code": "7",
+              "display": "Left deltoid"
+            }
+          ],
+          "text": "Left deltoid"
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.768076.4030",
+              "code": "2",
+              "display": "Intramuscular"
+            }
+          ],
+          "text": "Intramuscular"
+        },
+        "doseQuantity": {
+          "value": 0.5,
+          "unit": "mL",
+          "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.768076.4019",
+          "code": "1"
+        },
+        "performer": [
+          {
+            "function": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                  "code": "AP",
+                  "display": "Administering Provider"
+                }
+              ],
+              "text": "Administering Provider"
+            },
+            "actor": {
+              "type": "Practitioner",
+              "display": "Physician"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Procedure/923ab7fc-3ffb-4433-af3f-4c11da8f3cf1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "923ab7fc-3ffb-4433-af3f-4c11da8f3cf1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORD"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+            "value": "1066915"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "EAP"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696580",
+            "value": "104443"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "OPE"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798069",
+            "value": "88"
+          }
+        ],
+        "basedOn": [
+          {
+            "display": "TRANSTHORACIC ECHO (TTE) COMPLETE"
+          }
+        ],
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103693007",
+              "display": "Diagnostic procedure"
+            }
+          ],
+          "text": "Ordered Procedures"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "93306",
+              "display": "HC TRANSTHORACIC ECHO"
+            }
+          ],
+          "text": "TRANSTHORACIC ECHO (TTE) COMPLETE"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29542"
+          },
+          "display": "Hospital Outpatient Visit"
+        },
+        "performedDateTime": "2023-06-02T20:50:25Z",
+        "asserter": {
+          "type": "Practitioner",
+          "display": "Np"
+        },
+        "performer": [
+          {
+            "actor": {
+              "type": "Practitioner",
+              "display": "Physician"
+            },
+            "onBehalfOf": {
+              "type": "Organization",
+              "display": "CPACS"
+            }
+          }
+        ],
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "code": "786.50",
+                "display": "Ischemic chest pain (CMS/HCC)"
+              }
+            ],
+            "text": "Ischemic chest pain"
+          }
+        ],
+        "report": [
+          {
+            "type": "DiagnosticReport",
+            "display": "TRANSTHORACIC ECHO (TTE) COMPLETE"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Procedure/b2ca47e0-45e3-4a89-9250-28fa0a6b4ee5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b2ca47e0-45e3-4a89-9250-28fa0a6b4ee5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "ORL"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798276",
+            "value": "1505"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "EAP"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.696580",
+            "value": "14493"
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "OPE"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798069",
+            "value": "90"
+          }
+        ],
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "387713003",
+              "display": "Surgical procedure"
+            }
+          ],
+          "text": "Surgical Procedures"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "44950",
+              "display": "PR APPENDECTOMY"
+            }
+          ],
+          "text": "Removal of appendix (APPENDECTOMY)"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29545"
+          },
+          "display": "Surgery"
+        },
+        "performedPeriod": {
+          "start": "2023-06-06T13:56:00Z",
+          "end": "2023-06-06T14:56:00Z"
+        },
+        "recorder": {
+          "type": "Practitioner",
+          "display": "Robert Z"
+        },
+        "location": {
+          "display": "EHS Hospital"
+        },
+        "bodySite": [
+          {
+            "extension": [
+              {
+                "url": "http://nictiz.nl/fhir/StructureDefinition/BodySite-Qualifier",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798276.2010",
+                      "code": "4",
+                      "display": "N/A"
+                    }
+                  ],
+                  "text": "N/A"
+                }
+              }
+            ],
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.4.798276.2015",
+                "code": "10",
+                "display": "Abdomen"
+              }
+            ],
+            "text": "Abdomen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/595a0eec-cdde-4495-844a-e7f76208ee14",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "595a0eec-cdde-4495-844a-e7f76208ee14",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PLAC",
+                  "display": "Placer Identifier"
+                }
+              ],
+              "text": "Placer Identifier"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+            "value": "1066905"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                "code": "Lab"
+              }
+            ],
+            "text": "Lab"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.12",
+              "code": "83036",
+              "display": "PR GLYCOSYLATED HEMOGLOBIN TEST"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.96",
+              "code": "43396009",
+              "display": "HEMOGLOBIN A1C"
+            }
+          ],
+          "text": "Hemoglobin A1c"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "27558"
+          },
+          "display": "Office Visit"
+        },
+        "effectiveDateTime": "2019-05-28T14:22:00Z",
+        "issued": "2019-05-28T14:22:00Z",
+        "performer": [
+          {
+            "type": "Practitioner",
+            "display": "Physician"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/3312451b-b810-4495-9ff7-12b5776cffc3",
+            "display": "Component (1): HEMOGLOBIN A1C, POC"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/5d910a3c-21df-43cf-b24c-5e90ae18803e",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "5d910a3c-21df-43cf-b24c-5e90ae18803e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PLAC",
+                  "display": "Placer Identifier"
+                }
+              ],
+              "text": "Placer Identifier"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+            "value": "1066912"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "FILL",
+                  "display": "Filler Identifier"
+                }
+              ],
+              "text": "Filler Identifier"
+            },
+            "value": "161"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                "code": "Imaging"
+              }
+            ],
+            "text": "Imaging"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LP29684-5",
+                "display": "Radiology"
+              }
+            ],
+            "text": "Radiology"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "36643-5"
+            },
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.12",
+              "code": "71020",
+              "display": "HC XR CHEST 2V"
+            },
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.52000",
+              "code": "7000029"
+            },
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.72",
+              "code": "IMG36"
+            },
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.155",
+              "code": "RPID2503"
+            }
+          ],
+          "text": "X-ray Chest 2 Views"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29541"
+          },
+          "display": "Hospital Outpatient Visit"
+        },
+        "effectiveDateTime": "2023-06-02T20:43:46Z",
+        "issued": "2023-07-25T13:27:19Z",
+        "performer": [
+          {
+            "type": "Practitioner",
+            "display": "Physician"
+          },
+          {
+            "type": "Practitioner",
+            "display": "Np"
+          },
+          {
+            "type": "Organization",
+            "display": "IMAGING"
+          }
+        ],
+        "resultsInterpreter": [
+          {
+            "type": "Practitioner",
+            "display": "Physician"
+          }
+        ],
+        "result": [
+          {
+            "display": "Narrative"
+          },
+          {
+            "display": "Impression"
+          }
+        ],
+        "conclusionCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "225566008",
+                "display": "Ischemic chest pain (finding)"
+              },
+              {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "code": "786.50",
+                "display": "Chest pain, unspecified"
+              },
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I20.9",
+                "display": "Angina pectoris, unspecified"
+              }
+            ],
+            "text": "Ischemic chest pain"
+          }
+        ],
+        "presentedForm": [
+          {
+            "contentType": "text/html",
+            "url": "Binary/fatrFYJ-c5OxFaXGGKhRmt-kbn-1xHl8SNrcCB4fHVps4",
+            "title": "Narrative"
+          },
+          {
+            "contentType": "text/html",
+            "url": "Binary/fatrFYJ-c5OxFaXGGKhRmtxnlc-Z0vWhRnWj621bo99g4",
+            "title": "Impression"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/e6f331a1-0932-4c9b-b466-0b68e6ef9f34",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "e6f331a1-0932-4c9b-b466-0b68e6ef9f34",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PLAC",
+                  "display": "Placer Identifier"
+                }
+              ],
+              "text": "Placer Identifier"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+            "value": "1066915"
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "FILL",
+                  "display": "Filler Identifier"
+                }
+              ],
+              "text": "Filler Identifier"
+            },
+            "value": "162"
+          }
+        ],
+        "basedOn": [
+          {
+            "display": "TRANSTHORACIC ECHO (TTE) COMPLETE"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                "code": "Echo"
+              }
+            ],
+            "text": "Echocardiography"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LP29708-2",
+                "display": "Cardiology"
+              }
+            ],
+            "text": "Cardiology"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.12",
+              "code": "93306",
+              "display": "HC TRANSTHORACIC ECHO"
+            }
+          ],
+          "text": "Transthoracic Echo (TTE) Complete"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29542"
+          },
+          "display": "Hospital Outpatient Visit"
+        },
+        "effectiveDateTime": "2023-06-02T20:50:25Z",
+        "issued": "2023-07-25T13:26:44Z",
+        "performer": [
+          {
+            "type": "Practitioner",
+            "display": "Physician"
+          },
+          {
+            "type": "Practitioner",
+            "display": "Np"
+          },
+          {
+            "type": "Organization",
+            "display": "CPACS"
+          }
+        ],
+        "resultsInterpreter": [
+          {
+            "type": "Practitioner",
+            "display": "Physician"
+          }
+        ],
+        "result": [
+          {
+            "display": "Narrative"
+          },
+          {
+            "display": "Myocardial Finding: Left Ventricle"
+          }
+        ],
+        "conclusionCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "225566008",
+                "display": "Ischemic chest pain (finding)"
+              },
+              {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "code": "786.50",
+                "display": "Chest pain, unspecified"
+              },
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "I20.9",
+                "display": "Angina pectoris, unspecified"
+              }
+            ],
+            "text": "Ischemic chest pain"
+          }
+        ],
+        "presentedForm": [
+          {
+            "contentType": "text/html",
+            "url": "Binary/fy9R3HQvzT5D6lNvbJeLdyTF10pM-Yzpp1nsL-VLVkJc4",
+            "title": "Narrative"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/DiagnosticReport/92dcd4d5-0bbe-468e-840a-cbc800176c5f",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "92dcd4d5-0bbe-468e-840a-cbc800176c5f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PLAC",
+                  "display": "Placer Identifier"
+                }
+              ],
+              "text": "Placer Identifier"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.798268",
+            "value": "1159966"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                "code": "Path,Cyt"
+              }
+            ],
+            "text": "Pathology and Cytology"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "LP7839-6",
+                "display": "Pathology"
+              }
+            ],
+            "text": "Pathology"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:2.16.840.1.113883.6.12",
+              "code": "88305",
+              "display": "PR SURG PATH,LEVEL IV"
+            }
+          ],
+          "text": "Specimen to pathology"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "29544"
+          },
+          "display": "Office Visit"
+        },
+        "effectiveDateTime": "2023-06-02T21:02:00Z",
+        "issued": "2023-06-02T21:02:00Z",
+        "performer": [
+          {
+            "type": "Practitioner",
+            "display": "Historical"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/3312451b-b810-4495-9ff7-12b5776cffc3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3312451b-b810-4495-9ff7-12b5776cffc3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "basedOn": [
+          {
+            "display": "HEMOGLOBIN A1C"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          },
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.840.114350.1.13.0.1.7.10.798268.30",
+                "code": "Lab",
+                "display": "Lab"
+              }
+            ],
+            "text": "Lab"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            },
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.768282",
+              "code": "1558024",
+              "display": "Hemoglobin A1C"
+            }
+          ],
+          "text": "Hemoglobin A1C"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "encounter": {
+          "identifier": {
+            "use": "usual",
+            "system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.698084.8",
+            "value": "27558"
+          },
+          "display": "Office Visit"
+        },
+        "effectiveDateTime": "2019-05-28T14:22:00Z",
+        "issued": "2019-05-28T14:22:41Z",
+        "valueQuantity": {
+          "value": 5.1
+        },
+        "specimen": {
+          "display": "Specimen"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://fhir-auth.myhealthsummary.demo.cirg.uw.edu/fhir/Observation/4be7c93c-0f25-4d04-885b-b945a295e39c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4be7c93c-0f25-4d04-885b-b945a295e39c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-15T02:04:31.790+00:00",
+          "source": "#Qyi4Zztj048bnV0T",
+          "security": [
+            {
+              "system": "http://keycloak.cirg.uw.edu/fhir/security-labels",
+              "code": "25447e4f-176b-4a06-915f-fc752d123bc2",
+              "display": "Access restricted to 25447e4f-176b-4a06-915f-fc752d123bc2"
+            }
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ],
+            "text": "Social History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "365980008",
+              "display": "Finding of tobacco use and exposure (finding)"
+            }
+          ],
+          "text": "Smoking History"
+        },
+        "subject": {
+          "reference": "Patient/cb1b077f-9d54-4431-9bc9-367a449f6784",
+          "display": "Lopez, Camila Maria"
+        },
+        "effectivePeriod": {
+          "end": "2026-05-07"
+        },
+        "issued": "2021-08-05T05:00:00Z",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "266927001",
+              "display": "Tobacco smoking consumption unknown"
+            }
+          ],
+          "text": "Never Assessed"
+        }
+      }
+    }
+  ]
+}

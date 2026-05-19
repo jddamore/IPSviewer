@@ -1,0 +1,4129 @@
+{
+  "resourceType": "Bundle",
+  "id": "NZ-IPS-20260514020400",
+  "language": "en-US",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "4f5b7096-101d-44ec-87bb-1280fda66581"
+  },
+  "type": "document",
+  "timestamp": "2026-05-14T02:04:00.6395713+00:00",
+  "entry": [
+    {
+      "id": "bf5935b7-b8a4-43da-819e-021710921e84",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Composition/bf5935b7-b8a4-43da-819e-021710921e84",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "bf5935b7-b8a4-43da-819e-021710921e84",
+        "meta": {
+          "versionId": "1"
+        },
+        "language": "en-US",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' lang='en-US' xml:lang='en-US'\u003EInternational Patient Summary for Peter KEITH JORDAN\u003C/div\u003E"
+        },
+        "identifier": {
+          "system": "urn:oid:2.16.840.1.113883.2.18.7.2",
+          "value": "4f5b7096-101d-44ec-87bb-1280fda66581"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "date": "2026-05-10",
+        "author": [
+          {
+            "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+          }
+        ],
+        "title": "International Patient Summary",
+        "confidentiality": "N",
+        "attester": [
+          {
+            "mode": "professional",
+            "time": "2026-05-10",
+            "party": {
+              "reference": "PractitionerRole/7063c48e-5dbd-44e5-92f0-f7e8f552c9c7"
+            }
+          }
+        ],
+        "custodian": {
+          "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+        },
+        "relatesTo": [
+          {
+            "code": "transforms",
+            "targetIdentifier": {
+              "system": "urn:oid:2.16.840.1.113883.2.18.7.2",
+              "value": "4f5b7096-101d-44ec-87bb-1280fda66581"
+            }
+          }
+        ],
+        "event": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                    "code": "PCPR"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "end": "2026-05-10"
+            }
+          }
+        ],
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'\u003ENo known allergies or intolerances.\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/84a23bd5-cddc-4a98-82a1-fc5df56ea6d1"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\r\n  \u003Ctable\u003E\r\n    \u003Cthead\u003E\r\n      \u003Ctr\u003E\r\n        \u003Cth\u003ECondition\u003C/th\u003E\r\n        \u003Cth\u003ECategory\u003C/th\u003E\r\n        \u003Cth\u003ERecorded On\u003C/th\u003E\r\n        \u003Cth\u003EClinical Status\u003C/th\u003E\r\n        \u003Cth\u003EVerification Status\u003C/th\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/thead\u003E\r\n    \u003Ctbody\u003E\r\n      \u003Ctr id=\"f1d28c03-a711-4666-89f1-255e3216149c\"\u003E\r\n        \u003Ctd\u003EEssential hypertension\u003C/td\u003E\r\n        \u003Ctd\u003EProblem List Item\u003C/td\u003E\r\n        \u003Ctd\u003E2016-05-25\u003C/td\u003E\r\n        \u003Ctd\u003Eactive\u003C/td\u003E\r\n        \u003Ctd\u003Econfirmed\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"f52c6835-550b-4957-95d6-b6fc0f65271e\"\u003E\r\n        \u003Ctd\u003EGout\u003C/td\u003E\r\n        \u003Ctd\u003EProblem List Item\u003C/td\u003E\r\n        \u003Ctd\u003E2020-10-01\u003C/td\u003E\r\n        \u003Ctd\u003Eactive\u003C/td\u003E\r\n        \u003Ctd\u003Econfirmed\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/tbody\u003E\r\n  \u003C/table\u003E\r\n\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Condition/f1d28c03-a711-4666-89f1-255e3216149c"
+              },
+              {
+                "reference": "Condition/f52c6835-550b-4957-95d6-b6fc0f65271e"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\r\n  \u003Ctable\u003E\r\n    \u003Cthead\u003E\r\n      \u003Ctr\u003E\r\n        \u003Cth\u003EDrug\u003C/th\u003E\r\n        \u003Cth\u003EStatus\u003C/th\u003E\r\n        \u003Cth\u003EEffective\u003C/th\u003E\r\n        \u003Cth\u003EInstructions\u003C/th\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/thead\u003E\r\n    \u003Ctbody\u003E\r\n      \u003Ctr id=\"6c21d5e4-ce92-4a0c-b4d7-104f6587f500\"\u003E\r\n        \u003Ctd\u003Ecilazapril 500 microgram tablet, 90\u003C/td\u003E\r\n        \u003Ctd\u003EStopped\u003C/td\u003E\r\n        \u003Ctd\u003E2023-12-01\u003C/td\u003E\r\n        \u003Ctd /\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"2380c0e9-9258-4041-a041-7888d4bc2861\"\u003E\r\n        \u003Ctd\u003Elisinopril 5 mg tablet\u003C/td\u003E\r\n        \u003Ctd\u003EActive\u003C/td\u003E\r\n        \u003Ctd\u003E2026-05-05\u003C/td\u003E\r\n        \u003Ctd /\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/tbody\u003E\r\n  \u003C/table\u003E\r\n\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/6c21d5e4-ce92-4a0c-b4d7-104f6587f500"
+              },
+              {
+                "reference": "MedicationStatement/2380c0e9-9258-4041-a041-7888d4bc2861"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\r\n  \u003Ctable\u003E\r\n    \u003Cthead\u003E\r\n      \u003Ctr\u003E\r\n        \u003Cth\u003EVaccine\u003C/th\u003E\r\n        \u003Cth\u003EStatus\u003C/th\u003E\r\n        \u003Cth\u003EOccurance\u003C/th\u003E\r\n        \u003Cth\u003ERoute\u003C/th\u003E\r\n        \u003Cth\u003EDose #\u003C/th\u003E\r\n        \u003Cth\u003ESeries\u003C/th\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/thead\u003E\r\n    \u003Ctbody\u003E\r\n      \u003Ctr id=\"4436634a-1553-491f-810b-9ecfbf7aa90f\"\u003E\r\n        \u003Ctd\u003EInfluenza vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2026-04-15\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E1\u003C/td\u003E\r\n        \u003Ctd\u003E1 (Over 65 years (Influenza))\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"dc2f2302-54ff-491d-bc9c-a95bf8364a83\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2026-04-15\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E7\u003C/td\u003E\r\n        \u003Ctd\u003E6 (Booster or Extra dose)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"a3b038ee-44c3-455d-85d9-2c151992c4e2\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2025-04-01\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E6\u003C/td\u003E\r\n        \u003Ctd\u003E6 (Booster or Extra dose)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"1b9ec50e-1da6-4077-9c6b-da8daf11364e\"\u003E\r\n        \u003Ctd\u003EInfluenza vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2025-04-01\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E1\u003C/td\u003E\r\n        \u003Ctd\u003E1 (Over 65 years (Influenza))\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"2740a1ec-f839-4698-a10c-27d4c0d1d467\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2024-02-18\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E5\u003C/td\u003E\r\n        \u003Ctd\u003E6 (Booster or Extra dose)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"1170a19f-91ce-4bf2-8778-96dbd6448878\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2022-08-01\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E4\u003C/td\u003E\r\n        \u003Ctd\u003E12 (At risk, no previous history)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"4230076b-40c4-4709-8e7f-34236aaa3c8f\"\u003E\r\n        \u003Ctd\u003EHuman alphaherpesvirus 3 antigen-containing vaccine product\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2022-07-13\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E1\u003C/td\u003E\r\n        \u003Ctd\u003E65Y (65 years)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"dd011d98-f8f4-423a-9064-ef9dc23f7437\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2022-01-13\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E3\u003C/td\u003E\r\n        \u003Ctd\u003E12 (At risk, no previous history)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"a439c14e-6aa0-47a3-8708-6e720e7e0ef7\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2021-08-27\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E2\u003C/td\u003E\r\n        \u003Ctd\u003E12 (At risk, no previous history)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"e07a1e29-9b43-4245-835e-b256315858c3\"\u003E\r\n        \u003Ctd\u003ESARS-CoV-2 mRNA vaccine\u003C/td\u003E\r\n        \u003Ctd\u003ECompleted\u003C/td\u003E\r\n        \u003Ctd\u003E2021-08-05\u003C/td\u003E\r\n        \u003Ctd\u003EInjection, intramuscular\u003C/td\u003E\r\n        \u003Ctd\u003E1\u003C/td\u003E\r\n        \u003Ctd\u003E12 (At risk, no previous history)\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/tbody\u003E\r\n  \u003C/table\u003E\r\n\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Immunization/4436634a-1553-491f-810b-9ecfbf7aa90f"
+              },
+              {
+                "reference": "Immunization/dc2f2302-54ff-491d-bc9c-a95bf8364a83"
+              },
+              {
+                "reference": "Immunization/a3b038ee-44c3-455d-85d9-2c151992c4e2"
+              },
+              {
+                "reference": "Immunization/1b9ec50e-1da6-4077-9c6b-da8daf11364e"
+              },
+              {
+                "reference": "Immunization/2740a1ec-f839-4698-a10c-27d4c0d1d467"
+              },
+              {
+                "reference": "Immunization/1170a19f-91ce-4bf2-8778-96dbd6448878"
+              },
+              {
+                "reference": "Immunization/4230076b-40c4-4709-8e7f-34236aaa3c8f"
+              },
+              {
+                "reference": "Immunization/dd011d98-f8f4-423a-9064-ef9dc23f7437"
+              },
+              {
+                "reference": "Immunization/a439c14e-6aa0-47a3-8708-6e720e7e0ef7"
+              },
+              {
+                "reference": "Immunization/e07a1e29-9b43-4245-835e-b256315858c3"
+              }
+            ]
+          },
+          {
+            "title": "Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'\u003EThere is no information available about the subject's past history of procedures.\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Procedure/b06e33ad-a182-4695-9c07-9e6e1911fbe8"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\r\n  \u003Ctable\u003E\r\n    \u003Cthead\u003E\r\n      \u003Ctr\u003E\r\n        \u003Cth\u003EType\u003C/th\u003E\r\n        \u003Cth\u003EResult\u003C/th\u003E\r\n        \u003Cth\u003EDate\u003C/th\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/thead\u003E\r\n    \u003Ctbody\u003E\r\n      \u003Ctr id=\"75364ec2-944f-4d5a-9023-a2aee75cc440\"\u003E\r\n        \u003Ctd\u003E4014 (Differential: Basophil)\u003C/td\u003E\r\n        \u003Ctd\u003E&lt;0.1\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"bf0b82dc-d4e0-4135-a686-120d41a8aa9c\"\u003E\r\n        \u003Ctd\u003E4014 (Differential: Eosinophil)\u003C/td\u003E\r\n        \u003Ctd\u003E0.4 10*9/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"7f972323-8e38-400c-a2ea-dbd8a9b94fac\"\u003E\r\n        \u003Ctd\u003E4014 (Differential: Lymphocyte)\u003C/td\u003E\r\n        \u003Ctd\u003E1.8 10*9/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"f258204d-faee-4ff8-b607-aa3329fca32d\"\u003E\r\n        \u003Ctd\u003E4014 (Differential: Monocyte)\u003C/td\u003E\r\n        \u003Ctd\u003E0.3 10*9/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"a1ebb707-9a0c-4617-9101-ddb4d46eec69\"\u003E\r\n        \u003Ctd\u003E4014 (Differential: Neut Seg)\u003C/td\u003E\r\n        \u003Ctd\u003E2.2 10*9/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"75c24e0b-2031-4510-8ab6-13200c5499a5\"\u003E\r\n        \u003Ctd\u003E4014 (HAEMOGLOBIN)\u003C/td\u003E\r\n        \u003Ctd\u003E147 g/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"c6fb43cc-4186-49f0-a949-e796e76a25e7\"\u003E\r\n        \u003Ctd\u003E4014 (HCT)\u003C/td\u003E\r\n        \u003Ctd\u003E0.44 L/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"379a9685-f319-4162-a94a-83980afd1cd2\"\u003E\r\n        \u003Ctd\u003E4014 (MCH)\u003C/td\u003E\r\n        \u003Ctd\u003E31 pg\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"cce83efb-372a-4bd0-ac95-d2a953503e89\"\u003E\r\n        \u003Ctd\u003E4014 (MCV)\u003C/td\u003E\r\n        \u003Ctd\u003E92 fL\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"8f866c77-a8dd-456d-bba9-d7727aff5798\"\u003E\r\n        \u003Ctd\u003E4014 (PLATELET COUNT)\u003C/td\u003E\r\n        \u003Ctd\u003E187 10*9/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"be9e424c-89a0-4108-91ff-f24607955be2\"\u003E\r\n        \u003Ctd\u003E4014 (WBC)\u003C/td\u003E\r\n        \u003Ctd\u003E4.8 10*9/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"cc6df9e8-0a79-48bb-8fed-5062dac4f371\"\u003E\r\n        \u003Ctd\u003E1540 (TSH)\u003C/td\u003E\r\n        \u003Ctd\u003E2.16 mU/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"47b1f2a3-93b0-461c-bb36-f9ec821f4990\"\u003E\r\n        \u003Ctd\u003E1080 (Cholesterol)\u003C/td\u003E\r\n        \u003Ctd\u003E6.2 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"64347e48-a5ff-4b2c-bd51-e479b5d4937e\"\u003E\r\n        \u003Ctd\u003E1080 (HDL Cholesterol)\u003C/td\u003E\r\n        \u003Ctd\u003E1.38 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"9d9ff4e7-471d-4108-b1c9-aaaec3aec352\"\u003E\r\n        \u003Ctd\u003E1080 (LDL Chol - calculated)\u003C/td\u003E\r\n        \u003Ctd\u003E4.4 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"f1501ef2-82b4-4b20-b291-5f9cfdd8e8ff\"\u003E\r\n        \u003Ctd\u003E1080 (Lipid Comments.)\u003C/td\u003E\r\n        \u003Ctd\u003EA combined CVD risk, of which lipids is one component, should be estimated to guide CVD risk management decisions. If lipid modifying medication is considered, suggest checking first for treatable secondary causes of dyslipidaemia.\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"2518da0c-a257-46de-a94e-509014354694\"\u003E\r\n        \u003Ctd\u003E1080 (Total/HDL Chol Ratio)\u003C/td\u003E\r\n        \u003Ctd\u003E4.5 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"a0cb2486-942e-4535-acd9-6a5e98a5d4e8\"\u003E\r\n        \u003Ctd\u003E1080 (Triglyceride)\u003C/td\u003E\r\n        \u003Ctd\u003E1.0 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"b71b676f-ed6d-4a41-a149-183999cfafb2\"\u003E\r\n        \u003Ctd\u003E0055 (Creatinine)\u003C/td\u003E\r\n        \u003Ctd\u003E92 umol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"f158b72f-4c1c-4ca8-ba3c-168d28d4a735\"\u003E\r\n        \u003Ctd\u003E0055 (eGFR)\u003C/td\u003E\r\n        \u003Ctd\u003E73 mL/min\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"2bffc887-c2e1-4b03-b853-f9f900ff253f\"\u003E\r\n        \u003Ctd\u003E0055 (Potassium)\u003C/td\u003E\r\n        \u003Ctd\u003E4.4 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"38886ce7-b77d-4b34-b659-5d32b0a8e1ad\"\u003E\r\n        \u003Ctd\u003E0055 (Sodium)\u003C/td\u003E\r\n        \u003Ctd\u003E142 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"84fcc880-f104-435b-9e2c-956bc9098597\"\u003E\r\n        \u003Ctd\u003E0055 (Uric Acid)\u003C/td\u003E\r\n        \u003Ctd\u003E0.41 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"44a41c01-7622-4847-8e34-f6d27d3e3242\"\u003E\r\n        \u003Ctd\u003E0063 (HbA1c (IFCC))\u003C/td\u003E\r\n        \u003Ctd\u003E34 mmol/mol\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"1c1d073d-aad7-4245-b498-a2ffd2718ffb\"\u003E\r\n        \u003Ctd\u003E0100 (Albumin)\u003C/td\u003E\r\n        \u003Ctd\u003E38 g/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"571b9f5c-b601-4838-be81-100384b3fbcc\"\u003E\r\n        \u003Ctd\u003E0100 (Alk Phosphatase)\u003C/td\u003E\r\n        \u003Ctd\u003E69 U/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"8b049848-2efb-441c-b827-45eb37d09c30\"\u003E\r\n        \u003Ctd\u003E0100 (ALT)\u003C/td\u003E\r\n        \u003Ctd\u003E10 U/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"e8c8bdd2-219b-4f2f-8ccb-3830a9633bab\"\u003E\r\n        \u003Ctd\u003E0100 (Bilirubin total)\u003C/td\u003E\r\n        \u003Ctd\u003E12 umol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"4e83f5d2-5741-4d57-8ec9-87348d2d2679\"\u003E\r\n        \u003Ctd\u003E0100 (GGT)\u003C/td\u003E\r\n        \u003Ctd\u003E17 U/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"31ef373a-f5c6-42b2-8e06-cf0943a9f06e\"\u003E\r\n        \u003Ctd\u003E0100 (Globulin)\u003C/td\u003E\r\n        \u003Ctd\u003E33 g/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"5d6da5d8-139e-4267-b0c2-3ac3a2a96aa7\"\u003E\r\n        \u003Ctd\u003E0100 (Total Protein)\u003C/td\u003E\r\n        \u003Ctd\u003E71 g/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"fd2ac31d-7083-43cf-88e0-59f028c317c2\"\u003E\r\n        \u003Ctd\u003E0320 (Calcium (adjusted for Albumin))\u003C/td\u003E\r\n        \u003Ctd\u003E2.44 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"0adb6936-8c5f-4784-af18-db3e3597677b\"\u003E\r\n        \u003Ctd\u003E0320 (Calcium)\u003C/td\u003E\r\n        \u003Ctd\u003E2.45 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"40230e4b-366a-40e6-83ea-5f7fbc35ccd1\"\u003E\r\n        \u003Ctd\u003E0320 (Phosphorus)\u003C/td\u003E\r\n        \u003Ctd\u003E1.10 mmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"496ede76-3829-4358-8e6b-0352a9c48d3d\"\u003E\r\n        \u003Ctd\u003E1960 (Folate)\u003C/td\u003E\r\n        \u003Ctd\u003E24.0 nmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"fc25e45a-d115-4859-9b2f-0c595b1fecb1\"\u003E\r\n        \u003Ctd\u003E1960 (Vitamin B12)\u003C/td\u003E\r\n        \u003Ctd\u003E215 pmol/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"fd24e00a-2470-4887-9d47-bbe1c7987f9c\"\u003E\r\n        \u003Ctd\u003E0170 (Ferritin)\u003C/td\u003E\r\n        \u003Ctd\u003E240 ug/L\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-20T07:45:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/tbody\u003E\r\n  \u003C/table\u003E\r\n\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/75364ec2-944f-4d5a-9023-a2aee75cc440"
+              },
+              {
+                "reference": "Observation/bf0b82dc-d4e0-4135-a686-120d41a8aa9c"
+              },
+              {
+                "reference": "Observation/7f972323-8e38-400c-a2ea-dbd8a9b94fac"
+              },
+              {
+                "reference": "Observation/f258204d-faee-4ff8-b607-aa3329fca32d"
+              },
+              {
+                "reference": "Observation/a1ebb707-9a0c-4617-9101-ddb4d46eec69"
+              },
+              {
+                "reference": "Observation/75c24e0b-2031-4510-8ab6-13200c5499a5"
+              },
+              {
+                "reference": "Observation/c6fb43cc-4186-49f0-a949-e796e76a25e7"
+              },
+              {
+                "reference": "Observation/379a9685-f319-4162-a94a-83980afd1cd2"
+              },
+              {
+                "reference": "Observation/cce83efb-372a-4bd0-ac95-d2a953503e89"
+              },
+              {
+                "reference": "Observation/8f866c77-a8dd-456d-bba9-d7727aff5798"
+              },
+              {
+                "reference": "Observation/be9e424c-89a0-4108-91ff-f24607955be2"
+              },
+              {
+                "reference": "DiagnosticReport/ef57db1a-5066-4a1c-ac7b-da2fd30f203d"
+              },
+              {
+                "reference": "Observation/cc6df9e8-0a79-48bb-8fed-5062dac4f371"
+              },
+              {
+                "reference": "DiagnosticReport/20de58c8-cc19-43ca-ba1a-7467db120b7b"
+              },
+              {
+                "reference": "Observation/47b1f2a3-93b0-461c-bb36-f9ec821f4990"
+              },
+              {
+                "reference": "Observation/64347e48-a5ff-4b2c-bd51-e479b5d4937e"
+              },
+              {
+                "reference": "Observation/9d9ff4e7-471d-4108-b1c9-aaaec3aec352"
+              },
+              {
+                "reference": "Observation/f1501ef2-82b4-4b20-b291-5f9cfdd8e8ff"
+              },
+              {
+                "reference": "Observation/2518da0c-a257-46de-a94e-509014354694"
+              },
+              {
+                "reference": "Observation/a0cb2486-942e-4535-acd9-6a5e98a5d4e8"
+              },
+              {
+                "reference": "DiagnosticReport/5308fdf3-7560-492d-b00d-2bfd8a322304"
+              },
+              {
+                "reference": "Observation/b71b676f-ed6d-4a41-a149-183999cfafb2"
+              },
+              {
+                "reference": "Observation/f158b72f-4c1c-4ca8-ba3c-168d28d4a735"
+              },
+              {
+                "reference": "Observation/2bffc887-c2e1-4b03-b853-f9f900ff253f"
+              },
+              {
+                "reference": "Observation/38886ce7-b77d-4b34-b659-5d32b0a8e1ad"
+              },
+              {
+                "reference": "Observation/84fcc880-f104-435b-9e2c-956bc9098597"
+              },
+              {
+                "reference": "DiagnosticReport/6bc26624-2868-4bfd-ab31-f6bf397dcacf"
+              },
+              {
+                "reference": "Observation/44a41c01-7622-4847-8e34-f6d27d3e3242"
+              },
+              {
+                "reference": "DiagnosticReport/a32ec07d-5a6b-44c4-bdba-fff581f9a88a"
+              },
+              {
+                "reference": "Observation/1c1d073d-aad7-4245-b498-a2ffd2718ffb"
+              },
+              {
+                "reference": "Observation/571b9f5c-b601-4838-be81-100384b3fbcc"
+              },
+              {
+                "reference": "Observation/8b049848-2efb-441c-b827-45eb37d09c30"
+              },
+              {
+                "reference": "Observation/e8c8bdd2-219b-4f2f-8ccb-3830a9633bab"
+              },
+              {
+                "reference": "Observation/4e83f5d2-5741-4d57-8ec9-87348d2d2679"
+              },
+              {
+                "reference": "Observation/31ef373a-f5c6-42b2-8e06-cf0943a9f06e"
+              },
+              {
+                "reference": "Observation/5d6da5d8-139e-4267-b0c2-3ac3a2a96aa7"
+              },
+              {
+                "reference": "DiagnosticReport/665f83b6-dcee-4c65-9fb1-6c025dc0cea3"
+              },
+              {
+                "reference": "Observation/fd2ac31d-7083-43cf-88e0-59f028c317c2"
+              },
+              {
+                "reference": "Observation/0adb6936-8c5f-4784-af18-db3e3597677b"
+              },
+              {
+                "reference": "Observation/40230e4b-366a-40e6-83ea-5f7fbc35ccd1"
+              },
+              {
+                "reference": "DiagnosticReport/14b3fd01-c663-4e3b-a077-3d8cb9ae1239"
+              },
+              {
+                "reference": "Observation/496ede76-3829-4358-8e6b-0352a9c48d3d"
+              },
+              {
+                "reference": "Observation/fc25e45a-d115-4859-9b2f-0c595b1fecb1"
+              },
+              {
+                "reference": "DiagnosticReport/62f609d6-7494-405e-b19f-52ea55c34b22"
+              },
+              {
+                "reference": "Observation/fd24e00a-2470-4887-9d47-bbe1c7987f9c"
+              },
+              {
+                "reference": "DiagnosticReport/28e1a019-e811-4853-8657-041c8bc901a4"
+              }
+            ]
+          },
+          {
+            "title": "Vital Signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\r\n  \u003Ctable\u003E\r\n    \u003Cthead\u003E\r\n      \u003Ctr\u003E\r\n        \u003Cth\u003EType\u003C/th\u003E\r\n        \u003Cth\u003EResult\u003C/th\u003E\r\n        \u003Cth\u003EDate\u003C/th\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/thead\u003E\r\n    \u003Ctbody\u003E\r\n      \u003Ctr id=\"06ade8d9-258c-4d70-b62b-52d10345bb43\"\u003E\r\n        \u003Ctd\u003EBody weight\u003C/td\u003E\r\n        \u003Ctd\u003E96.00 kg\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-14T12:54:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"3acf0a8f-74a0-4f94-a37c-19f0729ab665\"\u003E\r\n        \u003Ctd\u003ESystolic blood pressure\u003C/td\u003E\r\n        \u003Ctd\u003E140 mmHg\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-14T12:53:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"3acf0a8f-74a0-4f94-a37c-19f0729ab665\"\u003E\r\n        \u003Ctd\u003EDiastolic blood pressure\u003C/td\u003E\r\n        \u003Ctd\u003E70 mmHg\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-14T12:53:00+00:00\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/tbody\u003E\r\n  \u003C/table\u003E\r\n\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/3acf0a8f-74a0-4f94-a37c-19f0729ab665"
+              },
+              {
+                "reference": "Observation/06ade8d9-258c-4d70-b62b-52d10345bb43"
+              }
+            ]
+          },
+          {
+            "title": "Social History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns=\"http://www.w3.org/1999/xhtml\"\u003E\r\n  \u003Ctable\u003E\r\n    \u003Cthead\u003E\r\n      \u003Ctr\u003E\r\n        \u003Cth\u003EType\u003C/th\u003E\r\n        \u003Cth\u003EResult\u003C/th\u003E\r\n        \u003Cth\u003EDate\u003C/th\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/thead\u003E\r\n    \u003Ctbody\u003E\r\n      \u003Ctr id=\"3648b232-8d68-4448-923b-6e910ad6cba9\"\u003E\r\n        \u003Ctd\u003ETobacco smoking status\u003C/td\u003E\r\n        \u003Ctd\u003ENever smoker\u003C/td\u003E\r\n        \u003Ctd\u003E2025-11-14\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n      \u003Ctr id=\"360f5aee-8d53-4a4b-8c15-fcfabe32b211\"\u003E\r\n        \u003Ctd\u003EAlcoholic drinks per day\u003C/td\u003E\r\n        \u003Ctd\u003E1 d\u003C/td\u003E\r\n        \u003Ctd\u003E2016-06-22\u003C/td\u003E\r\n      \u003C/tr\u003E\r\n    \u003C/tbody\u003E\r\n  \u003C/table\u003E\r\n\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Observation/3648b232-8d68-4448-923b-6e910ad6cba9"
+              },
+              {
+                "reference": "Observation/360f5aee-8d53-4a4b-8c15-fcfabe32b211"
+              }
+            ]
+          },
+          {
+            "title": "Alerts",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "104605-1",
+                  "display": "Alert"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'\u003EShellfish free diet to prevent excess uric acid levels triggering gout attacks.\u003C/div\u003E"
+            },
+            "entry": [
+              {
+                "reference": "Flag/61b7dfe4-42d5-4efb-b56d-256981e73b96"
+              }
+            ]
+          },
+          {
+            "title": "Patient Story",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "Patient Goals, preferences, and priorities for care experience"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'\u003EPatient undergoing lifestyle changes to lower blood pressure.\u003C/div\u003E"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "NNJ9186",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Patient/NNJ9186",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "NNJ9186",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EName: Peter KEITH JORDAN\u003C/div\u003E"
+        },
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/nhi-id",
+            "value": "NNJ9186"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "family": "JORDAN",
+            "given": [
+              "Peter KEITH"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "other",
+            "value": "+6421758834",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1956-09-30",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "line": [
+              "3",
+              "Worcester Drive",
+              "Rototuna North"
+            ],
+            "city": "Hamilton",
+            "postalCode": "3210"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C",
+                    "display": "Emergency Contact"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "use": "usual",
+              "family": "JORDAN",
+              "given": [
+                "Vicki",
+                "JORDAN"
+              ]
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "21884820",
+                "use": "mobile"
+              },
+              {
+                "system": "phone",
+                "value": "853 3279",
+                "use": "work"
+              }
+            ],
+            "address": {
+              "use": "home",
+              "type": "physical",
+              "line": [
+                "3 Worcester Drive",
+                "Rototuna North"
+              ],
+              "city": "Hamilton"
+            }
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "PractitionerRole/7063c48e-5dbd-44e5-92f0-f7e8f552c9c7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ad3b3edc-c1b6-4b60-b220-7d49a816b20a",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "ad3b3edc-c1b6-4b60-b220-7d49a816b20a",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EName: NorthCare Pukete Road-Thomas Road\u003C/div\u003E"
+        },
+        "identifier": [
+          {
+            "system": "https://standards.digital.health.nz/ns/hpi-facility-id",
+            "value": "F0K068-E"
+          }
+        ],
+        "name": "NorthCare Pukete Road-Thomas Road"
+      }
+    },
+    {
+      "id": "7063c48e-5dbd-44e5-92f0-f7e8f552c9c7",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/7063c48e-5dbd-44e5-92f0-f7e8f552c9c7",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "7063c48e-5dbd-44e5-92f0-f7e8f552c9c7",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003ERole: Doctor\u003C/div\u003E"
+        },
+        "practitioner": {
+          "reference": "Practitioner/7eb0da56-7669-48f2-9ead-db7e0007cb95"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "158965000",
+                "display": "Doctor"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "7eb0da56-7669-48f2-9ead-db7e0007cb95",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Practitioner/7eb0da56-7669-48f2-9ead-db7e0007cb95",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7eb0da56-7669-48f2-9ead-db7e0007cb95",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EName: Hashira COORAY\u003C/div\u003E"
+        },
+        "name": [
+          {
+            "use": "usual",
+            "family": "COORAY",
+            "given": [
+              "Hashira",
+              "COORAY"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "07 850 9900",
+            "use": "work"
+          }
+        ]
+      }
+    },
+    {
+      "id": "84a23bd5-cddc-4a98-82a1-fc5df56ea6d1",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/AllergyIntolerance/84a23bd5-cddc-4a98-82a1-fc5df56ea6d1",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "84a23bd5-cddc-4a98-82a1-fc5df56ea6d1",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003ENo known allergy\u003C/div\u003E"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "716186003",
+              "display": "No known allergy"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        }
+      }
+    },
+    {
+      "id": "f1d28c03-a711-4666-89f1-255e3216149c",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/f1d28c03-a711-4666-89f1-255e3216149c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f1d28c03-a711-4666-89f1-255e3216149c",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EEssential hypertension\u003C/div\u003E"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "recordedDate": "2016-05-25",
+        "asserter": {
+          "reference": "Practitioner/7eb0da56-7669-48f2-9ead-db7e0007cb95"
+        }
+      }
+    },
+    {
+      "id": "f52c6835-550b-4957-95d6-b6fc0f65271e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Condition/f52c6835-550b-4957-95d6-b6fc0f65271e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f52c6835-550b-4957-95d6-b6fc0f65271e",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EGout (disorder)\u003C/div\u003E"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90560007",
+              "display": "Gout"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "recordedDate": "2020-10-01"
+      }
+    },
+    {
+      "id": "6c21d5e4-ce92-4a0c-b4d7-104f6587f500",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/MedicationStatement/6c21d5e4-ce92-4a0c-b4d7-104f6587f500",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "6c21d5e4-ce92-4a0c-b4d7-104f6587f500",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E31099751000116106 (cilazapril 500 microgram tablet, 90)\u003C/div\u003E"
+        },
+        "status": "stopped",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "318913001",
+              "display": "Product containing cilazapril (medicinal product)"
+            }
+          ],
+          "text": "cilazapril 500 microgram tablet, 90"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2023-12-01",
+        "informationSource": {
+          "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+        },
+        "dosage": [
+          {
+            "patientInstruction": "Take 1 daily",
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://snomed.info/sct",
+                  "code": "428673006"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "2380c0e9-9258-4041-a041-7888d4bc2861",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/MedicationStatement/2380c0e9-9258-4041-a041-7888d4bc2861",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "2380c0e9-9258-4041-a041-7888d4bc2861",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E10070691000116102 (lisinopril 5 mg tablet)\u003C/div\u003E"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "108575001",
+              "display": "Product containing lisinopril (medicinal product)"
+            }
+          ],
+          "text": "lisinopril 5 mg tablet"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2026-05-05",
+        "informationSource": {
+          "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+        },
+        "dosage": [
+          {
+            "patientInstruction": "Take One tablet once daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1,
+                  "unit": "tablet",
+                  "system": "http://snomed.info/sct",
+                  "code": "428673006"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "4436634a-1553-491f-810b-9ecfbf7aa90f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/4436634a-1553-491f-810b-9ecfbf7aa90f",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4436634a-1553-491f-810b-9ecfbf7aa90f",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E99006 (Influenza)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1181000221105",
+              "display": "Influenza vaccine"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2026-04-15",
+        "lotNumber": "N06",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "1 (Over 65 years (Influenza))",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "6142004",
+                    "display": "Influenza"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "dc2f2302-54ff-491d-bc9c-a95bf8364a83",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/dc2f2302-54ff-491d-bc9c-a95bf8364a83",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "dc2f2302-54ff-491d-bc9c-a95bf8364a83",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E217 (COVID-19 Comirnaty LP.8.1 30 mcg)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19 Comirnaty JN.1 30mcg"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2026-04-15",
+        "lotNumber": "nl3865",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "6 (Booster or Extra dose)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3b038ee-44c3-455d-85d9-2c151992c4e2",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/a3b038ee-44c3-455d-85d9-2c151992c4e2",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "a3b038ee-44c3-455d-85d9-2c151992c4e2",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E217 (COVID-19 Comirnaty JN.1 30mcg)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19 Comirnaty JN.1 30mcg"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2025-04-01",
+        "lotNumber": "LR9576-006",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "6 (Booster or Extra dose)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "1b9ec50e-1da6-4077-9c6b-da8daf11364e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/1b9ec50e-1da6-4077-9c6b-da8daf11364e",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "1b9ec50e-1da6-4077-9c6b-da8daf11364e",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E99006 (Influenza)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1181000221105",
+              "display": "Influenza vaccine"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2025-04-01",
+        "lotNumber": "k07",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "1 (Over 65 years (Influenza))",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "6142004",
+                    "display": "Influenza"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "2740a1ec-f839-4698-a10c-27d4c0d1d467",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/2740a1ec-f839-4698-a10c-27d4c0d1d467",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2740a1ec-f839-4698-a10c-27d4c0d1d467",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E300 (COVID-19 Comirnaty mRNA-CV Bivalent (15mcg/15mcg))\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2024-02-18",
+        "lotNumber": "GK3908-068",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "6 (Booster or Extra dose)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "1170a19f-91ce-4bf2-8778-96dbd6448878",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/1170a19f-91ce-4bf2-8778-96dbd6448878",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "1170a19f-91ce-4bf2-8778-96dbd6448878",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E208 (Pfizer/BioNtech)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2022-08-01",
+        "lotNumber": "PCB0008-07",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "4230076b-40c4-4709-8e7f-34236aaa3c8f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/4230076b-40c4-4709-8e7f-34236aaa3c8f",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4230076b-40c4-4709-8e7f-34236aaa3c8f",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E121 (Zoster)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "836495005",
+              "display": "Human alphaherpesvirus 3 antigen-containing vaccine product"
+            }
+          ],
+          "text": "Live attenuated shingles vaccine, unspecified"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2022-07-13",
+        "lotNumber": "U021248",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "72098002",
+              "display": "Entire left upper arm"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "65Y (65 years)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "4740000",
+                    "display": "Shingles"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd011d98-f8f4-423a-9064-ef9dc23f7437",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/dd011d98-f8f4-423a-9064-ef9dc23f7437",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "dd011d98-f8f4-423a-9064-ef9dc23f7437",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E208 (Pfizer/BioNtech)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2022-01-13",
+        "lotNumber": "FL1072-025",
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "a439c14e-6aa0-47a3-8708-6e720e7e0ef7",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/a439c14e-6aa0-47a3-8708-6e720e7e0ef7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "a439c14e-6aa0-47a3-8708-6e720e7e0ef7",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E208 (Pfizer/BioNtech)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2021-08-27",
+        "lotNumber": "FE8163-007",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "e07a1e29-9b43-4245-835e-b256315858c3",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Immunization/e07a1e29-9b43-4245-835e-b256315858c3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e07a1e29-9b43-4245-835e-b256315858c3",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E208 (Pfizer/BioNtech)\u003C/div\u003E"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119349007",
+              "display": "SARS-CoV-2 mRNA vaccine"
+            }
+          ],
+          "text": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+        },
+        "patient": {
+          "reference": "Patient/NNJ9186"
+        },
+        "occurrenceDateTime": "2021-08-05",
+        "lotNumber": "FF8871-001",
+        "site": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "16217701000119102",
+              "display": "Structure of left deltoid muscle"
+            }
+          ]
+        },
+        "route": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+              "code": "IM",
+              "display": "Injection, intramuscular"
+            }
+          ]
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "Organization/ad3b3edc-c1b6-4b60-b220-7d49a816b20a"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "series": "12 (At risk, no previous history)",
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "840539006",
+                    "display": "COVID-19"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "b06e33ad-a182-4695-9c07-9e6e1911fbe8",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Procedure/b06e33ad-a182-4695-9c07-9e6e1911fbe8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b06e33ad-a182-4695-9c07-9e6e1911fbe8",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003ENo known procedures\u003C/div\u003E"
+        },
+        "status": "unknown",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "787480003",
+              "display": "No known procedures"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "performedString": "N/A"
+      }
+    },
+    {
+      "id": "ef57db1a-5066-4a1c-ac7b-da2fd30f203d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/ef57db1a-5066-4a1c-ac7b-da2fd30f203d",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "ef57db1a-5066-4a1c-ac7b-da2fd30f203d",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (CBC)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (CBC)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T11:05:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/75364ec2-944f-4d5a-9023-a2aee75cc440"
+          },
+          {
+            "reference": "Observation/bf0b82dc-d4e0-4135-a686-120d41a8aa9c"
+          },
+          {
+            "reference": "Observation/7f972323-8e38-400c-a2ea-dbd8a9b94fac"
+          },
+          {
+            "reference": "Observation/f258204d-faee-4ff8-b607-aa3329fca32d"
+          },
+          {
+            "reference": "Observation/a1ebb707-9a0c-4617-9101-ddb4d46eec69"
+          },
+          {
+            "reference": "Observation/75c24e0b-2031-4510-8ab6-13200c5499a5"
+          },
+          {
+            "reference": "Observation/c6fb43cc-4186-49f0-a949-e796e76a25e7"
+          },
+          {
+            "reference": "Observation/379a9685-f319-4162-a94a-83980afd1cd2"
+          },
+          {
+            "reference": "Observation/cce83efb-372a-4bd0-ac95-d2a953503e89"
+          },
+          {
+            "reference": "Observation/8f866c77-a8dd-456d-bba9-d7727aff5798"
+          },
+          {
+            "reference": "Observation/be9e424c-89a0-4108-91ff-f24607955be2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20de58c8-cc19-43ca-ba1a-7467db120b7b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/20de58c8-cc19-43ca-ba1a-7467db120b7b",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "20de58c8-cc19-43ca-ba1a-7467db120b7b",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1540 (TFTs............)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1540 (TFTs............)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T12:05:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/cc6df9e8-0a79-48bb-8fed-5062dac4f371"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5308fdf3-7560-492d-b00d-2bfd8a322304",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/5308fdf3-7560-492d-b00d-2bfd8a322304",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "5308fdf3-7560-492d-b00d-2bfd8a322304",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (LIPIDS..........)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (LIPIDS..........)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T12:35:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/47b1f2a3-93b0-461c-bb36-f9ec821f4990"
+          },
+          {
+            "reference": "Observation/64347e48-a5ff-4b2c-bd51-e479b5d4937e"
+          },
+          {
+            "reference": "Observation/9d9ff4e7-471d-4108-b1c9-aaaec3aec352"
+          },
+          {
+            "reference": "Observation/f1501ef2-82b4-4b20-b291-5f9cfdd8e8ff"
+          },
+          {
+            "reference": "Observation/2518da0c-a257-46de-a94e-509014354694"
+          },
+          {
+            "reference": "Observation/a0cb2486-942e-4535-acd9-6a5e98a5d4e8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6bc26624-2868-4bfd-ab31-f6bf397dcacf",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/6bc26624-2868-4bfd-ab31-f6bf397dcacf",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "6bc26624-2868-4bfd-ab31-f6bf397dcacf",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0055 (GENERAL CHEM....)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0055 (GENERAL CHEM....)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T12:35:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/b71b676f-ed6d-4a41-a149-183999cfafb2"
+          },
+          {
+            "reference": "Observation/f158b72f-4c1c-4ca8-ba3c-168d28d4a735"
+          },
+          {
+            "reference": "Observation/2bffc887-c2e1-4b03-b853-f9f900ff253f"
+          },
+          {
+            "reference": "Observation/38886ce7-b77d-4b34-b659-5d32b0a8e1ad"
+          },
+          {
+            "reference": "Observation/84fcc880-f104-435b-9e2c-956bc9098597"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a32ec07d-5a6b-44c4-bdba-fff581f9a88a",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/a32ec07d-5a6b-44c4-bdba-fff581f9a88a",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "a32ec07d-5a6b-44c4-bdba-fff581f9a88a",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0063 (HBA1c)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0063 (HBA1c)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T14:35:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/44a41c01-7622-4847-8e34-f6d27d3e3242"
+          }
+        ]
+      }
+    },
+    {
+      "id": "665f83b6-dcee-4c65-9fb1-6c025dc0cea3",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/665f83b6-dcee-4c65-9fb1-6c025dc0cea3",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "665f83b6-dcee-4c65-9fb1-6c025dc0cea3",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (Liver Function Tests)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (Liver Function Tests)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T12:35:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/1c1d073d-aad7-4245-b498-a2ffd2718ffb"
+          },
+          {
+            "reference": "Observation/571b9f5c-b601-4838-be81-100384b3fbcc"
+          },
+          {
+            "reference": "Observation/8b049848-2efb-441c-b827-45eb37d09c30"
+          },
+          {
+            "reference": "Observation/e8c8bdd2-219b-4f2f-8ccb-3830a9633bab"
+          },
+          {
+            "reference": "Observation/4e83f5d2-5741-4d57-8ec9-87348d2d2679"
+          },
+          {
+            "reference": "Observation/31ef373a-f5c6-42b2-8e06-cf0943a9f06e"
+          },
+          {
+            "reference": "Observation/5d6da5d8-139e-4267-b0c2-3ac3a2a96aa7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14b3fd01-c663-4e3b-a077-3d8cb9ae1239",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/14b3fd01-c663-4e3b-a077-3d8cb9ae1239",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "14b3fd01-c663-4e3b-a077-3d8cb9ae1239",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0320 (CALCIUM.........)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0320 (CALCIUM.........)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T13:05:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/fd2ac31d-7083-43cf-88e0-59f028c317c2"
+          },
+          {
+            "reference": "Observation/0adb6936-8c5f-4784-af18-db3e3597677b"
+          },
+          {
+            "reference": "Observation/40230e4b-366a-40e6-83ea-5f7fbc35ccd1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "62f609d6-7494-405e-b19f-52ea55c34b22",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/62f609d6-7494-405e-b19f-52ea55c34b22",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "62f609d6-7494-405e-b19f-52ea55c34b22",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1960 (B12 and Folate)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1960 (B12 and Folate)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T12:35:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/496ede76-3829-4358-8e6b-0352a9c48d3d"
+          },
+          {
+            "reference": "Observation/fc25e45a-d115-4859-9b2f-0c595b1fecb1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "28e1a019-e811-4853-8657-041c8bc901a4",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/DiagnosticReport/28e1a019-e811-4853-8657-041c8bc901a4",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "28e1a019-e811-4853-8657-041c8bc901a4",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0170 (Iron Studies)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0170 (Iron Studies)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T12:35:00+00:00",
+        "result": [
+          {
+            "reference": "Observation/fd24e00a-2470-4887-9d47-bbe1c7987f9c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75364ec2-944f-4d5a-9023-a2aee75cc440",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/75364ec2-944f-4d5a-9023-a2aee75cc440",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75364ec2-944f-4d5a-9023-a2aee75cc440",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (Differential: Basophil)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (Differential: Basophil)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueString": "\u003C0.1",
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0-0.2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bf0b82dc-d4e0-4135-a686-120d41a8aa9c",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/bf0b82dc-d4e0-4135-a686-120d41a8aa9c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf0b82dc-d4e0-4135-a686-120d41a8aa9c",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (Differential: Eosinophil)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (Differential: Eosinophil)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 0.4,
+          "unit": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0.0-0.5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7f972323-8e38-400c-a2ea-dbd8a9b94fac",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/7f972323-8e38-400c-a2ea-dbd8a9b94fac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7f972323-8e38-400c-a2ea-dbd8a9b94fac",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (Differential: Lymphocyte)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (Differential: Lymphocyte)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.8,
+          "unit": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "1.0-4.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f258204d-faee-4ff8-b607-aa3329fca32d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f258204d-faee-4ff8-b607-aa3329fca32d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f258204d-faee-4ff8-b607-aa3329fca32d",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (Differential: Monocyte)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (Differential: Monocyte)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 0.3,
+          "unit": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0.2-1.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1ebb707-9a0c-4617-9101-ddb4d46eec69",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a1ebb707-9a0c-4617-9101-ddb4d46eec69",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a1ebb707-9a0c-4617-9101-ddb4d46eec69",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (Differential: Neut Seg)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (Differential: Neut Seg)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 2.2,
+          "unit": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "1.9-7.5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75c24e0b-2031-4510-8ab6-13200c5499a5",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/75c24e0b-2031-4510-8ab6-13200c5499a5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75c24e0b-2031-4510-8ab6-13200c5499a5",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (HAEMOGLOBIN)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (HAEMOGLOBIN)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 147,
+          "unit": "g/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "130-175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6fb43cc-4186-49f0-a949-e796e76a25e7",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/c6fb43cc-4186-49f0-a949-e796e76a25e7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c6fb43cc-4186-49f0-a949-e796e76a25e7",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (HCT)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (HCT)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 0.44,
+          "unit": "L/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "L/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0.40-0.52"
+          }
+        ]
+      }
+    },
+    {
+      "id": "379a9685-f319-4162-a94a-83980afd1cd2",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/379a9685-f319-4162-a94a-83980afd1cd2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "379a9685-f319-4162-a94a-83980afd1cd2",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (MCH)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (MCH)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 31,
+          "unit": "pg",
+          "system": "http://unitsofmeasure.org",
+          "code": "pg"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "27-33"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cce83efb-372a-4bd0-ac95-d2a953503e89",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/cce83efb-372a-4bd0-ac95-d2a953503e89",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cce83efb-372a-4bd0-ac95-d2a953503e89",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (MCV)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (MCV)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 92,
+          "unit": "fL",
+          "system": "http://unitsofmeasure.org",
+          "code": "fL"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "80-99"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8f866c77-a8dd-456d-bba9-d7727aff5798",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8f866c77-a8dd-456d-bba9-d7727aff5798",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8f866c77-a8dd-456d-bba9-d7727aff5798",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (PLATELET COUNT)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (PLATELET COUNT)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 187,
+          "unit": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "150-400"
+          }
+        ]
+      }
+    },
+    {
+      "id": "be9e424c-89a0-4108-91ff-f24607955be2",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/be9e424c-89a0-4108-91ff-f24607955be2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "be9e424c-89a0-4108-91ff-f24607955be2",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E4014 (WBC)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "4014 (WBC)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.8,
+          "unit": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "10*9/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "4.0-11.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc6df9e8-0a79-48bb-8fed-5062dac4f371",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/cc6df9e8-0a79-48bb-8fed-5062dac4f371",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cc6df9e8-0a79-48bb-8fed-5062dac4f371",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1540 (TSH)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1540 (TSH)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 2.16,
+          "unit": "mU/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mU/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0.3-5.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47b1f2a3-93b0-461c-bb36-f9ec821f4990",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/47b1f2a3-93b0-461c-bb36-f9ec821f4990",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "47b1f2a3-93b0-461c-bb36-f9ec821f4990",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (Cholesterol)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (Cholesterol)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 6.2,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Sl incr cholesterol, TC 6.2, LDL 4.4, Ratio 4.5\nCVRA 11%"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64347e48-a5ff-4b2c-bd51-e479b5d4937e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/64347e48-a5ff-4b2c-bd51-e479b5d4937e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "64347e48-a5ff-4b2c-bd51-e479b5d4937e",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (HDL Cholesterol)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (HDL Cholesterol)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.38,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Sl incr cholesterol, TC 6.2, LDL 4.4, Ratio 4.5\nCVRA 11%"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9d9ff4e7-471d-4108-b1c9-aaaec3aec352",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/9d9ff4e7-471d-4108-b1c9-aaaec3aec352",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9d9ff4e7-471d-4108-b1c9-aaaec3aec352",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (LDL Chol - calculated)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (LDL Chol - calculated)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Sl incr cholesterol, TC 6.2, LDL 4.4, Ratio 4.5\nCVRA 11%"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f1501ef2-82b4-4b20-b291-5f9cfdd8e8ff",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f1501ef2-82b4-4b20-b291-5f9cfdd8e8ff",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f1501ef2-82b4-4b20-b291-5f9cfdd8e8ff",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (Lipid Comments.)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (Lipid Comments.)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueString": "A combined CVD risk, of which lipids is one component, should be estimated to guide CVD risk management decisions. If lipid modifying medication is considered, suggest checking first for treatable secondary causes of dyslipidaemia.",
+        "note": [
+          {
+            "text": "Sl incr cholesterol, TC 6.2, LDL 4.4, Ratio 4.5\nCVRA 11%"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2518da0c-a257-46de-a94e-509014354694",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2518da0c-a257-46de-a94e-509014354694",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2518da0c-a257-46de-a94e-509014354694",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (Total/HDL Chol Ratio)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (Total/HDL Chol Ratio)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.5,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Sl incr cholesterol, TC 6.2, LDL 4.4, Ratio 4.5\nCVRA 11%"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0cb2486-942e-4535-acd9-6a5e98a5d4e8",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/a0cb2486-942e-4535-acd9-6a5e98a5d4e8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a0cb2486-942e-4535-acd9-6a5e98a5d4e8",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1080 (Triglyceride)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1080 (Triglyceride)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Sl incr cholesterol, TC 6.2, LDL 4.4, Ratio 4.5\nCVRA 11%"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "NA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b71b676f-ed6d-4a41-a149-183999cfafb2",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/b71b676f-ed6d-4a41-a149-183999cfafb2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b71b676f-ed6d-4a41-a149-183999cfafb2",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0055 (Creatinine)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0055 (Creatinine)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 92,
+          "unit": "umol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "umol/L"
+        },
+        "note": [
+          {
+            "text": "Uric acid 0.41\nNormal renal function"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "60-105"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f158b72f-4c1c-4ca8-ba3c-168d28d4a735",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/f158b72f-4c1c-4ca8-ba3c-168d28d4a735",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f158b72f-4c1c-4ca8-ba3c-168d28d4a735",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0055 (eGFR)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0055 (eGFR)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 73,
+          "unit": "mL/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min"
+        },
+        "note": [
+          {
+            "text": "Uric acid 0.41\nNormal renal function"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "\u003E60"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2bffc887-c2e1-4b03-b853-f9f900ff253f",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/2bffc887-c2e1-4b03-b853-f9f900ff253f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2bffc887-c2e1-4b03-b853-f9f900ff253f",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0055 (Potassium)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0055 (Potassium)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Uric acid 0.41\nNormal renal function"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "3.5-5.2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "38886ce7-b77d-4b34-b659-5d32b0a8e1ad",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/38886ce7-b77d-4b34-b659-5d32b0a8e1ad",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "38886ce7-b77d-4b34-b659-5d32b0a8e1ad",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0055 (Sodium)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0055 (Sodium)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 142,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "Uric acid 0.41\nNormal renal function"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "135-145"
+          }
+        ]
+      }
+    },
+    {
+      "id": "84fcc880-f104-435b-9e2c-956bc9098597",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/84fcc880-f104-435b-9e2c-956bc9098597",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "84fcc880-f104-435b-9e2c-956bc9098597",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0055 (Uric Acid)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0055 (Uric Acid)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 0.41,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "The urate target level for gout management is \u003C0.36 mmol/L"
+          },
+          {
+            "text": "L"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0.23-0.42"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44a41c01-7622-4847-8e34-f6d27d3e3242",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/44a41c01-7622-4847-8e34-f6d27d3e3242",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "44a41c01-7622-4847-8e34-f6d27d3e3242",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0063 (HbA1c (IFCC))\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0063 (HbA1c (IFCC))"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 34,
+          "unit": "mmol/mol",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/mol"
+        },
+        "referenceRange": [
+          {
+            "text": "0-40"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c1d073d-aad7-4245-b498-a2ffd2718ffb",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/1c1d073d-aad7-4245-b498-a2ffd2718ffb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1c1d073d-aad7-4245-b498-a2ffd2718ffb",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (Albumin)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (Albumin)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 38,
+          "unit": "g/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "34-48"
+          }
+        ]
+      }
+    },
+    {
+      "id": "571b9f5c-b601-4838-be81-100384b3fbcc",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/571b9f5c-b601-4838-be81-100384b3fbcc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "571b9f5c-b601-4838-be81-100384b3fbcc",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (Alk Phosphatase)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (Alk Phosphatase)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 69,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "40-130"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8b049848-2efb-441c-b827-45eb37d09c30",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/8b049848-2efb-441c-b827-45eb37d09c30",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8b049848-2efb-441c-b827-45eb37d09c30",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (ALT)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (ALT)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 10,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0-55"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8c8bdd2-219b-4f2f-8ccb-3830a9633bab",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/e8c8bdd2-219b-4f2f-8ccb-3830a9633bab",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e8c8bdd2-219b-4f2f-8ccb-3830a9633bab",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (Bilirubin total)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (Bilirubin total)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "unit": "umol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "umol/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0-20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e83f5d2-5741-4d57-8ec9-87348d2d2679",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/4e83f5d2-5741-4d57-8ec9-87348d2d2679",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4e83f5d2-5741-4d57-8ec9-87348d2d2679",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (GGT)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (GGT)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 17,
+          "unit": "U/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "U/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0-60"
+          }
+        ]
+      }
+    },
+    {
+      "id": "31ef373a-f5c6-42b2-8e06-cf0943a9f06e",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/31ef373a-f5c6-42b2-8e06-cf0943a9f06e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "31ef373a-f5c6-42b2-8e06-cf0943a9f06e",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (Globulin)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (Globulin)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 33,
+          "unit": "g/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "27-43"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d6da5d8-139e-4267-b0c2-3ac3a2a96aa7",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/5d6da5d8-139e-4267-b0c2-3ac3a2a96aa7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5d6da5d8-139e-4267-b0c2-3ac3a2a96aa7",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0100 (Total Protein)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0100 (Total Protein)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 71,
+          "unit": "g/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "62-83"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fd2ac31d-7083-43cf-88e0-59f028c317c2",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/fd2ac31d-7083-43cf-88e0-59f028c317c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fd2ac31d-7083-43cf-88e0-59f028c317c2",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0320 (Calcium (adjusted for Albumin))\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0320 (Calcium (adjusted for Albumin))"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 2.44,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "2.10-2.55"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0adb6936-8c5f-4784-af18-db3e3597677b",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/0adb6936-8c5f-4784-af18-db3e3597677b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0adb6936-8c5f-4784-af18-db3e3597677b",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0320 (Calcium)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0320 (Calcium)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 2.45,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "2.10-2.55"
+          }
+        ]
+      }
+    },
+    {
+      "id": "40230e4b-366a-40e6-83ea-5f7fbc35ccd1",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/40230e4b-366a-40e6-83ea-5f7fbc35ccd1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "40230e4b-366a-40e6-83ea-5f7fbc35ccd1",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0320 (Phosphorus)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0320 (Phosphorus)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "0.70-1.50"
+          }
+        ]
+      }
+    },
+    {
+      "id": "496ede76-3829-4358-8e6b-0352a9c48d3d",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/496ede76-3829-4358-8e6b-0352a9c48d3d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "496ede76-3829-4358-8e6b-0352a9c48d3d",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1960 (Folate)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1960 (Folate)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 24,
+          "unit": "nmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "nmol/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "7.0-45.0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc25e45a-d115-4859-9b2f-0c595b1fecb1",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/fc25e45a-d115-4859-9b2f-0c595b1fecb1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fc25e45a-d115-4859-9b2f-0c595b1fecb1",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E1960 (Vitamin B12)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "1960 (Vitamin B12)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 215,
+          "unit": "pmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "pmol/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "110-650"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fd24e00a-2470-4887-9d47-bbe1c7987f9c",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/fd24e00a-2470-4887-9d47-bbe1c7987f9c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fd24e00a-2470-4887-9d47-bbe1c7987f9c",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003E0170 (Ferritin)\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "0170 (Ferritin)"
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-20T07:45:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248"
+          }
+        ],
+        "valueQuantity": {
+          "value": 240,
+          "unit": "ug/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/L"
+        },
+        "note": [
+          {
+            "text": "normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "text": "20-450"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3acf0a8f-74a0-4f94-a37c-19f0729ab665",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3acf0a8f-74a0-4f94-a37c-19f0729ab665",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3acf0a8f-74a0-4f94-a37c-19f0729ab665",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EBlood pressure panel with all children optional\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-14T12:53:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/7063c48e-5dbd-44e5-92f0-f7e8f552c9c7"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 140,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 70,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "06ade8d9-258c-4d70-b62b-52d10345bb43",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/06ade8d9-258c-4d70-b62b-52d10345bb43",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "06ade8d9-258c-4d70-b62b-52d10345bb43",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EBody weight\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-14T12:54:00+00:00",
+        "performer": [
+          {
+            "reference": "PractitionerRole/7063c48e-5dbd-44e5-92f0-f7e8f552c9c7"
+          }
+        ],
+        "valueQuantity": {
+          "value": 96,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }
+    },
+    {
+      "id": "3648b232-8d68-4448-923b-6e910ad6cba9",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/3648b232-8d68-4448-923b-6e910ad6cba9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3648b232-8d68-4448-923b-6e910ad6cba9",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003ETobacco smoking status\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2025-11-14",
+        "performer": [
+          {
+            "reference": "Patient/NNJ9186"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA18978-9",
+              "display": "Never smoker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "360f5aee-8d53-4a4b-8c15-fcfabe32b211",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Observation/360f5aee-8d53-4a4b-8c15-fcfabe32b211",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "360f5aee-8d53-4a4b-8c15-fcfabe32b211",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003EAlcoholic drinks per day\u003C/div\u003E"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74013-4",
+              "display": "Alcoholic drinks per day"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        },
+        "effectiveDateTime": "2016-06-22",
+        "performer": [
+          {
+            "reference": "Patient/NNJ9186"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "unit": "d",
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        }
+      }
+    },
+    {
+      "id": "10e2d100-4e24-45cc-a644-4108a9106248",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/PractitionerRole/10e2d100-4e24-45cc-a644-4108a9106248",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "10e2d100-4e24-45cc-a644-4108a9106248",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' xml:lang='en-NZ'\u003ERole: Clinical pathologist\u003C/div\u003E"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "81464008",
+                "display": "Clinical pathologist"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "61b7dfe4-42d5-4efb-b56d-256981e73b96",
+      "fullUrl": "https://terminz.azurewebsites.net/fhir/Flag/61b7dfe4-42d5-4efb-b56d-256981e73b96",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "61b7dfe4-42d5-4efb-b56d-256981e73b96",
+        "text": {
+          "status": "generated",
+          "div": "\u003Cdiv xmlns='http://www.w3.org/1999/xhtml' lang='en-NZ' xml:lang='en-NZ'\u003EShellfish free diet.\u003C/div\u003E"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "diet",
+                "display": "Diet"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1255002008",
+              "display": "Shellfish free diet"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/NNJ9186"
+        }
+      }
+    }
+  ]
+}
