@@ -1,0 +1,1760 @@
+{
+  "resourceType": "Bundle",
+  "id": "Bundle-FulsomeClinicalScenario1",
+  "meta": {
+    "profile": [
+      "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/bundle-ca-ps"
+    ]
+  },
+  "identifier": {
+    "system": "http://fictional-identifier-system-uri.com",
+    "value": "Bundle-Scenario1"
+  },
+  "type": "document",
+  "timestamp": "2023-01-04T14:30:00+01:00",
+  "entry": [
+    {
+      "fullUrl": "Composition/18fc14a1-303a-4c2e-9143-a8087cd3aeeb",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "18fc14a1-303a-4c2e-9143-a8087cd3aeeb",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/composition-ca-ps"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Primary Problem: Right shoulder, arm and knee pain, with diagnosed severe R knee  osteoarthritis required joint replacement (elective)\nSignificant Clinical Event Requiring Patient Summary: Referral from Orthopedic surgeon to hospital admitting department to arrange admission for R total knee replacement\n\nDr Joseph Ortho (Prac ID 9400), , is wanting to communicate Evelyn�s clinical information to the Sunnybrook General Hospital admissions department to arrange hospital admission for joint replacement.</div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "date": "2022-01-04",
+        "author": [
+          {
+            "reference": "Practitioner/84ae3e3c-b8e2-4520-b74d-2e099967be83"
+          }
+        ],
+        "title": "Patient Summary PS-CA",
+        "section": [
+          {
+            "title": "Medications",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medications</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/3315c79c-6b29-4940-9360-185c05dfa4f6"
+              },
+              {
+                "reference": "MedicationStatement/bf82460b-203c-42db-a267-a8def7d9ebd7"
+              },
+              {
+                "reference": "MedicationStatement/65182406-4264-467a-88f8-8788771c086d"
+              },
+              {
+                "reference": "MedicationStatement/4166398c-bd06-40f3-ba3b-71d3493e9917"
+              },
+              {
+                "reference": "MedicationStatement/d266f811-6cc5-4cad-88df-79afe75a56e0"
+              },
+              {
+                "reference": "MedicationStatement/996179b9-4bd9-47ac-bb00-707ab8c6c09d"
+              },
+              {
+                "reference": "MedicationStatement/6063bd0a-732d-4095-8006-6320de48f442"
+              },
+              {
+                "reference": "MedicationStatement/f8722d9a-cdbb-468c-9b57-f54a3535e117"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allergies and Intolerances</div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/8314dee5-8710-436d-8868-f2833bbc1189"
+              },
+              {
+                "reference": "AllergyIntolerance/c335e936-8fc2-4a19-b8d0-fce6d42b4e78"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Current list of problems</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/28d36c02-49e2-441f-8a10-ce84e993a303"
+              },
+              {
+                "reference": "Condition/a65b3a8b-8a27-4ed3-94e3-82804b5a743e"
+              },
+              {
+                "reference": "Condition/536cf688-5328-4aab-bedd-f78b4cead0e7"
+              },
+              {
+                "reference": "Condition/b26f7115-e46f-486f-a7ee-3d39e4bd014b"
+              },
+              {
+                "reference": "Condition/5ba79568-0eba-4e09-a413-695bb3068c2c"
+              },
+              {
+                "reference": "Condition/de8f1e43-1352-498b-9c00-f5b2b9ce6821"
+              },
+              {
+                "reference": "Condition/63a0234d-5b2f-4094-aeb1-c059687a8fc3"
+              },
+              {
+                "reference": "Condition/2c30a9e6-16d3-43f0-ba8e-a039b66db573"
+              },
+              {
+                "reference": "Condition/51472458-ba88-473e-8c98-25f65e3a640c"
+              },
+              {
+                "reference": "Condition/33d48ada-36d0-4767-a836-516b131b5dcb"
+              },
+              {
+                "reference": "Condition/cd788bff-8b14-4101-8ea3-2d9230c7f146"
+              }
+            ]
+          },
+          {
+            "title": "Past History of Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Past problems</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/62edbbe9-df34-4417-a8a6-a5442e48e68e"
+              },
+              {
+                "reference": "Condition/10fbe960-5df6-4e88-872e-e10ba7edb305"
+              },
+              {
+                "reference": "Condition/51ac128a-0ac5-481f-8062-a2f6a70cbf2f"
+              },
+              {
+                "reference": "Condition/c12c2dac-478c-48ad-9a51-78b63d01b990"
+              },
+              {
+                "reference": "Condition/4bdb922b-3f87-4332-aa0f-03bdbb27cf7c"
+              },
+              {
+                "reference": "Condition/dc86950e-562c-4c13-a7f0-ecc870456569"
+              },
+              {
+                "reference": "Condition/262a5641-e3bd-48bb-9851-19b61758f430"
+              }
+            ]
+          },
+          {
+            "title": "Vital Signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vital Signs</div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/509c49cc-3ed6-4075-900c-0f13fca9d4cf"
+              },
+              {
+                "reference": "Observation/8c11383f-3fbb-4572-8716-d120e30bdfb8"
+              },
+              {
+                "reference": "Observation/1b970562-c94c-4851-8367-a7de9a4af53d"
+              },
+              {
+                "reference": "Observation/931118ba-0681-4bcc-a3e4-f690247800ba"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Practitioner/84ae3e3c-b8e2-4520-b74d-2e099967be83",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "84ae3e3c-b8e2-4520-b74d-2e099967be83",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/ca/baseline/StructureDefinition/profile-practitioner"
+          ]
+        },
+        "name": [
+          {
+            "family": "Ortho",
+            "given": [
+              "Joseph"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "da6edc7d-d623-4ba4-b094-e8e39a1ec46c",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/patient-ca-ps"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "JHN"
+                }
+              ]
+            },
+            "system": "https://fhir.infoway-inforoute.ca/NamingSystem/ca-on-patient-hcn",
+            "value": "1234-56789"
+          }
+        ],
+        "name": [
+          {
+            "family": "McCurdy",
+            "given": [
+              "Evelyn"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1957-04-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "text": "4637 Test Data Drive, Vancouver, British Columbia"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/3315c79c-6b29-4940-9360-185c05dfa4f6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "3315c79c-6b29-4940-9360-185c05dfa4f6",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "8000206",
+              "display": "perindopril"
+            }
+          ],
+          "text": "perindopril"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by unknkown physician, Angiotensin-converting enzyme inhibitors (12 months continuous)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "4 mg PO OD",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 4.0,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/bf82460b-203c-42db-a267-a8def7d9ebd7",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "bf82460b-203c-42db-a267-a8def7d9ebd7",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "9000119",
+              "display": "betamethasone (betamethasone valerate) 0.05 % cutaneous cream"
+            }
+          ],
+          "text": "betamethasone (betamethasone valerate) 0.05 % cutaneous cream"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by unknkown physician, Anti-inflammatory agents (skin, mucous) (12 months continuous)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "apply topically bid prn",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "448598008",
+                  "display": "Cutaneous route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/65182406-4264-467a-88f8-8788771c086d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "65182406-4264-467a-88f8-8788771c086d",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "9000919",
+              "display": "meloxicam 15 mg oral tablet"
+            }
+          ],
+          "text": "meloxicam 15 mg oral tablet"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by unknkown physician, Non-steroidal anti-inflammatory agents (12 months continuous)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "15 mg PO OD",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 15.0,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/4166398c-bd06-40f3-ba3b-71d3493e9917",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "4166398c-bd06-40f3-ba3b-71d3493e9917",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "8000001",
+              "display": "levothyroxine"
+            }
+          ],
+          "text": "levothyroxine"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by unknkown physician, Thyroid Agents (12 months continuous)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "0.1 mg PO OD",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 0.1,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/d266f811-6cc5-4cad-88df-79afe75a56e0",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d266f811-6cc5-4cad-88df-79afe75a56e0",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "786806007",
+              "display": "Product containing menthol and methyl salicylate in cutaneous dose form (medicinal product form)"
+            }
+          ],
+          "text": "Product containing menthol and methyl salicylate in cutaneous dose form (medicinal product form)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Glaxal base, Methyl salicylate-menthol, Prescribed by unknkown physician, Basic lotions and Linaments (as needed)"
+          }
+        ],
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "448598008",
+                  "display": "Cutaneous route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/996179b9-4bd9-47ac-bb00-707ab8c6c09d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "996179b9-4bd9-47ac-bb00-707ab8c6c09d",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "9001432",
+              "display": "conjugated estrogens 0.625 mg prolonged-release oral tablet"
+            }
+          ],
+          "text": "conjugated estrogens 0.625 mg prolonged-release oral tablet"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by unknkown physician, Estrogens (as needed)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "0.625 mg PO OD",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 0.625,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/6063bd0a-732d-4095-8006-6320de48f442",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "6063bd0a-732d-4095-8006-6320de48f442",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "8000369",
+              "display": "tramadol"
+            }
+          ],
+          "text": "tramadol"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by Dr Peter (0881) Hospitalist, Opiate Agonists (12 months continuous)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "300 mg PO OD",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 300.0,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "MedicationStatement/f8722d9a-cdbb-468c-9b57-f54a3535e117",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f8722d9a-cdbb-468c-9b57-f54a3535e117",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/medicationstatement-ca-ps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset",
+              "version": "20210607",
+              "code": "8000314",
+              "display": "rabeprazole"
+            }
+          ],
+          "text": "rabeprazole"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "note": [
+          {
+            "text": "Prescribed by Dr Sen FP (2568), Proton Pump Inhibitor (12 mo continious)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "Rabeprazole 20 mg PO OD",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "version": "http://snomed.info/sct/20611000087101",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 20.0,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/8314dee5-8710-436d-8868-f2833bbc1189",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "8314dee5-8710-436d-8868-f2833bbc1189",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/allergyintolerance-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "762952008",
+              "display": "Peanut (substance)"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "91935009",
+              "display": "Allergy to peanut (finding)"
+            }
+          ],
+          "text": "Peanut (substance)"
+        },
+        "patient": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "version": "http://snomed.info/sct/20611000087101",
+                    "code": "247472004",
+                    "display": "Hives"
+                  }
+                ]
+              }
+            ],
+            "severity": "severe"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "AllergyIntolerance/c335e936-8fc2-4a19-b8d0-fce6d42b4e78",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "c335e936-8fc2-4a19-b8d0-fce6d42b4e78",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/allergyintolerance-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "type": "allergy",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "387406002",
+              "display": "Sulfonamide (substance)"
+            }
+          ],
+          "text": "Sulfonamide (substance)"
+        },
+        "patient": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Antibiotic Sulpha based with mild reaction resulting is uriticaria (rash) and swelling"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/28d36c02-49e2-441f-8a10-ce84e993a303",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "28d36c02-49e2-441f-8a10-ce84e993a303",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "1121000119107",
+              "display": "Chronic neck pain (finding)"
+            }
+          ],
+          "text": "Chronic neck pain (finding)"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/20611000087101",
+                "code": "45048000"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/a65b3a8b-8a27-4ed3-94e3-82804b5a743e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a65b3a8b-8a27-4ed3-94e3-82804b5a743e",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "82423001",
+              "display": "Chronic pain (finding)"
+            }
+          ],
+          "text": "Chronic pain (finding)"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/20611000087101",
+                "code": "6757004"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/536cf688-5328-4aab-bedd-f78b4cead0e7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "536cf688-5328-4aab-bedd-f78b4cead0e7",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "239873007",
+              "display": "Osteoarthritis of knee (disorder)"
+            }
+          ],
+          "text": "Osteoarthritis of knee (disorder)"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/20611000087101",
+                "code": "6757004"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Severe bicompartmental osteoarthritis R knee"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/b26f7115-e46f-486f-a7ee-3d39e4bd014b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b26f7115-e46f-486f-a7ee-3d39e4bd014b",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "82423001",
+              "display": "Chronic pain (finding)"
+            }
+          ],
+          "text": "Chronic pain (finding)"
+        },
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/20611000087101",
+                "code": "91774008"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/5ba79568-0eba-4e09-a413-695bb3068c2c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5ba79568-0eba-4e09-a413-695bb3068c2c",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "95722004",
+              "display": "Bilateral cataracts (disorder)"
+            }
+          ],
+          "text": "Bilateral cataracts (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/de8f1e43-1352-498b-9c00-f5b2b9ce6821",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "de8f1e43-1352-498b-9c00-f5b2b9ce6821",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "48694002",
+              "display": "Anxiety (finding)"
+            }
+          ],
+          "text": "Anxiety (finding)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Anxiety since husband developed dementia"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/63a0234d-5b2f-4094-aeb1-c059687a8fc3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "63a0234d-5b2f-4094-aeb1-c059687a8fc3",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "35489007",
+              "display": "Depressive disorder (disorder)"
+            }
+          ],
+          "text": "Depressive disorder (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Depression since childhood"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/2c30a9e6-16d3-43f0-ba8e-a039b66db573",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2c30a9e6-16d3-43f0-ba8e-a039b66db573",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "289903006",
+              "display": "Menopause present (finding)"
+            }
+          ],
+          "text": "Menopause present (finding)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/51472458-ba88-473e-8c98-25f65e3a640c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "51472458-ba88-473e-8c98-25f65e3a640c",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "68566005",
+              "display": "Urinary tract infectious disease (disorder)"
+            }
+          ],
+          "text": "Urinary tract infectious disease (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Frequent urinary tract infections"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/33d48ada-36d0-4767-a836-516b131b5dcb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "33d48ada-36d0-4767-a836-516b131b5dcb",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "49436004",
+              "display": "Atrial fibrillation (disorder)"
+            }
+          ],
+          "text": "Atrial fibrillation (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/cd788bff-8b14-4101-8ea3-2d9230c7f146",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cd788bff-8b14-4101-8ea3-2d9230c7f146",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "397825006",
+              "display": "Gastric ulcer (disorder)"
+            }
+          ],
+          "text": "Gastric ulcer (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/62edbbe9-df34-4417-a8a6-a5442e48e68e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "62edbbe9-df34-4417-a8a6-a5442e48e68e",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "127348004",
+              "display": "Motor vehicle accident victim (finding)"
+            }
+          ],
+          "text": "Motor vehicle accident victim (finding)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "recordedDate": "2011"
+      }
+    },
+    {
+      "fullUrl": "Condition/10fbe960-5df6-4e88-872e-e10ba7edb305",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "10fbe960-5df6-4e88-872e-e10ba7edb305",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "39848009",
+              "display": "Whiplash injury to neck (disorder)"
+            }
+          ],
+          "text": "Whiplash injury to neck (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "recordedDate": "2011"
+      }
+    },
+    {
+      "fullUrl": "Condition/51ac128a-0ac5-481f-8062-a2f6a70cbf2f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "51ac128a-0ac5-481f-8062-a2f6a70cbf2f",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "428257007",
+              "display": "Fracture of tibial plateau (disorder)"
+            }
+          ],
+          "text": "Fracture of tibial plateau (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "recordedDate": "2011",
+        "note": [
+          {
+            "text": "R Tibal plateau fracture (MVA) 2011, surgically repaired"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/c12c2dac-478c-48ad-9a51-78b63d01b990",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c12c2dac-478c-48ad-9a51-78b63d01b990",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "926335004",
+              "display": "Rupture of rotator cuff of shoulder (disorder)"
+            }
+          ],
+          "text": "Rupture of rotator cuff of shoulder (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "recordedDate": "2011",
+        "note": [
+          {
+            "text": "R anterior rotator cuff tear (MVA) 2011"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/4bdb922b-3f87-4332-aa0f-03bdbb27cf7c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4bdb922b-3f87-4332-aa0f-03bdbb27cf7c",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "35489007",
+              "display": "Depressive disorder (disorder)"
+            }
+          ],
+          "text": "Depressive disorder (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Depression since childhood"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/dc86950e-562c-4c13-a7f0-ecc870456569",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dc86950e-562c-4c13-a7f0-ecc870456569",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "48694002",
+              "display": "Anxiety (finding)"
+            }
+          ],
+          "text": "Anxiety (finding)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "note": [
+          {
+            "text": "Anxiety since husband developed dementia"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Condition/262a5641-e3bd-48bb-9851-19b61758f430",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "262a5641-e3bd-48bb-9851-19b61758f430",
+        "meta": {
+          "profile": [
+            "http://fhir.infoway-inforoute.ca/io/psca/StructureDefinition/condition-ca-ps"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/20611000087101",
+              "code": "5602001",
+              "display": "Opioid abuse (disorder)"
+            }
+          ],
+          "text": "Opioid abuse (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "onsetPeriod": {
+          "start": "2012",
+          "end": "2013"
+        },
+        "note": [
+          {
+            "text": "Opioid use disorder post MVA (2012 - 2013)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/509c49cc-3ed6-4075-900c-0f13fca9d4cf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "509c49cc-3ed6-4075-900c-0f13fca9d4cf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bp"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ],
+          "text": "Blood pressure systolic and diastolic"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "component" : [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ],
+              "text": "Systolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 155.0,
+              "unit" : "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic Blood Pressure"
+              }
+            ],
+            "text": "Diastolic Blood Pressure"
+          },
+          "valueQuantity": {
+            "value": 85.0,
+            "unit" : "mmHg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    }
+    },
+    {
+      "fullUrl": "Observation/8c11383f-3fbb-4572-8716-d120e30bdfb8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8c11383f-3fbb-4572-8716-d120e30bdfb8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/heartrate"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart Rate"
+            }
+          ],
+          "text": "Heart Rate"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "valueQuantity": {
+          "value": 92.0,
+          "unit": "beats/minute",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/1b970562-c94c-4851-8367-a7de9a4af53d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b970562-c94c-4851-8367-a7de9a4af53d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bodyweight"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "valueQuantity": {
+          "value": 90.7,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/931118ba-0681-4bcc-a3e4-f690247800ba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "931118ba-0681-4bcc-a3e4-f690247800ba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bodyheight"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "Patient/da6edc7d-d623-4ba4-b094-e8e39a1ec46c"
+        },
+        "effectiveDateTime": "2022-01-04",
+        "valueQuantity": {
+          "value": 152.4,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      }
+    }
+  ]
+}
