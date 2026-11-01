@@ -4848,7 +4848,7 @@
         "id": "3add2218-6d5d-4d3a-99cc-efb3c51f9b98",
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT NECK SOFT TISSUE  W/ CONTR</div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT CHEST PULMONARY ANGIO WITH IV CON</div>"
         },
         "identifier": [
           {
@@ -4888,7 +4888,7 @@
                 }
               ]
             },
-            "description": "Topogram  1.0  T20s",
+            "description": "CTA 3.000 CE",
             "numberOfInstances": 1,
             "instance": [
               {
