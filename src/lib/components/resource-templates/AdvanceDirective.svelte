@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { base64toBlob, formatDate } from '$lib/utils/util';
+  import { formatDate } from '$lib/utils/util';
   import type { DocumentReferencePOLST, ResourceTemplateParams } from '$lib/utils/types';
+  import Attachments from './Attachments.svelte';
   
   export let content: ResourceTemplateParams<DocumentReferencePOLST>; // Define a prop to pass the data to the component
 
@@ -160,7 +161,7 @@ Text:
 {#if resource.content}
 <!-- FIXME This iteration not ideal - should iterate whether pdf present or not, as created & pdfSignedDate (ill-named) actually refer to the larger context of the DR, not the pdf... as it stands the Personal Advance Care Plan Document won't show created/signed (bug), tho we don't care so much about that one in IPS. 
 -->
-  {#if resource.content[0].attachment.creation}
+  {#if resource.content[0]?.attachment?.creation}
     <b>Created:</b> {formatDate(resource.content[0].attachment.creation)}
     <br/>
   {/if}
@@ -168,16 +169,8 @@ Text:
     <b>Digitally signed:</b> {formatDate(resource.pdfSignedDate)}
     <br/>
   {/if}
-  {#each resource.content as content}
-    {#if content.attachment.contentType === "application/pdf" && content.attachment.data}
-      <b>PDF present:</b>
-      {#await base64toBlob(content.attachment.data, content.attachment.contentType)}
-        Loading PDF...
-      {:then url}
-        <a href={url} target="_blank" rel="noopener noreferrer">View</a>
-      {/await}
-    {/if}
-  {/each}
+  <!-- Inline data, Binary references and remote URLs: download (with MIME-based extension) and view -->
+  <Attachments {resource} entries={content.entries} />
 {/if}
 
 </div>
