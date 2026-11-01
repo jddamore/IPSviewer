@@ -1,0 +1,533 @@
+{
+  "resourceType": "Bundle",
+  "id": "ips-imaging-binary-example",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:6c1b2d3e-1111-4a2b-9c3d-0000000000ff"
+  },
+  "type": "document",
+  "timestamp": "2025-06-20T10:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "https://example.org/fhir/Composition/comp1",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "comp1",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "date": "2025-06-20T10:00:00Z",
+        "author": [
+          {
+            "display": "Example Hospital"
+          }
+        ],
+        "title": "Patient Summary - imaging & binary test",
+        "section": [
+          {
+            "title": "Diagnostic Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">CT chest report; MR knee study</div>"
+            },
+            "entry": [
+              {
+                "reference": "DiagnosticReport/dr-ct"
+              },
+              {
+                "reference": "ImagingStudy/mr-knee"
+              }
+            ]
+          },
+          {
+            "title": "Imaging Documents",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18748-4",
+                  "display": "Diagnostic imaging study"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Imaging documents</div>"
+            },
+            "entry": [
+              {
+                "reference": "DocumentReference/dr-dicom"
+              },
+              {
+                "reference": "DocumentReference/dr-pdf"
+              },
+              {
+                "reference": "DocumentReference/dr-contained"
+              },
+              {
+                "reference": "DocumentReference/dr-remote"
+              },
+              {
+                "reference": "DocumentReference/dr-missing"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Patient/pat1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pat1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Jane Example</div>"
+        },
+        "name": [
+          {
+            "family": "Example",
+            "given": [
+              "Jane"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1970-04-12"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/DiagnosticReport/dr-ct",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "dr-ct",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "RAD",
+                "display": "Radiology"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "24627-2",
+              "display": "CT Chest"
+            }
+          ]
+        },
+        "effectiveDateTime": "2025-06-14T09:30:00Z",
+        "imagingStudy": [
+          {
+            "reference": "ImagingStudy/ct-chest"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/ImagingStudy/ct-chest",
+      "resource": {
+        "resourceType": "ImagingStudy",
+        "id": "ct-chest",
+        "status": "available",
+        "identifier": [
+          {
+            "system": "urn:dicom:uid",
+            "value": "urn:oid:1.2.840.113619.2.55.3.604688119.868.1234567890.123"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "ACSN"
+                }
+              ]
+            },
+            "system": "http://hospital.example.org/accession",
+            "value": "ACC-2025-0042"
+          }
+        ],
+        "modality": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "CT"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "started": "2025-06-14T09:30:00Z",
+        "numberOfSeries": 2,
+        "numberOfInstances": 245,
+        "procedureCode": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "24627-2",
+                "display": "CT Chest"
+              }
+            ]
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Persistent cough"
+          }
+        ],
+        "referrer": {
+          "display": "Dr. Alan Referrer"
+        },
+        "endpoint": [
+          {
+            "reference": "Endpoint/wado"
+          }
+        ],
+        "description": "CT Chest with contrast",
+        "series": [
+          {
+            "uid": "1.2.3.4.1",
+            "number": 1,
+            "modality": {
+              "system": "http://dicom.nema.org/resources/ontology/DCM",
+              "code": "CT"
+            },
+            "description": "Axial 5mm",
+            "numberOfInstances": 120,
+            "bodySite": {
+              "system": "http://snomed.info/sct",
+              "code": "51185008",
+              "display": "Thorax"
+            }
+          },
+          {
+            "uid": "1.2.3.4.2",
+            "number": 2,
+            "modality": {
+              "system": "http://dicom.nema.org/resources/ontology/DCM",
+              "code": "CT"
+            },
+            "description": "Coronal reformat",
+            "numberOfInstances": 125,
+            "bodySite": {
+              "system": "http://snomed.info/sct",
+              "code": "51185008",
+              "display": "Thorax"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/ImagingStudy/mr-knee",
+      "resource": {
+        "resourceType": "ImagingStudy",
+        "id": "mr-knee",
+        "status": "available",
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "started": "2024-11-02T14:00:00Z",
+        "identifier": [
+          {
+            "system": "urn:dicom:uid",
+            "value": "urn:oid:1.2.826.0.1.3680043.8.498.1"
+          }
+        ],
+        "series": [
+          {
+            "uid": "1.2.9.1",
+            "number": 1,
+            "modality": {
+              "system": "http://dicom.nema.org/resources/ontology/DCM",
+              "code": "MR"
+            },
+            "description": "Sagittal PD FS",
+            "laterality": {
+              "system": "http://snomed.info/sct",
+              "code": "7771000",
+              "display": "Left"
+            },
+            "bodySite": {
+              "system": "http://snomed.info/sct",
+              "code": "72696002",
+              "display": "Knee"
+            },
+            "instance": [
+              {
+                "uid": "1.2.9.1.1",
+                "sopClass": {
+                  "system": "urn:ietf:rfc:3986",
+                  "code": "urn:oid:1.2.840.10008.5.1.4.1.1.4"
+                }
+              },
+              {
+                "uid": "1.2.9.1.2",
+                "sopClass": {
+                  "system": "urn:ietf:rfc:3986",
+                  "code": "urn:oid:1.2.840.10008.5.1.4.1.1.4"
+                }
+              }
+            ]
+          },
+          {
+            "uid": "1.2.9.2",
+            "number": 2,
+            "modality": {
+              "system": "http://dicom.nema.org/resources/ontology/DCM",
+              "code": "MR"
+            },
+            "description": "Axial T2",
+            "numberOfInstances": 30
+          }
+        ],
+        "interpreter": [
+          {
+            "reference": "Practitioner/rad1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Practitioner/rad1",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "rad1",
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Riya"
+            ],
+            "family": "Radiologist"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Endpoint/wado",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "wado",
+        "status": "active",
+        "name": "Hospital PACS (WADO-RS)",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "dicom-wado-rs"
+        },
+        "payloadType": [
+          {
+            "text": "DICOM"
+          }
+        ],
+        "address": "https://pacs.example.org/dicomweb"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/DocumentReference/dr-dicom",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "dr-dicom",
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18748-4",
+              "display": "Diagnostic imaging study"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "description": "CT chest key image",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/dicom",
+              "url": "urn:uuid:6c1b2d3e-1111-4a2b-9c3d-000000000001",
+              "title": "Chest CT key image"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/DocumentReference/dr-pdf",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "dr-pdf",
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18748-4",
+              "display": "Diagnostic imaging study"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "description": "CT chest report",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/pdf",
+              "url": "Binary/report-pdf",
+              "title": "CT Chest Report"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/DocumentReference/dr-contained",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "dr-contained",
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18748-4",
+              "display": "Diagnostic imaging study"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "description": "Knee MR thumbnail",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "image/png",
+              "url": "#thumb"
+            }
+          }
+        ],
+        "contained": [
+          {
+            "resourceType": "Binary",
+            "id": "thumb",
+            "contentType": "image/png",
+            "data": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAEUlEQVR4nGPgSX6CFTEMLQkA56hUweKbyPMAAAAASUVORK5CYII="
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/DocumentReference/dr-remote",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "dr-remote",
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18748-4",
+              "display": "Diagnostic imaging study"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "description": "Prior study (remote)",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/dicom",
+              "url": "https://example.org/fhir/Binary/prior-study",
+              "title": "Prior study"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/DocumentReference/dr-missing",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "dr-missing",
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18748-4",
+              "display": "Diagnostic imaging study"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pat1"
+        },
+        "description": "Missing binary",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "application/dicom",
+              "url": "Binary/not-in-bundle",
+              "title": "Not included"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c1b2d3e-1111-4a2b-9c3d-000000000001",
+      "resource": {
+        "resourceType": "Binary",
+        "id": "key-image",
+        "contentType": "application/dicom",
+        "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABESUNNAgAAAFVMBAAAAAAA"
+      }
+    },
+    {
+      "fullUrl": "https://example.org/fhir/Binary/report-pdf",
+      "resource": {
+        "resourceType": "Binary",
+        "id": "report-pdf",
+        "contentType": "application/pdf",
+        "data": "JVBERi0xLjQKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqCjIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iagozIDAgb2JqPDwvVHlwZS9QYWdlL1BhcmVudCAyIDAgUi9NZWRpYUJveFswIDAgMzAwIDE0NF0vQ29udGVudHMgNCAwIFIvUmVzb3VyY2VzPDwvRm9udDw8L0YxIDUgMCBSPj4+Pj4+ZW5kb2JqCjQgMCBvYmo8PC9MZW5ndGggNTU+PnN0cmVhbQpCVCAvRjEgMTggVGYgMjAgNzAgVGQgKFNhbXBsZSByYWRpb2xvZ3kgcmVwb3J0KSBUaiBFVAplbmRzdHJlYW0gZW5kb2JqCjUgMCBvYmo8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PmVuZG9iagp0cmFpbGVyPDwvUm9vdCAxIDAgUj4+CiUlRU9GCg=="
+      }
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 <script lang="ts">
   import { Badge } from 'sveltestrap';
-  import type { BundleEntry, DiagnosticReport, Observation } from 'fhir/r4';
+  import type { BundleEntry, DiagnosticReport, ImagingStudy, Observation } from 'fhir/r4';
   import ObservationTemplate from './Observation.svelte';
+  import ImagingStudyTemplate from './ImagingStudy.svelte';
   import type { ResourceTemplateParams } from '$lib/utils/types';
   import { getEntry, formatDate } from '$lib/utils/util';
 
@@ -10,6 +11,22 @@
   let resource: DiagnosticReport = content.resource;
 
   let results: Observation[] | undefined = [];
+
+  // Imaging studies referenced by DiagnosticReport.imagingStudy (bundle entries or contained)
+  let imagingStudies: ImagingStudy[] = [];
+  $: imagingStudies = (resource?.imagingStudy ?? [])
+    .map((ref) => {
+      if (!ref.reference) return undefined;
+      if (ref.reference.startsWith('#')) {
+        const id = ref.reference.slice(1);
+        return resource.contained?.find(
+          (r) => r.resourceType === 'ImagingStudy' && r.id === id
+        ) as ImagingStudy | undefined;
+      }
+      const study = getEntry(content.entries as BundleEntry[], ref.reference);
+      return study?.resourceType === 'ImagingStudy' ? (study as ImagingStudy) : undefined;
+    })
+    .filter((study): study is ImagingStudy => study !== undefined);
 
   $: {
     if (resource) {
@@ -93,3 +110,26 @@
     </tbody>
   </table>
 {/if}
+{#if imagingStudies.length > 0}
+  <table class="table table-bordered table-sm">
+    <thead>
+      <tr><th>Imaging Study</th></tr>
+    </thead>
+    <tbody>
+      {#each imagingStudies as study}
+        <tr>
+          <td class="imaging-study">
+            <ImagingStudyTemplate content={{ resource: study, entries: content.entries }} />
+          </td>
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+{/if}
+
+<style>
+  /* Undo the section-wide bold first column for the nested study summary */
+  :global(.ips-section table td.imaging-study) {
+    font-weight: normal;
+  }
+</style>

@@ -24,6 +24,7 @@
   import DiagnosticReport from '$lib/components/resource-templates/DiagnosticReport.svelte';
   import Encounter from '$lib/components/resource-templates/Encounter.svelte';
   import Goal from '$lib/components/resource-templates/Goal.svelte';
+  import ImagingStudy from '$lib/components/resource-templates/ImagingStudy.svelte';
   import Immunization from '$lib/components/resource-templates/Immunization.svelte';
   import Location from '$lib/components/resource-templates/Location.svelte';
   import Medication from '$lib/components/resource-templates/Medication.svelte';
@@ -44,6 +45,7 @@
     DocumentReference: AdvanceDirective,
     Encounter: Encounter,
     Goal: Goal,
+    ImagingStudy: ImagingStudy,
     Immunization: Immunization,
     Location: Location,
     Medication: Medication,
